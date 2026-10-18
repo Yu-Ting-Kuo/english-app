@@ -1,0 +1,462 @@
+{
+  "recruit": [
+    {"p": "v", "zh": "招募、招聘", "t": [2938675], "fix": {"2938675": "計畫在下個月底前招聘 5 名 Java 工程師。"}, "ai": [["We are recruiting new staff for the sales team.", "我們正在為業務團隊招募新人。"]]},
+    {"p": "n", "zh": "新進人員、新成員", "ai": [["The new recruits start training on Monday.", "新進人員星期一開始受訓。"], ["She is one of our best recruits this year.", "她是我們今年招到最優秀的新人之一。"]]}
+  ],
+  "applicant": [
+    {"p": "n", "zh": "應徵者、申請人", "t": [32007, 328142, 26209], "fix": {"32007": "瑪麗從大約 500 名應徵者中脫穎而出。", "328142": "這位應徵者有能力勝任這份工作嗎？", "26209": "這個職位要求應徵者具備良好的英語口說能力。"}}
+  ],
+  "job opening": [
+    {"p": "phr", "zh": "職缺", "ai": [["There's a job opening in our marketing department.", "我們行銷部有一個職缺。"], ["I saw the job opening on the company's website.", "我在公司網站上看到這個職缺。"]]}
+  ],
+  "requirement": [
+    {"p": "n", "zh": "要求、必要條件", "t": [747526, 6872944, 1481088], "fix": {"1481088": "你會發現很難達到她的要求。"}}
+  ],
+  "reference": [
+    {"p": "n", "zh": "參考", "t": [13151221, 13523801, 11298156], "fix": {"11298156": "我也不喜歡 Google 翻譯，但總會拿它來參考。"}},
+    {"p": "n", "zh": "推薦信；推薦人", "t": [5781644], "fix": {"5781644": "湯姆想在發錄取通知前先確認應徵者的品格推薦。"}, "ai": [["Can you provide two references from previous employers?", "你能提供兩位前雇主作為推薦人嗎？"]]},
+    {"p": "n", "zh": "提及", "t": [1577178], "fix": {"1577178": "消息來源提到，去年三月有人看到女王和凱特一起有說有笑。"}, "ai": [["He made no reference to the problem in his speech.", "他在演講中完全沒提到這個問題。"]]}
+  ],
+  "headcount": [
+    {"p": "n", "zh": "員工人數；人數", "ai": [["The company plans to reduce its headcount by 10%.", "公司計畫裁減一成人力。"], ["Let's do a quick headcount before the bus leaves.", "巴士出發前我們先快速點個人數。"]]}
+  ],
+  "screening": [
+    {"p": "n", "zh": "篩選；（健康）篩檢", "ai": [["All applicants go through a phone screening first.", "所有應徵者都要先經過電話篩選。"], ["Regular cancer screening can save lives.", "定期做癌症篩檢可以救命。"]]},
+    {"p": "n", "zh": "（電影）放映", "ai": [["There's a free screening of the film tonight.", "今晚有這部電影的免費放映。"], ["The director attended the first screening.", "導演出席了首映。"]]}
+  ],
+  "shortlist": [
+    {"p": "n", "zh": "入圍名單、候選名單", "ai": [["Your name is on the shortlist for the job.", "你已經進入這份工作的候選名單。"], ["We have a shortlist of three candidates.", "我們有三位入圍的候選人。"]]},
+    {"p": "v", "zh": "列入候選名單", "src": "app", "ai": [["She was shortlisted for the award.", "她入圍了這個獎項。"], ["Only five applicants will be shortlisted.", "只有五位應徵者會進入候選名單。"]]}
+  ],
+  "orientation": [
+    {"p": "n", "zh": "新生／新人說明會、迎新", "src": "app", "ai": [["New employees must attend an orientation on their first day.", "新進員工第一天必須參加新人說明會。"], ["The university holds orientation for freshmen in September.", "大學九月會為新生舉辦迎新活動。"]]},
+    {"p": "n", "zh": "方向、朝向；傾向", "t": [1481771], "fix": {"1481771": "這個房間的座向很好。"}, "ai": [["The company has a strong customer orientation.", "這家公司非常以顧客為導向。"]]}
+  ],
+  "training": [
+    {"p": "n", "zh": "訓練、培訓", "t": [4501576, 1426415, 14028314], "fix": {"4501576": "公司會提供訓練。", "14028314": "經過多年艱苦的訓練，她終於有所突破，奪得冠軍。"}}
+  ],
+  "employee": [
+    {"p": "n", "zh": "員工、受雇者", "t": [60001, 281359, 742943], "fix": {"60001": "這家公司三分之二的員工是工程師。", "742943": "她不是這家公司的正式員工。"}}
+  ],
+  "employer": [
+    {"p": "n", "zh": "雇主", "t": [482904], "fix": {"482904": "德國將禁止雇主在臉書上窺探員工。"}, "ai": [["My employer pays for my health insurance.", "我的雇主幫我付健康保險。"]]}
+  ],
+  "department": [
+    {"p": "n", "zh": "（公司、機關的）部門", "t": [5144732, 293906], "fix": {"5144732": "那兩個部門有時意見不合。", "293906": "他是行銷部的經理。"}},
+    {"p": "n", "zh": "（大學的）系", "t": [4261682], "fix": {"4261682": "他是數學系的助教。"}, "ai": [["She teaches in the English department.", "她在英文系任教。"]]},
+    {"p": "phr", "zh": "department store：百貨公司", "t": [311654, 50232], "fix": {"50232": "百貨公司前面有一家書店。"}}
+  ],
+  "personnel": [
+    {"p": "n", "zh": "（全體）人員、員工", "ai": [["Only authorized personnel may enter this area.", "僅限授權人員進入此區。"], ["The hospital is short of medical personnel.", "醫院缺乏醫護人員。"]]},
+    {"p": "n", "zh": "人事部門", "ai": [["Please send your resume to Personnel.", "請把履歷寄到人事部。"], ["He works in the personnel department.", "他在人事部工作。"]]}
+  ],
+  "induction": [
+    {"p": "n", "zh": "新進員工訓練、就職", "ai": [["The induction program lasts two weeks.", "新進員工訓練為期兩週。"], ["All new staff attend an induction on their first day.", "所有新員工第一天都要參加到職訓練。"]]}
+  ],
+  "mentor": [
+    {"p": "n", "zh": "導師、指導者", "ai": [["My mentor helped me a lot in my first year.", "我的導師在我第一年幫了我很多。"], ["Every new employee is paired with a mentor.", "每位新進員工都會分配一位指導者。"]]},
+    {"p": "v", "zh": "指導、輔導", "src": "app", "ai": [["She mentors young designers in her free time.", "她空閒時會指導年輕設計師。"], ["Senior engineers are expected to mentor junior staff.", "資深工程師要負責指導資淺同事。"]]}
+  ],
+  "evaluation": [
+    {"p": "n", "zh": "評估、評量", "ai": [["Employees receive a performance evaluation every year.", "員工每年都會接受績效考核。"], ["The evaluation showed that the program was successful.", "評估顯示這個計畫很成功。"]]}
+  ],
+  "performance": [
+    {"p": "n", "zh": "表現、績效", "t": [471373, 9401949, 11545960], "fix": {"471373": "他在運動會上表現非常出色。"}},
+    {"p": "n", "zh": "演出、表演", "t": [623166, 11252832], "fix": {"11252832": "最近一直在排練舞蹈，週五和週六要演出。"}}
+  ],
+  "promote": [
+    {"p": "v", "zh": "升職、晉升", "t": [319390], "fix": {"319390": "爸爸說他明年會升為課長。"}, "ai": [["She was promoted to manager last year.", "她去年升為經理。"]]},
+    {"p": "v", "zh": "促進、推動", "t": [274110, 13591508], "fix": {"13591508": "市政府舉辦了一場大型會議，目的是促進跨部門合作。"}},
+    {"p": "v", "zh": "宣傳、推廣（商品）", "ai": [["The singer is in Taipei to promote her new album.", "那位歌手來台北宣傳她的新專輯。"], ["We promote our products on social media.", "我們在社群媒體上推廣產品。"]]}
+  ],
+  "resign": [
+    {"p": "v", "zh": "辭職", "t": [293183, 681914, 283802], "fix": {"681914": "我辭去了社團財務的職務。", "283802": "有傳言說他辭職了。"}},
+    {"p": "phr", "zh": "be resigned to：（無奈地）接受", "ai": [["She was resigned to working late again.", "她只好認命，又要加班了。"], ["He seems resigned to losing the election.", "他似乎已經接受了會落選的事實。"]]}
+  ],
+  "retire": [
+    {"p": "v", "zh": "退休", "t": [318949, 283374, 251743]}
+  ],
+  "appraisal": [
+    {"p": "n", "zh": "（員工的）考核、評鑑", "ai": [["I have my annual appraisal next week.", "我下週有年度考核。"], ["The appraisal showed that she needs more training.", "考核結果顯示她需要更多訓練。"]]},
+    {"p": "n", "zh": "估價、鑑價", "ai": [["We need an appraisal of the house before selling it.", "賣房子前我們需要先估價。"], ["The jeweler gave us an appraisal of the ring.", "珠寶商幫我們鑑定了這枚戒指的價值。"]]}
+  ],
+  "dismiss": [
+    {"p": "v", "zh": "解僱、開除", "t": [1577222, 317850], "fix": {"317850": "那位祕書被開除了。"}},
+    {"p": "v", "zh": "不予理會、排除（想法）", "t": [2906735], "fix": {"2906735": "這些事件之間沒有關聯的可能性可以立刻排除。"}, "ai": [["Don't dismiss his idea too quickly.", "別太快否定他的想法。"]]},
+    {"p": "v", "zh": "讓（人）離開；下課", "ai": [["The teacher dismissed the class early.", "老師提早下課。"], ["The judge dismissed the case.", "法官駁回了這個案子。"]]}
+  ],
+  "layoff": [
+    {"p": "n", "zh": "裁員", "ai": [["The company announced 500 layoffs.", "公司宣布裁員 500 人。"], ["Many workers lost their jobs in the layoffs.", "很多工人在這波裁員中失業。"]]}
+  ],
+  "turnover": [
+    {"p": "n", "zh": "人員流動率", "src": "app", "ai": [["High staff turnover is costly for any business.", "員工流動率高對任何企業都是很大的成本。"], ["We need to reduce turnover in the call center.", "我們需要降低客服中心的人員流動率。"]]},
+    {"p": "n", "zh": "營業額", "t": [2311308], "fix": {"2311308": "這家公司去年的營業額大幅成長。"}, "ai": [["The shop has an annual turnover of two million dollars.", "這家店一年的營業額是兩百萬元。"]]}
+  ],
+  "attrition": [
+    {"p": "n", "zh": "人員自然流失（退休、離職不補人）", "src": "app", "ai": [["The company will reduce staff through attrition, not layoffs.", "公司會透過自然流失減少人力，而不是裁員。"], ["Attrition in the sales team is very high.", "業務團隊的人員流失率很高。"]]},
+    {"p": "n", "zh": "消耗、磨損", "ai": [["The war became a war of attrition.", "這場戰爭變成了消耗戰。"], ["Constant stress leads to the attrition of motivation.", "持續的壓力會消磨人的動力。"]]}
+  ],
+  "remuneration": [
+    {"p": "n", "zh": "報酬、薪酬", "t": [777333], "fix": {"777333": "他的薪酬包括底薪加佣金。"}, "ai": [["The remuneration package includes a car and housing.", "這份薪酬方案包含配車和住房。"]]}
+  ],
+  "nepotism": [
+    {"p": "n", "zh": "任人唯親、裙帶關係", "t": [14062668], "ai": [["The company was accused of nepotism after hiring the CEO's son.", "公司雇用執行長的兒子後，被指控任人唯親。"]]}
+  ],
+  "policy": [
+    {"p": "n", "zh": "政策、方針", "t": [45959, 3537574, 299909], "fix": {"45959": "這項政策導致物價大幅上漲。"}},
+    {"p": "n", "zh": "（公司的）規定", "ai": [["Our return policy allows refunds within 30 days.", "我們的退貨規定是 30 天內可以退款。"], ["Company policy does not allow pets in the office.", "公司規定辦公室裡不能帶寵物。"]]},
+    {"p": "n", "zh": "保單", "ai": [["Read your insurance policy carefully.", "請仔細閱讀你的保單。"], ["The policy covers fire and theft.", "這份保單涵蓋火災和竊盜。"]]}
+  ],
+  "procedure": [
+    {"p": "n", "zh": "程序、步驟", "t": [28478, 2283689], "fix": {"28478": "如果不遵守安全程序，你可能會受傷。", "2283689": "你不了解這個流程。"}},
+    {"p": "n", "zh": "（醫療）手術、處置", "t": [5739548], "fix": {"5739548": "這項手術不會痛。"}, "ai": [["It's a simple procedure that takes ten minutes.", "這是一個只需十分鐘的簡單手術。"]]}
+  ],
+  "regulation": [
+    {"p": "n", "zh": "規定、法規", "t": [263017, 2938687, 1616603], "fix": {"263017": "我們想修改學校的規章。", "2938687": "首先，我要宣布幾項新規定。", "1616603": "他不遵守交通規則，結果釀成重大車禍。"}}
+  ],
+  "comply": [
+    {"p": "v", "zh": "（comply with）遵守", "t": [3042310, 737177], "fix": {"3042310": "有些海灘沒有遵守環保規定。", "737177": "希望你以後會遵守交通規則。"}}
+  ],
+  "approval": [
+    {"p": "n", "zh": "批准、核准", "t": [4935986, 275021], "fix": {"4935986": "我在等核准。", "275021": "他正式批准了我。"}, "ai": [["The plan needs approval from the board.", "這個計畫需要董事會核准。"]]},
+    {"p": "n", "zh": "贊成、認可", "t": [17846, 2237458], "fix": {"17846": "如果您同意，我想把這份工作給他。", "2237458": "湯姆點頭表示贊同。"}}
+  ],
+  "form": [
+    {"p": "n", "zh": "表格", "t": [55869], "fix": {"55869": "你能告訴我這份表格怎麼填嗎？"}, "ai": [["Please fill out this form and sign at the bottom.", "請填寫這份表格並在下方簽名。"]]},
+    {"p": "n", "zh": "形式、形態", "t": [270762, 329515], "fix": {"329515": "這裡用的文法形式是現在進行式。"}},
+    {"p": "v", "zh": "形成；組成", "t": [2484871, 13993334], "fix": {"2484871": "店門前排起了長長的人龍。"}}
+  ],
+  "protocol": [
+    {"p": "n", "zh": "（正式的）規範、程序；禮儀", "ai": [["Follow the safety protocol in the lab.", "在實驗室要遵守安全規範。"], ["Diplomatic protocol must be observed at the dinner.", "晚宴上必須遵守外交禮儀。"]]},
+    {"p": "n", "zh": "（電腦）通訊協定", "ai": [["HTTPS is a secure protocol for websites.", "HTTPS 是一種安全的網站通訊協定。"], ["The two devices use different protocols.", "這兩台裝置使用不同的通訊協定。"]]}
+  ],
+  "authorization": [
+    {"p": "n", "zh": "授權、許可", "ai": [["You need authorization to access this file.", "你需要授權才能存取這個檔案。"], ["No one may enter without written authorization.", "未經書面許可，任何人不得進入。"]]}
+  ],
+  "mandatory": [
+    {"p": "adj", "zh": "強制的、必須的", "t": [6964610, 325772], "fix": {"6964610": "那不是強制的。", "325772": "烹飪課應該成為學校的必修課。"}, "ai": [["Wearing a helmet is mandatory on construction sites.", "在工地戴安全帽是強制規定。"]]}
+  ],
+  "document": [
+    {"p": "n", "zh": "文件", "t": [258594, 299435, 319048], "fix": {"258594": "我在文件上簽了名。", "299435": "他被迫在文件上簽字。", "319048": "爸爸把那份法文文件翻成了日文。"}},
+    {"p": "v", "zh": "記錄", "ai": [["Please document every step of the process.", "請把流程的每個步驟都記錄下來。"], ["The film documents the life of a famous chef.", "這部片記錄了一位知名主廚的生活。"]]}
+  ],
+  "submit": [
+    {"p": "v", "zh": "提交、遞交", "t": [868260, 71004, 4406837], "fix": {"868260": "交出去之前請好好檢查，這裡很粗糙。", "71004": "您的訂單已送出。", "4406837": "申請截止日是這個星期五。"}},
+    {"p": "v", "zh": "屈服、服從", "t": [1481678], "fix": {"1481678": "他屈服於權威。"}, "ai": [["They refused to submit to the new rules.", "他們拒絕服從新規定。"]]}
+  ],
+  "copy": [
+    {"p": "n", "zh": "副本、影本", "t": [286572], "fix": {"286572": "他把影本和正本對照了一下。"}, "ai": [["Please keep a copy of the contract.", "請保留一份合約副本。"]]},
+    {"p": "v", "zh": "影印；複製", "t": [73208], "fix": {"73208": "每一頁請影印三份。"}, "ai": [["Copy the file to your desktop.", "把檔案複製到你的桌面。"]]},
+    {"p": "n", "zh": "（書、報的）一本、一份", "t": [4981892], "fix": {"4981892": "他的書一個月前才出版，就已經賣了好幾千本。"}, "ai": [["Can I borrow your copy of the magazine?", "可以借你那本雜誌嗎？"]]},
+    {"p": "v", "zh": "（電子郵件）副本給（cc）", "t": [13723563], "fix": {"13723563": "那封郵件可以副本給我嗎？"}, "ai": [["Please copy your manager on the email.", "請把這封信副本給你的主管。"]]}
+  ],
+  "archive": [
+    {"p": "n", "zh": "檔案庫；封存資料", "t": [2323339, 10683434], "fix": {"2323339": "我把電子郵件都做了封存備份。", "10683434": "我正在下載這份網路封存資料。"}},
+    {"p": "v", "zh": "歸檔、封存", "ai": [["Old emails are archived automatically after a year.", "舊郵件一年後會自動封存。"], ["Please archive these files at the end of the project.", "專案結束後請把這些檔案歸檔。"]]}
+  ],
+  "memo": [
+    {"p": "n", "zh": "備忘錄、（公司內部的）通知", "ai": [["The manager sent a memo about the new dress code.", "經理發了一份關於新服裝規定的通知。"], ["Did you read the memo from HR?", "你看過人資部發的備忘錄了嗎？"]]}
+  ],
+  "duplicate": [
+    {"p": "n", "zh": "副本、複本", "t": [14059843], "fix": {"14059843": "本合約一式兩份。"}, "ai": [["I lost my key, so I had a duplicate made.", "我弄丟了鑰匙，所以去打了一把備份。"]]},
+    {"p": "v", "zh": "複製；重複（做）", "ai": [["Don't duplicate work that someone else has already done.", "別重複做別人已經做過的工作。"], ["The results could not be duplicated.", "這些結果無法再次重現。"]]}
+  ],
+  "confidential": [
+    {"p": "adj", "zh": "機密的", "ai": [["This information is strictly confidential.", "這份資訊是高度機密。"], ["Please keep our conversation confidential.", "請對我們的談話內容保密。"]]}
+  ],
+  "notarize": [
+    {"p": "v", "zh": "公證", "ai": [["You need to have the contract notarized.", "你需要把合約拿去公證。"], ["The documents were notarized by a lawyer.", "這些文件經過律師公證。"]]}
+  ],
+  "maintenance": [
+    {"p": "n", "zh": "維修、保養", "ai": [["The elevator is closed for maintenance.", "電梯維修中，暫停使用。"], ["Regular maintenance keeps your car running well.", "定期保養能讓你的車保持良好狀態。"]]}
+  ],
+  "supplies": [
+    {"p": "n", "zh": "用品、補給品", "t": [903697, 2712618], "fix": {"903697": "現在急需醫療用品。", "2712618": "醫療用品嚴重不足。"}, "ai": [["We're running out of office supplies.", "我們的辦公用品快用完了。"]]},
+    {"p": "v", "zh": "（supply 的第三人稱）供應、提供", "src": "app", "t": [34219, 60907, 4921980], "fix": {"34219": "巴西供應全世界優質的咖啡豆。", "60907": "這座水壩供應我們用水和電力。"}}
+  ],
+  "install": [
+    {"p": "v", "zh": "安裝", "t": [452770, 652406, 279332], "fix": {"279332": "我想裝一支電話。", "652406": "自從我在房子上裝了太陽能板，電費就少了一半。"}}
+  ],
+  "out of order": [
+    {"p": "phr", "zh": "故障、壞掉", "t": [50620, 26622, 48819], "fix": {"26622": "不巧的是，電話壞了。"}},
+    {"p": "phr", "zh": "順序亂掉", "t": [303814], "fix": {"303814": "他把書亂七八糟地放到書架上。"}, "ai": [["The pages of the report are out of order.", "這份報告的頁碼順序亂了。"]]}
+  ],
+  "technician": [
+    {"p": "n", "zh": "技術人員、技師", "t": [6452008], "ai": [["A technician will come to fix the printer this afternoon.", "今天下午會有技術人員來修印表機。"]]}
+  ],
+  "malfunction": [
+    {"p": "n", "zh": "故障", "t": [8932617], "fix": {"8932617": "系統故障的修復工作持續了一整夜。"}, "ai": [["A malfunction in the engine caused the delay.", "引擎故障導致延誤。"]]},
+    {"p": "v", "zh": "發生故障", "t": [58925], "fix": {"58925": "這個時鐘好像故障了。"}, "ai": [["The alarm malfunctioned and went off at midnight.", "警報器故障，半夜響了起來。"]]}
+  ],
+  "reimbursement": [
+    {"p": "n", "zh": "報銷、償還（的款項）", "ai": [["Submit your receipts for reimbursement by Friday.", "請在星期五前交收據申請報銷。"], ["The reimbursement will be added to your next paycheck.", "報銷的款項會併入下次的薪水。"]]}
+  ],
+  "business trip": [
+    {"p": "phr", "zh": "出差", "t": [6082737], "fix": {"6082737": "我出差的時候，你可以去海邊休息。"}, "ai": [["She's on a business trip to Singapore this week.", "她這週去新加坡出差。"]]}
+  ],
+  "accommodation": [
+    {"p": "n", "zh": "住宿（地方）", "t": [6105414, 60475], "fix": {"60475": "這家飯店可容納一千位房客。"}, "ai": [["The price includes flights and accommodation.", "價格包含機票和住宿。"]]}
+  ],
+  "travel agency": [
+    {"p": "phr", "zh": "旅行社", "t": [4753790, 27253]}
+  ],
+  "accommodate": [
+    {"p": "v", "zh": "容納", "t": [49843, 59669], "fix": {"59669": "這間教室只能容納三十個學生。"}},
+    {"p": "v", "zh": "配合、滿足（需求）", "ai": [["We'll do our best to accommodate your request.", "我們會盡力配合您的要求。"], ["The hotel can accommodate guests with special diets.", "這家飯店可以配合有特殊飲食需求的房客。"]]}
+  ],
+  "flight": [
+    {"p": "n", "zh": "航班、班機", "t": [3753285, 13246851, 275441], "fix": {"3753285": "波士頓和雪梨之間有直飛航班嗎？", "13246851": "3 月 30 日的航班全部客滿。"}},
+    {"p": "n", "zh": "飛行", "t": [5325810], "fix": {"5325810": "以前人們認為超音速飛行是不可能的。"}, "ai": [["It was a smooth flight with no turbulence.", "這趟飛行很平穩，沒有亂流。"]]},
+    {"p": "phr", "zh": "a flight of stairs：一段樓梯", "ai": [["Her office is up two flights of stairs.", "她的辦公室要再爬兩段樓梯。"], ["He fell down a flight of stairs.", "他從一段樓梯上摔了下來。"]]}
+  ],
+  "economy class": [
+    {"p": "phr", "zh": "經濟艙", "ai": [["We always fly economy class to save money.", "為了省錢，我們都搭經濟艙。"], ["Economy class seats were all sold out.", "經濟艙的座位全賣完了。"]]}
+  ],
+  "business class": [
+    {"p": "phr", "zh": "商務艙", "ai": [["The company pays for business class on long flights.", "長途航班公司會付商務艙的錢。"], ["Business class passengers can use the lounge.", "商務艙旅客可以使用貴賓室。"]]}
+  ],
+  "rental car": [
+    {"p": "phr", "zh": "租來的車", "t": [9408762], "fix": {"9408762": "你們需要幾輛租車？"}, "ai": [["We picked up our rental car at the airport.", "我們在機場取了租來的車。"]]}
+  ],
+  "expense": [
+    {"p": "n", "zh": "費用、開銷", "t": [257503, 262216, 73500], "fix": {"262216": "我的旅費用完了。", "73500": "一千美元足以支付派對的所有費用。"}},
+    {"p": "phr", "zh": "at the expense of：以…為代價；由…出錢", "t": [295939, 285179], "fix": {"285179": "他請我吃了一頓豐盛的晚餐。"}}
+  ],
+  "reimburse": [
+    {"p": "v", "zh": "報銷、償還", "t": [602916], "fix": {"602916": "你們學校真好，還幫你報銷來回機票。"}, "ai": [["The company will reimburse you for travel expenses.", "公司會報銷你的差旅費。"]]}
+  ],
+  "receipt": [
+    {"p": "n", "zh": "收據", "t": [325901, 397449, 11461347], "fix": {"397449": "你有收據嗎？", "11461347": "我把收據弄丟了，只好打電話給 IKEA 和銀行的客服。"}},
+    {"p": "n", "zh": "收到", "ai": [["Please confirm receipt of the payment.", "收到款項請回覆確認。"], ["Payment is due within 30 days of receipt.", "收到後 30 天內須付款。"]]}
+  ],
+  "per diem": [
+    {"p": "phr", "zh": "每日（出差）津貼", "ai": [["Employees get a per diem of 60 dollars for meals.", "員工每天有 60 美元的餐費津貼。"], ["The per diem covers food and local transportation.", "每日津貼涵蓋餐費和當地交通。"]]}
+  ],
+  "account": [
+    {"p": "n", "zh": "（銀行）帳戶", "t": [55219], "fix": {"55219": "這些帳戶裡的錢太多了。"}, "ai": [["I'd like to open a bank account.", "我想開一個銀行帳戶。"]]},
+    {"p": "n", "zh": "（網站）帳號", "t": [1381, 508106], "fix": {"1381": "我在這些論壇上沒有帳號。", "508106": "我要怎麼停用這個網站的帳號？"}},
+    {"p": "phr", "zh": "account for：解釋、說明；占（比例）", "t": [43017], "fix": {"43017": "這就說明了門為什麼是開著的。"}, "ai": [["Exports account for 60% of the company's sales.", "外銷占公司銷售額的六成。"]]},
+    {"p": "phr", "zh": "on account of：因為", "t": [303117], "fix": {"303117": "他因為生病沒來上學。"}, "ai": [["The game was canceled on account of the rain.", "比賽因為下雨而取消。"]]}
+  ],
+  "withdraw": [
+    {"p": "v", "zh": "提（款）", "t": [9307604, 804365], "fix": {"9307604": "我要去銀行領錢。", "804365": "外國投資人把資金從美國撤出。"}},
+    {"p": "v", "zh": "撤退、退出", "t": [41255, 15890], "fix": {"15890": "你不如馬上退出這個社團。"}},
+    {"p": "v", "zh": "收回、撤回", "t": [291808], "fix": {"291808": "他把手從桌上收了回來。"}, "ai": [["She withdrew her application.", "她撤回了申請。"]]}
+  ],
+  "balance": [
+    {"p": "n", "zh": "平衡", "t": [292427, 303525]},
+    {"p": "n", "zh": "（帳戶）餘額；尚欠的款項", "src": "app", "ai": [["Please check your account balance before you pay.", "付款前請先查一下帳戶餘額。"], ["The balance is due at the end of the month.", "尾款要在月底前付清。"]]},
+    {"p": "adj", "zh": "（balanced）均衡的", "src": "app", "t": [2187, 55277], "fix": {"2187": "蔬果是均衡飲食不可或缺的。", "55277": "這些東西組成了一頓營養均衡的飯。"}}
+  ],
+  "statement": [
+    {"p": "n", "zh": "聲明、陳述", "t": [260724, 1981, 8589301], "fix": {"1981": "我想撤回我之前的說法。", "8589301": "家屬對軍方的說法高度懷疑。"}},
+    {"p": "n", "zh": "（銀行）對帳單、結算單", "ai": [["I get a bank statement every month.", "我每個月會收到銀行對帳單。"], ["Check your credit card statement for errors.", "檢查一下信用卡帳單有沒有錯。"]]}
+  ],
+  "overdraft": [
+    {"p": "n", "zh": "透支（額）", "ai": [["I have a small overdraft on my account.", "我的帳戶有一點透支。"], ["The bank charges a fee for overdrafts.", "銀行會對透支收費。"]]}
+  ],
+  "wire transfer": [
+    {"p": "phr", "zh": "電匯", "ai": [["We will pay the deposit by wire transfer.", "我們會用電匯支付訂金。"], ["International wire transfers usually take two to three days.", "國際電匯通常要兩到三天。"]]}
+  ],
+  "savings account": [
+    {"p": "phr", "zh": "儲蓄帳戶", "t": [324791], "fix": {"324791": "我想開一個儲蓄帳戶。"}, "ai": [["I put part of my salary into a savings account every month.", "我每個月把部分薪水存進儲蓄帳戶。"]]}
+  ],
+  "loan": [
+    {"p": "n", "zh": "貸款；借款", "t": [16201, 29388, 30339], "fix": {"29388": "目前的貸款利率很高。"}},
+    {"p": "v", "zh": "借出、借給", "t": [6356399], "fix": {"6356399": "湯姆問瑪麗能不能借他一些錢。"}, "ai": [["Could you loan me your car for the weekend?", "週末可以把車借我嗎？"]]}
+  ],
+  "interest": [
+    {"p": "n", "zh": "興趣", "ai": [["She has a strong interest in history.", "她對歷史很有興趣。"], ["I lost interest in the game after an hour.", "玩了一個小時我就對那個遊戲沒興趣了。"]]},
+    {"p": "n", "zh": "利息", "t": [18430], "fix": {"18430": "銀行對高風險客戶的貸款收取較高的利息。"}, "ai": [["This savings account pays 2% interest.", "這個儲蓄帳戶的利息是 2%。"]]},
+    {"p": "n", "zh": "利益", "t": [13152372], "fix": {"13152372": "川普的所作所為符合俄羅斯的利益。"}, "ai": [["It's in your best interest to accept the offer.", "接受這個提議對你最有利。"]]}
+  ],
+  "mortgage": [
+    {"p": "n", "zh": "房屋貸款", "ai": [["We took out a 30-year mortgage to buy our home.", "我們申請了三十年的房貸買房子。"], ["Most of my salary goes to the mortgage.", "我大部分的薪水都拿去付房貸。"]]}
+  ],
+  "debt": [
+    {"p": "n", "zh": "債務、欠款", "t": [49305, 818070, 249916], "fix": {"49305": "這家人太窮了，還不起債。", "818070": "有些人債台高築。", "249916": "我沒有負債。"}}
+  ],
+  "credit": [
+    {"p": "n", "zh": "信用；賒帳", "t": [840814, 5904763, 894940], "fix": {"5904763": "我通常用信用卡，不用現金。", "894940": "你帶了現金還是信用卡？"}},
+    {"p": "n", "zh": "功勞、讚揚", "t": [4407998], "fix": {"4407998": "值得稱讚的是，他很清楚自己在說什麼。"}, "ai": [["She deserves credit for the team's success.", "團隊的成功她功不可沒。"]]},
+    {"p": "n", "zh": "學分", "ai": [["This course is worth three credits.", "這門課三學分。"], ["I need ten more credits to graduate.", "我還需要十個學分才能畢業。"]]}
+  ],
+  "collateral": [
+    {"p": "n", "zh": "擔保品、抵押品", "ai": [["He used his house as collateral for the loan.", "他用房子作為貸款的擔保品。"], ["The bank asked for collateral before approving the loan.", "銀行在核准貸款前要求提供擔保品。"]]}
+  ],
+  "installment": [
+    {"p": "n", "zh": "分期付款（的一期）", "ai": [["You can pay for the laptop in 12 monthly installments.", "這台筆電可以分 12 期每月付款。"], ["I paid the last installment yesterday.", "我昨天付了最後一期。"]]},
+    {"p": "n", "zh": "（連載、影集的）一集、一部", "ai": [["The final installment of the series comes out next year.", "這個系列的最後一集明年推出。"], ["The story will be published in three installments.", "這個故事會分三期刊出。"]]}
+  ],
+  "default": [
+    {"p": "v", "zh": "違約、拖欠（債務）", "ai": [["The company defaulted on its loans.", "那家公司拖欠貸款。"], ["If you default, the bank can take your house.", "如果違約，銀行可以收回你的房子。"]]},
+    {"p": "n", "zh": "預設值", "ai": [["You can change the default settings in the menu.", "你可以在選單裡修改預設設定。"], ["English is the default language of the app.", "這個 App 的預設語言是英文。"]]}
+  ],
+  "revenue": [
+    {"p": "n", "zh": "營收、收入", "t": [5277798], "fix": {"5277798": "很多網站靠廣告收入維持營運。"}, "ai": [["Our revenue grew by 15% last year.", "我們去年的營收成長了 15%。"]]}
+  ],
+  "profit": [
+    {"p": "n", "zh": "利潤", "t": [325572, 7767795], "fix": {"325572": "旅行社的利潤暴增。", "7767795": "商人只在乎利潤。"}},
+    {"p": "v", "zh": "獲益、得利", "t": [239384, 274655], "fix": {"274655": "有人從這個局面中得利。"}}
+  ],
+  "loss": [
+    {"p": "n", "zh": "損失；虧損", "t": [305251, 49059, 286480], "fix": {"305251": "他們的損失達到一百萬日圓。", "286480": "他的過世對我們公司是一大損失。"}},
+    {"p": "phr", "zh": "at a loss：不知所措", "t": [24944, 37101], "fix": {"24944": "我不知道該說什麼。", "37101": "湯姆不知道該怎麼表達自己。"}}
+  ],
+  "audit": [
+    {"p": "n", "zh": "稽核、查帳", "ai": [["The company has an audit every year.", "公司每年都要接受稽核。"], ["The audit found several errors in the accounts.", "稽核發現帳目有好幾處錯誤。"]]},
+    {"p": "v", "zh": "查帳；旁聽（課程）", "ai": [["An outside firm audits our accounts.", "我們的帳目由外部公司查核。"], ["I'm auditing a history class this semester.", "我這學期旁聽一門歷史課。"]]}
+  ],
+  "accounting": [
+    {"p": "n", "zh": "會計", "t": [7841340], "ai": [["She studied accounting in college.", "她大學念會計。"]]}
+  ],
+  "fiscal year": [
+    {"p": "phr", "zh": "會計年度、財政年度", "ai": [["Our fiscal year begins in April.", "我們的會計年度從四月開始。"], ["Sales rose sharply in the last fiscal year.", "上個會計年度的銷售額大幅成長。"]]}
+  ],
+  "dividend": [
+    {"p": "n", "zh": "股利、紅利", "ai": [["The company pays a dividend twice a year.", "這家公司一年發兩次股利。"], ["Shareholders received a higher dividend this year.", "今年股東領到較高的股利。"]]},
+    {"p": "phr", "zh": "pay dividends：帶來好處", "ai": [["Learning English early will pay dividends later.", "早點學英文以後會受益良多。"], ["Her hard work is starting to pay dividends.", "她的努力開始有回報了。"]]}
+  ],
+  "liquidity": [
+    {"p": "n", "zh": "（資金）流動性", "ai": [["The bank faced a liquidity crisis.", "那家銀行面臨流動性危機。"], ["Cash gives a company more liquidity.", "現金讓公司擁有更高的流動性。"]]}
+  ],
+  "auditor": [
+    {"p": "n", "zh": "稽核員、查帳員", "ai": [["The auditors will visit our office next week.", "稽核人員下週會來我們辦公室。"], ["An independent auditor checked the accounts.", "一位獨立的查帳員檢查了帳目。"]]}
+  ],
+  "purchase": [
+    {"p": "v", "zh": "購買", "t": [5992302, 40224, 1602108], "fix": {"5992302": "那種藥沒有處方就買不到。", "40224": "購票前需要先輸入個人資料。", "1602108": "我要是有錢，馬上就買這台電腦。"}},
+    {"p": "n", "zh": "購買；購買的東西", "t": [306243], "fix": {"306243": "他們在存錢買房子。"}, "ai": [["Keep the receipt as proof of purchase.", "請保留收據作為購買證明。"]]}
+  ],
+  "bulk": [
+    {"p": "phr", "zh": "in bulk：大量（購買）", "ai": [["It's cheaper to buy rice in bulk.", "大量買米比較便宜。"], ["We offer discounts on bulk orders.", "大量訂購有折扣。"]]},
+    {"p": "n", "zh": "大部分；龐大的體積", "ai": [["The bulk of our customers are students.", "我們的顧客大部分是學生。"], ["Despite its bulk, the machine is easy to move.", "這台機器雖然很大，卻很好移動。"]]}
+  ],
+  "requisition": [
+    {"p": "n", "zh": "請購單、正式申請", "ai": [["Please fill out a requisition for new laptops.", "請填寫新筆電的請購單。"], ["The requisition was approved by the manager.", "請購單經過經理核准了。"]]}
+  ],
+  "sourcing": [
+    {"p": "n", "zh": "（商品、原料的）採購來源、尋找貨源", "src": "app", "ai": [["She is in charge of sourcing materials from Asia.", "她負責從亞洲採購原料。"], ["Ethical sourcing is important to our customers.", "合乎道德的採購來源對我們的顧客很重要。"]]}
+  ],
+  "discount": [
+    {"p": "n", "zh": "折扣", "t": [2269584, 6138593, 1024178], "fix": {"2269584": "付現有折扣嗎？", "1024178": "湯姆的 T 恤打七折賣。"}},
+    {"p": "v", "zh": "打折", "t": [1167766], "fix": {"1167766": "價錢可以打折嗎？"}, "ai": [["All winter clothes are discounted by 50%.", "所有冬裝都打五折。"]]}
+  ],
+  "terms": [
+    {"p": "n", "zh": "（付款、交易的）條件", "ai": [["Our payment terms are 30 days from the invoice date.", "我們的付款條件是開立請款單後 30 天內。"], ["They offered us better terms than other suppliers.", "他們給的條件比其他供應商好。"]]},
+    {"p": "phr", "zh": "in terms of：就…而言", "t": [60476, 312784], "fix": {"60476": "就大眾運輸來說，這家飯店的位置很方便。", "312784": "她凡事都從錢的角度來想。"}},
+    {"p": "phr", "zh": "come to terms with：接受（事實）；達成協議", "t": [238671], "fix": {"238671": "最後他們終於達成了協議。"}, "ai": [["It took him years to come to terms with his father's death.", "他花了好幾年才接受父親過世的事實。"]]}
+  ],
+  "warranty": [
+    {"p": "n", "zh": "保固", "t": [13190409], "fix": {"13190409": "有好的保固會讓我比較安心。"}, "ai": [["The laptop comes with a two-year warranty.", "這台筆電有兩年保固。"]]}
+  ],
+  "competitive": [
+    {"p": "adj", "zh": "有競爭力的（價格等）", "t": [281502, 10642457, 72187], "fix": {"281502": "日本在高科技產業很有競爭力。", "72187": "如果系統工程師繼續離職，公司的競爭優勢就會被削弱。"}},
+    {"p": "adj", "zh": "好勝的、愛競爭的", "t": [2610591, 2010], "fix": {"2010": "冰球選手有時好勝心太強，甚至會打起架來。"}}
+  ],
+  "inventory": [
+    {"p": "n", "zh": "庫存；存貨清單", "ai": [["We take inventory at the end of every month.", "我們每個月底盤點庫存。"], ["Our inventory of winter coats is running low.", "我們的冬季外套庫存快不夠了。"]]}
+  ],
+  "stock": [
+    {"p": "n", "zh": "股票", "t": [295466, 294891, 1159921], "fix": {"295466": "他把錢投資在股票上。", "294891": "他在股市賠了一大筆錢。", "1159921": "這家公司在巴黎證券交易所上市。"}},
+    {"p": "n", "zh": "存貨、庫存", "ai": [["We have plenty of stock in the warehouse.", "倉庫裡存貨充足。"], ["That model is no longer in stock.", "那個型號已經沒有庫存了。"]]},
+    {"p": "v", "zh": "（商店）備有、進貨", "ai": [["The store stocks a wide range of organic food.", "這家店有賣各式各樣的有機食品。"], ["We need to stock up on water before the typhoon.", "颱風來之前我們需要多囤點水。"]]}
+  ],
+  "out of stock": [
+    {"p": "phr", "zh": "缺貨", "t": [43918, 40894], "fix": {"43918": "不好意思，這本書缺貨了。", "40894": "我們現在沒有庫存了。"}}
+  ],
+  "warehouse": [
+    {"p": "n", "zh": "倉庫", "t": [2988562, 273976, 13528966], "fix": {"13528966": "那您跟我來一下，我們去倉庫找找看，說不定那裡有。"}}
+  ],
+  "surplus": [
+    {"p": "n", "zh": "盈餘；過剩", "ai": [["The country has a trade surplus with Europe.", "這個國家對歐洲有貿易順差。"], ["There is a surplus of teachers in some areas.", "有些地區的教師人數過剩。"]]},
+    {"p": "adj", "zh": "過剩的、多餘的", "ai": [["We donated the surplus food to a shelter.", "我們把多餘的食物捐給了收容所。"], ["The factory sold its surplus equipment.", "工廠把多餘的設備賣掉了。"]]}
+  ],
+  "shortage": [
+    {"p": "n", "zh": "短缺、不足", "t": [282241, 387575, 1133264], "fix": {"387575": "因為缺水，花園裡的花全都死了。"}}
+  ],
+  "replenish": [
+    {"p": "v", "zh": "補充、補貨", "ai": [["We need to replenish our stock before the holiday.", "假期前我們需要補貨。"], ["Drink water to replenish the fluids you lost.", "喝水補充流失的水分。"]]}
+  ],
+  "product": [
+    {"p": "n", "zh": "產品", "t": [269316, 680515, 953650], "fix": {"269316": "我舅舅的公司上個月推出了一款新產品。", "680515": "這個產品聲稱可以幫你減肥。", "953650": "我覺得現在正是推出這個產品的好時機。"}},
+    {"p": "n", "zh": "結果、產物", "ai": [["His success is the product of years of hard work.", "他的成功是多年努力的成果。"], ["Pollution is a product of modern industry.", "污染是現代工業的產物。"]]}
+  ],
+  "feature": [
+    {"p": "n", "zh": "功能、特色", "t": [13190388, 13513559, 426498], "fix": {"13190388": "有防水功能會是加分。", "13513559": "這個 App 每天吸引超過一萬名使用者使用它的功能。"}},
+    {"p": "v", "zh": "以…為特色；由…主演", "t": [13241919], "fix": {"13241919": "收錄蕾哈娜等歌手的全新歌曲。"}, "ai": [["The movie features a famous Taiwanese actor.", "這部電影由一位知名台灣演員主演。"]]}
+  ],
+  "model": [
+    {"p": "n", "zh": "型號、款式", "t": [298765], "fix": {"298765": "他拿自己的車和新款比較。"}, "ai": [["This is the latest model of the phone.", "這是這支手機的最新型號。"]]},
+    {"p": "n", "zh": "模型", "t": [32911, 525006], "fix": {"32911": "邁克從早餐後就一直在做模型飛機。", "525006": "所有的模型都是錯的，但有些是有用的。"}},
+    {"p": "n", "zh": "模特兒", "t": [312358], "fix": {"312358": "據說她以前當過模特兒。"}, "ai": [["The model walked down the runway.", "模特兒走上伸展台。"]]}
+  ],
+  "launch": [
+    {"p": "v", "zh": "推出（產品）、展開（活動）", "t": [269316, 12090941, 13511521], "fix": {"269316": "我舅舅的公司上個月推出了一款新產品。", "12090941": "最近這個品牌推出了一系列限量版內衣。"}},
+    {"p": "v", "zh": "發射", "t": [307592, 1214438], "fix": {"307592": "他們明天要發射一顆人造衛星。", "1214438": "去年俄羅斯發射了一顆衛星。"}},
+    {"p": "n", "zh": "發射；（產品）上市", "t": [2767583], "ai": [["The product launch is scheduled for May.", "產品預計五月上市。"]]}
+  ],
+  "quality": [
+    {"p": "n", "zh": "品質", "t": [61254, 281351, 18242], "fix": {"61254": "這張地毯的品質比那張好得多。", "281351": "日本企業已經建立了品質好的聲譽。", "18242": "這幾年空氣品質變差了。"}},
+    {"p": "n", "zh": "特質、素質", "t": [13513547], "fix": {"13513547": "我相信你已經具備臥底需要的所有特質。"}, "ai": [["Patience is an important quality for a teacher.", "耐心是老師的重要特質。"]]}
+  ],
+  "durable": [
+    {"p": "adj", "zh": "耐用的", "ai": [["These boots are durable and waterproof.", "這雙靴子耐穿又防水。"], ["We need a durable material for the outdoor tables.", "戶外桌子需要用耐用的材質。"]]}
+  ],
+  "specification": [
+    {"p": "n", "zh": "規格（常用複數）", "ai": [["Please check the technical specifications before ordering.", "訂購前請確認技術規格。"], ["The product does not meet our specifications.", "這項產品不符合我們的規格。"]]}
+  ],
+  "prototype": [
+    {"p": "n", "zh": "原型、樣品", "ai": [["We will test the prototype next month.", "我們下個月會測試原型。"], ["The engineers built a prototype of the new robot.", "工程師做出了新機器人的原型。"]]}
+  ],
+  "functionality": [
+    {"p": "n", "zh": "功能（性）", "src": "app", "ai": [["The new version adds more functionality.", "新版本增加了更多功能。"], ["The app is simple but has all the functionality you need.", "這個 App 很簡單，但你需要的功能都有。"]]}
+  ],
+  "customer": [
+    {"p": "n", "zh": "顧客、客戶", "t": [64654, 249591, 6874130], "fix": {"64654": "我們有顧客專用的停車場。", "249591": "我們的顧客多到數不清。", "6874130": "我們在找有客服經驗的人。"}}
+  ],
+  "client": [
+    {"p": "n", "zh": "客戶；（律師等的）委託人", "t": [13523812, 785322, 560314], "fix": {"785322": "這顯示他們有傾聽客戶的需求。", "560314": "律師警告他的當事人不要出庭作證，但他還是作證了。"}}
+  ],
+  "service": [
+    {"p": "n", "zh": "服務", "t": [60339, 241463], "fix": {"60339": "這家餐廳的服務一點也不快。"}},
+    {"p": "n", "zh": "（交通等）公共服務；班次", "t": [279708], "fix": {"279708": "東京和莫斯科之間有航班往來。"}, "ai": [["Train service will resume tomorrow morning.", "火車明天早上恢復行駛。"]]},
+    {"p": "v", "zh": "保養、維修", "t": [7772313], "fix": {"7772313": "真巧，這兩台目前都還在維修。"}, "ai": [["I need to get my car serviced.", "我的車需要送去保養。"]]}
+  ],
+  "representative": [
+    {"p": "n", "zh": "代表；客服人員", "t": [11212804, 431672, 13511575], "fix": {"11212804": "齊莉在麗瑪的公司擔任客服代表。", "431672": "他代表公司出席了會議。", "13511575": "媒體詢問請洽當地的公關或行銷代表。"}},
+    {"p": "adj", "zh": "有代表性的、典型的", "t": [737845], "fix": {"737845": "此外，馬也是人才的象徵。"}, "ai": [["Is this sample representative of the whole population?", "這個樣本能代表整體人口嗎？"]]}
+  ],
+  "satisfaction": [
+    {"p": "n", "zh": "滿意、滿足", "t": [1269266, 3725707], "fix": {"1269266": "不管讀書的主要目的是什麼，書總能帶給人滿足。", "3725707": "我不會讓他們稱心如意的。"}, "ai": [["Customer satisfaction is our top priority.", "顧客滿意是我們的首要目標。"]]}
+  ],
+  "after-sales service": [
+    {"p": "phr", "zh": "售後服務", "ai": [["This brand is known for its excellent after-sales service.", "這個品牌以優質的售後服務聞名。"], ["Contact after-sales service if the product breaks.", "產品故障時請聯絡售後服務。"]]}
+  ],
+  "troubleshoot": [
+    {"p": "v", "zh": "排除故障、找出問題", "src": "app", "ai": [["The IT team helped me troubleshoot my laptop.", "資訊部門幫我排除筆電的問題。"], ["This guide explains how to troubleshoot common problems.", "這份指南說明如何排除常見問題。"]]}
+  ],
+  "complaint": [
+    {"p": "n", "zh": "抱怨、客訴", "t": [240023, 1408723, 9074729], "fix": {"240023": "客訴增加可能代表生意在走下坡。", "1408723": "如果這週還收不到貨，我就要向 PayPal 投訴。"}},
+    {"p": "n", "zh": "（正式的）申訴", "t": [2641884], "fix": {"2641884": "湯姆已經提出了申訴。"}, "ai": [["You can file a complaint online.", "你可以在網路上提出申訴。"]]}
+  ],
+  "defective": [
+    {"p": "adj", "zh": "有瑕疵的、有缺陷的", "t": [10904973, 681062], "fix": {"10904973": "這支手機有瑕疵。", "681062": "有些疾病是基因缺陷造成的。"}}
+  ],
+  "replace": [
+    {"p": "v", "zh": "更換、替換", "t": [481732, 22300], "fix": {"481732": "請把印表機裡用完的墨水匣換掉。", "22300": "可以請你儘快把壞掉的那個換掉嗎？"}},
+    {"p": "v", "zh": "取代", "t": [2445230, 1948391, 5259952], "fix": {"2445230": "你認為電子書會取代紙本書嗎？", "1948391": "汽車取代了腳踏車。", "5259952": "瑪麗取代了湯姆。"}}
+  ],
+  "refund": [
+    {"p": "n", "zh": "退款", "t": [5924925], "fix": {"5924925": "這張火車票可以退款嗎？"}, "ai": [["I asked the store for a full refund.", "我要求店家全額退款。"]]},
+    {"p": "v", "zh": "退（款）", "ai": [["We'll refund your money if you're not satisfied.", "如果您不滿意，我們會退款。"], ["The airline refunded the cost of the ticket.", "航空公司退還了機票費用。"]]}
+  ],
+  "recall": [
+    {"p": "v", "zh": "回想起", "t": [257621, 1954755, 246027], "fix": {"246027": "我對童年的記憶越來越少。"}},
+    {"p": "v", "zh": "（產品）召回；召回（人員）", "t": [275704], "fix": {"275704": "大使從華沙被召回。"}, "ai": [["The company recalled 10,000 cars because of a brake problem.", "因為煞車問題，這家公司召回了一萬輛車。"]]},
+    {"p": "n", "zh": "（產品）召回", "ai": [["There's been a recall of this baby food.", "這款嬰兒食品已經被召回。"], ["The recall cost the company millions.", "這次召回讓公司損失了數百萬。"]]}
+  ],
+  "compensate": [
+    {"p": "v", "zh": "賠償、補償", "t": [15828], "fix": {"15828": "你必須賠償他損失的錢。"}, "ai": [["The airline compensated passengers for the delay.", "航空公司賠償了延誤的旅客。"]]},
+    {"p": "v", "zh": "（compensate for）彌補、抵銷", "ai": [["Hard work can compensate for a lack of talent.", "努力可以彌補天分的不足。"], ["Nothing can compensate for the loss of a friend.", "失去朋友是什麼都彌補不了的。"]]}
+  ]
+}
