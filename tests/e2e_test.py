@@ -322,6 +322,22 @@ def main():
             page.screenshot(path=str(ROOT / 'tests' / 'screenshot-dict.png'), full_page=True)
         check('11. 手機寬度（390px）沒有左右溢出', t_layout)
 
+        def t_service_worker():
+            # 離線快取（sw.js）要能成功安裝、接管頁面，重新整理後仍正常顯示
+            ctx3 = browser.new_context(viewport={'width': 390, 'height': 844})
+            sw_page = ctx3.new_page()
+            sw_errors = []
+            sw_page.on('pageerror', lambda e: sw_errors.append(str(e)))
+            sw_page.goto(BASE)
+            state = sw_page.evaluate("""() => navigator.serviceWorker.ready.then(r => r.active && r.active.state)""")
+            assert state in ('activated', 'activating'), state
+            sw_page.reload()
+            sw_page.wait_for_selector('#home-topics .cat-card', timeout=10000)
+            assert sw_page.evaluate('!!navigator.serviceWorker.controller'), 'service worker 沒有接管頁面'
+            assert not sw_errors, sw_errors
+            ctx3.close()
+        check('離線快取（Service Worker）可以安裝並接管頁面', t_service_worker)
+
         def t_blocked_db():
             # 另一個分頁開著舊版（資料庫第 1 版）時，新版首頁的主題仍要顯示，並提示關掉舊分頁
             ctx2 = browser.new_context(viewport={'width': 390, 'height': 844}, service_workers='block')

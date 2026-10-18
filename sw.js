@@ -1,6 +1,8 @@
-﻿// ?Ｙ?敹怠?嚗pp ?祈澈??獢?敺翰?嚗?敺翰??蝬脰楝銋?剁?嚗??????// ?寧??? VERSION ??嚗?璈?甈⊥??停?????const VERSION = 'v5';
+﻿// 離線快取：App 本身的檔案先從快取拿（開很快、沒網路也能用），同時在背景抓新版。
+// 改版時把 VERSION 加一，手機下次打開就會換成新版。
+const VERSION = 'v6';
 const CACHE = 'english-app-' + VERSION;
-// 閰鞈?嚗ict/嚗?憭批?敺?霈??仿?撠勗?????Ｙ?閰?耨?嫣蜓憿?dict/topics.json嚗???DICT_VERSION ??
+// 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題、例句時把 DICT_VERSION 加一
 const DICT_VERSION = 'd2';
 const DICT_CACHE = 'english-dict-' + DICT_VERSION;
 const ASSETS = [
@@ -44,19 +46,22 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
 
-  // 摮?嚗???甈∪停摮絲靘?  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
+  // 字型：抓過一次就存起來
+  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
     e.respondWith(cacheFirst(CACHE, req));
     return;
   }
 
-  // ?嗡?蝬脩?嚗?銝??詻蕃霅胯?喉??湔韏啁雯頝?  if (url.origin !== location.origin) return;
+  // 其他網站（線上字典、翻譯、發音）直接走網路
+  if (url.origin !== location.origin) return;
 
   if (url.pathname.includes('/dict/')) {
     e.respondWith(cacheFirst(DICT_CACHE, req));
     return;
   }
 
-  // ?芸楛??獢??策敹怠?嚗??舀??  e.respondWith(
+  // 自己的檔案：先給快取，背景更新
+  e.respondWith(
     caches.open(CACHE).then(async c => {
       const hit = await c.match(req, { ignoreSearch: true });
       const net = fetch(req)
