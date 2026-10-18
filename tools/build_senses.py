@@ -121,6 +121,17 @@ def main(pairs_path):
         stats['words_with_ex'] += has_ex
         shards[shard_of(key)][key] = out
 
+    # 主題詞彙是否都有逐義例句
+    topics = json.loads((ROOT / 'dict' / 'topics.json').read_text(encoding='utf-8'))
+    no_senses = [k for k in topics['byWord'] if not any(k in s for s in shards.values())]
+    stats['topic_words'] = len(topics['byWord'])
+    stats['topic_words_missing'] = len(no_senses)
+    counts = [len(s['ex']) for shard in shards.values() for senses in shard.values() for s in senses]
+    stats['ex_2_3'] = sum(2 <= c <= 3 for c in counts)
+    stats['ex_4_plus'] = sum(c >= 4 for c in counts)
+    if no_senses:
+        warns.append(f'主題詞彙中有 {len(no_senses)} 個字還沒有逐義例句：{", ".join(no_senses[:30])}')
+
     if errors:
         print('❌ 發現錯誤：')
         for e in errors:
@@ -136,6 +147,8 @@ def main(pairs_path):
     print(f"✅ {stats['words']} 個字、{stats['senses']} 個詞義；"
           f"2 句以上 {stats['ok']}、只有 1 句 {stats['one']}、沒有例句 {stats['zero']}；"
           f"真人例句（Tatoeba）{stats['tatoeba']} 句（翻譯經修訂 {stats['revised']}）、AI 補充 {stats['ai']} 句")
+    print(f"   每義 2～3 句：{stats['ex_2_3']}、4 句以上：{stats['ex_4_plus']}；"
+          f"主題詞彙 {stats['topic_words']} 個，缺逐義例句 {stats['topic_words_missing']} 個")
     if warns:
         print(f'⚠️ {len(warns)} 個提醒：')
         for w in warns:

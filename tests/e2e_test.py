@@ -164,6 +164,19 @@ def main():
             expect(page.locator('#senses-box .ex-en mark').first).to_have_text('layover')
             search('abandon')
             expect(page.locator('#senses-box')).to_contain_text('還在整理中')
+            # 進階商務字與多義字
+            search('allocate')
+            page.wait_for_selector('#senses-box .sense-item')
+            expect(page.locator('#senses-box .ex-en mark').first).to_contain_text('allocate')
+            search('plant')
+            page.wait_for_selector('#senses-box .sense-item')
+            zh = page.locator('#senses-box .sz').all_text_contents()
+            assert any('植物' in z for z in zh) and any('工廠' in z for z in zh), zh
+            # 可分片語：call (me) back 的整段都要標示
+            search('call back')
+            page.wait_for_selector('#senses-box .sense-item')
+            marks = page.locator('#senses-box .ex-en mark').all_text_contents()
+            assert any(m.startswith('call') and m.endswith('back') for m in marks), marks
         check('詞義與例句：依詞性→詞義分組，每義 2 句以上，有高亮、翻譯、來源', t_senses)
 
         def t_any():

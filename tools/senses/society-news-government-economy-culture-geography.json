@@ -1,0 +1,484 @@
+{
+  "news": [
+    {"p": "n", "zh": "消息", "t": [31010, 64976, 352274], "fix": {"31010": "他聽到這個消息一定會很高興。", "64976": "爸！媽！我有好消息要告訴你們！", "352274": "聽到這個消息時，我想哭。"}},
+    {"p": "n", "zh": "新聞", "ai": [["I watch the news every evening.", "我每天晚上都看新聞。"], ["The fire was on the news this morning.", "那場火災上了今天早上的新聞。"]]}
+  ],
+  "headline": [
+    {"p": "n", "zh": "（新聞）標題、頭條", "t": [2203], "fix": {"2203": "今天早上那則頭條吸引了我的目光。"}, "ai": [["The story made headlines around the world.", "這件事登上了全球各地的頭條。"]]}
+  ],
+  "article": [
+    {"p": "n", "zh": "文章", "t": [319877, 2173, 792738], "fix": {"319877": "那篇關於佛教的文章又燃起了我對東方宗教的興趣。", "2173": "他剛發表了一系列有趣的文章。", "792738": "我把覺得有趣的文章用粗體標出來了。"}},
+    {"p": "n", "zh": "（文法）冠詞", "ai": [["\"A\" and \"the\" are articles.", "a 和 the 是冠詞。"], ["Many learners forget to use articles.", "很多學習者會忘記用冠詞。"]]}
+  ],
+  "journalist": [
+    {"p": "n", "zh": "記者、新聞工作者", "t": [2708737, 251588, 276095], "fix": {"276095": "谷先生與其說是學者，不如說是新聞工作者。"}}
+  ],
+  "reporter": [
+    {"p": "n", "zh": "記者", "t": [562104, 254038, 601985], "fix": {"562104": "他被一大群記者包圍。", "601985": "房間裡擠滿了等著記者會開始的記者。"}}
+  ],
+  "correspondent": [
+    {"p": "n", "zh": "特派員、駐外記者", "ai": [["She is the BBC's correspondent in Tokyo.", "她是 BBC 駐東京的特派員。"], ["Our correspondent reports from the scene.", "我們的特派記者在現場為您報導。"]]}
+  ],
+  "anchor": [
+    {"p": "n", "zh": "新聞主播", "src": "app", "ai": [["She has been a news anchor for twenty years.", "她當新聞主播已經二十年了。"], ["The anchor read the breaking news.", "主播播報了這則快訊。"]]},
+    {"p": "n", "zh": "錨", "ai": [["The ship dropped anchor near the island.", "船在島附近下錨。"], ["They pulled up the anchor and sailed away.", "他們拉起錨，揚帆而去。"]]}
+  ],
+  "editorial": [
+    {"p": "n", "zh": "社論", "ai": [["Today's editorial criticizes the new tax.", "今天的社論批評新稅制。"], ["She writes editorials for a local paper.", "她為一家地方報紙撰寫社論。"]]},
+    {"p": "adj", "zh": "編輯的", "t": [34467], "fix": {"34467": "比爾在編輯部工作。"}, "ai": [["The magazine has a small editorial team.", "這本雜誌的編輯團隊很小。"]]}
+  ],
+  "media": [
+    {"p": "n", "zh": "媒體", "t": [13964091, 402453], "fix": {"13964091": "媒體重創了他的名聲。", "402453": "在這件事情上，我覺得那些垃圾媒體只報導片面的資訊。"}, "ai": [["The news spread quickly through the media.", "這則消息透過媒體迅速傳開。"]]}
+  ],
+  "broadcast": [
+    {"p": "v", "zh": "播出、廣播", "t": [286490, 35950, 387432], "fix": {"286490": "他過世的消息傳遍了全世界。", "35950": "我們每個整點播報新聞。", "387432": "那個節目現在正在播出。"}},
+    {"p": "n", "zh": "（電視、廣播）節目", "ai": [["We watched a live broadcast of the concert.", "我們看了演唱會的現場直播。"], ["The news broadcast starts at seven.", "新聞節目七點開始。"]]}
+  ],
+  "press": [
+    {"p": "v", "zh": "按、壓", "t": [5796995, 4008790, 2826318], "fix": {"5796995": "按下這個按鈕，窗戶就會自動打開。", "4008790": "開始下載時，請按「儲存」鍵。", "2826318": "她把鼻子貼在玻璃上。"}},
+    {"p": "n", "zh": "（the press）新聞界、報章媒體", "ai": [["The minister refused to speak to the press.", "部長拒絕對媒體發言。"], ["Freedom of the press is important in a democracy.", "新聞自由在民主社會中很重要。"]]},
+    {"p": "v", "zh": "催促、逼迫", "t": [303745], "fix": {"303745": "他催我儘快回覆。"}, "ai": [["The reporters pressed him for an answer.", "記者們追問他要一個答案。"]]}
+  ],
+  "source": [
+    {"p": "n", "zh": "（消息）來源、出處", "t": [7791044, 65745, 842701], "fix": {"7791044": "我是從一些可靠的消息來源得知這件事的。", "65745": "網際網路是極為寶貴的資訊來源。", "842701": "把你參考資料的書目交上來。"}},
+    {"p": "n", "zh": "根源；（快樂等的）來源", "t": [1954614, 751253], "fix": {"1954614": "我找不到問題的根源。", "751253": "他的工作是他引以為傲的來源。"}}
+  ],
+  "coverage": [
+    {"p": "n", "zh": "（新聞）報導", "ai": [["The election got a lot of media coverage.", "這次選舉受到媒體大量報導。"], ["Live coverage of the game starts at eight.", "比賽的現場轉播八點開始。"]]},
+    {"p": "n", "zh": "（保險、訊號的）涵蓋範圍", "ai": [["Does your insurance include coverage for dental care?", "你的保險有涵蓋牙科嗎？"], ["There's no mobile coverage in the mountains.", "山區沒有手機訊號。"]]}
+  ],
+  "circulation": [
+    {"p": "n", "zh": "（報刊）發行量", "t": [4755335], "fix": {"4755335": "他在一家發行量很大的報社工作。"}, "ai": [["The magazine has a circulation of 50,000.", "這本雜誌的發行量是五萬份。"]]},
+    {"p": "n", "zh": "（血液）循環；流通", "ai": [["Exercise improves blood circulation.", "運動能促進血液循環。"], ["These coins are no longer in circulation.", "這些硬幣已經不再流通了。"]]}
+  ],
+  "censorship": [
+    {"p": "n", "zh": "審查制度", "ai": [["The film was banned because of government censorship.", "這部電影因為政府審查而被禁。"], ["Internet censorship is strict in some countries.", "有些國家的網路審查很嚴格。"]]}
+  ],
+  "tabloid": [
+    {"p": "n", "zh": "八卦小報", "ai": [["The tabloids are full of celebrity gossip.", "八卦小報滿是名人的八卦。"], ["Don't believe everything you read in the tabloids.", "別盡信八卦小報上寫的東西。"]]}
+  ],
+  "paparazzi": [
+    {"p": "n", "zh": "狗仔隊", "ai": [["The actress was followed by paparazzi everywhere she went.", "那位女演員走到哪裡都有狗仔隊跟著。"], ["The couple tried to hide from the paparazzi.", "那對情侶試著躲開狗仔隊。"]]}
+  ],
+  "fact": [
+    {"p": "n", "zh": "事實", "t": [43284, 48771, 667905], "fix": {"43284": "這個故事和事實不符。", "48771": "這份說明和事實不符。", "667905": "事實是頑固的，統計數字卻是可以操弄的。"}},
+    {"p": "phr", "zh": "in fact / as a matter of fact：事實上、其實", "t": [49953, 265212], "fix": {"49953": "那些葡萄看起來很甜，其實是酸的。", "265212": "事實上，我會說西班牙文。"}}
+  ],
+  "rumor": [
+    {"p": "n", "zh": "謠言、傳聞", "t": [283802, 2155922, 325462], "fix": {"283802": "有傳言說他辭職了。", "2155922": "結果那個謠言是假的。", "325462": "大家都說不要把謠言當真，但說起來容易做起來難。"}}
+  ],
+  "fake news": [
+    {"p": "phr", "zh": "假新聞", "t": [6148614], "ai": [["Always check the source before sharing a story, or you may spread fake news.", "分享消息前一定要查證來源，不然可能會散播假新聞。"]]}
+  ],
+  "bias": [
+    {"p": "n", "zh": "偏見", "t": [270482], "fix": {"270482": "人們往往帶著偏見看待他人。"}, "ai": [["The report shows a clear bias against young workers.", "這份報告明顯對年輕員工有偏見。"]]},
+    {"p": "adj", "zh": "（biased）有偏見的、偏頗的", "t": [3330647, 402453], "fix": {"3330647": "我沒有偏見。", "402453": "在這件事情上，我覺得那些垃圾媒體只報導偏頗的資訊。"}}
+  ],
+  "reliable": [
+    {"p": "adj", "zh": "可靠的", "t": [7791044, 278914, 2306750], "fix": {"7791044": "我是從一些可靠的消息來源得知這件事的。"}}
+  ],
+  "misinformation": [
+    {"p": "n", "zh": "錯誤資訊", "ai": [["Social media can spread misinformation very quickly.", "社群媒體可能讓錯誤資訊迅速散播。"], ["The government launched a campaign against health misinformation.", "政府發起了打擊健康錯誤資訊的宣導活動。"]]}
+  ],
+  "credible": [
+    {"p": "adj", "zh": "可信的", "t": [1075916], "fix": {"1075916": "想讓人相信你，就只說他們本來就相信的事。"}, "ai": [["We need credible evidence, not just rumors.", "我們需要可信的證據，而不是謠言。"]]}
+  ],
+  "allegation": [
+    {"p": "n", "zh": "指控、（未經證實的）說法", "ai": [["He denied all the allegations against him.", "他否認所有對他的指控。"], ["The police are investigating the allegations.", "警方正在調查這些指控。"]]}
+  ],
+  "verify": [
+    {"p": "v", "zh": "查證、確認", "t": [5896421, 7834137], "fix": {"5896421": "我可以親自證實那是真的。", "7834137": "關於以下內容，我想確認兩件事。"}}
+  ],
+  "sensationalism": [
+    {"p": "n", "zh": "煽情報導、譁眾取寵", "ai": [["The newspaper was criticized for its sensationalism.", "這家報紙因為煽情報導而受到批評。"], ["Good journalism avoids sensationalism.", "好的新聞報導會避免譁眾取寵。"]]}
+  ],
+  "government": [
+    {"p": "n", "zh": "政府", "t": [237999, 271439, 4933869], "fix": {"237999": "能把經濟管好的政府很少。", "271439": "政府用直升機把物資運到那座島上。", "4933869": "政府明確表示打算減稅。"}}
+  ],
+  "president": [
+    {"p": "n", "zh": "總統", "t": [243196, 244765, 28380], "fix": {"243196": "總統今晚將在電視上發表演說。", "244765": "我們昨晚聽了總統在電視上的談話。", "28380": "以下是總統演講的摘要。"}},
+    {"p": "n", "zh": "（公司）總裁；（團體）會長", "t": [62882], "fix": {"62882": "社團會長強森先生很快就到了。"}, "ai": [["She became president of the company at 40.", "她四十歲就當上了公司總裁。"]]}
+  ],
+  "minister": [
+    {"p": "n", "zh": "部長、大臣", "t": [21848, 3713332, 62052], "fix": {"21848": "外交部長說戰爭無可避免。", "3713332": "他是這個國家的總理。", "62052": "這是總理住的房子。"}},
+    {"p": "n", "zh": "（基督教）牧師", "ai": [["The minister gave a short speech at the wedding.", "牧師在婚禮上簡短致詞。"], ["Her father is a church minister.", "她父親是教會的牧師。"]]}
+  ],
+  "official": [
+    {"p": "n", "zh": "官員", "t": [11121334, 5085415], "fix": {"11121334": "聯邦、州和地方官員立刻承諾會重建。", "5085415": "去年官員人數增加了一倍。"}},
+    {"p": "adj", "zh": "官方的、正式的", "t": [479396, 13550691], "fix": {"479396": "泰文是泰國的官方語言。", "13550691": "詹姆斯．卡麥隆親自官宣！"}}
+  ],
+  "public": [
+    {"p": "adj", "zh": "公眾的、公共的", "t": [838854], "fix": {"838854": "這個城鎮的人已經不再重視公共道德。"}, "ai": [["Smoking is not allowed in public places.", "公共場所禁止吸菸。"]]},
+    {"p": "n", "zh": "（the public）大眾、民眾", "t": [799136], "fix": {"799136": "這場展覽引起了大眾的高度關注。"}, "ai": [["The museum is open to the public every day.", "博物館每天對外開放。"]]},
+    {"p": "phr", "zh": "in public：公開地、當眾", "t": [15966, 263665], "fix": {"15966": "你很快就會習慣當眾說話了。", "263665": "那件事之後，那位政治人物就沒再公開露面。"}}
+  ],
+  "legislature": [
+    {"p": "n", "zh": "立法機關、議會", "ai": [["The legislature passed the new law last week.", "立法機關上週通過了新法。"], ["Taiwan's legislature is called the Legislative Yuan.", "台灣的立法機關叫做立法院。"]]}
+  ],
+  "bureaucracy": [
+    {"p": "n", "zh": "官僚體制；繁文縟節", "t": [8558170], "fix": {"8558170": "阿爾及利亞需要擺脫官僚體制。"}, "ai": [["There's too much bureaucracy in getting a simple permit.", "辦一張簡單的許可證都要經過一堆繁文縟節。"]]}
+  ],
+  "cabinet": [
+    {"p": "n", "zh": "內閣", "ai": [["The prime minister announced a new cabinet.", "總理宣布了新內閣名單。"], ["The cabinet meets every Thursday.", "內閣每週四開會。"]]},
+    {"p": "n", "zh": "櫃子、櫥櫃", "t": [39640, 12090947], "fix": {"39640": "桌巾在櫃子裡。", "12090947": "書從櫃子上掉了下來。"}}
+  ],
+  "incumbent": [
+    {"p": "n", "zh": "現任者", "ai": [["The incumbent won the election easily.", "現任者輕鬆贏得選舉。"], ["It's hard to beat an incumbent.", "要打敗現任者很難。"]]},
+    {"p": "adj", "zh": "現任的", "ai": [["The incumbent mayor is running for a second term.", "現任市長正在爭取連任。"], ["The incumbent government lost support.", "現任政府失去了支持。"]]}
+  ],
+  "bipartisan": [
+    {"p": "adj", "zh": "兩黨的、跨黨派的", "ai": [["The bill had bipartisan support.", "這項法案獲得兩黨支持。"], ["They formed a bipartisan committee.", "他們成立了一個跨黨派委員會。"]]}
+  ],
+  "impeach": [
+    {"p": "v", "zh": "彈劾", "t": [13161038], "fix": {"13161038": "你們美國人也可以彈劾總統啊。"}, "ai": [["The president was impeached but not removed from office.", "總統遭到彈劾，但沒有被免職。"]]}
+  ],
+  "election": [
+    {"p": "n", "zh": "選舉", "t": [4332274, 13155912, 7765344], "fix": {"4332274": "明天我們就會知道誰贏得選舉了。", "13155912": "選舉什麼時候舉行？"}}
+  ],
+  "democracy": [
+    {"p": "n", "zh": "民主（制度）；民主國家", "t": [322690, 1260076, 288845], "fix": {"322690": "個人自由是民主的靈魂。", "1260076": "熱愛民主就是熱愛平等。", "288845": "他對美國的民主一無所知。"}}
+  ],
+  "referendum": [
+    {"p": "n", "zh": "公民投票、公投", "ai": [["The country will hold a referendum on the issue.", "這個國家將針對這個議題舉行公投。"], ["The referendum failed to pass.", "這次公投沒有通過。"]]}
+  ],
+  "constituency": [
+    {"p": "n", "zh": "選區；選民", "ai": [["She represents a rural constituency.", "她代表一個鄉村選區。"], ["The politician visited his constituency every weekend.", "那位政治人物每個週末都回選區走訪。"]]}
+  ],
+  "ballot": [
+    {"p": "n", "zh": "選票；投票", "ai": [["Voters put their ballots in the box.", "選民把選票投進票箱。"], ["The leader was chosen by secret ballot.", "領導人是以不記名投票選出的。"]]}
+  ],
+  "turnout": [
+    {"p": "n", "zh": "投票率；出席人數", "ai": [["Voter turnout was over 70% this year.", "今年的投票率超過七成。"], ["There was a good turnout for the event.", "這場活動來了不少人。"]]}
+  ],
+  "gerrymander": [
+    {"p": "v", "zh": "不公正地劃分選區（以圖利某政黨）", "ai": [["Critics say the party gerrymandered the districts to win more seats.", "批評者說該黨不公正地重劃選區，以贏得更多席次。"], ["Gerrymandering makes elections less fair.", "不公正地劃分選區會讓選舉變得不公平。"]]}
+  ],
+  "law": [
+    {"p": "n", "zh": "法律", "t": [23266, 57140, 971792], "fix": {"23266": "我們應該一直遵守法律。", "57140": "這條法律會剝奪我們的基本權利。", "971792": "法律之前人人平等。"}},
+    {"p": "n", "zh": "定律、法則", "t": [23350], "fix": {"23350": "就連我們的大腦也遵循物理定律。"}, "ai": [["Newton discovered the law of gravity.", "牛頓發現了萬有引力定律。"]]}
+  ],
+  "legal": [
+    {"p": "adj", "zh": "法律的", "t": [681338, 4932026, 6112971], "fix": {"681338": "美國的司法制度是世界上最好的。", "4932026": "律師會勸家長採取進一步的法律行動。", "6112971": "大多數外行人看不懂法律術語。"}},
+    {"p": "adj", "zh": "合法的", "ai": [["Is it legal to park here?", "在這裡停車合法嗎？"], ["The legal drinking age in Taiwan is 18.", "台灣的法定飲酒年齡是 18 歲。"]]}
+  ],
+  "illegal": [
+    {"p": "adj", "zh": "違法的", "t": [61753, 12137199, 6533414], "fix": {"61753": "把車停在這裡是違法的。", "12137199": "腳踏車騎在汽車右側是違法的。", "6533414": "我這輩子從來沒做過違法的事。"}}
+  ],
+  "court": [
+    {"p": "n", "zh": "法院、法庭", "t": [317886, 317889, 321038], "fix": {"317886": "被告週五將出庭。", "317889": "被告會向上級法院上訴。", "321038": "法院判決他謀殺罪名不成立。"}},
+    {"p": "n", "zh": "（網球、籃球）球場", "ai": [["The tennis courts are behind the school.", "網球場在學校後面。"], ["The players ran onto the court.", "球員們跑上球場。"]]}
+  ],
+  "right": [
+    {"p": "n", "zh": "權利", "t": [57140, 326489], "fix": {"57140": "這條法律會剝奪我們的基本權利。", "326489": "基本人權當然應該受到尊重。"}},
+    {"p": "adj", "zh": "對的、正確的", "t": [24151], "fix": {"24151": "這間房子看起來不錯，而且價格也合理。"}, "ai": [["You're right. I made a mistake.", "你說得對，我錯了。"]]},
+    {"p": "adj", "zh": "右邊的", "t": [27077], "fix": {"27077": "你右腳的襪子穿反了。"}, "ai": [["Turn right at the corner.", "在轉角右轉。"]]},
+    {"p": "adv", "zh": "（right now 等）正好、立刻", "t": [40151], "fix": {"40151": "我朋友現在正在電話上。"}, "ai": [["I'll be right back.", "我馬上回來。"]]}
+  ],
+  "legislation": [
+    {"p": "n", "zh": "法律、法規；立法", "t": [10251096], "fix": {"10251096": "美國總統有權否決法案並將其退回。"}, "ai": [["New legislation will ban single-use plastic bags.", "新法將禁止一次性塑膠袋。"]]}
+  ],
+  "statute": [
+    {"p": "n", "zh": "成文法規、法令", "ai": [["The statute was passed in 1990.", "這項法令於 1990 年通過。"], ["Under the statute, companies must report their emissions.", "根據法規，企業必須申報排放量。"]]}
+  ],
+  "constitution": [
+    {"p": "n", "zh": "憲法", "t": [246236, 320163, 11559028], "fix": {"246236": "思想自由受憲法保障。", "320163": "平等受到憲法保障。", "11559028": "美國憲法寫得很糟。"}},
+    {"p": "n", "zh": "體質", "ai": [["He has a strong constitution and rarely gets sick.", "他體質很好，很少生病。"], ["She has a delicate constitution.", "她體質很弱。"]]}
+  ],
+  "verdict": [
+    {"p": "n", "zh": "判決", "t": [282537], "fix": {"282537": "陪審團的有罪判決引發了廣泛的爭論。"}, "ai": [["The jury will announce its verdict tomorrow.", "陪審團明天將宣布判決。"]]},
+    {"p": "n", "zh": "評斷、意見", "ai": [["What's your verdict on the new restaurant?", "你覺得那家新餐廳怎麼樣？"], ["The verdict from the critics was positive.", "評論家的評價是正面的。"]]}
+  ],
+  "ratify": [
+    {"p": "v", "zh": "批准（條約、協議）", "ai": [["Both countries must ratify the treaty.", "兩國都必須批准這項條約。"], ["The agreement was ratified by the parliament.", "這項協議獲得了國會批准。"]]}
+  ],
+  "economy": [
+    {"p": "n", "zh": "經濟", "t": [237988, 295710, 765315], "fix": {"237988": "穩定的經濟是每個政府的目標。", "295710": "他對經濟發展貢獻良多。", "765315": "這也有助於強化城市的經濟。"}},
+    {"p": "phr", "zh": "economy class：經濟艙", "ai": [["We flew economy class to save money.", "為了省錢，我們搭經濟艙。"], ["Economy class was full, so we upgraded.", "經濟艙客滿了，所以我們升等了。"]]}
+  ],
+  "inflation": [
+    {"p": "n", "zh": "通貨膨脹", "t": [65708, 807356], "fix": {"65708": "隨著通貨膨脹率上升，美元的價值下跌。", "807356": "當時利率和通膨都很高。"}}
+  ],
+  "recession": [
+    {"p": "n", "zh": "經濟衰退", "t": [318602], "fix": {"318602": "因為經濟衰退，失業率上升到 5%。"}, "ai": [["Many people lost their jobs during the recession.", "經濟衰退期間很多人失業。"]]}
+  ],
+  "growth": [
+    {"p": "n", "zh": "成長、增長", "t": [19132, 276020, 4728110], "fix": {"19132": "增加教育經費將刺激經濟成長。", "276020": "第三季國民生產毛額比上一季成長了 1%。", "4728110": "進口量快速成長，讓我們很驚訝。"}},
+    {"p": "n", "zh": "（生物的）生長", "ai": [["Children need protein for healthy growth.", "孩子需要蛋白質才能健康成長。"], ["Water and sunlight are needed for plant growth.", "植物生長需要水和陽光。"]]}
+  ],
+  "unemployment": [
+    {"p": "n", "zh": "失業；失業率", "t": [239563, 280093, 4989283], "fix": {"280093": "討論的重點放在失業問題。", "4989283": "解決失業最好的辦法就是去工作。"}}
+  ],
+  "interest rate": [
+    {"p": "phr", "zh": "利率", "t": [5134823, 807356], "fix": {"5134823": "利率還是很低。", "807356": "當時利率和通膨都很高。"}}
+  ],
+  "fiscal": [
+    {"p": "adj", "zh": "財政的", "t": [239513], "fix": {"239513": "減稅常被當作刺激經濟的主要財政工具。"}, "ai": [["The government announced a new fiscal policy.", "政府宣布了新的財政政策。"]]}
+  ],
+  "deficit": [
+    {"p": "n", "zh": "赤字", "ai": [["The government has a large budget deficit.", "政府有很大的預算赤字。"], ["The country has a trade deficit with China.", "這個國家對中國有貿易逆差。"]]}
+  ],
+  "subsidy": [
+    {"p": "n", "zh": "補貼、補助", "t": [432828], "fix": {"432828": "她拒絕了我提供的補助。"}, "ai": [["Farmers receive government subsidies.", "農民會領取政府補貼。"]]}
+  ],
+  "stagflation": [
+    {"p": "n", "zh": "停滯性通膨", "ai": [["Stagflation is a mix of high inflation and slow growth.", "停滯性通膨是高通膨加上經濟成長緩慢。"], ["Economists warn of possible stagflation next year.", "經濟學家警告明年可能出現停滯性通膨。"]]}
+  ],
+  "austerity": [
+    {"p": "n", "zh": "撙節、緊縮（政策）", "ai": [["The government introduced austerity measures to cut debt.", "政府推出撙節措施以減少債務。"], ["Many people protested against austerity.", "許多人抗議緊縮政策。"]]}
+  ],
+  "investment": [
+    {"p": "n", "zh": "投資", "t": [5722391, 802915, 1094237], "fix": {"5722391": "我們認為太陽能板是很好的投資。", "802915": "她評估投資非常準確。", "1094237": "湯姆一年內讓他的投資翻了一倍。"}}
+  ],
+  "investor": [
+    {"p": "n", "zh": "投資人", "t": [804365, 11272346, 1830205], "fix": {"804365": "外國投資人把資金從美國撤出。", "11272346": "她不是創辦人，她是投資人。", "1830205": "那個投資人侵吞了客戶的資金。"}}
+  ],
+  "volatility": [
+    {"p": "n", "zh": "（價格、市場的）波動性", "ai": [["Investors are worried about market volatility.", "投資人擔心市場波動。"], ["The volatility of oil prices affects many industries.", "油價波動影響許多產業。"]]}
+  ],
+  "speculation": [
+    {"p": "n", "zh": "猜測、揣測", "t": [3574593], "fix": {"3574593": "我不會參與揣測。"}, "ai": [["There is a lot of speculation about who will be the next CEO.", "大家都在猜下一任執行長會是誰。"]]},
+    {"p": "n", "zh": "投機（買賣）", "ai": [["Speculation pushed house prices up quickly.", "投機炒作讓房價迅速上漲。"], ["He lost a fortune in land speculation.", "他炒地皮賠了一大筆錢。"]]}
+  ],
+  "company": [
+    {"p": "n", "zh": "公司", "t": [281351, 49084, 716988], "fix": {"281351": "日本企業已經建立了品質好的聲譽。", "49084": "那家公司在廣告上花了很多錢。", "716988": "很多公司實施每天八小時工作制。"}},
+    {"p": "n", "zh": "陪伴；同伴", "t": [261531], "fix": {"261531": "跟我爸爸在一起時，我從來沒自在過。"}, "ai": [["I enjoy her company.", "我很喜歡跟她在一起。"]]}
+  ],
+  "industry": [
+    {"p": "n", "zh": "產業、工業", "t": [54534, 281502, 13646906], "fix": {"54534": "電腦產業有很多工作機會。", "281502": "日本在高科技產業很有競爭力。", "13646906": "市政府應該補貼固定成本高的產業中的小企業。"}}
+  ],
+  "export": [
+    {"p": "n", "zh": "出口；出口品", "t": [305220, 73178, 244709], "fix": {"305220": "他們主要的出口品是紡織品，尤其是絲和棉。", "73178": "一月的出口比去年同期成長了 20%。", "244709": "去年進口超過出口。"}},
+    {"p": "v", "zh": "出口；（電腦）匯出", "ai": [["Taiwan exports a lot of computer chips.", "台灣出口大量電腦晶片。"], ["You can export the data to Excel.", "你可以把資料匯出成 Excel 檔。"]]}
+  ],
+  "import": [
+    {"p": "v", "zh": "進口；（電腦）匯入", "t": [29179, 324281], "fix": {"29179": "我們從印度進口茶葉。", "324281": "進口車只占不到 8%。"}},
+    {"p": "n", "zh": "進口；進口品", "t": [71854, 803266], "fix": {"71854": "最近從亞洲國家的進口量不斷擴大。", "803266": "他想降低進口稅。"}}
+  ],
+  "trade": [
+    {"p": "n", "zh": "貿易", "t": [10251097], "fix": {"10251097": "請問你們有人是美國貿易代表團的嗎？"}, "ai": [["Trade between the two countries has grown.", "兩國之間的貿易成長了。"]]},
+    {"p": "v", "zh": "做貿易；交易", "t": [11552030, 300717], "fix": {"11552030": "日本和好幾個國家有貿易往來。", "300717": "他在上一波景氣時炒股賺了一大筆錢。"}},
+    {"p": "v", "zh": "交換", "t": [52512, 257300], "fix": {"52512": "約翰喜歡和朋友交換郵票。", "257300": "我用舊車換了一輛新車。"}}
+  ],
+  "competition": [
+    {"p": "n", "zh": "競爭", "t": [41090], "fix": {"41090": "可是在「真正的大人世界」裡，競爭很多。"}, "ai": [["There is strong competition between the two companies.", "兩家公司之間競爭激烈。"]]},
+    {"p": "n", "zh": "比賽、競賽", "t": [471377, 776156, 1583539], "fix": {"471377": "他想參加比賽。", "776156": "她贏過很多比賽。", "1583539": "我們隊在桌球比賽中是種子隊。"}}
+  ],
+  "tariff": [
+    {"p": "n", "zh": "關稅", "ai": [["The US raised tariffs on imported steel.", "美國提高了進口鋼鐵的關稅。"], ["High tariffs make foreign goods more expensive.", "高關稅讓外國商品變得更貴。"]]}
+  ],
+  "sanction": [
+    {"p": "n", "zh": "（常用複數）制裁", "ai": [["Many countries imposed sanctions on the regime.", "許多國家對該政權實施制裁。"], ["The sanctions hurt the country's economy.", "這些制裁重創了該國經濟。"]]},
+    {"p": "n", "zh": "批准、認可", "t": [59448], "fix": {"59448": "要進入這棟建築，必須得到主管機關的批准。"}, "ai": [["The plan has the sanction of the board.", "這個計畫獲得了董事會的認可。"]]}
+  ],
+  "monopoly": [
+    {"p": "n", "zh": "壟斷、獨占", "t": [302084], "fix": {"302084": "他反對壟斷。"}, "ai": [["The company has a monopoly on the city's water supply.", "這家公司壟斷了全市的供水。"]]},
+    {"p": "n", "zh": "（Monopoly）大富翁（桌遊）", "t": [681052], "fix": {"681052": "大富翁是很受家庭歡迎的遊戲。"}, "ai": [["We played Monopoly all night.", "我們玩了一整晚的大富翁。"]]}
+  ],
+  "globalization": [
+    {"p": "n", "zh": "全球化", "t": [5496549, 8853762], "fix": {"5496549": "我們反對全球化。", "8853762": "如果經濟全球化無法避免，它應該優先服務人類，而不是跨國企業的利益。"}}
+  ],
+  "bailout": [
+    {"p": "n", "zh": "紓困（方案）", "ai": [["The government approved a bailout for the airline.", "政府批准了對這家航空公司的紓困方案。"], ["The bank needed a bailout to survive.", "這家銀行需要紓困才能存活。"]]}
+  ],
+  "festival": [
+    {"p": "n", "zh": "節日、節慶", "t": [756981, 1069793, 27171], "fix": {"756981": "春節也就是農曆新年。", "1069793": "今年中秋節是星期一嗎？", "27171": "稻米收成時會舉辦慶典。"}},
+    {"p": "n", "zh": "（藝術、音樂）節", "ai": [["We went to a music festival last summer.", "我們去年夏天去了一場音樂節。"], ["The film festival is held every October.", "這個影展每年十月舉辦。"]]}
+  ],
+  "tradition": [
+    {"p": "n", "zh": "傳統", "t": [766016, 248482, 22801], "fix": {"766016": "用花迎接春天是中國的傳統。", "248482": "我們必須維持家族傳統。", "22801": "我們要尊重傳統。"}}
+  ],
+  "custom": [
+    {"p": "n", "zh": "習俗、風俗", "t": [55245, 67247, 279917], "fix": {"55245": "這些習俗和我們國家的不一樣。", "67247": "一個國家的禮儀和習俗反映了它的文化。", "279917": "照當時的習俗，他很年輕就結婚了。"}},
+    {"p": "n", "zh": "（個人的）習慣", "t": [277788], "fix": {"277788": "我習慣在早餐前出去散步。"}, "ai": [["It was his custom to read before bed.", "他習慣睡前閱讀。"]]},
+    {"p": "adj", "zh": "訂製的、客製化的", "ai": [["She ordered a custom wedding dress.", "她訂製了一件婚紗。"], ["The app lets you create custom themes.", "這個 App 讓你自訂主題。"]]}
+  ],
+  "celebrate": [
+    {"p": "v", "zh": "慶祝", "t": [62698, 72893, 756983], "fix": {"62698": "凱特幾乎從不慶祝生日。", "72893": "美國人在 2 月 14 日慶祝情人節。", "756983": "慶祝春節一般叫做「過年」。"}}
+  ],
+  "holiday": [
+    {"p": "n", "zh": "假日、節日", "t": [11211756], "fix": {"11211756": "假期期間，京都人山人海。"}, "ai": [["Chinese New Year is the most important holiday in Taiwan.", "農曆新年是台灣最重要的節日。"]]},
+    {"p": "n", "zh": "（英）假期、度假", "t": [12422277, 1218127, 24314], "fix": {"12422277": "我決定今年不去度假。", "1218127": "他們下個月一定會去度假。", "24314": "暑假一結束我就要考試了。"}}
+  ],
+  "ceremony": [
+    {"p": "n", "zh": "典禮、儀式", "t": [7795851, 326805, 254447], "fix": {"7795851": "奧運開幕典禮已經開始了。", "326805": "奧斯卡頒獎典禮是好萊塢最盛大的活動。", "254447": "我不想參加典禮。"}}
+  ],
+  "folklore": [
+    {"p": "n", "zh": "民間傳說、民俗", "ai": [["In Taiwanese folklore, the Moon Lady lives on the moon.", "在台灣民間傳說中，嫦娥住在月亮上。"], ["She studies the folklore of Indigenous peoples.", "她研究原住民的民間傳說。"]]}
+  ],
+  "ritual": [
+    {"p": "n", "zh": "儀式；例行習慣", "t": [269693, 11277819, 11545922], "fix": {"269693": "莊嚴的寺廟裡舉行了一場神聖的儀式。", "11277819": "燔柴祭天是一種古老的祭祀儀式。", "11545922": "祭祀結束後，天就放晴了。"}}
+  ],
+  "commemorate": [
+    {"p": "v", "zh": "紀念", "t": [9419687, 2001], "fix": {"9419687": "端午節是為了紀念屈原。", "2001": "民兵雕像是為了紀念在獨立戰爭中英勇作戰的士兵。"}}
+  ],
+  "indigenous": [
+    {"p": "adj", "zh": "原住民的", "t": [1777856, 9080716], "fix": {"1777856": "澳洲原住民吃袋鼠已經有幾千年的歷史了。", "9080716": "帕查媽媽是安地斯山原住民崇敬的大地與生育女神。"}},
+    {"p": "adj", "zh": "（動植物）原產的、本土的", "t": [2458747, 765399], "fix": {"765399": "熊貓原產於四川，其他地方沒有野生熊貓。"}}
+  ],
+  "heirloom": [
+    {"p": "n", "zh": "傳家寶", "ai": [["This ring is a family heirloom.", "這枚戒指是家傳的寶物。"], ["The watch has been passed down as an heirloom.", "這支錶當作傳家寶代代相傳。"]]}
+  ],
+  "art": [
+    {"p": "n", "zh": "藝術；美術", "t": [40399, 8920090], "fix": {"40399": "每個人多少都對藝術有點興趣。", "8920090": "她在美術展中獲得首獎。"}},
+    {"p": "n", "zh": "技藝、技巧", "t": [313549], "fix": {"313549": "她上夜間課程學防身術。"}, "ai": [["Cooking is an art.", "烹飪是一門藝術。"]]}
+  ],
+  "artist": [
+    {"p": "n", "zh": "藝術家；畫家", "t": [44295, 302223, 315002], "fix": {"44295": "這位窮困的年輕人最後成了偉大的藝術家。"}}
+  ],
+  "painting": [
+    {"p": "n", "zh": "畫作", "t": [59979, 34828, 68492], "fix": {"34828": "畢卡索的畫在我看來很奇怪。", "68492": "那幅畫是印象派藝術的傑作。"}},
+    {"p": "n", "zh": "繪畫；油漆", "t": [312965], "fix": {"312965": "她很有鑑賞畫作的眼光。"}, "ai": [["Painting is her favorite hobby.", "繪畫是她最喜歡的嗜好。"]]}
+  ],
+  "literature": [
+    {"p": "n", "zh": "文學", "t": [259321, 638859, 5933031], "fix": {"638859": "他在牛津大學念英國文學。", "5933031": "他數學和文學都很拿手。"}}
+  ],
+  "masterpiece": [
+    {"p": "n", "zh": "傑作、名作", "t": [8885809, 398986, 49668], "fix": {"398986": "魯西迪的《魔鬼詩篇》是現代文學的傑作。", "49668": "他驚訝地發現，那位大畫家的傑作竟然被倒掛在牆上。"}}
+  ],
+  "exhibit": [
+    {"p": "n", "zh": "展品", "t": [278280, 7801956], "fix": {"278280": "請勿觸碰展品。", "7801956": "不要碰展品。"}},
+    {"p": "v", "zh": "展出", "t": [256545], "fix": {"256545": "我要拿我的玫瑰去花展展出。"}, "ai": [["The museum is exhibiting works by Van Gogh.", "博物館正在展出梵谷的作品。"]]}
+  ],
+  "contemporary": [
+    {"p": "adj", "zh": "當代的", "t": [296086, 1211494, 3133764], "fix": {"296086": "他研究當代文學。", "1211494": "他在思考當代生活的複雜。", "3133764": "現代人的教育程度比過去高得多。"}}
+  ],
+  "artisan": [
+    {"p": "n", "zh": "工匠、手藝人", "t": [13587220, 747904], "fix": {"747904": "離皇宮較遠的南北兩邊，住的是平民、商人、工匠和勞工。"}}
+  ],
+  "history": [
+    {"p": "n", "zh": "歷史", "t": [6041, 601965, 1214428], "fix": {"6041": "你怎麼對日本歷史這麼了解？", "601965": "太空競賽是歷史上令人振奮的時期。", "1214428": "他們被認為是史上最偉大的搖滾樂團。"}},
+    {"p": "n", "zh": "（個人的）經歷、病史", "ai": [["Do you have a history of heart disease in your family?", "你家族有心臟病史嗎？"], ["The company has a long history of making bikes.", "這家公司製造腳踏車的歷史很悠久。"]]}
+  ],
+  "ancient": [
+    {"p": "adj", "zh": "古代的、古老的", "t": [239882, 877919, 12568680], "fix": {"239882": "真希望我能看看古代世界。", "877919": "古人喜歡講英勇的故事。", "12568680": "大熊貓是一種存活至今的古老物種。"}},
+    {"p": "phr", "zh": "ancient history：（口語）早就過去的事", "t": [1858698], "fix": {"1858698": "「湯姆和瑪麗分手了。」「那是老早以前的事了。」"}, "ai": [["Don't worry about that argument. It's ancient history.", "別在意那次吵架了，那都是陳年往事了。"]]}
+  ],
+  "century": [
+    {"p": "n", "zh": "世紀、百年", "t": [29281, 72982, 797193], "fix": {"29281": "倫敦有很大一部分在十七世紀被毀。", "72982": "2001 年是 21 世紀的開始。", "797193": "這項工程橫跨了兩個世紀。"}}
+  ],
+  "war": [
+    {"p": "n", "zh": "戰爭", "t": [1544, 7152099, 38971], "fix": {"1544": "一百萬人在戰爭中喪生。", "38971": "二次大戰時，德國和義大利結盟。"}},
+    {"p": "n", "zh": "（比喻）對抗、競爭", "ai": [["The two companies are in a price war.", "這兩家公司正在打價格戰。"], ["The government declared war on drugs.", "政府向毒品宣戰。"]]}
+  ],
+  "heritage": [
+    {"p": "n", "zh": "（文化、自然）遺產", "t": [12463734], "fix": {"12463734": "鐵橋峽谷是聯合國教科文組織的世界遺產。"}, "ai": [["We must protect our cultural heritage.", "我們必須保護我們的文化遺產。"]]}
+  ],
+  "civilization": [
+    {"p": "n", "zh": "文明", "t": [46053, 8510853, 273980], "fix": {"46053": "這個神話讓我們得以了解古代文明。", "8510853": "你知道人類文明有幾年的歷史嗎？", "273980": "想像力是一切文明的根源。"}}
+  ],
+  "dynasty": [
+    {"p": "n", "zh": "朝代、王朝", "t": [9402015, 7829893, 747874], "fix": {"9402015": "最早的琵琶是在秦朝發明的。", "7829893": "在這座漢朝古墓中發現了一本書。", "747874": "明朝（十五世紀初）時，北京的中心是紫禁城。"}}
+  ],
+  "archaeology": [
+    {"p": "n", "zh": "考古學", "ai": [["She studied archaeology at university.", "她大學念考古學。"], ["Archaeology helps us understand how people lived long ago.", "考古學幫助我們了解古人的生活。"]]}
+  ],
+  "colonial": [
+    {"p": "adj", "zh": "殖民（時期）的", "ai": [["The city has many colonial buildings.", "這座城市有很多殖民時期的建築。"], ["Taiwan was under Japanese colonial rule for fifty years.", "台灣曾經被日本殖民統治五十年。"]]}
+  ],
+  "artifact": [
+    {"p": "n", "zh": "文物、人工製品", "ai": [["The museum displays artifacts from ancient Egypt.", "博物館展出古埃及的文物。"], ["Archaeologists found many artifacts at the site.", "考古學家在遺址發現了許多文物。"]]}
+  ],
+  "relic": [
+    {"p": "n", "zh": "文物、遺物；遺跡", "t": [6089722, 6089716], "fix": {"6089722": "愛護文物，人人有責。", "6089716": "愛護文物是每個人的責任。"}}
+  ],
+  "renaissance": [
+    {"p": "n", "zh": "（the Renaissance）文藝復興", "t": [809876], "fix": {"809876": "文藝復興時期，經院哲學的思想讓位給了實證的思想。"}, "ai": [["Leonardo da Vinci was a great artist of the Renaissance.", "達文西是文藝復興時期的偉大藝術家。"]]},
+    {"p": "n", "zh": "復興", "ai": [["The city is enjoying a cultural renaissance.", "這座城市正在經歷一場文化復興。"], ["Vinyl records are having a renaissance.", "黑膠唱片正在復興。"]]}
+  ],
+  "anthropology": [
+    {"p": "n", "zh": "人類學", "t": [827096], "fix": {"827096": "我是人類學研究生，研究題目是「中醫在英國」。"}, "ai": [["Anthropology is the study of human societies and cultures.", "人類學是研究人類社會與文化的學問。"]]}
+  ],
+  "country": [
+    {"p": "n", "zh": "國家", "t": [26254, 277158, 65724], "fix": {"26254": "世界上很多國家都說英語。", "65724": "印度是世界第七大的國家。"}},
+    {"p": "n", "zh": "（the country）鄉下", "ai": [["They moved to the country to live a quieter life.", "他們搬到鄉下過比較寧靜的生活。"], ["I grew up in the country.", "我在鄉下長大。"]]}
+  ],
+  "continent": [
+    {"p": "n", "zh": "洲、大陸", "t": [271117, 67749, 54859], "fix": {"271117": "地球上有七大洲。", "67749": "非洲是一個洲，格陵蘭不是。", "54859": "哥倫布往更西邊航行，尋找新大陸。"}}
+  ],
+  "region": [
+    {"p": "n", "zh": "地區、區域", "t": [58601, 65116, 2898132], "fix": {"58601": "這種植物只生長在熱帶地區。", "65116": "極光是極地特有的現象。", "2898132": "印度是一個飲食文化豐富的地區。"}}
+  ],
+  "capital": [
+    {"p": "n", "zh": "首都", "t": [26155, 65077], "fix": {"26155": "英國首都倫敦位於泰晤士河畔。"}},
+    {"p": "n", "zh": "資本、資金", "t": [22382], "fix": {"22382": "那家公司因為缺乏資金而倒閉了。"}, "ai": [["You need capital to start a business.", "創業需要資金。"]]},
+    {"p": "n", "zh": "大寫字母", "t": [16886, 67288], "fix": {"16886": "用大寫字母寫你的名字。", "67288": "用大寫寫出字母表。"}}
+  ],
+  "border": [
+    {"p": "n", "zh": "國界、邊境", "t": [755159, 7789263], "fix": {"755159": "我在邊境被要求出示護照。", "7789263": "這兩國之間常發生邊境衝突。"}},
+    {"p": "v", "zh": "與…接壤", "t": [67546, 9752065], "fix": {"67546": "美國和加拿大接壤。", "9752065": "泰國北邊和緬甸、寮國接壤。"}}
+  ],
+  "population": [
+    {"p": "n", "zh": "人口", "t": [35880, 270348, 271137], "fix": {"270348": "過去五年人口增加了一倍。", "271137": "世界人口很快就會倍增。"}},
+    {"p": "n", "zh": "（某種動物的）族群數量", "t": [8546736], "fix": {"8546736": "這個國家只剩下少數的長頸鹿族群。"}, "ai": [["The tiger population is slowly increasing.", "老虎的數量正在慢慢增加。"]]}
+  ],
+  "territory": [
+    {"p": "n", "zh": "領土", "t": [237812, 307190, 11274931], "fix": {"237812": "軍隊占領了整個領土。", "307190": "他們擴張了帝國的領土。", "11274931": "中國幅員遼闊，所以茶的種類很多。"}},
+    {"p": "n", "zh": "地盤；領域", "t": [776661, 16222], "fix": {"776661": "喂，小鬼！這裡是我們的地盤！", "16222": "你正踏進危險的領域。"}}
+  ],
+  "hemisphere": [
+    {"p": "n", "zh": "半球", "t": [272449, 281608], "fix": {"272449": "赤道把地球分成兩個半球。"}}
+  ],
+  "inhabitant": [
+    {"p": "n", "zh": "居民", "t": [7857268, 1358307], "fix": {"7857268": "阿爾及利亞是一個有四千萬居民的大國。", "1358307": "巴西有將近兩億居民。"}}
+  ],
+  "island": [
+    {"p": "n", "zh": "島", "t": [67890, 279912, 789593], "fix": {"67890": "從飛機上看，那座島非常美。", "279912": "那時候島上沒有人住。", "789593": "今天，規模 8.8 的強烈地震侵襲了日本列島。"}}
+  ],
+  "coast": [
+    {"p": "n", "zh": "海岸", "t": [45048, 305477, 518301], "fix": {"45048": "那座小鎮離海岸兩英里。", "305477": "他們沿著非洲西岸航行。", "518301": "全世界超過三分之一的人口住在海岸附近。"}}
+  ],
+  "desert": [
+    {"p": "n", "zh": "沙漠", "t": [19556, 4817809], "fix": {"19556": "地球表面有三分之一是沙漠。", "4817809": "這是一片乾燥的地區，幾乎就是沙漠。"}},
+    {"p": "adj", "zh": "（deserted）空無一人的、被遺棄的", "t": [1981324, 68741], "fix": {"1981324": "高爾夫球場上空蕩蕩的，一個人都沒有！", "68741": "那棟房子看起來像是被遺棄了。"}}
+  ],
+  "valley": [
+    {"p": "n", "zh": "山谷", "t": [19880, 248132, 802663], "fix": {"19880": "小山後面有一座美麗的山谷。", "248132": "我們下到村莊所在的山谷。", "802663": "他們往西北方進軍，進入謝南多亞河谷。"}}
+  ],
+  "river": [
+    {"p": "n", "zh": "河", "t": [29253, 58124, 23907], "fix": {"29253": "流經倫敦的河是泰晤士河。", "58124": "這條河對小孩來說游泳很危險。", "23907": "大雨讓河水氾濫。"}}
+  ],
+  "volcano": [
+    {"p": "n", "zh": "火山", "t": [281285, 49234, 49236], "fix": {"49234": "火山突然爆發，造成許多人死亡。", "49236": "這座火山今年已經爆發了兩次。"}}
+  ],
+  "peninsula": [
+    {"p": "n", "zh": "半島", "t": [277825, 690740], "fix": {"690740": "義大利是一個半島。"}}
+  ],
+  "plateau": [
+    {"p": "n", "zh": "高原", "ai": [["Tibet sits on a high plateau.", "西藏位於高原上。"], ["The town is on a plateau 1,500 meters above sea level.", "這個小鎮位在海拔一千五百公尺的高原上。"]]},
+    {"p": "n", "zh": "停滯期", "ai": [["My weight loss has hit a plateau.", "我的減重進入了停滯期。"], ["Sales reached a plateau after the first year.", "第一年過後，銷售量就停滯不前了。"]]}
+  ],
+  "glacier": [
+    {"p": "n", "zh": "冰河", "t": [8126260], "fix": {"8126260": "阿爾及利亞沒有冰河。"}, "ai": [["Many glaciers are melting because of global warming.", "許多冰河因為全球暖化而融化。"]]}
+  ],
+  "archipelago": [
+    {"p": "n", "zh": "群島", "ai": [["Japan is an archipelago of thousands of islands.", "日本是由數千座島嶼組成的群島。"], ["The Philippines is a large archipelago in Southeast Asia.", "菲律賓是東南亞的大群島。"]]}
+  ],
+  "abroad": [
+    {"p": "adv", "zh": "在國外、到國外", "t": [262156, 30763, 22195], "fix": {"262156": "我打算明年去美國留學。", "30763": "我要是錢夠的話，就可以出國了。", "22195": "越來越多新婚夫妻出國度蜜月。"}}
+  ],
+  "foreign": [
+    {"p": "adj", "zh": "外國的", "t": [21899, 21916, 34667], "fix": {"21899": "學外語不容易。", "21916": "要精通一門外語需要很大的耐心。", "34667": "你一定要親自去國外看看。"}},
+    {"p": "adj", "zh": "陌生的；外來的", "ai": [["The idea of saving money was foreign to him.", "存錢這個觀念對他來說很陌生。"], ["Remove any foreign objects from the wound.", "清除傷口裡的異物。"]]}
+  ],
+  "currency": [
+    {"p": "n", "zh": "貨幣", "t": [10501932, 21981, 8727108], "fix": {"10501932": "台灣的貨幣是什麼？", "8727108": "在英國用什麼貨幣？"}}
+  ],
+  "exchange rate": [
+    {"p": "phr", "zh": "匯率", "t": [242502, 21981], "fix": {"21981": "外幣的匯率每天都在變。"}}
+  ],
+  "time zone": [
+    {"p": "phr", "zh": "時區", "ai": [["New York and Taipei are in different time zones.", "紐約和台北在不同的時區。"], ["It's hard to schedule meetings across time zones.", "跨時區安排會議很不容易。"]]}
+  ],
+  "culture shock": [
+    {"p": "phr", "zh": "文化衝擊", "ai": [["I experienced culture shock when I first moved to London.", "我剛搬到倫敦時經歷了文化衝擊。"], ["Culture shock usually fades after a few months.", "文化衝擊通常幾個月後就會減輕。"]]}
+  ],
+  "expatriate": [
+    {"p": "n", "zh": "外派人員、旅居海外的人", "ai": [["Many expatriates live in this part of the city.", "這一區住了很多外派人員。"], ["As an expatriate, she missed home food the most.", "旅居海外的她最想念家鄉的食物。"]]}
+  ],
+  "jurisdiction": [
+    {"p": "n", "zh": "管轄權；管轄範圍", "ai": [["This case is outside the court's jurisdiction.", "這個案子不在這個法院的管轄範圍內。"], ["Each city has jurisdiction over its own parks.", "各城市管轄自己的公園。"]]}
+  ],
+  "multicultural": [
+    {"p": "adj", "zh": "多元文化的", "ai": [["Toronto is a very multicultural city.", "多倫多是一座非常多元文化的城市。"], ["Our school has a multicultural student body.", "我們學校的學生來自多元文化背景。"]]}
+  ]
+}
