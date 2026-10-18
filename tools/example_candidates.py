@@ -51,17 +51,29 @@ def main(pairs_path, out_path, which, per_word=12):
             first = re.findall(r'[a-z]+', f)
             for pr in index.get(first[0] if first else '', []):
                 pool[pr['id']] = pr
-        cands = [pr for pr in pool.values() if find_span(pr['en'], forms)]
+        cands = []
+        for pr in pool.values():
+            sp = find_span(pr['en'], forms)
+            if sp:
+                cands.append((pr, pr['en'][sp[0]:sp[1]].lower()))
         # 長度適中（6～12 個字）的句子優先，其次依 id 讓結果固定
-        cands.sort(key=lambda p: (abs(len(p['en'].split()) - 9), p['id']))
+        cands.sort(key=lambda c: (abs(len(c[0]['en'].split()) - 9), c[0]['id']))
+        # 依實際出現的詞形分組輪流挑（booked 多半是「預訂」、books 多半是「書」），讓不同詞義都有候選句
+        buckets = {}
+        for pr, form in cands:
+            buckets.setdefault(form, []).append(pr)
         seen, picked = set(), []
-        for c in cands:
-            if c['en'].lower() in seen:
-                continue
-            seen.add(c['en'].lower())
-            picked.append(c)
-            if len(picked) >= per_word:
-                break
+        while len(picked) < per_word and any(buckets.values()):
+            for form in list(buckets):
+                if not buckets[form]:
+                    continue
+                c = buckets[form].pop(0)
+                if c['en'].lower() in seen:
+                    continue
+                seen.add(c['en'].lower())
+                picked.append(c)
+                if len(picked) >= per_word:
+                    break
         meaning = ' / '.join(f"{g['l']}:{g['m'][:60]}" for g in (entry or {}).get('m', []) if 'd' not in g)
         lines.append(f'## {k} | {meaning or "（詞典無條目）"} | 共 {len(cands)} 句')
         for c in picked:

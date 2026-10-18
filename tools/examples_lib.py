@@ -28,11 +28,21 @@ def word_forms(word):
         for k, v in (entry.get('x') or {}).items():
             if k in 'pdi3srt':
                 heads.update(norm(f) for f in v.split(','))
-    # 規則變化補強（詞典沒有列出時）
-    if len(parts) == 1 and not entry:
-        heads.update({head + 's', head + 'es', head + 'ed', head + 'ing'})
+    # 詞典列的變化形常不完整，一律再依規則補上（只用來比對例句，例句本身仍經人工確認）
+    if head.isalpha():
+        heads.update({head + 's', head + 'es', head + 'ed', head + 'd', head + 'ing'})
+        if head.endswith('e'):
+            heads.add(head[:-1] + 'ing')
+        if head.endswith('y') and len(head) > 2 and head[-2] not in 'aeiou':
+            heads.update({head[:-1] + 'ies', head[:-1] + 'ied'})
+        if len(head) > 2 and head[-1] not in 'aeiouwxy' and head[-2] in 'aeiou' and head[-3] not in 'aeiou':
+            heads.update({head + head[-1] + 'ed', head + head[-1] + 'ing'})
     rest = ' '.join(parts[1:])
     forms = {f'{h} {rest}'.strip() for h in heads if h}
+    # 名詞片語的最後一個字也可能是複數：guided tours、boarding passes
+    if len(parts) > 1 and parts[-1].isalpha():
+        base = ' '.join(parts[:-1])
+        forms.update({f'{base} {parts[-1]}s', f'{base} {parts[-1]}es'})
     # 有連字號的字也接受空格或連在一起的寫法：carry-on / carry on
     for f in list(forms):
         if '-' in f:
