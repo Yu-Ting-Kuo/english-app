@@ -272,7 +272,9 @@ async function loadSenses(key, ecdictHtml) {
   }
   box.innerHTML = `<h3>詞義與例句</h3>${renderSenses(list)}
     ${ecdictHtml ? `<details class="ecdict-all"><summary>ECDICT 完整中文釋義</summary><div class="stack" style="margin-top:8px">${ecdictHtml}</div></details>` : ''}
-    <p class="source" style="margin:0">詞義分項由 App 依 ECDICT 釋義整理。例句優先採用 Tatoeba 真人例句與翻譯（CC BY 2.0 FR），不足時才由 AI 補充並標示。</p>`;
+    <p class="source" style="margin:0">${ecdictHtml
+      ? '詞義分項由 App 依 ECDICT 釋義整理。'
+      : 'ECDICT 沒有收錄這個片語，詞義由 App 編輯整理。'}例句優先採用 Tatoeba 真人例句與翻譯（CC BY 2.0 FR），不足時才由 AI 補充並標示。</p>`;
 }
 
 // 詞典沒有獨立條目、但主題裡有收錄的片語
