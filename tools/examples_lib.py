@@ -50,8 +50,19 @@ def word_forms(word):
     return sorted(forms, key=len, reverse=True)
 
 
+PARTICLES = {'up', 'down', 'in', 'out', 'on', 'off', 'back', 'through', 'over', 'away', 'around'}
+
+
+def _form_pattern(f):
+    parts = re.split(r'\s+', f)
+    # 可分片語動詞：call (me) back、put (you) through，中間最多夾兩個字
+    if len(parts) == 2 and parts[1] in PARTICLES:
+        return re.escape(parts[0]) + r"(?:\s+[A-Za-z'’]+){0,2}?\s+" + re.escape(parts[1])
+    return r'\s+'.join(re.escape(p) for p in parts)
+
+
 def form_regex(forms):
-    alts = '|'.join(r'\s+'.join(re.escape(p) for p in re.split(r'\s+', f)) for f in forms)
+    alts = '|'.join(_form_pattern(f) for f in forms)
     return re.compile(rf"(?<![A-Za-z'’-])({alts})(?![A-Za-z-])", re.I)
 
 

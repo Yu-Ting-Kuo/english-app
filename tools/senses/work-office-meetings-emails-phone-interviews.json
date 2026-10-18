@@ -1,0 +1,434 @@
+{
+  "colleague": [
+    {"p": "n", "zh": "同事", "t": [13906224, 8224364, 7784641], "fix": {"13906224": "同事幫我整理好了工作檔案。"}}
+  ],
+  "manager": [
+    {"p": "n", "zh": "經理、主管", "t": [293906, 319390, 1745177], "fix": {"293906": "他是行銷部的經理。", "319390": "爸爸說他明年會升為課長。", "1745177": "我得把瑪麗介紹給經理認識。"}}
+  ],
+  "supervisor": [
+    {"p": "n", "zh": "主管、監督者", "ai": [["I need to ask my supervisor before I can approve this.", "我得先問過主管才能核准這件事。"], ["Her supervisor praised her for finishing the project early.", "她的主管稱讚她提早完成了專案。"]]}
+  ],
+  "staff": [
+    {"p": "n", "zh": "（全體）員工、工作人員", "t": [9981678, 801941, 282815], "fix": {"801941": "那家餐廳的服務人員給我們留下很好的印象。", "282815": "整個業務團隊連續一週日夜加班。"}}
+  ],
+  "intern": [
+    {"p": "n", "zh": "實習生", "t": [11552522, 11134661], "fix": {"11552522": "明天我們會迎來第一位實習生。"}}
+  ],
+  "receptionist": [
+    {"p": "n", "zh": "接待人員、櫃檯人員", "ai": [["The receptionist asked me to wait in the lobby.", "櫃檯人員請我在大廳等候。"], ["Please sign in with the receptionist when you arrive.", "抵達時請向接待人員登記。"]]}
+  ],
+  "subordinate": [
+    {"p": "n", "zh": "部屬、下屬", "ai": [["A good manager listens to his subordinates.", "好主管會傾聽部屬的意見。"], ["She treats her subordinates with respect.", "她很尊重她的下屬。"]]},
+    {"p": "adj", "zh": "次要的、從屬的", "ai": [["Personal interests should be subordinate to the team's goals.", "個人利益應該放在團隊目標之後。"], ["This issue is subordinate to the main problem.", "這個問題比主要問題次要。"]]}
+  ],
+  "executive": [
+    {"p": "n", "zh": "主管、高階經理人", "t": [254455], "fix": {"254455": "我認識了那位執行長。"}, "ai": [["She is a senior executive at a tech company.", "她是一家科技公司的高階主管。"]]},
+    {"p": "adj", "zh": "執行的；行政的", "t": [260647, 58561], "fix": {"58561": "我們需要獵頭公司幫我們找到適合這個主管職位的人。"}}
+  ],
+  "printer": [
+    {"p": "n", "zh": "印表機", "t": [481732, 253381, 11294613], "fix": {"481732": "請把印表機裡用完的墨水匣換掉。", "11294613": "印表機印到一半就停了，所以我只拿到他履歷的一部分。"}}
+  ],
+  "photocopier": [
+    {"p": "n", "zh": "影印機", "ai": [["The photocopier is jammed again.", "影印機又卡紙了。"], ["Could you make ten copies on the photocopier?", "可以用影印機印十份嗎？"]]}
+  ],
+  "stationery": [
+    {"p": "n", "zh": "文具", "t": [727807, 10508998]}
+  ],
+  "file": [
+    {"p": "n", "zh": "（電腦）檔案；文件夾", "t": [1190080, 5722394, 12483127], "fix": {"12483127": "我需要很快看一下這些檔案。"}},
+    {"p": "v", "zh": "提出（申訴、申請等）", "t": [2641884], "ai": [["She filed a complaint with the manager.", "她向經理提出了申訴。"]]},
+    {"p": "v", "zh": "用銼刀磨", "t": [3492696], "fix": {"3492696": "瑪麗在磨指甲。"}, "ai": [["He filed the edges of the metal until they were smooth.", "他把金屬邊緣磨到光滑。"]]}
+  ],
+  "desk": [
+    {"p": "n", "zh": "書桌、辦公桌", "t": [20578, 6521316, 59865], "fix": {"59865": "這張書桌花了我至少三萬日圓。"}}
+  ],
+  "cubicle": [
+    {"p": "n", "zh": "（辦公室的）隔間座位", "src": "app", "ai": [["My cubicle is next to the window.", "我的隔間座位在窗戶旁邊。"], ["He decorated his cubicle with family photos.", "他用全家福照片裝飾他的隔間。"]]}
+  ],
+  "shredder": [
+    {"p": "n", "zh": "碎紙機", "ai": [["Put old documents in the shredder.", "把舊文件放進碎紙機。"], ["The shredder is full again.", "碎紙機又滿了。"]]}
+  ],
+  "projector": [
+    {"p": "n", "zh": "投影機", "t": [11672347], "fix": {"11672347": "這台投影機怎麼了？什麼都投不出來。"}, "ai": [["Can you turn on the projector for the presentation?", "可以幫忙打開投影機準備簡報嗎？"]]}
+  ],
+  "schedule": [
+    {"p": "n", "zh": "行程表、時刻表", "t": [2938653, 1723294, 22780], "fix": {"2938653": "這次延誤對時程的影響很小。", "1723294": "我不知道火車時刻表，你能幫我查一下嗎？", "22780": "我們應該把時程考慮進去的。"}},
+    {"p": "v", "zh": "安排（時間）、預定", "t": [2921292, 2938693], "fix": {"2921292": "伺服器預定在今晚 9 點重新開機。", "2938693": "第二，今天有預定要發布的專案嗎？"}}
+  ],
+  "task": [
+    {"p": "n", "zh": "任務、工作", "t": [7856283, 464500, 323334], "fix": {"323334": "我必須在明天之前完成這項任務。"}}
+  ],
+  "deadline": [
+    {"p": "n", "zh": "截止期限", "t": [20519, 3565104, 13462575], "fix": {"20519": "你必須在期限前完成這項工作。", "3565104": "他們能在期限前完成嗎？", "13462575": "哇，真不敢相信他們這次居然趕上了截止日期。"}}
+  ],
+  "overtime": [
+    {"p": "adv", "zh": "（work overtime）加班", "t": [19153, 257775, 268313], "fix": {"268313": "老闆要我加班。"}},
+    {"p": "n", "zh": "加班（時間）；加班費", "t": [13523800], "fix": {"13523800": "家豪說他今天不來了，臨時要加班。"}, "ai": [["Do you get paid for overtime?", "你加班有加班費嗎？"]]}
+  ],
+  "shift": [
+    {"p": "n", "zh": "輪班、班次", "t": [5853796], "ai": [["I start my morning shift at 7 a.m.", "我的早班早上 7 點開始。"]]},
+    {"p": "v", "zh": "移動；轉變", "t": [10545031], "fix": {"10545031": "隨著板塊移動，各大洲因為地理隔離，演化出了適應不同環境的獨特恐龍。"}, "ai": [["Public opinion has shifted in recent years.", "近年來輿論已經轉變了。"]]}
+  ],
+  "paperwork": [
+    {"p": "n", "zh": "文書工作、書面資料", "t": [7508109], "fix": {"7508109": "我知道湯姆在辦公室處理文書工作。"}, "ai": [["I spent the whole afternoon doing paperwork.", "我整個下午都在處理文書工作。"]]}
+  ],
+  "workload": [
+    {"p": "n", "zh": "工作量", "ai": [["My workload has doubled since my colleague left.", "同事離職後，我的工作量多了一倍。"], ["We need to share the workload more fairly.", "我們需要更公平地分擔工作量。"]]}
+  ],
+  "flextime": [
+    {"p": "n", "zh": "彈性工時", "ai": [["Our company offers flextime, so I start work at ten.", "我們公司有彈性工時，所以我十點才上班。"], ["Flextime helps parents pick up their kids from school.", "彈性工時讓家長可以去學校接孩子。"]]}
+  ],
+  "telecommute": [
+    {"p": "v", "zh": "遠距工作、在家上班", "ai": [["I telecommute two days a week.", "我每週有兩天在家上班。"], ["More companies now allow employees to telecommute.", "現在有更多公司允許員工遠距工作。"]]}
+  ],
+  "allocate": [
+    {"p": "v", "zh": "分配、撥出（資源、經費）", "ai": [["We need to allocate more resources to this project.", "我們需要為這個專案分配更多資源。"], ["The city allocated two million dollars for the new park.", "市政府撥了兩百萬元興建新公園。"]]}
+  ],
+  "meeting": [
+    {"p": "n", "zh": "會議", "t": [16610, 294610, 589822], "fix": {"16610": "你們打算參加會議嗎？", "294610": "他開會常常遲到。", "589822": "昨天只有幾個人來開會。"}},
+    {"p": "n", "zh": "見面、會面", "t": [243666], "fix": {"243666": "我大概不會再見到他了。"}, "ai": [["Our first meeting was at a friend's wedding.", "我們第一次見面是在朋友的婚禮上。"]]}
+  ],
+  "agenda": [
+    {"p": "n", "zh": "（會議）議程", "t": [20015], "fix": {"20015": "我們繼續討論議程上的項目吧。"}, "ai": [["What's on the agenda for today's meeting?", "今天會議的議程有哪些？"]]}
+  ],
+  "postpone": [
+    {"p": "v", "zh": "延後、延期", "t": [2745792, 305320, 11327805]}
+  ],
+  "attend": [
+    {"p": "v", "zh": "出席、參加", "t": [887473, 431672, 1409026], "fix": {"1409026": "她因為生病沒辦法參加那場派對。"}},
+    {"p": "v", "zh": "上（學）、就讀", "t": [13557612, 10643365], "fix": {"10643365": "湯姆念公立學校。"}}
+  ],
+  "conference room": [
+    {"p": "phr", "zh": "會議室", "t": [3734689, 1021181], "fix": {"1021181": "請於下午兩點半到二樓會議室開會。"}}
+  ],
+  "convene": [
+    {"p": "v", "zh": "召開（會議）、召集", "ai": [["The board will convene next Monday to discuss the budget.", "董事會將於下週一召開會議討論預算。"], ["The manager convened an emergency meeting.", "經理召開了一場緊急會議。"]]}
+  ],
+  "quorum": [
+    {"p": "n", "zh": "法定人數", "ai": [["We can't vote because we don't have a quorum.", "我們沒有達到法定人數，所以不能表決。"], ["A quorum of five members is needed to make decisions.", "需要五位成員出席才達到做決定的法定人數。"]]}
+  ],
+  "discuss": [
+    {"p": "v", "zh": "討論、商量", "t": [262796, 6855727, 55904], "fix": {"6855727": "有件事我一直想跟你談談。"}}
+  ],
+  "propose": [
+    {"p": "v", "zh": "提議、建議", "t": [295342, 4728072], "fix": {"4728072": "他提議修改研究方法。"}},
+    {"p": "v", "zh": "求婚", "t": [308860, 52850]}
+  ],
+  "point out": [
+    {"p": "phr", "zh": "指出", "t": [303652, 272861, 1587]}
+  ],
+  "concern": [
+    {"p": "n", "zh": "擔心、疑慮", "t": [617660], "fix": {"617660": "煩惱帶不走明天的憂慮，卻會帶走今天的力量。"}, "ai": [["I have some concerns about the budget.", "我對預算有些疑慮。"]]},
+    {"p": "v", "zh": "與…有關", "t": [264623, 5067268], "fix": {"5067268": "湯姆總是插手跟他無關的事。"}},
+    {"p": "phr", "zh": "as far as I'm concerned：就我而言", "t": [250066, 1230673], "fix": {"250066": "就我而言，事情進行得很順利。", "1230673": "對我來說，她完全是個陌生人。"}}
+  ],
+  "clarify": [
+    {"p": "v", "zh": "釐清、說明清楚", "t": [59458], "fix": {"59458": "謝謝你幫我把這件事說清楚。"}, "ai": [["Could you clarify what you mean by \"soon\"?", "可以說明一下你說的「很快」是指多快嗎？"]]}
+  ],
+  "brainstorm": [
+    {"p": "v", "zh": "腦力激盪、集思廣益", "ai": [["Let's brainstorm some ideas for the new campaign.", "我們來為新的宣傳活動腦力激盪一下。"], ["The team brainstormed for an hour before choosing a name.", "團隊腦力激盪了一個小時才選定名稱。"]]}
+  ],
+  "facilitate": [
+    {"p": "v", "zh": "促進、使更容易", "ai": [["The new software will facilitate communication between teams.", "新軟體能讓各團隊之間的溝通更順暢。"], ["Good lighting facilitates reading.", "良好的照明讓閱讀更輕鬆。"]]},
+    {"p": "v", "zh": "主持（討論、會議）", "src": "app", "ai": [["Anna will facilitate today's workshop.", "今天的工作坊由安娜主持。"], ["A good leader facilitates discussion instead of dominating it.", "好的領導者會帶領討論，而不是主導發言。"]]}
+  ],
+  "elaborate": [
+    {"p": "v", "zh": "詳細說明", "t": [320963], "fix": {"320963": "那位記者詳細說明了他的調查方法。"}, "ai": [["Could you elaborate on your proposal?", "可以詳細說明一下你的提案嗎？"]]},
+    {"p": "adj", "zh": "精心的、複雜精細的", "t": [311932, 663484], "fix": {"663484": "這張專輯裡你聽到的所有聲音，其實都是精心製作的電腦聲音。"}}
+  ],
+  "digress": [
+    {"p": "v", "zh": "離題", "ai": [["Sorry, I digress. Let's get back to the main topic.", "抱歉，我離題了。我們回到主題吧。"], ["The speaker often digressed into personal stories.", "那位講者常常離題講起個人故事。"]]}
+  ],
+  "objection": [
+    {"p": "n", "zh": "異議、反對", "t": [252826, 314313, 3734971], "fix": {"3734971": "如果湯姆想留下來，我沒有意見。"}}
+  ],
+  "decision": [
+    {"p": "n", "zh": "決定", "t": [7388447, 13648643, 3312423]}
+  ],
+  "vote": [
+    {"p": "v", "zh": "投票、表決", "t": [20628, 315323], "fix": {"20628": "說也奇怪，沒有人投票給那位候選人。"}},
+    {"p": "n", "zh": "選票、票數；投票", "t": [877814, 20026], "fix": {"877814": "社會黨只拿到 18% 的選票。", "20026": "法案以十票的些微差距通過。"}}
+  ],
+  "consensus": [
+    {"p": "n", "zh": "共識", "ai": [["After a long discussion, we finally reached a consensus.", "經過長時間討論，我們終於達成了共識。"], ["There is no consensus on how to solve the problem.", "對於如何解決這個問題，大家還沒有共識。"]]}
+  ],
+  "minutes": [
+    {"p": "n", "zh": "會議紀錄", "ai": [["Who is taking the minutes today?", "今天誰負責做會議紀錄？"], ["I'll send the minutes of the meeting to everyone.", "我會把會議紀錄寄給大家。"]]},
+    {"p": "n", "zh": "分鐘（minute 的複數）", "t": [25978, 31370], "fix": {"25978": "從這裡走到車站大約十分鐘。"}}
+  ],
+  "follow up": [
+    {"p": "phr", "zh": "後續追蹤、跟進", "ai": [["I'll follow up with the client next week.", "我下週會再跟客戶聯絡追蹤。"], ["Please follow up on the issues we discussed today.", "請針對今天討論的問題後續追蹤。"]]}
+  ],
+  "action": [
+    {"p": "n", "zh": "行動", "t": [263769, 260625], "fix": {"263769": "我們立刻採取行動，以免情況惡化。"}},
+    {"p": "n", "zh": "行為、所作所為", "t": [7812284, 13990630], "fix": {"7812284": "你必須為自己粗心的行為負責。", "13990630": "我不必為湯姆的行為負責。"}}
+  ],
+  "unanimous": [
+    {"p": "adj", "zh": "全體一致的", "t": [1241214], "fix": {"1241214": "表決結果是全體一致通過。"}, "ai": [["The committee reached a unanimous decision.", "委員會做出了一致的決定。"]]}
+  ],
+  "implement": [
+    {"p": "v", "zh": "實施、執行", "t": [716988, 7768927, 3537563], "fix": {"716988": "很多公司實施每天八小時工作制。", "7768927": "針對這項產品，本公司將實施新的價格標準。", "3537563": "公司下個月開始推行新的管理制度。"}}
+  ],
+  "adjourn": [
+    {"p": "v", "zh": "休會、暫停（會議）", "ai": [["The meeting was adjourned until Friday.", "會議延到星期五再繼續。"], ["Let's adjourn for lunch and continue at two.", "我們先休會吃午餐，兩點再繼續。"]]}
+  ],
+  "subject": [
+    {"p": "n", "zh": "主題、話題", "t": [15852, 4571450], "fix": {"15852": "你覺得他會對什麼主題感興趣？"}},
+    {"p": "n", "zh": "科目", "t": [32771, 300758], "fix": {"300758": "他因為各科成績優異而得獎。"}},
+    {"p": "n", "zh": "（電子郵件的）主旨", "src": "app", "ai": [["Please write a clear subject line for your email.", "請在電子郵件寫上清楚的主旨。"], ["The subject of the email was \"Meeting Update.\"", "那封電子郵件的主旨是「會議更新」。"]]},
+    {"p": "adj", "zh": "be subject to：容易受到…；須經…", "t": [37443], "fix": {"37443": "番茄容易染上很多種病害。"}, "ai": [["All prices are subject to change.", "所有價格可能隨時調整。"]]}
+  ],
+  "recipient": [
+    {"p": "n", "zh": "收件人、接受者", "t": [13803770], "fix": {"13803770": "不要把寄件人和收件人的地址寫反了！"}, "ai": [["Check the recipient's email address before you click Send.", "按下傳送前，先確認收件人的電子郵件地址。"]]}
+  ],
+  "forward": [
+    {"p": "v", "zh": "轉寄、轉交", "ai": [["Could you forward me the email from the client?", "可以把客戶寄來的那封信轉寄給我嗎？"], ["I forwarded your message to the sales team.", "我已經把你的訊息轉給業務團隊了。"]]},
+    {"p": "adv", "zh": "向前", "t": [7776794], "fix": {"7776794": "他們一直往前走，而我總是在往後退。"}, "ai": [["She stepped forward to ask a question.", "她往前走一步提出問題。"]]},
+    {"p": "phr", "zh": "look forward to：期待", "t": [18776, 52224, 264318]}
+  ],
+  "reply": [
+    {"p": "v", "zh": "回覆、回答", "t": [2931018, 7185942, 311330], "fix": {"2931018": "你為什麼這麼久都沒回我？", "7185942": "抱歉，沒有早點回覆你。"}},
+    {"p": "n", "zh": "回覆、答覆", "t": [272748], "ai": [["Thank you for your quick reply.", "謝謝你快速的回覆。"]]}
+  ],
+  "attachment": [
+    {"p": "n", "zh": "（電子郵件）附件", "ai": [["Please see the attachment for more details.", "詳細內容請見附件。"], ["The attachment is too large to send.", "附件太大，寄不出去。"]]},
+    {"p": "n", "zh": "依戀、情感", "ai": [["Children often form a strong attachment to their toys.", "孩子常常對玩具產生很深的依戀。"], ["She has a deep attachment to her hometown.", "她對家鄉有很深的感情。"]]}
+  ],
+  "attach": [
+    {"p": "v", "zh": "附上（檔案、文件）", "t": [483621, 318487], "fix": {"483621": "你必須在申請表上貼上照片。", "318487": "請附上品質證明書。"}, "ai": [["I've attached the report to this email.", "我已經把報告附在這封電子郵件裡。"]]},
+    {"p": "v", "zh": "貼上、固定", "t": [261578, 45605], "fix": {"45605": "這個裝置被牢牢固定在天花板上。"}},
+    {"p": "phr", "zh": "be attached to：喜愛、依戀", "t": [31983], "ai": [["He's very attached to his old car.", "他對他的舊車很有感情。"]]}
+  ],
+  "correspondence": [
+    {"p": "n", "zh": "通信、往來信件", "ai": [["Please keep all correspondence with the client in this folder.", "請把和客戶往來的信件都放在這個資料夾裡。"], ["We have been in correspondence for several months.", "我們已經通信好幾個月了。"]]}
+  ],
+  "regarding": [
+    {"p": "prep", "zh": "關於", "t": [2915546, 2438454, 7782280], "fix": {"2438454": "關於這個問題，我可以兩天後再答覆你嗎？", "7782280": "在教育問題上，他的看法很極端。"}}
+  ],
+  "inquiry": [
+    {"p": "n", "zh": "詢問、查詢", "t": [13511575], "fix": {"13511575": "媒體詢問請洽當地的公關或行銷代表。"}, "ai": [["Thank you for your inquiry about our products.", "感謝您詢問我們的產品。"]]},
+    {"p": "n", "zh": "調查", "t": [287027], "ai": [["The government has opened an inquiry into the accident.", "政府已經對這起事故展開調查。"]]}
+  ],
+  "confirm": [
+    {"p": "v", "zh": "確認（預約、訂單等）", "t": [5932930, 54366], "fix": {"5932930": "我想再確認一下我的航班。", "54366": "您的訂單確認如下。"}},
+    {"p": "v", "zh": "證實", "t": [45241, 1441267], "fix": {"45241": "這個消息證實了我的懷疑。", "1441267": "不過，這些資料都還沒有得到證實。"}}
+  ],
+  "inform": [
+    {"p": "v", "zh": "通知、告知", "t": [36604, 437976, 25305], "fix": {"25305": "請隨時通知我最新狀況。"}}
+  ],
+  "request": [
+    {"p": "n", "zh": "請求、要求", "t": [54300, 302566, 51212], "fix": {"51212": "在這種情況下，我不能答應這個要求。"}},
+    {"p": "v", "zh": "請求、要求", "t": [297513, 11282710], "fix": {"297513": "他要求我保密。", "11282710": "老師要求和我的父母見面。"}}
+  ],
+  "reminder": [
+    {"p": "n", "zh": "提醒（的訊息）", "ai": [["This is a friendly reminder that the report is due on Friday.", "提醒您，報告的截止日是星期五。"], ["I set a reminder on my phone.", "我在手機上設了提醒。"]]}
+  ],
+  "acknowledge": [
+    {"p": "v", "zh": "承認", "t": [313070, 16026, 314321], "fix": {"314321": "她承認我說的是事實。"}},
+    {"p": "v", "zh": "確認收到（信件等）", "ai": [["Please acknowledge receipt of this email.", "收到這封電子郵件請回覆確認。"], ["They never acknowledged my application.", "他們始終沒有回覆確認收到我的申請。"]]}
+  ],
+  "enclosed": [
+    {"p": "adj", "zh": "隨函附上的", "t": [315011], "fix": {"315011": "她把隨信附上的支票寄給了我。"}, "ai": [["Please find the enclosed contract.", "隨函附上合約，請查收。"]]}
+  ],
+  "pertain": [
+    {"p": "v", "zh": "（pertain to）與…有關", "ai": [["These rules pertain to all employees.", "這些規定適用於所有員工。"], ["Please send me any documents that pertain to the case.", "請把所有和這個案子有關的文件寄給我。"]]}
+  ],
+  "sincerely": [
+    {"p": "adv", "zh": "真誠地", "t": [1477303, 13117667]},
+    {"p": "adv", "zh": "（信件結尾）Sincerely：敬上", "src": "app", "ai": [["I look forward to hearing from you. Sincerely, Amy Chen", "期待您的回覆。陳艾咪 敬上"], ["Most formal letters end with \"Sincerely\" or \"Best regards.\"", "大多數正式信件會用 Sincerely 或 Best regards 結尾。"]]}
+  ],
+  "regards": [
+    {"p": "n", "zh": "問候、致意", "t": [16919, 715869, 2869325]},
+    {"p": "n", "zh": "（信件結尾）Best regards：敬祝順利", "src": "app", "ai": [["Thanks again for your help. Best regards, David", "再次感謝您的協助。David 敬上"], ["\"Kind regards\" is a common way to end a work email.", "Kind regards 是工作電子郵件常見的結尾。"]]}
+  ],
+  "promptly": [
+    {"p": "adv", "zh": "迅速地、立即", "t": [22300], "fix": {"22300": "可以請你儘快把壞掉的那個換掉嗎？"}, "ai": [["Please reply promptly so we can confirm your booking.", "請儘快回覆，以便我們確認您的預訂。"]]}
+  ],
+  "at your convenience": [
+    {"p": "phr", "zh": "在您方便的時候", "t": [54353], "fix": {"54353": "你方便的時候過來喝杯茶吧。"}, "ai": [["Please call me back at your convenience.", "您方便時請回電給我。"]]}
+  ],
+  "expedite": [
+    {"p": "v", "zh": "加快處理", "ai": [["Can you expedite the shipping? We need the parts by Monday.", "可以加快出貨嗎？我們星期一前需要零件。"], ["Paying an extra fee will expedite your visa application.", "多付一筆費用可以加快簽證申請的處理。"]]}
+  ],
+  "courteous": [
+    {"p": "adj", "zh": "有禮貌的、客氣的", "ai": [["The staff were courteous and helpful.", "工作人員有禮貌又樂於幫忙。"], ["Please send a courteous reply to the customer.", "請給客戶一個客氣的回覆。"]]}
+  ],
+  "at your earliest convenience": [
+    {"p": "phr", "zh": "請盡早（正式用語）", "ai": [["Please send us the signed contract at your earliest convenience.", "請盡早將簽好的合約寄給我們。"], ["I would appreciate a reply at your earliest convenience.", "若能盡早回覆，將不勝感激。"]]}
+  ],
+  "call": [
+    {"p": "v", "zh": "打電話", "t": [17778, 24209], "fix": {"17778": "你打電話來的時候，我們正好在聊你。"}},
+    {"p": "n", "zh": "（一通）電話", "t": [7767790], "ai": [["I missed three calls during the meeting.", "我開會時漏接了三通電話。"]]},
+    {"p": "v", "zh": "稱呼、叫做", "t": [33569, 29643], "fix": {"29643": "林肯總統就是我們所說的白手起家的人。"}},
+    {"p": "phr", "zh": "call off：取消", "t": [25802], "fix": {"25802": "野餐因為下雨取消了。"}, "ai": [["They called off the meeting at the last minute.", "他們在最後一刻取消了會議。"]]}
+  ],
+  "dial": [
+    {"p": "v", "zh": "撥（電話號碼）", "t": [23823, 10271731, 51481], "fix": {"23823": "發生火災時，請撥 119。"}}
+  ],
+  "answer": [
+    {"p": "v", "zh": "回答", "t": [46918, 5194721], "fix": {"5194721": "你答非所問。"}},
+    {"p": "v", "zh": "接（電話）；應（門）", "ai": [["Nobody answered the phone.", "沒有人接電話。"], ["Can you answer the door? I'm busy.", "你可以去應門嗎？我在忙。"]]},
+    {"p": "n", "zh": "答案；回覆", "t": [39452, 64010], "fix": {"64010": "這麼晚才回信，真不好意思。"}}
+  ],
+  "hang up": [
+    {"p": "phr", "zh": "掛斷電話", "t": [39975, 12135542, 31186], "fix": {"39975": "等一下，我馬上回來，不要掛斷！", "31186": "我得掛電話了，有人在等著用電話。"}},
+    {"p": "phr", "zh": "把（衣服等）掛起來", "t": [62294], "ai": [["Please hang up your jacket in the closet.", "請把外套掛在衣櫃裡。"]]}
+  ],
+  "call back": [
+    {"p": "phr", "zh": "回電", "t": [4755162], "fix": {"4755162": "我晚一點再回電。"}, "ai": [["Can you ask her to call me back?", "可以請她回電給我嗎？"]]}
+  ],
+  "extension": [
+    {"p": "n", "zh": "（電話）分機", "t": [387456], "fix": {"387456": "葛蕾絲上樓去接分機電話。"}, "ai": [["Please call me at extension 205.", "請撥分機 205 找我。"]]},
+    {"p": "n", "zh": "延長；延期", "t": [3962671, 2635008], "fix": {"2635008": "我需要一條延長線。"}, "ai": [["I asked my professor for an extension on the paper.", "我向教授申請延後交報告。"]]}
+  ],
+  "landline": [
+    {"p": "n", "zh": "市內電話", "t": [3633950], "fix": {"3633950": "那個男人正在用市內電話打電話。"}, "ai": [["Few young people have a landline these days.", "現在很少年輕人有市內電話。"]]}
+  ],
+  "toll-free": [
+    {"p": "adj", "zh": "免付費的（電話）", "ai": [["Call our toll-free number for customer support.", "請撥打我們的免付費客服專線。"], ["The hotline is toll-free and open 24 hours.", "這條專線免付費，24 小時服務。"]]}
+  ],
+  "put through": [
+    {"p": "phr", "zh": "（電話）轉接", "ai": [["Could you put me through to the sales department?", "可以幫我轉接業務部嗎？"], ["Please hold while I put you through.", "請稍候，我幫您轉接。"]]}
+  ],
+  "hold": [
+    {"p": "v", "zh": "拿著、握著", "t": [250719, 301215], "fix": {"250719": "我弟弟手裡拿著一台相機。"}},
+    {"p": "v", "zh": "（電話）稍等、不掛斷", "src": "app", "ai": [["Could you hold, please? I'll check for you.", "請稍等一下，我幫您查詢。"], ["I've been on hold for twenty minutes.", "我已經在線上等了二十分鐘。"]]},
+    {"p": "v", "zh": "舉行（會議、活動）", "ai": [["We will hold a meeting next Tuesday.", "我們下週二將召開會議。"], ["The festival is held every summer.", "這個節慶每年夏天舉行。"]]}
+  ],
+  "available": [
+    {"p": "adj", "zh": "有空的；（人）找得到的", "ai": [["Are you available for a call this afternoon?", "你今天下午有空通個電話嗎？"], ["I'm sorry, Mr. Lee isn't available right now.", "抱歉，李先生現在不方便接聽。"]]},
+    {"p": "adj", "zh": "可取得的、可用的", "t": [1229518, 7819418, 54534], "fix": {"1229518": "小姐，今晚還有空房嗎？", "7819418": "有一個祕書的職缺。", "54534": "電腦產業有很多工作機會。"}}
+  ],
+  "message": [
+    {"p": "n", "zh": "留言、訊息", "t": [304888, 4736825, 322589], "fix": {"4736825": "從那之後，我就沒再收到他的任何消息。", "322589": "如果她回來晚了，把這個口信轉告她。"}}
+  ],
+  "voicemail": [
+    {"p": "n", "zh": "語音信箱；語音留言", "ai": [["I left a voicemail for her this morning.", "我今天早上在她的語音信箱留了言。"], ["Your call has been forwarded to voicemail.", "您的電話已轉入語音信箱。"]]}
+  ],
+  "switchboard": [
+    {"p": "n", "zh": "（電話）總機", "t": [12272806], "fix": {"12272806": "瑪麗年輕時當過總機接線員。"}, "ai": [["Call the switchboard and ask for the HR department.", "打給總機，請他們轉人資部。"]]}
+  ],
+  "signal": [
+    {"p": "n", "zh": "（手機）訊號", "t": [11373078, 8732613]},
+    {"p": "n", "zh": "信號、暗號", "t": [297361, 272206], "fix": {"272206": "以前人們用狼煙作為聯絡信號。"}},
+    {"p": "v", "zh": "表示、預示", "t": [240023], "ai": [["The dark clouds signaled that a storm was coming.", "烏雲預示著暴風雨即將來臨。"]]}
+  ],
+  "disconnect": [
+    {"p": "v", "zh": "（電話、網路）斷線；切斷", "t": [72146], "fix": {"72146": "哎呀，我斷線了。"}, "ai": [["Please disconnect the power before cleaning the machine.", "清潔機器前請先拔掉電源。"]]}
+  ],
+  "speak up": [
+    {"p": "phr", "zh": "說大聲一點", "ai": [["Could you speak up? I can't hear you.", "可以說大聲一點嗎？我聽不到。"], ["Please speak up so everyone can hear.", "請說大聲一點，讓大家都聽得到。"]]},
+    {"p": "phr", "zh": "說出（意見）、勇於表達", "t": [11274705], "fix": {"11274705": "有任何問題，請直接說出來。"}, "ai": [["If you disagree, you should speak up.", "如果你不同意，就應該說出來。"]]}
+  ],
+  "repeat": [
+    {"p": "v", "zh": "重複、再說一次", "t": [9732441, 261235, 6021682]},
+    {"p": "v", "zh": "（歷史、事件）重演", "t": [326126], "ai": [["We must not let this mistake repeat itself.", "我們絕不能讓這個錯誤重演。"]]}
+  ],
+  "spell": [
+    {"p": "v", "zh": "拼（字）", "t": [254335, 53215, 11894585], "fix": {"53215": "好，我告訴你我的名字怎麼拼。", "11894585": "我的名字不是這樣拼的。"}},
+    {"p": "n", "zh": "（一陣）發作；一段時間", "t": [325428], "ai": [["We had a spell of cold weather last week.", "上週有一波寒流。"]]},
+    {"p": "n", "zh": "咒語、魔力", "ai": [["The witch cast a spell on the prince.", "女巫對王子施了咒語。"], ["The music held the audience under its spell.", "音樂讓觀眾聽得如痴如醉。"]]}
+  ],
+  "inaudible": [
+    {"p": "adj", "zh": "聽不見的", "ai": [["Your voice is almost inaudible. Can you move closer to the mic?", "你的聲音幾乎聽不到，可以靠近麥克風一點嗎？"], ["He said something inaudible and left the room.", "他小聲說了句聽不清楚的話就離開了房間。"]]}
+  ],
+  "garbled": [
+    {"p": "adj", "zh": "（聲音、訊息）斷斷續續、混亂不清的", "ai": [["The connection was bad, and your message was garbled.", "訊號不好，你的訊息聽起來斷斷續續的。"], ["I received a garbled email full of strange symbols.", "我收到一封滿是奇怪符號的亂碼郵件。"]]}
+  ],
+  "apply": [
+    {"p": "v", "zh": "申請、應徵", "t": [37201, 37519, 67563], "fix": {"37201": "湯姆正在考慮應徵一份薪水更好的工作。", "37519": "我還沒決定要應徵哪份工作。", "67563": "申請美國大學時，托福成績只是其中一項考量。"}},
+    {"p": "v", "zh": "塗抹（藥膏等）", "t": [11272921], "ai": [["Apply sunscreen before you go outside.", "出門前先擦防曬乳。"]]},
+    {"p": "v", "zh": "適用", "t": [2162930], "fix": {"2162930": "這點對他仍然適用。"}, "ai": [["These rules apply to all visitors.", "這些規定適用於所有訪客。"]]}
+  ],
+  "application": [
+    {"p": "n", "zh": "申請；申請書", "t": [4406837, 28885, 1094097], "fix": {"4406837": "申請截止日是這個星期五。", "28885": "我們的徵人廣告已經收到很多應徵申請。", "1094097": "湯姆填好了求職申請表。"}},
+    {"p": "n", "zh": "應用程式", "t": [1637780], "fix": {"1637780": "這支手機出廠時就預先安裝了幾個應用程式。"}, "ai": [["This application lets you track your expenses.", "這個應用程式可以記錄你的花費。"]]}
+  ],
+  "position": [
+    {"p": "n", "zh": "職位", "t": [291159, 26209, 6143173], "fix": {"6143173": "許多人在有資格擔任其他職位之前，會先從客服工作做起。"}},
+    {"p": "n", "zh": "位置；處境", "t": [320108], "fix": {"320108": "士兵們撤離了陣地。"}, "ai": [["I'm not in a position to make that decision.", "我沒有立場做這個決定。"]]}
+  ],
+  "resume": [
+    {"p": "n", "zh": "履歷", "t": [541016], "fix": {"541016": "我不太擔心自己的履歷。"}, "ai": [["Please send your resume and cover letter by email.", "請用電子郵件寄送履歷和求職信。"]]},
+    {"p": "v", "zh": "重新開始、繼續", "ai": [["The meeting will resume after a short break.", "短暫休息後會議將繼續進行。"], ["Train service resumed after two hours.", "兩小時後火車恢復行駛。"]]}
+  ],
+  "cover letter": [
+    {"p": "phr", "zh": "求職信", "ai": [["Your cover letter should explain why you want the job.", "你的求職信應該說明你為什麼想要這份工作。"], ["Keep your cover letter to one page.", "求職信控制在一頁以內。"]]}
+  ],
+  "recruiter": [
+    {"p": "n", "zh": "招募人員", "ai": [["A recruiter contacted me on LinkedIn.", "有位招募人員在 LinkedIn 上聯絡我。"], ["The recruiter asked about my salary expectations.", "招募人員問了我的期望薪資。"]]}
+  ],
+  "headhunter": [
+    {"p": "n", "zh": "獵人頭（人才仲介）", "ai": [["A headhunter offered me a job at a bigger company.", "有個獵人頭幫我介紹了一家更大公司的工作。"], ["Many companies use headhunters to fill senior positions.", "很多公司透過獵人頭來找高階主管。"]]}
+  ],
+  "portfolio": [
+    {"p": "n", "zh": "作品集", "ai": [["Designers usually bring a portfolio to the interview.", "設計師面試時通常會帶作品集。"], ["Her online portfolio shows her best photos.", "她的線上作品集展示了她最好的照片。"]]},
+    {"p": "n", "zh": "投資組合", "ai": [["It's wise to have a diverse investment portfolio.", "擁有多元的投資組合是明智的。"], ["He reviews his portfolio once a month.", "他每個月檢視一次自己的投資組合。"]]}
+  ],
+  "interview": [
+    {"p": "n", "zh": "面試", "t": [2306765, 323515], "fix": {"2306765": "我明天有大學入學面試，希望能通過。", "323515": "面試時你得隨機應變。"}},
+    {"p": "n", "zh": "訪問、採訪", "t": [809218], "fix": {"809218": "採訪者先介紹了這次訪問的主題。"}, "ai": [["The singer gave an interview to a local newspaper.", "那位歌手接受了當地報紙的採訪。"]]},
+    {"p": "v", "zh": "面試；採訪", "t": [5085474, 3730147], "fix": {"3730147": "湯姆正在接受瑪麗的訪問。"}}
+  ],
+  "candidate": [
+    {"p": "n", "zh": "（工作的）應徵者", "t": [291051, 2418616], "fix": {"2418616": "這個職位最理想的應徵者要有四年工作經驗。"}},
+    {"p": "n", "zh": "（選舉的）候選人", "t": [297175, 20628], "fix": {"20628": "說也奇怪，沒有人投票給那位候選人。"}}
+  ],
+  "qualification": [
+    {"p": "n", "zh": "資格；學歷證照", "ai": [["What qualifications do I need for this job?", "這份工作需要什麼資格？"], ["She has a teaching qualification from the UK.", "她有英國的教師資格證。"]]}
+  ],
+  "strength": [
+    {"p": "n", "zh": "優點、長處", "t": [3855765, 10642457], "fix": {"3855765": "因為貴公司的業務能發揮我的長處。"}},
+    {"p": "n", "zh": "力氣、力量", "t": [2125], "ai": [["He didn't have the strength to lift the box.", "他沒有力氣抬起那個箱子。"]]}
+  ],
+  "weakness": [
+    {"p": "n", "zh": "缺點、弱點", "t": [6614329, 4502370, 45742], "fix": {"6614329": "你們的優點和缺點是什麼？", "45742": "那位戰士清楚自己的強項與弱點。"}},
+    {"p": "n", "zh": "（a weakness for）特別喜愛（難以抗拒）", "t": [66858], "fix": {"66858": "安對巧克力毫無抵抗力。"}, "ai": [["I have a weakness for spicy food.", "我對辣的食物毫無抵抗力。"]]}
+  ],
+  "competent": [
+    {"p": "adj", "zh": "能勝任的、有能力的", "t": [3699690, 4500544, 803488]}
+  ],
+  "proficient": [
+    {"p": "adj", "zh": "精通的、熟練的", "t": [312105, 810865]}
+  ],
+  "aptitude": [
+    {"p": "n", "zh": "天資、才能", "t": [294198], "fix": {"294198": "他有非凡的音樂天分。"}, "ai": [["She shows a natural aptitude for languages.", "她很有語言天分。"]]}
+  ],
+  "articulate": [
+    {"p": "adj", "zh": "表達清楚的、口才好的", "t": [1991], "fix": {"1991": "他有時很難把自己的看法說清楚。"}, "ai": [["She is an articulate speaker.", "她是一位口才很好的講者。"]]},
+    {"p": "v", "zh": "清楚表達", "ai": [["He found it hard to articulate his feelings.", "他覺得很難清楚說出自己的感受。"], ["Try to articulate your main point in one sentence.", "試著用一句話清楚說出你的重點。"]]}
+  ],
+  "hire": [
+    {"p": "v", "zh": "雇用", "t": [480328, 68510, 432731], "fix": {"480328": "如果他英文說得流利，我就雇用他。", "68510": "這家公司雇人不分種族、宗教或國籍。", "432731": "「再來吧」酒吧在徵服務生，你有興趣嗎？"}},
+    {"p": "v", "zh": "（英式）租用", "t": [455793], "ai": [["We hired bikes and rode around the lake.", "我們租了腳踏車繞著湖騎。"]]}
+  ],
+  "offer": [
+    {"p": "n", "zh": "提議；（工作的）錄取通知", "t": [17751, 46065], "fix": {"17751": "你接受他的提議真是太傻了。", "46065": "我別無選擇，只能接受這個提議。"}, "ai": [["She received a job offer from a bank.", "她收到一家銀行的錄取通知。"]]},
+    {"p": "v", "zh": "提供；主動給予", "t": [304832, 46053], "fix": {"304832": "他把座位讓給一位老太太。", "46053": "這個神話讓我們得以了解古代文明。"}}
+  ],
+  "salary": [
+    {"p": "n", "zh": "薪水", "t": [19533, 241251, 602918], "fix": {"19533": "他薪水太低，買不起房子。", "241251": "他的高薪讓他生活過得很舒適。", "602918": "我一領到薪水就還你錢。"}}
+  ],
+  "benefit": [
+    {"p": "n", "zh": "好處、益處", "t": [21869, 997913]},
+    {"p": "v", "zh": "對…有益；受益", "t": [4408062, 10475138]},
+    {"p": "n", "zh": "（常用複數）員工福利", "src": "app", "ai": [["The company offers good benefits, including health insurance.", "這家公司福利很好，包括健康保險。"], ["Benefits include paid leave and an annual bonus.", "福利包括帶薪假和年終獎金。"]]}
+  ],
+  "promotion": [
+    {"p": "n", "zh": "升職、晉升", "t": [6750943, 7767803], "fix": {"7767803": "我和同事做一樣的工作，但公司答應她很快就會升職。"}},
+    {"p": "n", "zh": "促銷（活動）", "t": [5147456], "fix": {"5147456": "最近天貓有手機促銷活動。"}, "ai": [["The store is running a buy-one-get-one-free promotion.", "這家店正在做買一送一的促銷。"]]}
+  ],
+  "career": [
+    {"p": "n", "zh": "職業生涯、事業", "t": [2898335, 5544520, 10535147], "fix": {"5544520": "他對未來的職涯一直抱持開放的態度。"}}
+  ],
+  "negotiable": [
+    {"p": "adj", "zh": "可協商的、可議的", "ai": [["The salary is negotiable.", "薪資可議。"], ["Is the price negotiable?", "價格可以再談嗎？"]]}
+  ],
+  "probation": [
+    {"p": "n", "zh": "試用期", "src": "app", "ai": [["New employees are on probation for three months.", "新進員工有三個月的試用期。"], ["She passed her probation and became a full-time staff member.", "她通過試用期，成為正式員工。"]]},
+    {"p": "n", "zh": "緩刑", "t": [6907750], "ai": [["He was sentenced to two years' probation.", "他被判緩刑兩年。"]]}
+  ],
+  "severance": [
+    {"p": "n", "zh": "（severance pay）資遣費", "src": "app", "ai": [["Employees who were laid off received severance pay.", "被裁員的員工拿到了資遣費。"], ["The company offered three months' severance.", "公司提供三個月的資遣費。"]]}
+  ]
+}
