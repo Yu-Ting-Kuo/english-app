@@ -1,0 +1,317 @@
+{
+  "_說明": "主題分類由 App 編輯整理。每個單字後面的中文是「在這個情境中的意思」；完整詞義以辭典條目為準。改完執行 python tools/build_topics.py 檢查並產生 dict/topics.json。",
+  "categories": [
+    {"id": "daily", "zh": "日常生活", "en": "Daily Life", "desc": "聊天、購物、吃飯、看醫生，每天都用得到的字",
+     "topics": ["daily-conversation", "family", "shopping", "restaurant", "health", "leisure", "weather", "home"]},
+    {"id": "travel", "zh": "旅遊英文", "en": "Travel", "desc": "從機場、飯店到問路，出國前先準備好",
+     "topics": ["airport", "hotel", "transport", "directions", "sightseeing", "customs", "emergency"]},
+    {"id": "work", "zh": "工作與商務", "en": "Business & Work", "desc": "開會、寫信、打電話、面試的職場英文",
+     "topics": ["office", "meetings", "emails", "phone-calls", "interviews", "workplace-communication", "presentations", "project-management", "orders", "negotiation"]},
+    {"id": "toeic", "zh": "多益主題", "en": "TOEIC Topics", "desc": "依多益常見情境整理的學習主題（非官方分類或題庫）",
+     "topics": ["personnel", "office-procedures", "business-travel", "banking", "purchasing", "products-services", "logistics", "manufacturing", "events", "marketing", "hospitality", "real-estate"]},
+    {"id": "academic", "zh": "學術與科技", "en": "Academic & Technology", "desc": "學校、研究、電腦、網路與環境議題",
+     "topics": ["education", "science", "computers", "internet", "engineering", "environment"]},
+    {"id": "society", "zh": "社會與世界", "en": "Society & World", "desc": "看懂新聞、時事、文化與國際話題",
+     "topics": ["news", "government", "economy", "culture", "geography"]}
+  ],
+  "topics": {
+    "daily-conversation": {"zh": "日常對話", "en": "Daily Conversations", "level": "初級", "intro": "打招呼、表達意見、約朋友出門，聊天時最常用的字。",
+      "sections": [
+        ["打招呼與寒暄", "Greetings & Small Talk", [["greet", "打招呼"], ["introduce", "介紹"], ["stranger", "陌生人"], ["neighbor", "鄰居"], ["chat", "聊天"], ["catch up", "敘舊、聊近況"]]],
+        ["表達意見", "Giving Opinions", [["agree", "同意"], ["disagree", "不同意"], ["opinion", "意見、看法"], ["suggest", "建議"], ["actually", "其實"], ["probably", "大概、可能"], ["definitely", "一定、當然"]]],
+        ["邀約與計畫", "Making Plans", [["invite", "邀請"], ["available", "有空的"], ["busy", "忙碌的"], ["hang out", "一起出去玩"], ["weekend", "週末"], ["plan", "計畫"], ["cancel", "取消"]]],
+        ["感謝與道歉", "Thanks & Apologies", [["appreciate", "感激"], ["grateful", "感謝的"], ["apologize", "道歉"], ["forgive", "原諒"], ["mistake", "錯誤"], ["excuse", "原諒；藉口"]]]
+      ]},
+    "family": {"zh": "家庭與人際關係", "en": "Family & Relationships", "level": "初級", "intro": "家人、朋友、感情，以及描述人和人之間關係的字。",
+      "sections": [
+        ["家人", "Family Members", [["parent", "父母（其中一方）"], ["sibling", "兄弟姊妹"], ["cousin", "堂表兄弟姊妹"], ["relative", "親戚"], ["grandparent", "祖父母、外祖父母"], ["spouse", "配偶"]]],
+        ["感情與婚姻", "Love & Marriage", [["date", "約會"], ["boyfriend", "男朋友"], ["girlfriend", "女朋友"], ["engaged", "訂婚的"], ["marry", "結婚"], ["divorce", "離婚"]]],
+        ["朋友與相處", "Friends & Getting Along", [["friendship", "友誼"], ["classmate", "同學"], ["colleague", "同事"], ["trust", "信任"], ["argue", "爭吵"], ["get along", "相處融洽"], ["support", "支持"]]]
+      ]},
+    "shopping": {"zh": "購物與消費", "en": "Shopping & Spending", "level": "初級", "intro": "逛街、結帳、退換貨，花錢時一定會遇到的字。",
+      "sections": [
+        ["逛街與挑選", "Browsing", [["browse", "隨便看看、瀏覽"], ["brand", "品牌"], ["size", "尺寸"], ["try on", "試穿"], ["fit", "合身"], ["in stock", "有現貨"], ["sold out", "賣完"]]],
+        ["價格與優惠", "Prices & Deals", [["price", "價格"], ["discount", "折扣"], ["sale", "特價"], ["bargain", "划算的東西；討價還價"], ["expensive", "昂貴的"], ["cheap", "便宜的"], ["afford", "負擔得起"]]],
+        ["結帳與付款", "Checkout & Payment", [["cashier", "收銀員"], ["receipt", "收據"], ["cash", "現金"], ["credit card", "信用卡"], ["change", "零錢；找的錢"], ["tax", "稅"]]],
+        ["退換貨", "Returns & Exchanges", [["return", "退貨"], ["exchange", "換貨"], ["refund", "退款"], ["damaged", "損壞的"], ["warranty", "保固"]]]
+      ]},
+    "restaurant": {"zh": "餐廳與飲食", "en": "Restaurants & Food", "level": "初級", "intro": "訂位、點餐、描述味道和結帳的實用字。",
+      "sections": [
+        ["訂位與入座", "Reservations", [["reservation", "訂位"], ["table", "桌子；座位"], ["waiter", "男服務生"], ["waitress", "女服務生"], ["menu", "菜單"]]],
+        ["點餐", "Ordering", [["order", "點餐"], ["appetizer", "開胃菜"], ["main course", "主菜"], ["dessert", "甜點"], ["beverage", "飲料"], ["vegetarian", "素食的；素食者"], ["recommend", "推薦"]]],
+        ["味道與口感", "Taste & Texture", [["delicious", "美味的"], ["spicy", "辣的"], ["sour", "酸的"], ["bitter", "苦的"], ["salty", "鹹的"], ["crispy", "酥脆的"], ["greasy", "油膩的"]]],
+        ["用餐與結帳", "Paying the Bill", [["bill", "帳單"], ["tip", "小費"], ["takeout", "外帶"], ["leftovers", "剩菜"], ["split", "平分（帳單）"]]]
+      ]},
+    "health": {"zh": "健康與身體", "en": "Health & Body", "level": "初級～中級", "intro": "描述身體不舒服、看醫生和拿藥時需要的字。",
+      "sections": [
+        ["身體不適", "Feeling Sick", [["headache", "頭痛"], ["fever", "發燒"], ["cough", "咳嗽"], ["sore", "疼痛的"], ["dizzy", "頭暈的"], ["allergy", "過敏"], ["symptom", "症狀"]]],
+        ["看醫生", "Seeing a Doctor", [["appointment", "預約"], ["clinic", "診所"], ["patient", "病人"], ["nurse", "護理師"], ["examine", "檢查"], ["diagnose", "診斷"]]],
+        ["藥物與治療", "Medicine & Treatment", [["medicine", "藥"], ["prescription", "處方"], ["pharmacy", "藥局"], ["pill", "藥丸"], ["side effect", "副作用"], ["recover", "康復"]]],
+        ["健康習慣", "Healthy Habits", [["exercise", "運動"], ["diet", "飲食"], ["sleep", "睡眠"], ["stress", "壓力"], ["healthy", "健康的"]]]
+      ]},
+    "leisure": {"zh": "休閒與娛樂", "en": "Leisure & Entertainment", "level": "初級", "intro": "聊興趣、電影、音樂和運動時用得到的字。",
+      "sections": [
+        ["興趣嗜好", "Hobbies", [["hobby", "嗜好"], ["interest", "興趣"], ["photography", "攝影"], ["hiking", "健行"], ["camping", "露營"], ["collect", "收集"]]],
+        ["影視與音樂", "Movies & Music", [["movie", "電影"], ["series", "影集"], ["episode", "一集"], ["concert", "演唱會"], ["album", "專輯"], ["streaming", "串流"]]],
+        ["運動與比賽", "Sports & Games", [["team", "隊伍"], ["match", "比賽"], ["score", "得分"], ["win", "贏"], ["lose", "輸"], ["fan", "粉絲、球迷"]]]
+      ]},
+    "weather": {"zh": "天氣與自然", "en": "Weather & Nature", "level": "初級", "intro": "聊天氣、季節和大自然的基本字。",
+      "sections": [
+        ["天氣狀況", "Weather Conditions", [["sunny", "晴朗的"], ["cloudy", "多雲的"], ["rainy", "下雨的"], ["windy", "風大的"], ["humid", "潮濕的"], ["foggy", "有霧的"], ["temperature", "溫度"]]],
+        ["天氣預報與災害", "Forecasts & Storms", [["forecast", "天氣預報"], ["typhoon", "颱風"], ["thunderstorm", "雷雨"], ["earthquake", "地震"], ["flood", "淹水"], ["heat wave", "熱浪"]]],
+        ["季節與自然", "Seasons & Nature", [["season", "季節"], ["spring", "春天"], ["summer", "夏天"], ["autumn", "秋天"], ["winter", "冬天"], ["mountain", "山"], ["ocean", "海洋"]]]
+      ]},
+    "home": {"zh": "居家生活", "en": "Home & Household", "level": "初級", "intro": "房間、家具、家事和租屋相關的字。",
+      "sections": [
+        ["房間與家具", "Rooms & Furniture", [["living room", "客廳"], ["bedroom", "臥室"], ["kitchen", "廚房"], ["bathroom", "浴室"], ["furniture", "家具"], ["sofa", "沙發"], ["closet", "衣櫥"]]],
+        ["家事", "Chores", [["chore", "家事"], ["laundry", "要洗的衣服；洗衣"], ["dishes", "碗盤"], ["vacuum", "用吸塵器打掃"], ["trash", "垃圾"], ["tidy", "整齊的；整理"]]],
+        ["租屋與水電", "Renting & Utilities", [["rent", "房租；租"], ["landlord", "房東"], ["tenant", "房客"], ["electricity", "電"], ["utilities", "水電瓦斯等費用"], ["repair", "修理"]]]
+      ]},
+
+    "airport": {"zh": "機場與搭飛機", "en": "Airports & Flights", "level": "初級～中級", "intro": "從報到、託運行李、登機到航班延誤，搭飛機一路會遇到的字。",
+      "sections": [
+        ["報到與行李", "Check-in & Baggage", [["check in", "辦理登機手續"], ["counter", "櫃檯"], ["baggage", "行李"], ["luggage", "行李"], ["suitcase", "行李箱"], ["overweight", "超重的"], ["fragile", "易碎的"]]],
+        ["登機與航班", "Boarding & Flights", [["boarding pass", "登機證"], ["gate", "登機門"], ["board", "登機"], ["departure", "出發、起飛"], ["arrival", "抵達"], ["flight attendant", "空服員"], ["aisle", "走道"]]],
+        ["航班異動", "Flight Changes", [["delay", "延誤"], ["cancel", "取消"], ["reschedule", "重新安排時間"], ["layover", "轉機停留"], ["transfer", "轉機"], ["destination", "目的地"]]],
+        ["機上與抵達", "On Board & Arrival", [["seat belt", "安全帶"], ["turbulence", "亂流"], ["jet lag", "時差"], ["terminal", "航廈"], ["baggage claim", "行李提領處"]]]
+      ]},
+    "hotel": {"zh": "飯店與住宿", "en": "Hotels & Accommodation", "level": "初級～中級", "intro": "訂房、入住、要求服務和退房時需要的字。",
+      "sections": [
+        ["訂房", "Booking", [["book", "預訂"], ["reservation", "預約"], ["vacancy", "空房"], ["single room", "單人房"], ["double room", "雙人房"], ["deposit", "訂金、押金"]]],
+        ["入住與退房", "Check-in & Check-out", [["front desk", "櫃檯"], ["reception", "接待處"], ["check out", "退房"], ["key card", "房卡"], ["passport", "護照"], ["luggage", "行李"]]],
+        ["房內設施與服務", "Facilities & Services", [["room service", "客房服務"], ["housekeeping", "房務清潔"], ["towel", "毛巾"], ["air conditioner", "冷氣機"], ["complimentary", "免費贈送的"], ["amenities", "設施、備品"]]]
+      ]},
+    "transport": {"zh": "大眾運輸", "en": "Public Transportation", "level": "初級", "intro": "搭捷運、公車、火車和計程車時的常用字。",
+      "sections": [
+        ["搭車與買票", "Tickets", [["ticket", "票"], ["fare", "車資"], ["one-way", "單程的"], ["round-trip", "來回的"], ["platform", "月台"], ["timetable", "時刻表"]]],
+        ["交通工具", "Getting Around", [["subway", "地鐵、捷運"], ["bus stop", "公車站"], ["train", "火車"], ["taxi", "計程車"], ["shuttle", "接駁車"], ["ferry", "渡輪"]]],
+        ["轉乘與下車", "Transfers", [["transfer", "轉乘"], ["line", "路線"], ["get off", "下車"], ["get on", "上車"], ["miss", "錯過（車班）"], ["rush hour", "尖峰時間"]]]
+      ]},
+    "directions": {"zh": "問路與導航", "en": "Directions & Navigation", "level": "初級", "intro": "問路、看地圖和描述位置的字。",
+      "sections": [
+        ["問路", "Asking the Way", [["direction", "方向"], ["lost", "迷路的"], ["nearby", "附近的"], ["far", "遠的"], ["map", "地圖"], ["landmark", "地標"]]],
+        ["方向與位置", "Location", [["straight", "直直地"], ["turn", "轉彎"], ["corner", "轉角"], ["opposite", "在對面"], ["next to", "在旁邊"], ["across", "在對面；穿過"], ["block", "街區"]]],
+        ["路上的地方", "On the Street", [["intersection", "十字路口"], ["traffic light", "紅綠燈"], ["crosswalk", "斑馬線"], ["sidewalk", "人行道"], ["entrance", "入口"], ["exit", "出口"]]]
+      ]},
+    "sightseeing": {"zh": "觀光與景點", "en": "Sightseeing & Attractions", "level": "初級～中級", "intro": "參觀景點、參加導覽和買紀念品時的字。",
+      "sections": [
+        ["景點", "Attractions", [["attraction", "景點"], ["museum", "博物館"], ["gallery", "美術館"], ["temple", "寺廟"], ["castle", "城堡"], ["night market", "夜市"]]],
+        ["參觀與導覽", "Tours", [["tour", "導覽、旅遊"], ["guide", "導遊"], ["admission", "入場費"], ["opening hours", "營業時間"], ["brochure", "簡介手冊"], ["souvenir", "紀念品"]]],
+        ["拍照與體驗", "Experiences", [["scenery", "風景"], ["view", "景色"], ["crowded", "擁擠的"], ["local", "當地的"], ["traditional", "傳統的"], ["experience", "體驗"]]]
+      ]},
+    "customs": {"zh": "海關與入境", "en": "Customs & Immigration", "level": "中級", "intro": "過海關、入境審查和申報物品時會被問到的字。",
+      "sections": [
+        ["入境審查", "Immigration", [["immigration", "入境審查"], ["passport", "護照"], ["visa", "簽證"], ["purpose", "目的"], ["visit", "拜訪、參觀"], ["stay", "停留"], ["return ticket", "回程票"]]],
+        ["海關申報", "Customs", [["customs", "海關"], ["declare", "申報"], ["declaration", "申報單"], ["duty-free", "免稅的"], ["prohibited", "禁止的"], ["inspect", "檢查"]]],
+        ["身分與文件", "Documents", [["nationality", "國籍"], ["citizen", "公民"], ["resident", "居民"], ["valid", "有效的"], ["expire", "過期"]]]
+      ]},
+    "emergency": {"zh": "緊急情況", "en": "Emergencies", "level": "中級", "intro": "生病、受傷、遺失物品或需要求救時的字。",
+      "sections": [
+        ["求救", "Getting Help", [["emergency", "緊急情況"], ["ambulance", "救護車"], ["police", "警察"], ["help", "幫忙；救命"], ["urgent", "緊急的"], ["embassy", "大使館"]]],
+        ["受傷與生病", "Injuries", [["injured", "受傷的"], ["bleed", "流血"], ["broken", "斷掉的"], ["unconscious", "失去意識的"], ["hospital", "醫院"], ["insurance", "保險"]]],
+        ["遺失與失竊", "Lost & Stolen", [["lose", "遺失"], ["stolen", "被偷的"], ["wallet", "錢包"], ["report", "報案"], ["lost and found", "失物招領處"], ["thief", "小偷"]]]
+      ]},
+
+    "office": {"zh": "辦公室", "en": "Office", "level": "初級～中級", "intro": "辦公室裡的人、設備和日常工作。",
+      "sections": [
+        ["辦公室的人", "People", [["colleague", "同事"], ["manager", "經理"], ["supervisor", "主管"], ["staff", "員工（總稱）"], ["intern", "實習生"], ["receptionist", "接待員"]]],
+        ["設備與用品", "Equipment", [["printer", "印表機"], ["photocopier", "影印機"], ["stationery", "文具"], ["file", "檔案"], ["desk", "辦公桌"], ["cubicle", "隔間座位"]]],
+        ["日常工作", "Daily Tasks", [["schedule", "行程表"], ["task", "任務"], ["deadline", "截止期限"], ["overtime", "加班"], ["shift", "輪班"], ["paperwork", "文書工作"]]]
+      ]},
+    "meetings": {"zh": "商務會議", "en": "Business Meetings", "level": "中級", "intro": "安排會議、討論、做決定和會後追蹤的字。",
+      "sections": [
+        ["安排會議", "Scheduling", [["meeting", "會議"], ["agenda", "議程"], ["schedule", "安排時間"], ["postpone", "延後"], ["attend", "出席"], ["conference room", "會議室"]]],
+        ["會議中", "During the Meeting", [["discuss", "討論"], ["propose", "提議"], ["point out", "指出"], ["concern", "疑慮"], ["clarify", "釐清"], ["brainstorm", "腦力激盪"]]],
+        ["決定與追蹤", "Decisions & Follow-up", [["decision", "決定"], ["vote", "投票"], ["consensus", "共識"], ["minutes", "會議紀錄"], ["follow up", "後續追蹤"], ["action", "行動"]]]
+      ]},
+    "emails": {"zh": "電子郵件", "en": "Emails", "level": "中級", "intro": "寫工作信件時常用的字和說法。",
+      "sections": [
+        ["寄信與回信", "Sending & Replying", [["subject", "主旨"], ["recipient", "收件人"], ["forward", "轉寄"], ["reply", "回覆"], ["attachment", "附件"], ["attach", "附上"]]],
+        ["常用說法", "Useful Expressions", [["regarding", "關於"], ["inquiry", "詢問"], ["confirm", "確認"], ["inform", "通知"], ["request", "請求"], ["reminder", "提醒"]]],
+        ["語氣與結尾", "Tone & Closing", [["sincerely", "敬上（結尾）"], ["regards", "問候（結尾）"], ["urgent", "緊急的"], ["promptly", "迅速地"], ["at your convenience", "在您方便時"]]]
+      ]},
+    "phone-calls": {"zh": "電話溝通", "en": "Phone Calls", "level": "中級", "intro": "接電話、轉接、留言和處理收訊問題的字。",
+      "sections": [
+        ["接打電話", "Making Calls", [["call", "打電話"], ["dial", "撥號"], ["answer", "接（電話）"], ["hang up", "掛斷"], ["call back", "回電"], ["extension", "分機"]]],
+        ["轉接與留言", "Transfers & Messages", [["put through", "轉接"], ["hold", "稍等不掛斷"], ["available", "有空接電話的"], ["message", "留言"], ["voicemail", "語音信箱"]]],
+        ["通話問題", "Problems", [["signal", "訊號"], ["disconnect", "斷線"], ["speak up", "大聲一點說"], ["repeat", "重複"], ["spell", "拼出"]]]
+      ]},
+    "interviews": {"zh": "面試與求職", "en": "Job Interviews & Careers", "level": "中級", "intro": "找工作、寫履歷、面試和談薪水的字。",
+      "sections": [
+        ["求職", "Job Hunting", [["apply", "應徵"], ["application", "申請"], ["position", "職位"], ["vacancy", "職缺"], ["resume", "履歷"], ["cover letter", "求職信"]]],
+        ["面試", "Interviews", [["interview", "面試"], ["candidate", "應徵者"], ["qualification", "資格"], ["experience", "經驗"], ["strength", "優點"], ["weakness", "缺點"]]],
+        ["錄取與薪資", "Offers & Salary", [["hire", "雇用"], ["offer", "錄取通知"], ["salary", "薪水"], ["benefit", "福利"], ["promotion", "升遷"], ["career", "職涯"]]]
+      ]},
+    "workplace-communication": {"zh": "職場溝通", "en": "Workplace Communication", "level": "中級", "intro": "和同事、主管合作與溝通時的字。",
+      "sections": [
+        ["合作", "Teamwork", [["cooperate", "合作"], ["collaborate", "協作"], ["teamwork", "團隊合作"], ["responsible", "負責的"], ["assign", "分派"], ["delegate", "委派"]]],
+        ["回饋與溝通", "Feedback", [["feedback", "回饋意見"], ["update", "最新進度"], ["explain", "解釋"], ["misunderstanding", "誤會"], ["communicate", "溝通"], ["respond", "回應"]]],
+        ["問題處理", "Problem Solving", [["issue", "問題"], ["solution", "解決方法"], ["conflict", "衝突"], ["compromise", "妥協"], ["priority", "優先事項"], ["handle", "處理"]]]
+      ]},
+    "presentations": {"zh": "簡報與報告", "en": "Presentations & Reports", "level": "中級～中高級", "intro": "做簡報、說明資料和寫報告時的字。",
+      "sections": [
+        ["準備簡報", "Preparing", [["presentation", "簡報"], ["slide", "投影片"], ["outline", "大綱"], ["audience", "聽眾"], ["rehearse", "排練"]]],
+        ["說明資料", "Describing Data", [["chart", "圖表"], ["graph", "曲線圖"], ["figure", "數字；圖表"], ["increase", "增加"], ["decrease", "減少"], ["trend", "趨勢"], ["significant", "顯著的"]]],
+        ["報告與總結", "Reports", [["report", "報告"], ["summary", "摘要"], ["conclusion", "結論"], ["analysis", "分析"], ["highlight", "強調、重點"], ["recommendation", "建議"]]]
+      ]},
+    "project-management": {"zh": "專案管理", "en": "Project Management", "level": "中高級", "intro": "規劃專案、掌握進度、管理預算和風險的字。",
+      "sections": [
+        ["規劃", "Planning", [["project", "專案"], ["goal", "目標"], ["scope", "範圍"], ["timeline", "時程"], ["milestone", "里程碑"], ["resource", "資源"]]],
+        ["執行與進度", "Progress", [["progress", "進度"], ["on schedule", "按照進度"], ["behind schedule", "進度落後"], ["deliver", "交付"], ["complete", "完成"], ["status", "狀態"]]],
+        ["預算與風險", "Budget & Risk", [["budget", "預算"], ["cost", "成本"], ["risk", "風險"], ["estimate", "估計"], ["stakeholder", "利害關係人"], ["approve", "核准"]]]
+      ]},
+    "orders": {"zh": "訂單與採購", "en": "Orders & Purchasing", "level": "中級", "intro": "下訂單、報價、付款和出貨的字。",
+      "sections": [
+        ["詢價與報價", "Quotes", [["quote", "報價"], ["quotation", "報價單"], ["supplier", "供應商"], ["vendor", "廠商"], ["catalog", "型錄"], ["unit price", "單價"]]],
+        ["下單與付款", "Ordering & Payment", [["order", "訂單"], ["quantity", "數量"], ["invoice", "發票、請款單"], ["payment", "付款"], ["purchase order", "採購單"], ["confirm", "確認"]]],
+        ["出貨", "Shipping", [["ship", "出貨"], ["shipment", "貨物；運送"], ["delivery", "交貨"], ["in stock", "有庫存"], ["back order", "缺貨待補的訂單"], ["track", "追蹤"]]]
+      ]},
+    "negotiation": {"zh": "商業談判", "en": "Business Negotiations", "level": "中高級", "intro": "談條件、讓步和簽約時會用到的字。",
+      "sections": [
+        ["談判過程", "Negotiating", [["negotiate", "談判"], ["proposal", "提案"], ["offer", "出價"], ["counteroffer", "還價"], ["term", "條件"], ["condition", "條件"]]],
+        ["讓步與協議", "Reaching Agreement", [["compromise", "妥協"], ["concession", "讓步"], ["agreement", "協議"], ["deal", "交易"], ["mutual", "互相的"], ["flexible", "有彈性的"]]],
+        ["合約", "Contracts", [["contract", "合約"], ["sign", "簽署"], ["clause", "條款"], ["deadline", "期限"], ["renew", "續約"], ["terminate", "終止"]]]
+      ]},
+
+    "personnel": {"zh": "人事與招聘", "en": "Personnel & Recruitment", "level": "中級", "intro": "徵才、新人訓練、考核和離職相關的字。",
+      "sections": [
+        ["徵才", "Recruiting", [["recruit", "招募"], ["applicant", "應徵者"], ["job opening", "職缺"], ["requirement", "條件"], ["reference", "推薦人"], ["hire", "雇用"]]],
+        ["到職與訓練", "Onboarding", [["orientation", "新人說明會"], ["training", "訓練"], ["employee", "員工"], ["employer", "雇主"], ["department", "部門"], ["personnel", "人事"]]],
+        ["考核與異動", "Reviews & Changes", [["evaluation", "評估"], ["performance", "表現"], ["promote", "升職"], ["transfer", "調職"], ["resign", "辭職"], ["retire", "退休"]]]
+      ]},
+    "office-procedures": {"zh": "辦公室事務", "en": "Office Procedures", "level": "中級", "intro": "辦公室規定、行政流程與文件處理。",
+      "sections": [
+        ["規定與流程", "Policies", [["policy", "政策、規定"], ["procedure", "程序"], ["regulation", "規章"], ["comply", "遵守"], ["approval", "核准"], ["form", "表格"]]],
+        ["文件處理", "Documents", [["document", "文件"], ["submit", "提交"], ["sign", "簽名"], ["copy", "副本"], ["archive", "歸檔"], ["memo", "備忘錄"]]],
+        ["設備與維護", "Equipment", [["maintenance", "維修保養"], ["supplies", "用品"], ["install", "安裝"], ["out of order", "故障"], ["technician", "技術人員"]]]
+      ]},
+    "business-travel": {"zh": "商務旅行", "en": "Business Travel", "level": "中級", "intro": "出差安排、行程與報帳的字。",
+      "sections": [
+        ["行程安排", "Itinerary", [["itinerary", "行程表"], ["business trip", "出差"], ["accommodation", "住宿"], ["book", "預訂"], ["travel agency", "旅行社"]]],
+        ["交通與住宿", "Getting There", [["flight", "航班"], ["economy class", "經濟艙"], ["business class", "商務艙"], ["rental car", "租來的車"], ["shuttle", "接駁車"]]],
+        ["費用報銷", "Expenses", [["expense", "費用"], ["reimburse", "報銷、償還"], ["receipt", "收據"], ["allowance", "津貼"], ["per diem", "每日出差津貼"]]]
+      ]},
+    "banking": {"zh": "銀行與財務", "en": "Banking & Finance", "level": "中級", "intro": "開戶、轉帳、貸款和公司財務的字。",
+      "sections": [
+        ["銀行帳戶", "Accounts", [["account", "帳戶"], ["deposit", "存款"], ["withdraw", "提款"], ["balance", "餘額"], ["transfer", "轉帳"], ["statement", "對帳單"]]],
+        ["貸款與利息", "Loans", [["loan", "貸款"], ["interest", "利息"], ["mortgage", "房屋貸款"], ["debt", "債務"], ["credit", "信用"]]],
+        ["公司財務", "Finance", [["revenue", "營收"], ["profit", "利潤"], ["loss", "虧損"], ["audit", "稽核"], ["accounting", "會計"], ["fiscal year", "會計年度"]]]
+      ]},
+    "purchasing": {"zh": "採購與訂單", "en": "Purchasing & Orders", "level": "中級", "intro": "採購流程、供應商與庫存管理（多益常見情境）。",
+      "sections": [
+        ["採購流程", "Purchasing", [["purchase", "購買"], ["procurement", "採購"], ["supplier", "供應商"], ["bulk", "大量"], ["requisition", "請購單"]]],
+        ["價格與條件", "Pricing", [["estimate", "估價"], ["quote", "報價"], ["discount", "折扣"], ["terms", "條款"], ["warranty", "保固"]]],
+        ["庫存", "Inventory", [["inventory", "庫存"], ["stock", "存貨"], ["out of stock", "缺貨"], ["warehouse", "倉庫"], ["order", "訂購"]]]
+      ]},
+    "products-services": {"zh": "產品與服務", "en": "Products & Services", "level": "中級", "intro": "介紹產品、客服、保固與客訴處理。",
+      "sections": [
+        ["產品", "Products", [["product", "產品"], ["feature", "功能、特色"], ["model", "型號"], ["launch", "推出"], ["quality", "品質"], ["durable", "耐用的"]]],
+        ["客戶服務", "Customer Service", [["customer", "顧客"], ["client", "客戶"], ["service", "服務"], ["representative", "代表、客服人員"], ["satisfaction", "滿意"]]],
+        ["問題與客訴", "Complaints", [["complaint", "抱怨、客訴"], ["defective", "有瑕疵的"], ["replace", "更換"], ["refund", "退款"], ["warranty", "保固"]]]
+      ]},
+    "logistics": {"zh": "物流與運輸", "en": "Logistics & Transportation", "level": "中級～中高級", "intro": "貨物運送、倉儲與配送的字。",
+      "sections": [
+        ["運送", "Shipping", [["shipping", "運送"], ["freight", "貨運"], ["cargo", "貨物"], ["container", "貨櫃"], ["courier", "快遞"], ["carrier", "運輸業者"]]],
+        ["倉儲與配送", "Warehousing", [["warehouse", "倉庫"], ["distribution", "配送"], ["package", "包裹"], ["label", "標籤"], ["load", "裝貨"], ["unload", "卸貨"]]],
+        ["追蹤與時程", "Tracking", [["tracking number", "追蹤號碼"], ["estimated", "預估的"], ["delay", "延誤"], ["dispatch", "發送"], ["route", "路線"]]]
+      ]},
+    "manufacturing": {"zh": "製造與生產", "en": "Manufacturing & Production", "level": "中高級", "intro": "工廠、生產線和品質管理的字。",
+      "sections": [
+        ["工廠", "Factory", [["factory", "工廠"], ["plant", "工廠"], ["assembly line", "生產線"], ["machinery", "機器（總稱）"], ["equipment", "設備"]]],
+        ["生產", "Production", [["produce", "生產"], ["manufacture", "製造"], ["output", "產量"], ["capacity", "產能"], ["raw material", "原料"], ["component", "零件"]]],
+        ["品質與安全", "Quality & Safety", [["quality control", "品質管理"], ["inspection", "檢查"], ["standard", "標準"], ["defect", "瑕疵"], ["safety", "安全"]]]
+      ]},
+    "events": {"zh": "會議與活動", "en": "Meetings & Events", "level": "中級", "intro": "籌辦研討會、展覽和公司活動的字。",
+      "sections": [
+        ["籌備活動", "Planning Events", [["event", "活動"], ["venue", "場地"], ["organize", "籌辦"], ["host", "主辦"], ["sponsor", "贊助"], ["catering", "外燴"]]],
+        ["活動類型", "Types of Events", [["conference", "研討會"], ["seminar", "講座"], ["workshop", "工作坊"], ["exhibition", "展覽"], ["trade show", "商展"], ["banquet", "宴會"]]],
+        ["報名與參加", "Registration", [["register", "報名"], ["registration", "報名"], ["participant", "參加者"], ["attendee", "出席者"], ["badge", "名牌"], ["keynote", "主題演講"]]]
+      ]},
+    "marketing": {"zh": "行銷與廣告", "en": "Marketing & Advertising", "level": "中級～中高級", "intro": "廣告、市場調查與推廣活動的字。",
+      "sections": [
+        ["市場", "Market", [["market", "市場"], ["consumer", "消費者"], ["target", "目標"], ["survey", "調查"], ["competitor", "競爭對手"], ["demand", "需求"]]],
+        ["廣告與推廣", "Advertising", [["advertisement", "廣告"], ["campaign", "活動、宣傳"], ["promote", "推廣"], ["promotion", "促銷"], ["slogan", "標語"], ["commercial", "電視廣告"]]],
+        ["品牌", "Branding", [["brand", "品牌"], ["image", "形象"], ["logo", "標誌"], ["loyalty", "忠誠度"], ["reputation", "名聲"]]]
+      ]},
+    "hospitality": {"zh": "餐飲與接待", "en": "Dining & Hospitality", "level": "中級", "intro": "接待客戶、商務餐敘和飯店服務的字。",
+      "sections": [
+        ["商務餐敘", "Business Meals", [["reservation", "訂位"], ["cuisine", "料理"], ["banquet", "宴會"], ["catering", "外燴"], ["chef", "主廚"], ["serve", "上菜"]]],
+        ["接待服務", "Hospitality", [["hospitality", "款待"], ["guest", "客人"], ["welcome", "歡迎"], ["accommodate", "容納；提供住宿"], ["courteous", "有禮貌的"]]],
+        ["意見與評價", "Feedback", [["review", "評論"], ["rating", "評分"], ["comment", "意見"], ["satisfied", "滿意的"], ["complaint", "抱怨"]]]
+      ]},
+    "real-estate": {"zh": "房地產與設施", "en": "Real Estate & Facilities", "level": "中高級", "intro": "租賃辦公室、房屋買賣和建築設施的字。",
+      "sections": [
+        ["租賃與買賣", "Renting & Buying", [["property", "房地產"], ["lease", "租約"], ["rent", "租金"], ["tenant", "房客"], ["landlord", "房東"], ["real estate agent", "房仲"]]],
+        ["建築與空間", "Buildings", [["building", "建築物"], ["floor", "樓層"], ["square meter", "平方公尺"], ["parking lot", "停車場"], ["facility", "設施"]]],
+        ["施工與維修", "Construction", [["construction", "施工"], ["renovate", "翻修"], ["contractor", "承包商"], ["inspection", "檢查"], ["maintenance", "維修"]]]
+      ]},
+
+    "education": {"zh": "學校與教育", "en": "Education", "level": "初級～中級", "intro": "上課、考試、學位和校園生活的字。",
+      "sections": [
+        ["上課", "In Class", [["lecture", "講課"], ["professor", "教授"], ["semester", "學期"], ["course", "課程"], ["assignment", "作業"], ["attendance", "出席"]]],
+        ["考試與成績", "Exams & Grades", [["exam", "考試"], ["quiz", "小考"], ["grade", "成績"], ["pass", "通過"], ["fail", "不及格"], ["review", "複習"]]],
+        ["學位與升學", "Degrees", [["degree", "學位"], ["major", "主修"], ["graduate", "畢業"], ["scholarship", "獎學金"], ["tuition", "學費"], ["campus", "校園"]]]
+      ]},
+    "science": {"zh": "科學與研究", "en": "Science & Research", "level": "中高級", "intro": "做實驗、寫論文和討論研究結果的字。",
+      "sections": [
+        ["研究方法", "Methods", [["research", "研究"], ["experiment", "實驗"], ["hypothesis", "假設"], ["method", "方法"], ["sample", "樣本"], ["laboratory", "實驗室"]]],
+        ["資料與結果", "Results", [["data", "資料"], ["result", "結果"], ["evidence", "證據"], ["observe", "觀察"], ["measure", "測量"], ["conclude", "下結論"]]],
+        ["學術發表", "Publishing", [["theory", "理論"], ["publish", "發表"], ["journal", "期刊"], ["study", "研究"], ["discovery", "發現"]]]
+      ]},
+    "computers": {"zh": "電腦與軟體", "en": "Computers & Software", "level": "中級", "intro": "電腦操作、軟體和程式設計的基本字。",
+      "sections": [
+        ["硬體", "Hardware", [["computer", "電腦"], ["laptop", "筆記型電腦"], ["keyboard", "鍵盤"], ["screen", "螢幕"], ["device", "裝置"], ["storage", "儲存空間"]]],
+        ["軟體操作", "Using Software", [["software", "軟體"], ["install", "安裝"], ["update", "更新"], ["download", "下載"], ["save", "儲存"], ["delete", "刪除"], ["backup", "備份"]]],
+        ["程式設計", "Programming", [["program", "程式"], ["code", "程式碼"], ["bug", "程式錯誤"], ["debug", "除錯"], ["database", "資料庫"], ["algorithm", "演算法"]]]
+      ]},
+    "internet": {"zh": "網路與數位科技", "en": "Internet & Digital Technology", "level": "中級", "intro": "上網、社群媒體和資訊安全的字。",
+      "sections": [
+        ["上網", "Going Online", [["website", "網站"], ["browser", "瀏覽器"], ["online", "線上的"], ["link", "連結"], ["search engine", "搜尋引擎"], ["wireless", "無線的"]]],
+        ["社群媒體", "Social Media", [["social media", "社群媒體"], ["post", "貼文"], ["share", "分享"], ["follower", "追蹤者"], ["comment", "留言"], ["subscribe", "訂閱"]]],
+        ["帳號與安全", "Accounts & Security", [["account", "帳號"], ["password", "密碼"], ["log in", "登入"], ["privacy", "隱私"], ["virus", "病毒"], ["hacker", "駭客"]]]
+      ]},
+    "engineering": {"zh": "工程與製造", "en": "Engineering & Manufacturing", "level": "中高級", "intro": "設計、建造和測試的工程用字。",
+      "sections": [
+        ["設計", "Design", [["design", "設計"], ["engineer", "工程師"], ["prototype", "原型"], ["specification", "規格"], ["blueprint", "藍圖"]]],
+        ["建造與材料", "Building & Materials", [["structure", "結構"], ["material", "材料"], ["steel", "鋼"], ["concrete", "混凝土"], ["assemble", "組裝"]]],
+        ["測試與效能", "Testing", [["test", "測試"], ["efficiency", "效率"], ["precision", "精確"], ["capacity", "容量"], ["automation", "自動化"]]]
+      ]},
+    "environment": {"zh": "環境與能源", "en": "Environment & Energy", "level": "中級～中高級", "intro": "氣候變遷、污染、能源和環保行動的字。",
+      "sections": [
+        ["環境問題", "Problems", [["pollution", "污染"], ["climate change", "氣候變遷"], ["global warming", "全球暖化"], ["emission", "排放"], ["waste", "廢棄物"], ["endangered", "瀕臨絕種的"]]],
+        ["能源", "Energy", [["energy", "能源"], ["renewable", "可再生的"], ["solar", "太陽能的"], ["fossil fuel", "化石燃料"], ["electricity", "電力"]]],
+        ["環保行動", "Taking Action", [["recycle", "回收"], ["reduce", "減少"], ["conserve", "節約"], ["sustainable", "永續的"], ["protect", "保護"], ["environment", "環境"]]]
+      ]},
+
+    "news": {"zh": "新聞與媒體", "en": "News & Media", "level": "中高級", "intro": "看新聞、報導和媒體相關的字。",
+      "sections": [
+        ["新聞報導", "Reporting", [["news", "新聞"], ["headline", "頭條"], ["article", "文章"], ["journalist", "記者"], ["reporter", "記者"], ["interview", "訪問"]]],
+        ["媒體", "Media", [["media", "媒體"], ["broadcast", "播出"], ["press", "新聞界"], ["source", "消息來源"], ["coverage", "報導"]]],
+        ["事實與觀點", "Facts & Opinions", [["fact", "事實"], ["rumor", "謠言"], ["fake news", "假新聞"], ["bias", "偏見"], ["reliable", "可靠的"]]]
+      ]},
+    "government": {"zh": "政府與公共事務", "en": "Government & Public Affairs", "level": "中高級", "intro": "選舉、法律、政策與公共服務的字。",
+      "sections": [
+        ["政府", "Government", [["government", "政府"], ["president", "總統"], ["minister", "部長"], ["official", "官員"], ["policy", "政策"], ["public", "公眾的"]]],
+        ["選舉", "Elections", [["election", "選舉"], ["vote", "投票"], ["candidate", "候選人"], ["campaign", "競選活動"], ["democracy", "民主"]]],
+        ["法律", "Law", [["law", "法律"], ["legal", "合法的"], ["illegal", "違法的"], ["court", "法院"], ["right", "權利"], ["citizen", "公民"]]]
+      ]},
+    "economy": {"zh": "經濟與商業", "en": "Economy & Business", "level": "中高級", "intro": "看懂財經新聞需要的經濟用字。",
+      "sections": [
+        ["經濟情勢", "The Economy", [["economy", "經濟"], ["inflation", "通貨膨脹"], ["recession", "經濟衰退"], ["growth", "成長"], ["unemployment", "失業"], ["interest rate", "利率"]]],
+        ["市場與投資", "Markets", [["stock", "股票"], ["investment", "投資"], ["investor", "投資人"], ["share", "股份"], ["market", "市場"]]],
+        ["企業與貿易", "Business & Trade", [["company", "公司"], ["industry", "產業"], ["export", "出口"], ["import", "進口"], ["trade", "貿易"], ["competition", "競爭"]]]
+      ]},
+    "culture": {"zh": "文化與歷史", "en": "Culture & History", "level": "中級", "intro": "節慶、傳統、藝術和歷史的字。",
+      "sections": [
+        ["節慶與傳統", "Festivals & Traditions", [["festival", "節慶"], ["tradition", "傳統"], ["custom", "習俗"], ["celebrate", "慶祝"], ["holiday", "假日"], ["ceremony", "典禮"]]],
+        ["藝術", "Arts", [["art", "藝術"], ["artist", "藝術家"], ["painting", "畫作"], ["literature", "文學"], ["performance", "表演"]]],
+        ["歷史", "History", [["history", "歷史"], ["ancient", "古代的"], ["century", "世紀"], ["war", "戰爭"], ["heritage", "遺產"], ["civilization", "文明"]]]
+      ]},
+    "geography": {"zh": "地理與國際旅行", "en": "Geography & International Travel", "level": "中級", "intro": "國家、地形、時區和國際交流的字。",
+      "sections": [
+        ["國家與地區", "Countries & Regions", [["country", "國家"], ["continent", "洲"], ["region", "地區"], ["capital", "首都"], ["border", "國界"], ["population", "人口"]]],
+        ["地形", "Landforms", [["island", "島"], ["coast", "海岸"], ["desert", "沙漠"], ["valley", "山谷"], ["river", "河"], ["volcano", "火山"]]],
+        ["國際旅行", "International Travel", [["abroad", "在國外"], ["foreign", "外國的"], ["currency", "貨幣"], ["exchange rate", "匯率"], ["time zone", "時區"], ["culture shock", "文化衝擊"]]]
+      ]}
+  }
+}

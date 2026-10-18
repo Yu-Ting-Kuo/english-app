@@ -23,10 +23,14 @@ const db = (() => {
   let opening;
   function open() {
     opening ??= new Promise((resolve, reject) => {
-      const r = indexedDB.open('english-app', 1);
+      // v2：新增 history（搜尋紀錄）、cache（線上詞典資料快取）
+      const r = indexedDB.open('english-app', 2);
       r.onupgradeneeded = () => {
-        r.result.createObjectStore('words', { keyPath: 'id', autoIncrement: true });
-        r.result.createObjectStore('recordings', { keyPath: 'key' });
+        const d = r.result;
+        if (!d.objectStoreNames.contains('words')) d.createObjectStore('words', { keyPath: 'id', autoIncrement: true });
+        if (!d.objectStoreNames.contains('recordings')) d.createObjectStore('recordings', { keyPath: 'key' });
+        if (!d.objectStoreNames.contains('history')) d.createObjectStore('history', { keyPath: 'key' });
+        if (!d.objectStoreNames.contains('cache')) d.createObjectStore('cache', { keyPath: 'key' });
       };
       r.onsuccess = () => resolve(r.result);
       r.onerror = () => reject(r.error);
@@ -207,21 +211,33 @@ function scoreAttempt(target, alts) {
 }
 
 // ---------- 分頁 ----------
-let currentView = 'list';
+let currentView = 'home';
 function show(view) {
+  if (recorder.active) recorder.stop();
+  activeRecognition?.abort?.();
   currentView = view;
   document.querySelectorAll('.view').forEach(v => { v.hidden = v.id !== 'view-' + view; });
-  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === view));
-  $('#title').textContent = { list: '單字本', add: $('#f-id').value ? '編輯單字' : '新增單字', practice: '發音練習', review: '複習' }[view];
+  // 新增／編輯頁屬於收藏；主題頁屬於首頁
+  const tab = { add: 'list', cat: 'home', topic: 'home' }[view] || view;
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === tab));
+  $('#title').textContent = {
+    home: '主題探索', dict: '英文辭典', list: '我的收藏', add: $('#f-id').value ? '編輯單字' : '新增單字',
+    practice: '發音練習', review: '複習', cat: '主題', topic: '主題',
+  }[view];
+  if (view === 'home') renderHome();
+  if (view === 'cat') renderCategory();
+  if (view === 'topic') renderTopic();
+  if (view === 'list') renderList();
   if (view === 'practice') renderPractice();
   if (view === 'review') startReview();
+  if (view === 'dict' && !$('#dict-body').innerHTML.trim()) setTimeout(() => $('#dict-q').focus(), 50);
   window.scrollTo(0, 0);
 }
 document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
-  if (b.dataset.view === 'add') resetForm();
   if (b.dataset.view === 'practice') practiceId = null;
   show(b.dataset.view);
 }));
+$('#add-word').addEventListener('click', () => { resetForm(); show('add'); });
 
 // ---------- 單字本 ----------
 function highlight(sentence, word) {
@@ -236,12 +252,29 @@ function bestScore(w) {
   return Math.max(p.word?.best ?? -1, p.example?.best ?? -1);
 }
 
+const fmtDate = t => { const d = new Date(t); return `${d.getMonth() + 1}/${d.getDate()}`; };
+
 function renderList() {
   const q = $('#search').value.trim().toLowerCase();
   const f = $('#filter').value;
+  const pos = $('#pos-filter').value;
+  const sort = $('#sort').value;
+  // 詞性篩選的選項跟著單字本裡實際有的詞性變
+  const allPos = [...new Set(words.flatMap(w => w.pos || []))];
+  $('#pos-filter').innerHTML = '<option value="">所有詞性</option>' +
+    allPos.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('') + '<option value="-">未分類</option>';
+  $('#pos-filter').value = [...allPos, '', '-'].includes(pos) ? pos : '';
   const shown = words.filter(w =>
     (f === 'all' || (f === 'known') === !!w.known) &&
+    (!pos || (pos === '-' ? !w.pos?.length : w.pos?.includes(pos))) &&
     (!q || [w.word, w.meaning, w.example, w.note].some(x => (x || '').toLowerCase().includes(q))));
+  const sorters = {
+    new: (a, b) => (b.starredAt || b.createdAt) - (a.starredAt || a.createdAt),
+    old: (a, b) => (a.starredAt || a.createdAt) - (b.starredAt || b.createdAt),
+    az: (a, b) => a.word.localeCompare(b.word, 'en', { sensitivity: 'base' }),
+    weak: (a, b) => (a.known - b.known) || (bestScore(a) - bestScore(b)),
+  };
+  shown.sort(sorters[sort] || sorters.new);
   const known = words.filter(w => w.known).length;
   $('#count').textContent = words.length ? `${words.length} 個單字 · 已熟記 ${known} · 學習中 ${words.length - known}` : '';
   $('#list').innerHTML = shown.length ? shown.map(w => {
@@ -255,34 +288,38 @@ function renderList() {
         </div>
         <button class="round" data-say="${esc(w.word)}" aria-label="念 ${esc(w.word)}"><svg class="i" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></button>
       </div>
+      ${w.pos?.length ? `<div class="row wrap" style="gap:4px;margin-top:4px">${w.pos.map(p => `<span class="pos">${esc(p)}</span>`).join('')}</div>` : ''}
       ${w.meaning ? `<div class="meaning">${esc(w.meaning)}</div>` : ''}
       ${w.example ? `<div class="example">${highlight(w.example, w.word)}</div>` : ''}
       ${w.note ? `<div class="note">${esc(w.note)}</div>` : ''}
       <div class="row wrap" style="margin-top:10px">
         ${w.known ? '<span class="chip good">已熟記</span>' : '<span class="chip">學習中</span>'}
         ${best >= 0 ? `<span class="chip">發音最高 ${best} 分</span>` : ''}
+        <span class="muted" style="font-size:12px">${w.starredAt ? '收藏' : '加入'}於 ${fmtDate(w.starredAt || w.createdAt)}</span>
         <span class="grow"></span>
-        <button class="ghost" data-act="known">${w.known ? '改回學習中' : '標為熟記'}</button>
+        <button class="ghost" data-act="practice">練習</button>
         <button class="ghost" data-act="edit">編輯</button>
-        <button class="danger" data-act="delete">刪除</button>
+        <button class="danger" data-act="delete">移除</button>
       </div>
     </article>`;
-  }).join('') : `<div class="empty">${words.length ? '沒有符合的單字' : '還沒有單字。<br>按下方「新增」，加入第一個想學的字。'}</div>`;
+  }).join('') : `<div class="empty">${words.length ? '沒有符合的單字' : '還沒有收藏的字。<br>在辭典條目按 ☆ 收藏，不熟的字就會出現在這裡。'}</div>`;
 }
 $('#search').addEventListener('input', renderList);
 $('#filter').addEventListener('change', renderList);
+$('#pos-filter').addEventListener('change', renderList);
+$('#sort').addEventListener('change', renderList);
 
 $('#list').addEventListener('click', async e => {
   const card = e.target.closest('.word-card');
   if (!card || e.target.closest('[data-say]')) return;
   const w = words.find(x => x.id === Number(card.dataset.id));
   const act = e.target.closest('[data-act]')?.dataset.act;
-  if (act === 'known') { w.known = !w.known; await saveWord(w); renderList(); }
+  if (act === 'practice') { practiceId = w.id; practiceTarget = 'word'; lastResult = null; show('practice'); }
   else if (act === 'edit') editWord(w);
   else if (act === 'delete') {
-    if (!confirm(`刪除「${w.word}」？錄音也會一起刪除。`)) return;
-    await deleteWord(w.id); renderList(); toast('已刪除');
-  } else { practiceId = w.id; show('practice'); }
+    if (!confirm(`從單字本移除「${w.word}」？練習紀錄和錄音也會一起刪除。`)) return;
+    await deleteWord(w.id); renderList(); toast('已移除');
+  } else openWord(w.word);
 });
 
 document.addEventListener('click', e => {
@@ -320,9 +357,11 @@ $('#form').addEventListener('submit', async e => {
     await saveWord({ ...words.find(w => w.id === id), ...data });
     toast('已更新'); resetForm(); show('list');
   } else {
-    const dup = words.find(w => w.word.toLowerCase() === data.word.toLowerCase());
-    if (dup && !confirm(`「${dup.word}」已經在單字本裡，還是要再加一次嗎？`)) return;
-    await saveWord({ ...data, known: false, createdAt: Date.now(), practice: {} });
+    const dup = words.find(w => Dict.norm(w.word) === Dict.norm(data.word));
+    if (dup) { toast(`「${dup.word}」已經收藏過了`); editWord(dup); return; }
+    const entry = await Dict.getEntry(Dict.norm(data.word)).catch(() => null);
+    const pos = entry ? [...new Set(entry.m.filter(g => !g.d).map(g => g.l))] : [];
+    await saveWord({ ...data, pos, known: false, createdAt: Date.now(), practice: {} });
     toast(`已加入「${data.word}」`); resetForm(); $('#f-word').focus();
   }
   renderList();
@@ -334,9 +373,15 @@ $('#lookup').addEventListener('click', async () => {
   if (!word) return toast('先輸入單字');
   const btn = $('#lookup');
   btn.disabled = true; btn.textContent = '查詢中';
+  // 先查 App 內建的繁體詞典，查不到才用機器翻譯
+  const local = await Dict.lookup(word).catch(() => null);
+  if (local?.entry) {
+    if (!$('#f-meaning').value) $('#f-meaning').value = shortMeaning(local.entry);
+    if (!$('#f-phonetic').value && local.entry.ph) $('#f-phonetic').value = `/${local.entry.ph}/`;
+  }
   const [dictRes, zhRes] = await Promise.allSettled([
     fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word)).then(r => r.ok ? r.json() : Promise.reject()),
-    fetch('https://api.mymemory.translated.net/get?langpair=en|zh-TW&q=' + encodeURIComponent(word)).then(r => r.json()),
+    local?.entry ? Promise.reject() : fetch('https://api.mymemory.translated.net/get?langpair=en|zh-TW&q=' + encodeURIComponent(word)).then(r => r.json()),
   ]);
   btn.disabled = false; btn.textContent = '查字典';
 
@@ -346,11 +391,11 @@ $('#lookup').addEventListener('click', async () => {
   }
   if (dictRes.status !== 'fulfilled') {
     $('#dict').innerHTML = '';
-    return toast(zhRes.status === 'fulfilled' ? '已帶入中文，字典裡沒有這個字的英英解釋' : '查不到，請檢查拼字或網路');
+    return toast(local?.entry || zhRes.status === 'fulfilled' ? '已帶入中文意思' : '查不到，請檢查拼字或網路');
   }
   const data = dictRes.value;
   const phon = data.flatMap(d => [d.phonetic, ...(d.phonetics || []).map(p => p.text)]).find(Boolean);
-  if (phon && !$('#f-phonetic').value) $('#f-phonetic').value = phon;
+  if (phon && (!$('#f-phonetic').value || $('#f-phonetic').value === `/${local?.entry?.ph}/`)) $('#f-phonetic').value = phon;
   const defs = data.flatMap(d => d.meanings.flatMap(m => m.definitions.map(x => ({ pos: m.partOfSpeech, def: x.definition, ex: x.example }))));
   const firstEx = defs.find(d => d.ex);
   if (firstEx && !$('#f-example').value) $('#f-example').value = firstEx.ex;
@@ -614,9 +659,9 @@ $('#import-file').onchange = async e => {
 
 // ---------- 啟動 ----------
 const SAMPLES = [
-  { word: 'resilient', phonetic: '/rɪˈzɪliənt/', meaning: '有韌性的；能很快恢復的', example: 'Children are often more resilient than adults.' },
-  { word: 'commute', phonetic: '/kəˈmjuːt/', meaning: '通勤', example: 'My commute to work takes about forty minutes.' },
-  { word: 'figure out', phonetic: '', meaning: '弄清楚；想出來', example: "I can't figure out how this machine works." },
+  { word: 'resilient', phonetic: '/rɪˈzɪliənt/', meaning: '有韌性的；能很快恢復的', pos: ['形容詞'], example: 'Children are often more resilient than adults.' },
+  { word: 'commute', phonetic: '/kəˈmjuːt/', meaning: '通勤', pos: ['動詞', '名詞'], example: 'My commute to work takes about forty minutes.' },
+  { word: 'figure out', phonetic: '', meaning: '弄清楚；想出來', pos: ['片語'], example: "I can't figure out how this machine works." },
 ];
 
 async function init() {
@@ -628,8 +673,9 @@ async function init() {
     try { localStorage.setItem('seeded', '1'); } catch {}
   }
   renderList();
+  renderHome();
   navigator.storage?.persist?.().catch(() => {});
 }
-init().catch(err => toast('讀取單字失敗：' + err.message, 4000));
+// init() 在 dictionary.js 最後呼叫，確保所有畫面函式都已載入
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

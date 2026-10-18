@@ -46,7 +46,7 @@
   }
   header h1 { margin: 0; flex: 1; font-size: 22px; font-family: var(--serif); letter-spacing: -.01em; }
   main { max-width: 640px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); }
-  .view[hidden] { display: none; }
+  [hidden] { display: none !important; }
 
   .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
   .stack { display: flex; flex-direction: column; gap: 12px; }
@@ -93,6 +93,88 @@
   .toolbar { display: flex; gap: 8px; margin-bottom: 10px; }
   .toolbar input { flex: 1; min-width: 0; }
   .toolbar select { width: auto; }
+  .toolbar.selects select { flex: 1; min-width: 0; font-size: 14px; padding: 8px 10px; }
+
+  /* 首頁與主題 */
+  .chip-btn { min-height: 36px; padding: 6px 12px; border-radius: 99px; font-family: var(--serif); font-size: 16px; }
+  .chip-btn.topic-chip { font-family: var(--sans); font-size: 14px; }
+  h3 { margin: 0; font-size: 15px; color: var(--muted); font-weight: 600; letter-spacing: .04em; }
+  h3 .en, .page-title .en { font-weight: 500; font-size: .8em; color: var(--muted); letter-spacing: 0; }
+  .small-btn { min-height: 32px; padding: 4px 8px; font-size: 14px; }
+  .today { display: grid; gap: 6px; justify-items: start; }
+  .today .eyebrow { font-size: 12px; letter-spacing: .08em; color: var(--accent); font-weight: 600; }
+  .today h2 { margin: 0; font-size: 24px; line-height: 1.25; text-wrap: balance; }
+  .today .en { font-family: var(--serif); color: var(--muted); font-size: 16px; }
+  .today p { margin: 2px 0 4px; color: var(--ink); font-size: 15px; }
+  .today button.primary { margin-top: 6px; }
+  .cat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .cat-card { display: grid; justify-items: start; text-align: left; gap: 2px; padding: 14px; border-radius: 16px;
+    background: var(--surface); border: 1px solid var(--line); color: var(--ink); min-height: 128px; align-content: start; }
+  .cat-icon { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); margin-bottom: 6px; }
+  .cat-name { font-size: 17px; font-weight: 700; }
+  .cat-en { font-family: var(--serif); font-size: 13px; color: var(--muted); }
+  .cat-meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .page-title { margin: 0; font-size: 24px; line-height: 1.3; text-wrap: balance; }
+  .back { justify-self: start; align-self: flex-start; padding-left: 0; min-height: 36px; color: var(--accent); }
+  .topic-list { display: grid; gap: 8px; }
+  .topic-card { display: grid; grid-template-columns: 1fr auto; text-align: left; gap: 0 10px; padding: 14px 16px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px; color: var(--ink); }
+  .topic-name { font-size: 17px; font-weight: 600; }
+  .topic-en { grid-row: 2; font-family: var(--serif); font-size: 14px; color: var(--muted); }
+  .topic-meta { grid-row: 1 / 3; grid-column: 2; align-self: center; font-size: 13px; color: var(--muted); white-space: nowrap; }
+  .word-rows { display: grid; }
+  .word-row { display: flex; align-items: center; gap: 10px; text-align: left; background: transparent; color: var(--ink);
+    border-radius: 0; padding: 10px 2px; border-bottom: 1px solid var(--line); justify-content: flex-start; }
+  .word-row:last-child { border-bottom: 0; }
+  .wr-main { flex: 1; min-width: 0; display: grid; }
+  .wr-word { font-family: var(--serif); font-size: 18px; font-weight: 700; overflow-wrap: anywhere; }
+  .wr-gloss { font-size: 14px; color: var(--muted); }
+  .wr-star { color: var(--mid); display: inline-flex; }
+  .wr-star svg { width: 18px; height: 18px; }
+  .lvl { font-size: 11px; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .lvl-基礎 { color: var(--good); border-color: currentColor; }
+  .lvl-中級 { color: var(--mid); border-color: currentColor; }
+  .lvl-進階 { color: var(--bad); border-color: currentColor; }
+  .syn-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .syn { flex-direction: column; align-items: flex-start; gap: 0; min-height: 0; padding: 8px 12px; border-radius: 12px; }
+  .syn b { font-family: var(--serif); font-size: 16px; }
+  .syn span { font-size: 12px; color: var(--muted); font-weight: 400; }
+
+  /* 辭典 */
+  .search-box { position: relative; }
+  .suggest { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 6; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+  .suggest button { display: flex; width: 100%; justify-content: flex-start; border-radius: 0; background: transparent;
+    color: var(--ink); font-family: var(--serif); font-size: 17px; border-bottom: 1px solid var(--line); }
+  .suggest button:last-child { border-bottom: 0; }
+  .entry .headword { font-size: 32px; }
+  .star { background: transparent; border: 1px solid var(--line); color: var(--muted); border-radius: 99px; padding: 6px 14px; }
+  .star.on { color: var(--mid); border-color: var(--mid); background: var(--accent-soft); }
+  .star svg { width: 22px; height: 22px; }
+  .pron { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .pill { min-height: 38px; padding: 6px 12px; border-radius: 99px; font-size: 14px; font-family: var(--serif); }
+  .pill svg { width: 16px; height: 16px; }
+  .sense { display: grid; gap: 4px; }
+  .sense + .sense { padding-top: 10px; border-top: 1px solid var(--line); }
+  .sense-text { font-size: 17px; line-height: 1.6; }
+  .pos { justify-self: start; display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px;
+    background: var(--accent-soft); color: var(--accent); }
+  .domain { display: inline-block; margin-left: 6px; font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
+  .infl table { border-collapse: collapse; width: 100%; margin-top: 4px; }
+  .infl th { text-align: left; font-weight: 500; color: var(--muted); font-size: 14px; padding: 6px 12px 6px 0; width: 40%; white-space: nowrap; }
+  .infl td { padding: 6px 0; font-family: var(--serif); font-size: 17px; }
+  .infl tr + tr { border-top: 1px solid var(--line); }
+  button.link { background: none; padding: 0; min-height: 0; border-radius: 0; color: var(--accent); font: inherit;
+    text-decoration: underline; text-underline-offset: 3px; display: inline; }
+  .confuse { display: grid; gap: 6px; }
+  .confuse + .confuse { padding-top: 10px; border-top: 1px solid var(--line); }
+  .confuse-item { font-size: 15px; line-height: 1.6; }
+  .confuse-item .link { font-family: var(--serif); font-weight: 700; }
+  .defs { margin: 6px 0 0; padding-left: 22px; font-family: var(--serif); }
+  .defs li + li { margin-top: 4px; }
+  details summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 28px; }
+  .notice { background: var(--accent-soft); border-radius: 12px; padding: 10px 12px; font-size: 15px; }
+  .source { font-size: 12px; color: var(--muted); line-height: 1.6; margin: 4px 2px; }
 
   /* 練習 */
   .target { font-family: var(--serif); font-size: 30px; font-weight: 700; text-align: center; line-height: 1.25; overflow-wrap: anywhere; }
@@ -138,21 +220,66 @@
 <body>
 
 <header>
-  <h1 id="title">單字本</h1>
+  <h1 id="title">主題探索</h1>
   <button class="ghost round" id="open-settings" aria-label="設定">
     <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
   </button>
 </header>
 
 <main>
+  <!-- 首頁：搜尋 + 主題探索 -->
+  <section class="view stack" id="view-home">
+    <form id="home-search" class="row" role="search">
+      <input class="grow" id="home-q" type="search" enterkeyhint="search" placeholder="查單字或片語，例如 give up" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查英文單字或片語">
+      <button type="submit" class="primary">查詢</button>
+    </form>
+    <section class="card" id="home-today"><div class="muted">載入今日主題…</div></section>
+    <div>
+      <h3 style="margin:4px 2px 10px">依主題探索</h3>
+      <div class="cat-grid" id="home-topics"></div>
+    </div>
+    <section class="card stack">
+      <div class="row"><h3 class="grow">最近查詢</h3><button class="ghost small-btn" data-go="list" id="home-saved">我的收藏</button></div>
+      <div id="home-recent"></div>
+    </section>
+  </section>
+
+  <!-- 大分類 -->
+  <section class="view stack" id="view-cat" hidden><div class="stack" id="cat-body"></div></section>
+
+  <!-- 主題單字 -->
+  <section class="view stack" id="view-topic" hidden><div class="stack" id="topic-body"></div></section>
+
+  <!-- 英文辭典 -->
+  <section class="view stack" id="view-dict" hidden>
+    <form id="dict-form" class="search-box" role="search" autocomplete="off">
+      <div class="row">
+        <input class="grow" id="dict-q" type="search" enterkeyhint="search" placeholder="輸入單字、片語或變化形，例如 went" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查詢單字">
+        <button type="submit" class="primary">查詢</button>
+      </div>
+      <div class="suggest" id="dict-suggest" hidden></div>
+    </form>
+    <div class="stack" id="dict-body"></div>
+  </section>
+
   <!-- 單字本 -->
-  <section class="view" id="view-list">
+  <section class="view" id="view-list" hidden>
     <div class="toolbar">
       <input id="search" type="search" placeholder="搜尋單字、意思、例句" autocapitalize="off" autocorrect="off">
-      <select id="filter" aria-label="篩選">
+      <button id="add-word" aria-label="手動新增單字">＋ 新增</button>
+    </div>
+    <div class="toolbar selects">
+      <select id="filter" aria-label="熟悉程度">
         <option value="all">全部</option>
         <option value="learning">學習中</option>
         <option value="known">已熟記</option>
+      </select>
+      <select id="pos-filter" aria-label="詞性"><option value="">所有詞性</option></select>
+      <select id="sort" aria-label="排序">
+        <option value="new">最新收藏</option>
+        <option value="old">最早收藏</option>
+        <option value="az">A → Z</option>
+        <option value="weak">最不熟的</option>
       </select>
     </div>
     <div class="muted" id="count" style="margin-bottom:10px"></div>
@@ -203,14 +330,16 @@
 </main>
 
 <nav>
-  <button data-view="list" class="on">
-    <svg class="i" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6.5A2.5 2.5 0 0 0 4 21.5 2.5 2.5 0 0 0 6.5 24"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg>單字本</button>
-  <button data-view="add">
-    <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>新增</button>
-  <button data-view="practice">
-    <svg class="i" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5M8 22h8"/></svg>發音練習</button>
+  <button data-view="home" class="on">
+    <svg class="i" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>首頁</button>
+  <button data-view="dict">
+    <svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>辭典</button>
+  <button data-view="list">
+    <svg class="i" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>收藏</button>
   <button data-view="review">
     <svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="15" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>複習</button>
+  <button data-view="practice">
+    <svg class="i" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5M8 22h8"/></svg>發音</button>
 </nav>
 
 <!-- 設定 -->
@@ -249,6 +378,9 @@
 
 <div class="toast" id="toast" role="status"></div>
 
+<script src="dict.js"></script>
 <script src="app.js"></script>
+<script src="topics.js"></script>
+<script src="dictionary.js"></script>
 </body>
 </html>
