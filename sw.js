@@ -1,6 +1,6 @@
 // 離線快取：App 本身的檔案先從快取拿（開很快、沒網路也能用），同時在背景抓新版。
 // 改版時把 VERSION 加一，手機下次打開就會換成新版。
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = 'english-app-' + VERSION;
 // 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題（dict/topics.json）時把 DICT_VERSION 加一
 const DICT_VERSION = 'd1';

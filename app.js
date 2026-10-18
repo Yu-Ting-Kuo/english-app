@@ -678,4 +678,12 @@ async function init() {
 }
 // init() 在 dictionary.js 最後呼叫，確保所有畫面函式都已載入
 
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator) {
+  // 背景裝好新版後自動重新載入一次，不用關掉 App 再開
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController && !reloading) { reloading = true; location.reload(); }
+  });
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
