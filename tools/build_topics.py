@@ -53,6 +53,33 @@ def resolve(word):
     return None, None
 
 
+LEVELS = ('B', 'I', 'A')  # 初階、中階、進階
+
+
+def rank_of(word, entry):
+    """詞頻排名（BNC／COCA 取較常見者）。片語沒有排名時，用組成單字裡最少見的那個。"""
+    if entry and entry.get('f'):
+        return entry['f']
+    parts = [p for p in re.split(r'[\s-]+', norm(word)) if p]
+    if len(parts) > 1:
+        ranks = []
+        for p in parts:
+            _, e = resolve(p)
+            ranks.append(e.get('f') if e and e.get('f') else None)
+        if all(ranks):
+            return max(ranks)
+    return None
+
+
+def level_of(rank):
+    """初階：前 2,500 名；中階：2,501～8,000；進階：8,000 名以後或沒有詞頻資料。"""
+    if rank and rank <= 2500:
+        return 'B'
+    if rank and rank <= 8000:
+        return 'I'
+    return 'A'
+
+
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
     src = json.loads(SRC.read_text(encoding='utf-8'))
@@ -84,10 +111,12 @@ def main():
                     continue
                 seen[ident] = zh
                 item = {'w': word, 'g': gloss}
+                r = rank_of(word, entry)
+                if r:
+                    item['r'] = r
+                item['lv'] = level_of(r)
                 if key:
                     item['k'] = key
-                    if entry.get('f'):
-                        item['r'] = entry['f']
                     if key != norm(word):
                         item['via'] = key  # 例如 dishes → dish
                 else:
@@ -96,8 +125,12 @@ def main():
                     by_word[ident].append(tid)
                 words.append(item)
             sections.append({'zh': zh, 'en': en, 'words': words})
+        levels = {lv: sum(w['lv'] == lv for s in sections for w in s['words']) for lv in LEVELS}
+        for lv, label in zip(LEVELS, ('初階', '中階', '進階')):
+            if levels[lv] < 3:
+                errors.append(f'{tid}：{label}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
-                       'cat': owner.get(tid), 'count': len(seen), 'sections': sections}
+                       'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}
 
     cats = [{**c, 'count': len({w for t in c['topics'] for s in topics[t]['sections'] for w in
                                 [x.get('k') or norm(x['w']) for x in s['words']]})} for c in src['categories']]

@@ -1,0 +1,122 @@
+{
+  "check in": [
+    {"p": "phr", "zh": "（在飯店）辦理入住登記", "t": [52345, 288942, 40240], "fix": {"52345": "蘇在皇家飯店辦理了入住。", "40240": "在我辦理入住之前，可以先把行李寄放在你這裡嗎？"}},
+    {"p": "phr", "zh": "（在機場）辦理登機報到", "ai": [["You should check in at least two hours before an international flight.", "搭國際航班至少要提前兩小時辦理報到。"], ["We checked in online, so we only had to drop off our bags.", "我們已經線上報到，所以只需要托運行李。"]]}
+  ],
+  "counter": [
+    {"p": "n", "zh": "櫃檯", "t": [30114, 28398, 61246], "fix": {"30114": "聯合航空的報到櫃檯在哪裡？", "61246": "請在這個櫃檯付款。"}},
+    {"p": "n", "zh": "（廚房的）檯面", "t": [11590076], "ai": [["Please don't leave dirty dishes on the counter.", "請不要把髒碗盤放在檯面上。"]]},
+    {"p": "n", "zh": "計數器", "t": [329394], "ai": [["The website has a visitor counter at the bottom of the page.", "這個網站的頁面底部有一個訪客計數器。"]]}
+  ],
+  "baggage": [
+    {"p": "n", "zh": "行李", "t": [64741, 325530, 23678], "fix": {"23678": "請把你的行李放到這個秤上。"}}
+  ],
+  "luggage": [
+    {"p": "n", "zh": "行李", "t": [248836, 6954739, 772352]}
+  ],
+  "suitcase": [
+    {"p": "n", "zh": "行李箱、手提箱", "t": [61002, 17381, 253945], "fix": {"17381": "你的行李箱有多重？", "253945": "我把行李箱放進後車廂了。"}}
+  ],
+  "overweight": [
+    {"p": "adj", "zh": "（行李、包裹）超重的", "ai": [["My suitcase is overweight, so I have to pay an extra fee.", "我的行李箱超重了，所以得付額外的費用。"], ["Overweight bags must be repacked before check-in.", "超重的行李必須在報到前重新整理。"]]},
+    {"p": "adj", "zh": "（人）體重過重的", "t": [4282381, 7515879]}
+  ],
+  "fragile": [
+    {"p": "adj", "zh": "易碎的", "t": [13153635], "ai": [["Please be careful with that box. It's fragile.", "請小心那個箱子，裡面是易碎品。"]]}
+  ],
+  "excess baggage": [
+    {"p": "phr", "zh": "超重行李", "ai": [["Passengers with excess baggage have to pay an additional charge.", "行李超重的旅客必須支付額外費用。"], ["How much is the fee for excess baggage on this flight?", "這個航班的超重行李費是多少？"]]}
+  ],
+  "carry-on": [
+    {"p": "adj", "zh": "可隨身攜帶（上飛機）的", "t": [5941360], "fix": {"5941360": "她有很多隨身行李。"}, "ai": [["Liquids in your carry-on bag must be under 100 milliliters.", "隨身行李中的液體每瓶不得超過 100 毫升。"]]},
+    {"p": "n", "zh": "隨身行李", "ai": [["You can bring one carry-on and one personal item.", "你可以帶一件隨身行李和一件個人物品。"], ["Please put your carry-on in the overhead bin.", "請把隨身行李放進上方的置物櫃。"]]}
+  ],
+  "boarding pass": [
+    {"p": "phr", "zh": "登機證", "t": [279695], "ai": [["Please have your passport and boarding pass ready.", "請準備好護照和登機證。"]]}
+  ],
+  "gate": [
+    {"p": "n", "zh": "大門、柵門", "t": [264529, 323938, 4700058], "fix": {"323938": "該把大門關上了。", "4700058": "湯姆叫我把大門關上。"}},
+    {"p": "n", "zh": "（機場的）登機門", "ai": [["Our flight now departs from Gate 12.", "我們的航班現在改從 12 號登機門出發。"], ["Please go to the gate at least 30 minutes before departure.", "請在起飛前至少 30 分鐘到登機門。"]]}
+  ],
+  "board": [
+    {"p": "v", "zh": "登上（飛機、船、車）", "t": [293369], "ai": [["Passengers in rows 30 to 40 may now board the plane.", "第 30 到 40 排的旅客現在可以登機了。"]]},
+    {"p": "phr", "zh": "on board：在飛機（船、車）上", "t": [4466668], "ai": [["Is everyone on board? The bus is leaving.", "大家都上車了嗎？巴士要出發了。"]]},
+    {"p": "n", "zh": "董事會、委員會", "t": [1477102, 32940, 3565124]},
+    {"p": "n", "zh": "木板；（棋盤等）板子", "t": [44421, 328683]}
+  ],
+  "departure": [
+    {"p": "n", "zh": "出發、離開；（航班）起飛", "t": [432796, 1398749, 299407], "fix": {"1398749": "我們因為暴風雨延後出發。", "299407": "他把出發的時間延到明天了。"}}
+  ],
+  "arrival": [
+    {"p": "n", "zh": "抵達、到達", "t": [305023, 26065, 318025]},
+    {"p": "n", "zh": "（季節、事物的）到來", "t": [10263479], "ai": [["The arrival of spring brings warmer weather.", "春天到來，天氣也跟著變暖了。"]]}
+  ],
+  "flight attendant": [
+    {"p": "phr", "zh": "空服員", "t": [6635270], "ai": [["The flight attendant asked us to fasten our seat belts.", "空服員請我們繫好安全帶。"]]}
+  ],
+  "aisle": [
+    {"p": "n", "zh": "（座位間的）走道", "t": [278424, 9408770], "fix": {"9408770": "你想要靠窗還是靠走道的座位？"}}
+  ],
+  "itinerary": [
+    {"p": "n", "zh": "行程、行程表", "t": [3537594], "ai": [["I'll email you the itinerary for our trip to Tokyo.", "我會把東京之旅的行程用電子郵件寄給你。"]]}
+  ],
+  "connecting flight": [
+    {"p": "phr", "zh": "轉機航班", "ai": [["I almost missed my connecting flight in Hong Kong.", "我差點在香港錯過轉機航班。"], ["If your first flight is late, the airline will rebook your connecting flight.", "如果你的第一段航班延誤，航空公司會幫你改訂轉機航班。"]]}
+  ],
+  "delay": [
+    {"p": "v", "zh": "延誤、延遲", "t": [6622546, 20247, 263703], "fix": {"20247": "火車因為大雪而延誤了。", "263703": "一場意外耽誤了我們半小時。"}},
+    {"p": "n", "zh": "延誤、耽擱", "t": [2938653, 259617], "fix": {"2938653": "這次延誤對時程的影響很小。"}}
+  ],
+  "cancel": [
+    {"p": "v", "zh": "取消", "t": [281801, 3442609, 53090], "fix": {"53090": "傑克決定取消預訂。"}}
+  ],
+  "reschedule": [
+    {"p": "v", "zh": "重新安排時間、改期", "t": [2938649], "fix": {"2938649": "測試延後了兩天，所以我們需要重新安排發布日期。"}, "ai": [["Can we reschedule the meeting for next Monday?", "我們可以把會議改到下週一嗎？"]]}
+  ],
+  "layover": [
+    {"p": "n", "zh": "（轉機的）中途停留", "ai": [["We had a three-hour layover in Singapore.", "我們在新加坡轉機停留了三個小時。"], ["If your layover is long enough, you can leave the airport and explore the city.", "如果轉機時間夠長，你可以出機場逛逛這座城市。"]]}
+  ],
+  "transfer": [
+    {"p": "v", "zh": "轉乘、轉車、轉機", "t": [268383, 13545692], "fix": {"268383": "我需要轉車嗎？", "13545692": "在這裡轉乘捷運和輕軌方便嗎？"}},
+    {"p": "v", "zh": "轉接（電話）", "t": [4756025, 12876783]},
+    {"p": "v", "zh": "調職、調動", "t": [13523814, 7237619]},
+    {"p": "n", "zh": "轉帳、匯款", "t": [18411], "ai": [["A bank transfer usually takes one business day.", "銀行轉帳通常需要一個工作天。"]]}
+  ],
+  "destination": [
+    {"p": "n", "zh": "目的地", "t": [11290430, 307613, 273428], "fix": {"273428": "這艘船就快抵達目的地了。"}}
+  ],
+  "overbooked": [
+    {"p": "v", "zh": "（機位、房間）超額預訂、超賣", "ai": [["The flight was overbooked, so some passengers had to take a later one.", "這班飛機超賣了，所以有些乘客只好改搭晚一點的班機。"], ["Airlines sometimes offer vouchers when a flight is overbooked.", "航班超賣時，航空公司有時會提供抵用券。"]]}
+  ],
+  "standby": [
+    {"p": "n", "zh": "待命；備用", "t": [789371], "fix": {"789371": "各國救難隊都在待命，隨時準備飛往日本。"}, "ai": [["The hospital keeps a generator on standby in case of a power outage.", "醫院準備了一台備用發電機，以防停電。"]]},
+    {"p": "n", "zh": "（機位）候補", "src": "app", "ai": [["We're on standby for the next flight to Seoul.", "我們在候補下一班飛往首爾的班機。"], ["Standby passengers can board only if there are empty seats.", "候補旅客只有在還有空位時才能登機。"]]}
+  ],
+  "compensation": [
+    {"p": "n", "zh": "賠償、補償", "ai": [["The airline offered us compensation for the long delay.", "航空公司因為長時間延誤而提供我們賠償。"], ["You may be entitled to compensation if your flight is canceled.", "如果航班被取消，你可能有權獲得賠償。"]]},
+    {"p": "n", "zh": "薪酬、報酬", "ai": [["The job offers good compensation and benefits.", "這份工作提供不錯的薪酬和福利。"], ["Compensation includes a base salary and an annual bonus.", "薪酬包括底薪和年終獎金。"]]}
+  ],
+  "seat belt": [
+    {"p": "phr", "zh": "安全帶", "t": [53897, 4757141, 66122], "fix": {"66122": "請隨時繫好安全帶。"}}
+  ],
+  "turbulence": [
+    {"p": "n", "zh": "（飛行時的）亂流", "ai": [["Please return to your seat. We are experiencing some turbulence.", "請回到座位上，我們正遇到一些亂流。"], ["The turbulence made my coffee spill.", "亂流讓我的咖啡灑了出來。"]]},
+    {"p": "n", "zh": "動盪、混亂", "ai": [["The company went through a period of financial turbulence.", "這家公司經歷了一段財務動盪期。"], ["Markets are still recovering from last year's turbulence.", "市場仍在從去年的動盪中恢復。"]]}
+  ],
+  "jet lag": [
+    {"p": "phr", "zh": "時差（造成的疲倦）", "t": [14009888, 4728310]}
+  ],
+  "terminal": [
+    {"p": "n", "zh": "（機場）航廈；（交通）終點站", "ai": [["International flights depart from Terminal 2.", "國際航班從第二航廈出發。"], ["There is a free shuttle between the two terminals.", "兩個航廈之間有免費接駁車。"]]},
+    {"p": "adj", "zh": "（疾病）末期的", "ai": [["He was diagnosed with terminal cancer.", "他被診斷出癌症末期。"], ["The hospital provides special care for terminal patients.", "這家醫院為末期病人提供特別照護。"]]}
+  ],
+  "baggage claim": [
+    {"p": "phr", "zh": "行李提領處", "ai": [["Let's meet at baggage claim after we land.", "我們降落後在行李提領處碰面吧。"], ["My suitcase never showed up at baggage claim.", "我的行李箱一直沒有出現在行李提領處。"]]}
+  ],
+  "disembark": [
+    {"p": "v", "zh": "下（飛機、船）", "ai": [["Passengers may disembark once the seat belt sign is off.", "安全帶指示燈熄滅後，旅客就可以下機。"], ["We disembarked at the port and took a taxi to the hotel.", "我們在港口下船，然後搭計程車去飯店。"]]}
+  ],
+  "red-eye": [
+    {"p": "n", "zh": "夜間航班（紅眼班機）", "src": "app", "ai": [["I took the red-eye to New York and went straight to work.", "我搭夜間航班到紐約，下飛機就直接去上班。"], ["Red-eye flights are cheaper, but you won't get much sleep.", "紅眼班機比較便宜，但你睡不了多少。"]]}
+  ]
+}

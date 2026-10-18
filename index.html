@@ -132,9 +132,38 @@
   .wr-star { color: var(--mid); display: inline-flex; }
   .wr-star svg { width: 18px; height: 18px; }
   .lvl { font-size: 11px; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
-  .lvl-基礎 { color: var(--good); border-color: currentColor; }
-  .lvl-中級 { color: var(--mid); border-color: currentColor; }
-  .lvl-進階 { color: var(--bad); border-color: currentColor; }
+  .lvl-B { color: var(--good); border-color: currentColor; }
+  .lvl-I { color: var(--mid); border-color: currentColor; }
+  .lvl-A { color: var(--bad); border-color: currentColor; }
+
+  /* 詞義與例句 */
+  .pos-block { display: grid; gap: 8px; }
+  .pos-block + .pos-block { padding-top: 12px; border-top: 1px solid var(--line); }
+  .sense-item { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: var(--bg); }
+  .sense-item summary { display: flex; align-items: baseline; gap: 8px; cursor: pointer; list-style: none; color: var(--ink); font-weight: 600; }
+  .sense-item summary::-webkit-details-marker { display: none; }
+  .sense-item summary::after { content: "＋"; margin-left: auto; color: var(--muted); font-weight: 400; }
+  .sense-item[open] summary::after { content: "－"; }
+  .sn { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: var(--surface);
+    font-size: 12px; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums; }
+  .sz { font-size: 16px; line-height: 1.5; }
+  .exn { flex: none; font-size: 12px; color: var(--muted); font-weight: 400; }
+  .app-tag, .ai-tag, .rev-tag { font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 6px; border: 1px solid currentColor; white-space: nowrap; }
+  .app-tag, .ai-tag { color: var(--mid); }
+  .rev-tag { color: var(--accent); }
+  .exs { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 12px; }
+  .exs li::marker { color: var(--muted); font-size: 13px; }
+  .ex-en { font-family: var(--serif); font-size: 17px; line-height: 1.5; display: flex; gap: 6px; align-items: flex-start; }
+  .ex-en > span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+  .ex-en mark { font-weight: 700; }
+  .ex-say { flex: none; min-height: 32px; width: 32px; padding: 0; border-radius: 50%; }
+  .ex-say svg { width: 16px; height: 16px; }
+  .ex-zh { font-size: 15px; margin-top: 2px; }
+  .ex-src { font-size: 11px; color: var(--muted); margin-top: 3px; line-height: 1.6; }
+  .ex-src a { color: var(--muted); }
+  .ecdict-all summary { font-size: 14px; }
+  .licenses { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 13px; line-height: 1.6; }
+  .licenses a { color: var(--accent); }
   .syn-list { display: flex; flex-wrap: wrap; gap: 8px; }
   .syn { flex-direction: column; align-items: flex-start; gap: 0; min-height: 0; padding: 8px 12px; border-radius: 12px; }
   .syn b { font-family: var(--serif); font-size: 16px; }
@@ -371,6 +400,17 @@
     <div>
       <label>發音評分怎麼算</label>
       <p class="muted" style="margin:0">評分用 iPhone 的語音辨識：你念完後，看它聽到的字和正確答案有多接近，換算成 0–100 分。分數高代表一般人聽得懂、念得清楚；它不會細看單一音標或語調。</p>
+    </div>
+    <div>
+      <label>資料來源與授權</label>
+      <ul class="muted licenses">
+        <li><b>中文詞義、詞性、詞形變化、詞頻、易混淆辨析</b>：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener">ECDICT</a>（MIT 授權），以 OpenCC 由簡體轉為台灣繁體。</li>
+        <li><b>例句與中文翻譯</b>：<a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>（CC BY 2.0 FR），每句標示原句編號與作者；翻譯經 App 修訂的會另外標示。只使用文字例句，沒有使用 Tatoeba 的錄音。</li>
+        <li><b>AI 生成例句</b>：Tatoeba 找不到合適例句的詞義，由 AI 補寫並人工檢查，每句都標示「AI 生成例句」。</li>
+        <li><b>真人發音、IPA、英英解釋、同義詞</b>：<a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a>（CC BY-SA），經 Free Dictionary API 取得。</li>
+        <li><b>主題分類、主題中的意思、詞義分項</b>：App 編輯整理，不是詞典原文。</li>
+        <li><b>難度</b>：依 BNC／COCA 詞頻排名（ECDICT 提供）計算。</li>
+      </ul>
     </div>
     <p class="muted" id="storage-info" style="margin:0"></p>
   </div>

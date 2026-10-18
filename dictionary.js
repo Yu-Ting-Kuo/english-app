@@ -193,7 +193,7 @@ function renderEntry(res) {
       ${notes.length ? `<div class="notice">${notes.join('<br>')}</div>` : ''}
     </article>
 
-    <section class="card stack">
+    <section class="card stack" id="senses-box">
       <h3>詞性與中文意思</h3>
       ${meanings}
     </section>
@@ -223,6 +223,56 @@ function renderEntry(res) {
   loadOnline(key, entry);
   if (entry.rs) loadConfusables(entry.rs);
   loadEntryTopics(key);
+  loadSenses(key, meanings);
+}
+
+// ---------- 詞義與例句 ----------
+function highlightSpan(text, sp) {
+  if (!sp) return esc(text);
+  return esc(text.slice(0, sp[0])) + '<mark>' + esc(text.slice(sp[0], sp[1])) + '</mark>' + esc(text.slice(sp[1]));
+}
+
+function exampleSource(e) {
+  if (e.s === 'ai') return '<span class="ai-tag">AI 生成例句</span>';
+  const link = `<a href="https://tatoeba.org/zh-tw/sentences/show/${e.id}" target="_blank" rel="noopener">Tatoeba #${e.id}</a>`;
+  return `${link}・英文 ${esc(e.by || '匿名')}・中文 ${esc(e.zby || '匿名')}${e.rev ? '・<span class="rev-tag">翻譯經 App 修訂</span>' : ''}`;
+}
+
+function renderSenses(list) {
+  const order = [];
+  for (const s of list) if (!order.includes(s.l)) order.push(s.l);
+  let n = 0;
+  return order.map(label => `
+    <div class="pos-block">
+      <div class="pos-head"><span class="pos">${esc(label)}</span></div>
+      ${list.filter(s => s.l === label).map(s => {
+        n++;
+        return `
+        <details class="sense-item" ${n <= 2 ? 'open' : ''}>
+          <summary><span class="sn">${n}</span><span class="sz">${esc(s.zh)}</span>${s.src === 'app' ? '<span class="app-tag">App 補充詞義</span>' : ''}<span class="exn">${s.ex.length} 句</span></summary>
+          ${s.ex.length ? `<ol class="exs">${s.ex.map(e => `
+            <li>
+              <div class="ex-en"><span>${highlightSpan(e.en, e.sp)}</span><button class="ex-say" data-say="${esc(e.en)}" aria-label="朗讀例句">${ICON.speaker}</button></div>
+              <div class="ex-zh">${esc(e.zh)}</div>
+              <div class="ex-src">${exampleSource(e)}</div>
+            </li>`).join('')}</ol>` : '<p class="muted" style="margin:6px 0 0">這個詞義目前沒有可靠的例句。</p>'}
+        </details>`;
+      }).join('')}
+    </div>`).join('');
+}
+
+async function loadSenses(key, ecdictHtml) {
+  let list = null;
+  try { list = await Dict.senses(key); } catch { return; }
+  const box = $('#senses-box');
+  if (!box || currentEntry?.key !== key) return;
+  if (!list?.length) {
+    box.insertAdjacentHTML('beforeend', '<p class="source" style="margin:0">這個字的「逐義例句」還在整理中，目前先顯示詞典的中文釋義。</p>');
+    return;
+  }
+  box.innerHTML = `<h3>詞義與例句</h3>${renderSenses(list)}
+    ${ecdictHtml ? `<details class="ecdict-all"><summary>ECDICT 完整中文釋義</summary><div class="stack" style="margin-top:8px">${ecdictHtml}</div></details>` : ''}
+    <p class="source" style="margin:0">詞義分項由 App 依 ECDICT 釋義整理。例句優先採用 Tatoeba 真人例句與翻譯（CC BY 2.0 FR），不足時才由 AI 補充並標示。</p>`;
 }
 
 // 詞典沒有獨立條目、但主題裡有收錄的片語
@@ -242,7 +292,7 @@ function renderPartial(res, tg) {
       </div>
       <div class="notice">ECDICT 沒有收錄這個片語的獨立條目，所以這裡沒有詞典音標、詞性和詞形變化。</div>
     </article>
-    <section class="card stack">
+    <section class="card stack" id="senses-box">
       <h3>在「${esc(tg.topic)}」主題中的意思</h3>
       <div class="sense-text">${esc(tg.gloss)}</div>
       <div class="source" style="margin:0">此說明由 App 編輯整理，不是詞典原文。</div>
@@ -254,6 +304,7 @@ function renderPartial(res, tg) {
     <section class="card stack" id="entry-topics" hidden></section>`;
   $('#star').onclick = () => toggleStar(key, entry);
   loadEntryTopics(key);
+  loadSenses(key, '');
 }
 
 async function loadEntryTopics(key) {

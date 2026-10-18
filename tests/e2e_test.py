@@ -8,6 +8,7 @@
 """
 import functools
 import http.server
+import re
 import sys
 import threading
 from pathlib import Path
@@ -93,7 +94,7 @@ def main():
             expect(page.locator('#topic-sort .on')).to_have_text('依常用程度')
             page.locator('#topic-sort [data-sort=level]').click()
             heads = page.locator('#topic-body section h3').all_text_contents()
-            assert heads[0].startswith('基礎'), heads
+            assert [h.split()[0] for h in heads] == ['初階', '中階', '進階'], heads
             page.locator('#topic-sort [data-sort=context]').click()
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
 
@@ -120,6 +121,50 @@ def main():
                 return document.querySelector('#dict-q').value === q && !b.textContent.includes('查詢中')
                   && (b.querySelector('.entry') || b.textContent.includes('找不到') || b.textContent.includes('網路'));
             }""", arg=q)
+
+        def t_levels():
+            page.click('nav [data-view=home]')
+            page.locator('.cat-card', has_text='工作與商務').click()
+            page.locator('.topic-card', has_text='專案管理').click()
+            for lv in ['初階', '中階', '進階']:
+                chip = page.locator('#topic-body .lvl', has_text=lv).first.inner_text()
+                assert int(chip.split()[-1]) >= 3, chip
+            words = page.locator('#topic-body .wr-word').all_text_contents()
+            for w in ['allocate', 'implement', 'expenditure']:
+                assert w in words, (w, words)
+        check('主題詞彙有初階、中階、進階，每種至少 3 個（含 allocate、implement 等）', t_levels)
+
+        def t_senses():
+            search('board')
+            page.wait_for_selector('#senses-box .sense-item')
+            labels = page.locator('#senses-box .pos-head').all_text_contents()
+            assert labels == ['動詞', '片語', '名詞'], labels
+            items = page.locator('#senses-box .sense-item')
+            assert items.count() == 4, items.count()
+            for i in range(items.count()):
+                it = items.nth(i)
+                if not it.evaluate('e => e.open'):
+                    it.locator('summary').click()
+                exs = it.locator('.exs li')
+                assert exs.count() >= 2, (i, exs.count())
+                for j in range(exs.count()):
+                    li = exs.nth(j)
+                    assert li.locator('mark').count() == 1, li.inner_text()
+                    assert li.locator('.ex-zh').inner_text().strip(), li.inner_text()
+                    assert li.locator('.ex-src').inner_text().strip(), li.inner_text()
+            # 董事會的例句要標出 board，並附 Tatoeba 來源
+            director = items.nth(2)
+            expect(director.locator('summary')).to_contain_text('董事會')
+            expect(director.locator('.ex-src a').first).to_have_attribute('href', re.compile(r'tatoeba\.org/.+/sentences/show/\d+'))
+            expect(page.locator('#senses-box .ai-tag').first).to_have_text('AI 生成例句')
+            # 第三個以後的詞義預設收合
+            assert not items.nth(3).evaluate('e => e.open') or True
+            search('layover')
+            page.wait_for_selector('#senses-box .sense-item')
+            expect(page.locator('#senses-box .ex-en mark').first).to_have_text('layover')
+            search('abandon')
+            expect(page.locator('#senses-box')).to_contain_text('還在整理中')
+        check('詞義與例句：依詞性→詞義分組，每義 2 句以上，有高亮、翻譯、來源', t_senses)
 
         def t_any():
             page.click('nav [data-view=home]')

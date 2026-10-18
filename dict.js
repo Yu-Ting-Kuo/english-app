@@ -35,6 +35,12 @@ const Dict = (() => {
     return map.get(key);
   }
   const loadShard = s => cached(shards, s, `dict/w/${s}.json`, { e: {}, f: {} });
+  // 詞義與例句（tools/build_senses.py 產生），跟詞條一樣依前兩個字母分檔，點進條目才載入
+  const senseShards = new Map();
+  async function senses(key) {
+    const data = await cached(senseShards, shardOf(key), `dict/s/${shardOf(key)}.json`, {});
+    return data[key] || null;
+  }
   const loadIndex = l => cached(indexes, l, `dict/i/${l}.json`, []);
 
   async function getEntry(key) {
@@ -179,5 +185,5 @@ const Dict = (() => {
     return groups;
   }
 
-  return { norm, lookup, suggest, fuzzy, getEntry, resembleGroups, online, frequency, inflections, lev };
+  return { norm, lookup, suggest, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev };
 })();

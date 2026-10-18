@@ -54,6 +54,7 @@ async function renderHome() {
       <div class="en">${esc(t.en)}</div>
       <p>${esc(t.intro)}</p>
       <div class="row wrap"><span class="chip">${esc(t.level)}</span><span class="chip">${t.count} 個單字</span></div>
+      <div class="row wrap">${levelChips(t)}</div>
       <button class="primary" data-topic="${tid}">開始探索</button>
     </div>`;
   $('#home-topics').innerHTML = data.categories.map(c => `
@@ -92,7 +93,7 @@ async function renderCategory() {
       return `<button class="topic-card" data-topic="${id}">
         <span class="topic-name">${esc(t.zh)}</span>
         <span class="topic-en">${esc(t.en)}</span>
-        <span class="topic-meta">${esc(t.level)} · ${t.count} 個字</span>
+        <span class="topic-meta">${t.count} 個字</span>
       </button>`;
     }).join('')}</div>`;
 }
@@ -102,18 +103,19 @@ let currentTopic = null;
 let topicSort = 'context';
 try { topicSort = localStorage.getItem('topicSort') || 'context'; } catch {}
 
-const levelOf = r => (!r ? null : r <= 2000 ? '基礎' : r <= 6000 ? '中級' : '進階');
+// 難度由 tools/build_topics.py 依 BNC／COCA 詞頻計算：初階前 2,500 名、中階 2,501～8,000、進階 8,000 名以後
+const LEVEL = { B: '初階', I: '中階', A: '進階' };
+const LEVEL_EN = { B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
 
 function wordRow(w) {
   const key = w.k || Dict.norm(w.w);
   const saved = !!findSaved(key);
-  const level = levelOf(w.r);
   return `<button class="word-row" data-word="${esc(w.w)}" data-from-topic="1">
     <span class="wr-main">
       <span class="wr-word">${esc(w.w)}</span>
       <span class="wr-gloss">${esc(w.g)}</span>
     </span>
-    ${level ? `<span class="lvl lvl-${level}">${level}</span>` : ''}
+    ${w.lv ? `<span class="lvl lvl-${w.lv}">${LEVEL[w.lv]}</span>` : ''}
     ${saved ? `<span class="wr-star" aria-label="已收藏">${STAR.on}</span>` : ''}
   </button>`;
 }
@@ -138,10 +140,10 @@ async function renderTopic() {
     // 依常用程度：詞頻排名小的在前；依難度：同樣依詞頻由易到難，並標出程度分組
     const sorted = [...all].sort((a, b) => (a.r || 1e9) - (b.r || 1e9));
     if (topicSort === 'level') {
-      const groups = ['基礎', '中級', '進階', null].map(l => [l, sorted.filter(w => levelOf(w.r) === l)]).filter(g => g[1].length);
+      const groups = ['B', 'I', 'A'].map(l => [l, sorted.filter(w => w.lv === l)]).filter(g => g[1].length);
       list = groups.map(([l, ws]) => `
         <section class="card stack">
-          <h3>${l ? l + '單字' : '片語與複合詞'}</h3>
+          <h3>${LEVEL[l]} <span class="en">${LEVEL_EN[l]}</span></h3>
           <div class="word-rows">${ws.map(wordRow).join('')}</div>
         </section>`).join('');
     } else {
@@ -153,7 +155,7 @@ async function renderTopic() {
     <div>
       <h2 class="page-title">${esc(t.zh)} <span class="en">${esc(t.en)}</span></h2>
       <p class="muted" style="margin:4px 0 8px">${esc(t.intro)}</p>
-      <div class="row wrap"><span class="chip">${esc(t.level)}</span><span class="chip">${t.count} 個單字</span></div>
+      <div class="row wrap"><span class="chip">${t.count} 個單字</span>${levelChips(t)}</div>
     </div>
     <div class="seg" id="topic-sort">
       <button data-sort="context" class="${topicSort === 'context' ? 'on' : ''}">依情境</button>
@@ -161,7 +163,8 @@ async function renderTopic() {
       <button data-sort="freq" class="${topicSort === 'freq' ? 'on' : ''}">依常用程度</button>
     </div>
     ${list}
-    <p class="source">主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文；點單字可以看完整辭典條目。程度依 BNC／COCA 詞頻估算。</p>`;
+    <p class="source">主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文；點單字可以看完整辭典條目。
+    難度依 BNC／COCA 詞頻排名計算：初階為前 2,500 名、中階 2,501～8,000 名、進階為 8,000 名以後；片語依組成單字中最少見的那個字計算。</p>`;
   $('#topic-sort').onclick = e => {
     const s = e.target.closest('[data-sort]')?.dataset.sort;
     if (!s || s === topicSort) return;
@@ -169,6 +172,10 @@ async function renderTopic() {
     try { localStorage.setItem('topicSort', s); } catch {}
     renderTopic();
   };
+}
+
+function levelChips(t) {
+  return ['B', 'I', 'A'].map(l => `<span class="lvl lvl-${l}">${LEVEL[l]} ${t.levels?.[l] ?? 0}</span>`).join('');
 }
 
 function openTopic(id) {
