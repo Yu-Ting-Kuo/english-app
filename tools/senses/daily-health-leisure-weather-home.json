@@ -129,7 +129,7 @@
     {"p": "n", "zh": "營養", "t": [313982], "fix": {"313982": "她很注意孩子的營養。"}, "ai": [["Good nutrition is important for growing children.", "良好的營養對成長中的孩子很重要。"]]}
   ],
   "well-being": [
-    {"p": "n", "zh": "身心健康、幸福", "ai": [["Exercise is good for your mental well-being.", "運動對心理健康有益。"], ["The company cares about the well-being of its employees.", "這家公司很重視員工的身心健康。"]]}
+    {"p": "n", "zh": "身心健康、幸福", "src": "app", "ai": [["Exercise is good for your mental well-being.", "運動對心理健康有益。"], ["The company cares about the well-being of its employees.", "這家公司很重視員工的身心健康。"]]}
   ],
   "hobby": [
     {"p": "n", "zh": "嗜好、興趣", "t": [251151, 8249384, 286645], "fix": {"251151": "我的嗜好是拍野花。", "8249384": "我的嗜好是開車和彈吉他。", "286645": "他的嗜好是畫花。"}}

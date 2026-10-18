@@ -1,0 +1,526 @@
+{
+  "lecture": [
+    {"p": "n", "zh": "（大學的）講課、演講", "t": [241173, 4426581, 4144751], "fix": {"241173": "聽演講時要保持安靜。", "4426581": "那位老教授的課又長又沉悶。", "4144751": "誰都可以來聽我的課，但不是每個人都聽得懂。"}},
+    {"p": "v", "zh": "說教、訓話", "ai": [["Stop lecturing me about my spending.", "別再對我的花錢習慣說教了。"], ["My dad lectured me for coming home late.", "我晚回家被爸爸訓了一頓。"]]}
+  ],
+  "professor": [
+    {"p": "n", "zh": "教授", "t": [48674, 10465115, 2753578], "fix": {"48674": "那位教授講得太快，沒有人聽得懂。", "10465115": "凱教授研究昆蟲已經四十年了。", "2753578": "這位是大木博士，這項實驗的負責人。"}}
+  ],
+  "semester": [
+    {"p": "n", "zh": "學期", "t": [241989, 7822980, 257498], "fix": {"7822980": "新學期開始了。", "257498": "我這學期幾乎沒念物理。"}}
+  ],
+  "course": [
+    {"p": "n", "zh": "課程", "t": [317456, 1395568, 2584021], "fix": {"317456": "她打算去烹飪學校上幾門課。", "1395568": "她得去上英文補救課程。", "2584021": "所以你也打算修這門課！"}},
+    {"p": "phr", "zh": "of course：當然", "t": [73787], "fix": {"73787": "「當然是把它丟掉！」那位農夫回答。"}, "ai": [["Of course you can borrow my pen.", "當然可以借你我的筆。"]]},
+    {"p": "n", "zh": "（一餐中的）一道菜", "ai": [["The dinner had five courses.", "晚餐一共有五道菜。"], ["Dessert is the last course.", "甜點是最後一道菜。"]]}
+  ],
+  "assignment": [
+    {"p": "n", "zh": "作業", "t": [46686], "fix": {"46686": "這份作業花了我比預期還久的時間。"}, "ai": [["The assignment is due next Monday.", "這份作業下週一要交。"]]},
+    {"p": "n", "zh": "任務、（工作上的）指派", "t": [2347756, 257897], "fix": {"2347756": "我們必須同心協力才能完成這項任務。", "257897": "我那時被派到國外出任務。"}}
+  ],
+  "curriculum": [
+    {"p": "n", "zh": "（學校的整體）課程", "ai": [["Coding is now part of the school curriculum.", "程式設計現在已納入學校課程。"], ["The new curriculum focuses on critical thinking.", "新課綱著重批判性思考。"]]}
+  ],
+  "syllabus": [
+    {"p": "n", "zh": "課程大綱", "ai": [["The professor handed out the syllabus on the first day.", "教授在第一天發了課程大綱。"], ["Check the syllabus for the exam dates.", "看課程大綱確認考試日期。"]]}
+  ],
+  "faculty": [
+    {"p": "n", "zh": "（大學的）學院；全體教職員", "t": [3378089], "fix": {"3378089": "我在圖爾庫大學人文學院研讀比較宗教學。"}, "ai": [["The faculty meet once a month to discuss the program.", "全體教師每月開一次會討論課程。"]]},
+    {"p": "n", "zh": "（天生的）能力、官能", "ai": [["At 90, she still has all her faculties.", "她九十歲了，各項身心機能仍然健全。"], ["He has a faculty for learning languages.", "他很有學語言的天分。"]]}
+  ],
+  "exam": [
+    {"p": "n", "zh": "考試", "t": [39452, 24314, 263448], "fix": {"39452": "考完試後，我們對了一下彼此寫的答案。", "24314": "暑假一結束我就要考試了。", "263448": "你雖然考試沒過，但也不必覺得丟臉。"}}
+  ],
+  "quiz": [
+    {"p": "n", "zh": "小考、測驗", "t": [242232, 323426], "fix": {"323426": "我們明天有數學小考。"}},
+    {"p": "n", "zh": "（電視、網路上的）益智問答", "ai": [["Let's do this fun personality quiz.", "我們來做這個有趣的性格測驗吧。"], ["She won a car on a TV quiz show.", "她在電視益智節目中贏得一輛車。"]]}
+  ],
+  "grade": [
+    {"p": "n", "zh": "成績、分數", "t": [256190, 258963, 257496], "fix": {"256190": "我英文成績很好。", "258963": "我努力提高成績。"}},
+    {"p": "n", "zh": "（美）年級", "ai": [["My son is in the third grade.", "我兒子讀三年級。"], ["She skipped a grade because she was so smart.", "她因為太聰明而跳了一級。"]]},
+    {"p": "v", "zh": "評分、打成績", "ai": [["The teacher is grading our essays this weekend.", "老師這個週末在改我們的作文。"], ["Eggs are graded by size.", "雞蛋依大小分級。"]]}
+  ],
+  "pass": [
+    {"p": "v", "zh": "通過（考試）", "t": [26623, 27544], "fix": {"26623": "艾倫運氣很好，考過了稅務師考試。", "27544": "如果他用功讀書，就會通過考試。"}},
+    {"p": "v", "zh": "傳遞、遞給", "t": [3600829], "fix": {"3600829": "不好意思，可以把糖遞給我嗎？"}, "ai": [["Please pass the salt.", "請把鹽遞給我。"]]},
+    {"p": "v", "zh": "（時間）過去", "t": [9432038], "fix": {"9432038": "做喜歡的事時，時間過得特別快。"}, "ai": [["Three years passed before we met again.", "三年過去了，我們才再次見面。"]]},
+    {"p": "phr", "zh": "pass away：過世", "t": [64113], "fix": {"64113": "聽到你父親過世的消息，我很難過。"}, "ai": [["My grandmother passed away last year.", "我奶奶去年過世了。"]]}
+  ],
+  "fail": [
+    {"p": "v", "zh": "（考試）不及格", "t": [41222, 263456], "fix": {"41222": "她考試沒過，讓我非常失望。", "263456": "考試不及格就得再等一年。"}},
+    {"p": "v", "zh": "失敗", "t": [65784], "fix": {"65784": "他雖然很努力，這次還是失敗了。"}, "ai": [["The plan failed because we didn't have enough money.", "這個計畫因為錢不夠而失敗了。"]]},
+    {"p": "phr", "zh": "never fail to / without fail：一定、從不間斷", "t": [36179, 20251], "fix": {"36179": "南西每個月一定會寫信給我。", "20251": "火車一定會準時到。"}}
+  ],
+  "plagiarism": [
+    {"p": "n", "zh": "抄襲、剽竊", "ai": [["Copying from the internet without citing sources is plagiarism.", "從網路上抄東西而不註明出處就是抄襲。"], ["The student was punished for plagiarism.", "那個學生因為抄襲而受到處分。"]]}
+  ],
+  "transcript": [
+    {"p": "n", "zh": "成績單", "ai": [["Please attach your college transcript to the application.", "申請時請附上大學成績單。"], ["My transcript shows all the courses I took.", "我的成績單列出了我修過的所有課。"]]},
+    {"p": "n", "zh": "逐字稿", "ai": [["You can read the full transcript of the interview online.", "你可以在網路上看到這段訪談的完整逐字稿。"], ["The video comes with a transcript for learners.", "這部影片附有給學習者的逐字稿。"]]}
+  ],
+  "assessment": [
+    {"p": "n", "zh": "評量、評估", "ai": [["Students are graded by continuous assessment.", "學生的成績是透過持續評量來決定的。"], ["We need a careful assessment of the risks.", "我們需要仔細評估風險。"]]}
+  ],
+  "degree": [
+    {"p": "n", "zh": "學位", "t": [303656], "fix": {"303656": "他拿到了法學碩士學位。"}, "ai": [["She has a degree in computer science.", "她擁有資訊工程學位。"]]},
+    {"p": "n", "zh": "度（溫度、角度）", "t": [72301, 242411], "fix": {"72301": "90 度的角叫做直角。", "242411": "今天氣溫高達攝氏 30 度。"}},
+    {"p": "n", "zh": "程度", "t": [69824, 249258], "fix": {"69824": "你對棒球有多大的興趣？", "249258": "我們可以相信他到什麼程度？"}}
+  ],
+  "major": [
+    {"p": "v", "zh": "（major in）主修", "t": [252296, 52408, 537052], "fix": {"52408": "蘇珊主修美國史。", "537052": "你上大學打算主修什麼？"}},
+    {"p": "n", "zh": "主修科目", "ai": [["What's your major?", "你主修什麼？"], ["My major is economics.", "我主修經濟。"]]},
+    {"p": "adj", "zh": "主要的、重大的", "ai": [["Traffic is a major problem in this city.", "交通是這座城市的主要問題。"], ["She had major surgery last year.", "她去年動了一場大手術。"]]}
+  ],
+  "graduate": [
+    {"p": "v", "zh": "畢業", "t": [838500, 1256920, 3544972], "fix": {"1256920": "我覺得湯姆今年畢不了業。", "3544972": "他畢業後回到了鄉下。"}},
+    {"p": "n", "zh": "畢業生", "t": [240903], "fix": {"240903": "校長頒發畢業證書給每一位畢業生。"}, "ai": [["She is a graduate of National Taiwan University.", "她是台灣大學的畢業生。"]]},
+    {"p": "adj", "zh": "研究所的", "ai": [["He is a graduate student in physics.", "他是物理研究所的學生。"], ["Graduate school is more focused on research.", "研究所更注重研究。"]]}
+  ],
+  "scholarship": [
+    {"p": "n", "zh": "獎學金", "t": [10534812, 3820945, 291013], "fix": {"10534812": "他拿到了去德國留學的獎學金。", "3820945": "湯姆靠著獎學金才能上大學。"}}
+  ],
+  "tuition": [
+    {"p": "n", "zh": "學費", "t": [275597, 756890], "fix": {"275597": "我打工是為了存大學學費。", "756890": "今天是繳學費的最後一天，可是我的卡裡沒錢了。"}},
+    {"p": "n", "zh": "教學、（個別）指導", "ai": [["She gives private tuition in math.", "她私下教數學家教。"], ["The school offers extra tuition for weaker students.", "學校為程度較弱的學生提供額外輔導。"]]}
+  ],
+  "campus": [
+    {"p": "n", "zh": "校園", "t": [240914, 314465, 1893779], "fix": {"240914": "我昨天在校園裡遇到她。", "1893779": "我們在學校附近的咖啡店碰面。"}}
+  ],
+  "dissertation": [
+    {"p": "n", "zh": "（博士）論文", "t": [715864], "fix": {"715864": "我最近忙著寫畢業論文。"}, "ai": [["She wrote her dissertation on climate policy.", "她的論文主題是氣候政策。"]]}
+  ],
+  "thesis": [
+    {"p": "n", "zh": "（學位）論文", "t": [326502, 13803765, 3551084], "fix": {"3551084": "下個月就要碩士論文口試了。"}},
+    {"p": "n", "zh": "論點", "t": [5711369], "fix": {"5711369": "我不會試圖反駁你的論點。"}, "ai": [["The main thesis of the book is simple.", "這本書的主要論點很簡單。"]]}
+  ],
+  "alumni": [
+    {"p": "n", "zh": "校友（複數）", "ai": [["Many famous alumni returned for the school's 100th anniversary.", "許多知名校友回來參加學校百年校慶。"], ["The alumni association raises money for scholarships.", "校友會為獎學金募款。"]]}
+  ],
+  "enroll": [
+    {"p": "v", "zh": "註冊、報名、就讀", "t": [7156259], "fix": {"7156259": "我想就讀研究所。"}, "ai": [["She enrolled in an evening English class.", "她報名了夜間英文班。"]]}
+  ],
+  "research": [
+    {"p": "n", "zh": "研究", "t": [56865, 681911], "fix": {"56865": "這本書是他熱心研究的成果。", "681911": "癌症成因的研究非常昂貴。"}},
+    {"p": "v", "zh": "研究、調查", "t": [9306433, 13980413], "fix": {"9306433": "他非常深入地研究了英國的茶文化。"}}
+  ],
+  "experiment": [
+    {"p": "n", "zh": "實驗", "t": [307581, 13575934, 57485], "fix": {"307581": "他們在無重力狀態下做了一系列實驗。", "13575934": "我們先來談談在實驗室裡做的實驗。", "57485": "這項發明是多年耐心實驗的成果。"}},
+    {"p": "v", "zh": "嘗試、實驗", "t": [250035], "fix": {"250035": "據我所知，他正在嘗試新的方法。"}, "ai": [["She likes to experiment with new recipes.", "她喜歡嘗試新食譜。"]]}
+  ],
+  "hypothesis": [
+    {"p": "n", "zh": "假設、假說", "t": [48379, 8732690, 2110836], "fix": {"48379": "這個結果證實了我的假設。", "8732690": "我們有足夠的證據證明這個假設。"}}
+  ],
+  "method": [
+    {"p": "n", "zh": "方法", "t": [56310, 1451930, 1103154], "fix": {"1451930": "這種方法已經過時了。", "1103154": "這個問題用一般的方法解決不了。"}}
+  ],
+  "sample": [
+    {"p": "n", "zh": "樣本", "t": [1112077], "fix": {"1112077": "這個樣本不夠純。"}, "ai": [["The doctor took a blood sample.", "醫生抽了血液樣本。"]]},
+    {"p": "n", "zh": "樣品、試用品", "t": [70648], "fix": {"70648": "可以讓我們看看你的作品樣本嗎？"}, "ai": [["The store was giving out free samples of cheese.", "那家店在發送起司試吃品。"]]},
+    {"p": "v", "zh": "品嚐、試吃", "ai": [["You can sample local food at the night market.", "你可以在夜市品嚐當地美食。"], ["We sampled five kinds of tea.", "我們試喝了五種茶。"]]}
+  ],
+  "laboratory": [
+    {"p": "n", "zh": "實驗室", "t": [2491374, 13575946, 27177], "fix": {"2491374": "這間實驗室配備了最新的電腦。", "13575946": "這間實驗室是我們每天工作的地方。", "27177": "一連串的爆炸把實驗室炸成了廢墟。"}}
+  ],
+  "variable": [
+    {"p": "n", "zh": "變數", "t": [1046050, 812116], "fix": {"1046050": "C 語言的變數名稱有區分大小寫。", "812116": "在 C 和 C++ 中，變數宣告非常重要。"}},
+    {"p": "adj", "zh": "多變的、可變的", "ai": [["The weather here is highly variable.", "這裡的天氣變化很大。"], ["The restaurant's food quality is variable.", "這家餐廳的菜品質不太穩定。"]]}
+  ],
+  "methodology": [
+    {"p": "n", "zh": "研究方法（論）", "ai": [["The paper explains its methodology in detail.", "這篇論文詳細說明了研究方法。"], ["Some scientists questioned the study's methodology.", "有些科學家質疑這項研究的方法。"]]}
+  ],
+  "empirical": [
+    {"p": "adj", "zh": "實證的、以經驗為根據的", "ai": [["There is little empirical evidence for this theory.", "這個理論幾乎沒有實證證據。"], ["The study is based on empirical data.", "這項研究是根據實證資料。"]]}
+  ],
+  "quantitative": [
+    {"p": "adj", "zh": "量化的、定量的", "ai": [["We used quantitative methods to analyze the survey.", "我們用量化方法分析問卷。"], ["Quantitative data is easy to put into charts.", "量化資料很容易做成圖表。"]]}
+  ],
+  "qualitative": [
+    {"p": "adj", "zh": "質性的、定性的", "ai": [["Interviews are a common qualitative research method.", "訪談是常見的質性研究方法。"], ["There is a qualitative difference between the two products.", "這兩種產品在本質上有差異。"]]}
+  ],
+  "data": [
+    {"p": "n", "zh": "資料、數據", "t": [59023, 60881, 1441267], "fix": {"59023": "這些資料可不可靠還很難說。", "1441267": "不過，這些資料都還沒有得到證實。"}}
+  ],
+  "result": [
+    {"p": "n", "zh": "結果", "t": [41216, 36663], "fix": {"41216": "整體來說，我對結果很滿意。", "36663": "不管結果如何，我都會執行我的計畫。"}},
+    {"p": "v", "zh": "（result in）導致；（result from）起因於", "t": [45959], "fix": {"45959": "這項政策導致物價大幅上漲。"}, "ai": [["The accident resulted from careless driving.", "這場車禍是駕駛不小心造成的。"]]},
+    {"p": "phr", "zh": "as a result：因此、結果", "t": [45737], "fix": {"45737": "那場戰爭導致很多人死亡。"}, "ai": [["He didn't study. As a result, he failed the exam.", "他沒唸書，結果考試不及格。"]]}
+  ],
+  "evidence": [
+    {"p": "n", "zh": "證據", "t": [238343, 12305404, 1477304], "fix": {"238343": "警方蒐集了很多對他不利的證據。", "12305404": "你有證據證明那真的發生過嗎？", "1477304": "除非有可靠的證據，否則我們什麼都不該相信。"}}
+  ],
+  "observe": [
+    {"p": "v", "zh": "觀察", "t": [27993, 48147, 416046], "fix": {"48147": "那個孤僻的人以觀察螞蟻為樂。"}},
+    {"p": "v", "zh": "說、評論（正式）", "t": [26880], "fix": {"26880": "他說大概快下雨了。"}, "ai": [["\"It's getting late,\" she observed.", "「時間不早了。」她說。"]]},
+    {"p": "v", "zh": "遵守（法律、習俗）", "ai": [["All drivers must observe the speed limit.", "所有駕駛都必須遵守速限。"], ["Many families still observe this tradition.", "許多家庭仍然遵守這個傳統。"]]}
+  ],
+  "measure": [
+    {"p": "v", "zh": "測量", "t": [541982, 28842], "fix": {"541982": "恆星之間的距離是用光年來測量的。"}},
+    {"p": "n", "zh": "措施、手段", "t": [324720, 1658402], "fix": {"324720": "預防措施比實際治療有效得多。", "1658402": "駭客很擅長繞過電腦的安全措施。"}}
+  ],
+  "conclude": [
+    {"p": "v", "zh": "下結論、斷定", "t": [803471, 803462, 803472], "fix": {"803471": "看完研究之後，我們大多數人斷定疫苗是好東西。", "803462": "他做了那麼多壞事，我們可以斷定他是壞人。", "803472": "從這點可以得出結論：女權主義仍然是必要的。"}},
+    {"p": "v", "zh": "結束；締結（條約）", "t": [44137, 73276], "fix": {"44137": "這個故事突然結束了。", "73276": "1978 年，日本和中國簽訂了和平條約。"}}
+  ],
+  "correlation": [
+    {"p": "n", "zh": "相關性", "t": [1477318], "fix": {"1477318": "相關不代表因果。"}, "ai": [["There is a strong correlation between sleep and health.", "睡眠和健康之間有很強的相關性。"]]}
+  ],
+  "anomaly": [
+    {"p": "n", "zh": "異常（現象）", "ai": [["The scientists noticed an anomaly in the data.", "科學家注意到資料中有異常。"], ["A cold day in July is an anomaly here.", "七月出現冷天在這裡很反常。"]]}
+  ],
+  "replicate": [
+    {"p": "v", "zh": "重做（實驗）、複製", "ai": [["Other researchers could not replicate the results.", "其他研究人員無法重現這些結果。"], ["The virus replicates quickly inside the body.", "病毒在體內快速複製。"]]}
+  ],
+  "extrapolate": [
+    {"p": "v", "zh": "推斷、外推", "t": [9923406], "fix": {"9923406": "大部分的字都褪色了，但還是可以從這些句子推斷出意思。"}, "ai": [["We can extrapolate future sales from past data.", "我們可以從過去的資料推估未來的銷量。"]]}
+  ],
+  "inconclusive": [
+    {"p": "adj", "zh": "沒有定論的、不確定的", "ai": [["The test results were inconclusive.", "檢驗結果沒有定論。"], ["After hours of discussion, the meeting was inconclusive.", "討論了好幾個小時，會議仍沒有結論。"]]}
+  ],
+  "theory": [
+    {"p": "n", "zh": "理論、學說", "t": [56523, 562258, 4768099], "fix": {"56523": "這個理論對我來說太難懂了。", "4768099": "約翰．道耳頓是原子論的創立者。"}},
+    {"p": "n", "zh": "推測、說法", "t": [2033633, 7584264], "fix": {"7584264": "我朋友相信陰謀論，我該試著證明他是錯的嗎？"}},
+    {"p": "phr", "zh": "in theory：理論上", "ai": [["In theory, the plan should work.", "理論上，這個計畫應該行得通。"], ["It sounds good in theory, but it's hard in practice.", "理論上聽起來不錯，實際上卻很難。"]]}
+  ],
+  "publish": [
+    {"p": "v", "zh": "出版", "t": [322480, 9069636, 1816605], "fix": {"322480": "每年都有大量的書出版。", "9069636": "他寫了一本書，可是沒錢出版。"}},
+    {"p": "v", "zh": "發表、公布", "t": [2173], "fix": {"2173": "他剛發表了一系列有趣的文章。"}, "ai": [["The results will be published next month.", "結果將於下個月公布。"]]}
+  ],
+  "journal": [
+    {"p": "n", "zh": "期刊", "ai": [["Her paper was published in a medical journal.", "她的論文刊登在一份醫學期刊上。"], ["Scientists read journals to keep up with new research.", "科學家閱讀期刊以掌握最新研究。"]]},
+    {"p": "n", "zh": "日誌、日記", "t": [1266470, 6013598], "fix": {"1266470": "我爸爸每天都寫日記。"}}
+  ],
+  "study": [
+    {"p": "v", "zh": "學習、讀書", "t": [16374, 1712940, 262222], "fix": {"16374": "我覺得你需要更用功。", "1712940": "塔寧娜每天都去圖書館念書。", "262222": "我跟爸媽談了出國留學的事。"}},
+    {"p": "n", "zh": "研究（報告）", "ai": [["A new study shows that coffee may be good for the heart.", "一項新研究顯示咖啡可能對心臟有益。"], ["The study involved 2,000 people.", "這項研究有兩千人參與。"]]}
+  ],
+  "discovery": [
+    {"p": "n", "zh": "發現", "t": [57487, 317502, 44439], "fix": {"57487": "這項發現將名留青史。", "317502": "她有一連串的醫學發現。", "44439": "那個發現純屬偶然。"}}
+  ],
+  "peer review": [
+    {"p": "phr", "zh": "同儕審查", "ai": [["The paper is currently under peer review.", "這篇論文正在接受同儕審查。"], ["Peer review helps to keep research quality high.", "同儕審查有助於維持研究品質。"]]}
+  ],
+  "breakthrough": [
+    {"p": "n", "zh": "突破", "t": [1742, 14028314], "fix": {"1742": "大多數科學突破，不過是發現了顯而易見的事。", "14028314": "經過多年艱苦訓練，她終於有所突破，奪得冠軍。"}}
+  ],
+  "phenomenon": [
+    {"p": "n", "zh": "現象", "t": [238848, 281037, 65116], "fix": {"238848": "月食是罕見的現象。", "281037": "彩虹是大自然最美的現象之一。", "65116": "極光是極地特有的現象。"}}
+  ],
+  "hypothesize": [
+    {"p": "v", "zh": "提出假設、推測", "ai": [["Scientists hypothesize that the virus came from bats.", "科學家推測這種病毒來自蝙蝠。"], ["We hypothesized that sleep affects memory.", "我們假設睡眠會影響記憶。"]]}
+  ],
+  "computer": [
+    {"p": "n", "zh": "電腦", "t": [54575, 395068, 367132], "fix": {"54575": "電腦幫我們省了很多時間和麻煩。", "395068": "那就是他用來寫文章的電腦。", "367132": "我常用 SSH 遠端連線到我的電腦。"}}
+  ],
+  "laptop": [
+    {"p": "n", "zh": "筆記型電腦", "t": [681288, 6041652, 10556777], "fix": {"10556777": "這台筆電以平實的價格提供最新的技術。"}}
+  ],
+  "keyboard": [
+    {"p": "n", "zh": "（電腦）鍵盤", "t": [13199837, 556059], "fix": {"13199837": "手指在鍵盤上飛快地移動。"}},
+    {"p": "n", "zh": "電子琴、鍵盤樂器", "t": [14061607, 12777204], "fix": {"12777204": "他用電子琴創作旋律。"}}
+  ],
+  "screen": [
+    {"p": "n", "zh": "螢幕", "t": [13190382, 3962669, 8351020], "fix": {"8351020": "微軟最近推出了兩款雙螢幕裝置。"}},
+    {"p": "n", "zh": "（電影）銀幕", "t": [1669961, 11544182], "fix": {"1669961": "「好大！」「對，這是 IMAX 銀幕！」", "11544182": "整體來說，這部電影從劇本到大銀幕都很成功。"}},
+    {"p": "v", "zh": "篩檢、審查", "ai": [["All visitors are screened at the entrance.", "所有訪客在入口都要接受檢查。"], ["Women over 40 should be screened for breast cancer.", "四十歲以上的女性應該做乳癌篩檢。"]]}
+  ],
+  "device": [
+    {"p": "n", "zh": "裝置、設備", "t": [12090952, 13511546, 45605], "fix": {"12090952": "這台電器一定是在運送途中損壞的。", "13511546": "全新設計的操作介面，讓你在不同裝置上都能玩得更順暢。", "45605": "這個裝置被牢牢固定在天花板上。"}}
+  ],
+  "storage": [
+    {"p": "n", "zh": "儲存空間", "t": [13190384], "fix": {"13190384": "我的手機需要有足夠的空間放 App。"}, "ai": [["Cloud storage lets you access files anywhere.", "雲端儲存讓你隨時隨地存取檔案。"]]},
+    {"p": "n", "zh": "儲藏；倉儲", "ai": [["We keep old furniture in storage.", "我們把舊家具放在倉庫裡。"], ["The apartment has plenty of storage space.", "這間公寓有很多收納空間。"]]}
+  ],
+  "peripheral": [
+    {"p": "n", "zh": "（電腦）周邊設備", "src": "app", "ai": [["Printers and scanners are common peripherals.", "印表機和掃描器是常見的周邊設備。"], ["This laptop has ports for many peripherals.", "這台筆電有很多可以接周邊設備的連接埠。"]]},
+    {"p": "adj", "zh": "周邊的；次要的", "ai": [["Peripheral vision helps you see things at the side.", "周邊視覺讓你看到旁邊的東西。"], ["That issue is only peripheral to our discussion.", "那個問題和我們的討論只是枝節。"]]}
+  ],
+  "processor": [
+    {"p": "n", "zh": "（電腦的）處理器", "ai": [["This phone has a fast processor.", "這支手機有很快的處理器。"], ["A better processor makes games run more smoothly.", "更好的處理器讓遊戲跑得更順。"]]},
+    {"p": "n", "zh": "處理機；（food processor）食物調理機", "t": [823642, 54576], "fix": {"823642": "食物調理機通常比果汁機矮一點、寬一點。", "54576": "和電腦不同，文書處理機只有一種用途。"}}
+  ],
+  "software": [
+    {"p": "n", "zh": "軟體", "t": [899123, 399084, 1006359], "fix": {"899123": "我用各式各樣的軟體學中文。", "399084": "皮耶的電腦裡有很多盜版軟體。", "1006359": "64 位元的軟體沒辦法在 32 位元的架構上執行。"}}
+  ],
+  "download": [
+    {"p": "v", "zh": "下載", "t": [5073538, 516099, 4008790], "fix": {"5073538": "如果你沒有這個軟體，現在就可以下載。", "516099": "我知道從網路上免費下載音樂是不對的，但我還是照樣下載。", "4008790": "開始下載時，請按「儲存」鍵。"}}
+  ],
+  "save": [
+    {"p": "v", "zh": "（電腦）儲存", "ai": [["Don't forget to save your work.", "別忘了存檔。"], ["Save the file before you close the program.", "關閉程式前先存檔。"]]},
+    {"p": "v", "zh": "存（錢）", "t": [325477, 275597], "fix": {"325477": "我在存錢準備出國留學。", "275597": "我打工是為了存大學學費。"}},
+    {"p": "v", "zh": "節省（時間、金錢）", "t": [54575, 48672], "fix": {"54575": "電腦幫我們省了很多時間和麻煩。", "48672": "那座橋幫我們省了很多時間。"}},
+    {"p": "v", "zh": "拯救", "ai": [["The doctor saved her life.", "醫生救了她的命。"], ["He saved a child from drowning.", "他救了一個差點溺水的孩子。"]]}
+  ],
+  "delete": [
+    {"p": "v", "zh": "刪除", "t": [25675, 953727, 7839556], "fix": {"25675": "把他的名字從應徵者名單上刪掉。", "953727": "真希望我知道怎麼刪除臉書帳號。"}}
+  ],
+  "backup": [
+    {"p": "n", "zh": "（資料）備份", "ai": [["Always keep a backup of important files.", "重要檔案一定要備份。"], ["I restored my photos from the backup.", "我從備份中還原了照片。"]]},
+    {"p": "n", "zh": "支援、後援；備用", "ai": [["The police officer called for backup.", "警員請求支援。"], ["We have a backup plan in case it rains.", "我們有下雨時的備用方案。"]]}
+  ],
+  "compatible": [
+    {"p": "adj", "zh": "（電腦等）相容的", "ai": [["This app is compatible with both iPhone and Android.", "這個 App 同時相容 iPhone 和 Android。"], ["Is this charger compatible with my laptop?", "這個充電器可以用在我的筆電上嗎？"]]},
+    {"p": "adj", "zh": "（人）合得來的", "ai": [["They're nice people, but we're just not compatible.", "他們人很好，但我們就是合不來。"], ["The two roommates are very compatible.", "這兩個室友很合得來。"]]}
+  ],
+  "configure": [
+    {"p": "v", "zh": "設定、配置", "t": [398288], "fix": {"398288": "我需要幫這台伺服器設定適當的防火牆。"}, "ai": [["You can configure the app to send you reminders.", "你可以設定這個 App 傳提醒給你。"]]}
+  ],
+  "uninstall": [
+    {"p": "v", "zh": "解除安裝", "ai": [["Uninstall the app if you don't use it anymore.", "如果不再使用這個 App，就把它解除安裝。"], ["I uninstalled the game to free up space.", "我刪掉遊戲來騰出空間。"]]}
+  ],
+  "program": [
+    {"p": "n", "zh": "（電腦）程式", "t": [9419688, 2420824], "fix": {"9419688": "程式語言其實就像一門外語。", "2420824": "Java 程式語言的用途非常廣泛。"}},
+    {"p": "n", "zh": "（電視）節目", "t": [274785, 239305], "fix": {"274785": "很多電視節目對孩子有不好的影響。", "239305": "值得看的電視節目寥寥無幾。"}},
+    {"p": "n", "zh": "計畫、方案", "t": [16900], "fix": {"16900": "跟我說說你未來的計畫。"}, "ai": [["The school has an exchange program with a university in Japan.", "這所學校和日本一所大學有交換計畫。"]]}
+  ],
+  "code": [
+    {"p": "n", "zh": "程式碼", "t": [1036566], "fix": {"1036566": "加上註解能讓程式碼更好讀。"}, "ai": [["She writes code for a game company.", "她在一家遊戲公司寫程式。"]]},
+    {"p": "n", "zh": "密碼、暗號", "t": [34195], "fix": {"34195": "法蘭克用暗號留下了一則訊息。"}, "ai": [["Enter the code to open the door.", "輸入密碼開門。"]]},
+    {"p": "n", "zh": "代碼；規範", "t": [971522], "fix": {"971522": "義大利的國碼是 +39。"}, "ai": [["The office has a strict dress code.", "公司有嚴格的服裝規定。"]]}
+  ],
+  "bug": [
+    {"p": "n", "zh": "（程式）錯誤、bug", "t": [2921289, 426498], "fix": {"2921289": "今天下班前要把所有 bug 修好。", "426498": "這不是 bug，是沒寫進文件的功能。"}},
+    {"p": "n", "zh": "蟲子", "ai": [["There's a bug on your shoulder.", "你肩膀上有一隻蟲。"], ["The kids like catching bugs in the garden.", "孩子們喜歡在院子裡抓蟲。"]]},
+    {"p": "v", "zh": "（口語）煩擾", "t": [3635875], "fix": {"3635875": "這不會讓我心煩。"}, "ai": [["Stop bugging me. I'm busy.", "別煩我，我在忙。"]]}
+  ],
+  "debug": [
+    {"p": "v", "zh": "除錯", "t": [367133], "fix": {"367133": "大部分開發者都討厭除錯；寫出 bug 比修 bug 有趣多了。"}, "ai": [["It took me two hours to debug the program.", "我花了兩個小時幫這個程式除錯。"]]}
+  ],
+  "database": [
+    {"p": "n", "zh": "資料庫", "t": [2915518, 625903], "fix": {"2915518": "我們優化了資料庫索引，系統效率因此提高了 50%。", "625903": "出現在 Tatoeba 資料庫裡的，不一定就是句子。"}}
+  ],
+  "algorithm": [
+    {"p": "n", "zh": "演算法", "t": [1251204], "fix": {"1251204": "資料壓縮演算法可以分為兩類：有失真的和無失真的。"}, "ai": [["Social media algorithms decide what we see.", "社群媒體的演算法決定我們看到什麼。"]]}
+  ],
+  "encrypt": [
+    {"p": "v", "zh": "加密", "ai": [["The app encrypts all your messages.", "這個 App 會把你所有的訊息加密。"], ["Encrypted files cannot be read without a password.", "加密的檔案沒有密碼就無法讀取。"]]}
+  ],
+  "interface": [
+    {"p": "n", "zh": "（使用者）介面", "t": [930450, 3581036, 1393462], "fix": {"930450": "我朋友正在為新的作業系統設計使用者介面。", "3581036": "我不喜歡那個作業系統的介面。", "1393462": "這個網站的介面沒什麼新意，但很簡潔。"}}
+  ],
+  "optimize": [
+    {"p": "v", "zh": "最佳化、優化", "t": [2915518], "fix": {"2915518": "我們優化了資料庫索引，系統效率因此提高了 50%。"}, "ai": [["We optimized the website so it loads faster.", "我們優化了網站，讓它載入得更快。"]]}
+  ],
+  "website": [
+    {"p": "n", "zh": "網站", "t": [386740, 10107021, 5277798], "fix": {"5277798": "很多網站靠廣告收入維持營運。"}}
+  ],
+  "browser": [
+    {"p": "n", "zh": "瀏覽器", "t": [906941, 1979677, 7837593], "fix": {"906941": "你最喜歡哪個瀏覽器？", "7837593": "瀏覽器跑得超慢。"}}
+  ],
+  "online": [
+    {"p": "adv", "zh": "在網路上、上網", "t": [844712, 1305893, 12080458], "fix": {"844712": "我是在網路上賣那些衣服的。", "1305893": "她每天上網好幾個小時。", "12080458": "這個景點的門票只能在網路上購買。"}},
+    {"p": "adj", "zh": "線上的、網路的", "ai": [["I took an online course in photography.", "我上了一門線上攝影課。"], ["Online shopping is very convenient.", "網路購物非常方便。"]]}
+  ],
+  "link": [
+    {"p": "n", "zh": "（網頁）連結", "t": [10734044, 5364087, 482897], "fix": {"482897": "請不要回覆這封詐騙郵件，更不要點擊信中的連結。"}},
+    {"p": "n", "zh": "關聯", "ai": [["There is a link between smoking and cancer.", "抽菸和癌症之間有關聯。"], ["Police are looking for links between the two crimes.", "警方正在尋找兩起犯罪之間的關聯。"]]},
+    {"p": "v", "zh": "連結、聯繫", "t": [2301463], "fix": {"2301463": "我們心意相通。"}, "ai": [["The tunnel links the two cities.", "這條隧道連接兩座城市。"]]}
+  ],
+  "search engine": [
+    {"p": "phr", "zh": "搜尋引擎", "t": [2248, 785319], "fix": {"2248": "網頁超過九成的造訪量來自搜尋引擎。", "785319": "某個主要的網路搜尋引擎說：「快比慢好。」"}}
+  ],
+  "wireless": [
+    {"p": "adj", "zh": "無線的", "t": [11272844], "fix": {"11272844": "要不要買無線滑鼠呢？"}, "ai": [["The café offers free wireless internet.", "這家咖啡店提供免費無線網路。"]]}
+  ],
+  "bandwidth": [
+    {"p": "n", "zh": "頻寬", "ai": [["Streaming video uses a lot of bandwidth.", "串流影片很耗頻寬。"], ["We need more bandwidth for the video calls.", "視訊會議需要更大的頻寬。"]]},
+    {"p": "n", "zh": "（口語）精力、餘裕", "ai": [["I don't have the bandwidth to take on another project.", "我沒有餘力再接一個專案。"], ["Let's talk next week when I have more bandwidth.", "等我下週比較有空時再談吧。"]]}
+  ],
+  "domain": [
+    {"p": "n", "zh": "網域", "src": "app", "ai": [["We bought a new domain name for the company website.", "我們為公司網站買了新的網域名稱。"], ["The email must come from our company's domain.", "這封信必須來自我們公司的網域。"]]},
+    {"p": "n", "zh": "領域、範圍", "ai": [["This question is outside my domain.", "這個問題不在我的專業領域。"], ["Medicine is no longer the domain of men.", "醫學不再是男性的天下。"]]}
+  ],
+  "server": [
+    {"p": "n", "zh": "伺服器", "t": [13994847, 2915556, 7840545], "fix": {"13994847": "注意！伺服器半夜會關機。", "2915556": "必須立刻停止這個程序，否則伺服器會當機。", "7840545": "伺服器有點慢。"}},
+    {"p": "n", "zh": "（餐廳）服務生", "ai": [["Our server was very friendly.", "我們的服務生很親切。"], ["Ask the server for the bill.", "跟服務生要帳單。"]]}
+  ],
+  "social media": [
+    {"p": "phr", "zh": "社群媒體", "ai": [["She spends too much time on social media.", "她花太多時間在社群媒體上。"], ["The news spread quickly on social media.", "這則消息在社群媒體上迅速傳開。"]]}
+  ],
+  "post": [
+    {"p": "n", "zh": "（網路）貼文", "t": [1429366], "fix": {"1429366": "我剛在部落格上發了一篇新文章。"}, "ai": [["Her post got thousands of likes.", "她的貼文獲得數千個讚。"]]},
+    {"p": "v", "zh": "發布（貼文）", "t": [997100], "fix": {"997100": "你不要再把私人照片貼到臉書上了。"}, "ai": [["I posted a photo of my lunch on Instagram.", "我把午餐的照片貼到 IG 上。"]]},
+    {"p": "v", "zh": "（英）寄（信）", "t": [62592], "fix": {"62592": "我奶奶今天早上寄出了那封信。"}, "ai": [["Could you post this letter for me?", "可以幫我寄這封信嗎？"]]},
+    {"p": "phr", "zh": "post office：郵局", "t": [6108561], "fix": {"6108561": "我想郵局應該還沒開。"}, "ai": [["I need to go to the post office to send a package.", "我要去郵局寄包裹。"]]}
+  ],
+  "share": [
+    {"p": "v", "zh": "分享", "t": [293818, 12931598, 2178], "fix": {"2178": "分享你的熱情，就是充分地活出它。"}},
+    {"p": "v", "zh": "共用、分擔", "t": [2464366, 24099], "fix": {"2464366": "他和他兄弟共用一個房間。", "24099": "越來越多夫妻一起分擔家事。"}},
+    {"p": "n", "zh": "股份", "ai": [["She owns shares in several tech companies.", "她持有好幾家科技公司的股份。"], ["The company's shares rose by 5% today.", "這家公司的股價今天上漲 5%。"]]}
+  ],
+  "follower": [
+    {"p": "n", "zh": "（社群媒體的）追蹤者、粉絲", "t": [7241543], "fix": {"7241543": "薩米在推特上有很多追蹤者。"}, "ai": [["The singer has over a million followers on Instagram.", "那位歌手在 IG 上有超過一百萬名追蹤者。"]]},
+    {"p": "n", "zh": "追隨者、信徒", "t": [714763], "fix": {"714763": "盧梭很瘋狂，卻有影響力；休謨很理智，卻沒有追隨者。"}, "ai": [["The religion has millions of followers.", "這個宗教有數百萬名信徒。"]]}
+  ],
+  "subscribe": [
+    {"p": "v", "zh": "訂閱", "t": [25104, 1292939, 3526283], "fix": {"25104": "你有訂閱什麼雜誌嗎？", "1292939": "你訂閱哪一份報紙？", "3526283": "從下個月開始，我不訂報紙了。"}, "ai": [["Subscribe to our channel for more videos.", "訂閱我們的頻道，看更多影片。"]]}
+  ],
+  "influencer": [
+    {"p": "n", "zh": "網紅、意見領袖", "ai": [["The brand paid an influencer to promote its new shoes.", "這個品牌付錢請網紅宣傳新鞋。"], ["Many teens want to become influencers.", "很多青少年想當網紅。"]]}
+  ],
+  "engagement": [
+    {"p": "n", "zh": "（網路）互動率、參與度", "src": "app", "ai": [["Videos usually get more engagement than photos.", "影片通常比照片獲得更多互動。"], ["We're trying to increase customer engagement.", "我們正努力提高顧客參與度。"]]},
+    {"p": "n", "zh": "訂婚；婚約", "t": [54466, 302612, 328107], "fix": {"54466": "恭喜你訂婚了。", "302612": "他宣布和她訂婚。", "328107": "「你們不是結婚了嗎？」「喔，我們分手了，婚約也取消了。」"}}
+  ],
+  "password": [
+    {"p": "n", "zh": "密碼", "t": [2214, 4772639, 13527868], "fix": {"2214": "請檢查使用者名稱和密碼是否輸入正確。", "4772639": "可以告訴我 Wi-Fi 密碼嗎？", "13527868": "密碼不正確，請再試一次。密碼有區分大小寫。"}}
+  ],
+  "log in": [
+    {"p": "phr", "zh": "登入", "t": [4728725, 13543200], "fix": {"4728725": "我每週登入 Tatoeba 一次。", "13543200": "登出後再登入需要密碼。"}}
+  ],
+  "privacy": [
+    {"p": "n", "zh": "隱私", "t": [825980, 309041, 20190], "fix": {"825980": "我們必須尊重別人的隱私。", "20190": "記者毫不猶豫地侵犯別人的隱私。"}}
+  ],
+  "virus": [
+    {"p": "n", "zh": "（電腦）病毒", "t": [10110894, 9988511], "fix": {"10110894": "那台電腦中毒了。", "9988511": "我的電腦已經中了 BraveSentry 病毒。"}},
+    {"p": "n", "zh": "（醫學）病毒", "t": [1111626, 8558454], "fix": {"1111626": "病毒開始變異了。", "8558454": "伊波拉是人類已知最致命的病毒之一。"}}
+  ],
+  "hacker": [
+    {"p": "n", "zh": "駭客", "t": [1658402, 378540, 4736926], "fix": {"1658402": "駭客很擅長繞過電腦的安全措施。", "378540": "駭客不斷找到入侵私人或公共網路的新方法。", "4736926": "很多人無法理解駭客的行為。"}}
+  ],
+  "authentication": [
+    {"p": "n", "zh": "身分驗證", "ai": [["Turn on two-factor authentication to protect your account.", "開啟雙重驗證來保護你的帳號。"], ["The app uses fingerprint authentication.", "這個 App 使用指紋驗證。"]]}
+  ],
+  "phishing": [
+    {"p": "n", "zh": "網路釣魚（詐騙）", "ai": [["Be careful of phishing emails that ask for your password.", "小心要你提供密碼的釣魚郵件。"], ["The bank warned customers about a new phishing scam.", "銀行提醒客戶注意新型的網路釣魚詐騙。"]]}
+  ],
+  "malware": [
+    {"p": "n", "zh": "惡意軟體", "ai": [["Don't download files from unknown sites; they may contain malware.", "別從來路不明的網站下載檔案，裡面可能有惡意軟體。"], ["Antivirus software can detect most malware.", "防毒軟體可以偵測到大多數惡意軟體。"]]}
+  ],
+  "cookie": [
+    {"p": "n", "zh": "餅乾", "t": [2951966, 1159948], "fix": {"2951966": "我攔不住湯姆把餅乾全吃光。", "1159948": "所有餅乾都是星星的形狀。"}},
+    {"p": "n", "zh": "（瀏覽器）Cookie 小型資料檔", "src": "app", "ai": [["This website uses cookies to remember your settings.", "這個網站使用 Cookie 記住你的設定。"], ["You can clear your cookies in the browser settings.", "你可以在瀏覽器設定中清除 Cookie。"]]}
+  ],
+  "design": [
+    {"p": "v", "zh": "設計", "t": [13863509, 930450, 10540281], "fix": {"13863509": "我們國家在 1941 年設計出第一台電子計算機。", "930450": "我朋友正在為新的作業系統設計使用者介面。", "10540281": "這幾件衣服是同一位設計師設計的。"}},
+    {"p": "n", "zh": "設計；設計圖", "t": [6250260, 414890], "fix": {"6250260": "湯姆的設計沒給我留下什麼印象。", "414890": "他在學法文和網頁設計。"}}
+  ],
+  "engineer": [
+    {"p": "n", "zh": "工程師", "t": [48755, 1681968, 49656], "fix": {"1681968": "我算不出來，我不是工程師。", "49656": "委員會由科學家和工程師組成。"}},
+    {"p": "phr", "zh": "genetic engineering：基因工程", "t": [681070], "fix": {"681070": "我們應該對人類使用基因工程嗎？"}, "ai": [["Genetic engineering can make crops resistant to disease.", "基因工程可以讓作物抵抗疾病。"]]}
+  ],
+  "blueprint": [
+    {"p": "n", "zh": "藍圖、設計圖；詳細計畫", "ai": [["The architect showed us the blueprints of the house.", "建築師給我們看了房子的設計圖。"], ["The report is a blueprint for reform.", "這份報告是改革的藍圖。"]]}
+  ],
+  "schematic": [
+    {"p": "n", "zh": "示意圖、電路圖", "ai": [["Follow the schematic to connect the wires.", "照著示意圖接線。"], ["The engineer drew a schematic of the circuit.", "工程師畫了一張電路示意圖。"]]}
+  ],
+  "structure": [
+    {"p": "n", "zh": "結構", "t": [814165, 13541592], "fix": {"814165": "經理想改善公司的組織結構。", "13541592": "紅樹林的地下根系結構很大，所以吸收的二氧化碳比地球上其他樹都多。"}},
+    {"p": "n", "zh": "建築物、構造物", "t": [55682, 8716834], "fix": {"55682": "這是我見過最龐大的建築。", "8716834": "學校最高的建築物就是那座水塔。"}}
+  ],
+  "material": [
+    {"p": "n", "zh": "材料、原料", "t": [34218, 473770], "fix": {"34218": "塑膠已經取代了許多傳統材料。", "473770": "我今天要去買一些材料。"}},
+    {"p": "n", "zh": "（寫作等的）資料、素材", "t": [317035, 10284752], "fix": {"317035": "她在為一本書蒐集資料。", "10284752": "我還沒蒐集到足夠的資料來寫書。"}},
+    {"p": "adj", "zh": "物質的", "t": [637753], "fix": {"637753": "決定我們生活的不是物質，而是精神。"}, "ai": [["He doesn't care much about material things.", "他不太在乎物質上的東西。"]]}
+  ],
+  "steel": [
+    {"p": "n", "zh": "鋼、鋼鐵", "t": [278757, 270720, 4833223], "fix": {"270720": "據估計，今年鋼鐵產量將達到一億噸。", "4833223": "鋼骨大樓旁邊開著雛菊。"}}
+  ],
+  "concrete": [
+    {"p": "n", "zh": "混凝土、水泥", "t": [10542145], "fix": {"10542145": "我們往下看，看到一片水泥叢林。"}, "ai": [["The bridge is made of steel and concrete.", "這座橋是用鋼鐵和混凝土建造的。"]]},
+    {"p": "adj", "zh": "具體的", "t": [2367541], "fix": {"2367541": "他一向只關心具體的問題。"}, "ai": [["Can you give me a concrete example?", "可以給我一個具體的例子嗎？"]]}
+  ],
+  "assemble": [
+    {"p": "v", "zh": "組裝", "t": [56798, 13151222], "fix": {"56798": "這個書架很容易組裝。", "13151222": "你寄來的家具組裝說明，我會留著。"}},
+    {"p": "v", "zh": "集合、聚集", "t": [48683, 5241607], "fix": {"48683": "老師把學生集合在禮堂。"}}
+  ],
+  "durability": [
+    {"p": "n", "zh": "耐用性、耐久度", "ai": [["This phone case is known for its durability.", "這款手機殼以耐用著稱。"], ["We tested the durability of the material.", "我們測試了這種材料的耐用度。"]]}
+  ],
+  "alloy": [
+    {"p": "n", "zh": "合金", "ai": [["Brass is an alloy of copper and zinc.", "黃銅是銅和鋅的合金。"], ["The bike frame is made of a light alloy.", "這台腳踏車的車架是用輕合金做的。"]]}
+  ],
+  "composite": [
+    {"p": "n", "zh": "複合材料；合成物", "ai": [["The plane's wings are made of carbon composites.", "這架飛機的機翼是碳纖維複合材料製成的。"], ["The image is a composite of several photos.", "這張圖是好幾張照片合成的。"]]},
+    {"p": "adj", "zh": "合成的、複合的", "ai": [["The police released a composite sketch of the suspect.", "警方公布了嫌犯的模擬畫像。"], ["Composite materials are light but strong.", "複合材料輕巧又堅固。"]]}
+  ],
+  "test": [
+    {"p": "n", "zh": "考試、測驗", "t": [27544, 244432, 11545958], "fix": {"27544": "如果他用功讀書，就會通過考試。", "244432": "芭芭拉昨天考駕照考得怎樣？", "11545958": "現在的老師超愛考試，聽說今天又要考了。"}},
+    {"p": "v", "zh": "檢測、測試", "t": [257234], "fix": {"257234": "我去醫院檢查了眼睛。"}, "ai": [["We need to test the new software before we release it.", "新軟體發布前我們需要先測試。"]]}
+  ],
+  "efficiency": [
+    {"p": "n", "zh": "效率", "t": [9408515, 2915518], "fix": {"9408515": "我們要面對的挑戰是如何提高工作效率。", "2915518": "我們優化了資料庫索引，系統效率因此提高了 50%。"}}
+  ],
+  "precision": [
+    {"p": "n", "zh": "精確、精準", "t": [2846020, 2169312, 4709701], "fix": {"2846020": "精確在數學中很重要。", "2169312": "這位製圖師以地圖精準聞名。", "4709701": "別把精確度和準確度搞混了。"}}
+  ],
+  "automation": [
+    {"p": "n", "zh": "自動化", "ai": [["Automation has replaced many factory jobs.", "自動化取代了許多工廠的工作。"], ["We use automation to send reminder emails.", "我們用自動化的方式寄送提醒郵件。"]]}
+  ],
+  "calibrate": [
+    {"p": "v", "zh": "校準", "t": [2880607], "fix": {"2880607": "這台儀器需要校準。"}, "ai": [["Calibrate the scale before you weigh the samples.", "秤樣本之前先校準磅秤。"]]}
+  ],
+  "pollution": [
+    {"p": "n", "zh": "污染", "t": [275656, 48009, 245164], "fix": {"275656": "空氣污染會威脅我們的生存。", "48009": "工廠廢棄物造成了嚴重的環境污染。", "245164": "工業化常常伴隨著污染。"}}
+  ],
+  "climate change": [
+    {"p": "phr", "zh": "氣候變遷", "ai": [["Climate change is causing more extreme weather.", "氣候變遷造成越來越多的極端天氣。"], ["Governments must act quickly on climate change.", "各國政府必須盡快因應氣候變遷。"]]}
+  ],
+  "global warming": [
+    {"p": "phr", "zh": "全球暖化", "t": [758813, 9408479, 6799299], "fix": {"758813": "隨著全球暖化加劇，海平面越來越高。", "9408479": "隨著全球暖化，南極融冰的量越來越多。", "6799299": "全球暖化讓科學家很憂心。"}}
+  ],
+  "emission": [
+    {"p": "n", "zh": "排放（物）", "t": [10540293, 736847], "fix": {"10540293": "節約能源可以減少溫室氣體排放到大氣中。", "736847": "由於一些工廠使用化石燃料，化學物質的排放已經造成嚴重的環境問題。"}}
+  ],
+  "waste": [
+    {"p": "v", "zh": "浪費", "t": [54621, 13981005, 37068], "fix": {"13981005": "你享受浪費的時間，就不算浪費。", "37068": "湯姆很後悔自己浪費了大半輩子。"}},
+    {"p": "n", "zh": "廢棄物、垃圾", "t": [48009], "fix": {"48009": "工廠廢棄物造成了嚴重的環境污染。"}, "ai": [["Food waste is a big problem in rich countries.", "食物浪費在富裕國家是個大問題。"]]},
+    {"p": "n", "zh": "浪費", "ai": [["This meeting is a waste of time.", "這場會議根本是浪費時間。"], ["It's a waste to throw away good food.", "把好好的食物丟掉很浪費。"]]}
+  ],
+  "endangered": [
+    {"p": "adj", "zh": "瀕臨絕種的", "t": [797152, 1488123, 736837], "fix": {"797152": "這是一種瀕臨絕種的物種。", "1488123": "有許多瀕危物種。", "736837": "殺害大象、老虎等瀕危物種不只殘忍，也是違法的。"}}
+  ],
+  "deforestation": [
+    {"p": "n", "zh": "森林砍伐", "t": [5360659], "fix": {"5360659": "棕櫚油生產是印尼森林砍伐的主要原因。"}, "ai": [["Deforestation destroys the homes of many animals.", "森林砍伐摧毀了許多動物的棲地。"]]}
+  ],
+  "carbon footprint": [
+    {"p": "phr", "zh": "碳足跡", "ai": [["Taking the train instead of flying reduces your carbon footprint.", "搭火車而不搭飛機可以減少碳足跡。"], ["The company wants to cut its carbon footprint in half.", "這家公司想把碳足跡減半。"]]}
+  ],
+  "biodiversity": [
+    {"p": "n", "zh": "生物多樣性", "ai": [["Rainforests have amazing biodiversity.", "雨林擁有驚人的生物多樣性。"], ["Pollution is a threat to marine biodiversity.", "污染威脅著海洋的生物多樣性。"]]}
+  ],
+  "energy": [
+    {"p": "n", "zh": "能源", "t": [323865, 12568755], "fix": {"323865": "問題是太陽能太貴了。", "12568755": "核子反應爐會產生大量的熱能。"}},
+    {"p": "n", "zh": "精力、活力", "t": [2256426, 287030, 71359], "fix": {"287030": "他把全部精力都投入了實驗。", "71359": "如果你把全部精力都放在學英文上，你就能精通這門語言。"}}
+  ],
+  "renewable": [
+    {"p": "adj", "zh": "可再生的", "t": [8610567], "fix": {"8610567": "阿爾及利亞能仰賴再生能源嗎？"}, "ai": [["Wind and solar are renewable energy sources.", "風能和太陽能是可再生能源。"]]},
+    {"p": "adj", "zh": "可續約的", "ai": [["The contract is renewable after one year.", "這份合約一年後可以續約。"], ["This is a renewable one-year visa.", "這是可以續簽的一年期簽證。"]]}
+  ],
+  "solar": [
+    {"p": "adj", "zh": "太陽能的", "t": [323865], "fix": {"323865": "問題是太陽能太貴了。"}, "ai": [["We installed solar panels on the roof.", "我們在屋頂裝了太陽能板。"]]},
+    {"p": "phr", "zh": "solar system：太陽系", "t": [499549, 3955439, 1821214], "fix": {"499549": "木星是太陽系最大的行星。", "3955439": "水星是我們太陽系中最小的行星。", "1821214": "太陽系有幾顆行星？"}}
+  ],
+  "fossil fuel": [
+    {"p": "phr", "zh": "化石燃料", "t": [797339, 736847], "fix": {"797339": "褐煤是一種化石燃料。", "736847": "由於一些工廠使用化石燃料，化學物質的排放已經造成嚴重的環境問題。"}}
+  ],
+  "geothermal": [
+    {"p": "adj", "zh": "地熱的", "ai": [["Iceland gets much of its power from geothermal energy.", "冰島大部分的電力來自地熱能。"], ["The area has many geothermal hot springs.", "這一帶有很多地熱溫泉。"]]}
+  ],
+  "recycle": [
+    {"p": "v", "zh": "回收（再利用）", "t": [2202428, 707683, 11424543], "fix": {"2202428": "幾乎所有東西都可以回收。", "707683": "回收廢紙非常重要。", "11424543": "我把電池拿去回收了。"}}
+  ],
+  "reduce": [
+    {"p": "v", "zh": "減少、降低", "t": [257503, 63538, 803266], "fix": {"63538": "唱 KTV 能紓解壓力。", "803266": "他想降低進口稅。"}},
+    {"p": "phr", "zh": "reduce ... to：使變成（較差的狀態）", "t": [275582, 27177], "fix": {"275582": "那場大火把整個小鎮燒成了灰燼。", "27177": "一連串的爆炸把實驗室炸成了廢墟。"}}
+  ],
+  "conserve": [
+    {"p": "v", "zh": "節約；保育", "ai": [["Turn off the lights to conserve energy.", "關燈節約能源。"], ["We must conserve our forests for future generations.", "我們必須為後代保育森林。"]]}
+  ],
+  "sustainable": [
+    {"p": "adj", "zh": "永續的、可持續的", "ai": [["The company uses sustainable materials in its products.", "這家公司在產品中使用永續材料。"], ["We need a more sustainable way of living.", "我們需要更永續的生活方式。"]]}
+  ],
+  "protect": [
+    {"p": "v", "zh": "保護", "t": [253612, 7333624, 1209488], "fix": {"253612": "我認為保護這些孩子是我的責任。", "7333624": "毛皮保護動物不受寒冷。", "1209488": "他盡全力保護兒子。"}}
+  ],
+  "environment": [
+    {"p": "n", "zh": "（自然）環境", "t": [21021, 840148, 1641536], "fix": {"21021": "我們應該盡力不污染環境。", "840148": "它們對環境沒有任何影響。"}},
+    {"p": "n", "zh": "（生活、工作的）環境", "t": [426015], "fix": {"426015": "他們生活的環境很好。"}, "ai": [["I work best in a quiet environment.", "我在安靜的環境中工作效率最好。"]]}
+  ],
+  "conservation": [
+    {"p": "n", "zh": "保育；節約", "t": [736740], "fix": {"736740": "放假時，有些大學生會去非洲當志工，協助當地的野生動物保育。"}, "ai": [["Energy conservation can lower your electricity bill.", "節約能源可以降低電費。"]]}
+  ],
+  "biodegradable": [
+    {"p": "adj", "zh": "可生物分解的", "ai": [["These bags are made of biodegradable plastic.", "這些袋子是用可分解塑膠做的。"], ["Choose biodegradable cleaning products.", "選擇可生物分解的清潔用品。"]]}
+  ]
+}
