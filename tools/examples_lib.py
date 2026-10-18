@@ -29,7 +29,7 @@ def word_forms(word):
             if k in 'pdi3srt':
                 heads.update(norm(f) for f in v.split(','))
     # 詞典列的變化形常不完整，一律再依規則補上（只用來比對例句，例句本身仍經人工確認）
-    if head.isalpha():
+    if head.replace('-', '').isalpha():  # 也包含 binge-watch 這類連字號的字
         heads.update({head + 's', head + 'es', head + 'ed', head + 'd', head + 'ing'})
         if head.endswith('e'):
             heads.add(head[:-1] + 'ing')
