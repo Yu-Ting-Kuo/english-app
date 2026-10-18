@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>我的英文單字本</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="單字本">
+<meta name="theme-color" content="#f3f6f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101716" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<style>
+  /* Layout: single column notebook, sticky top bar, tab bar pinned to the iPhone home indicator */
+  :root {
+    --bg: #f3f6f5; --surface: #ffffff; --ink: #17211f; --muted: #5f6e6b;
+    --line: #dde5e3; --accent: #0f5c54; --accent-soft: #e1efec; --marker: #ffe08a;
+    --good: #1d8a4e; --mid: #b7791f; --bad: #c43d3d;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101716; --surface: #18211f; --ink: #e6eeec; --muted: #93a39f;
+      --line: #2a3634; --accent: #5cc2b2; --accent-soft: #1d3330; --marker: #6b5a1c;
+      --good: #4cc27e; --mid: #e0a64a; --bad: #ff7a7a;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); }
+  body {
+    font-family: var(--sans); font-size: 16px; line-height: 1.5;
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: calc(10px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left));
+    display: flex; align-items: center; gap: 8px;
+  }
+  header h1 { margin: 0; flex: 1; font-size: 22px; font-family: var(--serif); letter-spacing: -.01em; }
+  main { max-width: 640px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); }
+  .view[hidden] { display: none; }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+  .row { display: flex; gap: 8px; align-items: center; }
+  .row > .grow { flex: 1; min-width: 0; }
+  .wrap { flex-wrap: wrap; }
+
+  /* 16px 以上 iPhone 才不會自動放大畫面 */
+  input, textarea, select {
+    width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: none; }
+  textarea { resize: vertical; min-height: 72px; }
+  input:focus, textarea:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 0; }
+  label { display: block; font-size: 13px; color: var(--muted); margin: 12px 0 4px; letter-spacing: .02em; }
+
+  button {
+    font: inherit; font-size: 15px; border: 0; border-radius: 12px; padding: 10px 14px; cursor: pointer;
+    background: var(--accent-soft); color: var(--accent); display: inline-flex; align-items: center; gap: 6px;
+    justify-content: center; min-height: 44px;
+  }
+  button:active { transform: scale(.97); }
+  button:disabled { opacity: .45; }
+  button.primary { background: var(--accent); color: var(--surface); }
+  button.ghost { background: transparent; }
+  button.danger { background: transparent; color: var(--bad); }
+  button.round { width: 44px; padding: 0; border-radius: 50%; }
+  button.rec { background: var(--bad); color: #fff; }
+  svg.i { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+
+  .headword { font-family: var(--serif); font-size: 24px; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+  .phon { color: var(--muted); font-size: 15px; }
+  .meaning { margin-top: 2px; }
+  .example { color: var(--muted); margin-top: 6px; font-family: var(--serif); font-size: 16px; }
+  mark { background: var(--marker); color: inherit; border-radius: 3px; padding: 0 2px; }
+  .note { font-size: 14px; color: var(--muted); white-space: pre-wrap; margin-top: 6px; }
+  .chip { font-size: 12px; padding: 2px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+  .chip.good { color: var(--good); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 12px; }
+
+  .word-card { cursor: pointer; }
+  .toolbar { display: flex; gap: 8px; margin-bottom: 10px; }
+  .toolbar input { flex: 1; min-width: 0; }
+  .toolbar select { width: auto; }
+
+  /* 練習 */
+  .target { font-family: var(--serif); font-size: 30px; font-weight: 700; text-align: center; line-height: 1.25; overflow-wrap: anywhere; }
+  .target.sentence { font-size: 21px; font-weight: 600; }
+  .target .ok { color: var(--good); }
+  .target .miss { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 4px; }
+  .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .controls .full { grid-column: 1 / -1; }
+  .score-box { display: flex; gap: 16px; align-items: center; }
+  .ring { --p: 0; --c: var(--accent); width: 84px; height: 84px; border-radius: 50%; flex: none;
+    background: conic-gradient(var(--c) calc(var(--p) * 1%), var(--line) 0);
+    display: grid; place-items: center; }
+  .ring span { width: 66px; height: 66px; border-radius: 50%; background: var(--surface); display: grid; place-items: center;
+    font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .seg { display: flex; background: var(--accent-soft); border-radius: 12px; padding: 3px; }
+  .seg button { flex: 1; background: transparent; min-height: 36px; padding: 6px; font-size: 14px; }
+  .seg button.on { background: var(--surface); color: var(--ink); font-weight: 600; }
+
+  /* 複習翻卡 */
+  .flash { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 6px; cursor: pointer; user-select: none; -webkit-user-select: none; }
+  .flash .headword { font-size: 36px; }
+
+  nav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: flex;
+    background: var(--surface); border-top: 1px solid var(--line);
+    padding: 0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  nav button { flex: 1; flex-direction: column; gap: 2px; background: transparent; color: var(--muted); border-radius: 0; font-size: 11px; padding: 8px 0 6px; }
+  nav button.on { color: var(--accent); font-weight: 600; }
+
+  .sheet-bg { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 20; display: flex; align-items: flex-end; }
+  .sheet-bg[hidden] { display: none; }
+  .sheet { background: var(--surface); width: 100%; max-height: 85vh; overflow: auto; border-radius: 20px 20px 0 0;
+    padding: 16px max(16px, env(safe-area-inset-right)) calc(20px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+  .sheet h2 { margin: 4px 0 8px; font-size: 18px; }
+  .toast { position: fixed; left: 50%; bottom: calc(90px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+    background: var(--ink); color: var(--bg); padding: 8px 16px; border-radius: 99px; font-size: 14px; z-index: 30;
+    opacity: 0; transition: opacity .2s; pointer-events: none; max-width: calc(100% - 32px); }
+  .toast.show { opacity: .94; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } button:active { transform: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="title">單字本</h1>
+  <button class="ghost round" id="open-settings" aria-label="設定">
+    <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+  </button>
+</header>
+
+<main>
+  <!-- 單字本 -->
+  <section class="view" id="view-list">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜尋單字、意思、例句" autocapitalize="off" autocorrect="off">
+      <select id="filter" aria-label="篩選">
+        <option value="all">全部</option>
+        <option value="learning">學習中</option>
+        <option value="known">已熟記</option>
+      </select>
+    </div>
+    <div class="muted" id="count" style="margin-bottom:10px"></div>
+    <div class="stack" id="list"></div>
+  </section>
+
+  <!-- 新增 / 編輯 -->
+  <section class="view" id="view-add" hidden>
+    <form class="card" id="form" autocomplete="off">
+      <input type="hidden" id="f-id">
+      <label for="f-word">單字或片語</label>
+      <div class="row">
+        <input class="grow" id="f-word" required autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="resilient">
+        <button type="button" id="lookup">查字典</button>
+      </div>
+      <label for="f-phonetic">音標</label>
+      <div class="row">
+        <input class="grow" id="f-phonetic" placeholder="/rɪˈzɪliənt/">
+        <button type="button" class="round" data-say-field="f-word" aria-label="念單字"><svg class="i" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg></button>
+      </div>
+      <label for="f-meaning">中文意思</label>
+      <input id="f-meaning" placeholder="有韌性的；能迅速恢復的">
+      <label for="f-example">例句</label>
+      <textarea id="f-example" autocapitalize="sentences" placeholder="Children are often more resilient than adults."></textarea>
+      <label for="f-note">筆記</label>
+      <textarea id="f-note" placeholder="同義字、片語、自己的提醒"></textarea>
+      <div class="row" style="justify-content:flex-end;margin-top:14px">
+        <button type="button" class="ghost" id="cancel-edit" hidden>取消</button>
+        <button type="submit" class="primary" id="save-btn">儲存單字</button>
+      </div>
+    </form>
+    <div id="dict" class="stack" style="margin-top:12px"></div>
+  </section>
+
+  <!-- 練習 -->
+  <section class="view" id="view-practice" hidden>
+    <div id="practice"></div>
+  </section>
+
+  <!-- 複習 -->
+  <section class="view" id="view-review" hidden>
+    <div class="seg" style="margin-bottom:12px" id="review-mode">
+      <button data-mode="en" class="on">看英文想中文</button>
+      <button data-mode="zh">看中文想英文</button>
+    </div>
+    <div id="review"></div>
+  </section>
+</main>
+
+<nav>
+  <button data-view="list" class="on">
+    <svg class="i" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6.5A2.5 2.5 0 0 0 4 21.5 2.5 2.5 0 0 0 6.5 24"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg>單字本</button>
+  <button data-view="add">
+    <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>新增</button>
+  <button data-view="practice">
+    <svg class="i" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5M8 22h8"/></svg>發音練習</button>
+  <button data-view="review">
+    <svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="15" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>複習</button>
+</nav>
+
+<!-- 設定 -->
+<div class="sheet-bg" id="settings" hidden>
+  <div class="sheet stack" role="dialog" aria-label="設定">
+    <div class="row"><h2 class="grow">設定</h2><button class="ghost" id="close-settings">完成</button></div>
+    <div>
+      <label for="s-accent">發音腔調</label>
+      <select id="s-accent">
+        <option value="en-US">美式英文</option>
+        <option value="en-GB">英式英文</option>
+      </select>
+      <label for="s-rate">發音速度</label>
+      <select id="s-rate">
+        <option value="0.7">慢</option>
+        <option value="0.9" selected>正常</option>
+        <option value="1.05">快</option>
+      </select>
+    </div>
+    <div>
+      <label>備份</label>
+      <p class="muted" style="margin:0 0 8px">單字只存在這支 iPhone 裡。清除 Safari 資料或刪掉主畫面圖示時會一起消失，記得偶爾匯出備份（可以存到「檔案」或傳到 LINE）。</p>
+      <div class="row wrap">
+        <button id="export">匯出備份</button>
+        <button id="import-btn">從備份匯入</button>
+        <input type="file" id="import-file" accept=".json,application/json" hidden>
+      </div>
+    </div>
+    <div>
+      <label>發音評分怎麼算</label>
+      <p class="muted" style="margin:0">評分用 iPhone 的語音辨識：你念完後，看它聽到的字和正確答案有多接近，換算成 0–100 分。分數高代表一般人聽得懂、念得清楚；它不會細看單一音標或語調。</p>
+    </div>
+    <p class="muted" id="storage-info" style="margin:0"></p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
