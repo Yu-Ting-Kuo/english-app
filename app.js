@@ -32,8 +32,13 @@ const db = (() => {
         if (!d.objectStoreNames.contains('history')) d.createObjectStore('history', { keyPath: 'key' });
         if (!d.objectStoreNames.contains('cache')) d.createObjectStore('cache', { keyPath: 'key' });
       };
-      r.onsuccess = () => resolve(r.result);
+      r.onsuccess = () => {
+        // 別的分頁要升級資料庫時，主動放開連線，避免對方卡住
+        r.result.onversionchange = () => { r.result.close(); location.reload(); };
+        resolve(r.result);
+      };
       r.onerror = () => reject(r.error);
+      r.onblocked = () => toast('有其他分頁開著舊版的單字本，請把那些分頁關掉', 8000);
     });
     return opening;
   }

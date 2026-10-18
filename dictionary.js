@@ -383,4 +383,5 @@ document.addEventListener('click', e => {
   if (ed) { const w = words.find(x => x.id === Number(ed.dataset.edit)); if (w) editWord(w); }
 });
 
+renderHome(); // 不等資料庫，先把主題顯示出來
 init().catch(err => toast('讀取單字失敗：' + err.message, 4000));

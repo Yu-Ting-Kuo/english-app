@@ -277,6 +277,20 @@ def main():
             page.screenshot(path=str(ROOT / 'tests' / 'screenshot-dict.png'), full_page=True)
         check('11. 手機寬度（390px）沒有左右溢出', t_layout)
 
+        def t_blocked_db():
+            # 另一個分頁開著舊版（資料庫第 1 版）時，新版首頁的主題仍要顯示，並提示關掉舊分頁
+            ctx2 = browser.new_context(viewport={'width': 390, 'height': 844}, service_workers='block')
+            old = ctx2.new_page()
+            old.goto(BASE + 'manifest.webmanifest')
+            old.evaluate("new Promise(r => { const q = indexedDB.open('english-app', 1); q.onsuccess = () => { window.keep = q.result; r(); }; })")
+            app = ctx2.new_page()
+            app.goto(BASE)
+            app.wait_for_selector('#home-topics .cat-card', timeout=10000)
+            expect(app.locator('#home-today h2')).not_to_be_empty()
+            expect(app.locator('#toast')).to_contain_text('其他分頁')
+            ctx2.close()
+        check('舊版分頁占用資料庫時，主題照樣顯示並提示關掉舊分頁', t_blocked_db)
+
         check('沒有 JavaScript 錯誤', lambda: (_ for _ in ()).throw(AssertionError('; '.join(errors))) if errors else None)
         browser.close()
     srv.shutdown()

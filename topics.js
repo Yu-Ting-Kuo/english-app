@@ -34,12 +34,8 @@ function topicError(box, retry) {
 
 // ---------- 首頁 ----------
 async function renderHome() {
-  const recent = await recentHistory(10).catch(() => []);
-  $('#home-recent').innerHTML = recent.length
-    ? `<div class="row wrap">${recent.map(h => `<button class="chip-btn" data-word="${esc(h.word)}">${esc(h.word)}</button>`).join('')}</div>`
-    : '<p class="muted" style="margin:0">查過的字會出現在這裡。</p>';
-  $('#home-saved').textContent = words.length ? `我的收藏 ${words.length} 個字` : '我的收藏';
-
+  // 主題和最近查詢分開載入：手機資料庫暫時打不開時，主題照樣能顯示
+  renderHomeRecent();
   let data;
   try {
     data = await loadTopics();
@@ -67,6 +63,14 @@ async function renderHome() {
       <span class="cat-en">${esc(c.en)}</span>
       <span class="cat-meta">${c.topics.length} 個主題 · ${c.count} 個字</span>
     </button>`).join('');
+}
+
+async function renderHomeRecent() {
+  const recent = await recentHistory(10).catch(() => []);
+  $('#home-recent').innerHTML = recent.length
+    ? `<div class="row wrap">${recent.map(h => `<button class="chip-btn" data-word="${esc(h.word)}">${esc(h.word)}</button>`).join('')}</div>`
+    : '<p class="muted" style="margin:0">查過的字會出現在這裡。</p>';
+  $('#home-saved').textContent = words.length ? `我的收藏 ${words.length} 個字` : '我的收藏';
 }
 
 // ---------- 大分類：子主題列表 ----------
