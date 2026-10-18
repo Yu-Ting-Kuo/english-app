@@ -347,6 +347,11 @@ def main():
             sw_page.reload()
             sw_page.wait_for_selector('#home-topics .cat-card', timeout=10000)
             assert sw_page.evaluate('!!navigator.serviceWorker.controller'), 'service worker 沒有接管頁面'
+            # 沒有網路時也要能打開（用快取）
+            ctx3.set_offline(True)
+            sw_page.reload()
+            sw_page.wait_for_selector('#home-topics .cat-card', timeout=10000)
+            ctx3.set_offline(False)
             assert not sw_errors, sw_errors
             ctx3.close()
         check('離線快取（Service Worker）可以安裝並接管頁面', t_service_worker)

@@ -1,6 +1,6 @@
-﻿// 離線快取：App 本身的檔案先從快取拿（開很快、沒網路也能用），同時在背景抓新版。
-// 改版時把 VERSION 加一，手機下次打開就會換成新版。
-const VERSION = 'v8';
+﻿// 離線快取：App 本身的檔案有網路時一律抓最新版，沒網路時用快取，所以離線也能開。
+// VERSION 加一會清掉舊快取。
+const VERSION = 'v9';
 const CACHE = 'english-app-' + VERSION;
 // 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題、例句時把 DICT_VERSION 加一
 const DICT_VERSION = 'd3';
@@ -60,14 +60,16 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // 自己的檔案：先給快取，背景更新
+  // 自己的檔案（畫面與程式）：有網路就抓最新版並更新快取，沒網路才用快取
   e.respondWith(
     caches.open(CACHE).then(async c => {
-      const hit = await c.match(req, { ignoreSearch: true });
-      const net = fetch(req)
-        .then(res => { if (res.ok) c.put(req, res.clone()); return res; })
-        .catch(() => hit);
-      return hit || net;
+      try {
+        const res = await fetch(req, { cache: 'no-cache' });
+        if (res.ok) c.put(req, res.clone());
+        return res;
+      } catch {
+        return (await c.match(req, { ignoreSearch: true })) || Response.error();
+      }
     })
   );
 });
