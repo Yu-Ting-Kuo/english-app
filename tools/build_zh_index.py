@@ -14,10 +14,15 @@ ROOT = Path(__file__).resolve().parents[1]
 DICT_DIR = ROOT / "dict" / "w"
 OUT = ROOT / "dict" / "zh-index.json"
 HAN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
-ZH_ALIASES = {
-    # Common everyday wording missing from the source dictionary glosses.
-    "razor": "刮鬍刀",
-    "shaver": "電動刮鬍刀",
+# Taiwan-localized display meanings for common terms where the source gloss is
+# awkward or uses wording uncommon in Taiwan.
+ZH_LOCALIZED_MEANINGS = {
+    "razor": ["刮鬍刀"],
+    "shaver": ["電動刮鬍刀"],
+}
+# Useful Taiwan terms absent from the source dictionary.
+ZH_EXTRA_ENTRIES = {
+    "power bank": ("行動電源", "noun"),
 }
 
 
@@ -38,12 +43,16 @@ def main() -> None:
                     label = str(sense.get("l") or "").strip()
                     if label and label not in labels:
                         labels.append(label)
-            alias = ZH_ALIASES.get(key)
-            if alias and alias not in meanings:
-                meanings.append(alias)
+            if key in ZH_LOCALIZED_MEANINGS:
+                meanings = ZH_LOCALIZED_MEANINGS[key].copy()
             if meanings:
                 rank = int(entry.get("f") or 0)
                 entries.append((rank or 10**9, key, "；".join(meanings), "／".join(labels), ""))
+
+    existing = {key for _, key, _, _, _ in entries}
+    for key, (meaning, pos) in ZH_EXTRA_ENTRIES.items():
+        if key not in existing:
+            entries.append((10**9, key, meaning, pos, ""))
 
     entries.sort(key=lambda row: (row[0], row[1]))
     postings: dict[str, set[int]] = defaultdict(set)
