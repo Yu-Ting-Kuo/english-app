@@ -370,8 +370,14 @@ async function loadEntryTopics(key) {
 
 async function loadWordRelations(key, type, relations) {
   const box = $('#' + type);
-  if (!box || !relations?.length) return;
+  if (!box) return;
   const title = type === 'synonyms' ? '同義詞' : '反義詞';
+  if (!relations?.length) {
+    if (currentEntry?.key !== key) return;
+    box.hidden = false;
+    box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3><div class="muted">目前沒有查到可靠的${title}資料。</div>`;
+    return;
+  }
   const legacy = relations.map(r => typeof r === 'string' ? { word: r, pos: '' } : r);
   const rows = await Promise.all(legacy.slice(0, 12).map(async r => {
     const e = await Dict.getEntry(Dict.norm(r.word)).catch(() => null);
@@ -437,6 +443,13 @@ async function loadOnline(key, entry) {
   } catch {
     if (currentEntry?.key !== key) return;
     body.innerHTML = '';
+    for (const type of ['synonyms', 'antonyms']) {
+      const box = $('#' + type);
+      if (box) {
+        box.hidden = false;
+        box.innerHTML = `<h3>${type === 'synonyms' ? '同義詞' : '反義詞'} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3><div class="muted">需要網路連線才能載入。</div>`;
+      }
+    }
     return;
   }
   if (currentEntry?.key !== key) return;
