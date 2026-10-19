@@ -35,7 +35,7 @@ async function onlineInfo(key) {
 $('#home-search').addEventListener('submit', e => {
   e.preventDefault();
   const q = $('#home-q').value.trim();
-  if (q) { $('#home-q').value = ''; openWord(q); }
+  if (q) { $('#home-q').value = ''; searchDictionary(q); }
 });
 document.addEventListener('click', e => {
   const go = e.target.closest('[data-go]');
@@ -60,9 +60,12 @@ $('#dict-q').addEventListener('input', () => {
     const box = $('#dict-suggest');
     if (!q.trim()) { box.hidden = true; return; }
     try {
-      const list = await Dict.suggest(q);
+      const chinese = Dict.isChinese(q);
+      const list = chinese ? await Dict.searchChinese(q, 8) : await Dict.suggest(q);
       if (token !== suggestToken) return;
-      box.innerHTML = list.map(k => `<button type="button" data-word="${esc(k)}">${esc(k)}</button>`).join('');
+      box.innerHTML = chinese
+        ? list.map(r => `<button type="button" data-word="${esc(r.word)}"><b>${esc(r.word)}</b><span class="zh-suggest-meaning">${esc(r.meaning)}</span></button>`).join('')
+        : list.map(k => `<button type="button" data-word="${esc(k)}">${esc(k)}</button>`).join('');
       box.hidden = !list.length;
     } catch { box.hidden = true; }
   }, 120);
@@ -75,13 +78,47 @@ $('#dict-form').addEventListener('submit', e => {
   e.preventDefault();
   closeSuggest();
   const q = $('#dict-q').value.trim();
-  if (q) openWord(q);
+  if (q) searchDictionary(q);
 });
 
 // ---------- 辭典：查詢與顯示 ----------
 let currentEntry = null;
 let lookupSeq = 0;
 let entryCtx = {};
+
+function searchDictionary(query) {
+  return Dict.isChinese(query) ? openChineseSearch(query) : openWord(query);
+}
+
+async function openChineseSearch(query) {
+  entryCtx = {};
+  $('#dict-q').value = query;
+  closeSuggest();
+  $('#dict-q').blur();
+  if (currentView !== 'dict') show('dict');
+  const seq = ++lookupSeq;
+  const body = $('#dict-body');
+  const hanCount = (query.match(/[\u3400-\u9fff\uf900-\ufaff]/g) || []).length;
+  if (hanCount < 2) {
+    body.innerHTML = '<div class="card empty">請輸入至少兩個中文字，例如「蟑螂」或「噴霧器」。</div>';
+    return;
+  }
+  body.innerHTML = '<div class="card empty">中文反查索引載入中…首次搜尋需要下載索引，載入後可離線使用。</div>';
+  let results;
+  try {
+    results = await Dict.searchChinese(query, 20);
+  } catch (err) {
+    if (seq !== lookupSeq) return;
+    body.innerHTML = `<div class="card empty">${err.code === 'network'
+      ? '中文反查索引尚未下載。請先連上網路搜尋一次，之後即可離線使用。'
+      : '中文反查暫時無法使用：' + esc(err.message)}</div>`;
+    return;
+  }
+  if (seq !== lookupSeq) return;
+  body.innerHTML = results.length
+    ? `<div class="card stack"><div><b>中文查英文</b><span class="muted">　「${esc(query)}」找到 ${results.length} 個候選</span></div><div class="zh-results">${results.map(r => `<button type="button" class="zh-result" data-word="${esc(r.word)}"><span class="zh-result-head"><b>${esc(r.word)}</b>${r.pos ? `<span class="pos">${esc(r.pos)}</span>` : ''}</span><span class="zh-result-meaning">${esc(r.meaning)}</span></button>`).join('')}</div><p class="source" style="margin:0">依 ECDICT 中文釋義比對並按詞頻排序；點選英文單字查看完整詞條。</p></div>`
+    : `<div class="card empty">辭典中沒有找到「${esc(query)}」的直接釋義。試試較短的詞，例如只輸入「噴霧」。</div>`;
+}
 
 function backToTopic() {
   if (!entryCtx.topic) return '';

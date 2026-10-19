@@ -7,6 +7,8 @@ const Dict = (() => {
   const shards = new Map();
   const indexes = new Map();
   let resemble = null;
+  let zhIndex = null;
+  let zhIndexLoading = null;
 
   const norm = q => String(q ?? '').normalize('NFKC').replace(/[’‘`´]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
   const shardOf = k => {
@@ -88,6 +90,49 @@ const Dict = (() => {
       if (k.startsWith(p)) { out.push(k); if (out.length >= n) break; }
     }
     return out;
+  }
+
+  const isChinese = value => /[\u3400-\u9fff\uf900-\ufaff]/.test(String(value ?? ''));
+  function normalizeChinese(value) {
+    return String(value ?? '').normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu, '')
+      .replace(/(?:的)?(?:英文怎麼說|翻成英文|英文|英語|翻譯|是什麼|怎麼說)$/u, '')
+      .replace(/[^\u3400-\u9fff\uf900-\ufaff]/g, '');
+  }
+
+  async function loadChineseIndex() {
+    if (!zhIndexLoading) {
+      zhIndexLoading = fetchJSON('dict/zh-index.json').then(data => {
+        if (!data?.words || !data?.grams) throw Object.assign(new Error('中文反查索引格式錯誤'), { code: 'index' });
+        zhIndex = data;
+        return data;
+      }).catch(err => { zhIndexLoading = null; throw err; });
+    }
+    return zhIndexLoading;
+  }
+
+  async function searchChinese(query, n = 12) {
+    const q = normalizeChinese(query);
+    if ([...q].length < 2) return [];
+    const index = await loadChineseIndex();
+    const grams = [...new Set(Array.from({ length: q.length - 1 }, (_, i) => q.slice(i, i + 2)))];
+    const lists = grams.map(g => index.grams[g]);
+    if (lists.some(list => !list?.length)) return [];
+    lists.sort((a, b) => a.length - b.length);
+    let ids = lists[0];
+    for (const list of lists.slice(1)) {
+      const present = new Set(list);
+      ids = ids.filter(id => present.has(id));
+      if (!ids.length) return [];
+    }
+    const rows = ids.map(id => {
+      const [word, meaning, rank, pos, simplified] = index.words[id];
+      const trad = (meaning.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('');
+      const simple = simplified ? (simplified.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('') : trad;
+      const exact = trad.includes(q) || simple.includes(q);
+      return { word, meaning, pos, rank, exact };
+    });
+    rows.sort((a, b) => Number(b.exact) - Number(a.exact) || (a.rank || Infinity) - (b.rank || Infinity) || a.word.localeCompare(b.word));
+    return rows.slice(0, n);
   }
 
   function lev(a, b, max) {
@@ -194,5 +239,5 @@ const Dict = (() => {
     return [...new Set(labels.map(l => verbs.includes(l) ? verb : l))];
   }
 
-  return { norm, lookup, suggest, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev, posLabels };
+  return { norm, lookup, suggest, searchChinese, isChinese, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev, posLabels };
 })();

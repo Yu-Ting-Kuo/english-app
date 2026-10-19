@@ -242,6 +242,11 @@
   .suggest button { display: flex; width: 100%; justify-content: flex-start; border-radius: 0; background: transparent;
     color: var(--ink); font-family: var(--serif); font-size: 17px; border-bottom: 1px solid var(--line); }
   .suggest button:last-child { border-bottom: 0; }
+  .suggest .zh-suggest-meaning { min-width: 0; margin-left: 10px; overflow: hidden; color: var(--muted); font-family: var(--sans); font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+  .zh-results { display: grid; gap: 8px; }
+  .zh-result { display: grid; gap: 5px; padding: 12px; text-align: left; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); }
+  .zh-result-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-family: var(--serif); font-size: 18px; }
+  .zh-result-meaning { color: var(--muted); font-size: 14px; line-height: 1.5; }
   .entry .headword { font-size: 32px; }
   .star { background: transparent; border: 1px solid var(--line); color: var(--muted); border-radius: 99px; padding: 6px 14px; }
   .star.on { color: var(--mid); border-color: var(--mid); background: var(--accent-soft); }
@@ -338,7 +343,7 @@
   <!-- 首頁：搜尋 + 主題探索 -->
   <section class="view stack" id="view-home">
     <form id="home-search" class="row" role="search">
-      <input class="grow" id="home-q" type="search" enterkeyhint="search" placeholder="查單字或片語，例如 give up" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查英文單字或片語">
+      <input class="grow" id="home-q" type="search" enterkeyhint="search" placeholder="查英文單字、片語或中文意思，例如 give up／蟑螂" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查英文或中文釋義">
       <button type="submit" class="primary">查詢</button>
     </form>
     <section class="card" id="home-today"><div class="muted">載入今日主題…</div></section>
@@ -369,7 +374,7 @@
   <section class="view stack" id="view-dict" hidden>
     <form id="dict-form" class="search-box" role="search" autocomplete="off">
       <div class="row">
-        <input class="grow" id="dict-q" type="search" enterkeyhint="search" placeholder="輸入單字、片語或變化形，例如 went" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查詢單字">
+        <input class="grow" id="dict-q" type="search" enterkeyhint="search" placeholder="輸入英文或中文意思，例如 went／蟑螂" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="查詢英文或中文意思">
         <button type="submit" class="primary">查詢</button>
       </div>
       <div class="suggest" id="dict-suggest" hidden></div>
