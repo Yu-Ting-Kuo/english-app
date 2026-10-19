@@ -60,14 +60,14 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '多益核心字彙'], cats
+            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '多益核心字彙'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
             # 首頁不能有 A–Z 字母索引
             text = page.locator('#view-home').inner_text()
             assert 'A-Z' not in text and 'A–Z' not in text, 'home shows A-Z'
-        check('首頁：16 個商務與實用主題、保留多益核心字彙，沒有 A–Z', t_home)
+        check('首頁：商務、生活、學術主題分類，保留多益核心字彙，沒有 A–Z', t_home)
 
         def topic_pages():
             n = page.locator('#topic-body .pager').first.locator('button').count()
@@ -112,8 +112,8 @@ def main():
             expect(page.locator('#topic-sort .on')).to_have_text('依常用程度')
             page.locator('#topic-sort [data-sort=level]').click()
             heads = topic_all('#topic-body section h3')
-            levels = list(dict.fromkeys(next((x for x in ['TOEIC 600', 'TOEIC 750', 'TOEIC 900'] if h.startswith(x)), '') for h in heads))
-            assert levels == ['TOEIC 600', 'TOEIC 750', 'TOEIC 900'], heads
+            levels = list(dict.fromkeys(h.split()[0] for h in heads))
+            assert levels == ['初階', '中階', '進階'], heads
             page.locator('#topic-sort [data-sort=context]').click()
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
 
@@ -210,7 +210,9 @@ def main():
             page.locator('.word-row', has_text='market penetration').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('#dict-body')).to_contain_text('沒有收錄這個片語')
-            expect(page.locator('#dict-body')).to_contain_text('App 編輯整理')
+            # 片語也有逐義例句
+            page.wait_for_selector('#senses-box .sense-item')
+            expect(page.locator('#senses-box .ex-en mark').first).to_contain_text('penetration')
             page.click('#star')
             expect(page.locator('#star')).to_have_attribute('aria-pressed', 'true')
             page.click('#star')
@@ -231,13 +233,13 @@ def main():
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='職場與辦公').click()
             page.locator('.topic-card', has_text='辦公室').click()
-            for lv in ['TOEIC 600', 'TOEIC 750', 'TOEIC 900']:
+            for lv in ['初階', '中階', '進階']:
                 chip = page.locator('#topic-body .lvl', has_text=lv).first.inner_text()
-                assert int(chip.split()[-1]) >= 3, chip
+                assert int(chip.split('・')[-1]) >= 3, chip
             words = topic_all('#topic-body .wr-word')
             for w in ['photocopier', 'receptionist', 'malfunction']:
                 assert w in words, (w, words)
-        check('商務主題包含 TOEIC 600、750、900 程度詞彙', t_levels)
+        check('商務主題包含初階、中階、進階詞彙（各至少 3 個）', t_levels)
 
         def t_senses():
             search('board')
