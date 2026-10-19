@@ -45,9 +45,18 @@ const Dict = (() => {
   }
   const loadIndex = l => cached(indexes, l, `dict/i/${l}.json`, []);
 
+  const zhTwMeanings = {
+    razor: [{ p: 'n', l: 'noun', m: '刮鬍刀' }, { p: 'v', l: 'vt.', m: '剃' }],
+    shaver: [{ p: 'n', l: 'noun', m: '電動刮鬍刀' }],
+    'power bank': [{ p: 'n', l: 'noun', m: '行動電源' }],
+  };
+
   async function getEntry(key) {
     if (!key) return null;
-    return (await loadShard(shardOf(key))).e[key] || null;
+    const entry = (await loadShard(shardOf(key))).e[key] || null;
+    const meanings = zhTwMeanings[key];
+    if (meanings) return { ...(entry || { w: key }), m: meanings };
+    return entry;
   }
 
   const FORM_LABELS = { p: '過去式', d: '過去分詞', i: '現在分詞', 3: '第三人稱單數', s: '複數', r: '比較級', t: '最高級' };
@@ -129,10 +138,12 @@ const Dict = (() => {
       const trad = (meaning.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('');
       const simple = simplified ? (simplified.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('') : trad;
       const exact = trad.includes(q) || simple.includes(q);
+      const precise = [meaning, simplified].some(text =>
+        (text.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).includes(q));
       const posKinds = pos ? pos.split(/[／/,、]+/).filter(Boolean).length : 0;
-      return { word, meaning, pos, rank, exact, posKinds };
+      return { word, meaning, pos, rank, exact, precise, posKinds };
     });
-    rows.sort((a, b) => Number(b.exact) - Number(a.exact) || a.posKinds - b.posKinds || (a.rank || Infinity) - (b.rank || Infinity) || a.word.localeCompare(b.word));
+    rows.sort((a, b) => Number(b.precise) - Number(a.precise) || Number(b.exact) - Number(a.exact) || a.posKinds - b.posKinds || (a.rank || Infinity) - (b.rank || Infinity) || a.word.localeCompare(b.word));
     return rows.slice(0, n);
   }
 
