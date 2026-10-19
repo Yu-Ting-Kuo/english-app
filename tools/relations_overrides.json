@@ -1,4 +1,38 @@
 {
+  "fast": [
+    {
+      "p": "adjective",
+      "g": "moving or happening at high speed or in a short amount of time",
+      "s": ["quick", "prompt", "speedy", "swift", "hasty", "hurried", "brisk", "rapid", "expeditious", "high-speed"],
+      "a": ["slow"]
+    }
+  ],
+  "water": [
+    {
+      "p": "noun",
+      "g": "a clear liquid that falls as rain and is used for drinking",
+      "s": ["drinking water"],
+      "a": []
+    },
+    {
+      "p": "noun",
+      "g": "an area of water, such as a sea, lake, or river",
+      "s": ["body of water"],
+      "a": ["land", "dry land", "terra firma"]
+    },
+    {
+      "p": "verb",
+      "g": "to pour water on plants or soil",
+      "s": ["irrigate", "supply water to"],
+      "a": ["dry", "dry up", "parch", "dehydrate", "desiccate"]
+    },
+    {
+      "p": "verb",
+      "g": "to fill with tears",
+      "s": ["tear", "fill with tears"],
+      "a": []
+    }
+  ],
   "delightful": [
     {
       "p": "adjective",
