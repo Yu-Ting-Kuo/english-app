@@ -1,0 +1,1721 @@
+{
+  "category": "業務拓展 (business)",
+  "count": 171,
+  "levelCounts": {
+    "初階": 105,
+    "中階": 49,
+    "進階": 17
+  },
+  "items": [
+    {
+      "id": "business_001",
+      "word": "accrue",
+      "partOfSpeech": "vi.",
+      "meaning": "自然增加, 產生",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8867,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_002",
+      "word": "acquire",
+      "partOfSpeech": "vt.",
+      "meaning": "獲得, 學到",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1407,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_003",
+      "word": "amplify",
+      "partOfSpeech": "vt.",
+      "meaning": "增強, 放大, 擴大, 詳述",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 9595,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_004",
+      "word": "asset",
+      "partOfSpeech": "noun[C]",
+      "meaning": "資產",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1498,
+      "section": "財務表現"
+    },
+    {
+      "id": "business_005",
+      "word": "affiliate",
+      "partOfSpeech": "noun[C]",
+      "meaning": "關係企業",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6929,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_006",
+      "word": "assess",
+      "partOfSpeech": "vt.",
+      "meaning": "估定, 對...徵稅, 評定",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1488,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_007",
+      "word": "benchmark",
+      "partOfSpeech": "noun[C]",
+      "meaning": "基準、標竿",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8070,
+      "section": "市場開發"
+    },
+    {
+      "id": "business_008",
+      "word": "buyout",
+      "partOfSpeech": "noun[C]",
+      "meaning": "（控制權）收購",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 9883,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_009",
+      "word": "corporation",
+      "partOfSpeech": "noun[C]",
+      "meaning": "公司, 合作, 法人團體",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2025,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_010",
+      "word": "cutback",
+      "partOfSpeech": "noun",
+      "meaning": "情節倒敘, 減少, 短截植物",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 10418,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_011",
+      "word": "commitment",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "委託, 交押, 承擔義務, 贊助",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1355,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_012",
+      "word": "enterprise",
+      "partOfSpeech": "noun[U]",
+      "meaning": "企業, 事業心, 進取心, 幹事業",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1566,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_013",
+      "word": "equity",
+      "partOfSpeech": "noun[U]",
+      "meaning": "股權",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3355,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_014",
+      "word": "embezzle",
+      "partOfSpeech": "vt.",
+      "meaning": "盜用, 挪用",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 22735,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_015",
+      "word": "entrepreneur",
+      "partOfSpeech": "noun[C]",
+      "meaning": "創業家",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4279,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_016",
+      "word": "expand",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "使膨脹, 詳述, 擴張；展開",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1572,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_017",
+      "word": "escalate",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "逐步擴大, 逐步升高, 逐步增強",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 7542,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_018",
+      "word": "financier",
+      "partOfSpeech": "noun",
+      "meaning": "財政家, 金融家",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 11767,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_019",
+      "word": "franchise",
+      "partOfSpeech": "noun[C]",
+      "meaning": "加盟（經營權）",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4357,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_020",
+      "word": "integrate",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "綜合, 使完整, 使成整體",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3349,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_021",
+      "word": "initiative",
+      "partOfSpeech": "noun[U]",
+      "meaning": "主動行動, 首創精神, 主動權",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1688,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_022",
+      "word": "launch",
+      "partOfSpeech": "vt.",
+      "meaning": "下水, 汽艇, 發射",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1427,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_023",
+      "word": "merge",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "使合併, 使消失, 吞沒",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4687,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_024",
+      "word": "monopoly",
+      "partOfSpeech": "noun[C]",
+      "meaning": "壟斷、獨占",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3446,
+      "section": "市場開發"
+    },
+    {
+      "id": "business_025",
+      "word": "phase",
+      "partOfSpeech": "noun[C]",
+      "meaning": "時期, 局面, 方面, 位相, 相, 階段",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1682,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_026",
+      "word": "profile",
+      "partOfSpeech": "noun[C]",
+      "meaning": "側面, 輪廓, 傳略",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2676,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_027",
+      "word": "procedure",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "程式, 過程, 手續",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 897,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_028",
+      "word": "propose",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "計劃, 打算, 建議, 提議, 求(婚)",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1309,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_029",
+      "word": "proposition",
+      "partOfSpeech": "noun[C]",
+      "meaning": "建議, 命題, 主張",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3544,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_030",
+      "word": "prospect",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "景色, 展望",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1724,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_031",
+      "word": "prospectus",
+      "partOfSpeech": "noun[C]",
+      "meaning": "創辦計劃書, (內容)說明書, 內容簡介",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 12668,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_032",
+      "word": "pending",
+      "partOfSpeech": "adj.",
+      "meaning": "未決定的, 待決的, 行將發生的, 向外伸出的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6809,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_033",
+      "word": "preliminary",
+      "partOfSpeech": "adj.",
+      "meaning": "初步做法, 初步措施, 預試, 預選賽",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3851,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_034",
+      "word": "prosperity",
+      "partOfSpeech": "noun[U]",
+      "meaning": "繁榮, 茂盛, 成功",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5082,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_035",
+      "word": "rival",
+      "partOfSpeech": "noun[C]",
+      "meaning": "競爭對手",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3058,
+      "section": "市場開發"
+    },
+    {
+      "id": "business_036",
+      "word": "scheme",
+      "partOfSpeech": "noun[C]",
+      "meaning": "方案, 計劃, 組合, 系統, 圖解, 詭計, 陰謀",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 587,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_037",
+      "word": "subsidiary",
+      "partOfSpeech": "noun[C]",
+      "meaning": "子公司",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3904,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_038",
+      "word": "supervision",
+      "partOfSpeech": "noun[U]",
+      "meaning": "監督, 管理",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3976,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_039",
+      "word": "thrive",
+      "partOfSpeech": "vi.",
+      "meaning": "繁榮, 興旺, 茁壯成長",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4628,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_040",
+      "word": "undervalue",
+      "partOfSpeech": "vt.",
+      "meaning": "低估...之價值, 低估, 看輕",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 14849,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_041",
+      "word": "workload",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工作量",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8935,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_042",
+      "word": "cosmopolitan",
+      "partOfSpeech": "adj.",
+      "meaning": "世界主義的, 世界性的, 全世界的, 遍生的, 不偏狹的, 卓有見識的",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 12655,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_043",
+      "word": "prosperous",
+      "partOfSpeech": "adj.",
+      "meaning": "成功的, 繁盛的, 幸運的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6904,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_044",
+      "word": "preponderance",
+      "partOfSpeech": "noun",
+      "meaning": "優勢, 多數",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 15714,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_045",
+      "word": "briefcase",
+      "partOfSpeech": "noun[C]",
+      "meaning": "公事包",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 7660,
+      "section": "清單補充：企業拓展與策略"
+    },
+    {
+      "id": "business_046",
+      "word": "related",
+      "partOfSpeech": "adj.",
+      "meaning": "講述的, 敘述的；有關係的, 有關聯的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2726,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_047",
+      "word": "security",
+      "partOfSpeech": "noun[U]",
+      "meaning": "安全, 安全性, 防護物, 保安, 可靠性, 擔保人, 抵押品, 保證金",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 632,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_048",
+      "word": "following",
+      "partOfSpeech": "noun",
+      "meaning": "下列各項, 部下, 追隨者",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 748,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_049",
+      "word": "current",
+      "partOfSpeech": "noun[C]",
+      "meaning": "湧流, 趨勢, 流",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 652,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_050",
+      "word": "source",
+      "partOfSpeech": "noun[C]",
+      "meaning": "來源, 水源, 根源, 原始資料, 源",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 597,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_051",
+      "word": "print",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "列印, 版, 印刷物, 痕跡, 印刷業, 印刷字型, 圖片, 印花布, 印章",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2207,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_052",
+      "word": "course",
+      "partOfSpeech": "noun[C]",
+      "meaning": "課程, 路線, 過程, 一道菜, 道路",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 347,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_053",
+      "word": "category",
+      "partOfSpeech": "noun[C]",
+      "meaning": "種類, 類項",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1419,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_054",
+      "word": "note",
+      "partOfSpeech": "noun[C]",
+      "meaning": "筆記, 記錄, 註解, 票據, 符號, 顯要, 注重, 便箋, 照會",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 703,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_055",
+      "word": "repeal",
+      "partOfSpeech": "noun",
+      "meaning": "廢止, 撤消",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 9535,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_056",
+      "word": "feedback",
+      "partOfSpeech": "noun[U]",
+      "meaning": "反饋, 反應",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3888,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_057",
+      "word": "complete",
+      "partOfSpeech": "adj.",
+      "meaning": "完全的, 十足的, 完成的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 998,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_058",
+      "word": "topic",
+      "partOfSpeech": "noun[C]",
+      "meaning": "主題, 論題, 話題",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1860,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_059",
+      "word": "comment",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "註解, 批評, 評論, 備註",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1279,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_060",
+      "word": "financial",
+      "partOfSpeech": "adj.",
+      "meaning": "財政的, 金融的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 602,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_061",
+      "word": "standard",
+      "partOfSpeech": "noun[C]",
+      "meaning": "標準, 規格, 旗, 軍旗, 本位",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 653,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_062",
+      "word": "mobile",
+      "partOfSpeech": "adj.",
+      "meaning": "移動的, 易變的, 機動的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4468,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_063",
+      "word": "story",
+      "partOfSpeech": "noun[C]",
+      "meaning": "故事, 小說, 傳奇, 描述, 閱歷, 經歷, 層",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 233,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_064",
+      "word": "global",
+      "partOfSpeech": "adj.",
+      "meaning": "通用的, 全球的, 球形的, 綜合的, 普遍的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1110,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_065",
+      "word": "economic",
+      "partOfSpeech": "adj.",
+      "meaning": "經濟上的, 實用的, 節省的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 402,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_066",
+      "word": "amount",
+      "partOfSpeech": "noun[C]",
+      "meaning": "總數, 總額",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 584,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_067",
+      "word": "though",
+      "partOfSpeech": "adv.",
+      "meaning": "然而, 可是",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 245,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_068",
+      "word": "various",
+      "partOfSpeech": "adj.",
+      "meaning": "不同的, 各種的, 多方面的, 許多的, 個別的, 雜色的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 643,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_069",
+      "word": "treatment",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "治療, 待遇, 處理",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 745,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_070",
+      "word": "newsletter",
+      "partOfSpeech": "noun[C]",
+      "meaning": "時事通訊, 業務通訊, 時事傳報",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6145,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_071",
+      "word": "currently",
+      "partOfSpeech": "adv.",
+      "meaning": "現在, 當前, 一般, 普通",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1361,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_072",
+      "word": "construction",
+      "partOfSpeech": "noun[U]",
+      "meaning": "建築, 構造, 建築物",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1415,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_073",
+      "word": "domain",
+      "partOfSpeech": "noun[C]",
+      "meaning": "領域, 領土, 產業, 範圍",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3345,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_074",
+      "word": "brand",
+      "partOfSpeech": "noun[C]",
+      "meaning": "商標, 牌子, 烙印",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2570,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_075",
+      "word": "increase",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "增加, 增進, 利益",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 523,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_076",
+      "word": "advertise",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "做廣告, 通知, 公佈",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4085,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_077",
+      "word": "stuff",
+      "partOfSpeech": "noun[U]",
+      "meaning": "原料, 要素, 東西, 材料, 素質, 織品, 廢物, 廢話",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 996,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_078",
+      "word": "entry",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "登入, 條目, 進入, 入口, 報關",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1373,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_079",
+      "word": "availability",
+      "partOfSpeech": "noun[U]",
+      "meaning": "有效性, 可利用性, 可利用的人",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3746,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_080",
+      "word": "summary",
+      "partOfSpeech": "noun[C]",
+      "meaning": "摘要, 概要",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2708,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_081",
+      "word": "agency",
+      "partOfSpeech": "noun[C]",
+      "meaning": "代理機構, 經銷商, 中介",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 694,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_082",
+      "word": "employment",
+      "partOfSpeech": "noun[U]",
+      "meaning": "僱用, 職業, 工作",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 933,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_083",
+      "word": "overall",
+      "partOfSpeech": "adj.",
+      "meaning": "全部的, 全體的, 從頭至尾的, 一切在內的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1565,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_084",
+      "word": "bay",
+      "partOfSpeech": "noun",
+      "meaning": "海灣, 狗吠聲, 月桂",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2330,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_085",
+      "word": "package",
+      "partOfSpeech": "noun[C]",
+      "meaning": "包裹, 套裝軟體, 包, 包裝用物, 程式包",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1336,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_086",
+      "word": "port",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "港口, 埠, 艙門, 避風港, 左舷, 炮眼, 姿勢, 意義",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2165,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_087",
+      "word": "album",
+      "partOfSpeech": "noun[C]",
+      "meaning": "貼上簿, 唱片套",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2215,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_088",
+      "word": "military",
+      "partOfSpeech": "adj.",
+      "meaning": "軍隊",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 474,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_089",
+      "word": "division",
+      "partOfSpeech": "noun[C]",
+      "meaning": "分, 分開, 除法, 部門(如部、處、系等), 師",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 891,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_090",
+      "word": "agent",
+      "partOfSpeech": "noun[C]",
+      "meaning": "代理商, 政府代表, 動原, 媒介",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1020,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_091",
+      "word": "senior",
+      "partOfSpeech": "noun[C]",
+      "meaning": "年長者, 資深者, 畢業班學生",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1090,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_092",
+      "word": "grand",
+      "partOfSpeech": "adj.",
+      "meaning": "莊重的, 壯觀的, 顯赫的, 重大的, 最高的, 雄偉的, 宏大的, 豪華的, 傲慢的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1851,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_093",
+      "word": "positive",
+      "partOfSpeech": "adj.",
+      "meaning": "肯定的, 積極的, 有把握的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1049,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_094",
+      "word": "opinion",
+      "partOfSpeech": "noun[C]",
+      "meaning": "意見, 評價, 主張",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1067,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_095",
+      "word": "abstract",
+      "partOfSpeech": "adj.",
+      "meaning": "抽象的, 深奧的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3729,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_096",
+      "word": "resolution",
+      "partOfSpeech": "noun[U]",
+      "meaning": "解析, 決心, 堅定, 決定, 決議, 消除, 解答, 分解；圖形解析度",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1968,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_097",
+      "word": "publication",
+      "partOfSpeech": "noun[U]",
+      "meaning": "出版物, 出版, 公佈",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1656,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_098",
+      "word": "session",
+      "partOfSpeech": "noun[C]",
+      "meaning": "期間, 開庭期, 會議, 學期",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1443,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_099",
+      "word": "internal",
+      "partOfSpeech": "adj.",
+      "meaning": "內在的, 國內的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1418,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_100",
+      "word": "unless",
+      "partOfSpeech": "conj.",
+      "meaning": "除非",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 901,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_101",
+      "word": "immediate",
+      "partOfSpeech": "adj.",
+      "meaning": "立即的, 直接的, 接近的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1542,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_102",
+      "word": "inspection",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "檢驗, 檢查, 視察",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3194,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_103",
+      "word": "cancel",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "取消, 撤消, 蓋銷(郵票)",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3183,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_104",
+      "word": "insert",
+      "partOfSpeech": "vt.",
+      "meaning": "插入物",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3796,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_105",
+      "word": "numerous",
+      "partOfSpeech": "adj.",
+      "meaning": "很多的, 數目眾多的, 多數的",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2275,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_106",
+      "word": "superior",
+      "partOfSpeech": "adj.",
+      "meaning": "長者, 佔優勢的人, 上級",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3410,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_107",
+      "word": "preferred",
+      "partOfSpeech": "adj.",
+      "meaning": "首選的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5286,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_108",
+      "word": "crisis",
+      "partOfSpeech": "noun[C]",
+      "meaning": "危機, 危險期, 緊要關頭",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1206,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_109",
+      "word": "cooperation",
+      "partOfSpeech": "noun[U]",
+      "meaning": "合作, 協力, 配合",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2668,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_110",
+      "word": "notification",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "通知, 通告, 告示",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 10078,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_111",
+      "word": "target",
+      "partOfSpeech": "noun[C]",
+      "meaning": "目標, 靶子, 指標",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1095,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_112",
+      "word": "except",
+      "partOfSpeech": "prep.",
+      "meaning": "除, 除外",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1836,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_113",
+      "word": "commerce",
+      "partOfSpeech": "noun[U]",
+      "meaning": "商業, 商務, 貿易",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4189,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_114",
+      "word": "fit",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "適宜, 合身, 發作, 痙攣",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1046,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_115",
+      "word": "easily",
+      "partOfSpeech": "adv.",
+      "meaning": "容易地, 輕易地, 流利地",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1004,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_116",
+      "word": "oral",
+      "partOfSpeech": "adj.",
+      "meaning": "口試",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 3468,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_117",
+      "word": "improvement",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "進步, 改善, 利用",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1440,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_118",
+      "word": "challenge",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "挑戰, 盤問",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 984,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_119",
+      "word": "certified",
+      "partOfSpeech": "adj.",
+      "meaning": "證明合格的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6965,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_120",
+      "word": "adviser",
+      "partOfSpeech": "noun[C]",
+      "meaning": "顧問, 勸告者, 指導教師",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2553,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_121",
+      "word": "opponent",
+      "partOfSpeech": "noun[C]",
+      "meaning": "對手, 敵手, 反對者",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2181,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_122",
+      "word": "swift",
+      "partOfSpeech": "noun",
+      "meaning": "褐雨燕, 快速爬行的小蜥蜴, 蝙蝠蛾, 大滾筒",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5978,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_123",
+      "word": "promptly",
+      "partOfSpeech": "adv.",
+      "meaning": "敏捷地, 迅速地",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5541,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_124",
+      "word": "depart",
+      "partOfSpeech": "vi.",
+      "meaning": "離開, 出發, 背離, 違反, 去世",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4497,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_125",
+      "word": "propaganda",
+      "partOfSpeech": "noun",
+      "meaning": "宣傳, 宣傳活動",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5071,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_126",
+      "word": "overtime",
+      "partOfSpeech": "noun[U]",
+      "meaning": "超時, 加班, 延長時間",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8317,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_127",
+      "word": "expectation",
+      "partOfSpeech": "noun[C]",
+      "meaning": "期待, 指望, 展望",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1890,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_128",
+      "word": "accidental",
+      "partOfSpeech": "adj.",
+      "meaning": "意外的, 偶然的, 非主要的, 附屬的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6917,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_129",
+      "word": "uniquely",
+      "partOfSpeech": "adv.",
+      "meaning": "獨特地；珍奇地",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8638,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_130",
+      "word": "worthwhile",
+      "partOfSpeech": "adj.",
+      "meaning": "值得花時間的, 值得做的, 有真實價值的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4264,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_131",
+      "word": "duly",
+      "partOfSpeech": "adv.",
+      "meaning": "恰當地, 充分地, 適當地, 及時地",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5569,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_132",
+      "word": "perpetual",
+      "partOfSpeech": "adj.",
+      "meaning": "永久的, 不斷的, 無期限的, 沒完沒了的, 四季開花的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8450,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_133",
+      "word": "predictable",
+      "partOfSpeech": "adj.",
+      "meaning": "可預言的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5738,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_134",
+      "word": "imperative",
+      "partOfSpeech": "adj.",
+      "meaning": "命令, 必要的事, 規則, 祈使語氣",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8360,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_135",
+      "word": "precedence",
+      "partOfSpeech": "noun",
+      "meaning": "優先, 居先",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 9632,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_136",
+      "word": "inevitably",
+      "partOfSpeech": "adv.",
+      "meaning": "不可避免地",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2664,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_137",
+      "word": "unanimous",
+      "partOfSpeech": "adj.",
+      "meaning": "意見一致的, 無異議的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8721,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_138",
+      "word": "anticipation",
+      "partOfSpeech": "noun",
+      "meaning": "預期, 預料",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6188,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_139",
+      "word": "overhaul",
+      "partOfSpeech": "vt.",
+      "meaning": "分解檢查, 翻修, 精細檢查, 徹底革新",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 11001,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_140",
+      "word": "ad",
+      "partOfSpeech": "noun[C]",
+      "meaning": "廣告",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1748,
+      "section": "清單補充：商務溝通與營運"
+    },
+    {
+      "id": "business_141",
+      "word": "sale",
+      "partOfSpeech": "noun[C]",
+      "meaning": "出售, 賣, 拍賣, 銷售額, 廉價出售",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1143,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_142",
+      "word": "develop",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "發展, 使發達, 進步, 洗印, 顯影",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 400,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_143",
+      "word": "deal",
+      "partOfSpeech": "noun[C]",
+      "meaning": "交易, 協定, 數量, 買賣, 松木板",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 595,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_144",
+      "word": "growth",
+      "partOfSpeech": "noun[U]",
+      "meaning": "生長, 栽培, 增長",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 770,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_145",
+      "word": "planning",
+      "partOfSpeech": "noun",
+      "meaning": "計劃的制訂, 策劃, 設計, 規劃",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1037,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_146",
+      "word": "success",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "成功, 成就, 勝利",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 705,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_147",
+      "word": "industry",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "勤勞, 工業, 企業, 產業, 有組織的勞動",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 383,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_148",
+      "word": "production",
+      "partOfSpeech": "noun[U]",
+      "meaning": "製造, 生產, 產物",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 610,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_149",
+      "word": "advertising",
+      "partOfSpeech": "noun",
+      "meaning": "廣告業, 廣告",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 2180,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_150",
+      "word": "analyst",
+      "partOfSpeech": "noun[C]",
+      "meaning": "分析者, 精神分析學家",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1672,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_151",
+      "word": "businesslike",
+      "partOfSpeech": "adj.",
+      "meaning": "有條理的, 有效率的",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 14771,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_152",
+      "word": "dispensable",
+      "partOfSpeech": "adj.",
+      "meaning": "不是必要的, 可有可無的",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 31261,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_153",
+      "word": "entail",
+      "partOfSpeech": "vt.",
+      "meaning": "使成為必需, 需要, 使承擔, 遺傳給",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4558,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_154",
+      "word": "replaceable",
+      "partOfSpeech": "adj.",
+      "meaning": "可替換的, 可代替的, 可放在原處的",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 23991,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_155",
+      "word": "standardize",
+      "partOfSpeech": "vt.",
+      "meaning": "使標準化, 使合於標準, 用標準檢驗",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 13182,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_156",
+      "word": "tally",
+      "partOfSpeech": "noun",
+      "meaning": "符木, 記賬, 得分, 比分, 計數器, 標籤, 符合, 對應物",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 11596,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_157",
+      "word": "viable",
+      "partOfSpeech": "adj.",
+      "meaning": "可行的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5049,
+      "section": "市場開發"
+    },
+    {
+      "id": "business_158",
+      "word": "quotation",
+      "partOfSpeech": "noun[C]",
+      "meaning": "引用語, 語錄, 牌價, 報價",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5331,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_159",
+      "word": "tricky",
+      "partOfSpeech": "adj.",
+      "meaning": "狡猾的, 機敏的",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6391,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_160",
+      "word": "diversify",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "多角化經營",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 8552,
+      "section": "企業擴張與投資"
+    },
+    {
+      "id": "business_161",
+      "word": "assertion",
+      "partOfSpeech": "noun[C]",
+      "meaning": "斷言, 主張",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5339,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_162",
+      "word": "endowment",
+      "partOfSpeech": "noun[C]",
+      "meaning": "捐助, 天賦, 才能",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 7253,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_163",
+      "word": "predecessor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "前任, 先輩, 前身",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4183,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_164",
+      "word": "rancher",
+      "partOfSpeech": "noun",
+      "meaning": "大農場經營者, 牧場工人",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 7473,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_165",
+      "word": "briefing",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "簡報",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 6475,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_166",
+      "word": "accord",
+      "partOfSpeech": "phr.",
+      "meaning": "一致, 調和, 協定",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 5594,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_167",
+      "word": "deem",
+      "partOfSpeech": "vt.",
+      "meaning": "認為, 相信",
+      "category": "業務拓展 (business)",
+      "level": "中階",
+      "frequencyRank": 4164,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_168",
+      "word": "profess",
+      "partOfSpeech": "vt.",
+      "meaning": "聲稱, 以...為業, 偽稱, 講授",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 10336,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_169",
+      "word": "representation",
+      "partOfSpeech": "noun[U]",
+      "meaning": "表示法, 表現, 陳述, 代表",
+      "category": "業務拓展 (business)",
+      "level": "初階",
+      "frequencyRank": 1828,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_170",
+      "word": "reorganization",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "改組, 再編制, 改造",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 10427,
+      "section": "清單補充：管理與成長"
+    },
+    {
+      "id": "business_171",
+      "word": "affiliated",
+      "partOfSpeech": "adj.",
+      "meaning": "有關連的；附屬的",
+      "category": "業務拓展 (business)",
+      "level": "進階",
+      "frequencyRank": 16859,
+      "section": "清單補充：管理與成長"
+    }
+  ]
+}
