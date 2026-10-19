@@ -395,7 +395,7 @@ async function loadWordRelations(key, type, senses) {
 }
 
 function shortMeaning(entry, apiPos = '') {
-  const posMap = { noun: ['noun'], verb: ['vt.', 'vi.', 'v.'], adjective: ['adj.'], adverb: ['adv.'], pronoun: ['pron.'], preposition: ['prep.'], conjunction: ['conj.'], interjection: ['int.'] };
+  const posMap = { noun: ['noun'], verb: ['vt.', 'vi.', 'v.'], adjective: ['adj.', 'adj', '形容詞'], adverb: ['adv.', '副詞'], pronoun: ['pron.'], preposition: ['prep.'], conjunction: ['conj.'], interjection: ['int.'] };
   const labels = posMap[String(apiPos).toLowerCase()] || [];
   const g = entry.m.find(x => !x.d && labels.includes(x.l)) || entry.m.find(x => !x.d) || entry.m[0];
   return g ? g.m.split(/[；;]/)[0].split(/[,，]/).slice(0, 3).join('、') : '';
