@@ -1,0 +1,2231 @@
+{
+  "storage cabinet": [
+    {
+      "p": "n",
+      "zh": "收納櫃",
+      "src": "app",
+      "ai": [
+        [
+          "Please store the files in the storage cabinet.",
+          "請把檔案收進收納櫃。"
+        ],
+        [
+          "The storage cabinet is beside the printer.",
+          "收納櫃就在印表機旁邊。"
+        ]
+      ]
+    }
+  ],
+  "scanner": [
+    {
+      "p": "n",
+      "zh": "掃描器",
+      "src": "app",
+      "ai": [
+        [
+          "The scanner saved each signed form as a searchable PDF.",
+          "掃描器將每份已簽署的表格存成可搜尋的 PDF。"
+        ]
+      ],
+      "t": [
+        3550233
+      ]
+    }
+  ],
+  "binder": [
+    {
+      "p": "n",
+      "zh": "活頁夾",
+      "src": "app",
+      "ai": [
+        [
+          "Keep the signed forms in this binder.",
+          "請把簽好的表格放進這本活頁夾。"
+        ],
+        [
+          "Each department has a separate binder for records.",
+          "每個部門都有一本獨立的資料活頁夾。"
+        ]
+      ]
+    }
+  ],
+  "whiteboard": [
+    {
+      "p": "n",
+      "zh": "白板",
+      "src": "app",
+      "ai": [
+        [
+          "Please write the agenda on the whiteboard.",
+          "請把議程寫在白板上。"
+        ],
+        [
+          "We reviewed the sales plan on the whiteboard.",
+          "我們在白板上檢視了銷售計畫。"
+        ]
+      ]
+    }
+  ],
+  "restock": [
+    {
+      "p": "v",
+      "zh": "重新補貨",
+      "src": "app",
+      "ai": [
+        [
+          "Please restock the printer paper this afternoon.",
+          "請今天下午補充影印紙。"
+        ],
+        [
+          "The store restocks popular items every Monday.",
+          "這家店每週一為熱銷商品補貨。"
+        ]
+      ]
+    }
+  ],
+  "glitch": [
+    {
+      "p": "n",
+      "zh": "小故障；短暫異常",
+      "src": "app",
+      "ai": [
+        [
+          "A minor glitch delayed the online meeting.",
+          "一個小故障讓線上會議延遲了。"
+        ],
+        [
+          "The team fixed the payment system glitch quickly.",
+          "團隊很快就修好了付款系統的異常。"
+        ]
+      ]
+    }
+  ],
+  "premises": [
+    {
+      "p": "n",
+      "zh": "營業場所；辦公處所",
+      "src": "app",
+      "ai": [
+        [
+          "Visitors must sign in before entering the premises.",
+          "訪客進入營業場所前必須先登記。"
+        ],
+        [
+          "Smoking is prohibited anywhere on the premises.",
+          "場所內全面禁止吸菸。"
+        ]
+      ]
+    }
+  ],
+  "headquarters": [
+    {
+      "p": "n",
+      "zh": "總部",
+      "src": "app",
+      "ai": [
+        [
+          "The company moved its headquarters to Taipei.",
+          "公司把總部遷到了台北。"
+        ],
+        [
+          "Please send the report to our headquarters.",
+          "請把報告寄到我們總部。"
+        ]
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "p": "n",
+      "zh": "茶水間；食品儲藏室",
+      "src": "app",
+      "ai": [
+        [
+          "There is fresh coffee in the pantry.",
+          "茶水間有新煮好的咖啡。"
+        ],
+        [
+          "Please return the cups to the pantry after lunch.",
+          "午餐後請把杯子拿回茶水間。"
+        ]
+      ]
+    }
+  ],
+  "workstation": [
+    {
+      "p": "n",
+      "zh": "工作站；工作區",
+      "src": "app",
+      "ai": [
+        [
+          "Each employee has an adjustable workstation.",
+          "每位員工都有可調整的工作區。"
+        ],
+        [
+          "Please log out before leaving your workstation.",
+          "離開工作站前請先登出。"
+        ]
+      ]
+    }
+  ],
+  "ergonomic": [
+    {
+      "p": "adj",
+      "zh": "符合人體工學的",
+      "src": "app",
+      "ai": [
+        [
+          "The office ordered ergonomic chairs for the staff.",
+          "辦公室為員工訂購了符合人體工學的椅子。"
+        ],
+        [
+          "An ergonomic keyboard can reduce wrist strain.",
+          "符合人體工學的鍵盤能減輕手腕負擔。"
+        ]
+      ]
+    }
+  ],
+  "ventilation": [
+    {
+      "p": "n",
+      "zh": "通風；通風設備",
+      "src": "app",
+      "ai": [
+        [
+          "The ventilation system needs regular maintenance.",
+          "通風系統需要定期保養。"
+        ],
+        [
+          "Better ventilation will improve the air quality.",
+          "改善通風能提升空氣品質。"
+        ]
+      ],
+      "t": [
+        13535310,
+        57298
+      ]
+    }
+  ],
+  "janitor": [
+    {
+      "p": "n",
+      "zh": "管理員；清潔人員",
+      "src": "app",
+      "ai": [
+        [
+          "The janitor cleans the conference room every evening.",
+          "管理員每天晚上都會清潔會議室。"
+        ],
+        [
+          "Please tell the janitor about the broken light.",
+          "請告訴管理員那盞燈壞了。"
+        ]
+      ]
+    }
+  ],
+  "refurbish": [
+    {
+      "p": "v",
+      "zh": "翻新；整修",
+      "src": "app",
+      "ai": [
+        [
+          "They will refurbish the reception area next month.",
+          "他們下個月會翻新接待區。"
+        ],
+        [
+          "The company plans to refurbish its older offices.",
+          "公司計畫整修較老舊的辦公室。"
+        ]
+      ]
+    }
+  ],
+  "refurnish": [
+    {
+      "p": "v",
+      "zh": "重新配置家具；重新添購家具",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel will refurnish its lobby with locally made furniture.",
+          "這家飯店將用台灣製家具重新布置大廳。"
+        ],
+        [
+          "After the renovation, the clinic refurnished each room with new desks and chairs.",
+          "整修後，診所為每個房間重新添購桌椅。"
+        ]
+      ]
+    }
+  ],
+  "clerical": [
+    {
+      "p": "adj",
+      "zh": "文書的；行政事務的",
+      "src": "app",
+      "ai": [
+        [
+          "She handles clerical tasks for the finance team.",
+          "她負責財務團隊的文書工作。"
+        ],
+        [
+          "The position requires strong clerical skills.",
+          "這個職位需要良好的文書處理能力。"
+        ]
+      ]
+    }
+  ],
+  "filing": [
+    {
+      "p": "n",
+      "zh": "歸檔；文件整理",
+      "src": "app",
+      "ai": [
+        [
+          "The finance team finished filing the receipts before the audit.",
+          "財務團隊在稽核前完成了收據歸檔。"
+        ],
+        [
+          "Our digital filing system lets staff find contracts by date.",
+          "我們的電子檔案系統讓員工能依日期查找合約。"
+        ]
+      ]
+    }
+  ],
+  "punctuality": [
+    {
+      "p": "n",
+      "zh": "準時；守時",
+      "src": "app",
+      "ai": [
+        [
+          "Punctuality is important for client meetings.",
+          "與客戶開會時，準時很重要。"
+        ],
+        [
+          "Her punctuality made a good impression on the team.",
+          "她守時的態度讓團隊留下好印象。"
+        ]
+      ]
+    }
+  ],
+  "absenteeism": [
+    {
+      "p": "n",
+      "zh": "缺勤；曠職",
+      "src": "app",
+      "ai": [
+        [
+          "The manager is reviewing the rise in absenteeism.",
+          "經理正在檢視缺勤率上升的情況。"
+        ],
+        [
+          "Flexible schedules may help reduce absenteeism.",
+          "彈性工時或許有助於降低缺勤率。"
+        ]
+      ]
+    }
+  ],
+  "roster": [
+    {
+      "p": "n",
+      "zh": "名冊；值勤表",
+      "src": "app",
+      "ai": [
+        [
+          "The supervisor posted next month’s shift roster in the staff room.",
+          "主管把下個月的輪班表貼在員工休息室。"
+        ],
+        [
+          "Two nurses swapped shifts, so the roster needs an update.",
+          "兩位護理師調換了班，值班表需要更新。"
+        ]
+      ]
+    }
+  ],
+  "diligent": [
+    {
+      "p": "adj",
+      "zh": "勤勉的；認真的",
+      "src": "app",
+      "ai": [
+        [
+          "She is diligent about checking every invoice.",
+          "她很認真地核對每一張發票。"
+        ],
+        [
+          "A diligent review helped us catch the error.",
+          "仔細審查讓我們找出了錯誤。"
+        ]
+      ]
+    }
+  ],
+  "etiquette": [
+    {
+      "p": "n",
+      "zh": "禮儀；禮節",
+      "src": "app",
+      "ai": [
+        [
+          "Business etiquette varies across cultures.",
+          "商務禮儀會因文化而有所不同。"
+        ],
+        [
+          "The training covered email etiquette.",
+          "這場訓練涵蓋了電子郵件禮儀。"
+        ]
+      ]
+    }
+  ],
+  "commendation": [
+    {
+      "p": "n",
+      "zh": "嘉獎；表揚",
+      "src": "app",
+      "ai": [
+        [
+          "The technician received a commendation for restoring service during the storm.",
+          "這名技術人員因在暴風雨期間迅速恢復服務而獲得表揚。"
+        ],
+        [
+          "Her commendation from the client was added to her personnel file.",
+          "客戶對她的嘉獎被記錄在她的人事資料中。"
+        ]
+      ]
+    }
+  ],
+  "reprimand": [
+    {
+      "p": "v",
+      "zh": "訓斥；責備",
+      "src": "app",
+      "ai": [
+        [
+          "The supervisor reprimanded the team for leaving customer records unsecured.",
+          "主管因團隊未妥善保管客戶資料而予以訓斥。"
+        ]
+      ],
+      "t": [
+        7885825
+      ]
+    }
+  ],
+  "salutation": [
+    {
+      "p": "n",
+      "zh": "稱呼；問候語",
+      "src": "app",
+      "ai": [
+        [
+          "Use a formal salutation in the first email.",
+          "第一封電子郵件請使用正式稱呼。"
+        ],
+        [
+          "The letter begins with the salutation Dear Ms. Chen.",
+          "這封信以「陳小姐您好」作為稱呼。"
+        ]
+      ]
+    }
+  ],
+  "addressee": [
+    {
+      "p": "n",
+      "zh": "收件人",
+      "src": "app",
+      "ai": [
+        [
+          "Check the addressee before sending the package.",
+          "寄出包裹前請確認收件人。"
+        ],
+        [
+          "The addressee was listed incorrectly on the envelope.",
+          "信封上的收件人資料列錯了。"
+        ]
+      ]
+    }
+  ],
+  "undersigned": [
+    {
+      "p": "adj",
+      "zh": "下方簽署的；簽署人",
+      "src": "app",
+      "ai": [
+        [
+          "The undersigned parties agree to these terms.",
+          "下方簽署的各方同意這些條款。"
+        ],
+        [
+          "I, the undersigned, confirm that the details are accurate.",
+          "本人，即下方簽署人，確認資料正確無誤。"
+        ]
+      ]
+    }
+  ],
+  "signatory": [
+    {
+      "p": "n",
+      "zh": "簽署人；簽約方",
+      "src": "app",
+      "ai": [
+        [
+          "Each signatory received a copy of the agreement.",
+          "每位簽署人都收到一份協議副本。"
+        ],
+        [
+          "The final signatory approved the contract yesterday.",
+          "最後一位簽署人昨天核准了合約。"
+        ]
+      ]
+    }
+  ],
+  "postscript": [
+    {
+      "p": "n",
+      "zh": "附言；附筆",
+      "src": "app",
+      "ai": [
+        [
+          "She added a short postscript to the letter.",
+          "她在信末加了一段簡短附言。"
+        ],
+        [
+          "The postscript included the updated meeting time.",
+          "附言裡補上了更新後的會議時間。"
+        ]
+      ]
+    }
+  ],
+  "enclosure": [
+    {
+      "p": "n",
+      "zh": "附件；隨函附上的文件",
+      "src": "app",
+      "ai": [
+        [
+          "Please see the enclosure for the full price list.",
+          "完整價目表請參閱隨函附件。"
+        ],
+        [
+          "The enclosure was missing from the mailed package.",
+          "寄出的郵件裡漏了附件。"
+        ]
+      ]
+    }
+  ],
+  "carbon copy": [
+    {
+      "p": "n",
+      "zh": "副本；副本收件欄",
+      "src": "app",
+      "ai": [
+        [
+          "Please send a carbon copy of the budget email to the regional manager.",
+          "請將預算郵件副本寄給區域經理。"
+        ],
+        [
+          "I sent a carbon copy of the signed contract to our accountant.",
+          "我把已簽署合約的副本寄給會計師。"
+        ]
+      ]
+    }
+  ],
+  "legible": [
+    {
+      "p": "adj",
+      "zh": "清晰易讀的",
+      "src": "app",
+      "ai": [
+        [
+          "Please make sure your signature is legible.",
+          "請確保您的簽名清晰易讀。"
+        ],
+        [
+          "The scanned document is clear and legible.",
+          "掃描的文件清楚易讀。"
+        ]
+      ]
+    }
+  ],
+  "postmark": [
+    {
+      "p": "n",
+      "zh": "郵戳",
+      "src": "app",
+      "ai": [
+        [
+          "The postmark shows that the letter was mailed yesterday.",
+          "郵戳顯示這封信是昨天寄出的。"
+        ],
+        [
+          "Please check the postmark on the returned envelope.",
+          "請查看退回信封上的郵戳。"
+        ]
+      ]
+    }
+  ],
+  "registered mail": [
+    {
+      "p": "phr",
+      "zh": "掛號郵件",
+      "src": "app",
+      "ai": [
+        [
+          "Please send the original contract by registered mail.",
+          "請以掛號郵件寄送合約正本。"
+        ],
+        [
+          "The notice arrived by registered mail this morning.",
+          "通知今天早上以掛號郵件送達。"
+        ]
+      ]
+    }
+  ],
+  "airmail": [
+    {
+      "p": "n",
+      "zh": "航空郵件；航空郵寄",
+      "src": "app",
+      "ai": [
+        [
+          "The documents were sent by airmail.",
+          "文件已用航空郵件寄出。"
+        ],
+        [
+          "Airmail usually reaches overseas clients faster.",
+          "航空郵件通常能更快送達海外客戶。"
+        ]
+      ]
+    }
+  ],
+  "bulk mail": [
+    {
+      "p": "phr",
+      "zh": "大量郵件；批量郵寄",
+      "src": "app",
+      "ai": [
+        [
+          "The nonprofit used bulk mail to send its annual report to thousands of donors.",
+          "這個非營利組織以大量郵寄方式，將年度報告寄給數千位捐款人。"
+        ],
+        [
+          "Bulk mail rates made the company’s catalog campaign more affordable.",
+          "大量郵件的郵資優惠讓公司的型錄宣傳活動更省成本。"
+        ]
+      ]
+    }
+  ],
+  "prepaid": [
+    {
+      "p": "adj",
+      "zh": "預付的；已付郵資的",
+      "src": "app",
+      "ai": [
+        [
+          "Please use the prepaid return envelope.",
+          "請使用已付郵資的回郵信封。"
+        ],
+        [
+          "The prepaid shipping label is attached to the form.",
+          "預付運費的寄件標籤已附在表格上。"
+        ]
+      ]
+    }
+  ],
+  "mailroom": [
+    {
+      "p": "n",
+      "zh": "郵件收發室",
+      "src": "app",
+      "ai": [
+        [
+          "The package is waiting in the mailroom.",
+          "包裹正在郵件收發室等候領取。"
+        ],
+        [
+          "Mailroom staff sort incoming letters each morning.",
+          "郵件收發室人員每天早上分類收到的信件。"
+        ]
+      ]
+    }
+  ],
+  "mailbox": [
+    {
+      "p": "n",
+      "zh": "信箱；郵箱",
+      "src": "app",
+      "ai": [
+        [
+          "The signed agreement is in your mailbox.",
+          "已簽署的協議在您的信箱裡。"
+        ],
+        [
+          "Please check the mailbox for the client letter.",
+          "請查看信箱裡的客戶來信。"
+        ]
+      ]
+    }
+  ],
+  "notification": [
+    {
+      "p": "n",
+      "zh": "通知",
+      "src": "app",
+      "ai": [
+        [
+          "You will receive a notification when the order ships.",
+          "訂單出貨時您會收到通知。"
+        ],
+        [
+          "The system sent a notification to all staff.",
+          "系統已向所有員工發出通知。"
+        ]
+      ]
+    }
+  ],
+  "acknowledgment": [
+    {
+      "p": "n",
+      "zh": "確認收到；回覆",
+      "src": "app",
+      "ai": [
+        [
+          "Please send an acknowledgment when you receive the files.",
+          "收到檔案後請回覆確認。"
+        ],
+        [
+          "We received an acknowledgment from the supplier.",
+          "我們收到供應商的確認回覆。"
+        ]
+      ]
+    }
+  ],
+  "letter of recommendation": [
+    {
+      "p": "phr",
+      "zh": "推薦信",
+      "src": "app",
+      "ai": [
+        [
+          "She requested a letter of recommendation from her manager.",
+          "她請經理為她寫一封推薦信。"
+        ],
+        [
+          "The application requires a letter of recommendation.",
+          "這份申請需要附上一封推薦信。"
+        ]
+      ]
+    }
+  ],
+  "letter of intent": [
+    {
+      "p": "phr",
+      "zh": "意向書",
+      "src": "app",
+      "ai": [
+        [
+          "Both companies signed a letter of intent.",
+          "兩家公司簽署了意向書。"
+        ],
+        [
+          "The letter of intent outlines the proposed partnership.",
+          "意向書概述了擬議中的合作關係。"
+        ]
+      ]
+    }
+  ],
+  "circular": [
+    {
+      "p": "n",
+      "zh": "通告；通函",
+      "src": "app",
+      "ai": [
+        [
+          "The office issued a circular about the new policy.",
+          "辦公室發布了新政策通告。"
+        ],
+        [
+          "A circular was sent to every branch.",
+          "每個分部都收到了一份通函。"
+        ]
+      ]
+    }
+  ],
+  "solicitation": [
+    {
+      "p": "n",
+      "zh": "招攬；徵求",
+      "src": "app",
+      "ai": [
+        [
+          "The firm received a solicitation for a charity donation.",
+          "公司收到一份慈善捐款募款請求。"
+        ],
+        [
+          "We do not accept unsolicited sales solicitations.",
+          "我們不接受未經邀請的業務招攬。"
+        ]
+      ]
+    }
+  ],
+  "herewith": [
+    {
+      "p": "adv",
+      "zh": "隨函；隨附",
+      "src": "app",
+      "ai": [
+        [
+          "Please find the completed application attached herewith for your review.",
+          "隨函檢附填妥的申請表，請查閱。"
+        ],
+        [
+          "We submit herewith the receipts requested by the finance department.",
+          "謹隨函檢送財務部要求的收據。"
+        ]
+      ]
+    }
+  ],
+  "aforementioned": [
+    {
+      "p": "adj",
+      "zh": "上述的；前述的",
+      "src": "app",
+      "ai": [
+        [
+          "Please refer to the aforementioned policy.",
+          "請參閱前述政策。"
+        ],
+        [
+          "The aforementioned items will arrive tomorrow.",
+          "上述物品明天會送達。"
+        ]
+      ]
+    }
+  ],
+  "kindly": [
+    {
+      "p": "adv",
+      "zh": "請（禮貌用語）；親切地",
+      "src": "app",
+      "ai": [
+        [
+          "Kindly confirm the delivery address by noon.",
+          "請於中午前確認送貨地址。"
+        ],
+        [
+          "The receptionist kindly helped our visitors.",
+          "接待人員親切地協助訪客。"
+        ]
+      ]
+    }
+  ],
+  "cordially": [
+    {
+      "p": "adv",
+      "zh": "誠摯地；親切地",
+      "src": "app",
+      "ai": [
+        [
+          "The two negotiators spoke cordially despite their different positions.",
+          "兩位談判代表雖然立場不同，交談時仍保持友善。"
+        ],
+        [
+          "The invitation cordially welcomed partners to the company’s anniversary event.",
+          "這封邀請函誠摯歡迎合作夥伴參加公司的周年活動。"
+        ]
+      ]
+    }
+  ],
+  "respectfully": [
+    {
+      "p": "adv",
+      "zh": "恭敬地；謹此",
+      "src": "app",
+      "ai": [
+        [
+          "The employee respectfully asked the committee to review the decision.",
+          "這名員工恭敬地請委員會重新審視這項決定。"
+        ],
+        [
+          "We respectfully request that the invoice be corrected before payment.",
+          "謹此請求在付款前更正發票。"
+        ]
+      ]
+    }
+  ],
+  "gratitude": [
+    {
+      "p": "n",
+      "zh": "感謝；感激",
+      "src": "app",
+      "ai": [
+        [
+          "The project lead expressed her gratitude to the staff who stayed late.",
+          "專案負責人向加班留下來的同仁表達謝意。"
+        ],
+        [
+          "As a token of gratitude, the supplier sent the warehouse team lunch.",
+          "供應商送午餐給倉庫團隊，藉此表達感謝。"
+        ]
+      ]
+    }
+  ],
+  "reiterate": [
+    {
+      "p": "v",
+      "zh": "重申；再次說明",
+      "src": "app",
+      "ai": [
+        [
+          "At the end of the call, the manager reiterated that all orders must be checked twice.",
+          "電話會議結束前，經理再次強調所有訂單都必須核對兩次。"
+        ],
+        [
+          "The revised memo reiterates the deadline and the documents applicants need.",
+          "修訂後的備忘錄再次說明期限及申請人所需文件。"
+        ]
+      ]
+    }
+  ],
+  "wording": [
+    {
+      "p": "n",
+      "zh": "措辭；用字",
+      "src": "app",
+      "ai": [
+        [
+          "The wording of the notice should be clearer.",
+          "這份通知的措辭應該更清楚。"
+        ],
+        [
+          "Legal staff reviewed the wording of the agreement.",
+          "法務人員審閱了協議的用字。"
+        ]
+      ]
+    }
+  ],
+  "teleconference": [
+    {
+      "p": "n",
+      "zh": "電話會議；遠距會議",
+      "src": "app",
+      "ai": [
+        [
+          "A teleconference let the Singapore and Taipei offices compare their quarterly results.",
+          "透過電話會議，新加坡與台北辦公室得以比較季度成果。"
+        ],
+        [
+          "The supplier joined the teleconference from its factory floor.",
+          "供應商在工廠現場加入了電話會議。"
+        ]
+      ]
+    }
+  ],
+  "recurring": [
+    {
+      "p": "adj",
+      "zh": "定期重複的；反覆發生的",
+      "src": "app",
+      "ai": [
+        [
+          "The recurring meeting is scheduled for Monday.",
+          "定期會議安排在星期一。"
+        ],
+        [
+          "We found the cause of the recurring system error.",
+          "我們找到了系統錯誤反覆發生的原因。"
+        ]
+      ]
+    }
+  ],
+  "briefing": [
+    {
+      "p": "n",
+      "zh": "簡報；簡短說明會",
+      "src": "app",
+      "ai": [
+        [
+          "Before the site visit, the engineer gave reporters a briefing on the safety plan.",
+          "實地參訪前，工程師向記者簡要說明安全計畫。"
+        ],
+        [
+          "The sales team attended a morning briefing on the new pricing rules.",
+          "業務團隊早上參加了新定價規則的說明會。"
+        ]
+      ]
+    }
+  ],
+  "preside": [
+    {
+      "p": "v",
+      "zh": "主持；擔任主席",
+      "src": "app",
+      "ai": [
+        [
+          "Ms. Lin will preside over the annual meeting.",
+          "林小姐將主持年度會議。"
+        ],
+        [
+          "The chairperson presided over the board discussion.",
+          "主席主持了董事會討論。"
+        ]
+      ]
+    }
+  ],
+  "moderator": [
+    {
+      "p": "n",
+      "zh": "主持人；協調人",
+      "src": "app",
+      "ai": [
+        [
+          "The moderator invited questions from the audience.",
+          "主持人邀請觀眾提問。"
+        ],
+        [
+          "Our moderator kept the panel discussion on schedule.",
+          "我們的主持人讓座談會按時進行。"
+        ]
+      ]
+    }
+  ],
+  "facilitator": [
+    {
+      "p": "n",
+      "zh": "引導者；協調人",
+      "src": "app",
+      "ai": [
+        [
+          "A facilitator kept the workshop focused when the discussion drifted.",
+          "討論偏離主題時，引導人員協助工作坊回到重點。"
+        ],
+        [
+          "The facilitator asked each department to suggest one solution.",
+          "引導人員請各部門各提出一項解決方案。"
+        ]
+      ]
+    }
+  ],
+  "recess": [
+    {
+      "p": "n",
+      "zh": "休會；休息時間",
+      "src": "app",
+      "ai": [
+        [
+          "The chair called a ten-minute recess so members could review the revised figures.",
+          "主席宣布休會十分鐘，讓成員檢視修訂後的數字。"
+        ],
+        [
+          "During the recess, both sides consulted their legal teams.",
+          "休會期間，雙方分別諮詢了各自的法務團隊。"
+        ]
+      ]
+    }
+  ],
+  "reconvene": [
+    {
+      "p": "v",
+      "zh": "重新開會；再次集會",
+      "src": "app",
+      "ai": [
+        [
+          "The committee will reconvene after lunch.",
+          "委員會將於午餐後重新開會。"
+        ],
+        [
+          "Members agreed to reconvene next Tuesday.",
+          "成員同意下週二再次集會。"
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    {
+      "p": "v",
+      "zh": "扼要重述；摘要回顧",
+      "src": "app",
+      "ai": [
+        [
+          "Could you recap the three changes before we send the proposal to the client?",
+          "把提案寄給客戶前，可以請你重述三項修改嗎？"
+        ],
+        [
+          "The meeting notes recap who will handle each action item.",
+          "會議紀錄簡要整理了各項待辦事項的負責人。"
+        ]
+      ]
+    }
+  ],
+  "interject": [
+    {
+      "p": "v",
+      "zh": "插話；插嘴",
+      "src": "app",
+      "ai": [
+        [
+          "The finance director interjected to correct the cost estimate.",
+          "財務主管插話更正成本估算。"
+        ],
+        [
+          "Please do not interject while the interpreter is speaking.",
+          "口譯員發言時請不要插話。"
+        ]
+      ]
+    }
+  ],
+  "follow-up": [
+    {
+      "p": "n",
+      "zh": "後續追蹤；後續事項",
+      "src": "app",
+      "ai": [
+        [
+          "I sent a follow-up after the client meeting.",
+          "我在客戶會議後寄出了後續郵件。"
+        ],
+        [
+          "The follow-up confirmed the revised delivery date.",
+          "後續通知確認了修訂後的交貨日期。"
+        ]
+      ]
+    }
+  ],
+  "standpoint": [
+    {
+      "p": "n",
+      "zh": "立場；觀點",
+      "src": "app",
+      "ai": [
+        [
+          "From the supplier’s standpoint, the revised schedule is difficult to meet.",
+          "從供應商的角度來看，修訂後的時程很難配合。"
+        ],
+        [
+          "The report considers the safety issue from both the workers’ and managers’ standpoints.",
+          "這份報告從員工與主管雙方的角度探討安全問題。"
+        ]
+      ]
+    }
+  ],
+  "refute": [
+    {
+      "p": "v",
+      "zh": "反駁；駁斥",
+      "src": "app",
+      "ai": [
+        [
+          "The evidence refuted the supplier’s claim.",
+          "證據駁斥了供應商的說法。"
+        ],
+        [
+          "She refuted the allegation with accurate records.",
+          "她以正確紀錄反駁了這項指控。"
+        ]
+      ]
+    }
+  ],
+  "persuasive": [
+    {
+      "p": "adj",
+      "zh": "有說服力的",
+      "src": "app",
+      "ai": [
+        [
+          "He presented a persuasive case for the budget increase.",
+          "他提出了有說服力的理由，支持增加預算。"
+        ],
+        [
+          "The proposal includes persuasive market data.",
+          "這份提案附有具說服力的市場數據。"
+        ]
+      ]
+    }
+  ],
+  "fruitful": [
+    {
+      "p": "adj",
+      "zh": "有成果的；富有成效的",
+      "src": "app",
+      "ai": [
+        [
+          "The discussion was fruitful and focused.",
+          "這場討論富有成效，而且很聚焦。"
+        ],
+        [
+          "We had a fruitful exchange with the supplier.",
+          "我們與供應商進行了富有成果的交流。"
+        ]
+      ]
+    }
+  ],
+  "tactful": [
+    {
+      "p": "adj",
+      "zh": "圓融得體的；有分寸的",
+      "src": "app",
+      "ai": [
+        [
+          "She gave tactful feedback about the draft.",
+          "她對草稿提出了得體的回饋。"
+        ],
+        [
+          "A tactful response helped resolve the complaint.",
+          "圓融得體的回應有助於解決客訴。"
+        ]
+      ]
+    }
+  ],
+  "concur": [
+    {
+      "p": "v",
+      "zh": "同意；意見一致",
+      "src": "app",
+      "ai": [
+        [
+          "I concur with the committee’s recommendation.",
+          "我同意委員會的建議。"
+        ],
+        [
+          "The auditors concurred that the figures were accurate.",
+          "稽核人員一致認為數字正確。"
+        ]
+      ]
+    }
+  ],
+  "deadlock": [
+    {
+      "p": "n",
+      "zh": "僵局",
+      "src": "app",
+      "ai": [
+        [
+          "The negotiations ended in a deadlock.",
+          "談判陷入僵局。"
+        ],
+        [
+          "A revised offer helped the teams break the deadlock.",
+          "修訂後的提案協助雙方打破僵局。"
+        ]
+      ]
+    }
+  ],
+  "impasse": [
+    {
+      "p": "n",
+      "zh": "僵局；困境",
+      "src": "app",
+      "ai": [
+        [
+          "The contract talks reached an impasse.",
+          "合約協商陷入僵局。"
+        ],
+        [
+          "Both sides proposed a review to resolve the impasse.",
+          "雙方提議重新檢視，以化解僵局。"
+        ]
+      ]
+    }
+  ],
+  "unanimity": [
+    {
+      "p": "n",
+      "zh": "全體一致；一致同意",
+      "src": "app",
+      "ai": [
+        [
+          "The board reached unanimity after the final cost estimate was approved.",
+          "最後一份成本估算獲得核准後，董事會全體達成一致。"
+        ],
+        [
+          "There was unanimity among the reviewers that the safety issue needed immediate action.",
+          "審查人員一致認為必須立即處理這項安全問題。"
+        ]
+      ]
+    }
+  ],
+  "abstain": [
+    {
+      "p": "v",
+      "zh": "棄權；戒除",
+      "src": "app",
+      "ai": [
+        [
+          "Two members chose to abstain from the vote.",
+          "兩位成員選擇在投票時棄權。"
+        ],
+        [
+          "Employees should abstain from sharing confidential files.",
+          "員工應避免分享機密檔案。"
+        ]
+      ]
+    }
+  ],
+  "nominee": [
+    {
+      "p": "n",
+      "zh": "提名人；候選人",
+      "src": "app",
+      "ai": [
+        [
+          "Each nominee for the director role was interviewed by the board.",
+          "董事會面試了每一位主管職位的提名人選。"
+        ],
+        [
+          "The award nominee was notified before the public announcement.",
+          "獎項入圍者在公開宣布前就接到了通知。"
+        ]
+      ]
+    }
+  ],
+  "deliberation": [
+    {
+      "p": "n",
+      "zh": "審議；慎重考量",
+      "src": "app",
+      "ai": [
+        [
+          "After careful deliberation, the board approved the plan.",
+          "經過審慎考量後，董事會核准了這項計畫。"
+        ],
+        [
+          "The committee needs more time for deliberation.",
+          "委員會需要更多時間審議。"
+        ]
+      ]
+    }
+  ],
+  "entry-level": [
+    {
+      "p": "adj",
+      "zh": "初階的；入門級的",
+      "src": "app",
+      "ai": [
+        [
+          "The company is hiring for an entry-level position.",
+          "公司正在招募初階職位人員。"
+        ],
+        [
+          "This entry-level role includes on-the-job training.",
+          "這個初階職位提供在職訓練。"
+        ]
+      ]
+    }
+  ],
+  "payslip": [
+    {
+      "p": "n",
+      "zh": "薪資單",
+      "src": "app",
+      "ai": [
+        [
+          "Please check your payslip for the overtime payment.",
+          "請查看薪資單上的加班費。"
+        ],
+        [
+          "The payslip is available in the staff portal.",
+          "薪資單已上傳至員工入口網站。"
+        ]
+      ]
+    }
+  ],
+  "mentorship": [
+    {
+      "p": "n",
+      "zh": "導師制度；指導",
+      "src": "app",
+      "ai": [
+        [
+          "The mentorship program pairs new hires with senior staff.",
+          "導師制度會安排新進員工與資深同事配對。"
+        ],
+        [
+          "She gained valuable advice through mentorship.",
+          "她透過導師指導獲得了寶貴建議。"
+        ]
+      ]
+    }
+  ],
+  "demotion": [
+    {
+      "p": "n",
+      "zh": "降職；降級",
+      "src": "app",
+      "ai": [
+        [
+          "The policy explains how a demotion may be appealed.",
+          "這項政策說明如何對降職提出申訴。"
+        ],
+        [
+          "He accepted the demotion after discussing his options.",
+          "討論過選項後，他接受了降職安排。"
+        ]
+      ]
+    }
+  ],
+  "seniority": [
+    {
+      "p": "n",
+      "zh": "年資；資深程度",
+      "src": "app",
+      "ai": [
+        [
+          "Promotion decisions consider performance and seniority.",
+          "升遷決定會考量績效與年資。"
+        ],
+        [
+          "Her seniority gives her priority when choosing shifts.",
+          "她的年資讓她在選擇班別時享有優先權。"
+        ]
+      ]
+    }
+  ],
+  "labor union": [
+    {
+      "p": "phr",
+      "zh": "工會",
+      "src": "app",
+      "ai": [
+        [
+          "The labor union negotiated a new pay agreement.",
+          "工會協商了一份新的薪資協議。"
+        ],
+        [
+          "Employees may contact the labor union for support.",
+          "員工可以聯絡工會尋求協助。"
+        ]
+      ]
+    }
+  ],
+  "stipend": [
+    {
+      "p": "n",
+      "zh": "津貼；定期補助",
+      "src": "app",
+      "ai": [
+        [
+          "Interns receive a monthly stipend for transportation.",
+          "實習生每月可領取交通津貼。"
+        ],
+        [
+          "The research stipend covers basic living costs.",
+          "研究津貼可支付基本生活費。"
+        ]
+      ]
+    }
+  ],
+  "perk": [
+    {
+      "p": "n",
+      "zh": "福利；額外待遇",
+      "src": "app",
+      "ai": [
+        [
+          "A flexible schedule is a popular job perk.",
+          "彈性工時是很受歡迎的工作福利。"
+        ],
+        [
+          "One perk of the role is paid professional training.",
+          "這個職位的一項額外福利是提供帶薪專業訓練。"
+        ]
+      ]
+    }
+  ],
+  "fringe benefit": [
+    {
+      "p": "phr",
+      "zh": "附加福利；額外福利",
+      "src": "app",
+      "ai": [
+        [
+          "Health coverage is an important fringe benefit.",
+          "醫療保障是一項重要的附加福利。"
+        ],
+        [
+          "The package includes several fringe benefits.",
+          "這份薪酬方案包含多項額外福利。"
+        ]
+      ]
+    }
+  ],
+  "entitlement": [
+    {
+      "p": "n",
+      "zh": "應享權利；應得福利",
+      "src": "app",
+      "ai": [
+        [
+          "The handbook lists each worker’s annual leave entitlement.",
+          "員工手冊列出每位員工應享有的年假天數。"
+        ],
+        [
+          "Before approving the claim, HR checked her entitlement to relocation support.",
+          "核准申請前，人資確認了她是否符合搬遷補助資格。"
+        ]
+      ]
+    }
+  ],
+  "maternity leave": [
+    {
+      "p": "phr",
+      "zh": "產假",
+      "src": "app",
+      "ai": [
+        [
+          "She will begin maternity leave in September.",
+          "她將於九月開始休產假。"
+        ],
+        [
+          "The company offers paid maternity leave.",
+          "公司提供有薪產假。"
+        ]
+      ]
+    }
+  ],
+  "sabbatical": [
+    {
+      "p": "n",
+      "zh": "（通常為進修或研究而安排的）長期休假",
+      "src": "app",
+      "ai": [
+        [
+          "After ten years with the firm, Mei took a sabbatical to complete her research.",
+          "在公司任職十年後，美玲休了長假完成研究。"
+        ],
+        [
+          "The university offers faculty a sabbatical for study or research.",
+          "這所大學提供教職員進修或研究假。"
+        ]
+      ]
+    }
+  ],
+  "paternity leave": [
+    {
+      "p": "phr",
+      "zh": "陪產假；父親育嬰假",
+      "src": "app",
+      "ai": [
+        [
+          "Ken arranged paternity leave so he could care for his newborn twins.",
+          "Ken 安排了陪產假，好照顧剛出生的雙胞胎。"
+        ],
+        [
+          "The revised policy gives fathers six weeks of paid paternity leave.",
+          "修訂後的政策提供父親六週有薪陪產假。"
+        ]
+      ]
+    }
+  ],
+  "grievance": [
+    {
+      "p": "n",
+      "zh": "申訴；不滿",
+      "src": "app",
+      "ai": [
+        [
+          "Employees can file a grievance with human resources.",
+          "員工可以向人資部門提出申訴。"
+        ],
+        [
+          "The manager addressed her grievance promptly.",
+          "經理迅速處理了她的不滿。"
+        ]
+      ]
+    }
+  ],
+  "harassment": [
+    {
+      "p": "n",
+      "zh": "騷擾",
+      "src": "app",
+      "ai": [
+        [
+          "The company has a clear policy against workplace harassment.",
+          "公司有明確的職場騷擾防治政策。"
+        ],
+        [
+          "Staff should report harassment to human resources.",
+          "員工應向人資部門通報騷擾事件。"
+        ]
+      ]
+    }
+  ],
+  "misconduct": [
+    {
+      "p": "n",
+      "zh": "不當行為；失職",
+      "src": "app",
+      "ai": [
+        [
+          "The investigation found no evidence of misconduct.",
+          "調查未發現不當行為的證據。"
+        ],
+        [
+          "Serious misconduct may lead to disciplinary action.",
+          "嚴重失職可能導致懲處。"
+        ]
+      ]
+    }
+  ],
+  "disciplinary": [
+    {
+      "p": "adj",
+      "zh": "懲戒的；紀律處分的",
+      "src": "app",
+      "ai": [
+        [
+          "The employee received a disciplinary warning.",
+          "該員工收到一份懲戒警告。"
+        ],
+        [
+          "The manager followed the disciplinary procedure.",
+          "經理依照紀律處分程序辦理。"
+        ]
+      ]
+    }
+  ],
+  "suspension": [
+    {
+      "p": "n",
+      "zh": "停職；暫停",
+      "src": "app",
+      "ai": [
+        [
+          "The policy allows suspension during an investigation.",
+          "這項政策允許在調查期間暫時停職。"
+        ],
+        [
+          "The service suspension will last two hours.",
+          "服務將暫停兩小時。"
+        ]
+      ]
+    }
+  ],
+  "collective bargaining": [
+    {
+      "p": "phr",
+      "zh": "集體協商",
+      "src": "app",
+      "ai": [
+        [
+          "Collective bargaining begins after the new representatives are elected.",
+          "新代表選出後將開始集體協商。"
+        ],
+        [
+          "The parties reached an agreement through collective bargaining.",
+          "雙方透過集體協商達成協議。"
+        ]
+      ]
+    }
+  ],
+  "notice period": [
+    {
+      "p": "phr",
+      "zh": "預告期間；離職預告期",
+      "src": "app",
+      "ai": [
+        [
+          "Her notice period ends at the end of the month.",
+          "她的離職預告期在月底結束。"
+        ],
+        [
+          "Please confirm the required notice period with human resources.",
+          "請向人資確認所需的預告期間。"
+        ]
+      ]
+    }
+  ],
+  "exit interview": [
+    {
+      "p": "phr",
+      "zh": "離職面談",
+      "src": "app",
+      "ai": [
+        [
+          "Human resources scheduled an exit interview for Friday.",
+          "人資安排在星期五進行離職面談。"
+        ],
+        [
+          "The exit interview covered feedback about the workplace.",
+          "離職面談內容包括對職場的回饋。"
+        ]
+      ]
+    }
+  ],
+  "manpower": [
+    {
+      "p": "n",
+      "zh": "人力；人力資源",
+      "src": "app",
+      "ai": [
+        [
+          "The warehouse needs extra manpower during the holiday rush.",
+          "假期旺季期間，倉庫需要增加人力。"
+        ],
+        [
+          "A shortage of trained manpower delayed the equipment installation.",
+          "熟練人力不足，導致設備安裝延後。"
+        ]
+      ]
+    }
+  ],
+  "confidentiality": [
+    {
+      "p": "n",
+      "zh": "保密；機密性",
+      "src": "app",
+      "ai": [
+        [
+          "The agreement requires strict confidentiality.",
+          "這份協議要求嚴格保密。"
+        ],
+        [
+          "All staff received training on client confidentiality.",
+          "所有員工都接受了客戶資料保密訓練。"
+        ]
+      ]
+    }
+  ],
+  "joint venture": [
+    {
+      "p": "phr",
+      "zh": "合資企業；合資合作",
+      "src": "app",
+      "ai": [
+        [
+          "The two firms established a joint venture in Taiwan.",
+          "兩家公司在台灣成立了一家合資企業。"
+        ],
+        [
+          "The joint venture will develop new medical equipment.",
+          "這家合資企業將開發新的醫療設備。"
+        ]
+      ]
+    }
+  ],
+  "franchisee": [
+    {
+      "p": "n",
+      "zh": "加盟業者；被授權加盟者",
+      "src": "app",
+      "ai": [
+        [
+          "The franchisee must follow the brand guidelines.",
+          "加盟業者必須遵守品牌規範。"
+        ],
+        [
+          "Each franchisee receives support from the head office.",
+          "每位加盟業者都能獲得總部支援。"
+        ]
+      ]
+    }
+  ],
+  "divest": [
+    {
+      "p": "v",
+      "zh": "出售；剝離（資產或業務）",
+      "src": "app",
+      "ai": [
+        [
+          "The company plans to divest its overseas division.",
+          "公司計畫出售海外部門。"
+        ],
+        [
+          "They decided to divest assets outside their core business.",
+          "他們決定剝離核心業務以外的資產。"
+        ]
+      ]
+    }
+  ],
+  "venture capital": [
+    {
+      "p": "phr",
+      "zh": "創業投資；風險投資",
+      "src": "app",
+      "ai": [
+        [
+          "The startup raised venture capital from two firms.",
+          "這家新創公司向兩家公司募得創業投資。"
+        ],
+        [
+          "Venture capital helped fund the product launch.",
+          "創業投資協助支付產品上市所需資金。"
+        ]
+      ]
+    }
+  ],
+  "spin-off": [
+    {
+      "p": "n",
+      "zh": "衍生公司；分拆事業",
+      "src": "app",
+      "ai": [
+        [
+          "The payment division became a spin-off after the company reorganized.",
+          "公司重整後，支付部門成為一家衍生公司。"
+        ],
+        [
+          "The spin-off now develops software for small banks.",
+          "這家分拆成立的公司現在為小型銀行開發軟體。"
+        ]
+      ]
+    }
+  ],
+  "acquirer": [
+    {
+      "p": "n",
+      "zh": "收購方",
+      "src": "app",
+      "ai": [
+        [
+          "The acquirer plans to retain the existing management team.",
+          "收購方計畫留任現有管理團隊。"
+        ],
+        [
+          "The acquirer completed its review of the target company.",
+          "收購方已完成對目標公司的審查。"
+        ]
+      ]
+    }
+  ],
+  "tycoon": [
+    {
+      "p": "n",
+      "zh": "大亨；富豪",
+      "src": "app",
+      "ai": [
+        [
+          "The business tycoon invested in renewable energy.",
+          "這位商業大亨投資了再生能源。"
+        ],
+        [
+          "A local tycoon funded the new research center.",
+          "一位當地富豪資助了新的研究中心。"
+        ]
+      ]
+    }
+  ],
+  "untapped": [
+    {
+      "p": "adj",
+      "zh": "尚未開發的；未充分利用的",
+      "src": "app",
+      "ai": [
+        [
+          "The report identified untapped demand in rural areas.",
+          "報告指出鄉村地區仍有尚未開發的需求。"
+        ],
+        [
+          "The company sees untapped potential in this market.",
+          "公司看好這個市場尚未發揮的潛力。"
+        ]
+      ]
+    }
+  ],
+  "saturation": [
+    {
+      "p": "n",
+      "zh": "飽和；市場飽和",
+      "src": "app",
+      "ai": [
+        [
+          "With most households already subscribed, the streaming market is nearing saturation.",
+          "由於多數家庭都已訂閱，串流市場正接近飽和。"
+        ],
+        [
+          "The study measures market saturation before the company opens another branch.",
+          "公司再開一家分店前，先透過研究評估市場飽和程度。"
+        ]
+      ]
+    }
+  ],
+  "foothold": [
+    {
+      "p": "n",
+      "zh": "立足點；據點",
+      "src": "app",
+      "ai": [
+        [
+          "The retailer gained a foothold in the regional market.",
+          "這家零售商在區域市場站穩了腳步。"
+        ],
+        [
+          "A local partnership gave us a foothold overseas.",
+          "當地合作夥伴讓我們在海外建立了據點。"
+        ]
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "p": "adj",
+      "zh": "新興的；崛起中的",
+      "src": "app",
+      "ai": [
+        [
+          "The company is expanding into emerging markets.",
+          "公司正拓展新興市場。"
+        ],
+        [
+          "Emerging technologies may change the industry.",
+          "新興科技可能改變這個產業。"
+        ]
+      ]
+    }
+  ],
+  "localization": [
+    {
+      "p": "n",
+      "zh": "在地化；本地化",
+      "src": "app",
+      "ai": [
+        [
+          "Localization made the app easier for local users to navigate.",
+          "在地化讓當地使用者更容易操作這款應用程式。"
+        ],
+        [
+          "The team handles product localization for each market.",
+          "團隊負責各市場的產品在地化。"
+        ]
+      ]
+    }
+  ],
+  "outreach": [
+    {
+      "p": "n",
+      "zh": "外展；接觸推廣",
+      "src": "app",
+      "ai": [
+        [
+          "The bank launched an outreach program to help small exporters understand trade finance.",
+          "銀行推出推廣計畫，協助小型出口商了解貿易融資。"
+        ],
+        [
+          "Our outreach team visited local schools to introduce the apprenticeship program.",
+          "我們的推廣團隊走訪當地學校，介紹學徒培訓計畫。"
+        ]
+      ]
+    }
+  ],
+  "clientele": [
+    {
+      "p": "n",
+      "zh": "客戶群",
+      "src": "app",
+      "ai": [
+        [
+          "The restaurant has a loyal business clientele.",
+          "這家餐廳擁有忠實的商務客戶群。"
+        ],
+        [
+          "The new service is designed for an international clientele.",
+          "這項新服務是為國際客戶群設計的。"
+        ]
+      ]
+    }
+  ],
+  "viability": [
+    {
+      "p": "n",
+      "zh": "可行性；生存能力",
+      "src": "app",
+      "ai": [
+        [
+          "The lender asked for updated cash-flow figures to assess the project’s viability.",
+          "貸款機構要求提供最新現金流數據，以評估專案是否可行。"
+        ],
+        [
+          "Rising material costs have put the plan’s financial viability at risk.",
+          "材料成本上漲，讓這項計畫的財務可行性受到影響。"
+        ]
+      ]
+    }
+  ],
+  "market penetration": [
+    {
+      "p": "phr",
+      "zh": "市場滲透；市場占有率拓展",
+      "src": "app",
+      "ai": [
+        [
+          "A local distributor helped the brand increase its market penetration in central Taiwan.",
+          "當地經銷商協助這個品牌拓展在台灣中部的市場滲透率。"
+        ],
+        [
+          "The report compares the product’s market penetration across three age groups.",
+          "這份報告比較該產品在三個年齡層中的市場滲透情況。"
+        ]
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "p": "n",
+      "zh": "發展藍圖；路線圖",
+      "src": "app",
+      "ai": [
+        [
+          "The product roadmap shows which features will be released in each quarter.",
+          "產品發展藍圖列出各項功能預計在哪一季推出。"
+        ],
+        [
+          "The board asked for a clear roadmap for reducing operating costs.",
+          "董事會要求提出明確的營運成本降低計畫。"
+        ]
+      ]
+    }
+  ],
+  "scalable": [
+    {
+      "p": "adj",
+      "zh": "可擴展的；可擴充的",
+      "src": "app",
+      "ai": [
+        [
+          "They designed a scalable system for future growth.",
+          "他們設計了一套可配合未來成長擴充的系統。"
+        ],
+        [
+          "The solution is scalable across multiple branches.",
+          "這套解決方案可擴展至多個分部。"
+        ]
+      ]
+    }
+  ],
+  "visionary": [
+    {
+      "p": "adj",
+      "zh": "有遠見的",
+      "src": "app",
+      "ai": [
+        [
+          "The visionary founder anticipated changes in the industry.",
+          "這位有遠見的創辦人預見了產業變化。"
+        ],
+        [
+          "Her visionary strategy attracted new investors.",
+          "她具遠見的策略吸引了新投資人。"
+        ]
+      ]
+    }
+  ],
+  "turnaround": [
+    {
+      "p": "n",
+      "zh": "好轉；扭轉；周轉時間",
+      "src": "app",
+      "ai": [
+        [
+          "After two difficult years, the retailer’s turnaround began with a smaller product range.",
+          "經歷兩年困境後，這家零售商從縮減產品種類開始扭轉局面。"
+        ],
+        [
+          "The repair center promises a three-day turnaround for standard service calls.",
+          "維修中心承諾一般服務案件可在三天內處理完畢。"
+        ]
+      ]
+    }
+  ],
+  "exclusivity": [
+    {
+      "p": "n",
+      "zh": "獨家權；專屬性",
+      "src": "app",
+      "ai": [
+        [
+          "The contract grants exclusivity for the first year.",
+          "合約授予第一年的獨家權。"
+        ],
+        [
+          "The brand values exclusivity in its distribution agreements.",
+          "這個品牌重視經銷協議中的專屬權。"
+        ]
+      ]
+    }
+  ],
+  "licensing": [
+    {
+      "p": "n",
+      "zh": "授權；許可",
+      "src": "app",
+      "ai": [
+        [
+          "The software licensing agreement limits how many devices each account can use.",
+          "軟體授權協議限制每個帳號可使用的裝置數量。"
+        ],
+        [
+          "The brand earns licensing fees when another firm uses its characters.",
+          "其他公司使用該品牌角色時，品牌方會收取授權費。"
+        ]
+      ]
+    }
+  ],
+  "due diligence": [
+    {
+      "p": "phr",
+      "zh": "盡職調查",
+      "src": "app",
+      "ai": [
+        [
+          "The buyer completed due diligence before signing.",
+          "買方在簽約前完成了盡職調查。"
+        ],
+        [
+          "Our legal team is conducting due diligence on the supplier.",
+          "我們的法務團隊正在對供應商進行盡職調查。"
+        ]
+      ]
+    }
+  ],
+  "upturn": [
+    {
+      "p": "n",
+      "zh": "好轉；上升趨勢",
+      "src": "app",
+      "ai": [
+        [
+          "Orders showed an upturn in March after a quiet start to the year.",
+          "年初較為冷清後，三月訂單開始回升。"
+        ],
+        [
+          "The company delayed hiring until the upturn in demand looked stable.",
+          "公司等到需求回升趨勢穩定後才恢復招募。"
+        ]
+      ]
+    }
+  ],
+  "profit margin": [
+    {
+      "p": "phr",
+      "zh": "利潤率",
+      "src": "app",
+      "ai": [
+        [
+          "The retailer improved its profit margin this quarter.",
+          "這家零售商本季提高了利潤率。"
+        ],
+        [
+          "Higher shipping costs reduced the profit margin.",
+          "較高的運費降低了利潤率。"
+        ]
+      ]
+    }
+  ],
+  "downtime": [
+    {
+      "p": "n",
+      "zh": "停機時間；停工時間",
+      "src": "app",
+      "ai": [
+        [
+          "Regular maintenance helps reduce machine downtime.",
+          "定期保養有助於減少機器停機時間。"
+        ],
+        [
+          "The system upgrade caused two hours of downtime.",
+          "系統升級造成兩小時的停機時間。"
+        ]
+      ]
+    }
+  ],
+  "fabricate": [
+    {
+      "p": "v",
+      "zh": "製造；加工；捏造",
+      "src": "app",
+      "ai": [
+        [
+          "The workshop fabricates custom brackets for the production line.",
+          "這間工坊為生產線加工客製化支架。"
+        ],
+        [
+          "The employee was dismissed for fabricating delivery records.",
+          "這名員工因捏造出貨紀錄而遭到解雇。"
+        ]
+      ]
+    }
+  ],
+  "spare part": [
+    {
+      "p": "phr",
+      "zh": "備用零件",
+      "src": "app",
+      "ai": [
+        [
+          "The technician ordered spare parts before servicing the aging machines.",
+          "技術人員在維修老舊機器前先訂購了備用零件。"
+        ],
+        [
+          "Without the correct spare part, the repair had to wait until Monday.",
+          "缺少合適的備用零件，維修只能等到星期一。"
+        ]
+      ]
+    }
+  ],
+  "packaging": [
+    {
+      "p": "n",
+      "zh": "包裝；包裝材料",
+      "src": "app",
+      "ai": [
+        [
+          "The new packaging protects the product during shipping.",
+          "新包裝能在運送過程中保護產品。"
+        ],
+        [
+          "The team is testing recyclable packaging.",
+          "團隊正在測試可回收包裝。"
+        ]
+      ]
+    }
+  ],
+  "stockpile": [
+    {
+      "p": "v",
+      "zh": "囤積；儲備",
+      "src": "app",
+      "ai": [
+        [
+          "The manufacturer stockpiled essential components before the supplier’s factory closed for the holiday.",
+          "供應商工廠假期停工前，製造商先儲備了必要零件。"
+        ],
+        [
+          "Hospitals were asked not to stockpile protective equipment beyond their needs.",
+          "醫院接獲通知，不要囤積超出需求的防護設備。"
+        ]
+      ]
+    }
+  ],
+  "perishable": [
+    {
+      "p": "adj",
+      "zh": "易腐壞的",
+      "src": "app",
+      "ai": [
+        [
+          "Perishable goods must be stored at the right temperature.",
+          "易腐商品必須以適當溫度保存。"
+        ],
+        [
+          "The shipment contains perishable food products.",
+          "這批貨物包含易腐食品。"
+        ]
+      ]
+    }
+  ],
+  "stocktaking": [
+    {
+      "p": "n",
+      "zh": "盤點存貨；清點庫存",
+      "src": "app",
+      "ai": [
+        [
+          "The shop closed for half a day while staff completed the annual stocktaking.",
+          "店員進行年度盤點，店面因此暫停營業半天。"
+        ],
+        [
+          "Stocktaking revealed that several high-value items were missing.",
+          "盤點結果顯示有幾件高價商品短少。"
+        ]
+      ]
+    }
+  ]
+}

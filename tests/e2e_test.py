@@ -60,14 +60,14 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['日常生活', '旅遊英文', '工作與商務', '多益主題', '學術與科技', '社會與世界', '多益核心字彙'], cats
+            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '多益核心字彙'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
             # 首頁不能有 A–Z 字母索引
             text = page.locator('#view-home').inner_text()
             assert 'A-Z' not in text and 'A–Z' not in text, 'home shows A-Z'
-        check('首頁 1-2. 首頁是主題探索（搜尋列、今日主題、6 大分類，沒有 A–Z）', t_home)
+        check('首頁：16 個商務與實用主題、保留多益核心字彙，沒有 A–Z', t_home)
 
         def topic_pages():
             n = page.locator('#topic-body .pager').first.locator('button').count()
@@ -88,27 +88,23 @@ def main():
             return out
 
         def t_topic_flow():
-            page.locator('.cat-card', has_text='旅遊英文').click()
-            expect(page.locator('#cat-body .topic-card')).to_have_count(7)
-            page.locator('.topic-card', has_text='機場與搭飛機').click()
-            expect(page.locator('#topic-body h3').first).to_contain_text('報到與行李')
+            page.locator('.cat-card', has_text='職場與辦公').click()
+            expect(page.locator('#cat-body .topic-card')).to_have_count(4)
+            page.locator('.topic-card', has_text='辦公室').click()
+            expect(page.locator('#topic-body h3').first).to_contain_text('辦公設備與用品')
             sections = topic_all('#topic-body section h3')
-            assert any('航班異動' in s for s in sections), sections
+            assert any('辦公' in s or '用品' in s for s in sections), sections
             # 同一個主題裡沒有重複的字，標題的字數等於全部頁面的字數
             ws = [w.strip().lower() for w in topic_all('#topic-body .wr-word')]
             assert len(ws) == len(set(ws)), [w for w in ws if ws.count(w) > 1]
             count = int(re.search(r'\((\d+)\)', page.locator('#topic-body .page-title').inner_text()).group(1))
             assert count == len(ws), (count, len(ws))
-            for i in range(1, topic_pages() + 1):
-                goto_page(i)
-                if page.locator('#topic-body .wr-word', has_text='layover').count():
-                    break
-            page.locator('.word-row', has_text='layover').locator('.wr-main').click()
+            page.locator('.word-row', has_text='photocopier').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
-            expect(page.locator('.entry .headword')).to_have_text('layover')
-            expect(page.locator('#entry-topics')).to_contain_text('機場與搭飛機')
+            expect(page.locator('.entry .headword')).to_have_text('photocopier')
+            expect(page.locator('#entry-topics')).to_contain_text('辦公室')
             page.locator('#dict-body .back').click()
-            expect(page.locator('#topic-body .page-title')).to_contain_text('機場與搭飛機')
+            expect(page.locator('#topic-body .page-title')).to_contain_text('辦公室')
         check('主題 4-5. 主題 → 子主題 → 情境分組單字 → 辭典條目 → 回到主題', t_topic_flow)
 
         def t_topic_sort():
@@ -116,8 +112,8 @@ def main():
             expect(page.locator('#topic-sort .on')).to_have_text('依常用程度')
             page.locator('#topic-sort [data-sort=level]').click()
             heads = topic_all('#topic-body section h3')
-            levels = list(dict.fromkeys(h.split()[0] for h in heads))
-            assert levels == ['初階', '中階', '進階'], heads
+            levels = list(dict.fromkeys(next((x for x in ['TOEIC 600', 'TOEIC 750', 'TOEIC 900'] if h.startswith(x)), '') for h in heads))
+            assert levels == ['TOEIC 600', 'TOEIC 750', 'TOEIC 900'], heads
             page.locator('#topic-sort [data-sort=context]').click()
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
 
@@ -134,15 +130,15 @@ def main():
         check('多益核心字彙：依詞彙表分組、每單元 60 字', t_core_units)
 
         def t_topic_list():
-            # 接續上一題：多益必考字 第 1 單元（60 字，每頁 20 字）
+            # 接續上一題：多益必考字 第 1 單元（60 字，每頁 40 字）
             rows = page.locator('#topic-body .word-row')
-            expect(rows).to_have_count(20)
-            expect(page.locator('#topic-body .pager').first.locator('button')).to_have_count(3)
+            expect(rows).to_have_count(40)
+            expect(page.locator('#topic-body .pager').first.locator('button')).to_have_count(2)
             # 每個字都有英文詞性、中文、書籤和發音按鈕；詞性不用中文
             poses = page.locator('#topic-body .wr-pos').all_text_contents()
-            assert len(poses) == 20 and all(re.fullmatch(r'noun(\[(C|U|C/U)\])?|vt\.|vi\.|vi\./vt\.|v\.|[a-z]+\.', x) for x in poses), poses
-            expect(page.locator('#topic-body [data-save]')).to_have_count(20)
-            expect(page.locator('#topic-body [data-say-word]')).to_have_count(20)
+            assert len(poses) == 40 and all(re.fullmatch(r'noun(\[(C|U|C/U)\])?|vt\.|vi\.|vi\./vt\.|v\.|[a-z]+\.', x) for x in poses), poses
+            expect(page.locator('#topic-body [data-save]')).to_have_count(40)
+            expect(page.locator('#topic-body [data-say-word]')).to_have_count(40)
             first_p1 = page.locator('#topic-body .wr-word').first.inner_text()
             page.locator('#topic-body .pager').first.locator('button', has_text='2').click()
             expect(page.locator('#topic-body .pager').first.locator('button.on')).to_have_text('2')
@@ -205,9 +201,13 @@ def main():
 
         def t_partial():
             page.click('nav [data-view=home]')
-            page.locator('.cat-card', has_text='學術與科技').click()
-            page.locator('.topic-card', has_text='網路與數位科技').click()
-            page.locator('.word-row', has_text='social media').locator('.wr-main').click()
+            page.locator('.cat-card', has_text='商業與財經').click()
+            page.locator('.topic-card', has_text='業務拓展').click()
+            for i in range(1, topic_pages() + 1):
+                goto_page(i)
+                if page.locator('.word-row', has_text='market penetration').count():
+                    break
+            page.locator('.word-row', has_text='market penetration').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('#dict-body')).to_contain_text('沒有收錄這個片語')
             expect(page.locator('#dict-body')).to_contain_text('App 編輯整理')
@@ -229,15 +229,15 @@ def main():
 
         def t_levels():
             page.click('nav [data-view=home]')
-            page.locator('.cat-card', has_text='工作與商務').click()
-            page.locator('.topic-card', has_text='專案管理').click()
-            for lv in ['初階', '中階', '進階']:
+            page.locator('.cat-card', has_text='職場與辦公').click()
+            page.locator('.topic-card', has_text='辦公室').click()
+            for lv in ['TOEIC 600', 'TOEIC 750', 'TOEIC 900']:
                 chip = page.locator('#topic-body .lvl', has_text=lv).first.inner_text()
                 assert int(chip.split()[-1]) >= 3, chip
             words = topic_all('#topic-body .wr-word')
-            for w in ['allocate', 'implement', 'expenditure']:
+            for w in ['photocopier', 'receptionist', 'malfunction']:
                 assert w in words, (w, words)
-        check('主題詞彙有初階、中階、進階，每種至少 3 個（含 allocate、implement 等）', t_levels)
+        check('商務主題包含 TOEIC 600、750、900 程度詞彙', t_levels)
 
         def t_senses():
             search('board')
@@ -427,7 +427,7 @@ def main():
                 assert over <= 0, f'{view} 頁面左右溢出 {over}px'
             page.click('nav [data-view=home]')
             page.screenshot(path=str(ROOT / 'tests' / 'screenshot-home.png'), full_page=True)
-            page.locator('.cat-card', has_text='工作與商務').click()
+            page.locator('.cat-card', has_text='職場與辦公').click()
             page.locator('.topic-card').first.click()
             page.wait_for_selector('#topic-body .word-row')
             over = page.evaluate('document.documentElement.scrollWidth - window.innerWidth')

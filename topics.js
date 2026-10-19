@@ -18,6 +18,10 @@ const CAT_ICON = {
   toeic: '<svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>',
   academic: '<svg class="i" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>',
   society: '<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>',
+  office: '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg>',
+  commerce: '<svg class="i" viewBox="0 0 24 24"><path d="M3 20h18"/><path d="M6 16v-5M11 16V8M16 16v-7M21 4l-6 5-4-3-7 5"/></svg>',
+  tech: '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>',
+  services: '<svg class="i" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>',
   core: '<svg class="i" viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h6"/></svg>',
 };
 
@@ -114,34 +118,52 @@ let currentTopic = null;
 let topicSort = 'context';
 try { topicSort = localStorage.getItem('topicSort') || 'context'; } catch {}
 
-// 難度由 tools/build_topics.py 依 BNC／COCA 詞頻計算：初階前 2,500 名、中階 2,501～8,000、進階 8,000 名以後
-const LEVEL = { B: '初階', I: '中階', A: '進階' };
-const LEVEL_EN = { B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
+// 多益程度由 tools/build_topics.py 依 BNC／COCA 詞頻計算：前 4,000 名 TOEIC 600、4,001～10,000 名 750、10,000 名以後 900
+const LEVELS = ['600', '750', '900'];
+const CORE_LEVELS = ['B', 'I', 'A'];
+const LEVEL = { 600: 'TOEIC 600', 750: 'TOEIC 750', 900: 'TOEIC 900', B: '初階', I: '中階', A: '進階' };
+const LEVEL_EN = { 600: '常見', 750: '中高階', 900: '進階', B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
 
 // 主題單字的統一資料格式（列表、收藏、測驗共用）：
-// { id, word, partOfSpeech, meaning, category, page, audioUrl, key, section, level, rank }
+// { id, word, partOfSpeech, meaning, category, level, frequencyRank, page, audioUrl, key, lv, section }
+// level 是多益程度（TOEIC 600／750／900），frequencyRank 是 BNC／COCA 詞頻排名（數字越小越常見）
 // 沒有預錄音檔（audioUrl 為空），發音用手機內建英文語音
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 40;
 let topicPage = 1;
+let topicFilter = 'all';
+try { topicFilter = localStorage.getItem('topicFilter') || 'all'; } catch {}
 
 function topicItems(tid, t, sort = topicSort) {
-  let list = t.sections.flatMap(s => s.words.map(w => ({ w, section: s.zh, sectionEn: s.en })));
+  // id 依主題原本的順序編號，換排序或篩選時不會變
+  let list = t.sections.flatMap(s => s.words.map(w => ({ w, section: s.zh, sectionEn: s.en })))
+    .map((x, i) => ({ ...x, n: i + 1 }));
   if (sort !== 'context') {
     list = [...list].sort((a, b) => (a.w.r || 1e9) - (b.w.r || 1e9));
-    if (sort === 'level') list.sort((a, b) => 'BIA'.indexOf(a.w.lv) - 'BIA'.indexOf(b.w.lv));
+    if (sort === 'level') {
+      const order = t.auto ? CORE_LEVELS : LEVELS;
+      list.sort((a, b) => order.indexOf(a.w.lv) - order.indexOf(b.w.lv));
+    }
   }
-  return list.map(({ w, section, sectionEn }, i) => ({
-    id: `${tid}-${String(i + 1).padStart(3, '0')}`,
+  return list.map(({ w, section, sectionEn, n }) => ({
+    id: `${tid}-${String(n).padStart(3, '0')}`,
     word: w.w,
     partOfSpeech: w.ps || '',
     meaning: w.g,
     category: `${t.en} ${t.zh}`,
-    page: Math.floor(i / PAGE_SIZE) + 1,
+    level: LEVEL[w.lv] || '',
+    frequencyRank: w.r || null,
+    page: 1,
     audioUrl: '',
     key: w.k || Dict.norm(w.w),
+    lv: w.lv,
     section, sectionEn,
-    level: w.lv, rank: w.r,
   }));
+}
+
+// 依多益程度或「最不熟」（測驗答錯過）篩選，再依每頁字數編頁碼
+function filterItems(items, f) {
+  const out = f === 'all' ? items : f === 'weak' ? items.filter(it => QuizStats.weak(it.key)) : items.filter(it => it.lv === f);
+  return out.map((it, i) => ({ ...it, page: Math.floor(i / PAGE_SIZE) + 1 }));
 }
 
 const BOOKMARK = {
@@ -156,7 +178,7 @@ function wordRow(it) {
       <span class="wr-top"><span class="wr-word">${esc(it.word)}</span>${it.partOfSpeech ? `<span class="wr-pos">${esc(it.partOfSpeech)}</span>` : ''}</span>
       <span class="wr-gloss">${esc(it.meaning)}</span>
     </button>
-    ${it.level ? `<span class="lvl lvl-${it.level}">${LEVEL[it.level]}</span>` : ''}
+    ${it.lv ? `<span class="lvl lvl-${it.lv}">${it.level}</span>` : ''}
     <button class="icon-btn wr-save ${saved ? 'on' : ''}" data-save="${esc(it.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'} ${esc(it.word)}">${saved ? BOOKMARK.on : BOOKMARK.off}</button>
     <button class="icon-btn" data-say-word="${esc(it.word)}" aria-label="播放 ${esc(it.word)} 的發音">${ICON.speaker}</button>
   </div>`;
@@ -181,13 +203,21 @@ async function renderTopic() {
   const t = data.topics[currentTopic];
   if (!t) { show('home'); return; }
   const c = data.categories.find(x => x.id === t.cat);
+  const topicHeading = t.auto
+    ? `${esc(t.zh)} <span class="en">${esc(t.en)}</span>`
+    : `${esc(currentTopic)} <span class="en">${esc(t.zh)}</span>`;
+  const topicLevels = t.auto ? CORE_LEVELS : LEVELS;
   $('#title').textContent = t.zh;
-  currentItems = topicItems(currentTopic, t);
+  const all = topicItems(currentTopic, t);
+  if (!['all', 'weak', ...topicLevels].includes(topicFilter)) topicFilter = 'all';
+  currentItems = filterItems(all, topicFilter);
+  const counts = { all: all.length, weak: all.filter(it => QuizStats.weak(it.key)).length };
+  for (const l of topicLevels) counts[l] = all.filter(it => it.lv === l).length;
   const pages = Math.max(1, Math.ceil(currentItems.length / PAGE_SIZE));
   topicPage = Math.min(Math.max(1, topicPage), pages);
   const pageItems = currentItems.filter(it => it.page === topicPage);
   const groups = topicSort === 'context' ? groupRows(pageItems, it => it.section)
-    : topicSort === 'level' ? groupRows(pageItems, it => it.level) : [['', pageItems]];
+    : topicSort === 'level' ? groupRows(pageItems, it => it.lv) : [['', pageItems]];
   const list = groups.map(([g, its]) => `
       <section class="card stack">
         ${g ? `<h3>${topicSort === 'level' ? `${LEVEL[g]} <span class="en">${LEVEL_EN[g]}</span>` : `${esc(g)} <span class="en">${esc(its[0].sectionEn)}</span>`}</h3>` : ''}
@@ -198,7 +228,7 @@ async function renderTopic() {
   box.innerHTML = `
     <button class="ghost back" data-cat="${c.id}">← ${esc(c.zh)}</button>
     <div>
-      <h2 class="page-title">${esc(t.zh)} <span class="en">${esc(t.en)}</span> <span class="count">(${t.count})</span></h2>
+      <h2 class="page-title">${topicHeading} <span class="count">(${t.count})</span></h2>
       <p class="muted" style="margin:4px 0 8px">${esc(t.intro)}</p>
       <div class="row wrap">${levelChips(t)}</div>
     </div>
@@ -207,16 +237,22 @@ async function renderTopic() {
       <button data-sort="level" class="${topicSort === 'level' ? 'on' : ''}">依難度</button>
       <button data-sort="freq" class="${topicSort === 'freq' ? 'on' : ''}">依常用程度</button>
     </div>
+    <div class="filter-chips" id="topic-filter" role="group" aria-label="依難度篩選">
+      ${[['all', '全部'], ...topicLevels.map(l => [l, LEVEL[l]]), ['weak', '最不熟']].map(([k, label]) =>
+        `<button data-filter="${k}" class="${topicFilter === k ? 'on' : ''}" aria-pressed="${topicFilter === k}">${label} <span class="n">${counts[k]}</span></button>`).join('')}
+    </div>
     ${pager}
-    ${list}
+    ${currentItems.length ? list : `<div class="card empty">${topicFilter === 'weak'
+      ? '還沒有答錯過的字。做一次「練習」或「開始測驗」，答錯的字會出現在這裡。'
+      : '這個主題沒有這個程度的單字。'}</div>`}
     ${pager}
     <p class="source">${t.auto
       ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為整理過的主要詞義。'
       : '主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文。'}點單字可以看完整辭典條目。
-    難度依 BNC／COCA 詞頻排名計算：初階為前 2,500 名、中階 2,501～8,000 名、進階為 8,000 名以後；片語依組成單字中最少見的那個字計算。</p>
+    多益程度依 BNC／COCA 詞頻排名估計：前 4,000 名為 TOEIC 600、4,001～10,000 名為 750、10,000 名以後為 900；片語依組成單字中最少見的那個字計算。「最不熟」是在練習或測驗中答錯次數比答對多的字。</p>
     <div class="topic-actions">
-      <button id="t-practice">練習</button>
-      <button id="t-quiz" class="primary">開始測驗</button>
+      <button id="t-practice" ${currentItems.length ? '' : 'disabled'}>練習</button>
+      <button id="t-quiz" class="primary" ${currentItems.length ? '' : 'disabled'}>開始測驗</button>
     </div>`;
   $('#topic-sort').onclick = e => {
     const s = e.target.closest('[data-sort]')?.dataset.sort;
@@ -224,6 +260,14 @@ async function renderTopic() {
     topicSort = s;
     topicPage = 1;
     try { localStorage.setItem('topicSort', s); } catch {}
+    renderTopic();
+  };
+  $('#topic-filter').onclick = e => {
+    const f = e.target.closest('[data-filter]')?.dataset.filter;
+    if (!f || f === topicFilter) return;
+    topicFilter = f;
+    topicPage = 1;
+    try { localStorage.setItem('topicFilter', f); } catch {}
     renderTopic();
   };
   box.querySelectorAll('.pager').forEach(pg => pg.onclick = e => {
@@ -234,8 +278,10 @@ async function renderTopic() {
     $('#topic-body .pager')?.scrollIntoView({ block: 'start' });
   });
   // 練習：這一頁的字；開始測驗：整個主題隨機出題
-  $('#t-practice').onclick = () => Quiz.choose({ mode: 'practice', items: pageItems, all: currentItems, title: `${t.zh}・第 ${topicPage} 頁` });
-  $('#t-quiz').onclick = () => Quiz.choose({ mode: 'test', items: currentItems, all: currentItems, title: t.zh });
+  // 篩選後的字太少時，選項的干擾字從整個主題挑
+  const quizItems = currentItems.length ? currentItems : all;
+  $('#t-practice').onclick = () => Quiz.choose({ mode: 'practice', items: pageItems.length ? pageItems : quizItems, all, title: `${t.zh}・第 ${topicPage} 頁` });
+  $('#t-quiz').onclick = () => Quiz.choose({ mode: 'test', items: quizItems, all, title: t.zh });
 }
 
 // 列表上的書籤與發音按鈕
@@ -282,7 +328,8 @@ async function toggleItemSaved(it) {
 }
 
 function levelChips(t) {
-  return ['B', 'I', 'A'].map(l => `<span class="lvl lvl-${l}">${LEVEL[l]} ${t.levels?.[l] ?? 0}</span>`).join('');
+  const levels = t.auto ? CORE_LEVELS : LEVELS;
+  return levels.map(l => `<span class="lvl lvl-${l}">${LEVEL[l]}・${t.levels?.[l] ?? 0}</span>`).join('');
 }
 
 function openTopic(id) {

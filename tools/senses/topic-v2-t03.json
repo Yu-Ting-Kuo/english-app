@@ -1,0 +1,2245 @@
+{
+  "plywood": [
+    {
+      "p": "n",
+      "zh": "夾板；合板",
+      "src": "app",
+      "ai": [
+        [
+          "The carpenter cut the plywood to fit the cabinet doors.",
+          "木工把夾板裁切成適合櫥櫃門片的尺寸。"
+        ],
+        [
+          "Moisture-resistant plywood is recommended for the kitchen renovation.",
+          "廚房翻修建議使用防潮合板。"
+        ]
+      ]
+    }
+  ],
+  "plaster": [
+    {
+      "p": "n",
+      "zh": "灰泥；石膏",
+      "src": "app",
+      "ai": [
+        [
+          "The crew applied fresh plaster to the damaged wall.",
+          "施工人員在受損牆面重新批上灰泥。"
+        ],
+        [
+          "Please let the plaster dry before painting the ceiling.",
+          "請等石膏乾了再粉刷天花板。"
+        ]
+      ]
+    }
+  ],
+  "insulation": [
+    {
+      "p": "n",
+      "zh": "隔熱材料；絕緣",
+      "src": "app",
+      "ai": [
+        [
+          "The new insulation keeps the upper floor cooler in summer.",
+          "新的隔熱材料讓頂樓夏天更涼爽。"
+        ],
+        [
+          "An electrician checked the insulation around the exposed wires.",
+          "電工檢查了裸露電線周圍的絕緣層。"
+        ]
+      ]
+    }
+  ],
+  "staircase": [
+    {
+      "p": "n",
+      "zh": "樓梯；樓梯間",
+      "src": "app",
+      "ai": [
+        [
+          "A narrow staircase leads to the apartment\"s attic.",
+          "一座狹窄的樓梯通往公寓閣樓。"
+        ],
+        [
+          "The hotel installed a handrail along the marble staircase.",
+          "飯店沿著大理石樓梯加裝扶手。"
+        ]
+      ]
+    }
+  ],
+  "drainage": [
+    {
+      "p": "n",
+      "zh": "排水；排水系統",
+      "src": "app",
+      "ai": [
+        [
+          "The inspection found a drainage problem behind the retaining wall.",
+          "檢查發現擋土牆後方的排水系統有問題。"
+        ],
+        [
+          "Proper drainage prevents water from collecting near the foundation.",
+          "完善的排水設計可避免水積在地基附近。"
+        ]
+      ]
+    }
+  ],
+  "plumbing": [
+    {
+      "p": "n",
+      "zh": "配管工程；管線設備",
+      "src": "app",
+      "ai": [
+        [
+          "The renovation budget includes new plumbing for both bathrooms.",
+          "翻修預算包含兩間浴室的新配管工程。"
+        ],
+        [
+          "A leak in the plumbing damaged the kitchen ceiling.",
+          "管線漏水造成廚房天花板受損。"
+        ]
+      ]
+    }
+  ],
+  "wiring": [
+    {
+      "p": "n",
+      "zh": "電線配置；配線",
+      "src": "app",
+      "ai": [
+        [
+          "The electrician replaced the outdated wiring throughout the house.",
+          "電工更換了整棟房子老舊的配線。"
+        ],
+        [
+          "Faulty wiring can cause a fire, so schedule an inspection.",
+          "故障配線可能引發火災，請安排檢查。"
+        ]
+      ]
+    }
+  ],
+  "refurbishment": [
+    {
+      "p": "n",
+      "zh": "整修；翻新",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel will close one floor at a time for refurbishment.",
+          "飯店將分層暫停營業進行整修。"
+        ],
+        [
+          "After the refurbishment, the lobby will have a brighter layout.",
+          "翻新後，大廳的格局會更加明亮。"
+        ]
+      ]
+    }
+  ],
+  "restoration": [
+    {
+      "p": "n",
+      "zh": "修復；整修",
+      "src": "app",
+      "ai": [
+        [
+          "The restoration returned the historic theater to its former glory.",
+          "修復工程讓這座歷史劇院重現往日風采。"
+        ],
+        [
+          "The owner hired specialists for the restoration of the wooden windows.",
+          "屋主聘請專家修復木窗。"
+        ]
+      ]
+    }
+  ],
+  "retrofit": [
+    {
+      "p": "v",
+      "zh": "加裝；改裝（新設備或功能）",
+      "src": "app",
+      "ai": [
+        [
+          "The city plans to retrofit older buses with cleaner engines.",
+          "市府計畫替舊型公車加裝較環保的引擎。"
+        ],
+        [
+          "We retrofitted the office with energy-efficient lighting.",
+          "我們替辦公室改裝了節能照明設備。"
+        ]
+      ]
+    }
+  ],
+  "corrosion": [
+    {
+      "p": "n",
+      "zh": "腐蝕；鏽蝕",
+      "src": "app",
+      "ai": [
+        [
+          "The engineer found corrosion on the bridge\"s support beams.",
+          "工程師在橋梁支撐梁上發現鏽蝕。"
+        ],
+        [
+          "A protective coating slows corrosion in coastal buildings.",
+          "防護塗層能減緩海岸建築物的腐蝕。"
+        ]
+      ]
+    }
+  ],
+  "waterproof": [
+    {
+      "p": "adj",
+      "zh": "防水的",
+      "src": "app",
+      "ai": [
+        [
+          "The contractor used waterproof sealant around the basement windows.",
+          "承包商在地下室窗戶周圍使用防水填縫劑。"
+        ]
+      ],
+      "t": [
+        13190388
+      ],
+      "fix": {
+        "13190388": "防水功能會是加分項。"
+      }
+    }
+  ],
+  "gridlock": [
+    {
+      "p": "n",
+      "zh": "交通癱瘓；僵局",
+      "src": "app",
+      "ai": [
+        [
+          "A stalled truck caused gridlock on the expressway.",
+          "一輛故障貨車造成快速道路交通癱瘓。"
+        ],
+        [
+          "Negotiations reached gridlock over the proposed budget cuts.",
+          "雙方因預定刪減預算而陷入談判僵局。"
+        ]
+      ]
+    }
+  ],
+  "motorist": [
+    {
+      "p": "n",
+      "zh": "駕駛人；開車族",
+      "src": "app",
+      "ai": [
+        [
+          "Motorists should avoid the tunnel while crews repair the lights.",
+          "施工人員維修照明期間，駕駛人應避開該隧道。"
+        ],
+        [
+          "The sign warns motorists that the road narrows ahead.",
+          "這個標誌提醒駕駛人前方道路會縮窄。"
+        ]
+      ]
+    }
+  ],
+  "pothole": [
+    {
+      "p": "n",
+      "zh": "路面坑洞",
+      "src": "app",
+      "ai": [
+        [
+          "The driver swerved to avoid a deep pothole.",
+          "駕駛人為了閃避深坑而突然轉向。"
+        ],
+        [
+          "Residents reported several potholes after the heavy rain.",
+          "大雨過後，居民通報了好幾個路面坑洞。"
+        ]
+      ]
+    }
+  ],
+  "roadwork": [
+    {
+      "p": "n",
+      "zh": "道路施工",
+      "src": "app",
+      "ai": [
+        [
+          "Roadwork near the station will continue through Friday.",
+          "車站附近的道路施工將持續到週五。"
+        ],
+        [
+          "Allow extra travel time because of overnight roadwork.",
+          "夜間道路施工，請預留較多交通時間。"
+        ]
+      ]
+    }
+  ],
+  "carpool": [
+    {
+      "p": "v",
+      "zh": "共乘；合車通勤",
+      "src": "app",
+      "ai": [
+        [
+          "Three coworkers carpool to the office every morning.",
+          "三位同事每天早上共乘上班。"
+        ],
+        [
+          "We carpooled to the conference to reduce parking costs.",
+          "我們共乘前往研討會，以降低停車費。"
+        ]
+      ]
+    }
+  ],
+  "carriage": [
+    {
+      "p": "n",
+      "zh": "車廂；運送",
+      "src": "app",
+      "ai": [
+        [
+          "Please keep the aisle clear inside the train carriage.",
+          "請保持列車車廂走道淨空。"
+        ],
+        [
+          "The fee covers the carriage of fragile equipment.",
+          "這筆費用包含易碎設備的運送。"
+        ]
+      ]
+    }
+  ],
+  "ridership": [
+    {
+      "p": "n",
+      "zh": "乘客人數；載客量",
+      "src": "app",
+      "ai": [
+        [
+          "Ridership rose after the city added late-night trains.",
+          "市府增開深夜列車後，乘客人數有所增加。"
+        ],
+        [
+          "The transit agency tracks ridership on every route.",
+          "大眾運輸機構會追蹤每條路線的載客量。"
+        ]
+      ]
+    }
+  ],
+  "turnstile": [
+    {
+      "p": "n",
+      "zh": "旋轉柵門；驗票閘門",
+      "src": "app",
+      "ai": [
+        [
+          "Your ticket will unlock the turnstile at the station entrance.",
+          "車票可開啟車站入口的驗票閘門。"
+        ],
+        [
+          "A broken turnstile caused a long line during rush hour.",
+          "一座旋轉柵門故障，導致尖峰時段大排長龍。"
+        ]
+      ]
+    }
+  ],
+  "tram": [
+    {
+      "p": "n",
+      "zh": "電車",
+      "src": "app",
+      "ai": [
+        [
+          "She takes the tram across town instead of driving.",
+          "她搭電車穿越市區，不自己開車。"
+        ]
+      ],
+      "t": [
+        8640470
+      ],
+      "fix": {
+        "8640470": "我每天搭電車上班。"
+      }
+    }
+  ],
+  "locomotive": [
+    {
+      "p": "n",
+      "zh": "火車頭；機車頭",
+      "src": "app",
+      "ai": [
+        [
+          "The museum restored a steam locomotive from the 1920s.",
+          "博物館修復了一輛 1920 年代的蒸汽火車頭。"
+        ],
+        [
+          "A powerful locomotive pulled the freight train uphill.",
+          "一輛大馬力火車頭牽引貨運列車爬坡。"
+        ]
+      ]
+    }
+  ],
+  "nonstop": [
+    {
+      "p": "adj",
+      "zh": "直飛的；不間斷的",
+      "src": "app",
+      "ai": [
+        [
+          "After a nonstop shift, the nurses took turns resting.",
+          "連續值班後，護理師輪流休息。"
+        ]
+      ],
+      "t": [
+        23281
+      ],
+      "fix": {
+        "23281": "我們搭的是直飛美國的航班嗎？"
+      }
+    }
+  ],
+  "runway": [
+    {
+      "p": "n",
+      "zh": "跑道；伸展台",
+      "src": "app",
+      "ai": [
+        [
+          "The flight was delayed while crews inspected the runway.",
+          "工作人員檢查跑道時，航班因此延誤。"
+        ],
+        [
+          "The designer sent the collection down the runway in March.",
+          "設計師在三月讓這系列服裝登上伸展台。"
+        ]
+      ]
+    }
+  ],
+  "takeoff": [
+    {
+      "p": "n",
+      "zh": "起飛；突然走紅",
+      "src": "app",
+      "ai": [
+        [
+          "Passengers must remain seated during takeoff.",
+          "起飛期間，乘客必須留在座位上。"
+        ],
+        [
+          "The app\"s takeoff surprised even its original investors.",
+          "這款應用程式迅速走紅，連最初的投資人都感到意外。"
+        ]
+      ]
+    }
+  ],
+  "cockpit": [
+    {
+      "p": "n",
+      "zh": "駕駛艙",
+      "src": "app",
+      "ai": [
+        [
+          "Only the flight crew may enter the cockpit during the flight.",
+          "飛行途中只有機組人員可以進入駕駛艙。"
+        ],
+        [
+          "The pilot checked the instruments in the cockpit before departure.",
+          "起飛前，飛行員在駕駛艙檢查儀表。"
+        ]
+      ]
+    }
+  ],
+  "pier": [
+    {
+      "p": "n",
+      "zh": "碼頭；棧橋",
+      "src": "app",
+      "ai": [
+        [
+          "The ferry leaves from the pier beside the harbor office.",
+          "渡輪從港務辦公室旁的碼頭出發。"
+        ],
+        [
+          "A new pier will give the marina room for larger boats.",
+          "新建的棧橋將讓遊艇港能停靠更大的船。"
+        ]
+      ]
+    }
+  ],
+  "voyage": [
+    {
+      "p": "n",
+      "zh": "航程；航海旅行",
+      "src": "app",
+      "ai": [
+        [
+          "Food supplies were carefully counted before the long voyage.",
+          "長途航行前，船員仔細清點了食物存量。"
+        ]
+      ],
+      "t": [
+        31913
+      ],
+      "fix": {
+        "31913": "瑪麗展開了環遊世界的航程。"
+      }
+    }
+  ],
+  "seasick": [
+    {
+      "p": "adj",
+      "zh": "暈船的",
+      "src": "app",
+      "ai": [
+        [
+          "Several passengers felt seasick during the rough crossing.",
+          "海象不佳，幾位乘客在航行途中感到暈船。"
+        ],
+        [
+          "She took medicine before boarding because she gets seasick easily.",
+          "她很容易暈船，因此登船前先吃了藥。"
+        ]
+      ]
+    }
+  ],
+  "minivan": [
+    {
+      "p": "n",
+      "zh": "廂型休旅車",
+      "src": "app",
+      "ai": [
+        [
+          "The family rented a minivan for the weekend trip.",
+          "這家人租了一輛廂型休旅車度週末。"
+        ],
+        [
+          "A minivan can carry the team\"s equipment and six passengers.",
+          "廂型休旅車可以載運團隊裝備和六名乘客。"
+        ]
+      ]
+    }
+  ],
+  "limousine": [
+    {
+      "p": "n",
+      "zh": "豪華轎車；禮車",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel arranged a limousine to take the speakers to the venue.",
+          "飯店安排豪華轎車接送講者前往會場。"
+        ],
+        [
+          "They arrived at the gala in a white limousine.",
+          "他們搭乘白色禮車抵達晚宴。"
+        ]
+      ]
+    }
+  ],
+  "chauffeur": [
+    {
+      "p": "n",
+      "zh": "專職司機；駕駛",
+      "src": "app",
+      "ai": [
+        [
+          "Her chauffeur waited outside the hotel until the meeting ended.",
+          "會議結束前，她的司機一直在飯店外等候。"
+        ]
+      ],
+      "t": [
+        2272772
+      ],
+      "fix": {
+        "2272772": "湯姆是專職司機。"
+      }
+    }
+  ],
+  "windshield": [
+    {
+      "p": "n",
+      "zh": "擋風玻璃",
+      "src": "app",
+      "ai": [
+        [
+          "A stone cracked the windshield on the mountain road.",
+          "在山路上，一顆石頭擊裂了擋風玻璃。"
+        ],
+        [
+          "Please clear the fog from the windshield before driving.",
+          "開車前請先清除擋風玻璃上的霧氣。"
+        ]
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "p": "n",
+      "zh": "儀表板；控制面板",
+      "src": "app",
+      "ai": [
+        [
+          "The warning light appeared on the dashboard during the drive.",
+          "行駛途中，儀表板上的警示燈亮了。"
+        ],
+        [
+          "Managers can track monthly sales on the dashboard.",
+          "主管可以在控制面板上追蹤每月銷售額。"
+        ]
+      ]
+    }
+  ],
+  "odometer": [
+    {
+      "p": "n",
+      "zh": "里程表",
+      "src": "app",
+      "ai": [
+        [
+          "Check the odometer before you sign the used-car agreement.",
+          "簽中古車合約前，請先確認里程表。"
+        ],
+        [
+          "The odometer showed that the van had covered  eighty thousand kilometers.",
+          "里程表顯示這輛廂型車已行駛八萬公里。"
+        ]
+      ]
+    }
+  ],
+  "refuel": [
+    {
+      "p": "v",
+      "zh": "加油；補充燃料",
+      "src": "app",
+      "ai": [
+        [
+          "We stopped to refuel before entering the national park.",
+          "進入國家公園前，我們停車加油。"
+        ],
+        [
+          "The aircraft must refuel at the regional airport.",
+          "這架飛機必須在區域機場補充燃料。"
+        ]
+      ]
+    }
+  ],
+  "collision": [
+    {
+      "p": "n",
+      "zh": "碰撞；衝突",
+      "src": "app",
+      "ai": [
+        [
+          "The collision damaged both vehicles but caused no injuries.",
+          "這起碰撞造成兩輛車受損，所幸無人受傷。"
+        ],
+        [
+          "The new deadline creates a collision with the product launch.",
+          "新的期限與產品上市時程相衝突。"
+        ]
+      ]
+    }
+  ],
+  "outpatient": [
+    {
+      "p": "n",
+      "zh": "門診病人",
+      "src": "app",
+      "ai": [
+        [
+          "The clinic serves outpatients from the surrounding communities.",
+          "這間診所為周邊社區的門診病人提供服務。"
+        ],
+        [
+          "Outpatients can collect their prescriptions at the ground-floor pharmacy.",
+          "門診病人可以在一樓藥局領取處方藥。"
+        ]
+      ]
+    }
+  ],
+  "pediatrician": [
+    {
+      "p": "n",
+      "zh": "兒科醫師",
+      "src": "app",
+      "ai": [
+        [
+          "Ask your pediatrician which vaccinations are due this year.",
+          "請詢問兒科醫師今年需要接種哪些疫苗。"
+        ]
+      ],
+      "t": [
+        5466585
+      ],
+      "fix": {
+        "5466585": "湯姆是兒科醫師。"
+      }
+    }
+  ],
+  "prognosis": [
+    {
+      "p": "n",
+      "zh": "預後；病情預測",
+      "src": "app",
+      "ai": [
+        [
+          "The doctor gave the family a hopeful prognosis after reviewing the scans.",
+          "醫師檢視影像後，告訴家屬預後樂觀。"
+        ],
+        [
+          "Early treatment can improve the prognosis for many patients.",
+          "及早治療能改善許多病人的預後。"
+        ]
+      ]
+    }
+  ],
+  "contagious": [
+    {
+      "p": "adj",
+      "zh": "會傳染的；有感染力的",
+      "src": "app",
+      "ai": [
+        [
+          "Her enthusiasm for the project was contagious.",
+          "她對這項專案的熱情感染了大家。"
+        ]
+      ],
+      "t": [
+        1010972
+      ],
+      "fix": {
+        "1010972": "熱情是會感染他人的。"
+      }
+    }
+  ],
+  "ointment": [
+    {
+      "p": "n",
+      "zh": "藥膏；軟膏",
+      "src": "app",
+      "ai": [
+        [
+          "Apply the ointment to the rash twice a day.",
+          "每天將藥膏塗在疹子上兩次。"
+        ],
+        [
+          "The pharmacist recommended an ointment for the dry skin.",
+          "藥師建議使用軟膏改善皮膚乾燥。"
+        ]
+      ]
+    }
+  ],
+  "painkiller": [
+    {
+      "p": "n",
+      "zh": "止痛藥",
+      "src": "app",
+      "ai": [
+        [
+          "He took a painkiller after the dentist removed his tooth.",
+          "牙醫拔完他的牙齒後，他服用了止痛藥。"
+        ],
+        [
+          "Ask the pharmacist before combining this painkiller with other medicine.",
+          "將這種止痛藥與其他藥物併用前，請先詢問藥師。"
+        ]
+      ]
+    }
+  ],
+  "refill": [
+    {
+      "p": "v",
+      "zh": "重新裝滿；續領（處方藥）",
+      "src": "app",
+      "ai": [
+        [
+          "Could you refill my water bottle before the tour?",
+          "導覽開始前，可以幫我把水壺裝滿嗎？"
+        ],
+        [
+          "The clinic approved her request to refill the prescription.",
+          "診所核准了她續領處方藥的申請。"
+        ]
+      ]
+    }
+  ],
+  "anesthesia": [
+    {
+      "p": "n",
+      "zh": "麻醉",
+      "src": "app",
+      "ai": [
+        [
+          "The procedure will be performed under local anesthesia.",
+          "這項處置會在局部麻醉下進行。"
+        ],
+        [
+          "The anesthesiologist explained the risks of general anesthesia.",
+          "麻醉科醫師說明了全身麻醉的風險。"
+        ]
+      ]
+    }
+  ],
+  "physiotherapy": [
+    {
+      "p": "n",
+      "zh": "物理治療",
+      "src": "app",
+      "ai": [
+        [
+          "She attends physiotherapy twice a week after her knee surgery.",
+          "膝蓋手術後，她每週接受兩次物理治療。"
+        ],
+        [
+          "The clinic offers physiotherapy for patients recovering from injuries.",
+          "這間診所為傷後復原的病人提供物理治療。"
+        ]
+      ]
+    }
+  ],
+  "obesity": [
+    {
+      "p": "n",
+      "zh": "肥胖；肥胖症",
+      "src": "app",
+      "ai": [
+        [
+          "The report examines how sleep affects childhood obesity.",
+          "這份報告探討睡眠如何影響兒童肥胖問題。"
+        ],
+        [
+          "The program addresses obesity through nutrition education and exercise.",
+          "這項計畫透過營養教育和運動處理肥胖問題。"
+        ]
+      ]
+    }
+  ],
+  "preventive": [
+    {
+      "p": "adj",
+      "zh": "預防性的",
+      "src": "app",
+      "ai": [
+        [
+          "The insurer covers preventive screenings once a year.",
+          "保險公司每年給付一次預防性篩檢。"
+        ],
+        [
+          "Preventive maintenance can reduce costly equipment failures.",
+          "預防性維護能減少代價高昂的設備故障。"
+        ]
+      ]
+    }
+  ],
+  "cholesterol": [
+    {
+      "p": "n",
+      "zh": "膽固醇",
+      "src": "app",
+      "ai": [
+        [
+          "The nutrition label lists the amount of cholesterol per serving.",
+          "營養標示列出每份所含的膽固醇量。"
+        ]
+      ],
+      "t": [
+        56108
+      ],
+      "fix": {
+        "56108": "我的膽固醇偏高。"
+      }
+    }
+  ],
+  "insomnia": [
+    {
+      "p": "n",
+      "zh": "失眠",
+      "src": "app",
+      "ai": [
+        [
+          "He developed insomnia while adjusting to the night shift.",
+          "他適應夜班期間開始失眠。"
+        ],
+        [
+          "The specialist suggested keeping a sleep diary to manage insomnia.",
+          "專科醫師建議記錄睡眠日誌來改善失眠。"
+        ]
+      ]
+    }
+  ],
+  "insured": [
+    {
+      "p": "n",
+      "zh": "被保險人",
+      "src": "app",
+      "ai": [
+        [
+          "The insured must report the damage within thirty days.",
+          "被保險人必須在三十天內通報損害。"
+        ],
+        [
+          "Each insured receives a copy of the updated policy.",
+          "每位被保險人都會收到更新後的保單副本。"
+        ]
+      ]
+    }
+  ],
+  "actuary": [
+    {
+      "p": "n",
+      "zh": "精算師",
+      "src": "app",
+      "ai": [
+        [
+          "An actuary calculated the premium using the company\"s claims data.",
+          "精算師根據公司的理賠資料計算保費。"
+        ],
+        [
+          "The insurer hired an actuary to assess long-term risks.",
+          "保險公司聘請精算師評估長期風險。"
+        ]
+      ]
+    }
+  ],
+  "lapse": [
+    {
+      "p": "v",
+      "zh": "失效；中止",
+      "src": "app",
+      "ai": [
+        [
+          "Your coverage may lapse if the premium remains unpaid.",
+          "如果保費一直未繳，保障可能會失效。"
+        ],
+        [
+          "The offer will lapse at the end of the month.",
+          "這項優惠將於月底失效。"
+        ]
+      ]
+    }
+  ],
+  "out-of-pocket": [
+    {
+      "p": "phr",
+      "zh": "自付的；自掏腰包的",
+      "src": "app",
+      "ai": [
+        [
+          "The plan limits how much patients pay out of pocket each year.",
+          "這項方案設有病人每年自付費用的上限。"
+        ],
+        [
+          "She paid for the repair out of pocket while the claim was reviewed.",
+          "理賠申請審核期間，她先自掏腰包支付維修費。"
+        ]
+      ]
+    }
+  ],
+  "claimant": [
+    {
+      "p": "n",
+      "zh": "索賠人；理賠申請人",
+      "src": "app",
+      "ai": [
+        [
+          "The claimant submitted photographs with the repair estimate.",
+          "索賠人提交了照片和維修估價單。"
+        ],
+        [
+          "An adjuster contacted the claimant for additional documents.",
+          "理賠調查員聯絡索賠人，要求補交文件。"
+        ]
+      ]
+    }
+  ],
+  "adjuster": [
+    {
+      "p": "n",
+      "zh": "理賠調查員；理算人員",
+      "src": "app",
+      "ai": [
+        [
+          "The insurance adjuster inspected the flooded apartment.",
+          "保險理賠調查員檢查了淹水的公寓。"
+        ],
+        [
+          "An adjuster will review the damage before the claim is approved.",
+          "理賠核准前，理算人員會先審查損害情況。"
+        ]
+      ]
+    }
+  ],
+  "indemnity": [
+    {
+      "p": "n",
+      "zh": "賠償；補償",
+      "src": "app",
+      "ai": [
+        [
+          "The contract provides indemnity for losses caused by the supplier.",
+          "合約規定供應商造成損失時須予以賠償。"
+        ],
+        [
+          "The policy includes indemnity for eligible legal expenses.",
+          "這份保單包含符合條件的法律費用補償。"
+        ]
+      ]
+    }
+  ],
+  "accidental": [
+    {
+      "p": "adj",
+      "zh": "意外的；偶然的",
+      "src": "app",
+      "ai": [
+        [
+          "The policy covers accidental damage to the rental car.",
+          "這份保單承保租賃車輛的意外損壞。"
+        ],
+        [
+          "Their meeting was accidental, but it led to a useful partnership.",
+          "他們偶然碰面，卻因此促成一項有益的合作。"
+        ]
+      ]
+    }
+  ],
+  "hospitalization": [
+    {
+      "p": "n",
+      "zh": "住院；住院治療",
+      "src": "app",
+      "ai": [
+        [
+          "The policy provides a daily benefit for hospitalization.",
+          "這份保單提供住院期間的每日給付。"
+        ],
+        [
+          "Her hospitalization lasted only two nights.",
+          "她只住院兩晚。"
+        ]
+      ]
+    }
+  ],
+  "sublet": [
+    {
+      "p": "v",
+      "zh": "轉租",
+      "src": "app",
+      "ai": [
+        [
+          "The tenant asked permission to sublet the apartment for the summer.",
+          "房客詢問是否可以在夏季轉租公寓。"
+        ],
+        [
+          "You cannot sublet the office without written approval.",
+          "未經書面核准，不得轉租辦公室。"
+        ]
+      ]
+    }
+  ],
+  "tenancy": [
+    {
+      "p": "n",
+      "zh": "租賃；租住關係",
+      "src": "app",
+      "ai": [
+        [
+          "The tenancy agreement expires at the end of September.",
+          "租賃契約將於九月底到期。"
+        ],
+        [
+          "Both parties signed a tenancy contract for twelve months.",
+          "雙方簽署了一年期租賃契約。"
+        ]
+      ]
+    }
+  ],
+  "evict": [
+    {
+      "p": "v",
+      "zh": "驅逐；依法收回（房屋）",
+      "src": "app",
+      "ai": [
+        [
+          "The landlord cannot evict tenants without following local law.",
+          "房東不得違反當地法律驅逐房客。"
+        ],
+        [
+          "The court ordered the owner to evict the unauthorized occupants.",
+          "法院命令屋主依法遷離未經許可的住戶。"
+        ]
+      ]
+    }
+  ],
+  "eviction": [
+    {
+      "p": "n",
+      "zh": "驅逐；強制遷離",
+      "src": "app",
+      "ai": [
+        [
+          "The tenant received an eviction notice for unpaid rent.",
+          "房客因未繳租金收到遷離通知。"
+        ],
+        [
+          "The housing group offers legal advice to prevent eviction.",
+          "住宅團體提供法律諮詢，協助避免遭到驅逐。"
+        ]
+      ]
+    }
+  ],
+  "roommate": [
+    {
+      "p": "n",
+      "zh": "室友",
+      "src": "app",
+      "ai": [
+        [
+          "My roommate and I split the utility bills every month.",
+          "我和室友每月分攤水電費。"
+        ],
+        [
+          "Her new roommate works at the hospital nearby.",
+          "她的新室友在附近的醫院工作。"
+        ]
+      ]
+    }
+  ],
+  "furnished": [
+    {
+      "p": "adj",
+      "zh": "附家具的；家具齊全的",
+      "src": "app",
+      "ai": [
+        [
+          "The furnished apartment includes a bed, desk, and sofa.",
+          "這間附家具的公寓備有床、書桌和沙發。"
+        ],
+        [
+          "They chose a furnished unit because their stay was temporary.",
+          "他們選擇家具齊全的房子，因為只會短期居住。"
+        ]
+      ]
+    }
+  ],
+  "unfurnished": [
+    {
+      "p": "adj",
+      "zh": "未附家具的",
+      "src": "app",
+      "ai": [
+        [
+          "The unfurnished unit costs less but requires a larger deposit.",
+          "這間未附家具的房子租金較低，但需要較高押金。"
+        ],
+        [
+          "The landlord offers both furnished and unfurnished apartments.",
+          "房東同時出租附家具和未附家具的公寓。"
+        ]
+      ]
+    }
+  ],
+  "viewing": [
+    {
+      "p": "n",
+      "zh": "看屋；參觀房屋",
+      "src": "app",
+      "ai": [
+        [
+          "We booked a viewing for the townhouse on Saturday.",
+          "我們預約週六看這間連棟住宅。"
+        ],
+        [
+          "The agent arranged a private viewing after work.",
+          "房仲安排下班後帶我們單獨看屋。"
+        ]
+      ]
+    }
+  ],
+  "asking price": [
+    {
+      "p": "phr",
+      "zh": "開價；要價",
+      "src": "app",
+      "ai": [
+        [
+          "The asking price is above our budget, but the seller may negotiate.",
+          "開價超出我們的預算，不過賣方可能願意議價。"
+        ],
+        [
+          "Comparable homes nearby sold below the asking price.",
+          "附近條件相近的房屋成交價都低於開價。"
+        ]
+      ]
+    }
+  ],
+  "escrow": [
+    {
+      "p": "n",
+      "zh": "履約保管；信託保管款",
+      "src": "app",
+      "ai": [
+        [
+          "The buyer placed the deposit in escrow until the inspection was complete.",
+          "買方將訂金交由第三方保管，直到檢查完成。"
+        ],
+        [
+          "The escrow account will release the funds after both parties sign.",
+          "雙方簽署後，履約保管帳戶才會撥款。"
+        ]
+      ]
+    }
+  ],
+  "landowner": [
+    {
+      "p": "n",
+      "zh": "土地所有人；地主",
+      "src": "app",
+      "ai": [
+        [
+          "The landowner agreed to lease the field to a solar company.",
+          "地主同意將這塊土地出租給太陽能公司。"
+        ],
+        [
+          "Local landowners attended the planning meeting.",
+          "當地土地所有人出席了規劃會議。"
+        ]
+      ]
+    }
+  ],
+  "inheritance": [
+    {
+      "p": "n",
+      "zh": "遺產；繼承",
+      "src": "app",
+      "ai": [
+        [
+          "She used part of her inheritance to pay off the mortgage.",
+          "她用部分遺產清償房貸。"
+        ],
+        [
+          "The lawyer explained how the inheritance would be divided.",
+          "律師說明了遺產的分配方式。"
+        ]
+      ]
+    }
+  ],
+  "down payment": [
+    {
+      "p": "phr",
+      "zh": "頭期款；首付款",
+      "src": "app",
+      "ai": [
+        [
+          "We saved for three years to make the down payment on our home.",
+          "我們存了三年，才付得起買房的頭期款。"
+        ],
+        [
+          "A larger down payment can reduce the monthly mortgage bill.",
+          "提高頭期款可降低每月房貸金額。"
+        ]
+      ]
+    }
+  ],
+  "fixed-rate": [
+    {
+      "p": "adj",
+      "zh": "固定利率的",
+      "src": "app",
+      "ai": [
+        [
+          "They chose a fixed-rate mortgage to keep monthly payments predictable.",
+          "他們選擇固定利率房貸，讓每月還款金額較容易掌握。"
+        ],
+        [
+          "The bank offers a fixed-rate loan for the first five years.",
+          "銀行提供前五年固定利率的貸款。"
+        ]
+      ]
+    }
+  ],
+  "foreclosure": [
+    {
+      "p": "n",
+      "zh": "法拍；取消贖回權",
+      "src": "app",
+      "ai": [
+        [
+          "The homeowners faced foreclosure after missing several payments.",
+          "屋主多次未繳款後，面臨房屋遭法拍。"
+        ],
+        [
+          "A housing counselor helped the family avoid foreclosure.",
+          "住宅諮詢員協助這個家庭避免房屋遭法拍。"
+        ]
+      ]
+    }
+  ],
+  "dwelling": [
+    {
+      "p": "n",
+      "zh": "住所；住處",
+      "src": "app",
+      "ai": [
+        [
+          "The building code sets safety standards for every dwelling.",
+          "建築法規為每一種住宅訂定安全標準。"
+        ],
+        [
+          "The survey counted each occupied dwelling in the district.",
+          "這項調查統計了該區每一戶有人居住的住所。"
+        ]
+      ]
+    }
+  ],
+  "duplex": [
+    {
+      "p": "n",
+      "zh": "雙拼住宅；複式住宅",
+      "src": "app",
+      "ai": [
+        [
+          "They bought a duplex and rented out the other unit.",
+          "他們買了一棟雙拼住宅，並把另一戶出租。"
+        ],
+        [
+          "The duplex has separate entrances for both families.",
+          "這棟複式住宅有兩個獨立出入口，供兩戶家庭使用。"
+        ]
+      ]
+    }
+  ],
+  "townhouse": [
+    {
+      "p": "n",
+      "zh": "連棟住宅",
+      "src": "app",
+      "ai": [
+        [
+          "The townhouse has a small courtyard and a private garage.",
+          "這棟連棟住宅有小庭院和私人車庫。"
+        ],
+        [
+          "They chose a townhouse close to the commuter rail station.",
+          "他們選了一間靠近通勤鐵路站的連棟住宅。"
+        ]
+      ]
+    }
+  ],
+  "bungalow": [
+    {
+      "p": "n",
+      "zh": "平房；單層住宅",
+      "src": "app",
+      "ai": [
+        [
+          "The retired couple moved into a bungalow with a garden.",
+          "這對退休夫妻搬進一間附花園的平房。"
+        ],
+        [
+          "The bungalow needs a new roof before winter.",
+          "這棟平房需要在冬天前換新屋頂。"
+        ]
+      ]
+    }
+  ],
+  "mansion": [
+    {
+      "p": "n",
+      "zh": "豪宅；大宅邸",
+      "src": "app",
+      "ai": [
+        [
+          "The historic mansion now operates as a public museum.",
+          "這座歷史豪宅現在作為公立博物館使用。"
+        ],
+        [
+          "The developer converted the mansion into a boutique hotel.",
+          "開發商將這棟大宅邸改建成精品旅館。"
+        ]
+      ]
+    }
+  ],
+  "penthouse": [
+    {
+      "p": "n",
+      "zh": "頂樓公寓；頂層套房",
+      "src": "app",
+      "ai": [
+        [
+          "The penthouse offers a clear view of the harbor.",
+          "這間頂樓公寓可以清楚眺望港口。"
+        ],
+        [
+          "The hotel reserved its penthouse suite for the visiting director.",
+          "飯店將頂層套房保留給來訪的主管。"
+        ]
+      ]
+    }
+  ],
+  "attic": [
+    {
+      "p": "n",
+      "zh": "閣樓",
+      "src": "app",
+      "ai": [
+        [
+          "The owners converted the attic into a quiet home office.",
+          "屋主把閣樓改造成安靜的居家辦公室。"
+        ],
+        [
+          "Boxes from the previous tenant remained in the attic.",
+          "前一位房客留下的箱子還放在閣樓裡。"
+        ]
+      ]
+    }
+  ],
+  "driveway": [
+    {
+      "p": "n",
+      "zh": "車道；私人車道",
+      "src": "app",
+      "ai": [
+        [
+          "Please keep the driveway clear for the delivery truck.",
+          "請保持私人車道暢通，讓送貨卡車通行。"
+        ],
+        [
+          "The contractor repaved the cracked driveway last week.",
+          "承包商上週重新鋪設了龜裂的車道。"
+        ]
+      ]
+    }
+  ],
+  "patio": [
+    {
+      "p": "n",
+      "zh": "露台；庭院平台",
+      "src": "app",
+      "ai": [
+        [
+          "Guests can have breakfast on the patio overlooking the garden.",
+          "客人可以在俯瞰花園的露台享用早餐。"
+        ],
+        [
+          "The restaurant added heaters to its outdoor patio.",
+          "餐廳在戶外露台加裝了暖爐。"
+        ]
+      ]
+    }
+  ],
+  "intercom": [
+    {
+      "p": "n",
+      "zh": "對講機；內線通話系統",
+      "src": "app",
+      "ai": [
+        [
+          "Visitors should use the intercom to contact the front desk.",
+          "訪客請使用對講機聯絡櫃檯。"
+        ],
+        [
+          "The intercom lets staff communicate between floors.",
+          "員工可以透過內線通話系統跨樓層聯絡。"
+        ]
+      ]
+    }
+  ],
+  "suburban": [
+    {
+      "p": "adj",
+      "zh": "郊區的",
+      "src": "app",
+      "ai": [
+        [
+          "The firm opened a suburban branch to serve local families.",
+          "公司在郊區設立分店，服務當地家庭。"
+        ],
+        [
+          "Suburban housing is often farther from major transit lines.",
+          "郊區住宅通常離主要大眾運輸路線較遠。"
+        ]
+      ]
+    }
+  ],
+  "proximity": [
+    {
+      "p": "n",
+      "zh": "鄰近；接近",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel\"s proximity to the airport makes it popular with business travelers.",
+          "飯店鄰近機場，因此受到商務旅客歡迎。"
+        ],
+        [
+          "We chose the site for its proximity to the suppliers.",
+          "我們選擇這個地點，是因為它鄰近供應商。"
+        ]
+      ]
+    }
+  ],
+  "acreage": [
+    {
+      "p": "n",
+      "zh": "英畝數；土地面積",
+      "src": "app",
+      "ai": [
+        [
+          "The listing includes the acreage and boundary map.",
+          "房屋刊登資訊附有土地面積和界線圖。"
+        ],
+        [
+          "The farm\"s acreage is large enough for an additional greenhouse.",
+          "這座農場的土地面積足以再增建一座溫室。"
+        ]
+      ]
+    }
+  ],
+  "upkeep": [
+    {
+      "p": "n",
+      "zh": "維護；保養費用",
+      "src": "app",
+      "ai": [
+        [
+          "The monthly fee covers landscaping and building upkeep.",
+          "每月費用包含景觀整理和建築維護。"
+        ],
+        [
+          "Older homes often require more upkeep than buyers expect.",
+          "老房子需要的維護往往比買家預期的多。"
+        ]
+      ]
+    }
+  ],
+  "boutique": [
+    {
+      "p": "n",
+      "zh": "精品店；小型專賣店",
+      "src": "app",
+      "ai": [
+        [
+          "The boutique carries locally designed clothing and accessories.",
+          "這家精品店販售本地設計的服飾和配件。"
+        ],
+        [
+          "She opened a boutique near the art museum.",
+          "她在美術館附近開了一家精品店。"
+        ]
+      ]
+    }
+  ],
+  "kiosk": [
+    {
+      "p": "n",
+      "zh": "小型攤亭；自助服務機",
+      "src": "app",
+      "ai": [
+        [
+          "Buy your transit pass at the kiosk beside the station entrance.",
+          "請在車站入口旁的小亭購買交通月票。"
+        ],
+        [
+          "Passengers checked in at a self-service kiosk.",
+          "乘客在自助服務機辦理報到。"
+        ]
+      ]
+    }
+  ],
+  "storefront": [
+    {
+      "p": "n",
+      "zh": "店面；店鋪門面",
+      "src": "app",
+      "ai": [
+        [
+          "The bakery renovated its storefront to attract more pedestrians.",
+          "麵包店翻新店面，吸引更多路人。"
+        ],
+        [
+          "A vacant storefront is available for lease on the corner.",
+          "轉角有一間空店面正在出租。"
+        ]
+      ]
+    }
+  ],
+  "mannequin": [
+    {
+      "p": "n",
+      "zh": "人體模型；服裝模特兒",
+      "src": "app",
+      "ai": [
+        [
+          "The new collection is displayed on mannequins by the entrance.",
+          "入口旁的人體模型展示了新系列服裝。"
+        ],
+        [
+          "A mannequin in the window wears the store\"s latest coat.",
+          "櫥窗裡的服裝模特兒穿著店內最新款的大衣。"
+        ]
+      ]
+    }
+  ],
+  "fitting room": [
+    {
+      "p": "phr",
+      "zh": "試衣間",
+      "src": "app",
+      "ai": [
+        [
+          "The fitting room is at the back of the clothing department.",
+          "試衣間在服飾部門後方。"
+        ],
+        [
+          "Please return unwanted items outside the fitting room.",
+          "不需要的衣物請放回試衣間外。"
+        ]
+      ]
+    }
+  ],
+  "assortment": [
+    {
+      "p": "n",
+      "zh": "各式各樣；一系列",
+      "src": "app",
+      "ai": [
+        [
+          "The shop offers an assortment of locally made snacks.",
+          "這家店提供各式各樣的本地零食。"
+        ],
+        [
+          "We ordered an assortment of teas for the client lounge.",
+          "我們為客戶休息室訂購了一系列茶品。"
+        ]
+      ]
+    }
+  ],
+  "dissatisfied": [
+    {
+      "p": "adj",
+      "zh": "不滿意的",
+      "src": "app",
+      "ai": [
+        [
+          "Several customers were dissatisfied with the delayed delivery.",
+          "有幾位顧客對延遲送貨感到不滿。"
+        ],
+        [
+          "If you are dissatisfied with the service, contact the manager.",
+          "如果您對服務不滿意，請聯絡經理。"
+        ]
+      ]
+    }
+  ],
+  "giveaway": [
+    {
+      "p": "n",
+      "zh": "贈品；明顯的線索",
+      "src": "app",
+      "ai": [
+        [
+          "The store offered a reusable bag as a giveaway with each purchase.",
+          "商店推出每筆消費贈送環保袋的活動。"
+        ],
+        [
+          "The logo on the package was a giveaway that it was a sample.",
+          "包裝上的標誌明顯透露那是樣品。"
+        ]
+      ]
+    }
+  ],
+  "cash register": [
+    {
+      "p": "phr",
+      "zh": "收銀機",
+      "src": "app",
+      "ai": [
+        [
+          "The cashier found the missing receipt beside the cash register.",
+          "收銀員在收銀機旁找到遺失的收據。"
+        ],
+        [
+          "The manager counted the cash register after closing.",
+          "打烊後，經理清點了收銀機裡的現金。"
+        ]
+      ]
+    }
+  ],
+  "layaway": [
+    {
+      "p": "n",
+      "zh": "分期預購；留貨待付清",
+      "src": "app",
+      "ai": [
+        [
+          "The customer used layaway to pay for the bicycle over three months.",
+          "顧客使用分期預購，分三個月付清腳踏車款項。"
+        ],
+        [
+          "Under the layaway plan, the store holds the item until it is paid off.",
+          "採用留貨待付清方案時，商店會保留商品直到款項付清。"
+        ]
+      ]
+    }
+  ],
+  "gift wrap": [
+    {
+      "p": "phr",
+      "zh": "禮品包裝",
+      "src": "app",
+      "ai": [
+        [
+          "Gift wrap is available at the service counter.",
+          "服務櫃檯提供禮品包裝。"
+        ],
+        [
+          "She asked the cashier to gift wrap the vase.",
+          "她請收銀員把花瓶包裝成禮物。"
+        ]
+      ]
+    }
+  ],
+  "order confirmation": [
+    {
+      "p": "phr",
+      "zh": "訂單確認通知",
+      "src": "app",
+      "ai": [
+        [
+          "Your order confirmation will arrive by email within minutes.",
+          "幾分鐘內你就會收到電子郵件訂單確認通知。"
+        ],
+        [
+          "Keep the order confirmation in case you need to return the item.",
+          "請保留訂單確認通知，以便日後退貨。"
+        ]
+      ]
+    }
+  ],
+  "doorstep": [
+    {
+      "p": "n",
+      "zh": "門口；門階",
+      "src": "app",
+      "ai": [
+        [
+          "The courier left the parcel on the doorstep as requested.",
+          "快遞依照要求把包裹放在門口。"
+        ],
+        [
+          "A welcome mat was placed on the doorstep.",
+          "門階上放了一張迎賓地墊。"
+        ]
+      ]
+    }
+  ],
+  "unopened": [
+    {
+      "p": "adj",
+      "zh": "未開封的；未拆封的",
+      "src": "app",
+      "ai": [
+        [
+          "The store accepts returns of unopened products within thirty days.",
+          "商店接受三十天內退回未拆封商品。"
+        ],
+        [
+          "Keep the bottle unopened until the technician arrives.",
+          "請先不要打開瓶子，等技術人員到場。"
+        ]
+      ]
+    }
+  ],
+  "eatery": [
+    {
+      "p": "n",
+      "zh": "小餐館；簡餐店",
+      "src": "app",
+      "ai": [
+        [
+          "A family-run eatery opened across from the station.",
+          "車站對面新開了一家家庭經營的小餐館。"
+        ],
+        [
+          "The guide recommends a casual eatery near the market.",
+          "旅遊指南推薦市場附近的一家簡餐店。"
+        ]
+      ]
+    }
+  ],
+  "bistro": [
+    {
+      "p": "n",
+      "zh": "小酒館；小餐館",
+      "src": "app",
+      "ai": [
+        [
+          "The bistro serves seasonal dishes and local wine.",
+          "這家小酒館供應當季料理和本地葡萄酒。"
+        ],
+        [
+          "We booked a table at a neighborhood bistro for dinner.",
+          "我們預約了附近小餐館的晚餐座位。"
+        ]
+      ]
+    }
+  ],
+  "seating": [
+    {
+      "p": "n",
+      "zh": "座位；座位安排",
+      "src": "app",
+      "ai": [
+        [
+          "The venue offers accessible seating near the main entrance.",
+          "場地在主要入口附近設有無障礙座位。"
+        ],
+        [
+          "Please confirm the seating arrangement before printing the program.",
+          "印製節目單前，請確認座位安排。"
+        ]
+      ]
+    }
+  ],
+  "ambience": [
+    {
+      "p": "n",
+      "zh": "氣氛；氛圍",
+      "src": "app",
+      "ai": [
+        [
+          "Soft lighting gives the restaurant a relaxed ambience.",
+          "柔和燈光讓餐廳氣氛十分放鬆。"
+        ],
+        [
+          "The hotel\"s quiet ambience suits guests seeking a retreat.",
+          "這間飯店安靜的氛圍很適合想放鬆休息的客人。"
+        ]
+      ]
+    }
+  ],
+  "upscale": [
+    {
+      "p": "adj",
+      "zh": "高級的；高價位的",
+      "src": "app",
+      "ai": [
+        [
+          "The group booked an upscale restaurant for the award dinner.",
+          "團隊為頒獎晚宴預訂了一間高級餐廳。"
+        ],
+        [
+          "The brand is moving into upscale skincare products.",
+          "這個品牌正拓展高價位的護膚產品。"
+        ]
+      ]
+    }
+  ],
+  "aroma": [
+    {
+      "p": "n",
+      "zh": "香氣；氣味",
+      "src": "app",
+      "ai": [
+        [
+          "The aroma of freshly baked bread filled the lobby.",
+          "新鮮出爐麵包的香氣瀰漫整個大廳。"
+        ],
+        [
+          "Roasting brings out the coffee\"s rich aroma.",
+          "烘焙能帶出咖啡濃郁的香氣。"
+        ]
+      ]
+    }
+  ],
+  "seasoning": [
+    {
+      "p": "n",
+      "zh": "調味料；調味",
+      "src": "app",
+      "ai": [
+        [
+          "Add the seasoning just before serving the soup.",
+          "上湯前再加入調味料。"
+        ],
+        [
+          "The chef adjusted the seasoning after tasting the sauce.",
+          "主廚試過醬汁後調整了調味。"
+        ]
+      ]
+    }
+  ],
+  "condiment": [
+    {
+      "p": "n",
+      "zh": "佐料；調味醬",
+      "src": "app",
+      "ai": [
+        [
+          "The table has separate bottles for each condiment.",
+          "桌上每種佐料都分別裝在不同瓶子裡。"
+        ],
+        [
+          "Mustard is a popular condiment for sandwiches.",
+          "芥末醬是三明治常用的佐料。"
+        ]
+      ]
+    }
+  ],
+  "garnish": [
+    {
+      "p": "v",
+      "zh": "為（菜餚）加配菜裝飾",
+      "src": "app",
+      "ai": [
+        [
+          "The chef garnished the soup with fresh herbs.",
+          "主廚在湯上撒了新鮮香草點綴。"
+        ],
+        [
+          "Garnish each plate with a slice of lemon.",
+          "每個餐盤都放一片檸檬作為裝飾。"
+        ]
+      ]
+    }
+  ],
+  "delicacy": [
+    {
+      "p": "n",
+      "zh": "佳餚；珍饈",
+      "src": "app",
+      "ai": [
+        [
+          "The region is known for a seafood delicacy made with local shellfish.",
+          "這個地區以當地貝類製作的海鮮佳餚聞名。"
+        ],
+        [
+          "The chef introduced guests to a seasonal delicacy.",
+          "主廚向客人介紹一道當季珍饈。"
+        ]
+      ]
+    }
+  ],
+  "gourmet": [
+    {
+      "p": "n",
+      "zh": "美食家",
+      "src": "app",
+      "ai": [
+        [
+          "The gourmet praised the chef\"s use of regional ingredients.",
+          "這位美食家稱讚主廚善用地方食材。"
+        ],
+        [
+          "A gourmet reviewed the new tasting menu for the magazine.",
+          "一位美食家為雜誌評論了新推出的品嚐菜單。"
+        ]
+      ]
+    }
+  ],
+  "vegan": [
+    {
+      "p": "n",
+      "zh": "純素者",
+      "src": "app",
+      "ai": [
+        [
+          "The restaurant labels every dish suitable for a vegan.",
+          "餐廳標示出每道適合純素者的餐點。"
+        ],
+        [
+          "As a vegan, he checks ingredient lists for hidden dairy.",
+          "身為純素者，他會檢查成分表是否含有隱藏的乳製品。"
+        ]
+      ]
+    }
+  ],
+  "dietary": [
+    {
+      "p": "adj",
+      "zh": "飲食的；膳食的",
+      "src": "app",
+      "ai": [
+        [
+          "Please tell us about any dietary restrictions before the event.",
+          "活動前請告知我們任何飲食限制。"
+        ],
+        [
+          "The hospital prepared a dietary plan for each patient.",
+          "醫院為每位病人制定膳食計畫。"
+        ]
+      ]
+    }
+  ],
+  "brunch": [
+    {
+      "p": "n",
+      "zh": "早午餐",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel serves brunch from ten until two on Sundays.",
+          "飯店每週日十點到兩點供應早午餐。"
+        ],
+        [
+          "They invited the new neighbors to brunch.",
+          "他們邀請新鄰居一起吃早午餐。"
+        ]
+      ]
+    }
+  ],
+  "bartender": [
+    {
+      "p": "n",
+      "zh": "調酒師；酒吧服務人員",
+      "src": "app",
+      "ai": [
+        [
+          "The bartender recommended a drink made with local citrus.",
+          "調酒師推薦一款使用本地柑橘調製的飲品。"
+        ],
+        [
+          "A bartender must check identification before serving alcohol.",
+          "調酒師供應酒精飲料前必須確認證件。"
+        ]
+      ]
+    }
+  ],
+  "sommelier": [
+    {
+      "p": "n",
+      "zh": "侍酒師",
+      "src": "app",
+      "ai": [
+        [
+          "The sommelier paired the seafood course with a crisp white wine.",
+          "侍酒師為海鮮料理搭配清爽的白酒。"
+        ],
+        [
+          "Ask the sommelier to recommend a bottle within your budget.",
+          "請侍酒師推薦一瓶符合預算的酒。"
+        ]
+      ]
+    }
+  ],
+  "cutlery": [
+    {
+      "p": "n",
+      "zh": "刀叉餐具",
+      "src": "app",
+      "ai": [
+        [
+          "The restaurant provides reusable cutlery with every takeaway meal.",
+          "這間餐廳每份外帶餐點都附可重複使用的刀叉餐具。"
+        ],
+        [
+          "Place the cutlery beside the folded napkin.",
+          "請把刀叉餐具放在摺好的餐巾旁。"
+        ]
+      ]
+    }
+  ],
+  "napkin": [
+    {
+      "p": "n",
+      "zh": "餐巾；餐巾紙",
+      "src": "app",
+      "ai": [
+        [
+          "She folded the napkin and placed it beside the plate.",
+          "她摺好餐巾，放在盤子旁邊。"
+        ],
+        [
+          "Could we have an extra napkin for the table?",
+          "可以再給我們一張餐巾紙嗎？"
+        ]
+      ]
+    }
+  ],
+  "gala": [
+    {
+      "p": "n",
+      "zh": "盛大晚會；慶祝活動",
+      "src": "app",
+      "ai": [
+        [
+          "The charity gala raised funds for a new community clinic.",
+          "這場慈善晚會為新建社區診所募得款項。"
+        ],
+        [
+          "Guests wore formal attire to the annual gala.",
+          "賓客穿著正式服裝出席年度盛會。"
+        ]
+      ]
+    }
+  ],
+  "toast": [
+    {
+      "p": "v",
+      "zh": "舉杯祝賀；烤（麵包）",
+      "src": "app",
+      "ai": [
+        [
+          "The director raised a glass to toast the retiring team leader.",
+          "主管舉杯祝賀即將退休的團隊負責人。"
+        ],
+        [
+          "Toast the bread lightly before adding the topping.",
+          "先把麵包稍微烤過，再放上配料。"
+        ]
+      ]
+    }
+  ],
+  "festive": [
+    {
+      "p": "adj",
+      "zh": "節慶的；歡樂的",
+      "src": "app",
+      "ai": [
+        [
+          "The hotel lobby looked festive with lanterns and flowers.",
+          "飯店大廳掛上燈籠、擺上花卉，洋溢節慶氣氛。"
+        ],
+        [
+          "The staff wore festive colors for the holiday event.",
+          "員工穿著應景色系服裝參加節慶活動。"
+        ]
+      ]
+    }
+  ],
+  "lavish": [
+    {
+      "p": "adj",
+      "zh": "豪華的；豐盛的",
+      "src": "app",
+      "ai": [
+        [
+          "The hosts prepared a lavish buffet for the visiting delegation.",
+          "主辦方為來訪代表團準備了豐盛的自助餐。"
+        ],
+        [
+          "The resort is known for its lavish rooms and attentive service.",
+          "這間度假村以豪華客房和周到服務聞名。"
+        ]
+      ]
+    }
+  ],
+  "exhilarate": [
+    {
+      "p": "v",
+      "zh": "使興奮；使振奮",
+      "src": "app",
+      "ai": [
+        [
+          "The final performance exhilarated the crowd.",
+          "最後一場演出讓觀眾情緒高漲。"
+        ],
+        [
+          "Few things exhilarate her more than sailing at sunrise.",
+          "很少有事情比日出時航海更讓她興奮。"
+        ]
+      ]
+    }
+  ],
+  "unwind": [
+    {
+      "p": "v",
+      "zh": "放鬆；紓解壓力",
+      "src": "app",
+      "ai": [
+        [
+          "He listens to jazz to unwind after a demanding shift.",
+          "忙碌值班後，他會聽爵士樂放鬆。"
+        ],
+        [
+          "Guests can unwind by the pool after the conference.",
+          "會議結束後，賓客可以在泳池畔放鬆。"
+        ]
+      ]
+    }
+  ],
+  "premiere": [
+    {
+      "p": "n",
+      "zh": "首映；首演",
+      "src": "app",
+      "ai": [
+        [
+          "The film\"s premiere attracted reporters from across the country.",
+          "這部電影的首映吸引全國各地的記者到場。"
+        ],
+        [
+          "Tickets for the theater\"s season premiere sold out quickly.",
+          "劇院本季首演的門票很快售罄。"
+        ]
+      ]
+    }
+  ],
+  "intermission": [
+    {
+      "p": "n",
+      "zh": "中場休息；幕間休息",
+      "src": "app",
+      "ai": [
+        [
+          "The audience returned to their seats before intermission ended.",
+          "中場休息結束前，觀眾都回到座位。"
+        ],
+        [
+          "Refreshments are available in the lobby during intermission.",
+          "幕間休息時，大廳有提供茶點。"
+        ]
+      ]
+    }
+  ],
+  "usher": [
+    {
+      "p": "n",
+      "zh": "引座員；帶位人員",
+      "src": "app",
+      "ai": [
+        [
+          "An usher showed the guests to their seats.",
+          "引座員帶賓客入座。"
+        ],
+        [
+          "Please ask an usher if you need help finding your row.",
+          "如果找不到座位排數，請詢問帶位人員。"
+        ]
+      ]
+    }
+  ],
+  "nightlife": [
+    {
+      "p": "n",
+      "zh": "夜生活",
+      "src": "app",
+      "ai": [
+        [
+          "The district is known for its lively nightlife and late-night cafes.",
+          "這個區域以熱鬧的夜生活和深夜咖啡館聞名。"
+        ],
+        [
+          "The travel guide highlights the city\"s nightlife options.",
+          "旅遊指南介紹了這座城市的夜生活選擇。"
+        ]
+      ]
+    }
+  ],
+  "carnival": [
+    {
+      "p": "n",
+      "zh": "嘉年華；園遊會",
+      "src": "app",
+      "ai": [
+        [
+          "The seaside town holds a carnival every August.",
+          "這座海濱小鎮每年八月都會舉辦嘉年華。"
+        ],
+        [
+          "Local schools organized a carnival to raise money for the library.",
+          "當地學校舉辦園遊會，為圖書館募款。"
+        ]
+      ]
+    }
+  ]
+}

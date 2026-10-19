@@ -1,0 +1,2201 @@
+{
+  "depot": [
+    {
+      "p": "n",
+      "zh": "（貨物的）倉庫、轉運站",
+      "ai": [
+        [
+          "The goods are stored at a depot near the port.",
+          "貨物存放在港口附近的倉庫。"
+        ],
+        [
+          "The depot handles deliveries for the whole region.",
+          "這座轉運站負責整個地區的配送。"
+        ]
+      ]
+    }
+  ],
+  "warehousing": [
+    {
+      "p": "n",
+      "zh": "倉儲、倉庫管理",
+      "src": "app",
+      "ai": [
+        [
+          "Warehousing costs increased after the company expanded.",
+          "公司擴大營運後，倉儲成本也提高了。"
+        ],
+        [
+          "We use a local firm for warehousing and distribution.",
+          "我們委託當地公司處理倉儲與配送。"
+        ]
+      ]
+    }
+  ],
+  "shelf life": [
+    {
+      "p": "phr",
+      "zh": "保存期限",
+      "src": "app",
+      "ai": [
+        [
+          "This product has a shelf life of twelve months.",
+          "這項產品的保存期限是十二個月。"
+        ],
+        [
+          "Check the shelf life before placing the order.",
+          "下單前請確認保存期限。"
+        ]
+      ]
+    }
+  ],
+  "stockroom": [
+    {
+      "p": "n",
+      "zh": "庫房、商品儲藏室",
+      "ai": [
+        [
+          "The extra supplies are kept in the stockroom.",
+          "多出的用品都放在庫房裡。"
+        ],
+        [
+          "Please check the stockroom before ordering more boxes.",
+          "再訂紙箱之前，請先檢查庫房。"
+        ]
+      ]
+    }
+  ],
+  "supply chain": [
+    {
+      "p": "phr",
+      "zh": "供應鏈",
+      "src": "app",
+      "t": [
+        8579095
+      ],
+      "fix": {
+        "8579095": "我們想和阿爾及利亞的供應商建立新的供應鏈。"
+      },
+      "ai": [
+        [
+          "The storm disrupted the company's supply chain.",
+          "暴風雨打亂了公司的供應鏈。"
+        ]
+      ]
+    }
+  ],
+  "consignee": [
+    {
+      "p": "n",
+      "zh": "收貨人、受託收貨人",
+      "ai": [
+        [
+          "The consignee must sign for the shipment.",
+          "收貨人必須簽收這批貨物。"
+        ],
+        [
+          "Please confirm the consignee's address before dispatch.",
+          "出貨前請確認收貨人的地址。"
+        ]
+      ]
+    }
+  ],
+  "peak season": [
+    {
+      "p": "phr",
+      "zh": "旺季",
+      "src": "app",
+      "ai": [
+        [
+          "We hire extra staff during the peak season.",
+          "旺季期間我們會額外聘請人手。"
+        ],
+        [
+          "Shipping delays are common in the peak season.",
+          "旺季時常會出現運送延誤。"
+        ]
+      ]
+    }
+  ],
+  "bestseller": [
+    {
+      "p": "n",
+      "zh": "暢銷商品；暢銷書",
+      "t": [
+        13014545
+      ],
+      "fix": {
+        "13014545": "這本書是暢銷書。"
+      },
+      "ai": [
+        [
+          "The new model became a bestseller within a month.",
+          "這款新機上市一個月內就成了暢銷商品。"
+        ]
+      ]
+    }
+  ],
+  "telemarketing": [
+    {
+      "p": "n",
+      "zh": "電話行銷",
+      "ai": [
+        [
+          "The company uses telemarketing to reach new clients.",
+          "公司透過電話行銷接觸新客戶。"
+        ],
+        [
+          "She manages a telemarketing team in Taipei.",
+          "她在台北管理一支電話行銷團隊。"
+        ]
+      ]
+    }
+  ],
+  "pricing": [
+    {
+      "p": "n",
+      "zh": "定價、價格策略",
+      "src": "app",
+      "t": [
+        24429
+      ],
+      "fix": {
+        "24429": "我想和你討論定價。"
+      },
+      "ai": [
+        [
+          "Our pricing reflects the cost of delivery.",
+          "我們的定價反映了配送成本。"
+        ]
+      ]
+    }
+  ],
+  "in bulk": [
+    {
+      "p": "phr",
+      "zh": "大量地；批量購買",
+      "src": "app",
+      "ai": [
+        [
+          "The retailer buys cleaning supplies in bulk.",
+          "這家零售商大量採購清潔用品。"
+        ],
+        [
+          "Customers can order these parts in bulk.",
+          "顧客可以批量訂購這些零件。"
+        ]
+      ]
+    }
+  ],
+  "price tag": [
+    {
+      "p": "phr",
+      "zh": "價格標籤；標價",
+      "src": "app",
+      "ai": [
+        [
+          "The price tag does not include delivery.",
+          "標價不包含運費。"
+        ],
+        [
+          "A lower price tag attracted more customers.",
+          "較低的標價吸引了更多顧客。"
+        ]
+      ]
+    }
+  ],
+  "markup": [
+    {
+      "p": "n",
+      "zh": "加價幅度；（售價高於成本的）加價",
+      "ai": [
+        [
+          "The retailer added a 15% markup to the wholesale price.",
+          "零售商在批發價上加了 15% 作為加價。"
+        ],
+        [
+          "A high markup may discourage budget-conscious buyers.",
+          "加價幅度太高，可能會讓重視預算的買家卻步。"
+        ]
+      ]
+    }
+  ],
+  "embargo": [
+    {
+      "p": "n",
+      "zh": "禁運；貿易禁令",
+      "ai": [
+        [
+          "The embargo prevented the company from exporting oil.",
+          "這項禁運措施使公司無法出口石油。"
+        ],
+        [
+          "Several countries called for an end to the trade embargo.",
+          "幾個國家呼籲解除貿易禁運。"
+        ]
+      ]
+    }
+  ],
+  "protectionism": [
+    {
+      "p": "n",
+      "zh": "保護主義",
+      "ai": [
+        [
+          "The policy was criticized as a form of protectionism.",
+          "這項政策被批評是保護主義的一種。"
+        ],
+        [
+          "Protectionism can make imported goods more expensive.",
+          "保護主義可能使進口商品價格上漲。"
+        ]
+      ]
+    }
+  ],
+  "dumping": [
+    {
+      "p": "n",
+      "zh": "（以低於正常價格）傾銷",
+      "src": "app",
+      "ai": [
+        [
+          "The inquiry examined allegations of steel dumping.",
+          "這項調查檢視了鋼材傾銷的指控。"
+        ],
+        [
+          "Import duties were imposed to prevent dumping.",
+          "政府課徵進口關稅以防止傾銷。"
+        ]
+      ]
+    }
+  ],
+  "multilateral": [
+    {
+      "p": "adj",
+      "zh": "多邊的；多國共同參與的",
+      "ai": [
+        [
+          "The nations signed a multilateral trade agreement.",
+          "各國簽署了一項多邊貿易協定。"
+        ],
+        [
+          "A multilateral meeting will begin on Monday.",
+          "多邊會議將於星期一開始。"
+        ]
+      ]
+    }
+  ],
+  "free trade": [
+    {
+      "p": "phr",
+      "zh": "自由貿易",
+      "src": "app",
+      "ai": [
+        [
+          "The two countries support free trade.",
+          "這兩個國家支持自由貿易。"
+        ],
+        [
+          "Free trade can lower prices for consumers.",
+          "自由貿易可能降低消費者的購買成本。"
+        ]
+      ]
+    }
+  ],
+  "trade deficit": [
+    {
+      "p": "phr",
+      "zh": "貿易逆差",
+      "src": "app",
+      "ai": [
+        [
+          "The country reported a smaller trade deficit this year.",
+          "該國今年公布的貿易逆差較小。"
+        ],
+        [
+          "Rising imports contributed to the trade deficit.",
+          "進口增加造成貿易逆差。"
+        ]
+      ]
+    }
+  ],
+  "trade surplus": [
+    {
+      "p": "phr",
+      "zh": "貿易順差",
+      "src": "app",
+      "ai": [
+        [
+          "The nation recorded a trade surplus in May.",
+          "該國五月呈現貿易順差。"
+        ],
+        [
+          "Exports helped the country maintain its trade surplus.",
+          "出口協助該國維持貿易順差。"
+        ]
+      ]
+    }
+  ],
+  "trade agreement": [
+    {
+      "p": "phr",
+      "zh": "貿易協定",
+      "src": "app",
+      "t": [
+        3364279
+      ],
+      "fix": {
+        "3364279": "歐洲與美國目前正在協商一項自由貿易協定。"
+      },
+      "ai": [
+        [
+          "The trade agreement reduced tariffs on farm products.",
+          "這項貿易協定降低了農產品的關稅。"
+        ]
+      ]
+    }
+  ],
+  "retaliation": [
+    {
+      "p": "n",
+      "zh": "報復；報復措施",
+      "ai": [
+        [
+          "The company feared retaliation after raising its prices.",
+          "公司擔心漲價後會遭到報復。"
+        ],
+        [
+          "The government threatened retaliation against the new tariffs.",
+          "政府威脅要對新的關稅措施採取報復行動。"
+        ]
+      ]
+    }
+  ],
+  "excise": [
+    {
+      "p": "n",
+      "zh": "貨物稅、特種消費稅",
+      "ai": [
+        [
+          "The government raised the excise duty on imported spirits.",
+          "政府提高了進口烈酒的貨物稅。"
+        ],
+        [
+          "The excise duty is included in the price consumers pay.",
+          "消費者支付的價格已包含貨物稅。"
+        ]
+      ]
+    }
+  ],
+  "manifest": [
+    {
+      "p": "n",
+      "zh": "（船舶或飛機的）貨物清單",
+      "src": "app",
+      "ai": [
+        [
+          "The customs officer reviewed the cargo manifest.",
+          "海關人員檢查了貨物清單。"
+        ],
+        [
+          "Each package must appear on the shipping manifest.",
+          "每個包裹都必須列在運送清單上。"
+        ]
+      ]
+    }
+  ],
+  "certificate of origin": [
+    {
+      "p": "phr",
+      "zh": "原產地證明書",
+      "src": "app",
+      "ai": [
+        [
+          "The exporter submitted a certificate of origin.",
+          "出口商提交了原產地證明書。"
+        ],
+        [
+          "A certificate of origin may reduce import duties.",
+          "原產地證明書可能有助於降低進口關稅。"
+        ]
+      ]
+    }
+  ],
+  "counterfeit": [
+    {
+      "p": "adj",
+      "zh": "仿冒的；偽造的",
+      "ai": [
+        [
+          "Customs officers seized counterfeit watches at the port.",
+          "海關人員在港口查扣了仿冒手錶。"
+        ],
+        [
+          "The seller was fined for offering counterfeit goods.",
+          "這名賣家因販售仿冒品而遭到罰款。"
+        ]
+      ]
+    }
+  ],
+  "port of entry": [
+    {
+      "p": "phr",
+      "zh": "入境港；入境口岸",
+      "src": "app",
+      "ai": [
+        [
+          "The shipment cleared customs at its first port of entry.",
+          "這批貨在第一個入境口岸完成通關。"
+        ],
+        [
+          "The form asks you to name the port of entry.",
+          "表格要求填寫入境口岸。"
+        ]
+      ]
+    }
+  ],
+  "shipper": [
+    {
+      "p": "n",
+      "zh": "託運人；寄件人",
+      "ai": [
+        [
+          "The shipper provided a tracking number by email.",
+          "託運人透過電子郵件提供了追蹤號碼。"
+        ],
+        [
+          "Please contact the shipper about the damaged package.",
+          "包裹受損的事請聯絡寄件人。"
+        ]
+      ]
+    }
+  ],
+  "tanker": [
+    {
+      "p": "n",
+      "zh": "油輪；油槽車",
+      "t": [
+        272253
+      ],
+      "fix": {
+        "272253": "石油是用油輪運送的。"
+      },
+      "ai": [
+        [
+          "The tanker delivered crude oil to the refinery.",
+          "這艘油輪將原油運送到煉油廠。"
+        ]
+      ]
+    }
+  ],
+  "wharf": [
+    {
+      "p": "n",
+      "zh": "碼頭",
+      "ai": [
+        [
+          "The cargo was unloaded at the wharf.",
+          "貨物在碼頭卸下。"
+        ],
+        [
+          "A small warehouse stands beside the wharf.",
+          "碼頭旁有一間小型倉庫。"
+        ]
+      ]
+    }
+  ],
+  "maritime": [
+    {
+      "p": "adj",
+      "zh": "海事的；海運的",
+      "ai": [
+        [
+          "The port follows strict maritime safety rules.",
+          "這座港口遵守嚴格的海事安全規範。"
+        ],
+        [
+          "Maritime transport carries most of the company's exports.",
+          "公司的大部分出口貨物都由海運承載。"
+        ]
+      ]
+    }
+  ],
+  "transshipment": [
+    {
+      "p": "n",
+      "zh": "轉運；轉船運輸",
+      "ai": [
+        [
+          "The goods require transshipment at the Singapore port.",
+          "這批貨物需要在新加坡港轉運。"
+        ],
+        [
+          "Transshipment added two days to the delivery schedule.",
+          "轉運使交貨時程多了兩天。"
+        ]
+      ]
+    }
+  ],
+  "haulage": [
+    {
+      "p": "n",
+      "zh": "貨運；公路運輸",
+      "ai": [
+        [
+          "The haulage company moved the equipment overnight.",
+          "貨運公司連夜運送了這批設備。"
+        ],
+        [
+          "Haulage costs depend on distance and fuel prices.",
+          "貨運費用取決於距離和燃料價格。"
+        ]
+      ]
+    }
+  ],
+  "lead time": [
+    {
+      "p": "phr",
+      "zh": "前置時間；訂貨至交貨所需時間",
+      "src": "app",
+      "ai": [
+        [
+          "The lead time for custom parts is six weeks.",
+          "訂製零件的交貨前置時間是六週。"
+        ],
+        [
+          "Please confirm the lead time before approving the order.",
+          "核准訂單前請先確認交貨所需時間。"
+        ]
+      ]
+    }
+  ],
+  "seaport": [
+    {
+      "p": "n",
+      "zh": "海港",
+      "ai": [
+        [
+          "The seaport handles thousands of containers each month.",
+          "這座海港每月處理數千個貨櫃。"
+        ],
+        [
+          "A new road will connect the factory to the seaport.",
+          "新道路將連接工廠與海港。"
+        ]
+      ]
+    }
+  ],
+  "crate": [
+    {
+      "p": "n",
+      "zh": "板條箱；大型木箱",
+      "ai": [
+        [
+          "The machine parts were packed in a wooden crate.",
+          "機器零件裝在一只木製板條箱裡。"
+        ],
+        [
+          "Each crate is marked with the buyer's address.",
+          "每只木箱都標上了買家的地址。"
+        ]
+      ]
+    }
+  ],
+  "letter of credit": [
+    {
+      "p": "phr",
+      "zh": "信用狀",
+      "src": "app",
+      "ai": [
+        [
+          "The seller requested a letter of credit before shipping.",
+          "賣方要求在出貨前提供信用狀。"
+        ],
+        [
+          "Our bank issued a letter of credit for the purchase.",
+          "我們的銀行為這筆採購開立了信用狀。"
+        ]
+      ]
+    }
+  ],
+  "surcharge": [
+    {
+      "p": "n",
+      "zh": "附加費；額外費用",
+      "ai": [
+        [
+          "A fuel surcharge will apply to all deliveries.",
+          "所有配送都會收取燃料附加費。"
+        ],
+        [
+          "The airline added a surcharge for oversized cargo.",
+          "航空公司對超大型貨物加收附加費。"
+        ]
+      ]
+    }
+  ],
+  "foreign exchange": [
+    {
+      "p": "phr",
+      "zh": "外匯；外幣兌換",
+      "src": "app",
+      "ai": [
+        [
+          "The bank offers foreign exchange services at the airport.",
+          "這家銀行在機場提供外幣兌換服務。"
+        ],
+        [
+          "Foreign exchange rates changed during the afternoon.",
+          "下午外匯匯率出現變動。"
+        ]
+      ]
+    }
+  ],
+  "trade fair": [
+    {
+      "p": "phr",
+      "zh": "貿易展；商展",
+      "src": "app",
+      "ai": [
+        [
+          "The company will introduce its new products at the trade fair.",
+          "公司將在商展上介紹新產品。"
+        ],
+        [
+          "We met several overseas buyers at the trade fair.",
+          "我們在貿易展上認識了幾位海外買家。"
+        ]
+      ]
+    }
+  ],
+  "bookkeeping": [
+    {
+      "p": "n",
+      "zh": "簿記；記帳",
+      "t": [
+        8389
+      ],
+      "fix": {
+        "8389": "你會記帳嗎？"
+      },
+      "ai": [
+        [
+          "Accurate bookkeeping helps us prepare the annual report.",
+          "正確記帳有助於我們編製年度報告。"
+        ]
+      ]
+    }
+  ],
+  "balance sheet": [
+    {
+      "p": "phr",
+      "zh": "資產負債表",
+      "src": "app",
+      "ai": [
+        [
+          "The balance sheet shows the company's assets and debts.",
+          "資產負債表列出公司的資產與負債。"
+        ],
+        [
+          "Investors reviewed the balance sheet before the meeting.",
+          "投資人在會議前檢視了資產負債表。"
+        ]
+      ]
+    }
+  ],
+  "income statement": [
+    {
+      "p": "phr",
+      "zh": "損益表",
+      "src": "app",
+      "ai": [
+        [
+          "The income statement reports revenue and expenses.",
+          "損益表列出營收與支出。"
+        ],
+        [
+          "Please send me the income statement for last quarter.",
+          "請把上一季的損益表寄給我。"
+        ]
+      ]
+    }
+  ],
+  "cash flow": [
+    {
+      "p": "phr",
+      "zh": "現金流；現金流量",
+      "src": "app",
+      "ai": [
+        [
+          "Opening a second branch put pressure on the company’s cash flow.",
+          "開設第二家分店讓公司的現金流承受壓力。"
+        ],
+        [
+          "The finance team reviews cash flow before approving major purchases.",
+          "財務團隊會在核准大型採購前檢視現金流。"
+        ]
+      ]
+    }
+  ],
+  "annual report": [
+    {
+      "p": "phr",
+      "zh": "年度報告；年報",
+      "src": "app",
+      "ai": [
+        [
+          "The annual report is available on our website.",
+          "年度報告已刊登在我們的網站上。"
+        ],
+        [
+          "Shareholders received the annual report in April.",
+          "股東在四月收到了年報。"
+        ]
+      ]
+    }
+  ],
+  "net income": [
+    {
+      "p": "phr",
+      "zh": "淨利；稅後淨利",
+      "src": "app",
+      "ai": [
+        [
+          "Net income rose by eight percent this year.",
+          "今年淨利成長了百分之八。"
+        ],
+        [
+          "The report compares net income across five years.",
+          "這份報告比較了五年來的淨利。"
+        ]
+      ]
+    }
+  ],
+  "earnings": [
+    {
+      "p": "n",
+      "zh": "收益；盈餘",
+      "t": [
+        20727
+      ],
+      "fix": {
+        "20727": "企業第一季的盈餘大幅成長。"
+      },
+      "ai": [
+        [
+          "The company expects higher earnings next quarter.",
+          "公司預期下季盈餘會增加。"
+        ]
+      ]
+    }
+  ],
+  "net worth": [
+    {
+      "p": "phr",
+      "zh": "淨值；資產淨值",
+      "src": "app",
+      "ai": [
+        [
+          "The financial adviser calculated her net worth.",
+          "理財顧問計算了她的資產淨值。"
+        ],
+        [
+          "The report lists the company's net worth at year-end.",
+          "報告列出公司年底的淨值。"
+        ]
+      ]
+    }
+  ],
+  "audit trail": [
+    {
+      "p": "phr",
+      "zh": "稽核軌跡；查核紀錄",
+      "src": "app",
+      "ai": [
+        [
+          "The system keeps an audit trail of every payment.",
+          "系統會保留每筆付款的稽核紀錄。"
+        ],
+        [
+          "An audit trail helps investigators trace changes.",
+          "稽核軌跡有助於調查人員追蹤變更。"
+        ]
+      ]
+    }
+  ],
+  "embezzlement": [
+    {
+      "p": "n",
+      "zh": "侵占；挪用公款",
+      "ai": [
+        [
+          "The accountant was arrested for embezzlement.",
+          "這名會計因侵占公款遭到逮捕。"
+        ],
+        [
+          "The audit uncovered years of embezzlement.",
+          "這次稽核揭發了多年來的挪用公款情形。"
+        ]
+      ]
+    }
+  ],
+  "comptroller": [
+    {
+      "p": "n",
+      "zh": "主計長；財務主管",
+      "src": "app",
+      "ai": [
+        [
+          "The comptroller approved the revised budget.",
+          "主計長核准了修訂後的預算。"
+        ],
+        [
+          "Our comptroller reviews all major expenses.",
+          "我們的財務主管會審核所有重大支出。"
+        ]
+      ]
+    }
+  ],
+  "treasurer": [
+    {
+      "p": "n",
+      "zh": "財務主管；司庫",
+      "t": [
+        681914
+      ],
+      "fix": {
+        "681914": "我辭去了社團司庫一職。"
+      },
+      "ai": [
+        [
+          "The treasurer presented the budget at the meeting.",
+          "財務主管在會議上提出預算。"
+        ]
+      ]
+    }
+  ],
+  "withholding": [
+    {
+      "p": "n",
+      "zh": "扣繳；預扣款項",
+      "src": "app",
+      "ai": [
+        [
+          "Tax withholding is shown on your pay statement.",
+          "薪資單上會列出預扣稅款。"
+        ],
+        [
+          "The company handles withholding for its employees.",
+          "公司負責替員工辦理扣繳。"
+        ]
+      ]
+    }
+  ],
+  "tax evasion": [
+    {
+      "p": "phr",
+      "zh": "逃漏稅；逃稅",
+      "src": "app",
+      "t": [
+        2313164
+      ],
+      "fix": {
+        "2313164": "這些指控令人震驚，包括洗錢、逃稅和妨礙司法。"
+      },
+      "ai": [
+        [
+          "The firm was investigated for tax evasion.",
+          "這家公司因逃漏稅而接受調查。"
+        ]
+      ]
+    }
+  ],
+  "budgetary": [
+    {
+      "p": "adj",
+      "zh": "預算的；與預算有關的",
+      "ai": [
+        [
+          "The board approved the budgetary changes.",
+          "董事會核准了預算調整。"
+        ],
+        [
+          "Budgetary limits delayed the equipment purchase.",
+          "預算限制延後了設備採購。"
+        ]
+      ]
+    }
+  ],
+  "disbursement": [
+    {
+      "p": "n",
+      "zh": "支付；款項撥付",
+      "ai": [
+        [
+          "The disbursement will be made after approval.",
+          "核准後就會撥付款項。"
+        ],
+        [
+          "The grant disbursement is scheduled for June.",
+          "補助款預計於六月撥付。"
+        ]
+      ]
+    }
+  ],
+  "overspend": [
+    {
+      "p": "v",
+      "zh": "超支；花費超過預算",
+      "ai": [
+        [
+          "We must not overspend on office renovations.",
+          "辦公室整修不能超出預算。"
+        ],
+        [
+          "The department overspent its travel budget last year.",
+          "該部門去年差旅費超支了。"
+        ]
+      ]
+    }
+  ],
+  "cost cutting": [
+    {
+      "p": "n",
+      "zh": "成本削減；降低成本",
+      "src": "app",
+      "ai": [
+        [
+          "The cost cutting plan lowered energy use without reducing staff.",
+          "這項降低成本的計畫在不裁員的情況下降低了能源使用量。"
+        ],
+        [
+          "Managers discussed cost cutting measures after sales fell.",
+          "銷售下滑後，主管討論了降低成本的措施。"
+        ]
+      ]
+    }
+  ],
+  "securities": [
+    {
+      "p": "n",
+      "zh": "有價證券；金融商品",
+      "ai": [
+        [
+          "The broker specializes in government securities.",
+          "這名經紀人專營政府有價證券。"
+        ],
+        [
+          "Investors moved their securities to a safer account.",
+          "投資人將金融商品轉到較安全的帳戶。"
+        ]
+      ]
+    }
+  ],
+  "ipo": [
+    {
+      "p": "n",
+      "zh": "首次公開募股；首次公開發行",
+      "src": "app",
+      "ai": [
+        [
+          "The technology firm plans an IPO next year.",
+          "這家科技公司計畫明年首次公開募股。"
+        ],
+        [
+          "Investors showed strong interest in the IPO.",
+          "投資人對這次首次公開募股興趣濃厚。"
+        ]
+      ]
+    }
+  ],
+  "bull market": [
+    {
+      "p": "phr",
+      "zh": "多頭市場；牛市",
+      "src": "app",
+      "ai": [
+        [
+          "Many technology shares rose during the bull market.",
+          "多頭市場期間，許多科技股上漲。"
+        ],
+        [
+          "The fund performed well in a bull market.",
+          "這檔基金在多頭市場表現良好。"
+        ]
+      ]
+    }
+  ],
+  "arrears": [
+    {
+      "p": "n",
+      "zh": "欠款；逾期未付的款項",
+      "ai": [
+        [
+          "The tenant paid three months of rent arrears.",
+          "房客補繳了三個月的欠租。"
+        ],
+        [
+          "The supplier account is now two weeks in arrears.",
+          "這家供應商的帳款目前已逾期兩週。"
+        ]
+      ]
+    }
+  ],
+  "creditworthiness": [
+    {
+      "p": "n",
+      "zh": "信用可靠度；信用狀況",
+      "src": "app",
+      "ai": [
+        [
+          "The bank checked the firm's creditworthiness.",
+          "銀行查核了這家公司的信用程度。"
+        ],
+        [
+          "A record of on-time payments can improve a company’s creditworthiness.",
+          "按時付款的紀錄有助於提升公司的信用可靠度。"
+        ]
+      ]
+    }
+  ],
+  "insolvency": [
+    {
+      "p": "n",
+      "zh": "無力償債；破產狀態",
+      "ai": [
+        [
+          "Following the company’s insolvency, the court appointed an administrator.",
+          "公司無力償債後，法院指派了一名管理人。"
+        ],
+        [
+          "The report warned that falling sales could lead to insolvency.",
+          "報告警告，銷售下滑可能導致公司無力償債。"
+        ]
+      ]
+    }
+  ],
+  "cutting edge": [
+    {
+      "p": "n",
+      "zh": "尖端；最前沿",
+      "src": "app",
+      "ai": [
+        [
+          "The lab works at the cutting edge of robotics.",
+          "這間實驗室從事最前沿的機器人研究。"
+        ],
+        [
+          "Our team develops products at the cutting edge of battery technology.",
+          "我們的團隊開發最前沿的電池技術產品。"
+        ]
+      ]
+    }
+  ],
+  "obsolete": [
+    {
+      "p": "adj",
+      "zh": "過時的；淘汰的",
+      "ai": [
+        [
+          "The company replaced its obsolete billing system.",
+          "公司汰換了過時的帳務系統。"
+        ],
+        [
+          "These parts are obsolete and hard to find.",
+          "這些零件已經停產，很難找到。"
+        ]
+      ]
+    }
+  ],
+  "obsolescence": [
+    {
+      "p": "n",
+      "zh": "過時；淘汰",
+      "ai": [
+        [
+          "Rapid obsolescence makes regular upgrades necessary.",
+          "快速淘汰使定期升級變得必要。"
+        ],
+        [
+          "The design reduces the risk of early obsolescence.",
+          "這項設計降低了產品提早過時的風險。"
+        ]
+      ]
+    }
+  ],
+  "disruptive": [
+    {
+      "p": "adj",
+      "zh": "顛覆性的；造成重大變革的",
+      "ai": [
+        [
+          "Disruptive technology can reshape an entire industry.",
+          "顛覆性科技可能重塑整個產業。"
+        ],
+        [
+          "The start-up introduced a disruptive payment service.",
+          "這家新創公司推出了顛覆性的付款服務。"
+        ]
+      ]
+    }
+  ],
+  "commercialize": [
+    {
+      "p": "v",
+      "zh": "使商業化；將…商品化",
+      "ai": [
+        [
+          "The company hopes to commercialize the new battery.",
+          "公司希望將這款新電池商品化。"
+        ],
+        [
+          "Researchers need a partner to commercialize their invention.",
+          "研究人員需要合作夥伴將發明商品化。"
+        ]
+      ]
+    }
+  ],
+  "artificial intelligence": [
+    {
+      "p": "phr",
+      "zh": "人工智慧",
+      "src": "app",
+      "t": [
+        72264
+      ],
+      "fix": {
+        "72264": "AI 是人工智慧的縮寫。"
+      },
+      "ai": [
+        [
+          "Artificial intelligence helps analyze customer feedback.",
+          "人工智慧有助於分析客戶回饋。"
+        ]
+      ]
+    }
+  ],
+  "robotics": [
+    {
+      "p": "n",
+      "zh": "機器人學；機器人技術",
+      "src": "app",
+      "ai": [
+        [
+          "The university offers a course in robotics.",
+          "這所大學開設機器人技術課程。"
+        ],
+        [
+          "Robotics is changing the way factories operate.",
+          "機器人技術正在改變工廠的運作方式。"
+        ]
+      ]
+    }
+  ],
+  "biotechnology": [
+    {
+      "p": "n",
+      "zh": "生物科技；生物技術",
+      "ai": [
+        [
+          "Biotechnology has improved several medical tests.",
+          "生物科技改善了好幾種醫療檢測。"
+        ],
+        [
+          "She works for a biotechnology company.",
+          "她在一家生物科技公司工作。"
+        ]
+      ]
+    }
+  ],
+  "analytics": [
+    {
+      "p": "n",
+      "zh": "分析；分析工具或方法",
+      "ai": [
+        [
+          "The team uses analytics to understand buying habits.",
+          "團隊運用分析工具了解購買習慣。"
+        ],
+        [
+          "Web analytics show where visitors leave the site.",
+          "網站分析資料顯示訪客在哪個頁面離開。"
+        ]
+      ]
+    }
+  ],
+  "connectivity": [
+    {
+      "p": "n",
+      "zh": "連線能力；連接狀態",
+      "src": "app",
+      "ai": [
+        [
+          "The device offers reliable connectivity in remote areas.",
+          "這台裝置在偏遠地區也能穩定連線。"
+        ],
+        [
+          "Poor connectivity interrupted the video meeting.",
+          "連線不穩中斷了視訊會議。"
+        ]
+      ]
+    }
+  ],
+  "router": [
+    {
+      "p": "n",
+      "zh": "路由器",
+      "src": "app",
+      "t": [
+        1406431
+      ],
+      "fix": {
+        "1406431": "如何使用路由器限制網路速度？"
+      },
+      "ai": [
+        [
+          "The router needs a firmware update.",
+          "這台路由器需要更新韌體。"
+        ]
+      ]
+    }
+  ],
+  "hotspot": [
+    {
+      "p": "n",
+      "zh": "無線網路熱點；熱點",
+      "ai": [
+        [
+          "The airport provides a free Wi-Fi hotspot.",
+          "機場提供免費的 Wi-Fi 熱點。"
+        ],
+        [
+          "My phone can create a mobile hotspot.",
+          "我的手機可以建立行動網路熱點。"
+        ]
+      ]
+    }
+  ],
+  "latency": [
+    {
+      "p": "n",
+      "zh": "延遲；（網路）延遲時間",
+      "src": "app",
+      "ai": [
+        [
+          "High latency made the online meeting difficult.",
+          "延遲過高讓線上會議很不順暢。"
+        ],
+        [
+          "The new server reduced network latency.",
+          "新伺服器降低了網路延遲。"
+        ]
+      ]
+    }
+  ],
+  "cloud computing": [
+    {
+      "p": "phr",
+      "zh": "雲端運算",
+      "src": "app",
+      "ai": [
+        [
+          "Cloud computing lets staff access files remotely.",
+          "雲端運算讓員工能遠端存取檔案。"
+        ],
+        [
+          "The company moved its database to cloud computing services.",
+          "公司將資料庫移轉到雲端運算服務。"
+        ]
+      ]
+    }
+  ],
+  "upload": [
+    {
+      "p": "v",
+      "zh": "上傳",
+      "src": "app",
+      "t": [
+        6713872
+      ],
+      "fix": {
+        "6713872": "Sami 上傳了照片。"
+      },
+      "ai": [
+        [
+          "Please upload the signed form before Friday.",
+          "請在星期五前上傳簽署完成的表格。"
+        ]
+      ]
+    }
+  ],
+  "encryption": [
+    {
+      "p": "n",
+      "zh": "加密；加密技術",
+      "src": "app",
+      "ai": [
+        [
+          "Encryption protects customer data during transfer.",
+          "加密可在傳輸過程中保護客戶資料。"
+        ],
+        [
+          "The app uses encryption to secure each message.",
+          "這款 App 使用加密技術保護每則訊息。"
+        ]
+      ]
+    }
+  ],
+  "firewall": [
+    {
+      "p": "n",
+      "zh": "防火牆",
+      "src": "app",
+      "t": [
+        398288
+      ],
+      "fix": {
+        "398288": "我需要在這台伺服器上設定合適的防火牆。"
+      },
+      "ai": [
+        [
+          "The firewall blocked an unauthorized connection.",
+          "防火牆封鎖了一個未經授權的連線。"
+        ]
+      ]
+    }
+  ],
+  "vulnerability": [
+    {
+      "p": "n",
+      "zh": "弱點；安全漏洞",
+      "ai": [
+        [
+          "The update fixed a serious security vulnerability.",
+          "這次更新修補了一個嚴重的安全漏洞。"
+        ],
+        [
+          "The audit found a vulnerability in the payment system.",
+          "稽核發現付款系統有一處弱點。"
+        ]
+      ]
+    }
+  ],
+  "identity theft": [
+    {
+      "p": "phr",
+      "zh": "身分盜用；冒用身分",
+      "src": "app",
+      "ai": [
+        [
+          "Strong passwords can help prevent identity theft.",
+          "使用高強度密碼有助於防止身分盜用。"
+        ],
+        [
+          "The bank contacted customers after an identity theft case.",
+          "發生身分盜用案件後，銀行聯絡了客戶。"
+        ]
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "p": "n",
+      "zh": "小型電子裝置；小工具",
+      "ai": [
+        [
+          "This gadget tracks the temperature in the warehouse.",
+          "這個小裝置會追蹤倉庫的溫度。"
+        ],
+        [
+          "He bought a useful gadget for his home office.",
+          "他買了一個實用的小工具放在居家辦公室。"
+        ]
+      ]
+    }
+  ],
+  "wearable": [
+    {
+      "p": "n",
+      "zh": "穿戴式裝置",
+      "src": "app",
+      "ai": [
+        [
+          "The wearable records your daily activity.",
+          "這款穿戴式裝置會記錄每日活動。"
+        ],
+        [
+          "The company is testing a new wearable for factory staff.",
+          "公司正在測試供工廠員工使用的新型穿戴式裝置。"
+        ]
+      ]
+    }
+  ],
+  "app": [
+    {
+      "p": "n",
+      "zh": "應用程式；App",
+      "src": "app",
+      "t": [
+        13914962
+      ],
+      "fix": {
+        "13914962": "這款 App 又閃退了。"
+      },
+      "ai": [
+        [
+          "Please update the app before using the new feature.",
+          "使用新功能前，請先更新 App。"
+        ]
+      ]
+    }
+  ],
+  "multimedia": [
+    {
+      "p": "n",
+      "zh": "多媒體；多媒體內容",
+      "ai": [
+        [
+          "The course uses multimedia to explain each process.",
+          "這門課程運用多媒體說明各項流程。"
+        ],
+        [
+          "Our website supports multimedia files.",
+          "我們的網站支援多媒體檔案。"
+        ]
+      ]
+    }
+  ],
+  "digitize": [
+    {
+      "p": "v",
+      "zh": "將…數位化",
+      "ai": [
+        [
+          "The museum plans to digitize its paper records.",
+          "博物館計畫將紙本紀錄數位化。"
+        ],
+        [
+          "We digitized the invoices so staff could search them more easily.",
+          "我們將發票數位化，讓員工更容易搜尋。"
+        ]
+      ]
+    }
+  ],
+  "compatibility": [
+    {
+      "p": "n",
+      "zh": "相容性",
+      "src": "app",
+      "t": [
+        13511570
+      ],
+      "fix": {
+        "13511570": "實際供應情形可能因地區和裝置相容性而異。"
+      },
+      "ai": [
+        [
+          "Check software compatibility before installing the update.",
+          "安裝更新前請確認軟體相容性。"
+        ]
+      ]
+    }
+  ],
+  "user-friendly": [
+    {
+      "p": "adj",
+      "zh": "容易使用的；使用者友善的",
+      "t": [
+        13190425
+      ],
+      "fix": {
+        "13190425": "易於使用的軟體符合我的需求。"
+      },
+      "ai": [
+        [
+          "The new ordering system is simple and user-friendly.",
+          "新的訂購系統簡單又容易使用。"
+        ]
+      ]
+    }
+  ],
+  "intuitive": [
+    {
+      "p": "adj",
+      "zh": "直覺易用的；容易理解的",
+      "ai": [
+        [
+          "The dashboard has an intuitive design.",
+          "這個儀表板的設計很直覺。"
+        ],
+        [
+          "Most users find the controls intuitive.",
+          "大多數使用者都覺得這些控制項容易理解。"
+        ]
+      ]
+    }
+  ],
+  "modular": [
+    {
+      "p": "adj",
+      "zh": "模組化的；由標準組件構成的",
+      "ai": [
+        [
+          "The modular system is easy to expand.",
+          "這套模組化系統很容易擴充。"
+        ],
+        [
+          "We chose modular furniture for the new office.",
+          "我們為新辦公室選用了模組化家具。"
+        ]
+      ]
+    }
+  ],
+  "interoperability": [
+    {
+      "p": "n",
+      "zh": "互通性；系統間的相容能力",
+      "src": "app",
+      "ai": [
+        [
+          "Interoperability allows the two systems to share data.",
+          "互通性讓兩套系統可以交換資料。"
+        ],
+        [
+          "The standard improves interoperability between devices.",
+          "這項標準提升了裝置之間的互通性。"
+        ]
+      ]
+    }
+  ],
+  "scalability": [
+    {
+      "p": "n",
+      "zh": "擴充性；可擴展性",
+      "src": "app",
+      "ai": [
+        [
+          "Scalability matters as the customer base grows.",
+          "客戶群擴大時，系統的擴充性就很重要。"
+        ],
+        [
+          "The team tested the platform's scalability.",
+          "團隊測試了這個平台的擴展能力。"
+        ]
+      ]
+    }
+  ],
+  "abstraction": [
+    {
+      "p": "n",
+      "zh": "抽象化；抽象概念",
+      "ai": [
+        [
+          "Abstraction helps programmers manage complex systems.",
+          "抽象化有助於程式設計師管理複雜系統。"
+        ],
+        [
+          "The course explains abstraction with simple examples.",
+          "這門課程用簡單例子說明抽象概念。"
+        ]
+      ]
+    }
+  ],
+  "redundant": [
+    {
+      "p": "adj",
+      "zh": "多餘的；重複的",
+      "ai": [
+        [
+          "The update removed redundant steps from the process.",
+          "這次更新刪除了流程中多餘的步驟。"
+        ],
+        [
+          "The reviewer removed a redundant paragraph from the report.",
+          "審閱者刪除了報告中多餘的一段。"
+        ]
+      ]
+    }
+  ],
+  "compiler": [
+    {
+      "p": "n",
+      "zh": "編譯器",
+      "src": "app",
+      "t": [
+        1006250
+      ],
+      "fix": {
+        "1006250": "GCC 是編譯器，而 Python 是直譯器。"
+      },
+      "ai": [
+        [
+          "The compiler reported an error in the program.",
+          "編譯器回報程式有錯誤。"
+        ]
+      ]
+    }
+  ],
+  "iteration": [
+    {
+      "p": "n",
+      "zh": "反覆運算；迭代",
+      "src": "app",
+      "ai": [
+        [
+          "Each iteration improved the software design.",
+          "每次迭代都讓軟體設計更完善。"
+        ],
+        [
+          "The final iteration passed all the tests.",
+          "最後一輪反覆修正通過了所有測試。"
+        ]
+      ]
+    }
+  ],
+  "executable": [
+    {
+      "p": "adj",
+      "zh": "可執行的；可實行的",
+      "ai": [
+        [
+          "The team proposed an executable plan for the launch.",
+          "團隊為上市提出了一套可執行的計畫。"
+        ],
+        [
+          "The file is not executable on this operating system.",
+          "這個檔案無法在此作業系統上執行。"
+        ]
+      ]
+    }
+  ],
+  "repository": [
+    {
+      "p": "n",
+      "zh": "（程式碼或資料的）儲存庫",
+      "src": "app",
+      "ai": [
+        [
+          "The developers stored the code in a shared repository.",
+          "開發人員將程式碼存放在共用儲存庫。"
+        ],
+        [
+          "Please add the documentation to the repository.",
+          "請將文件加入儲存庫。"
+        ]
+      ]
+    }
+  ],
+  "computational": [
+    {
+      "p": "adj",
+      "zh": "計算的；運算的",
+      "ai": [
+        [
+          "The project requires substantial computational power.",
+          "這項專案需要強大的運算能力。"
+        ],
+        [
+          "Computational models helped predict demand.",
+          "計算模型協助預測需求。"
+        ]
+      ]
+    }
+  ],
+  "sequential": [
+    {
+      "p": "adj",
+      "zh": "按順序的；連續的",
+      "ai": [
+        [
+          "The software performs the tasks in sequential order.",
+          "軟體會依序執行各項工作。"
+        ],
+        [
+          "Please follow the sequential steps in the guide.",
+          "請依照指南中的步驟順序操作。"
+        ]
+      ]
+    }
+  ],
+  "cache": [
+    {
+      "p": "n",
+      "zh": "快取；高速緩衝記憶體",
+      "src": "app",
+      "ai": [
+        [
+          "The browser stores images in its cache.",
+          "瀏覽器會將圖片存入快取。"
+        ],
+        [
+          "Clearing the cache may solve the loading problem.",
+          "清除快取或許能解決載入問題。"
+        ]
+      ]
+    }
+  ],
+  "override": [
+    {
+      "p": "v",
+      "zh": "覆寫；凌駕；推翻",
+      "ai": [
+        [
+          "An administrator can override the default setting.",
+          "管理員可以覆寫預設設定。"
+        ],
+        [
+          "The safety rule overrides the manager's instruction.",
+          "安全規範優先於主管的指示。"
+        ]
+      ]
+    }
+  ],
+  "emulator": [
+    {
+      "p": "n",
+      "zh": "模擬器",
+      "src": "app",
+      "t": [
+        6167972
+      ],
+      "fix": {
+        "6167972": "你可以用模擬器在電腦上玩 PS2 遊戲。"
+      },
+      "ai": [
+        [
+          "The developer tested the app in an emulator.",
+          "開發人員在模擬器中測試了這款 App。"
+        ]
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "p": "n",
+      "zh": "驗證；確認有效性",
+      "src": "app",
+      "ai": [
+        [
+          "The form requires validation before submission.",
+          "表格送出前必須先完成驗證。"
+        ],
+        [
+          "Data validation prevents many entry errors.",
+          "資料驗證可以避免許多輸入錯誤。"
+        ]
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "p": "n",
+      "zh": "查證；驗證",
+      "ai": [
+        [
+          "The bank requires verification of your identity.",
+          "銀行要求查證你的身分。"
+        ],
+        [
+          "Email verification is needed to activate the account.",
+          "必須完成電子郵件驗證才能啟用帳戶。"
+        ]
+      ]
+    }
+  ],
+  "microprocessor": [
+    {
+      "p": "n",
+      "zh": "微處理器",
+      "ai": [
+        [
+          "The microprocessor controls the device's main functions.",
+          "微處理器控制這台裝置的主要功能。"
+        ],
+        [
+          "A faster microprocessor improved the machine's performance.",
+          "更快速的微處理器提升了機器的效能。"
+        ]
+      ]
+    }
+  ],
+  "semiconductor": [
+    {
+      "p": "n",
+      "zh": "半導體",
+      "ai": [
+        [
+          "The factory produces semiconductor chips for cars.",
+          "這座工廠為汽車生產半導體晶片。"
+        ],
+        [
+          "Demand for semiconductor equipment remains strong.",
+          "半導體設備的需求仍然強勁。"
+        ]
+      ]
+    }
+  ],
+  "circuitry": [
+    {
+      "p": "n",
+      "zh": "電路；電路系統",
+      "ai": [
+        [
+          "Water damaged the phone's internal circuitry.",
+          "水損壞了手機內部的電路。"
+        ],
+        [
+          "The engineer inspected the circuitry on the board.",
+          "工程師檢查了電路板上的電路。"
+        ]
+      ]
+    }
+  ],
+  "transistor": [
+    {
+      "p": "n",
+      "zh": "電晶體",
+      "t": [
+        36922
+      ],
+      "fix": {
+        "36922": "電晶體的發明開啟了一個新時代。"
+      },
+      "ai": [
+        [
+          "The chip contains millions of tiny transistors.",
+          "這款晶片含有數百萬個微小電晶體。"
+        ]
+      ]
+    }
+  ],
+  "voltage": [
+    {
+      "p": "n",
+      "zh": "電壓",
+      "t": [
+        2879192
+      ],
+      "fix": {
+        "2879192": "為了這次測試，我買了一支電壓測試器。"
+      },
+      "ai": [
+        [
+          "The device operates at a low voltage.",
+          "這台裝置以低電壓運作。"
+        ]
+      ]
+    }
+  ],
+  "firmware": [
+    {
+      "p": "n",
+      "zh": "韌體",
+      "src": "app",
+      "t": [
+        4736949
+      ],
+      "fix": {
+        "4736949": "你竟然還沒更新韌體？"
+      },
+      "ai": [
+        [
+          "The router's firmware fixes several security issues.",
+          "路由器的韌體修補了幾項安全問題。"
+        ]
+      ]
+    }
+  ],
+  "embedded": [
+    {
+      "p": "adj",
+      "zh": "內嵌的；嵌入式的",
+      "ai": [
+        [
+          "The sensor is embedded in the control panel.",
+          "感測器嵌在控制面板裡。"
+        ],
+        [
+          "The team develops embedded software for appliances.",
+          "團隊為家電開發嵌入式軟體。"
+        ]
+      ]
+    }
+  ],
+  "gigabyte": [
+    {
+      "p": "n",
+      "zh": "十億位元組；GB",
+      "ai": [
+        [
+          "The video file is nearly two gigabytes in size.",
+          "這個影片檔將近兩 GB。"
+        ],
+        [
+          "The tablet has 128 gigabytes of storage.",
+          "這台平板有 128 GB 的儲存空間。"
+        ]
+      ]
+    }
+  ],
+  "pixel": [
+    {
+      "p": "n",
+      "zh": "像素",
+      "ai": [
+        [
+          "Each pixel on the screen can display millions of colors.",
+          "螢幕上的每個像素都能顯示數百萬種顏色。"
+        ],
+        [
+          "The image became blurry when enlarged beyond its pixel limit.",
+          "圖片放大超過像素限制後就變模糊了。"
+        ]
+      ]
+    }
+  ],
+  "surveyor": [
+    {
+      "p": "n",
+      "zh": "測量員；測量師",
+      "ai": [
+        [
+          "The surveyor marked the boundaries of the site.",
+          "測量員標出了工地的界線。"
+        ],
+        [
+          "A surveyor inspected the land before construction began.",
+          "施工開始前，測量師檢查了這塊土地。"
+        ]
+      ]
+    }
+  ],
+  "laborer": [
+    {
+      "p": "n",
+      "zh": "勞工；體力工作者",
+      "ai": [
+        [
+          "The laborers finished unloading the materials by noon.",
+          "勞工們中午前就卸完了材料。"
+        ],
+        [
+          "Each laborer must wear a safety helmet on site.",
+          "每位工地勞工都必須戴安全帽。"
+        ]
+      ]
+    }
+  ],
+  "craftsman": [
+    {
+      "p": "n",
+      "zh": "工匠；技工",
+      "t": [
+        326599
+      ],
+      "fix": {
+        "326599": "優秀的工匠以自己的手藝為傲。"
+      },
+      "ai": [
+        [
+          "A skilled craftsman repaired the wooden doors.",
+          "一位熟練的工匠修好了木門。"
+        ]
+      ]
+    }
+  ],
+  "scaffolding": [
+    {
+      "p": "n",
+      "zh": "鷹架；施工架",
+      "ai": [
+        [
+          "Workers inspected the scaffolding before climbing it.",
+          "工人爬上鷹架前先做了檢查。"
+        ],
+        [
+          "The crew removed the scaffolding after the repairs.",
+          "修繕完成後，施工團隊拆除了鷹架。"
+        ]
+      ]
+    }
+  ],
+  "bulldozer": [
+    {
+      "p": "n",
+      "zh": "推土機",
+      "ai": [
+        [
+          "A bulldozer cleared the ground for the new warehouse.",
+          "推土機清出了新倉庫的建地。"
+        ],
+        [
+          "The operator moved the bulldozer away from the road.",
+          "操作員將推土機開離道路。"
+        ]
+      ]
+    }
+  ],
+  "excavator": [
+    {
+      "p": "n",
+      "zh": "挖土機；挖掘機",
+      "ai": [
+        [
+          "The excavator dug a trench beside the building.",
+          "挖土機在建築物旁挖了一條溝。"
+        ],
+        [
+          "An excavator moved the soil into waiting trucks.",
+          "挖土機將土方裝進等候的卡車。"
+        ]
+      ]
+    }
+  ],
+  "forklift": [
+    {
+      "p": "n",
+      "zh": "堆高機；叉式堆高機",
+      "ai": [
+        [
+          "The forklift moved the pallets into the warehouse.",
+          "堆高機將棧板移進倉庫。"
+        ],
+        [
+          "Only trained staff may operate the forklift.",
+          "只有受過訓練的員工才能操作堆高機。"
+        ]
+      ]
+    }
+  ],
+  "demolition": [
+    {
+      "p": "n",
+      "zh": "拆除；拆除工程",
+      "ai": [
+        [
+          "The demolition of the old office begins next week.",
+          "舊辦公大樓的拆除工程下週開始。"
+        ],
+        [
+          "The contractor obtained a permit for the demolition.",
+          "承包商取得了拆除工程許可。"
+        ]
+      ]
+    }
+  ],
+  "excavation": [
+    {
+      "p": "n",
+      "zh": "挖掘；開挖工程",
+      "ai": [
+        [
+          "Excavation began after the utility lines were marked.",
+          "標出管線位置後，開挖工程開始了。"
+        ],
+        [
+          "The excavation uncovered an old water pipe.",
+          "挖掘作業發現了一條舊水管。"
+        ]
+      ]
+    }
+  ],
+  "debris": [
+    {
+      "p": "n",
+      "zh": "碎片；瓦礫",
+      "ai": [
+        [
+          "Workers cleared debris from the construction site.",
+          "工人清除了工地上的瓦礫。"
+        ],
+        [
+          "The roof collapsed, scattering debris across the warehouse floor.",
+          "屋頂坍塌，碎片散落在倉庫地板上。"
+        ]
+      ]
+    }
+  ],
+  "harness": [
+    {
+      "p": "n",
+      "zh": "安全吊帶；安全帶",
+      "src": "app",
+      "ai": [
+        [
+          "Every worker must wear a harness at this height.",
+          "在這個高度作業，每位工人都必須繫上安全吊帶。"
+        ],
+        [
+          "The inspector checked her harness before the climb.",
+          "檢查員在她攀爬前檢查了安全吊帶。"
+        ]
+      ]
+    }
+  ],
+  "precaution": [
+    {
+      "p": "n",
+      "zh": "預防措施；防範措施",
+      "ai": [
+        [
+          "As a precaution, the crew closed the work area.",
+          "為了安全起見，施工團隊封閉了作業區。"
+        ],
+        [
+          "Wearing gloves is a useful precaution on this site.",
+          "在這個工地戴手套是實用的防範措施。"
+        ]
+      ]
+    }
+  ],
+  "barricade": [
+    {
+      "p": "n",
+      "zh": "路障；施工圍欄",
+      "ai": [
+        [
+          "A barricade kept visitors away from the excavation.",
+          "路障將訪客隔離在開挖區之外。"
+        ],
+        [
+          "The crew placed a barricade around the damaged floor.",
+          "施工團隊在受損地板周圍設置了圍欄。"
+        ]
+      ]
+    }
+  ],
+  "pillar": [
+    {
+      "p": "n",
+      "zh": "柱子；支柱",
+      "ai": [
+        [
+          "The new pillar supports the roof of the warehouse.",
+          "這根新柱子支撐著倉庫屋頂。"
+        ],
+        [
+          "Workers reinforced the concrete pillar near the entrance.",
+          "工人加固了入口附近的混凝土柱。"
+        ]
+      ]
+    }
+  ],
+  "cement": [
+    {
+      "p": "n",
+      "zh": "水泥",
+      "t": [
+        51280
+      ],
+      "fix": {
+        "51280": "水泥再過幾個小時就會凝固。"
+      },
+      "ai": [
+        [
+          "The contractor ordered more cement for the foundation.",
+          "承包商為地基追加訂購了水泥。"
+        ]
+      ]
+    }
+  ]
+}

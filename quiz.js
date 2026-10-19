@@ -3,6 +3,22 @@
 // 題目用 topics.js 的主題單字格式（word、partOfSpeech、meaning…）。
 // 練習：這一頁的字全部出一次，答錯的字最後再出一次，答完馬上看解答。
 // 測驗：整個主題隨機 10 題，最後看分數和答錯的字。
+// 每個字在練習／測驗中的答對、答錯次數（存在這台裝置的瀏覽器裡）
+const QuizStats = (() => {
+  let data = {};
+  try { data = JSON.parse(localStorage.getItem('quizStats') || '{}'); } catch {}
+  return {
+    record(key, ok) {
+      const s = (data[key] ||= { r: 0, w: 0 });
+      ok ? s.r++ : s.w++;
+      s.last = ok ? 1 : 0;
+      try { localStorage.setItem('quizStats', JSON.stringify(data)); } catch {}
+    },
+    // 最不熟：答錯比答對多，或最近一次答錯
+    weak(key) { const s = data[key]; return !!s && (s.w > s.r || s.last === 0); },
+  };
+})();
+
 const Quiz = (() => {
   const TYPES = [
     { id: 'en-zh', name: '英翻中選擇題', desc: '看英文單字，選出正確的中文意思' },
@@ -177,6 +193,7 @@ const Quiz = (() => {
 
   function answer(q, ok) {
     st.answered = true;
+    QuizStats.record(q.it.key, ok);
     st.lastOk = ok;
     if (ok) st.correct++;
     else {

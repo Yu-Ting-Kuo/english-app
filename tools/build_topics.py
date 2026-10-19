@@ -53,7 +53,16 @@ def resolve(word):
     return None, None
 
 
-LEVELS = ('B', 'I', 'A')  # 初階、中階、進階
+LEVELS = ('600', '750', '900')  # TOEIC 600／750／900
+CORE_LEVELS = ('B', 'I', 'A')  # 原多益核心單元保留原難度分級
+
+
+def level_of(rank):
+    if rank and rank <= 2500:
+        return 'B'
+    if rank and rank <= 8000:
+        return 'I'
+    return 'A'
 
 
 def rank_of(word, entry):
@@ -71,13 +80,13 @@ def rank_of(word, entry):
     return None
 
 
-def level_of(rank):
-    """初階：前 2,500 名；中階：2,501～8,000；進階：8,000 名以後或沒有詞頻資料。"""
-    if rank and rank <= 2500:
-        return 'B'
-    if rank and rank <= 8000:
-        return 'I'
-    return 'A'
+def toeic_level(rank):
+    """多益程度：詞頻前 4,000 名為 TOEIC 600、4,001～10,000 為 750、10,000 名以後或沒有詞頻為 900。"""
+    if rank and rank <= 4000:
+        return '600'
+    if rank and rank <= 10000:
+        return '750'
+    return '900'
 
 
 # 單字列表用的英文詞性標示：名詞 noun[C]／noun[U]、動詞 vt.／vi.，其他 adj.、adv.…
@@ -107,12 +116,16 @@ def pos_of(word, key, gloss, entry, senses):
             best = ss[0]
         p, g = best.get('p'), best.get('g')
         if p in ('n', 'v'):
-            return GRAM.get(g) or ('noun' if p == 'n' else 'v.')
+            return GRAM.get(g) or ('noun' if p == 'n' else 'vi./vt.')
         return POS_ABBR.get(p, '')
     for m in (entry or {}).get('m', []):
         if m.get('d') or m['p'] == 'other':
             continue
-        return m['l'] if m['p'] in ('n', 'v') else POS_ABBR.get(m['p'], '')
+        if m['p'] == 'n':
+            return 'noun'
+        if m['p'] == 'v':
+            return m['l'] if m['l'] in ('vt.', 'vi.') else 'vi./vt.'
+        return POS_ABBR.get(m['p'], '')
     return ''
 
 
@@ -160,7 +173,7 @@ def main():
                 r = rank_of(word, entry)
                 if r:
                     item['r'] = r
-                item['lv'] = level_of(r)
+                item['lv'] = level_of(r) if t.get('auto') else toeic_level(r)
                 if key:
                     item['k'] = key
                     if key != norm(word):
@@ -171,11 +184,12 @@ def main():
                     by_word[ident].append(tid)
                 words.append(item)
             sections.append({'zh': zh, 'en': en, 'words': words})
-        levels = {lv: sum(w['lv'] == lv for s in sections for w in s['words']) for lv in LEVELS}
+        topic_levels = CORE_LEVELS if t.get('auto') else LEVELS
+        levels = {lv: sum(w['lv'] == lv for s in sections for w in s['words']) for lv in topic_levels}
         # 情境主題要求三種難度都有；核心字彙單元是依詞頻切的，不檢查
-        for lv, label in zip(LEVELS, ('初階', '中階', '進階')):
+        for lv in topic_levels:
             if not t.get('auto') and levels[lv] < 3:
-                errors.append(f'{tid}：{label}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
+                errors.append(f'{tid}：TOEIC {lv} 只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
                        'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}
         for k in ('group', 'auto'):
