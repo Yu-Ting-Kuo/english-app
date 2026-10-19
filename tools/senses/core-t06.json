@@ -1,0 +1,258 @@
+{
+  "metal detector": [
+    {"p": "n", "zh": "金屬探測器（機場安檢等）", "src": "app", "ai": [["Please walk through the metal detector one at a time.", "請一次一位走過金屬探測器。"], ["The metal detector beeped because of my belt.", "金屬探測器因為我的皮帶而嗶嗶作響。"]]}
+  ],
+  "porter": [
+    {"p": "n", "zh": "（飯店、車站的）行李員、搬運工", "ai": [["The porter carried our luggage up to the room.", "行李員把我們的行李搬到房間。"], ["We tipped the porter at the train station.", "我們在火車站給了搬運工小費。"]]},
+    {"p": "n", "zh": "門房、大樓管理員", "ai": [["The porter at the front desk signed for the package.", "櫃檯的門房幫忙簽收了包裹。"], ["Leave your keys with the porter when you go out.", "外出時把鑰匙交給門房。"]]}
+  ],
+  "packing": [
+    {"p": "n", "zh": "收拾行李、打包", "t": [23692, 256551], "fix": {"23692": "你行李收拾好了嗎？", "256551": "我當時正忙著打包，因為兩天後就要去法國了。"}, "ai": [["I always leave my packing until the last minute.", "我總是拖到最後一刻才收拾行李。"]]},
+    {"p": "n", "zh": "（商品的）包裝；填充材料", "ai": [["The price includes packing and shipping.", "價格包含包裝和運費。"], ["Use plenty of packing to protect the glasses.", "用大量填充材料保護這些玻璃杯。"]]}
+  ],
+  "stopover": [
+    {"p": "n", "zh": "（旅途中的）短暫停留、中途停留", "t": [247998], "fix": {"247998": "我們中途在芝加哥停留了一下。"}, "ai": [["Our flight to London has a stopover in Dubai.", "我們飛倫敦的班機會在杜拜中途停留。"], ["We decided to enjoy a two-day stopover in Tokyo.", "我們決定在東京停留兩天。"]]}
+  ],
+  "sightseeing": [
+    {"p": "n", "zh": "觀光、遊覽", "ai": [["We spent the afternoon sightseeing in the old town.", "我們整個下午都在老城區觀光。"], ["After the conference, Amy went sightseeing for a day.", "會議結束後，Amy 去觀光了一天。"]]},
+    {"p": "adj", "zh": "觀光的、遊覽的", "t": [20929], "fix": {"20929": "觀光巴士穿過一條長長的隧道。"}, "ai": [["The hotel offers a free sightseeing tour every morning.", "飯店每天早上提供免費的觀光行程。"]]}
+  ],
+  "mat": [
+    {"p": "n", "zh": "墊子；門口地墊、擦鞋墊", "t": [24250, 48267, 255674], "fix": {"24250": "我一進家門就被地墊絆倒了。", "48267": "狗在墊子上睡覺。", "255674": "我在門口地墊下面找到了鑰匙。"}},
+    {"p": "n", "zh": "（運動用的）墊子；餐墊、杯墊", "src": "app", "ai": [["Bring your own yoga mat to the class.", "上課請自備瑜伽墊。"], ["She put a mat under the hot pot.", "她在熱鍋下面墊了一塊墊子。"]]}
+  ],
+  "windmill": [
+    {"p": "n", "zh": "風車", "t": [64825, 8589341], "fix": {"64825": "我去荷蘭之前從沒見過風車。", "8589341": "在荷蘭，不管走到哪裡都看得到風車。"}, "ai": [["The old windmill is now a small museum.", "那座舊風車現在是一間小型博物館。"]]}
+  ],
+  "fertile": [
+    {"p": "adj", "zh": "（土地）肥沃的", "t": [287296, 61621], "fix": {"287296": "他農場的土地非常肥沃。", "61621": "這裡的土壤很肥沃。"}},
+    {"p": "adj", "zh": "能生育的、可繁殖的", "ai": [["The animals are fertile at a young age.", "這些動物年紀很小就能繁殖。"], ["Some couples see a doctor to find out if they are fertile.", "有些夫妻會去看醫生，確認自己是否能生育。"]]},
+    {"p": "adj", "zh": "（想像力、想法）豐富的、多產的", "ai": [["She has a very fertile imagination.", "她的想像力非常豐富。"], ["The meeting was fertile ground for new ideas.", "這場會議激盪出許多新點子。"]]}
+  ],
+  "vivid": [
+    {"p": "adj", "zh": "（記憶、描述）生動的、清晰的", "ai": [["I still have vivid memories of my first job.", "我對第一份工作仍記憶猶新。"], ["The report gives a vivid picture of the market.", "這份報告生動地描繪了市場狀況。"]]},
+    {"p": "adj", "zh": "（顏色）鮮豔的、鮮明的", "ai": [["The new logo uses vivid colors.", "新商標使用了鮮豔的顏色。"], ["She wore a vivid red dress to the party.", "她穿了一件鮮紅色洋裝去派對。"]]}
+  ],
+  "cape": [
+    {"p": "n", "zh": "岬、海角", "ai": [["We drove to the cape to watch the sunset.", "我們開車到海角看夕陽。"], ["There is a lighthouse at the tip of the cape.", "海角的尖端有一座燈塔。"]]},
+    {"p": "n", "zh": "披風、斗篷", "ai": [["The boy wore a red cape like a superhero.", "那個男孩像超級英雄一樣披著紅色披風。"], ["She put a warm cape over her shoulders.", "她在肩上披了一件保暖的斗篷。"]]}
+  ],
+  "ridge": [
+    {"p": "n", "zh": "山脊、山稜", "ai": [["We hiked along the ridge for two hours.", "我們沿著山脊健行了兩小時。"], ["The view from the ridge was amazing.", "從山脊上看出去的景色好極了。"]]},
+    {"p": "n", "zh": "（物體表面的）隆起、脊狀", "ai": [["The roof has a ridge in the middle.", "屋頂中間有一道屋脊。"], ["You can feel a small ridge on the back of the key.", "你可以摸到鑰匙背面有一小道凸起。"]]}
+  ],
+  "lodging": [
+    {"p": "n", "zh": "住宿、住處", "t": [109242], "fix": {"109242": "這棟建築是男女都可以住宿的膠囊旅館。"}, "ai": [["The company will pay for your travel and lodging.", "公司會支付你的交通和住宿費用。"], ["It was hard to find lodging during the festival.", "節慶期間很難找到住宿。"]]}
+  ],
+  "trek": [
+    {"p": "n", "zh": "長途跋涉、健行（尤指艱苦的）", "ai": [["The trek to the base camp took five days.", "前往基地營的長途健行花了五天。"], ["It's a long trek from the parking lot to the office.", "從停車場走到辦公室要走很遠。"]]},
+    {"p": "v", "zh": "長途跋涉、艱苦地走", "ai": [["We trekked through the mountains for a week.", "我們在山裡跋涉了一個星期。"], ["I had to trek across town to pick up the documents.", "我得穿越整個城鎮去拿那些文件。"]]}
+  ],
+  "broadcasting": [
+    {"p": "n", "zh": "廣播業、廣播電視（節目的播送）", "ai": [["She has worked in broadcasting for ten years.", "她在廣播電視業工作了十年。"], ["The company is a leader in digital broadcasting.", "這家公司是數位廣播的領導者。"]]}
+  ],
+  "buzz": [
+    {"p": "n", "zh": "嗡嗡聲", "ai": [["I could hear the buzz of the air conditioner.", "我聽得到冷氣的嗡嗡聲。"], ["There was a low buzz of conversation in the room.", "房間裡有低沉的交談聲。"]]},
+    {"p": "v", "zh": "發出嗡嗡聲；（地方）熱鬧、充滿興奮", "t": [1602341, 1869480, 8776768], "fix": {"1602341": "蜜蜂的嗡嗡聲讓我有點緊張。", "1869480": "聽說有轉學生要來，全班都興奮得鬧哄哄的。", "8776768": "刮鬍刀發出嗡嗡的聲響。"}},
+    {"p": "n", "zh": "話題、熱烈討論；興奮感", "src": "app", "ai": [["The new phone created a lot of buzz online.", "新手機在網路上引起熱烈討論。"], ["There's a real buzz around the office about the merger.", "辦公室裡大家都在熱烈討論合併的事。"]]},
+    {"p": "phr", "zh": "buzz (sb) in：按鈕開門讓（人）進來", "src": "app", "ai": [["The receptionist buzzed me in through the front door.", "櫃檯人員按鈕開大門讓我進去。"], ["Can you buzz in the delivery guy?", "你可以按鈕開門讓送貨員進來嗎？"]]}
+  ],
+  "jungle": [
+    {"p": "n", "zh": "叢林、熱帶雨林", "t": [29846, 1476792, 2301465], "fix": {"29846": "獅子是叢林之王。", "1476792": "他寫了一本關於叢林冒險的書。", "2301465": "孩子們在叢林裡迷路了。"}},
+    {"p": "n", "zh": "（比喻）競爭激烈的地方；雜亂的一堆", "t": [10540424], "fix": {"10540424": "我們往下看，是一片水泥叢林。"}, "ai": [["The business world can be a jungle.", "商場可能是弱肉強食的叢林。"]]}
+  ],
+  "aurora": [
+    {"p": "n", "zh": "極光", "t": [65116], "fix": {"65116": "極光是極地特有的自然現象。"}, "ai": [["We flew to Iceland to see the aurora.", "我們飛到冰島看極光。"], ["The aurora lit up the night sky in green.", "極光把夜空染成一片綠色。"]]}
+  ],
+  "reel": [
+    {"p": "n", "zh": "捲軸、捲盤；一捲（線、膠卷）", "t": [8893124], "fix": {"8893124": "這間小電影院放映時有中場休息，讓放映師換片。"}, "ai": [["He bought a new fishing reel.", "他買了一個新的釣魚捲線器。"]]},
+    {"p": "v", "zh": "（因震驚而）頭暈、站不穩", "ai": [["She was still reeling from the news of the layoffs.", "她還沒從裁員的消息中回過神來。"], ["The blow made him reel backward.", "那一擊讓他踉蹌後退。"]]},
+    {"p": "n", "zh": "（社群媒體的）短影片", "src": "app", "ai": [["Our marketing team posts a new reel every week.", "我們的行銷團隊每週發布一支新的短影片。"], ["That cooking reel got a million views.", "那支料理短影片有一百萬次觀看。"]]}
+  ],
+  "buck": [
+    {"p": "n", "zh": "（口語）一美元、塊", "t": [412013, 3826003], "fix": {"412013": "他跟我借了一百塊。", "3826003": "你欠我三十塊。"}, "ai": [["This sandwich costs only five bucks.", "這個三明治只要五塊錢。"]]},
+    {"p": "n", "zh": "公鹿；（兔等）雄性動物", "t": [1541641], "fix": {"1541641": "我正在追蹤一頭公鹿。"}, "ai": [["A young buck ran across the road.", "一頭年輕的公鹿跑過馬路。"]]},
+    {"p": "phr", "zh": "pass the buck：推卸責任", "src": "app", "ai": [["Don't pass the buck; just fix the problem.", "別推卸責任，把問題解決就對了。"], ["The manager always passes the buck to his team.", "那位經理總是把責任推給團隊。"]]}
+  ],
+  "boulder": [
+    {"p": "n", "zh": "大圓石、巨石", "t": [13849964], "fix": {"13849964": "海底巨石的裂縫裡藏著一隻章魚。"}, "ai": [["A huge boulder blocked the mountain road.", "一塊巨石擋住了山路。"], ["The kids climbed on the boulders by the river.", "孩子們在河邊的大石頭上攀爬。"]]}
+  ],
+  "miniature": [
+    {"p": "adj", "zh": "小型的、迷你的、縮小的", "ai": [["She collects miniature cars.", "她收集迷你小汽車。"], ["The architect showed us a miniature model of the building.", "建築師給我們看大樓的縮小模型。"]]},
+    {"p": "n", "zh": "縮小模型；微型畫", "ai": [["The museum displays miniatures of famous ships.", "博物館展示著名船艦的縮小模型。"], ["The park is like a city in miniature.", "這座公園就像一個縮小版的城市。"]]}
+  ],
+  "lamb": [
+    {"p": "n", "zh": "羊肉、小羊肉", "t": [2166229, 9009377], "fix": {"2166229": "我喜歡吃羊肉串。", "9009377": "比起羊肉，我更喜歡牛肉。"}, "ai": [["The restaurant is famous for its roast lamb.", "這家餐廳以烤羊肉聞名。"]]},
+    {"p": "n", "zh": "小羊、羔羊", "ai": [["We saw lambs playing on the farm.", "我們在農場看到小羊在玩耍。"], ["The lamb followed its mother everywhere.", "小羊到哪裡都跟著媽媽。"]]}
+  ],
+  "scenic": [
+    {"p": "adj", "zh": "風景優美的", "t": [50894, 52438], "fix": {"50894": "這個地方以風景優美聞名。", "52438": "瑞士以風景優美聞名。"}, "ai": [["Let's take the scenic route along the coast.", "我們走沿海那條風景優美的路線吧。"]]}
+  ],
+  "ozone": [
+    {"p": "n", "zh": "臭氧", "t": [10540285], "fix": {"10540285": "平流層的臭氧會吸收紫外線。"}, "ai": [["Air pollution has damaged the ozone layer.", "空氣污染破壞了臭氧層。"], ["High ozone levels can cause breathing problems.", "臭氧濃度高可能引起呼吸問題。"]]}
+  ],
+  "cathedral": [
+    {"p": "n", "zh": "大教堂", "t": [7795868], "fix": {"7795868": "我和她晚上八點半在大教堂碰面。"}, "ai": [["The cathedral is the city's most famous landmark.", "那座大教堂是這座城市最有名的地標。"], ["Our tour group visited the old cathedral.", "我們的旅行團參觀了那座古老的大教堂。"]]}
+  ],
+  "destiny": [
+    {"p": "n", "zh": "命運、天命", "t": [16186, 2030467, 12778522], "fix": {"16186": "你才是自己命運的主人。", "2030467": "每個人都應該做自己命運的主人。", "12778522": "我們每個人都有注定要完成的使命嗎？"}}
+  ],
+  "token": [
+    {"p": "n", "zh": "象徵、表示", "t": [274534], "fix": {"274534": "我們畢業時送他一個桌鐘，表示我們的謝意。"}, "ai": [["Please accept this gift as a token of our appreciation.", "請收下這份禮物，聊表我們的謝意。"]]},
+    {"p": "n", "zh": "代幣；禮券", "ai": [["You need a token to use the washing machine.", "使用洗衣機需要投代幣。"], ["Each player gets ten tokens at the start of the game.", "每位玩家在遊戲開始時拿到十個代幣。"]]},
+    {"p": "n", "zh": "（電腦）權杖、驗證碼；（AI）詞元", "src": "app", "ai": [["The app sends a security token to your phone.", "這個 App 會傳送安全驗證碼到你的手機。"], ["The model can process thousands of tokens at once.", "這個模型可以一次處理數千個詞元。"]]},
+    {"p": "adj", "zh": "象徵性的、做做樣子的", "ai": [["The company made only a token effort to fix the problem.", "公司只是做做樣子地處理這個問題。"], ["They charge a token fee for the workshop.", "他們對這場工作坊收取象徵性的費用。"]]}
+  ],
+  "breeze": [
+    {"p": "n", "zh": "微風", "t": [12568700, 12568698, 12568692], "fix": {"12568700": "一陣微風吹皺了湖面。", "12568698": "樹葉在微風中顫動。", "12568692": "一陣微風吹動了樹葉。"}},
+    {"p": "n", "zh": "（口語）輕而易舉的事", "ai": [["The exam was a breeze for her.", "這次考試對她來說輕而易舉。"], ["With the new software, filing reports is a breeze.", "有了新軟體，提交報告變得很輕鬆。"]]},
+    {"p": "v", "zh": "輕鬆地通過、輕快地走", "ai": [["She breezed through the job interview.", "她輕鬆通過了工作面試。"], ["Tom breezed into the meeting ten minutes late.", "Tom 遲到十分鐘，卻若無其事地走進會議。"]]}
+  ],
+  "saddle": [
+    {"p": "n", "zh": "馬鞍；（腳踏車的）座墊", "ai": [["Please adjust the bike saddle to your height.", "請依你的身高調整腳踏車座墊。"], ["He put the saddle on the horse.", "他把馬鞍放到馬背上。"]]},
+    {"p": "v", "zh": "使背負（重擔、責任）", "t": [388388], "fix": {"388388": "她把這份工作硬塞給他。"}, "ai": [["The company is saddled with huge debts.", "這家公司背負著龐大的債務。"]]}
+  ],
+  "odyssey": [
+    {"p": "n", "zh": "漫長而充滿冒險的旅程", "src": "app", "ai": [["Getting home during the storm was a real odyssey.", "暴風雨中回家真是一段漫長艱辛的旅程。"], ["Her career has been a long odyssey across three continents.", "她的職涯是一段橫跨三大洲的漫長歷程。"]]}
+  ],
+  "avalanche": [
+    {"p": "n", "zh": "雪崩", "ai": [["The road was closed because of an avalanche.", "那條路因雪崩而封閉。"], ["Skiers should check the avalanche warning first.", "滑雪的人應該先查看雪崩警報。"]]},
+    {"p": "n", "zh": "（比喻）大量湧至", "ai": [["We received an avalanche of emails after the launch.", "產品上市後，我們收到大量電子郵件。"], ["The store faced an avalanche of complaints.", "這家店面臨排山倒海的客訴。"]]}
+  ],
+  "herd": [
+    {"p": "n", "zh": "（牛、羊等的）一群；獸群", "t": [3527120], "fix": {"3527120": "剛出生的小牛跟不上逃離美洲豹的牛群。"}, "ai": [["A herd of cows was walking across the field.", "一群牛正走過田野。"]]},
+    {"p": "v", "zh": "把……趕在一起、帶領（一群人）", "ai": [["The guide herded the tourists onto the bus.", "導遊把遊客趕上巴士。"], ["Teachers herded the children into the hall.", "老師們把孩子帶進禮堂。"]]}
+  ],
+  "submarine": [
+    {"p": "n", "zh": "潛水艇", "ai": [["The submarine stayed underwater for weeks.", "那艘潛水艇在水下待了好幾週。"], ["You can visit an old submarine at the museum.", "你可以在博物館參觀一艘舊潛水艇。"]]},
+    {"p": "adj", "zh": "海底的", "ai": [["The submarine cable connects the island to the internet.", "這條海底電纜讓這座島連上網路。"], ["Scientists study submarine volcanoes.", "科學家研究海底火山。"]]}
+  ],
+  "swamp": [
+    {"p": "n", "zh": "沼澤", "t": [4751743], "fix": {"4751743": "他獨自住在沼澤裡的一間小屋。"}, "ai": [["Many birds live in the swamp.", "許多鳥類住在這片沼澤裡。"]]},
+    {"p": "v", "zh": "使應接不暇、使忙不過來；淹沒", "t": [10545400], "fix": {"10545400": "我不是故意要讓你忙不過來。"}, "ai": [["We've been swamped with orders this week.", "這週我們的訂單多到忙不過來。"]]}
+  ],
+  "imposing": [
+    {"p": "adj", "zh": "雄偉的、壯觀的；令人印象深刻的", "ai": [["The bank's head office is an imposing building.", "那家銀行的總部是一棟雄偉的建築。"], ["He is an imposing figure in the industry.", "他是業界舉足輕重的人物。"]]}
+  ],
+  "flashlight": [
+    {"p": "n", "zh": "手電筒", "t": [2537284, 2643989], "fix": {"2537284": "沒有手電筒的話，你什麼都看不到。", "2643989": "Tom 給了 Mary 一支手電筒。"}, "ai": [["Use the flashlight on your phone.", "用你手機上的手電筒。"]]}
+  ],
+  "limestone": [
+    {"p": "n", "zh": "石灰岩", "ai": [["The old church is built of limestone.", "那座老教堂是用石灰岩建造的。"], ["The cave was formed in limestone over millions of years.", "這個洞穴是石灰岩歷經數百萬年形成的。"]]}
+  ],
+  "dragonfly": [
+    {"p": "n", "zh": "蜻蜓", "t": [278780], "fix": {"278780": "天花板上有一隻蜻蜓。"}, "ai": [["A dragonfly landed on the water.", "一隻蜻蜓停在水面上。"], ["The kids tried to catch a dragonfly in the park.", "孩子們在公園裡想抓一隻蜻蜓。"]]}
+  ],
+  "billboard": [
+    {"p": "n", "zh": "廣告看板、廣告牌", "ai": [["Our new ad will appear on billboards across the city.", "我們的新廣告會出現在全市的廣告看板上。"], ["I saw a huge billboard on the highway.", "我在高速公路上看到一個巨大的廣告看板。"]]}
+  ],
+  "cyclone": [
+    {"p": "n", "zh": "氣旋、熱帶氣旋（颶風、颱風）", "ai": [["All flights were canceled because of the cyclone.", "所有航班都因為氣旋而取消。"], ["The cyclone caused serious damage to the coast.", "這個氣旋對沿海地區造成嚴重損害。"]]}
+  ],
+  "blizzard": [
+    {"p": "n", "zh": "暴風雪", "t": [323552, 13556979, 13556982], "fix": {"323552": "我們一路順利，直到遇上暴風雪。", "13556979": "因為暴風雪，Tom 和 Mary 被困在波士頓。", "13556982": "這場暴風雪已經對經濟造成嚴重的影響。"}},
+    {"p": "n", "zh": "（比喻）大量、一大堆", "src": "app", "ai": [["I came back from vacation to a blizzard of emails.", "我休假回來，面對一大堆電子郵件。"], ["The new rules created a blizzard of paperwork.", "新規定帶來一大堆文書作業。"]]}
+  ],
+  "blur": [
+    {"p": "v", "zh": "（使）變模糊", "t": [590463], "fix": {"590463": "可能的副作用包括視力模糊和呼吸急促。"}, "ai": [["Tears blurred her vision.", "淚水模糊了她的視線。"]]},
+    {"p": "v", "zh": "使（界線、區別）模糊不清", "src": "app", "ai": [["Working from home can blur the line between work and life.", "在家工作可能使工作與生活的界線變得模糊。"], ["The two roles have become blurred.", "這兩個角色的分界已經變得模糊。"]]},
+    {"p": "n", "zh": "模糊的東西；模糊的記憶", "src": "app", "ai": [["The whole week was a blur of meetings.", "整個星期都在一連串會議中模糊地過去了。"], ["Without my glasses, everything is a blur.", "沒戴眼鏡時，什麼都是模糊一片。"]]}
+  ],
+  "pasture": [
+    {"p": "n", "zh": "牧場、草地", "t": [43965, 470994], "fix": {"43965": "這座牧場面積有十英畝。", "470994": "那座牧場有十英畝大。"}},
+    {"p": "phr", "zh": "greener pastures：更好的機會（常指換工作）", "src": "app", "ai": [["After five years, he left for greener pastures.", "五年後，他離開去尋找更好的發展。"], ["Many staff are looking for greener pastures.", "許多員工正在尋找更好的機會。"]]}
+  ],
+  "outing": [
+    {"p": "n", "zh": "出遊、郊遊；（團體的）外出活動", "ai": [["Our team went on a company outing to the beach.", "我們團隊去海邊參加公司出遊。"], ["The school is planning an outing to the zoo.", "學校正在計畫去動物園校外教學。"]]}
+  ],
+  "expedition": [
+    {"p": "n", "zh": "探險、遠征（隊）", "t": [49469, 307262], "fix": {"49469": "我們在探險途中遇到了很多困難。", "307262": "他們出發去南極探險。"}, "ai": [["The expedition team reached the top of the mountain.", "探險隊登上了山頂。"]]},
+    {"p": "n", "zh": "（有特定目的的）短程出行", "src": "app", "ai": [["We went on a shopping expedition downtown.", "我們去市中心大採購。"], ["The fishing expedition lasted all day.", "那趟釣魚之旅持續了一整天。"]]}
+  ],
+  "bee": [
+    {"p": "n", "zh": "蜜蜂", "t": [7517722, 22666], "fix": {"7517722": "我知道 Tom 對蜜蜂過敏。", "22666": "我們遭到一大群蜜蜂攻擊。"}, "ai": [["A bee stung me on the arm.", "一隻蜜蜂螫了我的手臂。"]]},
+    {"p": "phr", "zh": "as busy as a bee：非常忙碌", "t": [16760, 9729410], "fix": {"16760": "你總是忙得團團轉。", "9729410": "你總是忙得像蜜蜂一樣。"}},
+    {"p": "n", "zh": "（拼字等）比賽、聚會（如 spelling bee）", "ai": [["Amy won the school spelling bee.", "Amy 贏得了學校的拼字比賽。"], ["My son is practicing for the spelling bee.", "我兒子正在為拼字比賽練習。"]]}
+  ],
+  "inn": [
+    {"p": "n", "zh": "小旅館、客棧", "t": [305286], "fix": {"305286": "他們住的旅館發生了火災。"}, "ai": [["We stayed at a small inn by the lake.", "我們住在湖邊的一家小旅館。"], ["The inn serves breakfast from seven to ten.", "這家旅館的早餐供應時間是七點到十點。"]]}
+  ],
+  "muddy": [
+    {"p": "adj", "zh": "泥濘的、沾滿泥的；混濁的", "t": [265443], "fix": {"265443": "車子經過時把泥水濺到我身上。"}, "ai": [["Take off your muddy shoes before you come in.", "進來前先脫掉你沾滿泥巴的鞋。"]]},
+    {"p": "v", "zh": "使混亂、使模糊不清", "ai": [["Too many details will muddy your message.", "細節太多會讓你的訊息不清楚。"], ["The new data only muddied the picture.", "新數據反而讓情況更加混亂。"]]}
+  ],
+  "crocodile": [
+    {"p": "n", "zh": "鱷魚", "t": [287066, 1254301], "fix": {"287066": "他的腿被鱷魚咬了。", "1254301": "鱷魚有銳利的牙齒。"}, "ai": [["We saw a crocodile resting by the river.", "我們看到一隻鱷魚在河邊休息。"]]}
+  ],
+  "giraffe": [
+    {"p": "n", "zh": "長頸鹿", "t": [8546950, 2921563], "fix": {"8546950": "長頸鹿沿著河岸走著。", "2921563": "長頸鹿是怎麼叫的？"}, "ai": [["The kids loved feeding the giraffes at the zoo.", "孩子們很喜歡在動物園餵長頸鹿。"]]}
+  ],
+  "goldfish": [
+    {"p": "n", "zh": "金魚", "t": [4647971], "fix": {"4647971": "人類是不是就像魚缸裡的金魚？"}, "ai": [["My daughter has two goldfish in a small tank.", "我女兒在小魚缸裡養了兩隻金魚。"]]},
+    {"p": "phr", "zh": "memory like a goldfish：記性很差", "t": [381105, 1556845], "fix": {"381105": "我的記性跟金魚一樣差。", "1556845": "我的記憶力跟金魚差不多。"}}
+  ],
+  "kangaroo": [
+    {"p": "n", "zh": "袋鼠", "ai": [["We saw kangaroos in the wild in Australia.", "我們在澳洲看到野生袋鼠。"], ["A baby kangaroo lives in its mother's pouch.", "小袋鼠住在媽媽的育兒袋裡。"]]}
+  ],
+  "outdoors": [
+    {"p": "adv", "zh": "在戶外、在室外", "t": [278808, 310300], "fix": {"278808": "如果天氣允許，派對將在戶外舉行。", "310300": "她不常到戶外走動。"}, "ai": [["We had lunch outdoors on the terrace.", "我們在露台上吃午餐。"]]},
+    {"p": "n", "zh": "the outdoors：戶外、大自然", "ai": [["He loves the great outdoors.", "他熱愛大自然。"], ["The trip lets kids enjoy the outdoors.", "這趟旅行讓孩子們享受戶外活動。"]]}
+  ],
+  "penguin": [
+    {"p": "n", "zh": "企鵝", "t": [1848, 12899228], "fix": {"1848": "這隻企鵝寶寶太可愛了！", "12899228": "我喜歡企鵝。"}, "ai": [["Penguins can't fly, but they swim very well.", "企鵝不會飛，但很會游泳。"]]}
+  ],
+  "pony": [
+    {"p": "n", "zh": "小型馬、矮種馬", "ai": [["The children took turns riding the pony.", "孩子們輪流騎小馬。"], ["She got a pony for her tenth birthday.", "她十歲生日時得到一匹小馬。"]]},
+    {"p": "n", "zh": "ponytail（馬尾）的簡稱", "src": "app", "ai": [["She tied her hair in a pony before the run.", "她跑步前把頭髮綁成馬尾。"], ["Amy usually wears her hair in a pony.", "Amy 平常都綁馬尾。"]]}
+  ],
+  "brook": [
+    {"p": "n", "zh": "小溪、小河", "t": [2230009], "fix": {"2230009": "小溪潺潺的流水聲伴我入眠。"}, "ai": [["We followed a small brook into the forest.", "我們沿著一條小溪走進森林。"]]},
+    {"p": "v", "zh": "（否定句）容忍、容許", "ai": [["The manager will brook no delay.", "經理不容許任何延誤。"], ["She brooks no argument on this point.", "在這一點上，她不容許任何爭辯。"]]}
+  ],
+  "cliff": [
+    {"p": "n", "zh": "懸崖、峭壁", "t": [305351, 5298450, 265411], "fix": {"305351": "他們爬到了懸崖頂上。", "5298450": "我差點從懸崖上摔下去。", "265411": "如果車子掉下懸崖，他們早就沒命了。"}}
+  ],
+  "cooker": [
+    {"p": "n", "zh": "炊具、鍋具（如電鍋、壓力鍋）", "ai": [["Put the rice in the rice cooker.", "把米放進電鍋裡。"], ["A pressure cooker saves a lot of time.", "壓力鍋可以省下很多時間。"]]},
+    {"p": "n", "zh": "（英式）爐灶、爐具", "ai": [["The flat comes with a new gas cooker.", "這間公寓附有一台新的瓦斯爐。"], ["Turn off the cooker before you leave.", "出門前把爐子關掉。"]]}
+  ],
+  "cub": [
+    {"p": "n", "zh": "（獅、虎、熊等的）幼獸", "t": [36937], "fix": {"36937": "那隻小老虎看起來像一隻大貓。"}, "ai": [["The bear cub stayed close to its mother.", "小熊緊緊跟在媽媽身邊。"]]},
+    {"p": "adj", "zh": "新手的、資淺的（如 cub reporter）", "src": "app", "ai": [["She started as a cub reporter at a local paper.", "她在地方報社從菜鳥記者做起。"], ["The cub reporter got his first big story.", "那名菜鳥記者拿到了他第一個大新聞。"]]}
+  ],
+  "canyon": [
+    {"p": "n", "zh": "峽谷", "ai": [["We hiked to the bottom of the canyon.", "我們健行到峽谷底部。"], ["Taroko is famous for its deep marble canyon.", "太魯閣以深邃的大理石峽谷聞名。"]]}
+  ],
+  "check-in": [
+    {"p": "n", "zh": "（機場、飯店的）報到、登記入住手續", "t": [30114], "fix": {"30114": "聯合航空的報到櫃檯在哪裡？"}, "ai": [["Hotel check-in begins at 3 p.m.", "飯店入住登記從下午三點開始。"], ["Online check-in opens 24 hours before the flight.", "線上報到在起飛前 24 小時開放。"]]},
+    {"p": "n", "zh": "（與主管、同事的）簡短進度確認", "src": "app", "ai": [["Let's have a quick check-in every Monday morning.", "我們每週一早上簡短確認一下進度吧。"], ["My manager scheduled a weekly check-in with me.", "我的主管安排每週跟我做一次進度確認。"]]}
+  ],
+  "embark": [
+    {"p": "v", "zh": "embark on：開始、著手（新事業、計畫）", "t": [43335], "fix": {"43335": "那對老夫婦展開了環遊世界之旅。"}, "ai": [["The company is embarking on a major expansion.", "公司正著手進行大規模擴張。"]]},
+    {"p": "v", "zh": "上船、登機", "ai": [["Passengers may embark at 9 a.m.", "乘客可於上午九點登船。"], ["We embarked at the port of Keelung.", "我們在基隆港上船。"]]}
+  ],
+  "honeymoon": [
+    {"p": "n", "zh": "蜜月（旅行）", "t": [22195, 8586696, 63628], "fix": {"22195": "越來越多新婚夫妻出國度蜜月。", "8586696": "我們想去澳洲度蜜月。", "63628": "去加拿大度蜜月要花很多錢。"}},
+    {"p": "n", "zh": "（比喻）蜜月期（初期的和諧階段）", "src": "app", "ai": [["The new CEO's honeymoon period is over.", "新執行長的蜜月期結束了。"], ["The honeymoon with the new client didn't last long.", "跟新客戶的蜜月期沒有維持太久。"]]}
+  ],
+  "mare": [
+    {"p": "n", "zh": "母馬", "t": [2535309], "fix": {"2535309": "這是公馬還是母馬？"}, "ai": [["The mare gave birth to a healthy foal.", "母馬生下一匹健康的小馬。"], ["The farmer keeps two mares and a stallion.", "農夫養了兩匹母馬和一匹公馬。"]]}
+  ],
+  "waterfall": [
+    {"p": "n", "zh": "瀑布", "t": [1499021], "fix": {"1499021": "我在那裡看到一座很美的瀑布。"}, "ai": [["The trail ends at a beautiful waterfall.", "這條步道的終點是一座美麗的瀑布。"], ["We took photos in front of the waterfall.", "我們在瀑布前拍照。"]]}
+  ],
+  "hostel": [
+    {"p": "n", "zh": "（青年）旅舍、背包客棧", "t": [1662, 568302], "fix": {"1662": "這附近有青年旅舍嗎？", "568302": "這一帶有沒有青年旅舍？"}, "ai": [["Staying in a hostel is a cheap way to travel.", "住青年旅舍是省錢的旅行方式。"]]}
+  ],
+  "traverse": [
+    {"p": "v", "zh": "橫越、穿越", "t": [1635557], "fix": {"1635557": "一定有辦法過河。"}, "ai": [["The train traverses the whole country in two days.", "這列火車兩天內橫越全國。"]]}
+  ],
+  "wayside": [
+    {"p": "n", "zh": "路邊、路旁", "ai": [["We stopped at a wayside café for lunch.", "我們在路邊的咖啡館停下來吃午餐。"], ["Flowers were growing by the wayside.", "路旁長著花。"]]},
+    {"p": "phr", "zh": "fall by the wayside：半途而廢、被淘汰", "ai": [["Many good plans fall by the wayside due to lack of money.", "許多好計畫因缺乏資金而半途而廢。"], ["Several start-ups fell by the wayside last year.", "去年好幾家新創公司被淘汰了。"]]}
+  ],
+  "pilgrimage": [
+    {"p": "n", "zh": "朝聖（之旅）", "ai": [["Thousands of people make a pilgrimage to the temple every year.", "每年有數千人到那座寺廟朝聖。"], ["She went on a pilgrimage to Spain.", "她到西班牙進行了一趟朝聖之旅。"]]},
+    {"p": "n", "zh": "（到有意義之地的）專程造訪", "ai": [["Fans make a pilgrimage to the singer's hometown.", "粉絲專程造訪那位歌手的家鄉。"], ["For coffee lovers, this café is a pilgrimage site.", "對咖啡愛好者來說，這家咖啡館是朝聖之地。"]]}
+  ]
+}
