@@ -6,6 +6,7 @@
 const Dict = (() => {
   const shards = new Map();
   const indexes = new Map();
+  const relationShards = new Map();
   let zhIndex = null;
   let zhIndexLoading = null;
 
@@ -43,6 +44,11 @@ const Dict = (() => {
     return data[key] || null;
   }
   const loadIndex = l => cached(indexes, l, `dict/i/${l}.json`, []);
+  async function relations(key) {
+    const letter = key.replace(/[^a-z]/g, '').slice(0, 1) || '_';
+    const data = await cached(relationShards, letter, `dict/r/${letter}.json`, {});
+    return data[norm(key)] || [];
+  }
 
   const zhTwMeanings = {
     razor: [{ p: 'n', l: 'noun', m: '刮鬍刀' }, { p: 'v', l: 'vt.', m: '剃' }],
@@ -185,13 +191,6 @@ const Dict = (() => {
     const data = await fetchJSON('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word));
     if (!Array.isArray(data)) return { found: false };
     const out = { found: true, us: null, uk: null, ipa: null, defs: [], source: data[0]?.sourceUrls?.[0] || null };
-    const relations = { synonyms: [], antonyms: [] };
-    const addRelations = (target, values, pos) => {
-      for (const value of values || []) {
-        const related = String(value || '').trim();
-        if (related) target.push({ word: related, pos });
-      }
-    };
     for (const d of data) {
       for (const p of d.phonetics || []) {
         const region = /-us\.mp3$/i.test(p.audio || '') ? 'us' : /-uk\.mp3$/i.test(p.audio || '') ? 'uk' : null;
@@ -205,22 +204,8 @@ const Dict = (() => {
         if (!group) out.defs.push(group = { pos: m.partOfSpeech, items: [] });
         for (const def of m.definitions || []) {
           if (group.items.length < 4) group.items.push(def.definition);
-          addRelations(relations.synonyms, def.synonyms, m.partOfSpeech);
-          addRelations(relations.antonyms, def.antonyms, m.partOfSpeech);
         }
-        addRelations(relations.synonyms, m.synonyms, m.partOfSpeech);
-        addRelations(relations.antonyms, m.antonyms, m.partOfSpeech);
       }
-    }
-    const self = norm(word);
-    for (const [name, items] of Object.entries(relations)) {
-      const seen = new Set();
-      out[name] = items.filter(item => {
-        const id = `${item.pos}|${norm(item.word)}`;
-        if (!item.word || norm(item.word) === self || seen.has(id)) return false;
-        seen.add(id);
-        return true;
-      });
     }
     return out;
   }
@@ -259,5 +244,5 @@ const Dict = (() => {
     return [...new Set(labels.map(l => verbs.includes(l) ? verb : l))];
   }
 
-  return { norm, lookup, suggest, searchChinese, isChinese, fuzzy, getEntry, senses, online, frequency, inflections, lev, posLabels };
+  return { norm, lookup, suggest, searchChinese, isChinese, fuzzy, getEntry, senses, relations, online, frequency, inflections, lev, posLabels };
 })();

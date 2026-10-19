@@ -368,32 +368,30 @@ async function loadEntryTopics(key) {
     <div class="row wrap">${ts.map(t => `<button class="chip-btn topic-chip" data-topic="${esc(t.id)}">${esc(t.zh)}</button>`).join('')}</div>`;
 }
 
-async function loadWordRelations(key, type, relations) {
+async function loadWordRelations(key, type, senses) {
   const box = $('#' + type);
   if (!box) return;
   const title = type === 'synonyms' ? '同義詞' : '反義詞';
-  if (!relations?.length) {
+  const field = type === 'synonyms' ? 's' : 'a';
+  const groupsWithRelation = (senses || []).filter(g => g[field]?.length).slice(0, 8);
+  if (!groupsWithRelation.length) {
     if (currentEntry?.key !== key) return;
     box.hidden = false;
-    box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3><div class="muted">目前沒有查到可靠的${title}資料。</div>`;
+    box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3><div class="muted">離線詞庫目前沒有收錄這個字的${title}。</div>`;
     return;
   }
-  const legacy = relations.map(r => typeof r === 'string' ? { word: r, pos: '' } : r);
-  const rows = await Promise.all(legacy.slice(0, 12).map(async r => {
-    const e = await Dict.getEntry(Dict.norm(r.word)).catch(() => null);
-    return { word: r.word, pos: r.pos, zh: e ? shortMeaning(e, r.pos) : '' };
+  const groups = await Promise.all(groupsWithRelation.map(async g => {
+    const rows = await Promise.all(g[field].slice(0, 6).map(async word => {
+      const e = await Dict.getEntry(Dict.norm(word)).catch(() => null);
+      return { word, zh: e ? shortMeaning(e, g.p) : '' };
+    }));
+    return { pos: g.p, gloss: g.g, rows };
   }));
   if (currentEntry?.key !== key) return;
-  const groups = new Map();
-  for (const r of rows) {
-    const pos = r.pos || '相關詞';
-    if (!groups.has(pos)) groups.set(pos, []);
-    groups.get(pos).push(r);
-  }
   box.hidden = false;
   box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3>
-    ${[...groups].map(([pos, items]) => `<div class="relation-group"><span class="pos">${esc(pos)}</span><div class="syn-list">${items.map(r => `<button class="syn" data-word="${esc(r.word)}"><b>${esc(r.word)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div></div>`).join('')}
-    <div class="source" style="margin:0">${title}由 Wiktionary 資料整理；不同詞義或情境下未必能互換，請比較詞性與中文意思。</div>`;
+    ${groups.map(g => `<div class="relation-group"><span class="pos">${esc(g.pos)}</span><div class="muted">${esc(g.gloss)}</div><div class="syn-list">${g.rows.map(r => `<button class="syn" data-word="${esc(r.word)}"><b>${esc(r.word)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div></div>`).join('')}
+    <div class="source" style="margin:0">詞義關係依 Princeton WordNet 3.0 整理；同一字可能有多種意思，請依上方英文釋義判斷，相關詞不一定能直接互換。</div>`;
 }
 
 function shortMeaning(entry, apiPos = '') {
@@ -437,19 +435,15 @@ async function toggleStar(key, entry) {
 async function loadOnline(key, entry) {
   const pron = $('#pron');
   const body = $('#wk-body');
+  for (const type of ['synonyms', 'antonyms']) {
+    Dict.relations(key).then(rows => loadWordRelations(key, type, rows)).catch(() => {});
+  }
   let info;
   try {
     info = await onlineInfo(key);
   } catch {
     if (currentEntry?.key !== key) return;
     body.innerHTML = '';
-    for (const type of ['synonyms', 'antonyms']) {
-      const box = $('#' + type);
-      if (box) {
-        box.hidden = false;
-        box.innerHTML = `<h3>${type === 'synonyms' ? '同義詞' : '反義詞'} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3><div class="muted">需要網路連線才能載入。</div>`;
-      }
-    }
     return;
   }
   if (currentEntry?.key !== key) return;
@@ -465,8 +459,6 @@ async function loadOnline(key, entry) {
     ${!info.us ? `<button class="pill" data-tts="en-US">${ICON.speaker}美式（合成）</button>` : ''}
     ${!info.uk ? `<button class="pill" data-tts="en-GB">${ICON.speaker}英式（合成）</button>` : ''}
     ${entry.ph && !info.ipa && !info.us?.ipa ? `<span class="muted">詞典音標 /${esc(entry.ph)}/</span>` : ''}`;
-  loadWordRelations(key, 'synonyms', info.synonyms || []);
-  loadWordRelations(key, 'antonyms', info.antonyms || []);
   body.innerHTML = info.defs.length ? info.defs.map(g => `
     <div><span class="pos">${esc(g.pos)}</span>
     <ol class="defs">${g.items.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>`).join('')

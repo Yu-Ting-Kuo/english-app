@@ -718,6 +718,34 @@ $('#s-accent').value = settings.accent;
 $('#s-rate').value = settings.rate;
 $('#s-accent').onchange = e => { settings.accent = e.target.value; saveSettings(); };
 $('#s-rate').onchange = e => { settings.rate = e.target.value; saveSettings(); };
+$('#download-relations').onclick = async e => {
+  const button = e.currentTarget;
+  const status = $('#relations-download-status');
+  button.disabled = true;
+  status.textContent = '正在準備離線詞庫…';
+  try {
+    const manifestResponse = await fetch('dict/r/manifest.json');
+    if (!manifestResponse.ok) throw new Error('無法讀取詞庫清單');
+    const files = await manifestResponse.json();
+    let done = 0;
+    for (let i = 0; i < files.length; i += 4) {
+      await Promise.all(files.slice(i, i + 4).map(async file => {
+        const response = await fetch('dict/r/' + encodeURIComponent(file));
+        if (!response.ok) throw new Error('下載失敗：' + file);
+        await response.arrayBuffer();
+        done++;
+        status.textContent = `正在下載離線詞庫… ${done}/${files.length}`;
+      }));
+    }
+    status.textContent = `完成。${files.length} 個資料檔已存入此裝置，可離線查詢。`;
+    toast('同義詞與反義詞離線詞庫已下載');
+  } catch (err) {
+    status.textContent = '下載未完成，請確認網路後再試。';
+    toast(err?.message || '離線詞庫下載失敗');
+  } finally {
+    button.disabled = false;
+  }
+};
 $('#open-settings').onclick = async () => {
   $('#settings').hidden = false;
   try {
