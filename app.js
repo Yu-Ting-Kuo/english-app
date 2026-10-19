@@ -227,7 +227,7 @@ function show(view) {
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === tab));
   $('#title').textContent = {
     home: '主題探索', dict: '英文辭典', list: '我的收藏', add: $('#f-id').value ? '編輯單字' : '新增單字',
-    practice: '發音練習', review: '複習', cat: '主題', topic: '主題', quiz: '測驗',
+    practice: '發音練習', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗',
   }[view];
   if (view === 'home') renderHome();
   if (view === 'cat') renderCategory();
@@ -243,6 +243,40 @@ document.querySelectorAll('nav button').forEach(b => b.addEventListener('click',
   if (b.dataset.view === 'practice') practiceId = null;
   show(b.dataset.view);
 }));
+// ---------- ChatGPT 語音對話 ----------
+const conversationTopics = {
+  daily: 'everyday life, such as hobbies, food, shopping, and weekend plans',
+  work: 'workplace and business situations, such as meetings, emails, and project updates',
+  travel: 'travel situations, such as checking in at a hotel, asking for directions, and ordering food',
+};
+const conversationLevels = {
+  beginner: 'beginner level: use simple words, short sentences, and give me extra time to answer',
+  intermediate: 'intermediate level: use common natural expressions and a moderate speaking pace',
+  advanced: 'advanced level: use natural, varied expressions and gently challenge me with follow-up questions',
+};
+function updateConversationPrompt() {
+  const topic = conversationTopics[$('#chat-scenario')?.value] || conversationTopics.daily;
+  const level = conversationLevels[$('#chat-level')?.value] || conversationLevels.beginner;
+  const prompt = `You are my friendly English conversation tutor. Help me practice spoken English through a role-play about ${topic}.\n\nUse ${level}. Ask only one question at a time and wait for my answer before continuing. If I make a mistake, briefly model a more natural version and continue kindly. Explain in Traditional Chinese (Taiwan) only when I ask for help. After about 8 exchanges, summarize up to 3 useful corrections and 5 practical phrases in Traditional Chinese.`;
+  const field = $('#chat-prompt');
+  if (field) field.value = prompt;
+}
+$('#chat-scenario')?.addEventListener('change', updateConversationPrompt);
+$('#chat-level')?.addEventListener('change', updateConversationPrompt);
+$('#chat-copy')?.addEventListener('click', async () => {
+  const field = $('#chat-prompt');
+  try {
+    await navigator.clipboard.writeText(field.value);
+    toast('練習指令已複製，到 ChatGPT 貼上即可');
+  } catch {
+    field.focus(); field.select();
+    toast('請複製已選取的指令，再貼到 ChatGPT', 3000);
+  }
+});
+$('#chat-open')?.addEventListener('click', () => {
+  window.open('https://chatgpt.com/', '_blank', 'noopener');
+});
+updateConversationPrompt();
 $('#add-word').addEventListener('click', () => { resetForm(); show('add'); });
 
 // ---------- 單字本 ----------

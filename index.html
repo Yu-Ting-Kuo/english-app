@@ -418,6 +418,33 @@
     <div id="practice"></div>
   </section>
 
+  <!-- ChatGPT 英語對話 -->
+  <section class="view stack" id="view-conversation" hidden>
+    <article class="card stack">
+      <h2 style="margin:0">ChatGPT 語音對話</h2>
+      <p class="muted" style="margin:0">選擇情境並複製練習指令，到 ChatGPT 貼上後，點語音圖示就能開始英文對話。</p>
+      <label for="chat-scenario">對話情境</label>
+      <select id="chat-scenario">
+        <option value="daily">日常生活</option>
+        <option value="work">職場與商務</option>
+        <option value="travel">旅行與住宿</option>
+      </select>
+      <label for="chat-level">英文程度</label>
+      <select id="chat-level">
+        <option value="beginner">初級</option>
+        <option value="intermediate">中級</option>
+        <option value="advanced">進階</option>
+      </select>
+      <label for="chat-prompt">貼到 ChatGPT 的練習指令</label>
+      <textarea id="chat-prompt" rows="8" readonly></textarea>
+      <div class="row wrap">
+        <button class="primary" id="chat-copy">複製練習指令</button>
+        <button id="chat-open">開啟 ChatGPT ↗</button>
+      </div>
+      <p class="source" style="margin:0">語音對話由 ChatGPT 處理。請在 ChatGPT 貼上指令並自行點選語音圖示；第一次使用時，依提示允許 ChatGPT 使用麥克風。這個 App 不會錄製或保存對話。</p>
+    </article>
+  </section>
+
   <!-- 複習 -->
   <section class="view" id="view-review" hidden>
     <div class="seg" style="margin-bottom:12px" id="review-mode">
@@ -439,6 +466,8 @@
     <svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="15" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>複習</button>
   <button data-view="practice">
     <svg class="i" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5M8 22h8"/></svg>發音</button>
+  <button data-view="conversation">
+    <svg class="i" viewBox="0 0 24 24"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H6l-3 2v-6.5A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/></svg>對話</button>
 </nav>
 
 <!-- 設定 -->
