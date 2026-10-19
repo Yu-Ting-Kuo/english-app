@@ -215,9 +215,7 @@ function renderEntry(res) {
 
     ${saved ? `<button class="primary" data-practice="${saved.id}">${ICON.mic}練習這個字的發音</button>` : ''}
 
-    <p class="source">中文詞義、詞形、詞頻、易混淆辨析：ECDICT（MIT 授權），由簡體自動轉為台灣繁體，可能有少數用詞不夠自然。
-    真人發音、IPA 音標、英英解釋：Wiktionary（CC BY-SA），經 Free Dictionary API 取得，需要網路。
-    目前沒有可靠的免費 KK 音標資料，所以不顯示 KK 音標。</p>`;
+    `;
 
   $('#star').onclick = () => toggleStar(key, entry);
   loadOnline(key, entry);
@@ -289,10 +287,7 @@ async function loadSenses(key, ecdictHtml) {
     return;
   }
   box.innerHTML = `<h3>詞義與例句</h3>${renderSenses(list)}
-    ${ecdictHtml ? `<details class="ecdict-all"><summary>ECDICT 完整中文釋義</summary><div class="stack" style="margin-top:8px">${ecdictHtml}</div></details>` : ''}
-    <p class="source" style="margin:0">${ecdictHtml
-      ? '詞義分項由 App 依 ECDICT 釋義整理。'
-      : 'ECDICT 沒有收錄這個片語，詞義由 App 編輯整理。'}例句優先採用 Tatoeba 真人例句與翻譯（CC BY 2.0 FR），不足時才由 AI 補充並標示。</p>`;
+    `;
 }
 
 // 詞典沒有獨立條目、但主題裡有收錄的片語
@@ -394,7 +389,7 @@ async function loadOnline(key, entry) {
     info = await onlineInfo(key);
   } catch {
     if (currentEntry?.key !== key) return;
-    body.innerHTML = '<div class="muted">需要網路才能載入英英解釋和真人發音。下方的美式、英式按鈕會用手機內建語音朗讀。</div>';
+    body.innerHTML = '';
     return;
   }
   if (currentEntry?.key !== key) return;
