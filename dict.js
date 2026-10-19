@@ -6,7 +6,6 @@
 const Dict = (() => {
   const shards = new Map();
   const indexes = new Map();
-  let resemble = null;
   let zhIndex = null;
   let zhIndexLoading = null;
 
@@ -181,19 +180,18 @@ const Dict = (() => {
     return [...new Set(hits.map(h => h.k))].slice(0, n);
   }
 
-  async function resembleGroups(ids) {
-    if (!ids?.length) return [];
-    resemble ??= fetchJSON('dict/resemble.json').then(d => d || []).catch(err => { resemble = null; throw err; });
-    const all = await resemble;
-    return ids.map(i => all[i]).filter(Boolean);
-  }
-
   // Free Dictionary API（資料來自 Wiktionary，CC BY-SA）：音標、真人發音、英英解釋
   async function online(word) {
     const data = await fetchJSON('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word));
     if (!Array.isArray(data)) return { found: false };
     const out = { found: true, us: null, uk: null, ipa: null, defs: [], source: data[0]?.sourceUrls?.[0] || null };
-    const syns = [];
+    const relations = { synonyms: [], antonyms: [] };
+    const addRelations = (target, values, pos) => {
+      for (const value of values || []) {
+        const related = String(value || '').trim();
+        if (related) target.push({ word: related, pos });
+      }
+    };
     for (const d of data) {
       for (const p of d.phonetics || []) {
         const region = /-us\.mp3$/i.test(p.audio || '') ? 'us' : /-uk\.mp3$/i.test(p.audio || '') ? 'uk' : null;
@@ -207,13 +205,23 @@ const Dict = (() => {
         if (!group) out.defs.push(group = { pos: m.partOfSpeech, items: [] });
         for (const def of m.definitions || []) {
           if (group.items.length < 4) group.items.push(def.definition);
-          syns.push(...(def.synonyms || []));
+          addRelations(relations.synonyms, def.synonyms, m.partOfSpeech);
+          addRelations(relations.antonyms, def.antonyms, m.partOfSpeech);
         }
-        syns.push(...(m.synonyms || []));
+        addRelations(relations.synonyms, m.synonyms, m.partOfSpeech);
+        addRelations(relations.antonyms, m.antonyms, m.partOfSpeech);
       }
     }
     const self = norm(word);
-    out.synonyms = [...new Set(syns.map(s => s.trim()).filter(s => s && norm(s) !== self))];
+    for (const [name, items] of Object.entries(relations)) {
+      const seen = new Set();
+      out[name] = items.filter(item => {
+        const id = `${item.pos}|${norm(item.word)}`;
+        if (!item.word || norm(item.word) === self || seen.has(id)) return false;
+        seen.add(id);
+        return true;
+      });
+    }
     return out;
   }
 
@@ -251,5 +259,5 @@ const Dict = (() => {
     return [...new Set(labels.map(l => verbs.includes(l) ? verb : l))];
   }
 
-  return { norm, lookup, suggest, searchChinese, isChinese, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev, posLabels };
+  return { norm, lookup, suggest, searchChinese, isChinese, fuzzy, getEntry, senses, online, frequency, inflections, lev, posLabels };
 })();

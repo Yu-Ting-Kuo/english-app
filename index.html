@@ -231,6 +231,7 @@
   .licenses { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 13px; line-height: 1.6; }
   .licenses a { color: var(--accent); }
   .syn-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .relation-group { display: grid; gap: 8px; }
   .syn { flex-direction: column; align-items: flex-start; gap: 0; min-height: 0; padding: 8px 12px; border-radius: 12px; }
   .syn b { font-family: var(--serif); font-size: 16px; }
   .syn span { font-size: 12px; color: var(--muted); font-weight: 400; }
@@ -266,10 +267,6 @@
   .infl tr + tr { border-top: 1px solid var(--line); }
   button.link { background: none; padding: 0; min-height: 0; border-radius: 0; color: var(--accent); font: inherit;
     text-decoration: underline; text-underline-offset: 3px; display: inline; }
-  .confuse { display: grid; gap: 6px; }
-  .confuse + .confuse { padding-top: 10px; border-top: 1px solid var(--line); }
-  .confuse-item { font-size: 15px; line-height: 1.6; }
-  .confuse-item .link { font-family: var(--serif); font-weight: 700; }
   .defs { margin: 6px 0 0; padding-left: 22px; font-family: var(--serif); }
   .defs li + li { margin-top: 4px; }
   details summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 28px; }
@@ -535,11 +532,11 @@
     <div>
       <label>資料來源與授權</label>
       <ul class="muted licenses">
-        <li><b>中文詞義、詞性、詞形變化、詞頻、易混淆辨析</b>：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener">ECDICT</a>（MIT 授權），以 OpenCC 由簡體轉為台灣繁體。</li>
+        <li><b>中文詞義、詞性、詞形變化、詞頻</b>：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener">ECDICT</a>（MIT 授權），以 OpenCC 由簡體轉為台灣繁體。</li>
         <li><b>例句與中文翻譯</b>：<a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>（CC BY 2.0 FR），由 Tatoeba 社群貢獻者撰寫與翻譯；每句的原句編號與作者記錄在 App 的資料檔中，畫面上不逐句顯示，部分中文翻譯經 App 修訂。只使用文字例句，沒有使用 Tatoeba 的錄音。</li>
         <li><b>詞性標示</b>：名詞標 noun[C]（可數）、noun[U]（不可數）、noun[C/U]（兩者皆常用）；動詞標 vt.（及物）、vi.（不及物）、vi./vt.（兩者皆常用）。逐義例句的可數與及物標記由 AI 依詞義判斷，ECDICT 釋義區的 vt./vi. 來自 ECDICT。</li>
         <li><b>AI 生成例句</b>：Tatoeba 找不到合適例句的詞義，由 AI 補寫，並以程式檢查目標字、詞性與中文翻譯；尚未經過真人教師審閱。每句都標示「AI 例句」。</li>
-        <li><b>真人發音、IPA、英英解釋、同義詞</b>：<a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a>（CC BY-SA），經 Free Dictionary API 取得。</li>
+        <li><b>真人發音、IPA、英英解釋、同義詞與反義詞</b>：<a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a>（CC BY-SA），經 Free Dictionary API 取得。</li>
         <li><b>主題分類、主題中的意思、詞義分項</b>：App 編輯整理，不是詞典原文。</li>
         <li><b>主題難度</b>：依 BNC／COCA 詞頻分為初階、中階、進階，作為閱讀難度參考，不代表實際多益分數。多益核心字彙沿用原有分級。</li>
         <li><b>最近新聞</b>：新聞標題與短摘要來自 <a href="https://news.un.org/en/" target="_blank" rel="noopener">UN News RSS</a>，只保留近 7 天；原文在 UN News 閱讀，聽力由裝置語音朗讀摘要。</li>

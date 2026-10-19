@@ -23,11 +23,13 @@ async function recentHistory(n = 12) {
 
 // ---------- 線上資料快取（避免同一個字重複呼叫 API） ----------
 const ONLINE_TTL = 30 * 864e5;
+const ONLINE_CACHE_PREFIX = 'wk2:';
 async function onlineInfo(key) {
-  const hit = await db.get('cache', 'wk:' + key);
+  const cacheKey = ONLINE_CACHE_PREFIX + key;
+  const hit = await db.get('cache', cacheKey);
   if (hit && Date.now() - hit.at < ONLINE_TTL) return hit.data;
   const data = await Dict.online(key);
-  await db.put('cache', { key: 'wk:' + key, at: Date.now(), data });
+  await db.put('cache', { key: cacheKey, at: Date.now(), data });
   return data;
 }
 
@@ -238,8 +240,7 @@ function renderEntry(res) {
     ${infl ? `<section class="card stack"><h3>詞形變化 <span class="en">Inflections</span></h3>${infl}</section>` : ''}
 
     <section class="card stack" id="synonyms" hidden></section>
-
-    ${entry.rs ? `<section class="card stack" id="confusables"><h3>易混淆單字 <span class="en">Commonly Confused</span></h3><div class="muted">載入中…</div></section>` : ''}
+    <section class="card stack" id="antonyms" hidden></section>
 
     <section class="card stack" id="entry-topics" hidden></section>
 
@@ -256,7 +257,6 @@ function renderEntry(res) {
 
   $('#star').onclick = () => toggleStar(key, entry);
   loadOnline(key, entry);
-  if (entry.rs) loadConfusables(entry.rs);
   loadEntryTopics(key);
   loadSenses(key, meanings);
 }
@@ -368,22 +368,32 @@ async function loadEntryTopics(key) {
     <div class="row wrap">${ts.map(t => `<button class="chip-btn topic-chip" data-topic="${esc(t.id)}">${esc(t.zh)}</button>`).join('')}</div>`;
 }
 
-async function loadSynonyms(key, syns) {
-  const box = $('#synonyms');
-  if (!box || !syns.length) return;
-  const rows = await Promise.all(syns.slice(0, 10).map(async s => {
-    const e = await Dict.getEntry(Dict.norm(s)).catch(() => null);
-    return { s, zh: e ? shortMeaning(e) : '' };
+async function loadWordRelations(key, type, relations) {
+  const box = $('#' + type);
+  if (!box || !relations?.length) return;
+  const title = type === 'synonyms' ? '同義詞' : '反義詞';
+  const legacy = relations.map(r => typeof r === 'string' ? { word: r, pos: '' } : r);
+  const rows = await Promise.all(legacy.slice(0, 12).map(async r => {
+    const e = await Dict.getEntry(Dict.norm(r.word)).catch(() => null);
+    return { word: r.word, pos: r.pos, zh: e ? shortMeaning(e, r.pos) : '' };
   }));
   if (currentEntry?.key !== key) return;
+  const groups = new Map();
+  for (const r of rows) {
+    const pos = r.pos || '相關詞';
+    if (!groups.has(pos)) groups.set(pos, []);
+    groups.get(pos).push(r);
+  }
   box.hidden = false;
-  box.innerHTML = `<h3>同義詞與近義詞 <span class="en">Synonyms</span></h3>
-    <div class="syn-list">${rows.map(r => `<button class="syn" data-word="${esc(r.s)}"><b>${esc(r.s)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div>
-    <div class="source" style="margin:0">同義詞來自 Wiktionary；中文為各字在 ECDICT 的主要意思，用法不一定完全相同，請點進去比較。</div>`;
+  box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3>
+    ${[...groups].map(([pos, items]) => `<div class="relation-group"><span class="pos">${esc(pos)}</span><div class="syn-list">${items.map(r => `<button class="syn" data-word="${esc(r.word)}"><b>${esc(r.word)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div></div>`).join('')}
+    <div class="source" style="margin:0">${title}由 Wiktionary 資料整理；不同詞義或情境下未必能互換，請比較詞性與中文意思。</div>`;
 }
 
-function shortMeaning(entry) {
-  const g = entry.m.find(x => !x.d) || entry.m[0];
+function shortMeaning(entry, apiPos = '') {
+  const posMap = { noun: ['noun'], verb: ['vt.', 'vi.', 'v.'], adjective: ['adj.'], adverb: ['adv.'], pronoun: ['pron.'], preposition: ['prep.'], conjunction: ['conj.'], interjection: ['int.'] };
+  const labels = posMap[String(apiPos).toLowerCase()] || [];
+  const g = entry.m.find(x => !x.d && labels.includes(x.l)) || entry.m.find(x => !x.d) || entry.m[0];
   return g ? g.m.split(/[；;]/)[0].split(/[,，]/).slice(0, 3).join('、') : '';
 }
 
@@ -396,7 +406,7 @@ async function toggleStar(key, entry) {
       await deleteWord(saved.id);
       toast(`已取消收藏「${entry.w}」`);
     } else {
-      const info = await db.get('cache', 'wk:' + key).catch(() => null);
+      const info = await db.get('cache', ONLINE_CACHE_PREFIX + key).catch(() => null);
       const ipa = info?.data?.us?.ipa || info?.data?.ipa;
       await saveWord({
         word: entry.w,
@@ -442,27 +452,13 @@ async function loadOnline(key, entry) {
     ${!info.us ? `<button class="pill" data-tts="en-US">${ICON.speaker}美式（合成）</button>` : ''}
     ${!info.uk ? `<button class="pill" data-tts="en-GB">${ICON.speaker}英式（合成）</button>` : ''}
     ${entry.ph && !info.ipa && !info.us?.ipa ? `<span class="muted">詞典音標 /${esc(entry.ph)}/</span>` : ''}`;
-  loadSynonyms(key, info.synonyms || []);
+  loadWordRelations(key, 'synonyms', info.synonyms || []);
+  loadWordRelations(key, 'antonyms', info.antonyms || []);
   body.innerHTML = info.defs.length ? info.defs.map(g => `
     <div><span class="pos">${esc(g.pos)}</span>
     <ol class="defs">${g.items.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>`).join('')
     + (info.source ? `<a class="source" href="${esc(info.source)}" target="_blank" rel="noopener">在 Wiktionary 查看原文</a>` : '')
     : '<div class="muted">沒有英英解釋。</div>';
-}
-
-async function loadConfusables(ids) {
-  const box = $('#confusables');
-  try {
-    const groups = await Dict.resembleGroups(ids);
-    if (!box.isConnected) return;
-    box.innerHTML = '<h3>易混淆單字</h3>' + groups.map(g => `
-      <div class="confuse">
-        ${g.intro ? `<div class="muted">${esc(g.intro)}</div>` : ''}
-        ${g.items.map(([w, text]) => `<div class="confuse-item"><button class="link" data-word="${esc(w)}">${esc(w)}</button>：${esc(text)}</div>`).join('')}
-      </div>`).join('');
-  } catch {
-    if (box.isConnected) box.innerHTML = '<h3>易混淆單字</h3><div class="muted">需要網路才能載入。</div>';
-  }
 }
 
 // 發音按鈕：有真人錄音就播錄音，沒有就用手機語音
