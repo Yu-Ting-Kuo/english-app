@@ -60,7 +60,7 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '多益核心字彙'], cats
+            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '情緒與感覺', '多益核心字彙'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
