@@ -247,7 +247,7 @@ document.querySelectorAll('nav button').forEach(b => b.addEventListener('click',
 const conversationProviders = {
   chatgpt: {
     name: 'ChatGPT', url: 'https://chatgpt.com/',
-    note: '推薦：語音對話可用於網頁與 iPhone；適合在 Edge 和手機間切換。',
+    note: '語音對話可用於網頁與 iPhone；可在 Edge 和手機間切換。',
   },
   gemini: {
     name: 'Gemini', url: 'https://gemini.google.com/app',
