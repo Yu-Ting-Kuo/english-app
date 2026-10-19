@@ -1,0 +1,2012 @@
+{
+  "id": "trade",
+  "zh": "貿易",
+  "en": "Trade",
+  "category": "商業與財經",
+  "count": 218,
+  "levels": {
+    "初階": 123,
+    "中階": 64,
+    "進階": 31
+  },
+  "sections": [
+    {
+      "zh": "貿易政策與協定",
+      "en": "Trade Policy & Agreements",
+      "words": [
+        {
+          "id": "trade_001",
+          "word": "tariff",
+          "partOfSpeech": "noun[C]",
+          "meaning": "關稅",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5185
+        },
+        {
+          "id": "trade_002",
+          "word": "embargo",
+          "partOfSpeech": "noun[C]",
+          "meaning": "禁運",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6354
+        },
+        {
+          "id": "trade_003",
+          "word": "sanction",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（經濟）制裁",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3217
+        },
+        {
+          "id": "trade_004",
+          "word": "subsidy",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（政府）補貼",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3907
+        },
+        {
+          "id": "trade_005",
+          "word": "protectionism",
+          "partOfSpeech": "noun[U]",
+          "meaning": "貿易保護主義",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 15973
+        },
+        {
+          "id": "trade_006",
+          "word": "dumping",
+          "partOfSpeech": "noun[U]",
+          "meaning": "傾銷",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 12754
+        },
+        {
+          "id": "trade_007",
+          "word": "bilateral",
+          "partOfSpeech": "adj.",
+          "meaning": "雙邊的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6801
+        },
+        {
+          "id": "trade_008",
+          "word": "multilateral",
+          "partOfSpeech": "adj.",
+          "meaning": "多邊的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 9356
+        },
+        {
+          "id": "trade_009",
+          "word": "free trade",
+          "partOfSpeech": "phr.",
+          "meaning": "自由貿易",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 485
+        },
+        {
+          "id": "trade_010",
+          "word": "trade deficit",
+          "partOfSpeech": "phr.",
+          "meaning": "貿易逆差",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2403
+        },
+        {
+          "id": "trade_011",
+          "word": "trade surplus",
+          "partOfSpeech": "phr.",
+          "meaning": "貿易順差",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4815
+        },
+        {
+          "id": "trade_012",
+          "word": "trade agreement",
+          "partOfSpeech": "phr.",
+          "meaning": "貿易協定",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 623
+        },
+        {
+          "id": "trade_013",
+          "word": "barrier",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（貿易）壁壘、障礙",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2609
+        },
+        {
+          "id": "trade_014",
+          "word": "retaliation",
+          "partOfSpeech": "noun[C]",
+          "meaning": "報復（措施）",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8470
+        },
+        {
+          "id": "trade_015",
+          "word": "liberalization",
+          "partOfSpeech": "noun[U]",
+          "meaning": "（貿易）自由化",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8845
+        },
+        {
+          "id": "trade_016",
+          "word": "deregulation",
+          "partOfSpeech": "noun[U]",
+          "meaning": "解除管制",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8683
+        },
+        {
+          "id": "trade_017",
+          "word": "globalization",
+          "partOfSpeech": "noun[U]",
+          "meaning": "全球化",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6449
+        },
+        {
+          "id": "trade_018",
+          "word": "commerce",
+          "partOfSpeech": "noun[U]",
+          "meaning": "商業、貿易",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4189
+        },
+        {
+          "id": "trade_019",
+          "word": "levy",
+          "partOfSpeech": "vt.",
+          "meaning": "課徵（關稅、費用）",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7232
+        },
+        {
+          "id": "trade_020",
+          "word": "restrict",
+          "partOfSpeech": "vt.",
+          "meaning": "限制（進出口）",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2207
+        },
+        {
+          "id": "trade_021",
+          "word": "restrictive",
+          "partOfSpeech": "adj.",
+          "meaning": "限制性的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6224
+        },
+        {
+          "id": "trade_022",
+          "word": "treaty",
+          "partOfSpeech": "noun[C]",
+          "meaning": "條約",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1659
+        },
+        {
+          "id": "trade_023",
+          "word": "pact",
+          "partOfSpeech": "noun[C]",
+          "meaning": "協定",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5146
+        },
+        {
+          "id": "trade_024",
+          "word": "ratify",
+          "partOfSpeech": "vt.",
+          "meaning": "（正式）批准（條約）",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8084
+        },
+        {
+          "id": "trade_025",
+          "word": "reciprocal",
+          "partOfSpeech": "adj.",
+          "meaning": "互惠的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8842
+        },
+        {
+          "id": "trade_026",
+          "word": "concession",
+          "partOfSpeech": "noun[C]",
+          "meaning": "讓步；優惠條件",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3835
+        },
+        {
+          "id": "trade_027",
+          "word": "delegation",
+          "partOfSpeech": "noun[C]",
+          "meaning": "代表團",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3893
+        },
+        {
+          "id": "trade_028",
+          "word": "acquisition",
+          "partOfSpeech": "noun[C]",
+          "meaning": "收購；取得",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2567
+        },
+        {
+          "id": "trade_029",
+          "word": "bidder",
+          "partOfSpeech": "noun[C]",
+          "meaning": "投標者；出價者",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8203
+        },
+        {
+          "id": "trade_030",
+          "word": "clause",
+          "partOfSpeech": "noun[C]",
+          "meaning": "條款；子句",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1871
+        },
+        {
+          "id": "trade_031",
+          "word": "contract",
+          "partOfSpeech": "noun[C]",
+          "meaning": "合約；契約；簽約",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 628
+        },
+        {
+          "id": "trade_032",
+          "word": "contractor",
+          "partOfSpeech": "noun[C]",
+          "meaning": "承包商；承攬人",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3745
+        },
+        {
+          "id": "trade_033",
+          "word": "contender",
+          "partOfSpeech": "noun",
+          "meaning": "競爭者；角逐者",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6684
+        },
+        {
+          "id": "trade_034",
+          "word": "competitor",
+          "partOfSpeech": "noun[C]",
+          "meaning": "競爭者；對手",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3259
+        },
+        {
+          "id": "trade_035",
+          "word": "corporate",
+          "partOfSpeech": "adj.",
+          "meaning": "公司的；企業的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1579
+        },
+        {
+          "id": "trade_036",
+          "word": "cost-effective",
+          "partOfSpeech": "adj.",
+          "meaning": "符合成本效益的；划算的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1007
+        },
+        {
+          "id": "trade_037",
+          "word": "commercial",
+          "partOfSpeech": "adj.",
+          "meaning": "商業的；商用的；廣告的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1027
+        },
+        {
+          "id": "trade_038",
+          "word": "consolidate",
+          "partOfSpeech": "vt.",
+          "meaning": "合併；整合；鞏固",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6138
+        },
+        {
+          "id": "trade_039",
+          "word": "credible",
+          "partOfSpeech": "adj.",
+          "meaning": "可信的；可靠的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5991
+        },
+        {
+          "id": "trade_040",
+          "word": "cover",
+          "partOfSpeech": "vt.",
+          "meaning": "涵蓋；包括；保險保障",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 525
+        },
+        {
+          "id": "trade_041",
+          "word": "coverage",
+          "partOfSpeech": "noun[U]",
+          "meaning": "保障範圍；承保項目；涵蓋範圍",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1877
+        },
+        {
+          "id": "trade_042",
+          "word": "due",
+          "partOfSpeech": "adj.",
+          "meaning": "到期的；應付的；預定的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1280
+        },
+        {
+          "id": "trade_043",
+          "word": "expire",
+          "partOfSpeech": "vi.",
+          "meaning": "到期；失效",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6647
+        },
+        {
+          "id": "trade_044",
+          "word": "endorse",
+          "partOfSpeech": "vt.",
+          "meaning": "背書；支持；贊同",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3884
+        },
+        {
+          "id": "trade_045",
+          "word": "guarantee",
+          "partOfSpeech": "noun[C]",
+          "meaning": "保證；保固；保證書",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2525
+        },
+        {
+          "id": "trade_046",
+          "word": "headquarters",
+          "partOfSpeech": "noun[C]",
+          "meaning": "總公司；總部",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2817
+        },
+        {
+          "id": "trade_047",
+          "word": "long-range",
+          "partOfSpeech": "adj.",
+          "meaning": "長期的；遠程的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 484
+        },
+        {
+          "id": "trade_048",
+          "word": "merger",
+          "partOfSpeech": "noun[C]",
+          "meaning": "合併；合併案",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3475
+        },
+        {
+          "id": "trade_049",
+          "word": "obligate",
+          "partOfSpeech": "vt.",
+          "meaning": "使負有義務；使必須",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 11331
+        },
+        {
+          "id": "trade_050",
+          "word": "proposal",
+          "partOfSpeech": "noun[C]",
+          "meaning": "提案；建議；求婚",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 899
+        },
+        {
+          "id": "trade_051",
+          "word": "quote",
+          "partOfSpeech": "noun[C]",
+          "meaning": "報價；引用；引述",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2039
+        },
+        {
+          "id": "trade_052",
+          "word": "renew",
+          "partOfSpeech": "vt.",
+          "meaning": "更新；續約；延長期限",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4932
+        },
+        {
+          "id": "trade_053",
+          "word": "trademark",
+          "partOfSpeech": "noun[C]",
+          "meaning": "商標",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6787
+        },
+        {
+          "id": "trade_054",
+          "word": "term",
+          "partOfSpeech": "noun[C]",
+          "meaning": "條款；術語；期限",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 316
+        },
+        {
+          "id": "trade_055",
+          "word": "undertaking",
+          "partOfSpeech": "noun",
+          "meaning": "重大任務；事業；承諾",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4193
+        },
+        {
+          "id": "trade_056",
+          "word": "elaborate",
+          "partOfSpeech": "vi.",
+          "meaning": "詳細說明；精心策劃",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4630
+        },
+        {
+          "id": "trade_057",
+          "word": "extend",
+          "partOfSpeech": "vt.",
+          "meaning": "延長；擴展",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1023
+        },
+        {
+          "id": "trade_058",
+          "word": "attainment",
+          "partOfSpeech": "noun",
+          "meaning": "達成；取得；成就",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5891
+        },
+        {
+          "id": "trade_059",
+          "word": "president",
+          "partOfSpeech": "noun[C]",
+          "meaning": "總裁；董事長；校長；總統",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 303
+        },
+        {
+          "id": "trade_060",
+          "word": "original",
+          "partOfSpeech": "adj.",
+          "meaning": "原本的；最初的；原創作品",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 918
+        },
+        {
+          "id": "trade_061",
+          "word": "council",
+          "partOfSpeech": "noun[C]",
+          "meaning": "委員會；議會",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 251
+        },
+        {
+          "id": "trade_062",
+          "word": "partnership",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "合夥關係；合作關係",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2141
+        },
+        {
+          "id": "trade_063",
+          "word": "submission",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "提交；呈交；屈服",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4179
+        },
+        {
+          "id": "trade_064",
+          "word": "recruitment",
+          "partOfSpeech": "noun[U]",
+          "meaning": "招募；徵募",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4219
+        },
+        {
+          "id": "trade_065",
+          "word": "commit",
+          "partOfSpeech": "vt.",
+          "meaning": "承諾；投入；犯（罪）",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1393
+        },
+        {
+          "id": "trade_066",
+          "word": "evaluate",
+          "partOfSpeech": "vt.",
+          "meaning": "評估；評價",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2339
+        },
+        {
+          "id": "trade_067",
+          "word": "summit",
+          "partOfSpeech": "noun[C]",
+          "meaning": "高峰；高峰會議",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2909
+        },
+        {
+          "id": "trade_068",
+          "word": "customize",
+          "partOfSpeech": "vt.",
+          "meaning": "客製化；訂製",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 11372
+        },
+        {
+          "id": "trade_069",
+          "word": "deputy",
+          "partOfSpeech": "noun[C]",
+          "meaning": "代理人；副手；副職",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1827
+        },
+        {
+          "id": "trade_070",
+          "word": "undermine",
+          "partOfSpeech": "vt.",
+          "meaning": "暗中破壞；削弱",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3409
+        },
+        {
+          "id": "trade_071",
+          "word": "customary",
+          "partOfSpeech": "adj.",
+          "meaning": "慣常的；依照慣例的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6451
+        },
+        {
+          "id": "trade_072",
+          "word": "bargaining",
+          "partOfSpeech": "noun[U]",
+          "meaning": "議價；協商",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5164
+        }
+      ]
+    },
+    {
+      "zh": "進出口與通關",
+      "en": "Import, Export & Customs",
+      "words": [
+        {
+          "id": "trade_073",
+          "word": "customs clearance",
+          "partOfSpeech": "phr.",
+          "meaning": "清關、報關放行",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": null
+        },
+        {
+          "id": "trade_074",
+          "word": "excise",
+          "partOfSpeech": "noun[C]",
+          "meaning": "貨物稅",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7269
+        },
+        {
+          "id": "trade_075",
+          "word": "manifest",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（貨物）艙單",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5931
+        },
+        {
+          "id": "trade_076",
+          "word": "declaration",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "（海關）申報；申報單",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3227
+        },
+        {
+          "id": "trade_077",
+          "word": "declare",
+          "partOfSpeech": "vt.",
+          "meaning": "（向海關）申報",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1534
+        },
+        {
+          "id": "trade_078",
+          "word": "import",
+          "partOfSpeech": "vt.",
+          "meaning": "進口",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2757
+        },
+        {
+          "id": "trade_079",
+          "word": "export",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "出口；出口品",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2231
+        },
+        {
+          "id": "trade_080",
+          "word": "duty-free",
+          "partOfSpeech": "adj.",
+          "meaning": "免關稅的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 846
+        },
+        {
+          "id": "trade_081",
+          "word": "exempt",
+          "partOfSpeech": "adj.",
+          "meaning": "免除的、豁免的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8874
+        },
+        {
+          "id": "trade_082",
+          "word": "quarantine",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "檢疫",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 14311
+        },
+        {
+          "id": "trade_083",
+          "word": "certificate of origin",
+          "partOfSpeech": "phr.",
+          "meaning": "原產地證明",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2341
+        },
+        {
+          "id": "trade_084",
+          "word": "license",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（進出口）許可證",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2872
+        },
+        {
+          "id": "trade_085",
+          "word": "permit",
+          "partOfSpeech": "noun[C]",
+          "meaning": "許可證、准證",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2022
+        },
+        {
+          "id": "trade_086",
+          "word": "prohibit",
+          "partOfSpeech": "vt.",
+          "meaning": "禁止（進出口）",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3990
+        },
+        {
+          "id": "trade_087",
+          "word": "contraband",
+          "partOfSpeech": "noun[U]",
+          "meaning": "違禁品、走私品",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 19922
+        },
+        {
+          "id": "trade_088",
+          "word": "smuggle",
+          "partOfSpeech": "vt.",
+          "meaning": "走私",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8668
+        },
+        {
+          "id": "trade_089",
+          "word": "counterfeit",
+          "partOfSpeech": "adj.",
+          "meaning": "仿冒的；仿冒品",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 17208
+        },
+        {
+          "id": "trade_090",
+          "word": "confiscate",
+          "partOfSpeech": "vt.",
+          "meaning": "沒收、查扣",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 10551
+        },
+        {
+          "id": "trade_091",
+          "word": "inspector",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（海關）檢查員",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2267
+        },
+        {
+          "id": "trade_092",
+          "word": "port of entry",
+          "partOfSpeech": "phr.",
+          "meaning": "入境口岸",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2165
+        },
+        {
+          "id": "trade_093",
+          "word": "inventory",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "存貨；庫存；詳細清單",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3967
+        },
+        {
+          "id": "trade_094",
+          "word": "quota",
+          "partOfSpeech": "noun[C]",
+          "meaning": "配額；定額",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4604
+        },
+        {
+          "id": "trade_095",
+          "word": "track",
+          "partOfSpeech": "vt.",
+          "meaning": "追蹤；軌跡；軌道",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1143
+        },
+        {
+          "id": "trade_096",
+          "word": "produce",
+          "partOfSpeech": "vt.",
+          "meaning": "生產；製造；農產品",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 296
+        },
+        {
+          "id": "trade_097",
+          "word": "exit",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "出口；離開",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3798
+        },
+        {
+          "id": "trade_098",
+          "word": "trail",
+          "partOfSpeech": "noun[C]",
+          "meaning": "蹤跡；小徑",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1646
+        },
+        {
+          "id": "trade_099",
+          "word": "lock",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "鎖；鎖上",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2221
+        },
+        {
+          "id": "trade_100",
+          "word": "mechanical",
+          "partOfSpeech": "adj.",
+          "meaning": "機械的；機械式的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3521
+        },
+        {
+          "id": "trade_101",
+          "word": "operational",
+          "partOfSpeech": "adj.",
+          "meaning": "營運上的；操作上的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4032
+        },
+        {
+          "id": "trade_102",
+          "word": "cabinet",
+          "partOfSpeech": "noun[C]",
+          "meaning": "櫥櫃；內閣",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1378
+        },
+        {
+          "id": "trade_103",
+          "word": "nationwide",
+          "partOfSpeech": "adj.",
+          "meaning": "全國性的；遍及全國的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4929
+        },
+        {
+          "id": "trade_104",
+          "word": "regularly",
+          "partOfSpeech": "adv.",
+          "meaning": "定期地；有規律地",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2238
+        },
+        {
+          "id": "trade_105",
+          "word": "precision",
+          "partOfSpeech": "noun[U]",
+          "meaning": "精確；準確",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5050
+        },
+        {
+          "id": "trade_106",
+          "word": "curve",
+          "partOfSpeech": "noun[C]",
+          "meaning": "曲線；使彎曲",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2506
+        },
+        {
+          "id": "trade_107",
+          "word": "steady",
+          "partOfSpeech": "adj.",
+          "meaning": "穩定的；平穩的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2914
+        },
+        {
+          "id": "trade_108",
+          "word": "utilization",
+          "partOfSpeech": "noun[U]",
+          "meaning": "利用；使用",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 9879
+        },
+        {
+          "id": "trade_109",
+          "word": "efficiently",
+          "partOfSpeech": "adv.",
+          "meaning": "有效率地；有效地",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5344
+        },
+        {
+          "id": "trade_110",
+          "word": "distribution",
+          "partOfSpeech": "noun[U]",
+          "meaning": "配送；分配；經銷",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1456
+        }
+      ]
+    },
+    {
+      "zh": "國際運輸",
+      "en": "International Shipping",
+      "words": [
+        {
+          "id": "trade_111",
+          "word": "freight",
+          "partOfSpeech": "noun[U]",
+          "meaning": "貨運；運費",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5761
+        },
+        {
+          "id": "trade_112",
+          "word": "freighter",
+          "partOfSpeech": "noun[C]",
+          "meaning": "貨輪、貨機",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 14604
+        },
+        {
+          "id": "trade_113",
+          "word": "shipper",
+          "partOfSpeech": "noun[C]",
+          "meaning": "託運人、貨主",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 20988
+        },
+        {
+          "id": "trade_114",
+          "word": "vessel",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（大型）船舶",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2780
+        },
+        {
+          "id": "trade_115",
+          "word": "tanker",
+          "partOfSpeech": "noun[C]",
+          "meaning": "油輪",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8021
+        },
+        {
+          "id": "trade_116",
+          "word": "charter",
+          "partOfSpeech": "vt.",
+          "meaning": "包租（船、飛機）",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3063
+        },
+        {
+          "id": "trade_117",
+          "word": "container",
+          "partOfSpeech": "noun[C]",
+          "meaning": "貨櫃",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3361
+        },
+        {
+          "id": "trade_118",
+          "word": "port",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "港口",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2165
+        },
+        {
+          "id": "trade_119",
+          "word": "harbor",
+          "partOfSpeech": "noun[C]",
+          "meaning": "港口、港灣",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5726
+        },
+        {
+          "id": "trade_120",
+          "word": "wharf",
+          "partOfSpeech": "noun[C]",
+          "meaning": "碼頭",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 12557
+        },
+        {
+          "id": "trade_121",
+          "word": "dock",
+          "partOfSpeech": "noun[C]",
+          "meaning": "碼頭；船塢",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3530
+        },
+        {
+          "id": "trade_122",
+          "word": "maritime",
+          "partOfSpeech": "adj.",
+          "meaning": "海運的、海事的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7994
+        },
+        {
+          "id": "trade_123",
+          "word": "transshipment",
+          "partOfSpeech": "noun[C]",
+          "meaning": "轉運",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 33411
+        },
+        {
+          "id": "trade_124",
+          "word": "haulage",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "陸路貨運；運費",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 12850
+        },
+        {
+          "id": "trade_125",
+          "word": "unload",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "卸貨",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7160
+        },
+        {
+          "id": "trade_126",
+          "word": "fleet",
+          "partOfSpeech": "noun[C]",
+          "meaning": "船隊",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3417
+        },
+        {
+          "id": "trade_127",
+          "word": "hub",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（轉運）樞紐",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6564
+        },
+        {
+          "id": "trade_128",
+          "word": "lead time",
+          "partOfSpeech": "phr.",
+          "meaning": "前置時間、交貨期",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 263
+        },
+        {
+          "id": "trade_129",
+          "word": "seaport",
+          "partOfSpeech": "noun[C]",
+          "meaning": "海港",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 21035
+        },
+        {
+          "id": "trade_130",
+          "word": "crate",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（運貨用的）板條箱",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7796
+        },
+        {
+          "id": "trade_131",
+          "word": "carton",
+          "partOfSpeech": "noun[C]",
+          "meaning": "紙箱",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 9292
+        },
+        {
+          "id": "trade_132",
+          "word": "destination",
+          "partOfSpeech": "noun[C]",
+          "meaning": "目的地（港）",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3883
+        },
+        {
+          "id": "trade_133",
+          "word": "infrastructure",
+          "partOfSpeech": "noun[U]",
+          "meaning": "基礎建設",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3613
+        },
+        {
+          "id": "trade_134",
+          "word": "debit",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "借方；扣款；記入借方",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 12365
+        },
+        {
+          "id": "trade_135",
+          "word": "elasticity",
+          "partOfSpeech": "noun[U]",
+          "meaning": "彈性；伸縮性",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 10700
+        },
+        {
+          "id": "trade_136",
+          "word": "earnings",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "收入；收益；薪資",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2619
+        },
+        {
+          "id": "trade_137",
+          "word": "payment",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "付款；支付款項",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1009
+        },
+        {
+          "id": "trade_138",
+          "word": "voucher",
+          "partOfSpeech": "noun[C]",
+          "meaning": "憑單；折價券；代用券",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6163
+        },
+        {
+          "id": "trade_139",
+          "word": "principal",
+          "partOfSpeech": "adj.",
+          "meaning": "主要的；本金；校長",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2225
+        },
+        {
+          "id": "trade_140",
+          "word": "certification",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "證明；認證；檢定",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 6117
+        },
+        {
+          "id": "trade_141",
+          "word": "investor",
+          "partOfSpeech": "noun[C]",
+          "meaning": "投資者；出資者",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1702
+        },
+        {
+          "id": "trade_142",
+          "word": "excess",
+          "partOfSpeech": "adj.",
+          "meaning": "過量的；額外的；超額",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4540
+        },
+        {
+          "id": "trade_143",
+          "word": "subscriber",
+          "partOfSpeech": "noun[C]",
+          "meaning": "訂閱者；認購者",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7205
+        },
+        {
+          "id": "trade_144",
+          "word": "proceeds",
+          "partOfSpeech": "noun",
+          "meaning": "收益；實收款項",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7911
+        }
+      ]
+    },
+    {
+      "zh": "付款與匯兌",
+      "en": "Payment & Currency",
+      "words": [
+        {
+          "id": "trade_145",
+          "word": "letter of credit",
+          "partOfSpeech": "phr.",
+          "meaning": "信用狀",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1125
+        },
+        {
+          "id": "trade_146",
+          "word": "surcharge",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "附加費（如燃油附加費）",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 16013
+        },
+        {
+          "id": "trade_147",
+          "word": "consignee",
+          "partOfSpeech": "noun[C]",
+          "meaning": "收貨人",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 31367
+        },
+        {
+          "id": "trade_148",
+          "word": "remittance",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "匯款",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 16559
+        },
+        {
+          "id": "trade_149",
+          "word": "wire transfer",
+          "partOfSpeech": "phr.",
+          "meaning": "電匯",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2370
+        },
+        {
+          "id": "trade_150",
+          "word": "prepayment",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "預付款",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 31103
+        },
+        {
+          "id": "trade_151",
+          "word": "negotiable",
+          "partOfSpeech": "adj.",
+          "meaning": "可轉讓的（票據）；可議的",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 15090
+        },
+        {
+          "id": "trade_152",
+          "word": "exchange rate",
+          "partOfSpeech": "phr.",
+          "meaning": "匯率",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1084
+        },
+        {
+          "id": "trade_153",
+          "word": "foreign exchange",
+          "partOfSpeech": "phr.",
+          "meaning": "外匯",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1084
+        },
+        {
+          "id": "trade_154",
+          "word": "currency",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "貨幣",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2114
+        },
+        {
+          "id": "trade_155",
+          "word": "devaluation",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "（貨幣）貶值",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8273
+        },
+        {
+          "id": "trade_156",
+          "word": "revaluation",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "（貨幣）升值",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 16512
+        },
+        {
+          "id": "trade_157",
+          "word": "parity",
+          "partOfSpeech": "noun[U]",
+          "meaning": "（貨幣）平價",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 10431
+        },
+        {
+          "id": "trade_158",
+          "word": "volatility",
+          "partOfSpeech": "noun[U]",
+          "meaning": "（匯率、價格）波動",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 10769
+        },
+        {
+          "id": "trade_159",
+          "word": "conversion",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "（貨幣）換算",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3129
+        },
+        {
+          "id": "trade_160",
+          "word": "insure",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "為（貨物）投保",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5378
+        },
+        {
+          "id": "trade_161",
+          "word": "damage",
+          "partOfSpeech": "noun[U]",
+          "meaning": "損害；損壞",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1074
+        },
+        {
+          "id": "trade_162",
+          "word": "silica",
+          "partOfSpeech": "noun",
+          "meaning": "二氧化矽；矽土",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 17091
+        }
+      ]
+    },
+    {
+      "zh": "全球市場",
+      "en": "Global Markets",
+      "words": [
+        {
+          "id": "trade_163",
+          "word": "multinational",
+          "partOfSpeech": "noun[C]",
+          "meaning": "跨國的；跨國公司",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7698
+        },
+        {
+          "id": "trade_164",
+          "word": "offshore",
+          "partOfSpeech": "adj.",
+          "meaning": "境外的、海外的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 7349
+        },
+        {
+          "id": "trade_165",
+          "word": "outsource",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "外包",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 13752
+        },
+        {
+          "id": "trade_166",
+          "word": "sourcing",
+          "partOfSpeech": "noun[U]",
+          "meaning": "（海外）採購貨源",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 37744
+        },
+        {
+          "id": "trade_167",
+          "word": "trade fair",
+          "partOfSpeech": "phr.",
+          "meaning": "貿易展、商展",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1150
+        },
+        {
+          "id": "trade_168",
+          "word": "exhibitor",
+          "partOfSpeech": "noun[C]",
+          "meaning": "參展商",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 13472
+        },
+        {
+          "id": "trade_169",
+          "word": "intermediary",
+          "partOfSpeech": "noun[C]",
+          "meaning": "中間商、仲介",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 8178
+        },
+        {
+          "id": "trade_170",
+          "word": "agency",
+          "partOfSpeech": "noun[C]",
+          "meaning": "代理商",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 694
+        },
+        {
+          "id": "trade_171",
+          "word": "dealer",
+          "partOfSpeech": "noun[C]",
+          "meaning": "經銷商",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2450
+        },
+        {
+          "id": "trade_172",
+          "word": "trader",
+          "partOfSpeech": "noun[C]",
+          "meaning": "貿易商",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3829
+        },
+        {
+          "id": "trade_173",
+          "word": "commodity",
+          "partOfSpeech": "noun[C]",
+          "meaning": "大宗物資、原物料",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4365
+        },
+        {
+          "id": "trade_174",
+          "word": "counterpart",
+          "partOfSpeech": "noun[C]",
+          "meaning": "（對方公司的）對口人員",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3816
+        },
+        {
+          "id": "trade_175",
+          "word": "expatriate",
+          "partOfSpeech": "noun[C]",
+          "meaning": "外派人員",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 10531
+        },
+        {
+          "id": "trade_176",
+          "word": "embassy",
+          "partOfSpeech": "noun[C]",
+          "meaning": "大使館",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4389
+        },
+        {
+          "id": "trade_177",
+          "word": "monopoly",
+          "partOfSpeech": "noun[C]",
+          "meaning": "壟斷、獨占",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3446
+        },
+        {
+          "id": "trade_178",
+          "word": "cartel",
+          "partOfSpeech": "noun[C]",
+          "meaning": "聯合壟斷組織",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 9233
+        },
+        {
+          "id": "trade_179",
+          "word": "antitrust",
+          "partOfSpeech": "adj.",
+          "meaning": "反壟斷的",
+          "category": "trade 貿易",
+          "level": "進階",
+          "frequencyRank": 30380
+        },
+        {
+          "id": "trade_180",
+          "word": "extinct",
+          "partOfSpeech": "adj.",
+          "meaning": "滅絕的；絕種的",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 9357
+        },
+        {
+          "id": "trade_181",
+          "word": "endeavor",
+          "partOfSpeech": "noun",
+          "meaning": "努力；盡力",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 5892
+        },
+        {
+          "id": "trade_182",
+          "word": "once",
+          "partOfSpeech": "adv.",
+          "meaning": "一次；曾經；一旦",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 300
+        },
+        {
+          "id": "trade_183",
+          "word": "entertainment",
+          "partOfSpeech": "noun[U]",
+          "meaning": "娛樂；招待",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2350
+        },
+        {
+          "id": "trade_184",
+          "word": "attack",
+          "partOfSpeech": "vt.",
+          "meaning": "攻擊；抨擊",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 791
+        },
+        {
+          "id": "trade_185",
+          "word": "native",
+          "partOfSpeech": "adj.",
+          "meaning": "本地的；本國的；原生的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1403
+        },
+        {
+          "id": "trade_186",
+          "word": "baseball",
+          "partOfSpeech": "noun[U]",
+          "meaning": "棒球",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1373
+        },
+        {
+          "id": "trade_187",
+          "word": "previously",
+          "partOfSpeech": "adv.",
+          "meaning": "先前；以前",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1380
+        },
+        {
+          "id": "trade_188",
+          "word": "beat",
+          "partOfSpeech": "vt.",
+          "meaning": "節拍；心跳；打敗",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1036
+        },
+        {
+          "id": "trade_189",
+          "word": "continuing",
+          "partOfSpeech": "adj.",
+          "meaning": "持續的；連續的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2499
+        },
+        {
+          "id": "trade_190",
+          "word": "soil",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "土壤；泥土",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1791
+        },
+        {
+          "id": "trade_191",
+          "word": "symbol",
+          "partOfSpeech": "noun[C]",
+          "meaning": "符號；象徵",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2340
+        },
+        {
+          "id": "trade_192",
+          "word": "supreme",
+          "partOfSpeech": "noun",
+          "meaning": "最高的；至高無上的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1618
+        },
+        {
+          "id": "trade_193",
+          "word": "encourage",
+          "partOfSpeech": "vt.",
+          "meaning": "鼓勵；促進",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 881
+        },
+        {
+          "id": "trade_194",
+          "word": "novel",
+          "partOfSpeech": "adj.",
+          "meaning": "小說；新穎的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1647
+        },
+        {
+          "id": "trade_195",
+          "word": "revolution",
+          "partOfSpeech": "noun[C]",
+          "meaning": "革命；重大變革；循環",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1858
+        },
+        {
+          "id": "trade_196",
+          "word": "dependent",
+          "partOfSpeech": "adj.",
+          "meaning": "依賴的；取決於的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2356
+        },
+        {
+          "id": "trade_197",
+          "word": "tiny",
+          "partOfSpeech": "adj.",
+          "meaning": "極小的；微小的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1313
+        },
+        {
+          "id": "trade_198",
+          "word": "familiar",
+          "partOfSpeech": "adj.",
+          "meaning": "熟悉的；常見的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1492
+        },
+        {
+          "id": "trade_199",
+          "word": "capable",
+          "partOfSpeech": "adj.",
+          "meaning": "有能力的；能勝任的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1848
+        },
+        {
+          "id": "trade_200",
+          "word": "admission",
+          "partOfSpeech": "noun[U]",
+          "meaning": "准入；入場費；承認",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2768
+        },
+        {
+          "id": "trade_201",
+          "word": "victory",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "勝利",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1463
+        },
+        {
+          "id": "trade_202",
+          "word": "guardian",
+          "partOfSpeech": "noun",
+          "meaning": "監護人；守護者",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2951
+        },
+        {
+          "id": "trade_203",
+          "word": "lecture",
+          "partOfSpeech": "noun[C]",
+          "meaning": "演講；講課；訓斥",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2588
+        },
+        {
+          "id": "trade_204",
+          "word": "attribute",
+          "partOfSpeech": "vt.",
+          "meaning": "特質；歸因於",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3247
+        },
+        {
+          "id": "trade_205",
+          "word": "apparently",
+          "partOfSpeech": "adv.",
+          "meaning": "顯然；看起來似乎",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1243
+        },
+        {
+          "id": "trade_206",
+          "word": "popularity",
+          "partOfSpeech": "noun[U]",
+          "meaning": "普及；受歡迎；聲望",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 3974
+        },
+        {
+          "id": "trade_207",
+          "word": "fundamental",
+          "partOfSpeech": "adj.",
+          "meaning": "基本的；根本的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2031
+        },
+        {
+          "id": "trade_208",
+          "word": "somewhat",
+          "partOfSpeech": "adv.",
+          "meaning": "稍微；有點",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1897
+        },
+        {
+          "id": "trade_209",
+          "word": "obvious",
+          "partOfSpeech": "adj.",
+          "meaning": "明顯的；顯而易見的",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1173
+        },
+        {
+          "id": "trade_210",
+          "word": "globe",
+          "partOfSpeech": "noun[C]",
+          "meaning": "地球；地球儀",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4735
+        },
+        {
+          "id": "trade_211",
+          "word": "talent",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "才能；天賦；人才",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2030
+        },
+        {
+          "id": "trade_212",
+          "word": "personality",
+          "partOfSpeech": "noun[C/U]",
+          "meaning": "個性；人格",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2076
+        },
+        {
+          "id": "trade_213",
+          "word": "nowhere",
+          "partOfSpeech": "adv.",
+          "meaning": "無處；哪裡都不",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2924
+        },
+        {
+          "id": "trade_214",
+          "word": "confront",
+          "partOfSpeech": "vt.",
+          "meaning": "面對；遭遇",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 2415
+        },
+        {
+          "id": "trade_215",
+          "word": "accomplishment",
+          "partOfSpeech": "noun[C]",
+          "meaning": "成就；完成；造詣",
+          "category": "trade 貿易",
+          "level": "中階",
+          "frequencyRank": 4308
+        }
+      ]
+    },
+    {
+      "zh": "高頻基礎詞彙",
+      "en": "High-frequency Basics",
+      "words": [
+        {
+          "id": "trade_216",
+          "word": "trade",
+          "partOfSpeech": "vi./vt.",
+          "meaning": "貿易；交易",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 485
+        },
+        {
+          "id": "trade_217",
+          "word": "goods",
+          "partOfSpeech": "noun[C]",
+          "meaning": "貨物；商品",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 995
+        },
+        {
+          "id": "trade_218",
+          "word": "ship",
+          "partOfSpeech": "vt.",
+          "meaning": "運送；寄運",
+          "category": "trade 貿易",
+          "level": "初階",
+          "frequencyRank": 1219
+        }
+      ]
+    }
+  ]
+}

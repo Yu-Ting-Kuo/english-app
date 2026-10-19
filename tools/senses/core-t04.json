@@ -1,0 +1,43 @@
+{
+  "contender": [
+    {"p": "n", "zh": "競爭者、角逐者", "ai": [["Our company is a strong contender for the government contract.", "我們公司是爭取這份政府合約的有力競爭者。"], ["Three contenders remain in the bidding for the factory.", "這座工廠的競標還剩三個角逐者。"]]}
+  ],
+  "cost-effective": [
+    {"p": "adj", "zh": "符合成本效益的、划算的", "ai": [["Shipping by sea is more cost-effective than air freight for heavy goods.", "重型貨物走海運比空運更符合成本效益。"], ["We need a cost-effective way to store our inventory.", "我們需要一個划算的方式來存放庫存。"]]}
+  ],
+  "long-range": [
+    {"p": "adj", "zh": "長期的；遠程的", "ai": [["The board approved a long-range plan for overseas expansion.", "董事會核准了一項海外擴張的長期計畫。"], ["Long-range forecasts suggest demand will keep rising.", "長期預測顯示需求會持續成長。"]]}
+  ],
+  "undertaking": [
+    {"p": "n", "zh": "重大任務、事業；承諾", "t": [1553552], "fix": {"1553552": "他熱忱地投身於這份光榮的事業。"}, "ai": [["Opening a branch overseas is a major undertaking.", "在海外開設分公司是一項重大的任務。"], ["The supplier gave a written undertaking to deliver on time.", "供應商以書面承諾會準時交貨。"]]}
+  ],
+  "attainment": [
+    {"p": "n", "zh": "達成、取得；成就", "ai": [["Bonuses are linked to the attainment of sales targets.", "獎金和是否達成業績目標連動。"], ["The report measures the attainment of each project goal.", "這份報告評估每個專案目標的達成情況。"]]}
+  ],
+  "customary": [
+    {"p": "adj", "zh": "慣常的、依照慣例的", "t": [608950], "fix": {"608950": "在亞洲文化裡，進入住家或寺廟前習慣先脫鞋。"}, "ai": [["It is customary to exchange business cards at the first meeting.", "初次見面時交換名片是慣例。"]]}
+  ],
+  "proceeds": [
+    {"p": "n", "zh": "收益、實收款項", "t": [715781], "fix": {"715781": "部分收益將用來幫助身心障礙兒童。"}, "ai": [["The proceeds from the sale of the warehouse will reduce our debt.", "出售倉庫的收益將用來減少我們的負債。"]]}
+  ],
+  "silica": [
+    {"p": "n", "zh": "二氧化矽、矽石", "src": "app", "ai": [["Silica is a key raw material for making glass.", "二氧化矽是製造玻璃的主要原料。"], ["The factory imports silica from Australia.", "這家工廠從澳洲進口二氧化矽。"]]}
+  ],
+  "extinct": [
+    {"p": "adj", "zh": "滅絕的、絕種的", "t": [1073457, 2656878], "fix": {"2656878": "這種蝴蝶已經絕種了。"}},
+    {"p": "adj", "zh": "（產業、職業等）消失的、不復存在的", "src": "app", "ai": [["Some traditional trades are almost extinct in the city.", "有些傳統行業在這座城市幾乎已經消失。"], ["Many experts say paper invoices will soon be extinct.", "許多專家說紙本發票很快就會消失。"]]}
+  ],
+  "endeavor": [
+    {"p": "n", "zh": "努力；（需要努力的）事業、嘗試", "t": [2695845, 11668480], "fix": {"2695845": "自信是任何偉大事業的首要條件。", "11668480": "祝你所有的努力都順利成功。"}},
+    {"p": "v", "zh": "努力、盡力（endeavor to do）", "t": [296804], "fix": {"296804": "他努力想讓妻子開心，卻徒勞無功。"}, "ai": [["We endeavor to answer all customer inquiries within 24 hours.", "我們盡力在二十四小時內回覆所有客戶詢問。"]]}
+  ],
+  "continuing": [
+    {"p": "adj", "zh": "持續的、連續的", "ai": [["The company offers continuing education for its staff.", "公司為員工提供持續進修的課程。"], ["There are continuing concerns about rising shipping costs.", "外界持續擔心運費上漲。"]]}
+  ],
+  "supreme": [
+    {"p": "adj", "zh": "最高的、至高無上的", "t": [275707], "ai": [["Customer satisfaction is of supreme importance to us.", "顧客滿意對我們來說是最重要的。"]]}
+  ],
+  "guardian": [
+    {"p": "n", "zh": "監護人；守護者", "t": [253387], "ai": [["A parent or legal guardian must sign the consent form.", "家長或法定監護人必須在同意書上簽名。"]]}
+  ]
+}
