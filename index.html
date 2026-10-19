@@ -114,6 +114,16 @@
   .cat-name { font-size: 17px; font-weight: 700; }
   .cat-en { font-family: var(--serif); font-size: 13px; color: var(--muted); }
   .cat-meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .news-list { display: grid; gap: 10px; }
+  .news-item { border-top: 1px solid var(--line); padding-top: 10px; }
+  .news-item:first-child { border-top: 0; padding-top: 0; }
+  .news-title { color: var(--ink); font-weight: 650; text-decoration: none; }
+  .news-title:hover { color: var(--accent); text-decoration: underline; }
+  .news-summary { margin: 5px 0 8px; font-family: var(--serif); }
+  .news-vocab { display: flex; flex-wrap: wrap; gap: 6px; }
+  .news-vocab button { min-height: 34px; padding: 5px 10px; font-size: 13px; }
+  .news-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+  .news-meta .muted { font-size: 12px; }
   .page-title { margin: 0; font-size: 24px; line-height: 1.3; text-wrap: balance; }
   .back { justify-self: start; align-self: flex-start; padding-left: 0; min-height: 36px; color: var(--accent); }
   .topic-list { display: grid; gap: 8px; }
@@ -334,6 +344,10 @@
       <h3 style="margin:4px 2px 10px">依主題探索</h3>
       <div class="cat-grid" id="home-topics"></div>
     </div>
+    <section class="card stack" id="home-news">
+      <div class="row"><h3 class="grow">最近新聞</h3><span class="chip">近 7 天</span></div>
+      <div id="home-news-list"><p class="muted" style="margin:0">新聞載入中…</p></div>
+    </section>
     <section class="card stack">
       <div class="row"><h3 class="grow">最近查詢</h3><button class="ghost small-btn" data-go="list" id="home-saved">我的收藏</button></div>
       <div id="home-recent"></div>
@@ -521,6 +535,7 @@
         <li><b>真人發音、IPA、英英解釋、同義詞</b>：<a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a>（CC BY-SA），經 Free Dictionary API 取得。</li>
         <li><b>主題分類、主題中的意思、詞義分項</b>：App 編輯整理，不是詞典原文。</li>
         <li><b>主題難度</b>：依 BNC／COCA 詞頻分為初階、中階、進階，作為閱讀難度參考，不代表實際多益分數。多益核心字彙沿用原有分級。</li>
+        <li><b>最近新聞</b>：新聞標題與短摘要來自 <a href="https://news.un.org/en/" target="_blank" rel="noopener">UN News RSS</a>，只保留近 7 天；原文在 UN News 閱讀，聽力由裝置語音朗讀摘要。</li>
       </ul>
     </div>
     <p class="muted" id="storage-info" style="margin:0"></p>

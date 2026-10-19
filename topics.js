@@ -41,6 +41,7 @@ function topicError(box, retry) {
 async function renderHome() {
   // 主題和最近查詢分開載入：手機資料庫暫時打不開時，主題照樣能顯示
   renderHomeRecent();
+  renderHomeNews();
   let data;
   try {
     data = await loadTopics();
@@ -69,6 +70,51 @@ async function renderHome() {
       <span class="cat-en">${esc(c.en)}</span>
       <span class="cat-meta">${c.topics.length} 個主題 · ${c.count} 個字</span>
     </button>`).join('');
+}
+
+async function renderHomeNews() {
+  const box = $('#home-news-list');
+  try {
+    const res = await fetch('news.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+    const articles = (Array.isArray(data.articles) ? data.articles : [])
+      .filter(a => Date.parse(a.publishedAt) >= cutoff)
+      .slice(0, 7);
+    if (!articles.length) {
+      box.innerHTML = '<p class="muted" style="margin:0">近七天暫時沒有可用新聞。<a href="https://news.un.org/en/" target="_blank" rel="noopener noreferrer">前往 UN News</a></p>';
+      return;
+    }
+    const dateFmt = new Intl.DateTimeFormat('zh-TW', { month: 'numeric', day: 'numeric', timeZone: 'Asia/Taipei' });
+    box.innerHTML = `<div class="news-list">${articles.map(a => {
+      const url = safeNewsUrl(a.url);
+      const title = String(a.title || '').trim();
+      const summary = String(a.summary || '').trim();
+      if (!url || !title || !summary) return '';
+      const vocab = (Array.isArray(a.vocabulary) ? a.vocabulary : []).filter(w => /^[a-z][a-z'-]{2,30}$/i.test(w)).slice(0, 4);
+      const date = a.publishedAt ? dateFmt.format(new Date(a.publishedAt)) : '';
+      return `<article class="news-item">
+        <a class="news-title" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
+        <p class="news-summary">${esc(summary)}</p>
+        ${vocab.length ? `<div class="news-vocab" aria-label="新聞學習單字">${vocab.map(w => `<button type="button" class="chip-btn" data-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}
+        <div class="news-meta"><span class="muted">UN News${date ? ` · ${esc(date)}` : ''} · 瀏覽器語音</span><button class="small-btn" type="button" data-say="${esc(`${title}. ${summary}`)}" aria-label="聽新聞摘要">聽摘要</button></div>
+      </article>`;
+    }).join('')}</div>
+    <p class="muted" style="margin:10px 0 0">新聞摘要與單字來自 UN News RSS；點標題閱讀原文。聽力使用裝置的英文語音，不會下載新聞音訊。</p>`;
+    if (!box.querySelector('.news-item')) throw new Error('No valid stories');
+  } catch {
+    box.innerHTML = '<p class="muted" style="margin:0">目前無法載入最近新聞。<a href="https://news.un.org/en/" target="_blank" rel="noopener noreferrer">前往 UN News</a></p>';
+  }
+}
+
+function safeNewsUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && url.hostname === 'news.un.org' ? url.href : '';
+  } catch {
+    return '';
+  }
 }
 
 async function renderHomeRecent() {

@@ -1,0 +1,98 @@
+{
+  "source": "UN News",
+  "sourceUrl": "https://news.un.org/en/",
+  "retentionDays": 7,
+  "articles": [
+    {
+      "id": "httpsnewsunorgenstory2026101168620",
+      "title": "Protecting Earth’s fragile biodiversity takes spotlight at Armenia talks",
+      "summary": "Biodiversity losses continue to upend the lives of billions of people whose future prosperity depends on countries taking urgent action to protect our planet, the top UN official leading talks at the UN Biodiversity Conference in Yerevan, said on Monday.",
+      "url": "https://news.un.org/en/story/2026/10/1168620",
+      "publishedAt": "2026-10-19T12:00:00Z",
+      "vocabulary": [
+        "biodiversity",
+        "spotlight",
+        "prosperity",
+        "fragile"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168608",
+      "title": "Inside the New York ‘time machine’ racing to save a century of sound and film",
+      "summary": "“I tell my kids I work in a time machine,” said Rhony Dostaly. In a basement beneath Lincoln Center, the media preservation engineer rescues moments from the past. “I go back in time, and I grab elements, and I make them available for people today.”",
+      "url": "https://news.un.org/en/story/2026/10/1168608",
+      "publishedAt": "2026-10-18T12:00:00Z",
+      "vocabulary": [
+        "preservation",
+        "basement",
+        "engineer",
+        "machine"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168618",
+      "title": "COP17: The world has a plan to save nature. Is it working?",
+      "summary": "The UN Secretary-General has called for an end to the “war on nature”. On Monday, governments gathering in Yerevan, Armenia, will have to confront a more practical question: are they doing enough to win the peace and put the world’s biodiversity goals back on track?",
+      "url": "https://news.un.org/en/story/2026/10/1168618",
+      "publishedAt": "2026-10-17T12:00:00Z",
+      "vocabulary": [
+        "biodiversity",
+        "practical",
+        "track",
+        "peace"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168617",
+      "title": "As disasters mount, next UN climate summit faces a test of trust",
+      "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in climate action when the consequences of a warming planet are already being felt?",
+      "url": "https://news.un.org/en/story/2026/10/1168617",
+      "publishedAt": "2026-10-16T12:00:00Z",
+      "vocabulary": [
+        "successive",
+        "summit",
+        "mount",
+        "climate"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168609",
+      "title": "Could your brain data be used against you? UN calls for limits on neurotechnology",
+      "summary": "Brain signals recorded by a gaming headset or a wellness gadget could one day be used as evidence against you in court, according to a new UN report which warns that neurotechnology is outpacing the laws meant to protect human rights.",
+      "url": "https://news.un.org/en/story/2026/10/1168609",
+      "publishedAt": "2026-10-15T12:00:00Z",
+      "vocabulary": [
+        "wellness",
+        "headset",
+        "gadget",
+        "brain"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168598",
+      "title": "Haiti sanctions renewed: Starving the gangs of bullets",
+      "summary": "Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing rape and other sexual assaults, kidnapping for ransom and extorting individuals and businesses.",
+      "url": "https://news.un.org/en/story/2026/10/1168598",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "vocabulary": [
+        "ransom",
+        "acute",
+        "rural",
+        "sexual"
+      ]
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168589",
+      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs",
+      "summary": "Yemen’s southwestern city of Taiz is facing a “devastating” humanitarian crisis as escalating tensions are dramatically driving up food prices and causing shortages of supplies, the UN Spokesperson said on Tuesday.",
+      "url": "https://news.un.org/en/story/2026/10/1168589",
+      "publishedAt": "2026-10-13T12:00:00Z",
+      "vocabulary": [
+        "cholera",
+        "southwestern",
+        "siege",
+        "humanitarian"
+      ]
+    }
+  ]
+}
