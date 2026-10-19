@@ -243,7 +243,21 @@ document.querySelectorAll('nav button').forEach(b => b.addEventListener('click',
   if (b.dataset.view === 'practice') practiceId = null;
   show(b.dataset.view);
 }));
-// ---------- ChatGPT 語音對話 ----------
+// ---------- AI 語音對話 ----------
+const conversationProviders = {
+  chatgpt: {
+    name: 'ChatGPT', url: 'https://chatgpt.com/',
+    note: '推薦：語音對話可用於網頁與 iPhone；適合在 Edge 和手機間切換。',
+  },
+  gemini: {
+    name: 'Gemini', url: 'https://gemini.google.com/app',
+    note: 'Gemini Live 支援 iPhone，但需使用 Gemini App；官方目前未在 Gemini 網頁版提供 Live。',
+  },
+  claude: {
+    name: 'Claude', url: 'https://claude.ai/',
+    note: 'Claude 語音可在 iPhone 與 Android App 使用；網頁版目前沒有同樣的語音對話模式。',
+  },
+};
 const conversationTopics = {
   daily: 'everyday life, such as hobbies, food, shopping, and weekend plans',
   work: 'workplace and business situations, such as meetings, emails, and project updates',
@@ -255,12 +269,18 @@ const conversationLevels = {
   advanced: 'advanced level: use natural, varied expressions and gently challenge me with follow-up questions',
 };
 function updateConversationPrompt() {
+  const provider = conversationProviders[$('#chat-provider')?.value] || conversationProviders.chatgpt;
   const topic = conversationTopics[$('#chat-scenario')?.value] || conversationTopics.daily;
   const level = conversationLevels[$('#chat-level')?.value] || conversationLevels.beginner;
   const prompt = `You are my friendly English conversation tutor. Help me practice spoken English through a role-play about ${topic}.\n\nUse ${level}. Ask only one question at a time and wait for my answer before continuing. If I make a mistake, briefly model a more natural version and continue kindly. Explain in Traditional Chinese (Taiwan) only when I ask for help. After about 8 exchanges, summarize up to 3 useful corrections and 5 practical phrases in Traditional Chinese.`;
   const field = $('#chat-prompt');
   if (field) field.value = prompt;
+  const note = $('#chat-provider-note');
+  if (note) note.textContent = provider.note;
+  const open = $('#chat-open');
+  if (open) open.textContent = `開啟 ${provider.name} ↗`;
 }
+$('#chat-provider')?.addEventListener('change', updateConversationPrompt);
 $('#chat-scenario')?.addEventListener('change', updateConversationPrompt);
 $('#chat-level')?.addEventListener('change', updateConversationPrompt);
 $('#chat-copy')?.addEventListener('click', async () => {
@@ -274,7 +294,8 @@ $('#chat-copy')?.addEventListener('click', async () => {
   }
 });
 $('#chat-open')?.addEventListener('click', () => {
-  window.open('https://chatgpt.com/', '_blank', 'noopener');
+  const provider = conversationProviders[$('#chat-provider')?.value] || conversationProviders.chatgpt;
+  window.open(provider.url, '_blank', 'noopener');
 });
 updateConversationPrompt();
 $('#add-word').addEventListener('click', () => { resetForm(); show('add'); });

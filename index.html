@@ -418,11 +418,18 @@
     <div id="practice"></div>
   </section>
 
-  <!-- ChatGPT 英語對話 -->
+  <!-- AI 英語對話 -->
   <section class="view stack" id="view-conversation" hidden>
     <article class="card stack">
-      <h2 style="margin:0">ChatGPT 語音對話</h2>
-      <p class="muted" style="margin:0">選擇情境並複製練習指令，到 ChatGPT 貼上後，點語音圖示就能開始英文對話。</p>
+      <h2 style="margin:0">AI 語音對話練習</h2>
+      <p class="muted" style="margin:0">選擇 AI 助教與情境，複製練習指令後前往該服務，貼上指令並開啟語音對話。</p>
+      <label for="chat-provider">AI 助教</label>
+      <select id="chat-provider">
+        <option value="chatgpt">ChatGPT（推薦：Edge 與 iPhone 都方便）</option>
+        <option value="gemini">Gemini Live（推薦：iPhone App 口說）</option>
+        <option value="claude">Claude 語音</option>
+      </select>
+      <p class="muted" id="chat-provider-note" style="margin:0"></p>
       <label for="chat-scenario">對話情境</label>
       <select id="chat-scenario">
         <option value="daily">日常生活</option>
@@ -441,7 +448,7 @@
         <button class="primary" id="chat-copy">複製練習指令</button>
         <button id="chat-open">開啟 ChatGPT ↗</button>
       </div>
-      <p class="source" style="margin:0">語音對話由 ChatGPT 處理。請在 ChatGPT 貼上指令並自行點選語音圖示；第一次使用時，依提示允許 ChatGPT 使用麥克風。這個 App 不會錄製或保存對話。</p>
+      <p class="source" style="margin:0">語音對話由所選服務處理。請在該服務貼上指令並自行開始語音；依提示允許它使用麥克風。這個 App 不會錄製或保存對話。</p>
     </article>
   </section>
 
