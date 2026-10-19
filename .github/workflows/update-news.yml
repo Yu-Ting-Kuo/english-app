@@ -1,0 +1,33 @@
+name: Update recent news
+
+on:
+  schedule:
+    - cron: '15 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh seven-day feed
+        run: python tools/update_news.py
+      - name: Publish changed news data
+        run: |
+          if git diff --quiet -- news.json; then
+            echo "No news data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Refresh recent news feed"
+          git push

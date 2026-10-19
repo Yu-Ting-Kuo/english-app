@@ -92,9 +92,11 @@ async function renderHomeNews() {
       const title = String(a.title || '').trim();
       const summary = String(a.summary || '').trim();
       if (!url || !title || !summary) return '';
+      const image = safeNewsImageUrl(a.imageUrl);
       const vocab = (Array.isArray(a.vocabulary) ? a.vocabulary : []).filter(w => /^[a-z][a-z'-]{2,30}$/i.test(w)).slice(0, 4);
       const date = a.publishedAt ? dateFmt.format(new Date(a.publishedAt)) : '';
       return `<article class="news-item">
+        ${image ? `<a class="news-image-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="開啟新聞：${esc(title)}"><img class="news-image" src="${esc(image)}" alt="${esc(title)}" loading="lazy" decoding="async"></a>` : ''}
         <a class="news-title" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
         <p class="news-summary">${esc(summary)}</p>
         ${vocab.length ? `<div class="news-vocab" aria-label="新聞學習單字">${vocab.map(w => `<button type="button" class="chip-btn" data-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}
@@ -112,6 +114,15 @@ function safeNewsUrl(value) {
   try {
     const url = new URL(value);
     return url.protocol === 'https:' && url.hostname === 'news.un.org' ? url.href : '';
+  } catch {
+    return '';
+  }
+}
+
+function safeNewsImageUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && url.hostname === 'global.unitednations.entermediadb.net' ? url.href : '';
   } catch {
     return '';
   }

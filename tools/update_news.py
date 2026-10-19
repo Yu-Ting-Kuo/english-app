@@ -50,6 +50,21 @@ def published_datetime(item: ET.Element) -> datetime | None:
         return None
 
 
+def article_image(item: ET.Element) -> str:
+    enclosure = item.find("enclosure")
+    if enclosure is None or not (enclosure.get("type") or "").lower().startswith("image/"):
+        return ""
+    value = (enclosure.get("url") or "").strip()
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(value)
+        if parsed.scheme == "https" and parsed.hostname == "global.unitednations.entermediadb.net":
+            return value
+    except ValueError:
+        pass
+    return ""
+
+
 def dictionary_entry(word: str, cache: dict[str, dict]) -> dict | None:
     shard = word[:2].lower()
     if len(shard) < 2 or not shard.isalpha():
@@ -122,6 +137,9 @@ def main() -> int:
             "publishedAt": dt.isoformat().replace("+00:00", "Z"),
             "vocabulary": learning_words(title + " " + summary, ranks),
         }
+        image_url = article_image(item)
+        if image_url:
+            by_day[key]["imageUrl"] = image_url
 
     # Keep one selected item per day for the seven-day window when the feed rolls forward.
     for article in existing:
