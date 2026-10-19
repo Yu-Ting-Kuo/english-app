@@ -106,7 +106,7 @@ async function renderHomeNews() {
         <a class="news-title" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
         <p class="news-summary">${esc(summary)}</p>
         ${vocab.length ? `<div class="news-vocab" aria-label="新聞學習單字">${vocab.map(w => `<button type="button" class="chip-btn" data-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}
-        <div class="news-meta"><span class="muted">UN News · ${newsCategory(a) === 'tech' ? '科技' : '人文'}${date ? ` · ${esc(date)}` : ''}</span><button class="small-btn" type="button" data-say="${esc(`${title}. ${summary}`)}" data-say-natural="true" aria-label="以自然英文語音聽新聞摘要">聽摘要</button></div>
+        <div class="news-meta"><span class="muted">UN News · ${newsCategory(a) === 'tech' ? '科技' : '人文'}${date ? ` · ${esc(date)}` : ''}</span><button class="ex-say" type="button" data-say="${esc(`${title}. ${summary}`)}" aria-label="播放新聞摘要" title="播放新聞摘要">${ICON.speaker}</button></div>
       </article>`;
     }).join('')}</div>
     <p class="muted" style="margin:10px 0 0">新聞摘要與單字來自 UN News RSS；點標題閱讀原文。聽摘要會優先使用裝置提供的自然英文語音，語音種類依瀏覽器而異。</p>`;
