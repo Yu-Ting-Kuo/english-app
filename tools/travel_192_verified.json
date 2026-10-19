@@ -1,0 +1,1945 @@
+{
+  "category": "旅遊 (travel)",
+  "requestedCount": 197,
+  "providedCount": 192,
+  "includedCount": 192,
+  "unprovidedListNumbers": [
+    193,
+    194,
+    195,
+    196,
+    197
+  ],
+  "topicEntryCount": 193,
+  "levelCounts": {
+    "初階": 75,
+    "中階": 94,
+    "進階": 23
+  },
+  "items": [
+    {
+      "id": "travel_001",
+      "word": "sting",
+      "partOfSpeech": "noun",
+      "meaning": "刺，螫，叮；刺痛，使疼痛",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8139,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_002",
+      "word": "weed",
+      "partOfSpeech": "noun",
+      "meaning": "雜草；除草",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4545,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_003",
+      "word": "abroad",
+      "partOfSpeech": "adv.",
+      "meaning": "在國外；到國外；在外面；到外面",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2243,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_004",
+      "word": "accommodation",
+      "partOfSpeech": "noun[U]",
+      "meaning": "住宿；調整；適應",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2048,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_005",
+      "word": "block",
+      "partOfSpeech": "vt.",
+      "meaning": "阻塞；障礙物",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1314,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_006",
+      "word": "boarding pass",
+      "partOfSpeech": "phr.",
+      "meaning": "登機牌",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8271,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_007",
+      "word": "boundary",
+      "partOfSpeech": "noun[C]",
+      "meaning": "邊界；範圍；分界",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2050,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_008",
+      "word": "brochure",
+      "partOfSpeech": "noun[C]",
+      "meaning": "小冊子",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4759,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_009",
+      "word": "change",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "改變；更換",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 226,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_010",
+      "word": "concierge",
+      "partOfSpeech": "noun[C]",
+      "meaning": "管理員；門房",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 15630,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_011",
+      "word": "cruise",
+      "partOfSpeech": "noun[C]",
+      "meaning": "乘船遊覽；巡邏；巡航",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4681,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_012",
+      "word": "confirmation",
+      "partOfSpeech": "noun[U]",
+      "meaning": "確認",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4971,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_013",
+      "word": "customs",
+      "partOfSpeech": "noun[U]",
+      "meaning": "海關；關稅",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": null,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_014",
+      "word": "departure",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "離開；出發、啟程",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2903,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_015",
+      "word": "deluxe",
+      "partOfSpeech": "adj.",
+      "meaning": "豪華的；高級的",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 12902,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_016",
+      "word": "destination",
+      "partOfSpeech": "noun[C]",
+      "meaning": "目的地",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3883,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_017",
+      "word": "flight attendant",
+      "partOfSpeech": "phr.",
+      "meaning": "空中服務員",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5430,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_018",
+      "word": "intersection",
+      "partOfSpeech": "noun[C]",
+      "meaning": "十字路口；交叉點",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5760,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_019",
+      "word": "immigration",
+      "partOfSpeech": "noun[U]",
+      "meaning": "移民；移居",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2431,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_020",
+      "word": "itinerary",
+      "partOfSpeech": "noun[C]",
+      "meaning": "行程表；旅程",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 11240,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_021",
+      "word": "luggage",
+      "partOfSpeech": "noun[U]",
+      "meaning": "行李",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7156,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_022",
+      "word": "lodge",
+      "partOfSpeech": "noun",
+      "meaning": "投宿；提出申訴",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5269,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_023",
+      "word": "luxurious",
+      "partOfSpeech": "adj.",
+      "meaning": "奢華的；舒適的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8565,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_024",
+      "word": "exotic",
+      "partOfSpeech": "adj.",
+      "meaning": "異國風情的；異國的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4205,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_025",
+      "word": "en route",
+      "partOfSpeech": "",
+      "meaning": "在途中",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9798,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_026",
+      "word": "layover",
+      "partOfSpeech": "noun[C]",
+      "meaning": "轉機停留時間",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 25794,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_027",
+      "word": "metal detector",
+      "partOfSpeech": "",
+      "meaning": "金屬探測器",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5477,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_028",
+      "word": "overseas",
+      "partOfSpeech": "adv.",
+      "meaning": "在海外的，國外的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2990,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_029",
+      "word": "passenger",
+      "partOfSpeech": "noun[C]",
+      "meaning": "乘客；旅客",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2001,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_030",
+      "word": "porter",
+      "partOfSpeech": "noun",
+      "meaning": "搬運工；門房",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6464,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_031",
+      "word": "packing",
+      "partOfSpeech": "noun",
+      "meaning": "打包；包裝",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8535,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_032",
+      "word": "reservation",
+      "partOfSpeech": "noun[C]",
+      "meaning": "預訂；保留",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3046,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_033",
+      "word": "round-trip",
+      "partOfSpeech": "adj.",
+      "meaning": "來回的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 962,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_034",
+      "word": "stopover",
+      "partOfSpeech": "noun",
+      "meaning": "中途停留",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 21719,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_035",
+      "word": "sightseeing",
+      "partOfSpeech": "noun",
+      "meaning": "觀光；遊覽",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 15550,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_036",
+      "word": "suite",
+      "partOfSpeech": "noun[C]",
+      "meaning": "(飯店)套房",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4292,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_037",
+      "word": "valid",
+      "partOfSpeech": "adj.",
+      "meaning": "讓人信服的；有效的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3211,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_038",
+      "word": "vacant",
+      "partOfSpeech": "adj.",
+      "meaning": "空的；未被佔用的；(職位)空缺的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6366,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_039",
+      "word": "voyage",
+      "partOfSpeech": "noun[C]",
+      "meaning": "航海；航行",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6502,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_040",
+      "word": "janitor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "清潔工；管理員；看門人",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 11334,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_041",
+      "word": "mat",
+      "partOfSpeech": "noun",
+      "meaning": "地蓆；草蓆；墊子",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5639,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_042",
+      "word": "obstacle",
+      "partOfSpeech": "noun[C]",
+      "meaning": "障礙；阻礙",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3569,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_043",
+      "word": "pamphlet",
+      "partOfSpeech": "noun[C]",
+      "meaning": "手冊",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6888,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_044",
+      "word": "resort",
+      "partOfSpeech": "noun[C]",
+      "meaning": "渡假勝地；訴諸",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2684,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_045",
+      "word": "windmill",
+      "partOfSpeech": "noun",
+      "meaning": "風車；風力發電機",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 11762,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_046",
+      "word": "explicit",
+      "partOfSpeech": "adj.",
+      "meaning": "明確的；詳盡的；清楚的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3722,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_047",
+      "word": "fertile",
+      "partOfSpeech": "adj.",
+      "meaning": "肥沃的；豐富的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7458,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_048",
+      "word": "vivid",
+      "partOfSpeech": "adj.",
+      "meaning": "鮮豔的；鮮明的；生動逼真的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5539,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_049",
+      "word": "tour",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "導覽；巡迴",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1420,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_050",
+      "word": "faculty",
+      "partOfSpeech": "noun[C]",
+      "meaning": "全體教員；能力",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1985,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_051",
+      "word": "mission",
+      "partOfSpeech": "noun[C]",
+      "meaning": "使節團;使命,任務",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1095,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_052",
+      "word": "bear",
+      "partOfSpeech": "vt.",
+      "meaning": "熊；忍受",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1065,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_053",
+      "word": "scene",
+      "partOfSpeech": "noun[C]",
+      "meaning": "景色;場面",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 738,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_054",
+      "word": "crystal",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "水晶的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3419,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_055",
+      "word": "toll",
+      "partOfSpeech": "noun[C]",
+      "meaning": "通行費;長途電話費;傷亡人數;鐘聲",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4599,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_056",
+      "word": "cape",
+      "partOfSpeech": "noun",
+      "meaning": "披風；海角",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6613,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_057",
+      "word": "lounge",
+      "partOfSpeech": "noun[C]",
+      "meaning": "(旅館等的)會客廳;候機室;躺椅",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4410,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_058",
+      "word": "ridge",
+      "partOfSpeech": "noun",
+      "meaning": "屋脊;山脈;(狹長的)隆起部",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4003,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_059",
+      "word": "spray",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "浪花;噴霧",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4417,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_060",
+      "word": "yard",
+      "partOfSpeech": "noun[C]",
+      "meaning": "庭院;碼(3英呎)",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1035,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_061",
+      "word": "tourist",
+      "partOfSpeech": "adj.",
+      "meaning": "旅遊者,觀光者",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2394,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_062",
+      "word": "mayor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "市長,鎮長",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2486,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_063",
+      "word": "pour",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "倒,灌,注",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1898,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_064",
+      "word": "lodging",
+      "partOfSpeech": "noun",
+      "meaning": "寄宿，借宿；住所，寓所",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 12958,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_065",
+      "word": "seasonal",
+      "partOfSpeech": "adj.",
+      "meaning": "季節的；季節性的；週期性的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6141,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_066",
+      "word": "trek",
+      "partOfSpeech": "vi.",
+      "meaning": "(長途而辛苦的)旅行或移居",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9100,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_067",
+      "word": "broadcasting",
+      "partOfSpeech": "noun",
+      "meaning": "(電臺、電視臺的)廣播；播放；廣播員",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4227,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_068",
+      "word": "superb",
+      "partOfSpeech": "adj.",
+      "meaning": "宏偉的;華麗的;上乘的,一流的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3385,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_069",
+      "word": "buzz",
+      "partOfSpeech": "noun",
+      "meaning": "嗡嗡聲",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8051,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_070",
+      "word": "transparent",
+      "partOfSpeech": "adj.",
+      "meaning": "透明的;一目了然的;易懂的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5884,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_071",
+      "word": "boom",
+      "partOfSpeech": "noun[C]",
+      "meaning": "繁榮;激增",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3171,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_072",
+      "word": "inappropriate",
+      "partOfSpeech": "adj.",
+      "meaning": "不適當的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4790,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_073",
+      "word": "exhaust",
+      "partOfSpeech": "noun[U]",
+      "meaning": "排氣；廢氣",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4734,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_074",
+      "word": "jungle",
+      "partOfSpeech": "noun",
+      "meaning": "(熱帶)叢林,密林",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4507,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_075",
+      "word": "oval",
+      "partOfSpeech": "adj.",
+      "meaning": "卵形的;橢圓形的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6604,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_076",
+      "word": "accommodate",
+      "partOfSpeech": "vt.",
+      "meaning": "能容納;能提供...膳宿;給...方便",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3404,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_077",
+      "word": "aurora",
+      "partOfSpeech": "noun",
+      "meaning": "曙光；極光",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 18136,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_078",
+      "word": "shade",
+      "partOfSpeech": "noun[U]",
+      "meaning": "蔭;陰涼處;陰暗",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2984,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_079",
+      "word": "fountain",
+      "partOfSpeech": "noun[C]",
+      "meaning": "泉水;噴泉;水源",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5279,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_080",
+      "word": "fog",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "霧",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4913,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_081",
+      "word": "shed",
+      "partOfSpeech": "noun[C]",
+      "meaning": "小棚；脫落；去除",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4356,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_082",
+      "word": "tide",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "潮汐;潮水",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3284,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_083",
+      "word": "reel",
+      "partOfSpeech": "noun",
+      "meaning": "捲軸；踉蹌",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7527,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_084",
+      "word": "sheer",
+      "partOfSpeech": "adj.",
+      "meaning": "全然的;(紡織物)極薄的;陡峭的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3368,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_085",
+      "word": "bind",
+      "partOfSpeech": "vt.",
+      "meaning": "綁住；捆綁",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1888,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_086",
+      "word": "buck",
+      "partOfSpeech": "noun",
+      "meaning": "雄鹿；美元；尬腳子",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2493,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_087",
+      "word": "boulder",
+      "partOfSpeech": "noun",
+      "meaning": "卵石，大圓石；巨礫",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6122,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_088",
+      "word": "texture",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "(織物的)結構;質地;紋理;肌理",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4413,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_089",
+      "word": "miniature",
+      "partOfSpeech": "noun",
+      "meaning": "小型的;小規模的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6061,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_090",
+      "word": "hawk",
+      "partOfSpeech": "noun[C]",
+      "meaning": "鷹,隼",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7924,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_091",
+      "word": "lamb",
+      "partOfSpeech": "noun",
+      "meaning": "小羊",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4170,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_092",
+      "word": "magnitude",
+      "partOfSpeech": "noun[U]",
+      "meaning": "巨大;重大;強度",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3971,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_093",
+      "word": "scenic",
+      "partOfSpeech": "adj.",
+      "meaning": "風景的;景色秀麗的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8163,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_094",
+      "word": "flavor",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "味,味道",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3118,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_095",
+      "word": "alike",
+      "partOfSpeech": "adj.",
+      "meaning": "相似的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4389,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_096",
+      "word": "bite",
+      "partOfSpeech": "noun[C]",
+      "meaning": "咬,叮",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3153,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_097",
+      "word": "mileage",
+      "partOfSpeech": "noun[U]",
+      "meaning": "總英里數;(每單位燃料的)行駛哩數",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9688,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_098",
+      "word": "idle",
+      "partOfSpeech": "adj.",
+      "meaning": "閒置的；懶散的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7526,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_099",
+      "word": "ozone",
+      "partOfSpeech": "noun",
+      "meaning": "臭氧",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4898,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_100",
+      "word": "cathedral",
+      "partOfSpeech": "noun",
+      "meaning": "大教堂",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2894,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_101",
+      "word": "destiny",
+      "partOfSpeech": "noun",
+      "meaning": "命運;天數",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5162,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_102",
+      "word": "generous",
+      "partOfSpeech": "adj.",
+      "meaning": "慷慨的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3178,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_103",
+      "word": "token",
+      "partOfSpeech": "noun",
+      "meaning": "標誌;象徵;代價券;籌碼",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6352,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_104",
+      "word": "sacrifice",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "犧牲",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4068,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_105",
+      "word": "reservoir",
+      "partOfSpeech": "noun[C]",
+      "meaning": "蓄水庫;貯水池",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5419,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_106",
+      "word": "helicopter",
+      "partOfSpeech": "noun[C]",
+      "meaning": "直昇機",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3100,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_107",
+      "word": "breeze",
+      "partOfSpeech": "noun",
+      "meaning": "微風",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4284,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_108",
+      "word": "saddle",
+      "partOfSpeech": "noun",
+      "meaning": "馬鞍;(自行車、摩托車的)車座",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6217,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_109",
+      "word": "odyssey",
+      "partOfSpeech": "noun",
+      "meaning": "奧德賽；漫長冒險旅程",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 14698,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_110",
+      "word": "guideline",
+      "partOfSpeech": "noun[C]",
+      "meaning": "指南;指導方針",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2994,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_111",
+      "word": "bucket",
+      "partOfSpeech": "noun[C]",
+      "meaning": "水桶",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4494,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_112",
+      "word": "hike",
+      "partOfSpeech": "noun[C]",
+      "meaning": "徒步旅行",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4456,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_113",
+      "word": "volcano",
+      "partOfSpeech": "noun[C]",
+      "meaning": "火山",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6321,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_114",
+      "word": "avalanche",
+      "partOfSpeech": "noun",
+      "meaning": "雪崩；山崩；突然大量帶來的事物",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10113,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_115",
+      "word": "herd",
+      "partOfSpeech": "noun",
+      "meaning": "畜群;牧群",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5174,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_116",
+      "word": "submarine",
+      "partOfSpeech": "noun",
+      "meaning": "潛艇",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6579,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_117",
+      "word": "swamp",
+      "partOfSpeech": "noun",
+      "meaning": "沼澤;沼澤地;困境",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6335,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_118",
+      "word": "imposing",
+      "partOfSpeech": "adj.",
+      "meaning": "壯觀的;氣勢宏偉的;莊嚴的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8432,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_119",
+      "word": "flashlight",
+      "partOfSpeech": "noun",
+      "meaning": "手電筒",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6373,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_120",
+      "word": "plague",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "瘟疫;天災;禍患",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6638,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_121",
+      "word": "limestone",
+      "partOfSpeech": "noun",
+      "meaning": "石灰岩，石灰石",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6225,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_122",
+      "word": "dragonfly",
+      "partOfSpeech": "noun",
+      "meaning": "蜻蜓",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 18401,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_123",
+      "word": "chunk",
+      "partOfSpeech": "noun[C]",
+      "meaning": "(肉、木材等的)大塊;厚片",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4502,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_124",
+      "word": "refundable",
+      "partOfSpeech": "adj.",
+      "meaning": "可退還的；可償還的",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 28071,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_125",
+      "word": "billboard",
+      "partOfSpeech": "noun",
+      "meaning": "廣告牌",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7143,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_126",
+      "word": "cyclone",
+      "partOfSpeech": "noun",
+      "meaning": "氣旋；旋風；暴風；龍卷風",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 17926,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_127",
+      "word": "blizzard",
+      "partOfSpeech": "noun",
+      "meaning": "大風雪",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9875,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_128",
+      "word": "tumble",
+      "partOfSpeech": "vi.",
+      "meaning": "跌跤;墜落",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5472,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_129",
+      "word": "aisle",
+      "partOfSpeech": "noun[C]",
+      "meaning": "通道;走道",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4484,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_130",
+      "word": "blur",
+      "partOfSpeech": "vt.",
+      "meaning": "模糊;模糊不清的事物",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6364,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_131",
+      "word": "pasture",
+      "partOfSpeech": "noun",
+      "meaning": "牧草地，放牧場；牧草",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5749,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_132",
+      "word": "souvenir",
+      "partOfSpeech": "noun[C]",
+      "meaning": "紀念品,紀念物",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8063,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_133",
+      "word": "outing",
+      "partOfSpeech": "noun",
+      "meaning": "遠足;郊遊",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6382,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_134",
+      "word": "air",
+      "partOfSpeech": "noun[U]",
+      "meaning": "空氣；空中",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 370,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_135",
+      "word": "bee",
+      "partOfSpeech": "noun",
+      "meaning": "蜜蜂",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4247,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_136",
+      "word": "beach",
+      "partOfSpeech": "noun[C]",
+      "meaning": "海灘",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1900,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_137",
+      "word": "hotel",
+      "partOfSpeech": "noun[C]",
+      "meaning": "旅館；飯店",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 731,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_138",
+      "word": "lake",
+      "partOfSpeech": "noun[C]",
+      "meaning": "湖",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1812,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_139",
+      "word": "map",
+      "partOfSpeech": "noun[C]",
+      "meaning": "地圖",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1542,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_140",
+      "word": "river",
+      "partOfSpeech": "noun[C]",
+      "meaning": "河流",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 876,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_141",
+      "word": "inn",
+      "partOfSpeech": "noun",
+      "meaning": "小旅館；客棧",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3852,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_142",
+      "word": "island",
+      "partOfSpeech": "noun[C]",
+      "meaning": "島",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 982,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_143",
+      "word": "bird",
+      "partOfSpeech": "noun[C]",
+      "meaning": "鳥",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1072,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_144",
+      "word": "look",
+      "partOfSpeech": "vi.",
+      "meaning": "看",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 82,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_145",
+      "word": "sea",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "海；海洋",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 721,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_146",
+      "word": "mountain",
+      "partOfSpeech": "noun[C]",
+      "meaning": "山",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1240,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_147",
+      "word": "holiday",
+      "partOfSpeech": "noun[C]",
+      "meaning": "假日",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 948,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_148",
+      "word": "ticket",
+      "partOfSpeech": "noun[C]",
+      "meaning": "票",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1576,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_149",
+      "word": "muddy",
+      "partOfSpeech": "adj.",
+      "meaning": "泥的；骯髒的",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6484,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_150",
+      "word": "museum",
+      "partOfSpeech": "noun[C]",
+      "meaning": "博物館",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1209,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_151",
+      "word": "national",
+      "partOfSpeech": "adj.",
+      "meaning": "國家的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 231,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_152",
+      "word": "nature",
+      "partOfSpeech": "noun[U]",
+      "meaning": "自然",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 553,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_153",
+      "word": "travel",
+      "partOfSpeech": "vi.",
+      "meaning": "旅行；旅遊",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1081,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_154",
+      "word": "trip",
+      "partOfSpeech": "noun[C]",
+      "meaning": "(一趟)旅程",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 962,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_155",
+      "word": "traveler",
+      "partOfSpeech": "noun[C]",
+      "meaning": "旅行者",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3795,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_156",
+      "word": "crocodile",
+      "partOfSpeech": "noun",
+      "meaning": "鱷魚",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9844,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_157",
+      "word": "flag",
+      "partOfSpeech": "noun[C]",
+      "meaning": "旗子；在...上插旗子",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2444,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_158",
+      "word": "giraffe",
+      "partOfSpeech": "noun",
+      "meaning": "長頸鹿",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 15421,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_159",
+      "word": "goldfish",
+      "partOfSpeech": "noun",
+      "meaning": "金魚",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10625,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_160",
+      "word": "journey",
+      "partOfSpeech": "noun[C]",
+      "meaning": "旅程",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1662,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_161",
+      "word": "kangaroo",
+      "partOfSpeech": "noun",
+      "meaning": "袋鼠",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 15573,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_162",
+      "word": "outdoors",
+      "partOfSpeech": "noun",
+      "meaning": "在戶外",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7559,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_163",
+      "word": "penguin",
+      "partOfSpeech": "noun",
+      "meaning": "企鵝",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10209,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_164",
+      "word": "pony",
+      "partOfSpeech": "noun",
+      "meaning": "小馬",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5400,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_165",
+      "word": "suitcase",
+      "partOfSpeech": "noun[C]",
+      "meaning": "手提箱",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5600,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_166",
+      "word": "autumn",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "秋季",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2252,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_167",
+      "word": "brook",
+      "partOfSpeech": "noun",
+      "meaning": "小河",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10248,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_168",
+      "word": "cliff",
+      "partOfSpeech": "noun",
+      "meaning": "懸崖",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3551,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_169",
+      "word": "coast",
+      "partOfSpeech": "noun[C]",
+      "meaning": "海岸；沿海地區",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1854,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_170",
+      "word": "cooker",
+      "partOfSpeech": "noun",
+      "meaning": "炊具",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7276,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_171",
+      "word": "cord",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "細繩；電線",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4314,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_172",
+      "word": "cub",
+      "partOfSpeech": "noun",
+      "meaning": "幼獸",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10029,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_173",
+      "word": "passage",
+      "partOfSpeech": "noun[C]",
+      "meaning": "通行；通道；一段",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1783,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_174",
+      "word": "airline",
+      "partOfSpeech": "noun[C]",
+      "meaning": "航線；航空公司",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2128,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_175",
+      "word": "airplane",
+      "partOfSpeech": "noun[C]",
+      "meaning": "飛機",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 3519,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_176",
+      "word": "airport",
+      "partOfSpeech": "noun[C]",
+      "meaning": "機場；航空站",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1765,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_177",
+      "word": "naturally",
+      "partOfSpeech": "adv.",
+      "meaning": "自然地",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 2088,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_178",
+      "word": "photograph/photo",
+      "partOfSpeech": "noun[C]",
+      "meaning": "照片",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1481,
+      "section": "旅遊基礎與其他指定詞彙",
+      "lookupWords": [
+        "photograph",
+        "photo"
+      ]
+    },
+    {
+      "id": "travel_179",
+      "word": "visa",
+      "partOfSpeech": "noun[C]",
+      "meaning": "簽證",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 5525,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_180",
+      "word": "canyon",
+      "partOfSpeech": "noun",
+      "meaning": "峽谷",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4767,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_181",
+      "word": "check-in",
+      "partOfSpeech": "noun",
+      "meaning": "登記手續",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 854,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_182",
+      "word": "check-out",
+      "partOfSpeech": "phr.",
+      "meaning": "檢查；付款退租",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 854,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_183",
+      "word": "tourism",
+      "partOfSpeech": "noun[U]",
+      "meaning": "觀光業",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4425,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_184",
+      "word": "embark",
+      "partOfSpeech": "vi.",
+      "meaning": "裝船；從事",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4496,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_185",
+      "word": "honeymoon",
+      "partOfSpeech": "noun",
+      "meaning": "蜜月假期",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7922,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_186",
+      "word": "mare",
+      "partOfSpeech": "noun",
+      "meaning": "母馬；母驢",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 7364,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_187",
+      "word": "waterfall",
+      "partOfSpeech": "noun",
+      "meaning": "瀑布",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8035,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_188",
+      "word": "hostel",
+      "partOfSpeech": "noun",
+      "meaning": "旅舍",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 6011,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_189",
+      "word": "traverse",
+      "partOfSpeech": "noun",
+      "meaning": "橫越",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 9649,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_190",
+      "word": "wayside",
+      "partOfSpeech": "noun",
+      "meaning": "路邊",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 17420,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_191",
+      "word": "international",
+      "partOfSpeech": "adj.",
+      "meaning": "國際的",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 435,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_192",
+      "word": "pilgrimage",
+      "partOfSpeech": "noun",
+      "meaning": "朝聖者的旅程",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 8273,
+      "section": "旅遊基礎與其他指定詞彙"
+    }
+  ]
+}
