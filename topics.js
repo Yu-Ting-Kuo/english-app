@@ -79,9 +79,15 @@ async function renderHomeNews() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
-    const articles = (Array.isArray(data.articles) ? data.articles : [])
+    const available = (Array.isArray(data.articles) ? data.articles : [])
       .filter(a => Date.parse(a.publishedAt) >= cutoff)
-      .slice(0, 7);
+      .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+    const human = available.filter(a => newsCategory(a) === 'human')
+      .sort((a, b) => humanInterestScore(b) - humanInterestScore(a) || Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+      .slice(0, 2);
+    const tech = available.filter(a => newsCategory(a) === 'tech').slice(0, 1);
+    const selected = [...human, ...tech];
+    const articles = [...selected, ...available.filter(a => !selected.includes(a))].slice(0, 3);
     if (!articles.length) {
       box.innerHTML = '<p class="muted" style="margin:0">近七天暫時沒有可用新聞。<a href="https://news.un.org/en/" target="_blank" rel="noopener noreferrer">前往 UN News</a></p>';
       return;
@@ -100,14 +106,25 @@ async function renderHomeNews() {
         <a class="news-title" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
         <p class="news-summary">${esc(summary)}</p>
         ${vocab.length ? `<div class="news-vocab" aria-label="新聞學習單字">${vocab.map(w => `<button type="button" class="chip-btn" data-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}
-        <div class="news-meta"><span class="muted">UN News${date ? ` · ${esc(date)}` : ''} · 瀏覽器語音</span><button class="small-btn" type="button" data-say="${esc(`${title}. ${summary}`)}" aria-label="聽新聞摘要">聽摘要</button></div>
+        <div class="news-meta"><span class="muted">UN News · ${newsCategory(a) === 'tech' ? '科技' : '人文'}${date ? ` · ${esc(date)}` : ''}</span><button class="small-btn" type="button" data-say="${esc(`${title}. ${summary}`)}" data-say-natural="true" aria-label="以自然英文語音聽新聞摘要">聽摘要</button></div>
       </article>`;
     }).join('')}</div>
-    <p class="muted" style="margin:10px 0 0">新聞摘要與單字來自 UN News RSS；點標題閱讀原文。聽力使用裝置的英文語音，不會下載新聞音訊。</p>`;
+    <p class="muted" style="margin:10px 0 0">新聞摘要與單字來自 UN News RSS；點標題閱讀原文。聽摘要會優先使用裝置提供的自然英文語音，語音種類依瀏覽器而異。</p>`;
     if (!box.querySelector('.news-item')) throw new Error('No valid stories');
   } catch {
     box.innerHTML = '<p class="muted" style="margin:0">目前無法載入最近新聞。<a href="https://news.un.org/en/" target="_blank" rel="noopener noreferrer">前往 UN News</a></p>';
   }
+}
+
+function newsCategory(article) {
+  const text = `${article.title || ''} ${article.summary || ''}`.toLowerCase();
+  if (/\b(neurotechnology|artificial intelligence|\bai\b|technology|digital|cyber|data|computer|software|robot|satellite|semiconductor|internet|algorithm|gadget|headset)\b/.test(text)) return 'tech';
+  return 'human';
+}
+
+function humanInterestScore(article) {
+  const text = `${article.title || ''} ${article.summary || ''}`.toLowerCase();
+  return (text.match(/\b(inside|family|families|children|community|communities|culture|health|shelter|refugee|humanitarian|artist|school|worker|patient|voices|survivor|personal|profile|home|food|farmer|village)\b/g) || []).length;
 }
 
 function safeNewsUrl(value) {

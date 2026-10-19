@@ -77,12 +77,17 @@ async function deleteWord(id) {
 
 // ---------- 發音 (iPhone 內建語音) ----------
 function pickVoice(lang) {
-  const vs = speechSynthesis.getVoices().filter(v => v.lang.replace('_', '-') === lang);
-  const prefer = lang === 'en-GB' ? /Daniel|Kate|Serena|Arthur/ : /Samantha|Ava|Allison|Nicky|Tom/;
-  return vs.find(v => prefer.test(v.name) && /enhanced|premium/i.test(v.name))
-      || vs.find(v => prefer.test(v.name))
-      || vs.find(v => v.localService)
-      || vs[0];
+  const all = speechSynthesis.getVoices();
+  const normalized = value => value.replace('_', '-').toLowerCase();
+  const exact = all.filter(v => normalized(v.lang) === normalized(lang));
+  const regional = exact.length ? exact : all.filter(v => normalized(v.lang).startsWith(normalized(lang).slice(0, 2)));
+  const natural = v => /natural|neural|online|enhanced|premium/i.test(v.name);
+  const preferred = lang === 'en-GB' ? /Daniel|Kate|Serena|Arthur/i : /Samantha|Ava|Allison|Nicky|Tom|Aria|Jenny|Guy|Ryan/i;
+  return regional.find(v => natural(v) && preferred.test(v.name))
+      || regional.find(natural)
+      || regional.find(preferred)
+      || regional.find(v => !v.localService)
+      || regional[0];
 }
 speechSynthesis.getVoices();
 speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
