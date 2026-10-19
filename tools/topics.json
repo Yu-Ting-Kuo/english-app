@@ -53,7 +53,7 @@
   "workplace": {
    "zh": "辦公室",
    "en": "Workplace",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習辦公設備、空間設施、日常行政、出勤與職場表現等多益常見的辦公室情境用語。",
    "sections": [
     [
@@ -551,13 +551,31 @@
        "訓誡、申誡"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "office",
+       "辦公室"
+      ],
+      [
+       "job",
+       "工作；職位"
+      ],
+      [
+       "manager",
+       "經理；主管"
+      ]
+     ]
     ]
    ]
   },
   "mailing": {
    "zh": "商業書信",
    "en": "Business Correspondence",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習商業書信與電子郵件的格式、郵寄遞送、信件種類，以及正式書信常用的措辭。",
    "sections": [
     [
@@ -1003,13 +1021,31 @@
        "傳送、發送（文件、資料）"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "send",
+       "寄送；寄出"
+      ],
+      [
+       "letter",
+       "信件"
+      ],
+      [
+       "address",
+       "收件地址"
+      ]
+     ]
     ]
    ]
   },
   "meeting": {
    "zh": "商務會議",
    "en": "Business Meetings",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從安排會議、主持議程、交換意見到表決通過，學會開會時最常用的進階說法。",
    "sections": [
     [
@@ -1475,13 +1511,31 @@
        "（與會）代表"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "meeting",
+       "會議"
+      ],
+      [
+       "plan",
+       "計畫；安排"
+      ],
+      [
+       "discuss",
+       "討論"
+      ]
+     ]
     ]
    ]
   },
   "hr": {
    "zh": "人事管理",
    "en": "Human Resources",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從徵才面試、新人訓練、績效考核與薪酬福利，到勞資關係與離職，學會人資部門常用的專業詞彙。",
    "sections": [
     [
@@ -1945,13 +1999,31 @@
        "保密（義務）"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "employee",
+       "員工"
+      ],
+      [
+       "staff",
+       "全體員工；人員"
+      ],
+      [
+       "pay",
+       "薪資"
+      ]
+     ]
     ]
    ]
   },
   "business": {
    "zh": "業務拓展",
    "en": "Business Development",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習企業擴張、開發新市場、策略規劃與洽談合作時常用的進階商務詞彙。",
    "sections": [
     [
@@ -2427,13 +2499,31 @@
        "利潤率"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "company",
+       "公司"
+      ],
+      [
+       "business",
+       "企業；商務"
+      ],
+      [
+       "customer",
+       "客戶"
+      ]
+     ]
     ]
    ]
   },
   "sale": {
    "zh": "生產與銷售",
    "en": "Production & Sales",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習工廠生產、庫存管理、物流出貨到銷售業績與促銷定價的進階職場詞彙。",
    "sections": [
     [
@@ -2909,13 +2999,31 @@
        "加價、利潤加成"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "price",
+       "價格"
+      ],
+      [
+       "buy",
+       "購買"
+      ],
+      [
+       "sell",
+       "銷售；販售"
+      ]
+     ]
     ]
    ]
   },
   "trade": {
    "zh": "貿易",
    "en": "International Trade",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習國際貿易常見的政策協定、進出口通關、海運物流、跨國付款匯兌與全球市場用語。",
    "sections": [
     [
@@ -3359,13 +3467,31 @@
        "反壟斷的"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "trade",
+       "貿易；交易"
+      ],
+      [
+       "goods",
+       "貨物；商品"
+      ],
+      [
+       "ship",
+       "運送；寄運"
+      ]
+     ]
     ]
    ]
   },
   "financial": {
    "zh": "財務",
    "en": "Finance",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習公司財務常見的會計報表、稽核稅務、預算支出、股東投資與融資債務用語。",
    "sections": [
     [
@@ -3805,13 +3931,31 @@
        "清算"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "money",
+       "金錢；資金"
+      ],
+      [
+       "cost",
+       "成本；費用"
+      ],
+      [
+       "bank",
+       "銀行"
+      ]
+     ]
     ]
    ]
   },
   "technology": {
    "zh": "科技",
    "en": "Technology",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習科技產業、網路基礎建設、資訊安全與數位裝置相關的職場常用詞彙。",
    "sections": [
     [
@@ -4293,13 +4437,31 @@
        "技術人員"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "system",
+       "系統"
+      ],
+      [
+       "information",
+       "資訊；資料"
+      ],
+      [
+       "computer",
+       "電腦"
+      ]
+     ]
     ]
    ]
   },
   "engineering": {
    "zh": "電腦工程",
    "en": "Computer Engineering",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學習系統架構、程式開發、測試部署與電腦硬體相關的工程專業詞彙。",
    "sections": [
     [
@@ -4741,13 +4903,31 @@
        "解析度"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "create",
+       "創造；建立"
+      ],
+      [
+       "develop",
+       "開發；發展"
+      ],
+      [
+       "build",
+       "建造；建立"
+      ]
+     ]
     ]
    ]
   },
   "building": {
    "zh": "工地與建築",
    "en": "Construction & Building",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從設計圖、招標發包到工地安全與翻修工程，學會營建業與工程專案常用的進階詞彙。",
    "sections": [
     [
@@ -5279,13 +5459,31 @@
        "修理工、維修人員"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "house",
+       "房屋"
+      ],
+      [
+       "building",
+       "建築物；建築"
+      ],
+      [
+       "room",
+       "房間；空間"
+      ]
+     ]
     ]
    ]
   },
   "transport": {
    "zh": "交通運輸",
    "en": "Transportation",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從通勤塞車、搭乘大眾運輸到出差搭機與公司車隊管理，學會多益常見的交通運輸詞彙。",
    "sections": [
     [
@@ -5805,13 +6003,31 @@
        "代客停車人員"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "road",
+       "道路"
+      ],
+      [
+       "drive",
+       "駕車；開車"
+      ],
+      [
+       "station",
+       "車站"
+      ]
+     ]
     ]
    ]
   },
   "medical": {
    "zh": "醫療與保險",
    "en": "Medicine & Insurance",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學會看診、用藥、員工健康管理，以及投保與理賠時常見的多益商務詞彙。",
    "sections": [
     [
@@ -6327,13 +6543,31 @@
        "（法律）責任"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "health",
+       "健康"
+      ],
+      [
+       "care",
+       "照護；照料"
+      ],
+      [
+       "patient",
+       "病患"
+      ]
+     ]
     ]
    ]
   },
   "housing": {
    "zh": "住房與地產",
    "en": "Housing & Real Estate",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從租屋簽約、買賣議價到房貸與地段選擇，學會房地產交易與居住相關的進階詞彙。",
    "sections": [
     [
@@ -6853,13 +7087,31 @@
        "維護費用、保養"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "live",
+       "居住；住"
+      ],
+      [
+       "home",
+       "家；住處"
+      ],
+      [
+       "apartment",
+       "公寓"
+      ]
+     ]
     ]
    ]
   },
   "shopping": {
    "zh": "購物與零售",
    "en": "Shopping & Retail",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "學會零售門市、價格促銷、結帳付款、網購配送與退換貨售後的多益常見詞彙。",
    "sections": [
     [
@@ -7317,13 +7569,31 @@
        "未拆封的"
       ]
      ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "product",
+       "商品"
+      ],
+      [
+       "shop",
+       "商店；購物"
+      ],
+      [
+       "store",
+       "商店"
+      ]
+     ]
     ]
    ]
   },
   "restaurant": {
    "zh": "餐廳與娛樂",
    "en": "Dining & Leisure",
-   "level": "TOEIC 600～900",
+   "level": "初階・中階・進階",
    "intro": "從餐廳訂位、點餐、宴會外燴到下班後的休閒娛樂，學會多益常見的餐飲與休閒詞彙。",
    "sections": [
     [
@@ -7785,6 +8055,24 @@
       [
        "carnival",
        "嘉年華會"
+      ]
+     ]
+    ],
+    [
+     "高頻基礎詞彙",
+     "High-frequency Basics",
+     [
+      [
+       "food",
+       "食物；餐點"
+      ],
+      [
+       "order",
+       "點餐；點菜"
+      ],
+      [
+       "table",
+       "餐桌"
       ]
      ]
     ]

@@ -32,7 +32,7 @@ def main():
                 print(f'⚠️ 缺少主題檔 {p.name}，略過')
                 continue
             t = json.loads(p.read_text(encoding='utf-8'))
-            topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': 'TOEIC 600～900', 'intro': t['intro'], 'sections': t['sections']}
+            topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': '初階・中階・進階', 'intro': t['intro'], 'sections': t['sections']}
             have.append(tid)
         cats.append({'id': cid, 'zh': zh, 'en': en, 'desc': desc, 'topics': have})
     out = {'categories': cats, 'topics': topics}

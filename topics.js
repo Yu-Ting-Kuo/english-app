@@ -118,15 +118,15 @@ let currentTopic = null;
 let topicSort = 'context';
 try { topicSort = localStorage.getItem('topicSort') || 'context'; } catch {}
 
-// 多益程度由 tools/build_topics.py 依 BNC／COCA 詞頻計算：前 4,000 名 TOEIC 600、4,001～10,000 名 750、10,000 名以後 900
-const LEVELS = ['600', '750', '900'];
+// 情境主題以中文難度呈現；多益核心單元沿用既有的初階／中階／進階分級
+const LEVELS = ['B', 'I', 'A'];
 const CORE_LEVELS = ['B', 'I', 'A'];
-const LEVEL = { 600: 'TOEIC 600', 750: 'TOEIC 750', 900: 'TOEIC 900', B: '初階', I: '中階', A: '進階' };
-const LEVEL_EN = { 600: '常見', 750: '中高階', 900: '進階', B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
+const LEVEL = { B: '初階', I: '中階', A: '進階' };
+const LEVEL_EN = { B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
 
 // 主題單字的統一資料格式（列表、收藏、測驗共用）：
 // { id, word, partOfSpeech, meaning, category, level, frequencyRank, page, audioUrl, key, lv, section }
-// level 是多益程度（TOEIC 600／750／900），frequencyRank 是 BNC／COCA 詞頻排名（數字越小越常見）
+// level 是初階／中階／進階，frequencyRank 是 BNC／COCA 詞頻排名（數字越小越常見）
 // 沒有預錄音檔（audioUrl 為空），發音用手機內建英文語音
 const PAGE_SIZE = 40;
 let topicPage = 1;
@@ -160,7 +160,7 @@ function topicItems(tid, t, sort = topicSort) {
   }));
 }
 
-// 依多益程度或「最不熟」（測驗答錯過）篩選，再依每頁字數編頁碼
+// 依初階／中階／進階或「最不熟」（測驗答錯過）篩選，再依每頁字數編頁碼
 function filterItems(items, f) {
   const out = f === 'all' ? items : f === 'weak' ? items.filter(it => QuizStats.weak(it.key)) : items.filter(it => it.lv === f);
   return out.map((it, i) => ({ ...it, page: Math.floor(i / PAGE_SIZE) + 1 }));
@@ -249,7 +249,9 @@ async function renderTopic() {
     <p class="source">${t.auto
       ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為整理過的主要詞義。'
       : '主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文。'}點單字可以看完整辭典條目。
-    多益程度依 BNC／COCA 詞頻排名估計：前 4,000 名為 TOEIC 600、4,001～10,000 名為 750、10,000 名以後為 900；片語依組成單字中最少見的那個字計算。「最不熟」是在練習或測驗中答錯次數比答對多的字。</p>
+    ${t.auto
+      ? '多益核心單元沿用原有的初階、中階、進階分級。'
+      : '主題難度依 BNC／COCA 詞頻分為初階、中階、進階；詞頻越高越常見，這是閱讀難度參考，不代表實際多益分數。片語依組成單字中較少見的字估計。'}「最不熟」是在練習或測驗中答錯次數比答對多的字。</p>
     <div class="topic-actions">
       <button id="t-practice" ${currentItems.length ? '' : 'disabled'}>練習</button>
       <button id="t-quiz" class="primary" ${currentItems.length ? '' : 'disabled'}>開始測驗</button>

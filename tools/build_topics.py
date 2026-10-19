@@ -53,14 +53,24 @@ def resolve(word):
     return None, None
 
 
-LEVELS = ('600', '750', '900')  # TOEIC 600／750／900
+LEVELS = ('B', 'I', 'A')  # 情境主題：初階／中階／進階；不顯示分數
 CORE_LEVELS = ('B', 'I', 'A')  # 原多益核心單元保留原難度分級
+LEVEL_NAMES = {'B': '初階', 'I': '中階', 'A': '進階'}
 
 
 def level_of(rank):
     if rank and rank <= 2500:
         return 'B'
     if rank and rank <= 8000:
+        return 'I'
+    return 'A'
+
+
+def topic_level(rank):
+    """情境主題依詞頻分為初階、中階、進階；前兩級對應原詞頻級距。"""
+    if rank and rank <= 4000:
+        return 'B'
+    if rank and rank <= 10000:
         return 'I'
     return 'A'
 
@@ -78,15 +88,6 @@ def rank_of(word, entry):
         if all(ranks):
             return max(ranks)
     return None
-
-
-def toeic_level(rank):
-    """多益程度：詞頻前 4,000 名為 TOEIC 600、4,001～10,000 為 750、10,000 名以後或沒有詞頻為 900。"""
-    if rank and rank <= 4000:
-        return '600'
-    if rank and rank <= 10000:
-        return '750'
-    return '900'
 
 
 # 單字列表用的英文詞性標示：名詞 noun[C]／noun[U]、動詞 vt.／vi.，其他 adj.、adv.…
@@ -173,7 +174,7 @@ def main():
                 r = rank_of(word, entry)
                 if r:
                     item['r'] = r
-                item['lv'] = level_of(r) if t.get('auto') else toeic_level(r)
+                item['lv'] = level_of(r) if t.get('auto') else topic_level(r)
                 if key:
                     item['k'] = key
                     if key != norm(word):
@@ -189,7 +190,7 @@ def main():
         # 情境主題要求三種難度都有；核心字彙單元是依詞頻切的，不檢查
         for lv in topic_levels:
             if not t.get('auto') and levels[lv] < 3:
-                errors.append(f'{tid}：TOEIC {lv} 只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
+                errors.append(f'{tid}：{LEVEL_NAMES[lv]}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
                        'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}
         for k in ('group', 'auto'):

@@ -7,18 +7,18 @@
  "sections": [["分組中文", "Group English", [["word", "在這個情境的中文意思"], ...]], ...]}
 
 檢查：
-- 3～6 個分組、全部 80～150 個字、主題內沒有重複
+- 3～7 個分組、全部 80～150 個字、主題內沒有重複
 - 每個字都查得到詞典條目（或是某個詞條的變化形）
 - 中文意思有中文字
-- 基礎字（詞頻前 2,000 名）不超過 12%
-- 列出還沒有逐義例句的字（之後要補例句）與 TOEIC 600／750／900 的分布
+- 原主題內容中的基礎字（詞頻前 2,000 名）不超過 12%；「高頻基礎詞彙」分組為新增的初階詞，不計入此上限
+- 列出還沒有逐義例句的字（之後要補例句）與初階／中階／進階分布
 """
 import json
 import re
 import sys
 from pathlib import Path
 
-from build_topics import load_senses, norm, rank_of, resolve, toeic_level
+from build_topics import load_senses, norm, rank_of, resolve, topic_level
 
 CJK = re.compile(r'[一-鿿]')
 
@@ -31,10 +31,10 @@ def main(path):
         if not t.get(k):
             errors.append(f'缺少欄位 {k}')
     secs = t.get('sections') or []
-    if not 3 <= len(secs) <= 6:
-        errors.append(f'分組數 {len(secs)}，應為 3～6 個')
+    if not 3 <= len(secs) <= 7:
+        errors.append(f'分組數 {len(secs)}，應為 3～7 個')
     senses = load_senses()
-    seen, basic, new, levels = {}, [], [], {'600': 0, '750': 0, '900': 0}
+    seen, basic, new, levels = {}, [], [], {'B': 0, 'I': 0, 'A': 0}
     total = 0
     for sec in secs:
         if len(sec) != 3 or not CJK.search(sec[0]) or not sec[1]:
@@ -56,7 +56,7 @@ def main(path):
                 parts = [x for x in re.split(r'[\s-]+', w) if x]
                 if len(parts) > 1 and all(resolve(x)[1] for x in parts):
                     new.append(w)
-                    levels[toeic_level(rank_of(w, None))] += 1
+                    levels[topic_level(rank_of(w, None))] += 1
                     if not CJK.search(g or ''):
                         errors.append(f'「{w}」缺少中文意思')
                     continue
@@ -65,8 +65,8 @@ def main(path):
             if not CJK.search(g or ''):
                 errors.append(f'「{w}」缺少中文意思')
             r = rank_of(w, entry)
-            levels[toeic_level(r)] += 1
-            if r and r <= 2000:
+            levels[topic_level(r)] += 1
+            if r and r <= 2000 and sec[0] != '高頻基礎詞彙':
                 basic.append(f'{w}({r})')
             if not (senses.get(norm(w)) or senses.get(key)):
                 new.append(w)
@@ -76,7 +76,7 @@ def main(path):
         errors.append(f'基礎字（詞頻前 2,000）有 {len(basic)} 個，超過 12%：{", ".join(basic)}')
     elif basic:
         warns.append(f'基礎字 {len(basic)} 個（上限 12%）：{", ".join(basic)}')
-    print(f'{t.get("id")}：{len(secs)} 組、{total} 個字；TOEIC 600 {levels["600"]}、750 {levels["750"]}、900 {levels["900"]}；'
+    print(f'{t.get("id")}：{len(secs)} 組、{total} 個字；初階 {levels["B"]}、中階 {levels["I"]}、進階 {levels["A"]}；'
           f'還沒有逐義例句 {len(new)} 個')
     if new:
         print('  需要補例句：' + ', '.join(new))
