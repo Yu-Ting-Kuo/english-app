@@ -14,6 +14,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DICT_DIR = ROOT / "dict" / "w"
 OUT = ROOT / "dict" / "zh-index.json"
 HAN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
+ZH_ALIASES = {
+    # Common everyday wording missing from the source dictionary glosses.
+    "razor": "刮鬍刀",
+    "shaver": "電動刮鬍刀",
+}
 
 
 def main() -> None:
@@ -33,6 +38,9 @@ def main() -> None:
                     label = str(sense.get("l") or "").strip()
                     if label and label not in labels:
                         labels.append(label)
+            alias = ZH_ALIASES.get(key)
+            if alias and alias not in meanings:
+                meanings.append(alias)
             if meanings:
                 rank = int(entry.get("f") or 0)
                 entries.append((rank or 10**9, key, "；".join(meanings), "／".join(labels), ""))
