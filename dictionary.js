@@ -389,9 +389,10 @@ async function loadWordRelations(key, type, senses) {
   }));
   if (currentEntry?.key !== key) return;
   box.hidden = false;
+  const hasAppEdit = groups.some(g => g.src === 'app');
   box.innerHTML = `<h3>${title} <span class="en">${type === 'synonyms' ? 'Synonyms' : 'Antonyms'}</span></h3>
-    ${groups.map(g => `<div class="relation-group"><span class="pos">${esc(g.pos)}</span><div class="muted">${esc(g.gloss)}</div><div class="syn-list">${g.rows.map(r => `<button class="syn" data-word="${esc(r.word)}"><b>${esc(r.word)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div></div>`).join('')}
-    <div class="source" style="margin:0">詞義關係依 Princeton WordNet 3.0 整理；同一字可能有多種意思，請依上方英文釋義判斷，相關詞不一定能直接互換。</div>`;
+    ${groups.map(g => `<div class="relation-group"><span class="pos">${esc(g.pos)}</span>${g.src === 'app' ? '<span class="muted">App 編輯補充</span>' : ''}<div class="muted">${esc(g.gloss)}</div><div class="syn-list">${g.rows.map(r => `<button class="syn" data-word="${esc(r.word)}"><b>${esc(r.word)}</b>${r.zh ? `<span>${esc(r.zh)}</span>` : ''}</button>`).join('')}</div></div>`).join('')}
+    <div class="source" style="margin:0">詞義關係依 Princeton WordNet 3.0 整理${hasAppEdit ? '，部分詞條由 App 編輯補充' : ''}；同一字可能有多種意思，請依上方英文釋義判斷，相關詞不一定能直接互換。</div>`;
 }
 
 function shortMeaning(entry, apiPos = '') {

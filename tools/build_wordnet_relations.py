@@ -64,6 +64,17 @@ def main() -> None:
                 "a": antonyms,
             })
 
+    overrides_path = Path(__file__).with_name("relations_overrides.json")
+    overrides = json.loads(overrides_path.read_text(encoding="utf-8")) if overrides_path.exists() else {}
+    for headword, groups in overrides.items():
+        if headword not in vocabulary:
+            raise ValueError(f"Override headword is missing from ECDICT: {headword}")
+        for group in groups:
+            group["s"] = [word for word in group.get("s", []) if word in vocabulary and word != headword]
+            group["a"] = [word for word in group.get("a", []) if word in vocabulary and word != headword]
+            group["src"] = "app"
+        relations[headword] = groups
+
     args.output.mkdir(parents=True, exist_ok=True)
     by_letter: dict[str, dict[str, list[dict[str, object]]]] = {}
     for headword, groups in relations.items():
