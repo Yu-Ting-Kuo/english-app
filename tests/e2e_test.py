@@ -371,6 +371,52 @@ def main():
             ctx3.close()
         check('離線快取（Service Worker）可以安裝並接管頁面', t_service_worker)
 
+        def t_pron():
+            # 用假的語音辨識（測試環境沒有麥克風）：可以指定「聽到」的文字
+            ctx4 = browser.new_context(viewport={'width': 390, 'height': 844}, service_workers='block')
+            ctx4.add_init_script("""
+              window.__heard = 'resilient';
+              class FakeRec {
+                start() { setTimeout(() => {
+                  if (!window.__heard) { this.onend?.(); return; }
+                  const alt = { transcript: window.__heard, confidence: 0 };
+                  const res = [alt]; res.isFinal = true;
+                  this.onresult?.({ results: [res] }); this.onend?.();
+                }, 50); }
+                stop() {} abort() {}
+              }
+              window.SpeechRecognition = window.webkitSpeechRecognition = FakeRec;
+            """)
+            pg = ctx4.new_page()
+            pg.on('pageerror', lambda e: errors.append('發音練習：' + str(e)))
+            pg.goto(BASE)
+            pg.wait_for_selector('#home-topics .cat-card')
+            pg.click('nav [data-view=practice]')
+            pg.wait_for_selector('#p-word')
+            rid = pg.evaluate("words.find(w => w.word === 'resilient').id")
+            pg.select_option('#p-word', str(rid))
+            # 念對：高分、三個面向都有建議，不顯示「聽到」的文字
+            pg.click('#p-score')
+            pg.wait_for_selector('.diag')
+            expect(pg.locator('.diag .guide')).to_contain_text('發音非常標準')
+            expect(pg.locator('.diag .dim')).to_have_count(3)
+            assert '聽到' not in pg.locator('#practice').inner_text()
+            expect(pg.locator('.phon .ps')).to_have_count(4)
+            # 念成別的字：低分，拆音節引導 re - SI - lient，音標標出紅色音節
+            pg.evaluate("window.__heard = 'silent'")
+            pg.click('#p-score')
+            pg.wait_for_function("document.querySelector('.ring span') && Number(document.querySelector('.ring span').textContent) < 80")
+            expect(pg.locator('.dtag').first).to_be_visible()
+            expect(pg.locator('.phon .ps-bad')).not_to_have_count(0)
+            expect(pg.locator('#p-demo')).to_be_visible()
+            pg.evaluate("window.__heard = 'banana'")
+            pg.click('#p-score')
+            pg.wait_for_function("Number(document.querySelector('.ring span').textContent) < 60")
+            expect(pg.locator('.diag .guide')).to_contain_text('re - SI - lient')
+            assert 'banana' not in pg.locator('#practice').inner_text()
+            ctx4.close()
+        check('發音評分：不顯示辨識文字，三面向診斷、標籤、分層引導、音標高亮', t_pron)
+
         def t_blocked_db():
             # 另一個分頁開著舊版（資料庫第 1 版）時，新版首頁的主題仍要顯示，並提示關掉舊分頁
             ctx2 = browser.new_context(viewport={'width': 390, 'height': 844}, service_workers='block')

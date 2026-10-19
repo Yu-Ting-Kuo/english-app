@@ -87,7 +87,7 @@ function pickVoice(lang) {
 speechSynthesis.getVoices();
 speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
 
-function say(text, { slow = false } = {}) {
+function say(text, { slow = false, rate } = {}) {
   return new Promise(resolve => {
     if (!text) return resolve();
     speechSynthesis.cancel();
@@ -95,7 +95,7 @@ function say(text, { slow = false } = {}) {
     u.lang = settings.accent;
     const v = pickVoice(settings.accent);
     if (v) u.voice = v;
-    u.rate = slow ? 0.6 : Number(settings.rate);
+    u.rate = rate || (slow ? 0.6 : Number(settings.rate));
     u.onend = u.onerror = () => resolve();
     speechSynthesis.speak(u);
   });
@@ -454,7 +454,6 @@ async function renderPractice() {
       }).join('')
     : esc(text);
   const color = s => s >= 85 ? 'var(--good)' : s >= 60 ? 'var(--mid)' : 'var(--bad)';
-  const verdict = s => s >= 85 ? '很清楚，聽得懂！' : s >= 60 ? '不錯，再注意紅色的字' : '再試一次，先聽標準發音';
 
   box.innerHTML = `
     <div class="stack">
@@ -469,7 +468,7 @@ async function renderPractice() {
         <button data-t="example" class="${practiceTarget === 'example' ? 'on' : ''}">念例句</button></div>` : ''}
       <div class="card stack">
         <div class="target ${practiceTarget === 'example' ? 'sentence' : ''}">${targetHtml}</div>
-        ${practiceTarget === 'word' && w.phonetic ? `<div class="phon" style="text-align:center">${esc(w.phonetic)}</div>` : ''}
+        ${practiceTarget === 'word' && w.phonetic ? `<div class="phon" style="text-align:center">${Pron.phoneticHtml(w.phonetic, res?.diag)}</div>` : ''}
         ${w.meaning && practiceTarget === 'word' ? `<div class="muted" style="text-align:center">${esc(w.meaning)}</div>` : ''}
         <div class="controls">
           <button id="p-listen">${ICON.speaker}標準發音</button>
@@ -480,14 +479,7 @@ async function renderPractice() {
           <button id="p-score" class="primary full">${ICON.target}念一次，幫我評分</button>
         </div>
       </div>
-      ${res ? `
-      <div class="card score-box">
-        <div class="ring" style="--p:${res.score};--c:${color(res.score)}"><span>${res.score}</span></div>
-        <div class="grow">
-          <div style="font-weight:600">${verdict(res.score)}</div>
-          <div class="muted">iPhone 聽到：「${esc(res.heard) || '（沒聽到聲音）'}」</div>
-        </div>
-      </div>` : ''}
+      ${res ? diagHtml(res.diag, color) : ''}
       <div class="muted" style="text-align:center">${stats ? `已練習 ${stats.count} 次 · 最高 ${stats.best} 分 · 上次 ${stats.last} 分` : '還沒評分過這一題'}</div>
     </div>`;
 
@@ -504,6 +496,7 @@ async function renderPractice() {
   });
   $('#p-listen').onclick = () => say(text);
   $('#p-slow').onclick = () => say(text, { slow: true });
+  $('#p-demo')?.addEventListener('click', () => slowDemo(text, practiceTarget === 'word'));
   $('#p-play').onclick = () => rec && playBlob(rec.blob);
   $('#p-compare').onclick = async () => { await say(text); await new Promise(r => setTimeout(r, 400)); await playBlob(rec.blob); };
   $('#p-rec').onclick = async () => {
@@ -530,9 +523,13 @@ async function renderPractice() {
     const btn = $('#p-score');
     btn.innerHTML = ICON.stop + '正在聽…念完會自動停止';
     btn.classList.add('rec');
+    const meter = await Pron.startMeter();
     try {
-      const alts = await listen();
+      let alts, frames;
+      try { alts = await listen(); } finally { frames = meter?.stop(); }
       const r = scoreAttempt(text, alts);
+      r.diag = Pron.diagnose({ target: text, isWord: practiceTarget === 'word', best: r, frames, phonetic: w.phonetic, marks: r.marks });
+      r.score = r.diag.total;
       // 記下每個目標字在文字中的順序，給上面的紅綠標示用
       let k = 0;
       r.tokenIndex = text.split(/\s+/).filter(Boolean).map(part => {
@@ -550,6 +547,13 @@ async function renderPractice() {
         renderList();
       }
     } catch (err) {
+      // 同時量音量讓語音辨識拿不到麥克風：之後不再量音量，請使用者再按一次
+      if (err === 'audio-capture' && meter) {
+        Pron.blockMeter();
+        toast('請再按一次「念一次，幫我評分」', 3500);
+        renderPractice();
+        return;
+      }
       const msg = {
         'not-allowed': '請允許麥克風和語音辨識：設定 → Safari → 麥克風 / 語音辨識',
         'service-not-allowed': '請到 設定 → 一般 → 鍵盤，打開「聽寫」後再試',
@@ -561,6 +565,42 @@ async function renderPractice() {
     }
     renderPractice();
   };
+}
+
+// 評分結果：分數、診斷標籤、三個面向的建議、依分數分層的引導（不顯示語音辨識聽到的文字）
+const DIMS = [['phoneme', '音素精準度', 'Phonemes'], ['stress', '重音與節奏', 'Stress & Rhythm'], ['fluency', '語速與完整度', 'Fluency']];
+function diagHtml(d, color) {
+  const g = Pron.guidance(d, practiceTarget === 'word', d.target);
+  return `
+      <div class="card stack diag">
+        <div class="score-box">
+          <div class="ring" style="--p:${d.total};--c:${color(d.total)}"><span>${d.total}</span></div>
+          <div class="grow stack" style="gap:6px">
+            <div class="guide guide-${g.level}">${esc(g.text)}</div>
+            ${d.tags.length ? `<div class="row wrap" style="gap:6px">${d.tags.map(t => `<span class="dtag">${esc(t)}</span>`).join('')}</div>` : ''}
+          </div>
+        </div>
+        ${g.level !== 'high' ? `<button id="p-demo" class="full">${ICON.speaker}${g.level === 'low' ? '聽慢速分段示範' : '聽慢速示範'}</button>` : ''}
+        <div class="dims">${DIMS.map(([k, zh, en]) => {
+          const x = d.dims[k];
+          return `<div class="dim">
+            <div class="dim-head"><span>${zh} <span class="en">${en}</span></span>
+              <span class="dim-score" style="color:${x.score === null ? 'var(--muted)' : color(x.score)}">${x.score === null ? '—' : x.score}</span></div>
+            <div class="dim-bar"><i style="width:${x.score ?? 0}%;background:${x.score === null ? 'transparent' : color(x.score)}"></i></div>
+            <div class="dim-advice">${esc(x.advice)}</div>
+          </div>`;
+        }).join('')}</div>
+        <p class="source" style="margin:0">分數依 iPhone 語音辨識與錄音音量估計；音標上紅色是沒被聽清楚的音節、黃色是要注意重音的音節，僅供練習參考。</p>
+      </div>`;
+}
+
+// 慢速示範：單字念兩次（更慢一次）；句子一段一段念，中間停一下讓你跟讀
+async function slowDemo(text, isWord) {
+  if (isWord) { await say(text, { rate: 0.6 }); await new Promise(r => setTimeout(r, 600)); await say(text, { rate: 0.45 }); return; }
+  for (const part of Pron.chunks(text)) {
+    await say(part, { rate: 0.6 });
+    await new Promise(r => setTimeout(r, 1200));
+  }
 }
 
 // ---------- 複習翻卡 ----------
