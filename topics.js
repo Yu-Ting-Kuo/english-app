@@ -320,12 +320,12 @@ async function renderTopic() {
       ? '還沒有答錯過的字。做一次「練習」或「開始測驗」，答錯的字會出現在這裡。'
       : '這個主題沒有這個程度的單字。'}</div>`}
     ${pager}
-    <p class="source">${t.auto
+    <p class="source">${t.source ? `${esc(t.source)} ` : ''}${t.auto
       ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為整理過的主要詞義。'
       : '主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文。'}點單字可以看完整辭典條目。
     ${t.auto
       ? '多益核心單元沿用原有的初階、中階、進階分級。'
-      : '主題難度依 BNC／COCA 詞頻分為初階、中階、進階；詞頻越高越常見，這是閱讀難度參考，不代表實際多益分數。片語依組成單字中較少見的字估計。'}「最不熟」是在練習或測驗中答錯次數比答對多的字。</p>
+      : '主題難度依 BNC／COCA 詞頻與學習情境分為初階、中階、進階；詞頻越高越常見，程度是學習安排參考，不代表考試分數。片語依組成單字中較少見的字估計。'}「最不熟」是在練習或測驗中答錯次數比答對多的字。</p>
     <div class="topic-actions">
       <button id="t-practice" ${currentItems.length ? '' : 'disabled'}>練習</button>
       <button id="t-quiz" class="primary" ${currentItems.length ? '' : 'disabled'}>開始測驗</button>

@@ -174,7 +174,10 @@ def main():
                 r = rank_of(word, entry)
                 if r:
                     item['r'] = r
-                item['lv'] = level_of(r) if t.get('auto') else topic_level(r)
+                override = t.get('levelOverrides', {}).get(norm(word))
+                if override and override not in LEVELS:
+                    errors.append(f'{tid}：「{word}」的難度標示 {override} 無效')
+                item['lv'] = override or (level_of(r) if t.get('auto') else topic_level(r))
                 if key:
                     item['k'] = key
                     if key != norm(word):
@@ -193,6 +196,8 @@ def main():
                 errors.append(f'{tid}：{LEVEL_NAMES[lv]}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
                        'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}
+        if t.get('source'):
+            topics[tid]['source'] = t['source']
         for k in ('group', 'auto'):
             if k in t:
                 topics[tid][k] = t[k]

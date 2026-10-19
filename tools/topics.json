@@ -47,6 +47,18 @@
     "shopping",
     "restaurant"
    ]
+  },
+  {
+   "id": "academic",
+   "zh": "學術與社會議題",
+   "en": "Academic & Social Topics",
+   "desc": "校園學習、研究方法、環境與社會文化等常見學術情境。",
+   "topics": [
+    "education",
+    "research",
+    "environment",
+    "society"
+   ]
   }
  ],
  "topics": {
@@ -8077,6 +8089,971 @@
      ]
     ]
    ]
+  },
+  "education": {
+   "zh": "教育與校園",
+   "en": "Education & Learning",
+   "level": "初階・中階・進階",
+   "intro": "認識校園、學制、課程與學習成果中常見的英文詞彙。",
+   "source": "選詞參考 NGSL／NAWL 等開放詞彙表（CC BY-SA 4.0，newgeneralservicelist.org），另依學術情境編輯補充；詞頻級別依 BNC／COCA；中文釋義與例句來源見個別詞條。",
+   "sections": [
+    [
+     "校園與學制",
+     "Campus & Education System",
+     [
+      [
+       "classroom",
+       "教室"
+      ],
+      [
+       "curriculum",
+       "（學校的整體）課程"
+      ],
+      [
+       "faculty",
+       "（大學的）學院；全體教職員"
+      ],
+      [
+       "campus",
+       "校園"
+      ],
+      [
+       "semester",
+       "學期"
+      ],
+      [
+       "professor",
+       "教授"
+      ],
+      [
+       "lecture",
+       "（大學的）講課、演講"
+      ],
+      [
+       "elementary",
+       "基本的、初級的"
+      ],
+      [
+       "junior",
+       "資淺的、職位較低的"
+      ],
+      [
+       "graduate",
+       "畢業"
+      ],
+      [
+       "admission",
+       "入場；入場費"
+      ],
+      [
+       "enrollment",
+       "註冊、報名；註冊人數"
+      ],
+      [
+       "academic",
+       "學術的；學業的"
+      ],
+      [
+       "education",
+       "教育"
+      ],
+      [
+       "educational",
+       "教育的"
+      ],
+      [
+       "tuition",
+       "學費"
+      ],
+      [
+       "scholarship",
+       "獎學金"
+      ],
+      [
+       "qualification",
+       "資格；學歷證照"
+      ]
+     ]
+    ],
+    [
+     "課程與學習成果",
+     "Courses & Learning",
+     [
+      [
+       "assignment",
+       "作業"
+      ],
+      [
+       "dissertation",
+       "（博士）論文"
+      ],
+      [
+       "thesis",
+       "（學位）論文"
+      ],
+      [
+       "assessment",
+       "評量、評估"
+      ],
+      [
+       "grade",
+       "成績、分數"
+      ],
+      [
+       "instruction",
+       "指示；（使用）說明（常用複數）"
+      ],
+      [
+       "oral",
+       "口頭的、口述的"
+      ],
+      [
+       "seminar",
+       "研討會、講座"
+      ],
+      [
+       "tutor",
+       "家教、家庭教師；（大學）助教、導師"
+      ],
+      [
+       "quiz",
+       "小考、測驗"
+      ],
+      [
+       "exam",
+       "考試"
+      ],
+      [
+       "certificate",
+       "證書、證明書"
+      ],
+      [
+       "attendance",
+       "出席（人數）"
+      ],
+      [
+       "discipline",
+       "紀律、自律"
+      ],
+      [
+       "achievement",
+       "成就、成果"
+      ],
+      [
+       "enroll",
+       "註冊、報名、就讀"
+      ],
+      [
+       "plagiarism",
+       "抄襲、剽竊"
+      ]
+     ]
+    ]
+   ],
+   "levelOverrides": {
+    "curriculum": "I",
+    "admission": "I",
+    "enrollment": "I",
+    "qualification": "I",
+    "assessment": "I",
+    "scholarship": "I",
+    "dissertation": "A",
+    "thesis": "A",
+    "plagiarism": "A"
+   }
+  },
+  "research": {
+   "zh": "研究與學術方法",
+   "en": "Research & Academic Methods",
+   "level": "初階・中階・進階",
+   "intro": "涵蓋研究設計、資料分析、論證與結果描述等學術常見詞彙。",
+   "source": "選詞參考 NGSL／NAWL 等開放詞彙表（CC BY-SA 4.0，newgeneralservicelist.org），另依學術情境編輯補充；詞頻級別依 BNC／COCA；中文釋義與例句來源見個別詞條。",
+   "sections": [
+    [
+     "研究設計與資料",
+     "Research Design & Data",
+     [
+      [
+       "research",
+       "研究"
+      ],
+      [
+       "approach",
+       "方法、處理方式"
+      ],
+      [
+       "method",
+       "方法"
+      ],
+      [
+       "methodology",
+       "研究方法（論）"
+      ],
+      [
+       "hypothesis",
+       "假設、假說"
+      ],
+      [
+       "theory",
+       "理論、學說"
+      ],
+      [
+       "principle",
+       "原則、信條"
+      ],
+      [
+       "concept",
+       "概念、觀念"
+      ],
+      [
+       "experiment",
+       "實驗"
+      ],
+      [
+       "empirical",
+       "實證的、以經驗為根據的"
+      ],
+      [
+       "survey",
+       "調查"
+      ],
+      [
+       "procedure",
+       "程序、步驟"
+      ],
+      [
+       "sample",
+       "樣本"
+      ],
+      [
+       "data",
+       "資料、數據"
+      ],
+      [
+       "statistics",
+       "統計數據、統計資料"
+      ],
+      [
+       "variable",
+       "變數"
+      ]
+     ]
+    ],
+    [
+     "分析與證據",
+     "Analysis & Evidence",
+     [
+      [
+       "analysis",
+       "分析"
+      ],
+      [
+       "evidence",
+       "證據"
+      ],
+      [
+       "criteria",
+       "標準、準則（criterion 的複數）"
+      ],
+      [
+       "correlation",
+       "相關性"
+      ],
+      [
+       "calculate",
+       "計算"
+      ],
+      [
+       "estimate",
+       "估計"
+      ],
+      [
+       "identify",
+       "識別、辨認、指認"
+      ],
+      [
+       "examine",
+       "（醫生）檢查"
+      ],
+      [
+       "assess",
+       "評估、評定"
+      ],
+      [
+       "evaluate",
+       "評估、評價"
+      ],
+      [
+       "interpret",
+       "解讀、理解"
+      ],
+      [
+       "indicate",
+       "顯示、表明"
+      ],
+      [
+       "demonstrate",
+       "示範、展示"
+      ],
+      [
+       "derive",
+       "得到、獲得（derive...from）"
+      ],
+      [
+       "define",
+       "定義、解釋"
+      ],
+      [
+       "construct",
+       "建造、興建"
+      ],
+      [
+       "significant",
+       "顯著的、相當大的"
+      ],
+      [
+       "factor",
+       "因素、要素"
+      ],
+      [
+       "valid",
+       "（票證、文件）有效的"
+      ],
+      [
+       "accurate",
+       "準確的、精確的"
+      ]
+     ]
+    ],
+    [
+     "結果與論述",
+     "Findings & Discussion",
+     [
+      [
+       "conclude",
+       "下結論、斷定"
+      ],
+      [
+       "result",
+       "結果"
+      ],
+      [
+       "outcome",
+       "結果"
+      ],
+      [
+       "function",
+       "功能、作用"
+      ],
+      [
+       "process",
+       "過程、流程"
+      ],
+      [
+       "structure",
+       "結構"
+      ],
+      [
+       "element",
+       "要素、元素"
+      ],
+      [
+       "source",
+       "（消息）來源、出處"
+      ],
+      [
+       "context",
+       "上下文"
+      ],
+      [
+       "establish",
+       "建立、創立"
+      ],
+      [
+       "consistent",
+       "一致的、相符的（consistent with）"
+      ],
+      [
+       "require",
+       "需要"
+      ],
+      [
+       "occur",
+       "發生"
+      ],
+      [
+       "achieve",
+       "達成、實現；取得（成就）"
+      ],
+      [
+       "response",
+       "回應、回覆"
+      ],
+      [
+       "complex",
+       "複雜的"
+      ],
+      [
+       "abstract",
+       "抽象的"
+      ],
+      [
+       "specific",
+       "具體的、明確的"
+      ],
+      [
+       "initial",
+       "最初的、開始的"
+      ],
+      [
+       "final",
+       "最後的、最終的"
+      ],
+      [
+       "footnote",
+       "註腳"
+      ],
+      [
+       "estimation",
+       "估計、估算"
+      ],
+      [
+       "approximation",
+       "近似值、概略估計"
+      ],
+      [
+       "generalize",
+       "一概而論、概括、歸納"
+      ],
+      [
+       "replication",
+       "複製"
+      ],
+      [
+       "subset",
+       "子集、一部分"
+      ],
+      [
+       "standardize",
+       "使標準化、統一"
+      ]
+     ]
+    ]
+   ],
+   "levelOverrides": {
+    "hypothesis": "I",
+    "methodology": "I",
+    "empirical": "I",
+    "statistics": "I",
+    "variable": "I",
+    "correlation": "I",
+    "criteria": "I",
+    "abstract": "I",
+    "estimation": "I",
+    "footnote": "I",
+    "approximation": "A",
+    "generalize": "A",
+    "replication": "A",
+    "subset": "A",
+    "standardize": "A"
+   }
+  },
+  "environment": {
+   "zh": "環境與自然",
+   "en": "Environment & Nature",
+   "level": "初階・中階・進階",
+   "intro": "整理生態、氣候變化、自然資源與永續發展的常見詞彙。",
+   "source": "選詞參考 NGSL／NAWL 等開放詞彙表（CC BY-SA 4.0，newgeneralservicelist.org），另依學術情境編輯補充；詞頻級別依 BNC／COCA；中文釋義與例句來源見個別詞條。",
+   "sections": [
+    [
+     "生態與自然環境",
+     "Ecology & Natural Environment",
+     [
+      [
+       "environment",
+       "（自然）環境"
+      ],
+      [
+       "habitat",
+       "（動植物的）棲息地"
+      ],
+      [
+       "species",
+       "物種、種類"
+      ],
+      [
+       "organism",
+       "生物、有機體"
+      ],
+      [
+       "vegetation",
+       "（某地區的）植物、草木"
+      ],
+      [
+       "biodiversity",
+       "生物多樣性"
+      ],
+      [
+       "ecology",
+       "生態（環境）"
+      ],
+      [
+       "forest",
+       "森林"
+      ],
+      [
+       "soil",
+       "土壤、泥土"
+      ],
+      [
+       "natural",
+       "自然的、天然的"
+      ],
+      [
+       "agriculture",
+       "農業"
+      ],
+      [
+       "conservation",
+       "保育；節約"
+      ],
+      [
+       "resource",
+       "資源"
+      ],
+      [
+       "population",
+       "人口"
+      ]
+     ]
+    ],
+    [
+     "氣候與環境變化",
+     "Climate & Environmental Change",
+     [
+      [
+       "climate",
+       "氣候"
+      ],
+      [
+       "atmosphere",
+       "氣氛"
+      ],
+      [
+       "emission",
+       "排放（物）"
+      ],
+      [
+       "carbon",
+       "碳"
+      ],
+      [
+       "fuel",
+       "燃料"
+      ],
+      [
+       "energy",
+       "能源"
+      ],
+      [
+       "global",
+       "全球的、全世界的"
+      ],
+      [
+       "temperature",
+       "溫度、氣溫"
+      ],
+      [
+       "drought",
+       "乾旱、旱災"
+      ],
+      [
+       "flood",
+       "洪水、淹水"
+      ],
+      [
+       "pollution",
+       "污染"
+      ],
+      [
+       "waste",
+       "浪費"
+      ],
+      [
+       "chemical",
+       "化學物質、化學藥品"
+      ],
+      [
+       "acid",
+       "酸、酸性物質"
+      ],
+      [
+       "mineral",
+       "礦物、礦產；礦物質"
+      ]
+     ]
+    ],
+    [
+     "永續與自然調適",
+     "Sustainability & Adaptation",
+     [
+      [
+       "consumption",
+       "消耗量、攝取量；消費"
+      ],
+      [
+       "sustainable",
+       "永續的、可持續的"
+      ],
+      [
+       "sustain",
+       "維持、使持續"
+      ],
+      [
+       "renewable",
+       "可再生的"
+      ],
+      [
+       "recycle",
+       "回收（再利用）"
+      ],
+      [
+       "adaptation",
+       "改編（作品）"
+      ],
+      [
+       "adapt",
+       "適應（to）"
+      ],
+      [
+       "evolve",
+       "逐步發展、演變"
+      ],
+      [
+       "evolution",
+       "演化、進化"
+      ],
+      [
+       "ecological",
+       "生態的、生態學的"
+      ],
+      [
+       "precipitation",
+       "降水（雨、雪等）；降雨量"
+      ],
+      [
+       "aerosol",
+       "噴霧（罐）；氣溶膠"
+      ],
+      [
+       "acidic",
+       "酸性的；酸的"
+      ],
+      [
+       "herbicide",
+       "除草劑"
+      ],
+      [
+       "industrialization",
+       "工業化"
+      ]
+     ]
+    ]
+   ],
+   "levelOverrides": {
+    "habitat": "I",
+    "conservation": "I",
+    "emission": "I",
+    "vegetation": "I",
+    "atmosphere": "I",
+    "carbon": "I",
+    "pollution": "I",
+    "adaptation": "I",
+    "biodiversity": "I",
+    "precipitation": "A",
+    "aerosol": "A",
+    "acidic": "A",
+    "herbicide": "A",
+    "industrialization": "A",
+    "ecological": "A",
+    "sustainable": "I"
+   }
+  },
+  "society": {
+   "zh": "社會與文化",
+   "en": "Society & Culture",
+   "level": "初階・中階・進階",
+   "intro": "學習人口、公共制度、社會變遷與文化議題常用詞彙。",
+   "source": "選詞參考 NGSL／NAWL 等開放詞彙表（CC BY-SA 4.0，newgeneralservicelist.org），另依學術情境編輯補充；詞頻級別依 BNC／COCA；中文釋義與例句來源見個別詞條。",
+   "sections": [
+    [
+     "人口與社群",
+     "Population & Communities",
+     [
+      [
+       "society",
+       "社會"
+      ],
+      [
+       "culture",
+       "文化"
+      ],
+      [
+       "community",
+       "社區、地方"
+      ],
+      [
+       "population",
+       "人口"
+      ],
+      [
+       "demographic",
+       "族群（依年齡、性別等劃分）"
+      ],
+      [
+       "urban",
+       "都市的、城市的"
+      ],
+      [
+       "rural",
+       "鄉村的、農村的"
+      ],
+      [
+       "migration",
+       "遷移、移居"
+      ],
+      [
+       "region",
+       "地區、區域"
+      ],
+      [
+       "citizen",
+       "公民、市民"
+      ],
+      [
+       "citizenship",
+       "公民身分、國籍"
+      ],
+      [
+       "generation",
+       "世代、一代人"
+      ],
+      [
+       "ethnic",
+       "種族的、民族的；異國風味的"
+      ],
+      [
+       "tribe",
+       "部落、族群"
+      ],
+      [
+       "identity",
+       "身分"
+      ],
+      [
+       "diversity",
+       "多樣性、多元"
+      ]
+     ]
+    ],
+    [
+     "制度與公共政策",
+     "Institutions & Public Policy",
+     [
+      [
+       "authority",
+       "（常用複數）當局、主管機關"
+      ],
+      [
+       "government",
+       "政府"
+      ],
+      [
+       "legislation",
+       "法律、法規；立法"
+      ],
+      [
+       "policy",
+       "政策、方針"
+      ],
+      [
+       "regime",
+       "制度、體制（如稅制、監管制度）"
+      ],
+      [
+       "constitution",
+       "憲法"
+      ],
+      [
+       "republic",
+       "共和國"
+      ],
+      [
+       "treaty",
+       "條約"
+      ],
+      [
+       "institution",
+       "機構、機關（如銀行、大學）"
+      ],
+      [
+       "political",
+       "政治的"
+      ],
+      [
+       "economy",
+       "經濟"
+      ],
+      [
+       "welfare",
+       "福祉、幸福"
+      ],
+      [
+       "consent",
+       "同意、許可"
+      ],
+      [
+       "occupation",
+       "職業"
+      ]
+     ]
+    ],
+    [
+     "社會變遷與文化",
+     "Social Change & Culture",
+     [
+      [
+       "media",
+       "媒體"
+      ],
+      [
+       "tradition",
+       "傳統"
+      ],
+      [
+       "inequality",
+       "不平等、不均"
+      ],
+      [
+       "discrimination",
+       "歧視、差別待遇"
+      ],
+      [
+       "gender",
+       "性別"
+      ],
+      [
+       "religion",
+       "宗教；信仰"
+      ],
+      [
+       "belief",
+       "信念、相信；信仰"
+      ],
+      [
+       "conflict",
+       "衝突、矛盾"
+      ],
+      [
+       "revolution",
+       "革命"
+      ],
+      [
+       "colonial",
+       "殖民（時期）的"
+      ],
+      [
+       "civilization",
+       "文明"
+      ],
+      [
+       "norm",
+       "常態；規範、準則"
+      ],
+      [
+       "ritual",
+       "儀式；例行習慣"
+      ],
+      [
+       "elite",
+       "菁英、上層人士"
+      ],
+      [
+       "consensus",
+       "共識"
+      ],
+      [
+       "alliance",
+       "聯盟、結盟；（企業間的）策略聯盟"
+      ],
+      [
+       "integration",
+       "整合、結合；融入"
+      ],
+      [
+       "distribution",
+       "配送、經銷；分配"
+      ],
+      [
+       "employment",
+       "就業、工作；僱用"
+      ],
+      [
+       "immigration",
+       "入境審查"
+      ],
+      [
+       "social",
+       "社會的"
+      ],
+      [
+       "economic",
+       "經濟的、經濟上的"
+      ],
+      [
+       "cultural",
+       "文化的"
+      ],
+      [
+       "democracy",
+       "民主（制度）；民主國家"
+      ],
+      [
+       "democratic",
+       "民主的"
+      ],
+      [
+       "legitimacy",
+       "合法性、正當性；可信度"
+      ],
+      [
+       "legislative",
+       "立法的、有立法權的"
+      ]
+     ]
+    ]
+   ],
+   "levelOverrides": {
+    "authority": "I",
+    "distribution": "I",
+    "migration": "I",
+    "inequality": "I",
+    "discrimination": "I",
+    "legislation": "I",
+    "institution": "I",
+    "demographic": "A",
+    "constitution": "A",
+    "treaty": "A",
+    "civilization": "A",
+    "colonial": "A",
+    "integration": "A",
+    "consensus": "I",
+    "legitimacy": "A",
+    "legislative": "A",
+    "democracy": "I",
+    "regime": "A",
+    "elite": "A"
+   }
   }
  }
 }
