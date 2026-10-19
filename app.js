@@ -85,7 +85,7 @@ function pickVoice(lang) {
   const preferred = lang === 'en-GB' ? /Daniel|Kate|Serena|Arthur/i : /Samantha|Ava|Allison|Nicky|Tom|Aria|Jenny|Guy|Ryan/i;
   return regional.find(v => natural(v) && preferred.test(v.name))
       || regional.find(natural)
-      || regional.find(preferred)
+      || regional.find(v => preferred.test(v.name))
       || regional.find(v => !v.localService)
       || regional[0];
 }
