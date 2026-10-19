@@ -385,7 +385,7 @@ async function loadWordRelations(key, type, senses) {
       const e = await Dict.getEntry(Dict.norm(word)).catch(() => null);
       return { word, zh: e ? shortMeaning(e, g.p) : '' };
     }));
-    return { pos: g.p, gloss: g.g, rows };
+    return { pos: g.p, gloss: g.g, rows, src: g.src };
   }));
   if (currentEntry?.key !== key) return;
   box.hidden = false;
