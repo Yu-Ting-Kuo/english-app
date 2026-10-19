@@ -1,9 +1,9 @@
 ﻿// 離線快取：App 本身的檔案有網路時一律抓最新版，沒網路時用快取，所以離線也能開。
 // VERSION 加一會清掉舊快取。
-const VERSION = 'v36';
+const VERSION = 'v37';
 const CACHE = 'english-app-' + VERSION;
 // 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題、例句時把 DICT_VERSION 加一
-const DICT_VERSION = 'd15';
+const DICT_VERSION = 'd16';
 const DICT_CACHE = 'english-dict-' + DICT_VERSION;
 const ASSETS = [
   './',
@@ -39,7 +39,10 @@ async function cacheFirst(cacheName, req) {
   const c = await caches.open(cacheName);
   const hit = await c.match(req);
   if (hit) return hit;
-  const res = await fetch(req);
+  // A new dictionary cache version can miss locally while the browser's HTTP cache
+  // still has an older response for the same static URL. Revalidate on cache fill.
+  const request = cacheName === DICT_CACHE ? new Request(req, { cache: 'no-cache' }) : req;
+  const res = await fetch(request);
   if (res.ok) c.put(req, res.clone());
   return res;
 }
