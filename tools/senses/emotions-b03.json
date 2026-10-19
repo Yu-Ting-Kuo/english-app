@@ -1,0 +1,2354 @@
+{
+ "shame": [
+  {
+   "p": "n",
+   "zh": "羞恥、恥辱",
+   "t": [
+    6559099,
+    33481,
+    277287
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "憾事、可惜（常用 It's a shame）",
+   "t": [
+    42149,
+    505897,
+    324197
+   ]
+  }
+ ],
+ "shocking": [
+  {
+   "p": "adj",
+   "zh": "令人震驚的",
+   "t": [
+    2313164
+   ],
+   "ai": [
+    [
+     "The shocking news spread quickly through the town.",
+     "這個令人震驚的消息很快傳遍了全鎮。"
+    ],
+    [
+     "It is shocking how little the workers were paid.",
+     "那些工人的薪水之低，令人震驚。"
+    ]
+   ]
+  }
+ ],
+ "terrified": [
+  {
+   "p": "adj",
+   "zh": "嚇壞了的、感到恐懼的",
+   "t": [
+    12568857,
+    2247522,
+    2190909
+   ]
+  }
+ ],
+ "terrify": [
+  {
+   "p": "v",
+   "zh": "使驚恐、使恐懼",
+   "t": [
+    56788,
+    7885820
+   ],
+   "ai": [
+    [
+     "Speaking in public terrifies me.",
+     "在公開場合說話讓我非常恐懼。"
+    ]
+   ]
+  }
+ ],
+ "tragic": [
+  {
+   "p": "adj",
+   "zh": "悲慘的、悲劇的",
+   "t": [
+    682218
+   ],
+   "ai": [
+    [
+     "The tragic accident took the lives of three people.",
+     "那起悲慘的意外奪走了三條人命。"
+    ],
+    [
+     "It is tragic that so many young people die in car crashes.",
+     "這麼多年輕人死於車禍，實在令人悲痛。"
+    ]
+   ]
+  }
+ ],
+ "yearn": [
+  {
+   "p": "v",
+   "zh": "渴望、嚮往",
+   "t": [
+    4844629,
+    4834060
+   ],
+   "ai": [
+    [
+     "After years abroad, he yearned for his hometown.",
+     "在國外多年後，他很思念故鄉。"
+    ]
+   ]
+  }
+ ],
+ "timid": [
+  {
+   "p": "adj",
+   "zh": "膽小的、羞怯的",
+   "t": [
+    35792,
+    7819959,
+    10743865
+   ]
+  }
+ ],
+ "weary": [
+  {
+   "p": "adj",
+   "zh": "筋疲力竭的、疲倦的",
+   "ai": [
+    [
+     "The weary travelers finally reached the inn.",
+     "疲憊的旅人終於抵達了旅店。"
+    ],
+    [
+     "She gave a weary smile after the long shift.",
+     "漫長的班結束後，她露出疲倦的微笑。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使疲倦、使厭煩",
+   "ai": [
+    [
+     "The long meeting wearied everyone.",
+     "冗長的會議讓大家都累壞了。"
+    ],
+    [
+     "He wearied of the noisy city and moved to the countryside.",
+     "他厭倦了吵鬧的城市，搬到了鄉下。"
+    ]
+   ]
+  }
+ ],
+ "weep": [
+  {
+   "p": "v",
+   "zh": "哭泣、流淚",
+   "t": [
+    320662,
+    314895,
+    395913
+   ]
+  }
+ ],
+ "admiration": [
+  {
+   "p": "n",
+   "zh": "欽佩、讚賞",
+   "t": [
+    286794,
+    1517409,
+    286378
+   ]
+  }
+ ],
+ "alarming": [
+  {
+   "p": "adj",
+   "zh": "令人憂心的、令人驚慌的",
+   "ai": [
+    [
+     "The number of cases is rising at an alarming rate.",
+     "病例數正以令人憂心的速度增加。"
+    ],
+    [
+     "It is alarming how quickly the ice is melting.",
+     "冰融化的速度之快，令人擔憂。"
+    ]
+   ]
+  }
+ ],
+ "astonish": [
+  {
+   "p": "v",
+   "zh": "使驚訝",
+   "t": [
+    1137403,
+    25174,
+    4499801
+   ]
+  }
+ ],
+ "despise": [
+  {
+   "p": "v",
+   "zh": "藐視、看不起",
+   "t": [
+    318502,
+    470448,
+    316497
+   ]
+  }
+ ],
+ "discontent": [
+  {
+   "p": "n",
+   "zh": "不滿",
+   "ai": [
+    [
+     "There is growing discontent among the workers.",
+     "工人之間的不滿正日益升高。"
+    ],
+    [
+     "He could not hide his discontent with the result.",
+     "他無法掩飾對結果的不滿。"
+    ]
+   ]
+  }
+ ],
+ "disgusting": [
+  {
+   "p": "adj",
+   "zh": "令人厭惡的、噁心的",
+   "t": [
+    2439744,
+    4757704
+   ],
+   "ai": [
+    [
+     "The smell from the garbage was disgusting.",
+     "垃圾的氣味令人作嘔。"
+    ]
+   ]
+  }
+ ],
+ "dubious": [
+  {
+   "p": "adj",
+   "zh": "可疑的、不可信的",
+   "t": [
+    8743632
+   ],
+   "ai": [
+    [
+     "He made a dubious claim that nobody could verify.",
+     "他提出了一個沒人能證實的可疑說法。"
+    ]
+   ]
+  }
+ ],
+ "frown": [
+  {
+   "p": "v",
+   "zh": "皺眉、表示不滿",
+   "ai": [
+    [
+     "The teacher frowned when he saw the messy homework.",
+     "老師看到凌亂的作業時皺起了眉頭。"
+    ],
+    [
+     "Many people frown on talking loudly on the train.",
+     "許多人不贊成在火車上大聲講話。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "皺眉、不悅的神情",
+   "ai": [
+    [
+     "She read the letter with a deep frown.",
+     "她皺著眉頭讀完那封信。"
+    ],
+    [
+     "A frown crossed his face when he heard the price.",
+     "他一聽到價錢，臉上就露出不悅的表情。"
+    ]
+   ]
+  }
+ ],
+ "glare": [
+  {
+   "p": "v",
+   "zh": "怒視、瞪眼",
+   "t": [
+    2254593
+   ],
+   "ai": [
+    [
+     "The two drivers glared at each other after the near collision.",
+     "兩名駕駛在險些相撞後怒目相視。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "強光、刺眼的光",
+   "t": [
+    24358
+   ],
+   "ai": [
+    [
+     "The glare of the sun made it hard to see the road.",
+     "太陽的刺眼強光讓人難以看清道路。"
+    ]
+   ]
+  }
+ ],
+ "hesitantly": [
+  {
+   "p": "adv",
+   "zh": "猶豫地、遲疑地",
+   "ai": [
+    [
+     "She hesitantly raised her hand to ask a question.",
+     "她遲疑地舉起手想問問題。"
+    ],
+    [
+     "He answered hesitantly, as if he wasn't sure.",
+     "他遲疑地回答，好像不太確定。"
+    ]
+   ]
+  }
+ ],
+ "indecision": [
+  {
+   "p": "n",
+   "zh": "優柔寡斷、無決斷力",
+   "ai": [
+    [
+     "His indecision cost the team a lot of time.",
+     "他的優柔寡斷使團隊浪費了很多時間。"
+    ],
+    [
+     "After a moment of indecision, she chose the blue dress.",
+     "猶豫了一會兒之後，她選了那件藍色洋裝。"
+    ]
+   ]
+  }
+ ],
+ "keenly": [
+  {
+   "p": "adv",
+   "zh": "敏銳地、深刻地",
+   "ai": [
+    [
+     "She watched the match keenly from the front row.",
+     "她在前排專注地觀看比賽。"
+    ],
+    [
+     "He felt keenly the loss of his old friend.",
+     "他深切感受到失去老朋友的痛苦。"
+    ]
+   ]
+  }
+ ],
+ "lament": [
+  {
+   "p": "v",
+   "zh": "悲嘆、哀悼",
+   "ai": [
+    [
+     "Villagers lamented the loss of their old school.",
+     "村民們為失去老學校而悲嘆。"
+    ],
+    [
+     "Many people lament the decline of traditional crafts.",
+     "許多人感嘆傳統工藝的沒落。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "悲歌、哀嘆",
+   "ai": [
+    [
+     "The song is a lament for a lost love.",
+     "這首歌是為逝去的愛情而唱的悲歌。"
+    ],
+    [
+     "Her lament echoed through the empty hall.",
+     "她的哀嘆聲在空蕩蕩的大廳裡迴盪。"
+    ]
+   ]
+  }
+ ],
+ "lonesome": [
+  {
+   "p": "adj",
+   "zh": "寂寞的、孤零零的",
+   "ai": [
+    [
+     "The old man felt lonesome after his wife passed away.",
+     "老先生在妻子過世後覺得很寂寞。"
+    ],
+    [
+     "A lonesome tree stood on the hill.",
+     "山丘上孤零零地立著一棵樹。"
+    ]
+   ]
+  }
+ ],
+ "mellow": [
+  {
+   "p": "adj",
+   "zh": "柔和的、香醇的",
+   "ai": [
+    [
+     "The wine has a rich, mellow flavor.",
+     "這支酒的味道濃郁香醇。"
+    ],
+    [
+     "The singer has a warm, mellow voice.",
+     "這位歌手的嗓音溫暖柔和。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "老練的、成熟隨和的",
+   "t": [
+    2518614
+   ],
+   "ai": [
+    [
+     "He has grown mellow with age.",
+     "他隨著年紀增長變得隨和圓熟。"
+    ]
+   ]
+  }
+ ],
+ "moan": [
+  {
+   "p": "v",
+   "zh": "呻吟、抱怨",
+   "ai": [
+    [
+     "The injured man moaned in pain.",
+     "受傷的男子痛苦地呻吟。"
+    ],
+    [
+     "Stop moaning about the weather and enjoy the trip.",
+     "別再抱怨天氣，好好享受旅程吧。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "呻吟聲",
+   "ai": [
+    [
+     "We heard a low moan from the next room.",
+     "我們聽見隔壁房間傳來低低的呻吟聲。"
+    ],
+    [
+     "The wind made a long moan through the trees.",
+     "風在樹林間發出長長的嗚咽聲。"
+    ]
+   ]
+  }
+ ],
+ "monstrous": [
+  {
+   "p": "adj",
+   "zh": "怪物般的、恐怖的",
+   "ai": [
+    [
+     "In the story, a monstrous creature lived under the bridge.",
+     "故事裡，橋底下住著一隻怪物般的可怕生物。"
+    ],
+    [
+     "The dictator was responsible for monstrous crimes.",
+     "那名獨裁者犯下了駭人聽聞的罪行。"
+    ]
+   ]
+  }
+ ],
+ "perplex": [
+  {
+   "p": "v",
+   "zh": "使困惑",
+   "t": [
+    329629
+   ],
+   "ai": [
+    [
+     "The difficult riddle perplexed all the students.",
+     "這個困難的謎語讓所有學生都百思不解。"
+    ],
+    [
+     "His strange behavior perplexed his friends.",
+     "他古怪的行為讓朋友們摸不著頭腦。"
+    ]
+   ]
+  }
+ ],
+ "reckless": [
+  {
+   "p": "adj",
+   "zh": "魯莽的、輕率的",
+   "t": [
+    2311489,
+    2940571
+   ],
+   "ai": [
+    [
+     "He was fined for reckless behavior on the road.",
+     "他因為在路上魯莽的行為而被罰款。"
+    ]
+   ]
+  }
+ ],
+ "relish": [
+  {
+   "p": "v",
+   "zh": "喜愛、享受",
+   "ai": [
+    [
+     "She relished the chance to travel alone.",
+     "她很享受獨自旅行的機會。"
+    ],
+    [
+     "I don't relish the idea of getting up at five.",
+     "我可不喜歡五點起床這個主意。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "喜愛、樂趣",
+   "ai": [
+    [
+     "He ate his dinner with great relish.",
+     "他津津有味地吃著晚餐。"
+    ],
+    [
+     "She took no relish in other people's mistakes.",
+     "她不會以別人的錯誤為樂。"
+    ]
+   ]
+  }
+ ],
+ "reluctantly": [
+  {
+   "p": "adv",
+   "zh": "不願意地、勉強地",
+   "t": [
+    4752718,
+    303762,
+    2957931
+   ]
+  }
+ ],
+ "resent": [
+  {
+   "p": "v",
+   "zh": "憤恨、對…不滿",
+   "t": [
+    312732,
+    3822513
+   ],
+   "ai": [
+    [
+     "He resents having to work on weekends.",
+     "他不滿自己得在週末加班。"
+    ]
+   ]
+  }
+ ],
+ "rotten": [
+  {
+   "p": "adj",
+   "zh": "腐爛的、腐敗的",
+   "t": [
+    282637,
+    1682397,
+    57999
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "糟糕的、惡劣的",
+   "t": [
+    10483354,
+    296453
+   ],
+   "ai": [
+    [
+     "I had a rotten day at work and just want to go home.",
+     "我今天上班糟透了，只想回家。"
+    ]
+   ]
+  }
+ ],
+ "sensibility": [
+  {
+   "p": "n",
+   "zh": "感受力、敏感性",
+   "ai": [
+    [
+     "The poet's sensibility to nature shows in every line.",
+     "詩人對自然的敏銳感受力呈現在每一行詩句中。"
+    ],
+    [
+     "Her artistic sensibility made her a fine designer.",
+     "她的藝術感受力使她成為出色的設計師。"
+    ]
+   ]
+  }
+ ],
+ "sentimental": [
+  {
+   "p": "adj",
+   "zh": "感傷的、多愁善感的",
+   "ai": [
+    [
+     "He keeps the old letters for sentimental reasons.",
+     "他因為情感上的原因留著那些舊信。"
+    ],
+    [
+     "She gets sentimental whenever she hears that song.",
+     "她一聽到那首歌就變得多愁善感。"
+    ]
+   ]
+  }
+ ],
+ "shiver": [
+  {
+   "p": "v",
+   "zh": "顫抖、發抖",
+   "t": [
+    33910,
+    10657438,
+    2218412
+   ]
+  }
+ ],
+ "slender": [
+  {
+   "p": "adj",
+   "zh": "修長的、苗條的",
+   "t": [
+    728014
+   ],
+   "ai": [
+    [
+     "She has long, slender fingers.",
+     "她有一雙修長纖細的手指。"
+    ],
+    [
+     "The model was tall and slender.",
+     "那位模特兒又高又苗條。"
+    ]
+   ]
+  }
+ ],
+ "sloppy": [
+  {
+   "p": "adj",
+   "zh": "馬虎的、不講究的",
+   "t": [
+    868260,
+    2255637
+   ],
+   "ai": [
+    [
+     "His sloppy handwriting is hard to read.",
+     "他潦草的字跡很難辨認。"
+    ]
+   ]
+  }
+ ],
+ "solitude": [
+  {
+   "p": "n",
+   "zh": "孤獨、獨處",
+   "t": [
+    303915
+   ],
+   "ai": [
+    [
+     "The writer moved to a cabin in the mountains to enjoy solitude.",
+     "那位作家搬到山中小屋，享受獨處的時光。"
+    ]
+   ]
+  }
+ ],
+ "stagger": [
+  {
+   "p": "v",
+   "zh": "蹣跚、搖搖晃晃地走",
+   "ai": [
+    [
+     "The drunk man staggered down the street.",
+     "醉漢搖搖晃晃地走在街上。"
+    ],
+    [
+     "She staggered under the weight of the heavy bag.",
+     "她被沉重的袋子壓得步履蹣跚。"
+    ]
+   ]
+  }
+ ],
+ "stale": [
+  {
+   "p": "adj",
+   "zh": "不新鮮的、走味的",
+   "t": [
+    11552523,
+    710731
+   ],
+   "ai": [
+    [
+     "The bread was stale after a week in the cupboard.",
+     "麵包在櫥櫃裡放了一週後就不新鮮了。"
+    ]
+   ]
+  }
+ ],
+ "stingy": [
+  {
+   "p": "adj",
+   "zh": "小氣的、吝嗇的",
+   "t": [
+    292056,
+    1093435,
+    4804764
+   ]
+  }
+ ],
+ "superficial": [
+  {
+   "p": "adj",
+   "zh": "表面的、膚淺的",
+   "t": [
+    302242,
+    644323
+   ],
+   "ai": [
+    [
+     "The wound is only superficial and will heal soon.",
+     "傷口只是表皮傷，很快就會癒合。"
+    ]
+   ]
+  }
+ ],
+ "temperament": [
+  {
+   "p": "n",
+   "zh": "氣質、性情",
+   "ai": [
+    [
+     "The two brothers have very different temperaments.",
+     "這兩兄弟的性情很不一樣。"
+    ],
+    [
+     "A calm temperament is important for a nurse.",
+     "沉穩的性格對護理師來說很重要。"
+    ]
+   ]
+  }
+ ],
+ "thrilling": [
+  {
+   "p": "adj",
+   "zh": "令人激動的、驚險刺激的",
+   "t": [
+    282372
+   ],
+   "ai": [
+    [
+     "It was a thrilling match that went into extra time.",
+     "那是一場進入延長賽的緊張刺激的比賽。"
+    ],
+    [
+     "The roller coaster ride was thrilling.",
+     "雲霄飛車很刺激。"
+    ]
+   ]
+  }
+ ],
+ "tiresome": [
+  {
+   "p": "adj",
+   "zh": "令人厭煩的",
+   "t": [
+    9400881
+   ],
+   "ai": [
+    [
+     "Filling out the same form again and again is tiresome.",
+     "一再重複填寫同一份表格實在令人厭煩。"
+    ]
+   ]
+  }
+ ],
+ "troublesome": [
+  {
+   "p": "adj",
+   "zh": "令人討厭的、麻煩的",
+   "t": [
+    30264,
+    37891
+   ],
+   "ai": [
+    [
+     "The troublesome child kept interrupting the lesson.",
+     "那個調皮搗蛋的孩子一直打斷上課。"
+    ]
+   ]
+  }
+ ],
+ "undesirable": [
+  {
+   "p": "adj",
+   "zh": "令人不快的、不受歡迎的",
+   "ai": [
+    [
+     "The medicine has some undesirable side effects.",
+     "這種藥有一些令人不快的副作用。"
+    ],
+    [
+     "The landlord refused to rent to undesirable tenants.",
+     "房東拒絕把房子租給不受歡迎的房客。"
+    ]
+   ]
+  }
+ ],
+ "unforgettable": [
+  {
+   "p": "adj",
+   "zh": "難忘的",
+   "t": [
+    321127,
+    7819899
+   ],
+   "ai": [
+    [
+     "The trip to Japan was an unforgettable experience.",
+     "日本之旅是一次難忘的經驗。"
+    ]
+   ]
+  }
+ ],
+ "unfortunate": [
+  {
+   "p": "adj",
+   "zh": "不幸的",
+   "t": [
+    9711750,
+    7803001,
+    10458909
+   ]
+  }
+ ],
+ "vex": [
+  {
+   "p": "v",
+   "zh": "使惱怒、使苦惱",
+   "ai": [
+    [
+     "His constant lateness vexed his boss.",
+     "他老是遲到，讓老闆很惱火。"
+    ],
+    [
+     "It vexes me that nobody listens to my advice.",
+     "沒有人聽我的建議，讓我很氣惱。"
+    ]
+   ]
+  }
+ ],
+ "vigor": [
+  {
+   "p": "n",
+   "zh": "精力、活力",
+   "ai": [
+    [
+     "He still works with the vigor of a young man.",
+     "他工作起來仍然像年輕人一樣精力充沛。"
+    ],
+    [
+     "The team returned to the field with new vigor.",
+     "球隊帶著新的活力回到場上。"
+    ]
+   ]
+  }
+ ],
+ "vigorously": [
+  {
+   "p": "adv",
+   "zh": "猛烈地、強而有力地",
+   "t": [
+    8743001
+   ],
+   "ai": [
+    [
+     "She shook her head vigorously to say no.",
+     "她用力地搖頭表示不同意。"
+    ],
+    [
+     "The company vigorously denied the rumors.",
+     "公司強烈否認了這些謠言。"
+    ]
+   ]
+  }
+ ],
+ "wildly": [
+  {
+   "p": "adv",
+   "zh": "狂亂地、瘋狂地",
+   "t": [
+    282364
+   ],
+   "ai": [
+    [
+     "The crowd cheered wildly when the band appeared.",
+     "樂團出場時，群眾瘋狂歡呼。"
+    ],
+    [
+     "His heart was beating wildly.",
+     "他的心臟狂跳不已。"
+    ]
+   ]
+  }
+ ],
+ "displease": [
+  {
+   "p": "v",
+   "zh": "使不快、使生氣",
+   "t": [
+    316738
+   ],
+   "ai": [
+    [
+     "The decision displeased many members of the committee.",
+     "這項決定讓許多委員很不高興。"
+    ],
+    [
+     "He was careful not to displease his boss.",
+     "他小心翼翼不去惹老闆不高興。"
+    ]
+   ]
+  }
+ ],
+ "vanish": [
+  {
+   "p": "v",
+   "zh": "消失",
+   "t": [
+    267850,
+    7893365,
+    8253675
+   ]
+  }
+ ],
+ "shameful": [
+  {
+   "p": "adj",
+   "zh": "可恥的、丟臉的",
+   "t": [
+    18024
+   ],
+   "ai": [
+    [
+     "It is shameful to cheat on an exam.",
+     "考試作弊是可恥的。"
+    ],
+    [
+     "The way they treated the guests was shameful.",
+     "他們對待客人的方式很丟臉。"
+    ]
+   ]
+  }
+ ],
+ "quake": [
+  {
+   "p": "v",
+   "zh": "震動、顫抖",
+   "ai": [
+    [
+     "The ground began to quake under our feet.",
+     "我們腳下的地面開始震動。"
+    ],
+    [
+     "He quaked with fear when he heard footsteps behind him.",
+     "他聽到背後有腳步聲時嚇得發抖。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "地震",
+   "ai": [
+    [
+     "A strong quake shook the city at dawn.",
+     "黎明時分一場強烈地震撼動了這座城市。"
+    ],
+    [
+     "Many buildings were damaged by the quake.",
+     "許多建築物在地震中受損。"
+    ]
+   ]
+  }
+ ],
+ "superstition": [
+  {
+   "p": "n",
+   "zh": "迷信",
+   "t": [
+    714931,
+    41454
+   ],
+   "ai": [
+    [
+     "It's an old superstition that breaking a mirror brings bad luck.",
+     "打破鏡子會帶來厄運是個古老的迷信。"
+    ]
+   ]
+  }
+ ],
+ "superstitious": [
+  {
+   "p": "adj",
+   "zh": "迷信的",
+   "ai": [
+    [
+     "Some athletes are superstitious and wear the same socks every game.",
+     "有些運動員很迷信，每場比賽都穿同一雙襪子。"
+    ],
+    [
+     "My grandmother is superstitious about the number four.",
+     "我奶奶對數字四很迷信。"
+    ]
+   ]
+  }
+ ],
+ "arrogant": [
+  {
+   "p": "adj",
+   "zh": "傲慢的、自大的",
+   "t": [
+    309091,
+    6425533,
+    10363106
+   ]
+  }
+ ],
+ "awkwardly": [
+  {
+   "p": "adv",
+   "zh": "笨拙地、尷尬地",
+   "ai": [
+    [
+     "He awkwardly tried to hide the gift behind his back.",
+     "他笨手笨腳地想把禮物藏在背後。"
+    ],
+    [
+     "They stood awkwardly in the doorway, not knowing what to say.",
+     "他們尷尬地站在門口，不知道該說什麼。"
+    ]
+   ]
+  }
+ ],
+ "bitterly": [
+  {
+   "p": "adv",
+   "zh": "痛苦地、怨恨地",
+   "t": [
+    388695,
+    388696,
+    649705
+   ]
+  }
+ ],
+ "bitterness": [
+  {
+   "p": "n",
+   "zh": "苦味",
+   "t": [
+    2258295
+   ],
+   "ai": [
+    [
+     "Adding sugar cuts the bitterness of the tea.",
+     "加糖可以減輕茶的苦味。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "悲痛、怨恨",
+   "t": [
+    315054
+   ],
+   "ai": [
+    [
+     "There was a note of bitterness in his voice.",
+     "他的聲音裡帶著一絲怨恨。"
+    ]
+   ]
+  }
+ ],
+ "cunning": [
+  {
+   "p": "adj",
+   "zh": "狡猾的、奸詐的",
+   "t": [
+    2308514
+   ],
+   "ai": [
+    [
+     "The cunning thief fooled the guards with a fake uniform.",
+     "狡猾的小偷穿著假制服騙過了警衛。"
+    ]
+   ]
+  }
+ ],
+ "distinctively": [
+  {
+   "p": "adv",
+   "zh": "與眾不同地、獨特地",
+   "ai": [
+    [
+     "The building is distinctively shaped like a boat.",
+     "這棟建築物形狀獨特，像一艘船。"
+    ],
+    [
+     "She dresses distinctively, always in bright yellow.",
+     "她穿著獨樹一格，總是一身亮黃色。"
+    ]
+   ]
+  }
+ ],
+ "enchant": [
+  {
+   "p": "v",
+   "zh": "使入迷、使陶醉",
+   "t": [
+    14028312
+   ],
+   "ai": [
+    [
+     "The beauty of the island enchanted every visitor.",
+     "小島的美景讓每位遊客都為之著迷。"
+    ],
+    [
+     "The storyteller enchanted the children with tales of dragons.",
+     "說書人用龍的故事迷住了孩子們。"
+    ]
+   ]
+  }
+ ],
+ "heterosexual": [
+  {
+   "p": "adj",
+   "zh": "異性戀的",
+   "ai": [
+    [
+     "The survey asked whether participants were heterosexual or not.",
+     "這份調查詢問受訪者是否為異性戀者。"
+    ],
+    [
+     "They are a heterosexual couple with two children.",
+     "他們是一對異性戀夫妻，有兩個孩子。"
+    ]
+   ]
+  }
+ ],
+ "indignant": [
+  {
+   "p": "adj",
+   "zh": "憤慨的",
+   "ai": [
+    [
+     "She was indignant at being accused of lying.",
+     "她對被指控說謊感到憤慨。"
+    ],
+    [
+     "The customers grew indignant when the shop refused to refund their money.",
+     "商店拒絕退款，讓顧客們非常憤慨。"
+    ]
+   ]
+  }
+ ],
+ "indistinct": [
+  {
+   "p": "adj",
+   "zh": "模糊的、不清楚的",
+   "ai": [
+    [
+     "I heard indistinct voices in the next room.",
+     "我聽到隔壁房間傳來模糊不清的說話聲。"
+    ],
+    [
+     "In the fog, the outline of the ship was indistinct.",
+     "在霧中，船的輪廓很模糊。"
+    ]
+   ]
+  }
+ ],
+ "intricate": [
+  {
+   "p": "adj",
+   "zh": "複雜的、錯綜的",
+   "t": [
+    11290400
+   ],
+   "ai": [
+    [
+     "The carpet has an intricate pattern of flowers.",
+     "這塊地毯有複雜精細的花朵圖案。"
+    ]
+   ]
+  }
+ ],
+ "luminous": [
+  {
+   "p": "adj",
+   "zh": "發光的、明亮的",
+   "ai": [
+    [
+     "The luminous numbers on the clock glowed in the dark.",
+     "時鐘上的夜光數字在黑暗中發亮。"
+    ],
+    [
+     "She had luminous eyes that seemed to shine.",
+     "她有一雙明亮的眼睛，彷彿會發光。"
+    ]
+   ]
+  }
+ ],
+ "miraculously": [
+  {
+   "p": "adv",
+   "zh": "神奇地、奇蹟般地",
+   "ai": [
+    [
+     "The boy miraculously survived the fall.",
+     "那個男孩奇蹟般地在墜落中存活下來。"
+    ],
+    [
+     "Miraculously, nobody was hurt in the crash.",
+     "奇蹟般地，車禍中沒有人受傷。"
+    ]
+   ]
+  }
+ ],
+ "rejoice": [
+  {
+   "p": "v",
+   "zh": "高興、欣喜、慶祝",
+   "t": [
+    70902
+   ],
+   "ai": [
+    [
+     "The whole nation rejoiced when the war ended.",
+     "戰爭結束時，全國都歡欣鼓舞。"
+    ]
+   ]
+  }
+ ],
+ "streak": [
+  {
+   "p": "n",
+   "zh": "一系列、一連串（的好運或壞運）",
+   "ai": [
+    [
+     "The team is on a five-game winning streak.",
+     "這支球隊正處於五連勝。"
+    ],
+    [
+     "He is having a streak of bad luck.",
+     "他最近一直走霉運。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使留下條痕、飛奔",
+   "t": [
+    309641
+   ],
+   "ai": [
+    [
+     "Tears streaked her face.",
+     "淚水在她臉上留下一道道痕跡。"
+    ]
+   ]
+  }
+ ],
+ "triumphant": [
+  {
+   "p": "adj",
+   "zh": "勝利的、得意洋洋的",
+   "ai": [
+    [
+     "The triumphant team lifted the trophy over their heads.",
+     "獲勝的球隊把獎盃高舉過頭。"
+    ],
+    [
+     "He gave a triumphant smile after winning the argument.",
+     "他在辯論獲勝後露出得意的微笑。"
+    ]
+   ]
+  }
+ ],
+ "widower": [
+  {
+   "p": "n",
+   "zh": "鰥夫",
+   "t": [
+    244106
+   ],
+   "ai": [
+    [
+     "The widower raised his three children alone.",
+     "那位鰥夫獨自撫養三個孩子。"
+    ]
+   ]
+  }
+ ],
+ "ancestral": [
+  {
+   "p": "adj",
+   "zh": "祖先的、祖傳的",
+   "ai": [
+    [
+     "The family returned to their ancestral home every spring.",
+     "這家人每年春天都回到祖宅。"
+    ],
+    [
+     "They visited the ancestral graves during the festival.",
+     "他們在節日期間去祭拜祖先的墳墓。"
+    ]
+   ]
+  }
+ ],
+ "apprehension": [
+  {
+   "p": "n",
+   "zh": "憂慮、擔心",
+   "ai": [
+    [
+     "She felt a growing apprehension as the exam date approached.",
+     "考試日期愈來愈近，她愈來愈擔心。"
+    ],
+    [
+     "He waited with apprehension for the doctor's call.",
+     "他憂心忡忡地等著醫生的電話。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "逮捕",
+   "ai": [
+    [
+     "The police announced the apprehension of the suspect.",
+     "警方宣布嫌犯已被逮捕。"
+    ],
+    [
+     "The apprehension of the thief took only an hour.",
+     "抓到那名小偷只花了一個小時。"
+    ]
+   ]
+  }
+ ],
+ "bleak": [
+  {
+   "p": "adj",
+   "zh": "陰冷的、荒涼的、黯淡的",
+   "ai": [
+    [
+     "The bleak landscape was covered with snow and ice.",
+     "荒涼的景色被冰雪覆蓋。"
+    ],
+    [
+     "The future looks bleak for the small company.",
+     "這家小公司的前景看起來黯淡。"
+    ]
+   ]
+  }
+ ],
+ "envious": [
+  {
+   "p": "adj",
+   "zh": "妒嫉的、羨慕的",
+   "t": [
+    52622,
+    310508,
+    314330
+   ]
+  }
+ ],
+ "flatter": [
+  {
+   "p": "v",
+   "zh": "奉承、諂媚",
+   "t": [
+    282968,
+    1502747
+   ],
+   "ai": [
+    [
+     "He tried to flatter the boss to get a promotion.",
+     "他想奉承老闆來換取升遷。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使感到榮幸、使高興",
+   "t": [
+    1531931
+   ],
+   "ai": [
+    [
+     "I was flattered that she remembered my name.",
+     "她記得我的名字，讓我受寵若驚。"
+    ]
+   ]
+  }
+ ],
+ "grieve": [
+  {
+   "p": "v",
+   "zh": "悲痛、傷心",
+   "t": [
+    300070
+   ],
+   "ai": [
+    [
+     "She grieved for her husband for many years.",
+     "她為丈夫哀悼了很多年。"
+    ],
+    [
+     "It grieves me to see you so unhappy.",
+     "看到你這麼不快樂，我很難過。"
+    ]
+   ]
+  }
+ ],
+ "groan": [
+  {
+   "p": "v",
+   "zh": "呻吟、發出哀嘆聲",
+   "t": [
+    320118
+   ],
+   "ai": [
+    [
+     "The students groaned when the teacher announced a test.",
+     "老師宣布要考試，學生們都哀嚎了起來。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "呻吟聲",
+   "ai": [
+    [
+     "He let out a groan of pain and sat down.",
+     "他發出一聲痛苦的呻吟並坐了下來。"
+    ],
+    [
+     "A groan went through the crowd when the team lost.",
+     "球隊輸球時，觀眾席上傳來一陣哀嘆聲。"
+    ]
+   ]
+  }
+ ],
+ "grumble": [
+  {
+   "p": "v",
+   "zh": "發怨言、抱怨",
+   "ai": [
+    [
+     "The workers grumbled about the long hours.",
+     "工人們抱怨工時太長。"
+    ],
+    [
+     "He grumbled all the way home about the bad service.",
+     "他一路抱怨著糟糕的服務回家。"
+    ]
+   ]
+  }
+ ],
+ "hatred": [
+  {
+   "p": "n",
+   "zh": "憎恨、敵意",
+   "ai": [
+    [
+     "Years of war left the two groups full of hatred.",
+     "多年的戰爭使這兩個族群充滿敵意。"
+    ],
+    [
+     "She looked at him with hatred in her eyes.",
+     "她眼裡帶著恨意看著他。"
+    ]
+   ]
+  }
+ ],
+ "intimidate": [
+  {
+   "p": "v",
+   "zh": "脅迫、恫嚇",
+   "t": [
+    2270541,
+    3721702,
+    8520521
+   ]
+  }
+ ],
+ "lousy": [
+  {
+   "p": "adj",
+   "zh": "糟糕的、很差的",
+   "t": [
+    2294
+   ],
+   "ai": [
+    [
+     "I had a lousy night's sleep because of the noise.",
+     "因為噪音，我昨晚睡得很糟。"
+    ],
+    [
+     "The food at that restaurant is lousy.",
+     "那家餐廳的食物很難吃。"
+    ]
+   ]
+  }
+ ],
+ "mischief": [
+  {
+   "p": "n",
+   "zh": "惡作劇、淘氣",
+   "t": [
+    7800725
+   ],
+   "ai": [
+    [
+     "The little boy had a look of mischief in his eyes.",
+     "那個小男孩眼裡閃著淘氣的神色。"
+    ],
+    [
+     "The twins are always up to mischief.",
+     "這對雙胞胎總是在搞惡作劇。"
+    ]
+   ]
+  }
+ ],
+ "sober": [
+  {
+   "p": "adj",
+   "zh": "清醒的、未醉的",
+   "t": [
+    2908810,
+    4986522
+   ],
+   "ai": [
+    [
+     "Who is sober enough to drive us home?",
+     "誰清醒得足以開車送我們回家？"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "嚴肅的、穩重的",
+   "ai": [
+    [
+     "The news gave us a sober reminder of the risks.",
+     "這則新聞讓我們嚴肅地意識到風險。"
+    ],
+    [
+     "He wore a sober dark suit to the funeral.",
+     "他穿了一套樸素的深色西裝出席葬禮。"
+    ]
+   ]
+  }
+ ],
+ "sympathize": [
+  {
+   "p": "v",
+   "zh": "同情、體諒",
+   "t": [
+    62679,
+    410618
+   ],
+   "ai": [
+    [
+     "I sympathize with parents who have to work two jobs.",
+     "我同情那些得打兩份工的父母。"
+    ]
+   ]
+  }
+ ],
+ "bewilder": [
+  {
+   "p": "v",
+   "zh": "使混亂、使困惑",
+   "ai": [
+    [
+     "The complicated map bewildered the tourists.",
+     "複雜的地圖讓遊客一頭霧水。"
+    ],
+    [
+     "His sudden anger bewildered his family.",
+     "他突如其來的憤怒讓家人困惑不已。"
+    ]
+   ]
+  }
+ ],
+ "absorbing": [
+  {
+   "p": "adj",
+   "zh": "引人入勝的",
+   "ai": [
+    [
+     "It was an absorbing novel that I couldn't put down.",
+     "那是一本引人入勝、讓我放不下的小說。"
+    ],
+    [
+     "The documentary was absorbing from beginning to end.",
+     "這部紀錄片從頭到尾都很吸引人。"
+    ]
+   ]
+  }
+ ],
+ "aggression": [
+  {
+   "p": "n",
+   "zh": "侵略、侵犯",
+   "t": [
+    1539022,
+    758865
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "攻擊性、好鬥",
+   "ai": [
+    [
+     "Some dogs show aggression toward strangers.",
+     "有些狗對陌生人表現出攻擊性。"
+    ],
+    [
+     "The coach told the players to channel their aggression into the game.",
+     "教練要球員把他們的攻擊性轉化到比賽中。"
+    ]
+   ]
+  }
+ ],
+ "agony": [
+  {
+   "p": "n",
+   "zh": "極大的痛苦",
+   "ai": [
+    [
+     "He cried out in agony when the doctor touched his leg.",
+     "醫生一碰到他的腿，他就痛得大叫。"
+    ],
+    [
+     "The family waited in agony for news of the missing boy.",
+     "全家人痛苦地等待著失蹤男孩的消息。"
+    ]
+   ]
+  }
+ ],
+ "alas": [
+  {
+   "p": "int",
+   "zh": "唉、哎呀（表悲傷或遺憾）",
+   "t": [
+    817954
+   ],
+   "ai": [
+    [
+     "I wanted to go to the concert, but, alas, the tickets were sold out.",
+     "我想去聽演唱會，但是唉，票賣完了。"
+    ]
+   ]
+  }
+ ],
+ "avenge": [
+  {
+   "p": "v",
+   "zh": "報仇、復仇",
+   "t": [
+    303299,
+    303301,
+    13559144
+   ]
+  }
+ ],
+ "blameworthy": [
+  {
+   "p": "adj",
+   "zh": "應受責備的",
+   "ai": [
+    [
+     "The driver was not blameworthy because the brakes failed.",
+     "駕駛不應受責備，因為煞車失靈了。"
+    ],
+    [
+     "Nobody is blameworthy for an honest mistake.",
+     "誠實犯下的錯誤不該怪罪於任何人。"
+    ]
+   ]
+  }
+ ],
+ "disbelieve": [
+  {
+   "p": "v",
+   "zh": "不相信、懷疑",
+   "ai": [
+    [
+     "I have no reason to disbelieve her story.",
+     "我沒有理由不相信她的說法。"
+    ],
+    [
+     "Many people disbelieve the claim that the product is completely safe.",
+     "許多人不相信這項產品完全安全的說法。"
+    ]
+   ]
+  }
+ ],
+ "dissatisfaction": [
+  {
+   "p": "n",
+   "zh": "不滿",
+   "t": [
+    5136421,
+    7785199
+   ]
+  }
+ ],
+ "humiliate": [
+  {
+   "p": "v",
+   "zh": "使丟臉、屈辱",
+   "t": [
+    2968820
+   ],
+   "ai": [
+    [
+     "The coach humiliated the player in front of the whole team.",
+     "教練當著全隊的面羞辱那名球員。"
+    ]
+   ]
+  }
+ ],
+ "humorously": [
+  {
+   "p": "adv",
+   "zh": "幽默地",
+   "ai": [
+    [
+     "He humorously described his first day at work.",
+     "他幽默地描述自己上班的第一天。"
+    ],
+    [
+     "The book humorously explains how to survive a family dinner.",
+     "這本書用幽默的筆法說明如何撐過家庭聚餐。"
+    ]
+   ]
+  }
+ ],
+ "manhood": [
+  {
+   "p": "n",
+   "zh": "成年、男子氣概",
+   "ai": [
+    [
+     "The ceremony marked the boys' passage into manhood.",
+     "這個儀式標誌著男孩們邁入成年。"
+    ],
+    [
+     "He felt his manhood was being challenged.",
+     "他覺得自己的男子氣概受到了挑戰。"
+    ]
+   ]
+  }
+ ],
+ "murmur": [
+  {
+   "p": "n",
+   "zh": "低語、潺潺聲",
+   "t": [
+    2230009
+   ],
+   "ai": [
+    [
+     "A murmur of surprise went through the room.",
+     "房間裡響起一陣驚訝的低語聲。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "低聲說、私語",
+   "t": [
+    44656
+   ],
+   "ai": [
+    [
+     "She murmured a prayer before going to sleep.",
+     "她睡前低聲念了一段禱詞。"
+    ]
+   ]
+  }
+ ],
+ "perfection": [
+  {
+   "p": "n",
+   "zh": "完美",
+   "t": [
+    32403,
+    1333449
+   ],
+   "ai": [
+    [
+     "The steak was cooked to perfection.",
+     "那塊牛排煎得恰到好處。"
+    ]
+   ]
+  }
+ ],
+ "shortsighted": [
+  {
+   "p": "adj",
+   "zh": "目光短淺的",
+   "ai": [
+    [
+     "Cutting the education budget is a shortsighted decision.",
+     "削減教育預算是個目光短淺的決定。"
+    ],
+    [
+     "It was shortsighted of him to ignore the long-term costs.",
+     "他忽略了長期成本，實在是目光短淺。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "近視的",
+   "ai": [
+    [
+     "She is shortsighted and cannot read the board without glasses.",
+     "她近視，不戴眼鏡就看不清黑板。"
+    ],
+    [
+     "Many shortsighted children wear glasses.",
+     "許多近視的孩子都戴眼鏡。"
+    ]
+   ]
+  }
+ ],
+ "alienate": [
+  {
+   "p": "v",
+   "zh": "使疏遠、離間",
+   "t": [
+    287813,
+    298990,
+    16788
+   ]
+  }
+ ],
+ "consolation": [
+  {
+   "p": "n",
+   "zh": "慰藉、安慰",
+   "ai": [
+    [
+     "It was a small consolation that nobody was hurt.",
+     "沒有人受傷，多少算是一點安慰。"
+    ],
+    [
+     "She found consolation in music after her loss.",
+     "她在失去親人後從音樂中找到慰藉。"
+    ]
+   ]
+  }
+ ],
+ "despairing": [
+  {
+   "p": "adj",
+   "zh": "絕望的、自暴自棄的",
+   "ai": [
+    [
+     "The despairing farmer watched his crops die in the drought.",
+     "絕望的農夫眼睜睜看著莊稼在乾旱中枯死。"
+    ],
+    [
+     "She sent a despairing look to her friend across the room.",
+     "她向房間另一頭的朋友投去絕望的一瞥。"
+    ]
+   ]
+  }
+ ],
+ "disinterested": [
+  {
+   "p": "adj",
+   "zh": "無私的、公正的",
+   "ai": [
+    [
+     "We need a disinterested judge to settle the dispute.",
+     "我們需要一位公正無私的法官來解決爭端。"
+    ],
+    [
+     "The advice was disinterested; he had nothing to gain.",
+     "這個建議是無私的，他沒有任何好處可得。"
+    ]
+   ]
+  }
+ ],
+ "dismay": [
+  {
+   "p": "n",
+   "zh": "沮喪、驚愕",
+   "t": [
+    5746959
+   ],
+   "ai": [
+    [
+     "To my dismay, the shop was already closed.",
+     "讓我沮喪的是，那家店已經關門了。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使沮喪、使驚愕",
+   "ai": [
+    [
+     "The poor results dismayed the whole team.",
+     "糟糕的成績讓整個團隊沮喪不已。"
+    ],
+    [
+     "We were dismayed to find the road blocked.",
+     "我們發現路被封住了，感到驚愕。"
+    ]
+   ]
+  }
+ ],
+ "gaiety": [
+  {
+   "p": "n",
+   "zh": "愉快、歡樂",
+   "ai": [
+    [
+     "The streets were full of gaiety during the festival.",
+     "節慶期間街上充滿歡樂的氣氛。"
+    ],
+    [
+     "Her gaiety lifted everyone's spirits.",
+     "她的歡樂讓大家的精神都振奮起來。"
+    ]
+   ]
+  }
+ ],
+ "indignation": [
+  {
+   "p": "n",
+   "zh": "憤慨、義憤",
+   "ai": [
+    [
+     "The unfair decision caused public indignation.",
+     "這個不公平的決定引起了眾怒。"
+    ],
+    [
+     "She spoke with indignation about the way workers were treated.",
+     "她憤慨地談起工人受到的對待。"
+    ]
+   ]
+  }
+ ],
+ "irritable": [
+  {
+   "p": "adj",
+   "zh": "易怒的、急躁的",
+   "t": [
+    1790821,
+    2837679
+   ],
+   "ai": [
+    [
+     "The baby gets irritable when he is tired.",
+     "寶寶累了就會鬧脾氣。"
+    ]
+   ]
+  }
+ ],
+ "meek": [
+  {
+   "p": "adj",
+   "zh": "溫順的",
+   "ai": [
+    [
+     "The meek boy never argued with anyone.",
+     "那個溫順的男孩從來不跟人爭執。"
+    ],
+    [
+     "She gave a meek reply and looked at the floor.",
+     "她低聲下氣地回答並看著地板。"
+    ]
+   ]
+  }
+ ],
+ "melancholy": [
+  {
+   "p": "n",
+   "zh": "憂鬱、悲哀",
+   "ai": [
+    [
+     "A feeling of melancholy came over him as autumn arrived.",
+     "秋天一到，他心中湧起一股憂鬱。"
+    ],
+    [
+     "The old song filled her with melancholy.",
+     "那首老歌使她充滿憂傷。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "憂鬱的、令人悲傷的",
+   "ai": [
+    [
+     "He wore a melancholy expression all day.",
+     "他整天都帶著憂鬱的神情。"
+    ],
+    [
+     "The melancholy music matched the rainy evening.",
+     "憂傷的音樂與雨夜十分相配。"
+    ]
+   ]
+  }
+ ],
+ "monotony": [
+  {
+   "p": "n",
+   "zh": "單調、乏味",
+   "ai": [
+    [
+     "She broke the monotony of office work by taking up painting.",
+     "她靠學畫畫來打破辦公室工作的單調。"
+    ],
+    [
+     "The monotony of the long drive made him sleepy.",
+     "長途駕駛的單調讓他昏昏欲睡。"
+    ]
+   ]
+  }
+ ],
+ "mourn": [
+  {
+   "p": "v",
+   "zh": "悲悼、哀悼",
+   "t": [
+    8533307,
+    7791033
+   ],
+   "ai": [
+    [
+     "The whole country mourned the death of the famous singer.",
+     "全國都在哀悼那位知名歌手的逝世。"
+    ]
+   ]
+  }
+ ],
+ "pessimism": [
+  {
+   "p": "n",
+   "zh": "悲觀、悲觀主義",
+   "t": [
+    1502741
+   ],
+   "ai": [
+    [
+     "There is a growing sense of pessimism about the economy.",
+     "人們對經濟的悲觀情緒日益升高。"
+    ],
+    [
+     "Her pessimism made it hard for her to enjoy the trip.",
+     "她的悲觀讓她很難享受這趟旅行。"
+    ]
+   ]
+  }
+ ],
+ "preoccupy": [
+  {
+   "p": "v",
+   "zh": "使掛心、佔據心思",
+   "ai": [
+    [
+     "Money problems preoccupied him all week.",
+     "金錢問題整週佔據了他的心思。"
+    ],
+    [
+     "The upcoming exam preoccupies most of the students.",
+     "即將來臨的考試讓大部分學生心事重重。"
+    ]
+   ]
+  }
+ ],
+ "horrifying": [
+  {
+   "p": "adj",
+   "zh": "駭人的、令人恐懼的",
+   "t": [
+    10625409
+   ],
+   "ai": [
+    [
+     "The photos from the disaster were horrifying.",
+     "災難現場的照片令人毛骨悚然。"
+    ],
+    [
+     "It was a horrifying thought that he might never come home.",
+     "想到他可能再也回不了家，真是可怕。"
+    ]
+   ]
+  }
+ ],
+ "conceited": [
+  {
+   "p": "adj",
+   "zh": "自大的、自負的",
+   "ai": [
+    [
+     "He is so conceited that he thinks everyone admires him.",
+     "他自大到以為每個人都很欽佩他。"
+    ],
+    [
+     "Nobody likes a conceited person who only talks about himself.",
+     "沒有人喜歡只談論自己的自負之人。"
+    ]
+   ]
+  }
+ ],
+ "contemptible": [
+  {
+   "p": "adj",
+   "zh": "卑劣的、可鄙的",
+   "ai": [
+    [
+     "Stealing from the poor is a contemptible act.",
+     "偷窮人的東西是卑劣的行為。"
+    ],
+    [
+     "I think his lies about the accident were contemptible.",
+     "我認為他關於這起事故的謊言很可鄙。"
+    ]
+   ]
+  }
+ ],
+ "cowardice": [
+  {
+   "p": "n",
+   "zh": "膽小、懦弱",
+   "ai": [
+    [
+     "Running away was an act of cowardice.",
+     "逃跑是懦弱的行為。"
+    ],
+    [
+     "He was ashamed of his cowardice during the fire.",
+     "他為自己在火災中的怯懦感到羞愧。"
+    ]
+   ]
+  }
+ ],
+ "humiliation": [
+  {
+   "p": "n",
+   "zh": "蒙羞、羞辱",
+   "ai": [
+    [
+     "He still remembers the humiliation of failing in front of his class.",
+     "他仍記得在全班面前失敗的羞辱。"
+    ],
+    [
+     "The team suffered a humiliation in a 10-0 defeat.",
+     "球隊以 0 比 10 慘敗，備受羞辱。"
+    ]
+   ]
+  }
+ ],
+ "ominous": [
+  {
+   "p": "adj",
+   "zh": "惡兆的、不祥的",
+   "ai": [
+    [
+     "Dark clouds gathered, giving an ominous sign of a storm.",
+     "烏雲聚集，預示著暴風雨即將來臨。"
+    ],
+    [
+     "An ominous silence followed his words.",
+     "他說完後出現了一陣不祥的沉默。"
+    ]
+   ]
+  }
+ ],
+ "sinister": [
+  {
+   "p": "adj",
+   "zh": "陰險的、不祥的",
+   "ai": [
+    [
+     "The stranger gave him a sinister smile.",
+     "那個陌生人對他露出陰險的笑容。"
+    ],
+    [
+     "There was something sinister about the empty house.",
+     "那棟空屋有種不祥的氣氛。"
+    ]
+   ]
+  }
+ ],
+ "ungrateful": [
+  {
+   "p": "adj",
+   "zh": "忘恩負義的",
+   "ai": [
+    [
+     "It's ungrateful to complain after all the help you received.",
+     "得到這麼多幫助之後還抱怨，就是忘恩負義。"
+    ],
+    [
+     "Her ungrateful son never called to say thank you.",
+     "她那個忘恩負義的兒子從來沒打電話道謝。"
+    ]
+   ]
+  }
+ ],
+ "appal": [
+  {
+   "p": "v",
+   "zh": "使驚駭、使震驚",
+   "ai": [
+    [
+     "The cruelty of the crime will appal anyone who reads about it.",
+     "任何讀到這起罪行的人都會為其殘忍而驚駭。"
+    ],
+    [
+     "Such wasteful spending would appal most taxpayers.",
+     "這種浪費的開支會讓大多數納稅人感到震驚。"
+    ]
+   ]
+  }
+ ],
+ "appalling": [
+  {
+   "p": "adj",
+   "zh": "令人震撼的、駭人的",
+   "ai": [
+    [
+     "The prisoners lived in appalling conditions.",
+     "囚犯們生活在駭人的環境中。"
+    ],
+    [
+     "His behavior at the party was appalling.",
+     "他在派對上的行為令人震驚。"
+    ]
+   ]
+  }
+ ],
+ "malicious": [
+  {
+   "p": "adj",
+   "zh": "存心不良的、惡意的",
+   "t": [
+    2186969
+   ],
+   "ai": [
+    [
+     "She spread malicious gossip about her coworkers.",
+     "她散播關於同事的惡意流言。"
+    ],
+    [
+     "The fire was the result of a malicious act.",
+     "這場火災是惡意縱火的結果。"
+    ]
+   ]
+  }
+ ],
+ "hysterical": [
+  {
+   "p": "adj",
+   "zh": "歇斯底里的、情緒失控的",
+   "ai": [
+    [
+     "The hysterical crowd rushed toward the exit.",
+     "歇斯底里的群眾衝向出口。"
+    ],
+    [
+     "She became hysterical when she heard the news.",
+     "她聽到消息時情緒失控了。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "極其好笑的",
+   "ai": [
+    [
+     "The comedian's story was absolutely hysterical.",
+     "那位喜劇演員的故事實在笑死人了。"
+    ],
+    [
+     "We watched a hysterical movie last night.",
+     "我們昨晚看了一部超爆笑的電影。"
+    ]
+   ]
+  }
+ ],
+ "conceitedly": [
+  {
+   "p": "adv",
+   "zh": "自負地",
+   "ai": [
+    [
+     "He conceitedly announced that he was the best player on the team.",
+     "他自負地宣稱自己是隊上最好的球員。"
+    ],
+    [
+     "She smiled conceitedly at the praise.",
+     "她得意自負地對讚美微笑。"
+    ]
+   ]
+  }
+ ],
+ "nostalgia": [
+  {
+   "p": "n",
+   "zh": "懷舊、懷念之情",
+   "ai": [
+    [
+     "The old photographs filled him with nostalgia.",
+     "那些老照片讓他充滿懷舊之情。"
+    ],
+    [
+     "She felt a wave of nostalgia for her school days.",
+     "她對學生時代湧起一陣懷念之情。"
+    ]
+   ]
+  }
+ ]
+}

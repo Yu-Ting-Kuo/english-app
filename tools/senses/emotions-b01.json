@@ -1,0 +1,1540 @@
+{
+ "jealous": [
+  {
+   "p": "adj",
+   "zh": "嫉妒的、吃醋的",
+   "t": [
+    322990,
+    2871339,
+    274738
+   ]
+  }
+ ],
+ "pessimistic": [
+  {
+   "p": "adj",
+   "zh": "悲觀的",
+   "t": [
+    3603648,
+    5938033,
+    1193327
+   ]
+  }
+ ],
+ "repulsive": [
+  {
+   "p": "adj",
+   "zh": "令人反感的、令人厭惡的",
+   "ai": [
+    [
+     "The smell of the rotten food was absolutely repulsive.",
+     "腐壞食物的味道實在令人作嘔。"
+    ],
+    [
+     "I found his arrogant attitude repulsive.",
+     "我覺得他那種傲慢的態度令人反感。"
+    ]
+   ]
+  }
+ ],
+ "startle": [
+  {
+   "p": "v",
+   "zh": "使嚇一跳、驚嚇",
+   "t": [
+    11892998,
+    10044290
+   ],
+   "ai": [
+    [
+     "The sudden noise startled the baby.",
+     "突然的聲響嚇到了嬰兒。"
+    ]
+   ]
+  }
+ ],
+ "tranquility": [
+  {
+   "p": "n",
+   "zh": "平靜、寧靜",
+   "ai": [
+    [
+     "She enjoyed the tranquility of the countryside.",
+     "她享受鄉間的寧靜。"
+    ],
+    [
+     "The lake was a place of perfect tranquility.",
+     "那座湖是個絕對寧靜的地方。"
+    ]
+   ]
+  }
+ ],
+ "rave": [
+  {
+   "p": "v",
+   "zh": "熱烈讚美",
+   "ai": [
+    [
+     "Critics raved about the new film.",
+     "評論家對這部新電影讚不絕口。"
+    ],
+    [
+     "Everyone is raving about the new restaurant downtown.",
+     "大家都在熱烈稱讚市中心那家新餐廳。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "胡言亂語、狂暴地說",
+   "t": [
+    9622320
+   ],
+   "ai": [
+    [
+     "The patient was raving and could not recognize anyone.",
+     "病人胡言亂語，認不得任何人。"
+    ]
+   ]
+  }
+ ],
+ "fondness": [
+  {
+   "p": "n",
+   "zh": "鍾愛、喜愛",
+   "t": [
+    294183
+   ],
+   "ai": [
+    [
+     "She has a deep fondness for her grandmother's cooking.",
+     "她特別喜愛外婆做的菜。"
+    ]
+   ]
+  }
+ ],
+ "fascination": [
+  {
+   "p": "n",
+   "zh": "入迷、著迷",
+   "ai": [
+    [
+     "Children watched the magician with fascination.",
+     "孩子們看魔術師表演看得入迷。"
+    ],
+    [
+     "He has a lifelong fascination with space.",
+     "他一輩子都對太空著迷。"
+    ]
+   ]
+  }
+ ],
+ "hideous": [
+  {
+   "p": "adj",
+   "zh": "醜惡的、令人不忍卒睹的",
+   "ai": [
+    [
+     "The monster in the movie was hideous.",
+     "電影裡的怪物醜得嚇人。"
+    ],
+    [
+     "They were shocked by the hideous crime.",
+     "那起駭人的罪行令他們震驚。"
+    ]
+   ]
+  }
+ ],
+ "absurd": [
+  {
+   "p": "adj",
+   "zh": "荒謬的、可笑的",
+   "t": [
+    42030,
+    7801494,
+    17991
+   ]
+  }
+ ],
+ "ingenious": [
+  {
+   "p": "adj",
+   "zh": "有巧思的、巧妙的",
+   "t": [
+    11272588
+   ],
+   "ai": [
+    [
+     "She came up with an ingenious solution to the problem.",
+     "她想出了一個解決問題的巧妙辦法。"
+    ]
+   ]
+  }
+ ],
+ "impartial": [
+  {
+   "p": "adj",
+   "zh": "不偏袒的、公正的",
+   "ai": [
+    [
+     "A judge must remain impartial during the trial.",
+     "法官在審判期間必須保持公正。"
+    ],
+    [
+     "We need an impartial witness to tell us what happened.",
+     "我們需要一位公正的證人來說明發生了什麼事。"
+    ]
+   ]
+  }
+ ],
+ "impulsive": [
+  {
+   "p": "adj",
+   "zh": "衝動的",
+   "ai": [
+    [
+     "He is an impulsive person who often buys things he doesn't need.",
+     "他是個衝動的人，常常買下不需要的東西。"
+    ],
+    [
+     "It was an impulsive decision, and I regret it now.",
+     "那是個衝動的決定，我現在很後悔。"
+    ]
+   ]
+  }
+ ],
+ "irritated": [
+  {
+   "p": "adj",
+   "zh": "被激怒的、煩躁的",
+   "t": [
+    6438174,
+    319851
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "發炎的、疼痛的",
+   "ai": [
+    [
+     "My eyes are red and irritated from the smoke.",
+     "我的眼睛被煙燻得又紅又痛。"
+    ],
+    [
+     "The irritated skin needs a few days to heal.",
+     "發炎的皮膚需要幾天才會痊癒。"
+    ]
+   ]
+  }
+ ],
+ "eclipse": [
+  {
+   "p": "n",
+   "zh": "日蝕、月蝕",
+   "t": [
+    238848,
+    3552394,
+    1293228
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使黯然失色、遮蔽",
+   "ai": [
+    [
+     "Her talent eclipsed that of all the other singers.",
+     "她的才華使所有其他歌手黯然失色。"
+    ],
+    [
+     "The moon eclipsed the sun for a few minutes.",
+     "月亮遮住了太陽幾分鐘。"
+    ]
+   ]
+  }
+ ],
+ "brag": [
+  {
+   "p": "v",
+   "zh": "自誇、吹噓",
+   "t": [
+    7915493,
+    8303610
+   ],
+   "ai": [
+    [
+     "He likes to brag about how much money he makes.",
+     "他喜歡吹噓自己賺了多少錢。"
+    ]
+   ]
+  }
+ ],
+ "complacent": [
+  {
+   "p": "adj",
+   "zh": "自滿的",
+   "ai": [
+    [
+     "We can't afford to be complacent about safety.",
+     "我們不能對安全問題自滿。"
+    ],
+    [
+     "After winning twice, the team became complacent.",
+     "連贏兩次之後，球隊變得自滿。"
+    ]
+   ]
+  }
+ ],
+ "combative": [
+  {
+   "p": "adj",
+   "zh": "好戰的、好鬥的",
+   "ai": [
+    [
+     "He was in a combative mood and ready for an argument.",
+     "他心情好鬥，準備跟人吵一架。"
+    ],
+    [
+     "The two leaders had a combative exchange on live television.",
+     "兩位領導人在電視直播中進行了針鋒相對的交鋒。"
+    ]
+   ]
+  }
+ ],
+ "conceit": [
+  {
+   "p": "n",
+   "zh": "自負、自滿",
+   "t": [
+    2971521
+   ],
+   "ai": [
+    [
+     "His conceit made it hard for him to accept advice.",
+     "他的自負讓他很難接受別人的建議。"
+    ]
+   ]
+  }
+ ],
+ "contentment": [
+  {
+   "p": "n",
+   "zh": "滿意、滿足",
+   "t": [
+    240833,
+    1269266
+   ]
+  }
+ ],
+ "delighted": [
+  {
+   "p": "adj",
+   "zh": "欣喜的、愉快的",
+   "t": [
+    71174,
+    1838379,
+    5352101
+   ]
+  }
+ ],
+ "detest": [
+  {
+   "p": "v",
+   "zh": "憎恨、厭惡",
+   "t": [
+    3918572,
+    1972218
+   ],
+   "ai": [
+    [
+     "I detest cold weather and long winters.",
+     "我討厭寒冷的天氣和漫長的冬天。"
+    ]
+   ]
+  }
+ ],
+ "despair": [
+  {
+   "p": "n",
+   "zh": "絕望",
+   "t": [
+    316747,
+    13153656,
+    4838307
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "感到絕望、對…失去希望",
+   "ai": [
+    [
+     "Don't despair; things will get better soon.",
+     "別絕望，情況很快就會好轉的。"
+    ],
+    [
+     "She despaired of ever finding her lost dog.",
+     "她對找回走失的狗已不抱任何希望。"
+    ]
+   ]
+  }
+ ],
+ "devoted": [
+  {
+   "p": "adj",
+   "zh": "摯愛的、忠實的",
+   "t": [
+    13237524
+   ],
+   "ai": [
+    [
+     "He is a devoted husband and a loving father.",
+     "他是個摯愛妻子又疼愛孩子的好丈夫。"
+    ],
+    [
+     "She remained devoted to her family until the end.",
+     "她到最後都始終忠於她的家人。"
+    ]
+   ]
+  }
+ ],
+ "entice": [
+  {
+   "p": "v",
+   "zh": "誘惑、引誘",
+   "ai": [
+    [
+     "The smell of fresh bread enticed us into the bakery.",
+     "剛出爐麵包的香味把我們引進了麵包店。"
+    ],
+    [
+     "The store enticed customers with big discounts.",
+     "那家店用大幅折扣來吸引顧客。"
+    ]
+   ]
+  }
+ ],
+ "esteem": [
+  {
+   "p": "n",
+   "zh": "尊敬、好評",
+   "ai": [
+    [
+     "She is held in high esteem by her colleagues.",
+     "她深受同事敬重。"
+    ],
+    [
+     "Praise from teachers can raise a child's self-esteem.",
+     "老師的稱讚可以提升孩子的自尊心。"
+    ]
+   ]
+  }
+ ],
+ "whim": [
+  {
+   "p": "n",
+   "zh": "突然的念頭、一時的興致",
+   "ai": [
+    [
+     "On a whim, we decided to drive to the beach.",
+     "我們一時興起，決定開車去海邊。"
+    ],
+    [
+     "He bought the car on a whim.",
+     "他一時興起就買下了那輛車。"
+    ]
+   ]
+  }
+ ],
+ "humanity": [
+  {
+   "p": "n",
+   "zh": "人類",
+   "t": [
+    25412,
+    63419,
+    877881
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "人性、人道、慈愛",
+   "ai": [
+    [
+     "The doctor treated every patient with humanity and respect.",
+     "那位醫生以人道和尊重的態度對待每位病人。"
+    ],
+    [
+     "The soldier showed great humanity toward the prisoners.",
+     "那名士兵對俘虜展現了極大的人道精神。"
+    ]
+   ]
+  }
+ ],
+ "lyric": [
+  {
+   "p": "n",
+   "zh": "歌詞（常用複數 lyrics）",
+   "t": [
+    2592904
+   ],
+   "ai": [
+    [
+     "I know the melody, but I forgot the lyrics.",
+     "我記得旋律，但忘了歌詞。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "抒情的",
+   "ai": [
+    [
+     "He wrote lyric poems about the sea.",
+     "他寫了一些關於大海的抒情詩。"
+    ],
+    [
+     "She has a beautiful lyric voice.",
+     "她有一副優美的抒情嗓音。"
+    ]
+   ]
+  }
+ ],
+ "instrumental": [
+  {
+   "p": "adj",
+   "zh": "有幫助的、起重要作用的",
+   "ai": [
+    [
+     "She was instrumental in getting the project approved.",
+     "她對這項計畫能獲得批准起了重要作用。"
+    ],
+    [
+     "His advice was instrumental to our success.",
+     "他的建議對我們的成功很有幫助。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "樂器演奏的、器樂的",
+   "t": [
+    321747
+   ],
+   "ai": [
+    [
+     "The album has both vocal and instrumental songs.",
+     "這張專輯同時有人聲演唱和純樂器演奏的歌曲。"
+    ]
+   ]
+  }
+ ],
+ "invisible": [
+  {
+   "p": "adj",
+   "zh": "看不見的、無形的",
+   "t": [
+    6551474,
+    18231,
+    26518
+   ]
+  }
+ ],
+ "wicked": [
+  {
+   "p": "adj",
+   "zh": "邪惡的、缺德的",
+   "t": [
+    28613,
+    41612
+   ],
+   "ai": [
+    [
+     "The wicked king punished anyone who disagreed with him.",
+     "那個邪惡的國王懲罰任何不同意他的人。"
+    ]
+   ]
+  }
+ ],
+ "prerequisite": [
+  {
+   "p": "n",
+   "zh": "先決條件、必備條件",
+   "t": [
+    7773801
+   ],
+   "ai": [
+    [
+     "A college degree is a prerequisite for this job.",
+     "大學學歷是這份工作的必要條件。"
+    ]
+   ]
+  }
+ ],
+ "intimate": [
+  {
+   "p": "adj",
+   "zh": "親密的、熟悉的",
+   "t": [
+    4728285
+   ],
+   "ai": [
+    [
+     "They have been intimate friends since childhood.",
+     "他們從小就是親密的朋友。"
+    ],
+    [
+     "The restaurant has a warm and intimate atmosphere.",
+     "那家餐廳的氣氛溫馨又親切。"
+    ]
+   ]
+  }
+ ],
+ "deadly": [
+  {
+   "p": "adj",
+   "zh": "致命的、致死的",
+   "t": [
+    764188,
+    11272815,
+    13575932
+   ]
+  }
+ ],
+ "dumb": [
+  {
+   "p": "adj",
+   "zh": "愚笨的、愚蠢的",
+   "t": [
+    3142734,
+    2799083,
+    712263
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "啞的、不能說話的",
+   "t": [
+    33855,
+    478574
+   ]
+  }
+ ],
+ "hollow": [
+  {
+   "p": "adj",
+   "zh": "空的、中空的",
+   "t": [
+    63325,
+    8310274
+   ],
+   "ai": [
+    [
+     "Bamboo is hollow inside.",
+     "竹子的內部是中空的。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "空虛的、虛偽的",
+   "t": [
+    2108
+   ],
+   "ai": [
+    [
+     "His promises sounded hollow to everyone.",
+     "他的承諾聽起來空洞，大家都不相信。"
+    ]
+   ]
+  }
+ ],
+ "promising": [
+  {
+   "p": "adj",
+   "zh": "有希望的、有前途的",
+   "t": [
+    7844500,
+    1565835,
+    300724
+   ]
+  }
+ ],
+ "marvel": [
+  {
+   "p": "n",
+   "zh": "令人驚奇的事物或人物",
+   "t": [
+    43551
+   ],
+   "ai": [
+    [
+     "The new bridge is a marvel of modern engineering.",
+     "這座新橋是現代工程的奇蹟。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "驚嘆、對…感到驚奇",
+   "ai": [
+    [
+     "Visitors marvel at the beauty of the old temple.",
+     "遊客對古老廟宇的美讚嘆不已。"
+    ],
+    [
+     "We marveled at how fast the child learned to read.",
+     "我們對那孩子學會閱讀的速度之快感到驚奇。"
+    ]
+   ]
+  }
+ ],
+ "chic": [
+  {
+   "p": "adj",
+   "zh": "別緻的、時髦的",
+   "ai": [
+    [
+     "She looked chic in her simple black dress.",
+     "她穿著簡單的黑色洋裝，看起來時髦又別緻。"
+    ],
+    [
+     "They opened a chic little café near the station.",
+     "他們在車站附近開了一家別緻的小咖啡館。"
+    ]
+   ]
+  }
+ ],
+ "delightful": [
+  {
+   "p": "adj",
+   "zh": "令人愉快的、令人高興的",
+   "t": [
+    5726611,
+    406479
+   ],
+   "ai": [
+    [
+     "The children were delightful company at dinner.",
+     "孩子們在晚餐時是令人愉快的陪伴。"
+    ]
+   ]
+  }
+ ],
+ "fury": [
+  {
+   "p": "n",
+   "zh": "狂怒、暴怒",
+   "ai": [
+    [
+     "She shook with fury when she read the letter.",
+     "她讀完那封信後氣得渾身發抖。"
+    ],
+    [
+     "His fury was obvious to everyone in the room.",
+     "他的暴怒讓房間裡的每個人都看得出來。"
+    ]
+   ]
+  }
+ ],
+ "depressed": [
+  {
+   "p": "adj",
+   "zh": "沮喪的、消沉的、憂鬱的",
+   "t": [
+    2544584,
+    26718,
+    29952
+   ]
+  }
+ ],
+ "haunted": [
+  {
+   "p": "adj",
+   "zh": "鬧鬼的",
+   "t": [
+    59382,
+    9216858,
+    5568129
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "被困擾的、心有陰影的",
+   "ai": [
+    [
+     "He was haunted by memories of the war.",
+     "戰爭的回憶一直困擾著他。"
+    ],
+    [
+     "She had a haunted look in her eyes.",
+     "她的眼神裡帶著揮不去的陰影。"
+    ]
+   ]
+  }
+ ],
+ "notorious": [
+  {
+   "p": "adj",
+   "zh": "惡名昭彰的",
+   "t": [
+    10537154,
+    1928
+   ]
+  }
+ ],
+ "mock": [
+  {
+   "p": "v",
+   "zh": "嘲笑、嘲弄",
+   "t": [
+    12624921
+   ],
+   "ai": [
+    [
+     "Some students mocked him for his accent.",
+     "有些學生嘲笑他的口音。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "模擬的、假的",
+   "t": [
+    322663
+   ],
+   "ai": [
+    [
+     "Students took a mock exam before the real test.",
+     "學生們在正式考試前先參加了模擬考。"
+    ]
+   ]
+  }
+ ],
+ "ignorant": [
+  {
+   "p": "adj",
+   "zh": "無知的、不知情的",
+   "t": [
+    254306,
+    274822,
+    1497643
+   ]
+  }
+ ],
+ "queer": [
+  {
+   "p": "adj",
+   "zh": "古怪的",
+   "t": [
+    290175,
+    1046758
+   ],
+   "ai": [
+    [
+     "There was a queer smell coming from the basement.",
+     "地下室傳來一股怪味。"
+    ]
+   ]
+  }
+ ],
+ "stern": [
+  {
+   "p": "adj",
+   "zh": "嚴厲的、堅定的",
+   "t": [
+    11994496
+   ],
+   "ai": [
+    [
+     "The teacher gave the noisy class a stern look.",
+     "老師對吵鬧的班級投以嚴厲的眼神。"
+    ]
+   ]
+  }
+ ],
+ "blunt": [
+  {
+   "p": "adj",
+   "zh": "直率的、不留情面的",
+   "ai": [
+    [
+     "To be blunt, your essay needs a lot of work.",
+     "說得直接一點，你的作文需要大幅修改。"
+    ],
+    [
+     "He is known for his blunt way of speaking.",
+     "他以說話直來直往而聞名。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "鈍的",
+   "t": [
+    498428
+   ],
+   "ai": [
+    [
+     "Cut the bread with a sharp knife, not a blunt one.",
+     "切麵包要用鋒利的刀，不要用鈍的。"
+    ]
+   ]
+  }
+ ],
+ "questionable": [
+  {
+   "p": "adj",
+   "zh": "可疑的、成問題的",
+   "t": [
+    59023
+   ],
+   "ai": [
+    [
+     "The company's accounting methods are questionable.",
+     "那家公司的會計做法有疑問。"
+    ]
+   ]
+  }
+ ],
+ "peculiar": [
+  {
+   "p": "adj",
+   "zh": "奇怪的、特殊的",
+   "t": [
+    60454,
+    9776074
+   ],
+   "ai": [
+    [
+     "He has a peculiar way of walking.",
+     "他走路的樣子很奇特。"
+    ]
+   ]
+  }
+ ],
+ "obsession": [
+  {
+   "p": "n",
+   "zh": "著迷、揮之不去的念頭",
+   "t": [
+    13896796
+   ],
+   "ai": [
+    [
+     "Her obsession with cleanliness affects her daily life.",
+     "她對清潔的執著影響了她的日常生活。"
+    ],
+    [
+     "Fame has become an obsession for him.",
+     "名氣已成為他念念不忘的執念。"
+    ]
+   ]
+  }
+ ],
+ "righteous": [
+  {
+   "p": "adj",
+   "zh": "正直的、正當的",
+   "ai": [
+    [
+     "He felt righteous anger at the unfair treatment.",
+     "他對這種不公平的對待感到正義的憤怒。"
+    ],
+    [
+     "She was a righteous woman who always helped the poor.",
+     "她是個正直的女人，總是幫助窮人。"
+    ]
+   ]
+  }
+ ],
+ "eclectic": [
+  {
+   "p": "adj",
+   "zh": "不拘一格的、兼收並蓄的",
+   "ai": [
+    [
+     "She has an eclectic taste in music, from jazz to folk.",
+     "她的音樂品味兼容並蓄，從爵士到民謠都聽。"
+    ],
+    [
+     "The shop sells an eclectic mix of old and new furniture.",
+     "這家店賣的新舊家具風格混搭、不拘一格。"
+    ]
+   ]
+  }
+ ],
+ "splendid": [
+  {
+   "p": "adj",
+   "zh": "燦爛的、傑出的",
+   "t": [
+    54772,
+    36032,
+    816085
+   ]
+  }
+ ],
+ "misery": [
+  {
+   "p": "n",
+   "zh": "痛苦、悲慘",
+   "t": [
+    287383
+   ],
+   "ai": [
+    [
+     "The war brought misery to millions of people.",
+     "戰爭給數百萬人帶來痛苦。"
+    ]
+   ]
+  }
+ ],
+ "envy": [
+  {
+   "p": "n",
+   "zh": "妒忌、羨慕",
+   "t": [
+    17022
+   ],
+   "ai": [
+    [
+     "She looked at his new house with envy.",
+     "她以羨慕的眼神看著他的新房子。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "羨慕、妒忌",
+   "t": [
+    306073,
+    4225688,
+    17185
+   ]
+  }
+ ],
+ "desperately": [
+  {
+   "p": "adv",
+   "zh": "絕望地、拼命地",
+   "t": [
+    3436813
+   ],
+   "ai": [
+    [
+     "He looked desperately for a way out.",
+     "他拼命尋找出路。"
+    ],
+    [
+     "The lost hikers waved desperately for help.",
+     "迷路的登山客絕望地揮手求救。"
+    ]
+   ]
+  }
+ ],
+ "vain": [
+  {
+   "p": "adj",
+   "zh": "徒然的、白費的（常用 in vain）",
+   "t": [
+    23353,
+    305272,
+    2062574
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "愛虛榮的、自負的",
+   "ai": [
+    [
+     "He is so vain that he checks his hair in every window.",
+     "他愛慕虛榮到每扇窗戶都要照一下頭髮。"
+    ],
+    [
+     "She was too vain to admit she needed glasses.",
+     "她太愛面子，不肯承認自己需要戴眼鏡。"
+    ]
+   ]
+  }
+ ],
+ "imaginary": [
+  {
+   "p": "adj",
+   "zh": "虛構的、幻想的",
+   "t": [
+    57262,
+    325503,
+    4287286
+   ]
+  }
+ ],
+ "captive": [
+  {
+   "p": "adj",
+   "zh": "被俘的、被囚禁的",
+   "t": [
+    3723593
+   ],
+   "ai": [
+    [
+     "The soldiers were held captive for two months.",
+     "那些士兵被囚禁了兩個月。"
+    ]
+   ]
+  }
+ ],
+ "vicious": [
+  {
+   "p": "adj",
+   "zh": "惡意的、惡毒的、凶惡的",
+   "t": [
+    2154
+   ],
+   "ai": [
+    [
+     "The vicious dog attacked the postman.",
+     "那隻凶惡的狗攻擊了郵差。"
+    ],
+    [
+     "He spread vicious rumors about his rival.",
+     "他散布關於對手的惡毒謠言。"
+    ]
+   ]
+  }
+ ],
+ "bounty": [
+  {
+   "p": "n",
+   "zh": "慷慨的贈予；賞金",
+   "t": [
+    1502740
+   ],
+   "ai": [
+    [
+     "The government offered a bounty for catching the thief.",
+     "政府懸賞緝捕那名小偷。"
+    ]
+   ]
+  }
+ ],
+ "tolerant": [
+  {
+   "p": "adj",
+   "zh": "寬容的、容忍的",
+   "t": [
+    765400
+   ],
+   "ai": [
+    [
+     "She is tolerant of other people's opinions.",
+     "她能包容別人的意見。"
+    ]
+   ]
+  }
+ ],
+ "furious": [
+  {
+   "p": "adj",
+   "zh": "狂怒的",
+   "t": [
+    8566801,
+    71747,
+    1637786
+   ]
+  }
+ ],
+ "moist": [
+  {
+   "p": "adj",
+   "zh": "潮濕的、微濕的",
+   "t": [
+    22267
+   ],
+   "ai": [
+    [
+     "Keep the soil moist but not wet.",
+     "讓土壤保持濕潤但不要積水。"
+    ],
+    [
+     "The cake was soft and moist.",
+     "這個蛋糕又軟又濕潤。"
+    ]
+   ]
+  }
+ ],
+ "sympathetic": [
+  {
+   "p": "adj",
+   "zh": "同情的、有同情心的",
+   "ai": [
+    [
+     "The nurse was kind and sympathetic to the patients.",
+     "護理師對病人很親切又有同情心。"
+    ],
+    [
+     "I'm sympathetic to your situation, but I can't help.",
+     "我同情你的處境，但我幫不上忙。"
+    ]
+   ]
+  }
+ ],
+ "filth": [
+  {
+   "p": "n",
+   "zh": "骯髒、汙物",
+   "t": [
+    318603
+   ],
+   "ai": [
+    [
+     "The street was covered in filth after the festival.",
+     "慶典結束後，街上滿是髒污。"
+    ]
+   ]
+  }
+ ],
+ "outrageous": [
+  {
+   "p": "adj",
+   "zh": "令人吃驚的、無法無天的、可恥的",
+   "ai": [
+    [
+     "The price of the hotel room was outrageous.",
+     "那間旅館的房價貴得離譜。"
+    ],
+    [
+     "It is outrageous that he was never punished.",
+     "他從未受到懲罰，這實在令人憤慨。"
+    ]
+   ]
+  }
+ ],
+ "contempt": [
+  {
+   "p": "n",
+   "zh": "輕視、輕蔑",
+   "t": [
+    1565758
+   ],
+   "ai": [
+    [
+     "He looked at the cheater with contempt.",
+     "他以輕蔑的眼神看著那個作弊的人。"
+    ]
+   ]
+  }
+ ],
+ "insult": [
+  {
+   "p": "v",
+   "zh": "侮辱、羞辱",
+   "t": [
+    887224,
+    5853783,
+    6221953
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "侮辱、無禮的言行",
+   "t": [
+    1681405
+   ],
+   "ai": [
+    [
+     "Being called lazy was an insult to him.",
+     "被說懶惰對他來說是一種侮辱。"
+    ]
+   ]
+  }
+ ],
+ "obsessed": [
+  {
+   "p": "adj",
+   "zh": "著迷的、無法擺脫的",
+   "t": [
+    1474147,
+    63805,
+    13545922
+   ]
+  }
+ ],
+ "pathetic": [
+  {
+   "p": "adj",
+   "zh": "可憐的、可悲的",
+   "ai": [
+    [
+     "The puppy looked so pathetic in the rain.",
+     "那隻小狗在雨中看起來好可憐。"
+    ],
+    [
+     "That was a pathetic excuse, and nobody believed it.",
+     "那是個可悲的藉口，沒有人相信。"
+    ]
+   ]
+  }
+ ],
+ "sanity": [
+  {
+   "p": "n",
+   "zh": "精神健全、神智清醒",
+   "ai": [
+    [
+     "After months of stress, he began to fear for his sanity.",
+     "經過數個月的壓力，他開始擔心自己的精神狀態。"
+    ],
+    [
+     "Take a break to keep your sanity.",
+     "休息一下，才能保持你的理智。"
+    ]
+   ]
+  }
+ ],
+ "confess": [
+  {
+   "p": "v",
+   "zh": "坦白、供認、承認",
+   "t": [
+    1095230,
+    254103,
+    298536
+   ]
+  }
+ ],
+ "disregard": [
+  {
+   "p": "v",
+   "zh": "漠視、不顧",
+   "t": [
+    13559135,
+    303761
+   ],
+   "ai": [
+    [
+     "Please disregard my last email; it was sent by mistake.",
+     "請忽略我上一封郵件，那是誤寄的。"
+    ]
+   ]
+  }
+ ],
+ "allegiance": [
+  {
+   "p": "n",
+   "zh": "忠誠、效忠",
+   "t": [
+    25630,
+    6583861
+   ]
+  }
+ ],
+ "glowing": [
+  {
+   "p": "adj",
+   "zh": "灼熱的、鮮豔的；熱烈讚美的",
+   "ai": [
+    [
+     "The glowing embers kept us warm all night.",
+     "發紅發熱的餘燼讓我們整夜保持溫暖。"
+    ],
+    [
+     "The film received glowing reviews from critics.",
+     "這部電影獲得了評論家的熱烈好評。"
+    ]
+   ]
+  }
+ ],
+ "restless": [
+  {
+   "p": "adj",
+   "zh": "焦躁不安的、不得安寧的",
+   "t": [
+    2359091,
+    7805709,
+    4736844
+   ]
+  }
+ ],
+ "creep": [
+  {
+   "p": "v",
+   "zh": "躡手躡腳地走、緩慢爬行",
+   "t": [
+    1577408
+   ],
+   "ai": [
+    [
+     "The cat crept slowly toward the bird.",
+     "那隻貓慢慢地悄悄靠近那隻鳥。"
+    ],
+    [
+     "Ivy had crept up the walls of the old house.",
+     "常春藤爬滿了老房子的牆面。"
+    ]
+   ]
+  }
+ ],
+ "exemplary": [
+  {
+   "p": "adj",
+   "zh": "模範的、可作榜樣的",
+   "t": [
+    2580841
+   ],
+   "ai": [
+    [
+     "She received an award for her exemplary service.",
+     "她因表現堪稱模範的服務而獲獎。"
+    ]
+   ]
+  }
+ ],
+ "pollutant": [
+  {
+   "p": "n",
+   "zh": "汙染物",
+   "ai": [
+    [
+     "Cars release harmful pollutants into the air.",
+     "汽車把有害的汙染物排放到空氣中。"
+    ],
+    [
+     "The factory was fined for dumping pollutants into the river.",
+     "那家工廠因為把汙染物排入河中而被罰款。"
+    ]
+   ]
+  }
+ ],
+ "intuition": [
+  {
+   "p": "n",
+   "zh": "直覺",
+   "t": [
+    301664
+   ],
+   "ai": [
+    [
+     "Women's intuition is said to be strong, but it is often just careful observation.",
+     "人們常說女性的直覺很強，但那往往只是細心觀察的結果。"
+    ]
+   ]
+  }
+ ],
+ "slippery": [
+  {
+   "p": "adj",
+   "zh": "容易滑的、濕滑的",
+   "t": [
+    10631799,
+    837412,
+    11290545
+   ]
+  }
+ ],
+ "ironic": [
+  {
+   "p": "adj",
+   "zh": "具有諷刺意味的、諷刺的",
+   "t": [
+    2545854
+   ],
+   "ai": [
+    [
+     "It's ironic that the fire station burned down.",
+     "消防局竟然被燒毀，真是諷刺。"
+    ]
+   ]
+  }
+ ],
+ "crooked": [
+  {
+   "p": "adj",
+   "zh": "彎曲的、歪的",
+   "t": [
+    4752836
+   ],
+   "ai": [
+    [
+     "The picture on the wall is crooked.",
+     "牆上的那幅畫掛歪了。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "欺詐的、不正派的",
+   "ai": [
+    [
+     "The mayor was a crooked politician who took bribes.",
+     "那位市長是個收受賄賂的不正派政客。"
+    ],
+    [
+     "They were caught in a crooked business deal.",
+     "他們被抓到涉及一樁不正當的生意。"
+    ]
+   ]
+  }
+ ],
+ "withstand": [
+  {
+   "p": "v",
+   "zh": "抵擋、禁得起",
+   "t": [
+    2898136
+   ],
+   "ai": [
+    [
+     "The old bridge cannot withstand heavy trucks.",
+     "這座老橋承受不住重型卡車。"
+    ]
+   ]
+  }
+ ],
+ "marvelous": [
+  {
+   "p": "adj",
+   "zh": "極好的、奇妙的",
+   "t": [
+    251424,
+    51847
+   ],
+   "ai": [
+    [
+     "We had a marvelous time at the festival.",
+     "我們在慶典上玩得非常開心。"
+    ]
+   ]
+  }
+ ],
+ "vigorous": [
+  {
+   "p": "adj",
+   "zh": "精力充沛的、強而有力的",
+   "ai": [
+    [
+     "He is a vigorous old man who still runs every morning.",
+     "他是個精力充沛的老人，每天早上還跑步。"
+    ],
+    [
+     "The committee launched a vigorous campaign against pollution.",
+     "委員會展開了強而有力的反汙染運動。"
+    ]
+   ]
+  }
+ ],
+ "menace": [
+  {
+   "p": "n",
+   "zh": "威脅、危害",
+   "ai": [
+    [
+     "Drunk drivers are a menace to everyone on the road.",
+     "酒駕者是對路上所有人的威脅。"
+    ],
+    [
+     "The new law aims to protect citizens from the menace of crime.",
+     "新法律旨在保護市民免受犯罪的威脅。"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,788 @@
+{
+ "blush": [
+  {
+   "p": "v",
+   "zh": "臉紅",
+   "t": [
+    33213,
+    45344,
+    757623
+   ]
+  }
+ ],
+ "temper": [
+  {
+   "p": "n",
+   "zh": "脾氣、情緒（常用 lose one's temper）",
+   "t": [
+    3046496,
+    298809,
+    767703
+   ]
+  }
+ ],
+ "obscene": [
+  {
+   "p": "adj",
+   "zh": "猥褻的、淫穢的、令人厭惡的",
+   "t": [
+    474605
+   ],
+   "ai": [
+    [
+     "The film was banned for its obscene content.",
+     "這部電影因內容猥褻而被禁演。"
+    ],
+    [
+     "He was fined for making obscene gestures at the referee.",
+     "他因對裁判做出下流手勢而被罰款。"
+    ]
+   ]
+  }
+ ],
+ "cute": [
+  {
+   "p": "adj",
+   "zh": "可愛的",
+   "t": [
+    1423277,
+    13366885,
+    493935
+   ]
+  }
+ ],
+ "liking": [
+  {
+   "p": "n",
+   "zh": "愛好、喜愛",
+   "t": [
+    296081,
+    302122,
+    2259701
+   ]
+  }
+ ],
+ "tired": [
+  {
+   "p": "adj",
+   "zh": "疲倦的、累的",
+   "t": [
+    16795,
+    37762,
+    259169
+   ]
+  }
+ ],
+ "scared": [
+  {
+   "p": "adj",
+   "zh": "害怕的、受驚嚇的",
+   "t": [
+    252213,
+    317323,
+    8555021
+   ]
+  }
+ ],
+ "bored": [
+  {
+   "p": "adj",
+   "zh": "感到厭煩的、無聊的",
+   "t": [
+    939286,
+    1178285,
+    260617
+   ]
+  }
+ ],
+ "drunk": [
+  {
+   "p": "adj",
+   "zh": "喝醉的",
+   "t": [
+    7168036,
+    8102674,
+    681922
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "醉漢",
+   "t": [
+    8955299
+   ],
+   "ai": [
+    [
+     "A drunk was sleeping on the bench outside the station.",
+     "一個醉漢睡在車站外的長椅上。"
+    ]
+   ]
+  }
+ ],
+ "loving": [
+  {
+   "p": "adj",
+   "zh": "充滿愛的、有愛心的",
+   "t": [
+    9419700,
+    6106970
+   ],
+   "ai": [
+    [
+     "She grew up in a warm and loving family.",
+     "她在一個溫暖又充滿愛的家庭中長大。"
+    ]
+   ]
+  }
+ ],
+ "merry": [
+  {
+   "p": "adj",
+   "zh": "歡樂的、愉快的",
+   "t": [
+    46461,
+    62819,
+    1320234
+   ]
+  }
+ ],
+ "scary": [
+  {
+   "p": "adj",
+   "zh": "可怕的、嚇人的",
+   "t": [
+    387498,
+    662797,
+    402805
+   ]
+  }
+ ],
+ "surprised": [
+  {
+   "p": "adj",
+   "zh": "感到驚奇的、驚訝的",
+   "t": [
+    400222,
+    3634816,
+    18661
+   ]
+  }
+ ],
+ "happily": [
+  {
+   "p": "adv",
+   "zh": "幸福地、快樂地",
+   "t": [
+    44634,
+    5313681,
+    10198203
+   ]
+  }
+ ],
+ "pleased": [
+  {
+   "p": "adj",
+   "zh": "高興的、滿意的",
+   "t": [
+    1930568,
+    12259789,
+    306592
+   ]
+  }
+ ],
+ "pity": [
+  {
+   "p": "n",
+   "zh": "可惜、遺憾",
+   "t": [
+    17783,
+    7156654,
+    2267433
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "憐憫、同情",
+   "t": [
+    260979
+   ],
+   "ai": [
+    [
+     "I pity anyone who has to work with him.",
+     "我同情任何得跟他共事的人。"
+    ]
+   ]
+  }
+ ],
+ "innocence": [
+  {
+   "p": "n",
+   "zh": "清白、無罪",
+   "t": [
+    28939,
+    309789,
+    257121
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "純真、天真無邪",
+   "t": [
+    1375
+   ],
+   "ai": [
+    [
+     "The children's innocence made everyone smile.",
+     "孩子們的天真讓大家都露出微笑。"
+    ]
+   ]
+  }
+ ],
+ "fond": [
+  {
+   "p": "adj",
+   "zh": "喜愛的、愛好的（常用 fond of）",
+   "t": [
+    291883,
+    21804,
+    249148
+   ]
+  }
+ ],
+ "foolish": [
+  {
+   "p": "adj",
+   "zh": "愚蠢的、荒謬的",
+   "t": [
+    16668,
+    17751,
+    66914
+   ]
+  }
+ ],
+ "joyful": [
+  {
+   "p": "adj",
+   "zh": "高興的、令人高興的",
+   "t": [
+    2826390
+   ],
+   "ai": [
+    [
+     "The wedding was a joyful occasion for the whole family.",
+     "婚禮對全家人來說是個歡樂的場合。"
+    ]
+   ]
+  }
+ ],
+ "lonely": [
+  {
+   "p": "adj",
+   "zh": "寂寞的、孤單的",
+   "t": [
+    3756402,
+    8735426,
+    386841
+   ]
+  }
+ ],
+ "charming": [
+  {
+   "p": "adj",
+   "zh": "有魅力的、迷人的",
+   "t": [
+    539523,
+    16136,
+    7830244
+   ]
+  }
+ ],
+ "cheerful": [
+  {
+   "p": "adj",
+   "zh": "興高采烈的、開朗的",
+   "t": [
+    309223,
+    2301467,
+    300559
+   ]
+  }
+ ],
+ "confused": [
+  {
+   "p": "adj",
+   "zh": "困惑的、混亂的",
+   "t": [
+    286565,
+    6425982,
+    2713212
+   ]
+  }
+ ],
+ "faithful": [
+  {
+   "p": "adj",
+   "zh": "忠誠的",
+   "t": [
+    277560
+   ],
+   "ai": [
+    [
+     "He remained faithful to his wife throughout his life.",
+     "他一生都對妻子忠誠。"
+    ],
+    [
+     "The dog was a faithful companion to the old man.",
+     "那隻狗是老人忠實的伴侶。"
+    ]
+   ]
+  }
+ ],
+ "joyous": [
+  {
+   "p": "adj",
+   "zh": "快樂的、令人高興的",
+   "ai": [
+    [
+     "The town held a joyous celebration after the team won.",
+     "球隊獲勝後，全鎮舉行了歡樂的慶祝活動。"
+    ],
+    [
+     "They sang joyous songs all night.",
+     "他們整晚都在唱歡樂的歌。"
+    ]
+   ]
+  }
+ ],
+ "lively": [
+  {
+   "p": "adj",
+   "zh": "活潑的、熱鬧的",
+   "t": [
+    6559109,
+    13805341,
+    551529
+   ]
+  }
+ ],
+ "rude": [
+  {
+   "p": "adj",
+   "zh": "不禮貌的、粗魯的",
+   "t": [
+    240515,
+    268338,
+    41588
+   ]
+  }
+ ],
+ "surprising": [
+  {
+   "p": "adj",
+   "zh": "使人驚訝的",
+   "t": [
+    5732000,
+    433508,
+    1256959
+   ]
+  }
+ ],
+ "thankful": [
+  {
+   "p": "adj",
+   "zh": "感謝的、感激的",
+   "t": [
+    1238326
+   ],
+   "ai": [
+    [
+     "We are thankful for your help.",
+     "我們很感謝你的幫忙。"
+    ],
+    [
+     "She was thankful that nobody was hurt.",
+     "她慶幸沒有人受傷。"
+    ]
+   ]
+  }
+ ],
+ "willing": [
+  {
+   "p": "adj",
+   "zh": "願意的、樂意的",
+   "t": [
+    7436843,
+    1319985,
+    4008748
+   ]
+  }
+ ],
+ "inviting": [
+  {
+   "p": "adj",
+   "zh": "吸引人的、誘人的",
+   "t": [
+    42761
+   ],
+   "ai": [
+    [
+     "The smell of fresh coffee was warm and inviting.",
+     "現煮咖啡的香味溫暖又誘人。"
+    ],
+    [
+     "The cozy living room looked very inviting.",
+     "那間舒適的客廳看起來很讓人想進去坐坐。"
+    ]
+   ]
+  }
+ ],
+ "dread": [
+  {
+   "p": "v",
+   "zh": "害怕、懼怕",
+   "t": [
+    280243,
+    12615331
+   ],
+   "ai": [
+    [
+     "I dread going to the dentist.",
+     "我很怕去看牙醫。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "恐懼、畏懼",
+   "ai": [
+    [
+     "She lived in constant dread of losing her job.",
+     "她始終活在怕丟掉工作的恐懼中。"
+    ],
+    [
+     "He waited for the exam results with dread.",
+     "他懷著恐懼等待考試成績。"
+    ]
+   ]
+  }
+ ],
+ "carefree": [
+  {
+   "p": "adj",
+   "zh": "無憂無慮的",
+   "t": [
+    7776807
+   ],
+   "ai": [
+    [
+     "Summer vacation is a carefree time for children.",
+     "暑假對孩子來說是無憂無慮的時光。"
+    ]
+   ]
+  }
+ ],
+ "greed": [
+  {
+   "p": "n",
+   "zh": "貪婪",
+   "t": [
+    11236398
+   ],
+   "ai": [
+    [
+     "His greed for money destroyed his friendships.",
+     "他對金錢的貪婪毀了他的友誼。"
+    ]
+   ]
+  }
+ ],
+ "indifferent": [
+  {
+   "p": "adj",
+   "zh": "漠不關心的、冷淡的",
+   "t": [
+    281719,
+    259261,
+    7885847
+   ]
+  }
+ ],
+ "insecure": [
+  {
+   "p": "adj",
+   "zh": "缺乏安全感的、不安的",
+   "t": [
+    314688,
+    1600996
+   ],
+   "ai": [
+    [
+     "He felt insecure about his looks.",
+     "他對自己的外表沒有自信。"
+    ]
+   ]
+  }
+ ],
+ "selfish": [
+  {
+   "p": "adj",
+   "zh": "自私的",
+   "t": [
+    249993,
+    21690,
+    317393
+   ]
+  }
+ ],
+ "worried": [
+  {
+   "p": "adj",
+   "zh": "煩惱的、擔心的",
+   "t": [
+    510191,
+    33830,
+    40222
+   ]
+  }
+ ],
+ "contented": [
+  {
+   "p": "adj",
+   "zh": "滿足的",
+   "t": [
+    240781,
+    318750
+   ]
+  }
+ ],
+ "lovable": [
+  {
+   "p": "adj",
+   "zh": "討人喜愛的",
+   "ai": [
+    [
+     "Everyone loves the lovable old dog next door.",
+     "每個人都喜歡隔壁那隻討人喜愛的老狗。"
+    ],
+    [
+     "He is a lovable boy with a big smile.",
+     "他是個笑容燦爛、討人喜歡的男孩。"
+    ]
+   ]
+  }
+ ],
+ "sarcastic": [
+  {
+   "p": "adj",
+   "zh": "諷刺的、挖苦的",
+   "t": [
+    3409435,
+    4756022
+   ]
+  }
+ ],
+ "sorrow": [
+  {
+   "p": "n",
+   "zh": "悲傷",
+   "t": [
+    3467948,
+    36654,
+    309647
+   ]
+  }
+ ],
+ "stubborn": [
+  {
+   "p": "adj",
+   "zh": "固執的、倔強的",
+   "t": [
+    253060,
+    2892896,
+    7782264
+   ]
+  }
+ ],
+ "admirable": [
+  {
+   "p": "adj",
+   "zh": "令人欽佩的",
+   "ai": [
+    [
+     "She showed admirable courage during the crisis.",
+     "她在危機中展現了令人欽佩的勇氣。"
+    ],
+    [
+     "His honesty is admirable.",
+     "他的誠實令人欽佩。"
+    ]
+   ]
+  }
+ ],
+ "compassionate": [
+  {
+   "p": "adj",
+   "zh": "有同情心的、慈悲的",
+   "ai": [
+    [
+     "The compassionate nurse stayed with the frightened child.",
+     "有同情心的護理師陪著受驚的孩子。"
+    ],
+    [
+     "He is a compassionate man who gives to charity every month.",
+     "他是個很有同情心的人，每個月都捐款做慈善。"
+    ]
+   ]
+  }
+ ],
+ "disapproval": [
+  {
+   "p": "n",
+   "zh": "不贊成、反對",
+   "ai": [
+    [
+     "She shook her head in disapproval.",
+     "她搖頭表示不贊成。"
+    ],
+    [
+     "His father showed his disapproval by saying nothing.",
+     "他父親用沉默表示不贊成。"
+    ]
+   ]
+  }
+ ],
+ "disapprove": [
+  {
+   "p": "v",
+   "zh": "不贊成、反對",
+   "ai": [
+    [
+     "His parents disapprove of his plan to quit school.",
+     "他的父母不贊成他輟學的計畫。"
+    ],
+    [
+     "I strongly disapprove of smoking in public places.",
+     "我強烈反對在公共場所吸菸。"
+    ]
+   ]
+  }
+ ],
+ "discouraging": [
+  {
+   "p": "adj",
+   "zh": "令人洩氣的",
+   "ai": [
+    [
+     "The test results were very discouraging.",
+     "測驗結果非常令人沮喪。"
+    ],
+    [
+     "It's discouraging to work so hard and get no reward.",
+     "這麼努力卻沒有回報，真令人洩氣。"
+    ]
+   ]
+  }
+ ],
+ "distrust": [
+  {
+   "p": "v",
+   "zh": "不信任",
+   "t": [
+    2358936
+   ],
+   "ai": [
+    [
+     "Many people distrust politicians.",
+     "很多人不信任政客。"
+    ]
+   ]
+  }
+ ],
+ "encouraging": [
+  {
+   "p": "adj",
+   "zh": "有激勵作用的、令人鼓舞的",
+   "t": [
+    2953656,
+    5736336
+   ],
+   "ai": [
+    [
+     "The teacher gave him some encouraging words.",
+     "老師對他說了一些鼓勵的話。"
+    ]
+   ]
+  }
+ ],
+ "guilt": [
+  {
+   "p": "n",
+   "zh": "內疚、罪惡感",
+   "t": [
+    308728,
+    296836
+   ],
+   "ai": [
+    [
+     "She was filled with guilt after lying to her friend.",
+     "她對朋友說謊後充滿了罪惡感。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "罪行、有罪",
+   "t": [
+    300612,
+    296839,
+    298868
+   ]
+  }
+ ],
+ "homesick": [
+  {
+   "p": "adj",
+   "zh": "想家的、思鄉的",
+   "t": [
+    5582498,
+    4500065,
+    33712
+   ]
+  }
+ ],
+ "hopeful": [
+  {
+   "p": "adj",
+   "zh": "充滿希望的",
+   "t": [
+    258626
+   ],
+   "ai": [
+    [
+     "The doctor was hopeful that she would recover soon.",
+     "醫生對她很快康復抱有希望。"
+    ],
+    [
+     "We are hopeful about the future of the company.",
+     "我們對公司的未來充滿希望。"
+    ]
+   ]
+  }
+ ],
+ "horrify": [
+  {
+   "p": "v",
+   "zh": "使恐懼、使震驚",
+   "ai": [
+    [
+     "The violent scenes in the film horrified the audience.",
+     "電影中暴力的場面讓觀眾心驚膽戰。"
+    ],
+    [
+     "The news of the accident horrified everyone.",
+     "意外的消息讓每個人都嚇壞了。"
+    ]
+   ]
+  }
+ ]
+}
