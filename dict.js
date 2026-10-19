@@ -101,7 +101,7 @@ const Dict = (() => {
 
   async function loadChineseIndex() {
     if (!zhIndexLoading) {
-      zhIndexLoading = fetchJSON('dict/zh-index.json').then(data => {
+      zhIndexLoading = fetchJSON('dict/zh-index.json?v=3').then(data => {
         if (!data?.words || !data?.grams) throw Object.assign(new Error('中文反查索引格式錯誤'), { code: 'index' });
         zhIndex = data;
         return data;
