@@ -1,20 +1,17 @@
 {
   "category": "旅遊 (travel)",
-  "requestedCount": 197,
-  "providedCount": 192,
-  "includedCount": 192,
-  "unprovidedListNumbers": [
-    193,
-    194,
-    195,
-    196,
-    197
+  "sourceAttachmentItems": 192,
+  "followupItems": 5,
+  "uniqueChecklistWords": 195,
+  "followupDuplicatesAlreadyInAttachment": [
+    "exotic",
+    "en route"
   ],
-  "topicEntryCount": 193,
+  "topicEntryCount": 196,
   "levelCounts": {
-    "初階": 75,
-    "中階": 94,
-    "進階": 23
+    "初階": 76,
+    "中階": 96,
+    "進階": 24
   },
   "items": [
     {
@@ -409,6 +406,16 @@
     },
     {
       "id": "travel_040",
+      "word": "carry-on",
+      "partOfSpeech": "noun[C]",
+      "meaning": "隨身行李",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 283,
+      "section": "旅遊規劃、交通與住宿"
+    },
+    {
+      "id": "travel_041",
       "word": "janitor",
       "partOfSpeech": "noun[C]",
       "meaning": "清潔工；管理員；看門人",
@@ -418,7 +425,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_041",
+      "id": "travel_042",
       "word": "mat",
       "partOfSpeech": "noun",
       "meaning": "地蓆；草蓆；墊子",
@@ -428,7 +435,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_042",
+      "id": "travel_043",
       "word": "obstacle",
       "partOfSpeech": "noun[C]",
       "meaning": "障礙；阻礙",
@@ -438,7 +445,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_043",
+      "id": "travel_044",
       "word": "pamphlet",
       "partOfSpeech": "noun[C]",
       "meaning": "手冊",
@@ -448,7 +455,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_044",
+      "id": "travel_045",
       "word": "resort",
       "partOfSpeech": "noun[C]",
       "meaning": "渡假勝地；訴諸",
@@ -458,7 +465,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_045",
+      "id": "travel_046",
       "word": "windmill",
       "partOfSpeech": "noun",
       "meaning": "風車；風力發電機",
@@ -468,7 +475,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_046",
+      "id": "travel_047",
       "word": "explicit",
       "partOfSpeech": "adj.",
       "meaning": "明確的；詳盡的；清楚的",
@@ -478,7 +485,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_047",
+      "id": "travel_048",
       "word": "fertile",
       "partOfSpeech": "adj.",
       "meaning": "肥沃的；豐富的",
@@ -488,7 +495,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_048",
+      "id": "travel_049",
       "word": "vivid",
       "partOfSpeech": "adj.",
       "meaning": "鮮豔的；鮮明的；生動逼真的",
@@ -498,7 +505,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_049",
+      "id": "travel_050",
       "word": "tour",
       "partOfSpeech": "vi./vt.",
       "meaning": "導覽；巡迴",
@@ -508,7 +515,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_050",
+      "id": "travel_051",
       "word": "faculty",
       "partOfSpeech": "noun[C]",
       "meaning": "全體教員；能力",
@@ -518,7 +525,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_051",
+      "id": "travel_052",
       "word": "mission",
       "partOfSpeech": "noun[C]",
       "meaning": "使節團;使命,任務",
@@ -528,7 +535,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_052",
+      "id": "travel_053",
       "word": "bear",
       "partOfSpeech": "vt.",
       "meaning": "熊；忍受",
@@ -538,7 +545,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_053",
+      "id": "travel_054",
       "word": "scene",
       "partOfSpeech": "noun[C]",
       "meaning": "景色;場面",
@@ -548,7 +555,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_054",
+      "id": "travel_055",
       "word": "crystal",
       "partOfSpeech": "noun[C/U]",
       "meaning": "水晶的",
@@ -558,7 +565,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_055",
+      "id": "travel_056",
       "word": "toll",
       "partOfSpeech": "noun[C]",
       "meaning": "通行費;長途電話費;傷亡人數;鐘聲",
@@ -568,7 +575,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_056",
+      "id": "travel_057",
       "word": "cape",
       "partOfSpeech": "noun",
       "meaning": "披風；海角",
@@ -578,7 +585,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_057",
+      "id": "travel_058",
       "word": "lounge",
       "partOfSpeech": "noun[C]",
       "meaning": "(旅館等的)會客廳;候機室;躺椅",
@@ -588,7 +595,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_058",
+      "id": "travel_059",
       "word": "ridge",
       "partOfSpeech": "noun",
       "meaning": "屋脊;山脈;(狹長的)隆起部",
@@ -598,7 +605,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_059",
+      "id": "travel_060",
       "word": "spray",
       "partOfSpeech": "noun[C/U]",
       "meaning": "浪花;噴霧",
@@ -608,7 +615,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_060",
+      "id": "travel_061",
       "word": "yard",
       "partOfSpeech": "noun[C]",
       "meaning": "庭院;碼(3英呎)",
@@ -618,7 +625,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_061",
+      "id": "travel_062",
       "word": "tourist",
       "partOfSpeech": "adj.",
       "meaning": "旅遊者,觀光者",
@@ -628,7 +635,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_062",
+      "id": "travel_063",
       "word": "mayor",
       "partOfSpeech": "noun[C]",
       "meaning": "市長,鎮長",
@@ -638,7 +645,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_063",
+      "id": "travel_064",
       "word": "pour",
       "partOfSpeech": "vi./vt.",
       "meaning": "倒,灌,注",
@@ -648,7 +655,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_064",
+      "id": "travel_065",
       "word": "lodging",
       "partOfSpeech": "noun",
       "meaning": "寄宿，借宿；住所，寓所",
@@ -658,7 +665,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_065",
+      "id": "travel_066",
       "word": "seasonal",
       "partOfSpeech": "adj.",
       "meaning": "季節的；季節性的；週期性的",
@@ -668,7 +675,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_066",
+      "id": "travel_067",
       "word": "trek",
       "partOfSpeech": "vi.",
       "meaning": "(長途而辛苦的)旅行或移居",
@@ -678,7 +685,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_067",
+      "id": "travel_068",
       "word": "broadcasting",
       "partOfSpeech": "noun",
       "meaning": "(電臺、電視臺的)廣播；播放；廣播員",
@@ -688,7 +695,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_068",
+      "id": "travel_069",
       "word": "superb",
       "partOfSpeech": "adj.",
       "meaning": "宏偉的;華麗的;上乘的,一流的",
@@ -698,7 +705,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_069",
+      "id": "travel_070",
       "word": "buzz",
       "partOfSpeech": "noun",
       "meaning": "嗡嗡聲",
@@ -708,7 +715,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_070",
+      "id": "travel_071",
       "word": "transparent",
       "partOfSpeech": "adj.",
       "meaning": "透明的;一目了然的;易懂的",
@@ -718,7 +725,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_071",
+      "id": "travel_072",
       "word": "boom",
       "partOfSpeech": "noun[C]",
       "meaning": "繁榮;激增",
@@ -728,7 +735,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_072",
+      "id": "travel_073",
       "word": "inappropriate",
       "partOfSpeech": "adj.",
       "meaning": "不適當的",
@@ -738,7 +745,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_073",
+      "id": "travel_074",
       "word": "exhaust",
       "partOfSpeech": "noun[U]",
       "meaning": "排氣；廢氣",
@@ -748,7 +755,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_074",
+      "id": "travel_075",
       "word": "jungle",
       "partOfSpeech": "noun",
       "meaning": "(熱帶)叢林,密林",
@@ -758,7 +765,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_075",
+      "id": "travel_076",
       "word": "oval",
       "partOfSpeech": "adj.",
       "meaning": "卵形的;橢圓形的",
@@ -768,7 +775,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_076",
+      "id": "travel_077",
       "word": "accommodate",
       "partOfSpeech": "vt.",
       "meaning": "能容納;能提供...膳宿;給...方便",
@@ -778,7 +785,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_077",
+      "id": "travel_078",
       "word": "aurora",
       "partOfSpeech": "noun",
       "meaning": "曙光；極光",
@@ -788,7 +795,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_078",
+      "id": "travel_079",
       "word": "shade",
       "partOfSpeech": "noun[U]",
       "meaning": "蔭;陰涼處;陰暗",
@@ -798,7 +805,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_079",
+      "id": "travel_080",
       "word": "fountain",
       "partOfSpeech": "noun[C]",
       "meaning": "泉水;噴泉;水源",
@@ -808,7 +815,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_080",
+      "id": "travel_081",
       "word": "fog",
       "partOfSpeech": "noun[C/U]",
       "meaning": "霧",
@@ -818,7 +825,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_081",
+      "id": "travel_082",
       "word": "shed",
       "partOfSpeech": "noun[C]",
       "meaning": "小棚；脫落；去除",
@@ -828,7 +835,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_082",
+      "id": "travel_083",
       "word": "tide",
       "partOfSpeech": "noun[C/U]",
       "meaning": "潮汐;潮水",
@@ -838,7 +845,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_083",
+      "id": "travel_084",
       "word": "reel",
       "partOfSpeech": "noun",
       "meaning": "捲軸；踉蹌",
@@ -848,7 +855,7 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_084",
+      "id": "travel_085",
       "word": "sheer",
       "partOfSpeech": "adj.",
       "meaning": "全然的;(紡織物)極薄的;陡峭的",
@@ -858,7 +865,17 @@
       "section": "觀光景點與風景"
     },
     {
-      "id": "travel_085",
+      "id": "travel_086",
+      "word": "breathtaking",
+      "partOfSpeech": "adj.",
+      "meaning": "令人屏息的；壯麗得令人驚嘆的",
+      "category": "旅遊 (travel)",
+      "level": "進階",
+      "frequencyRank": 10110,
+      "section": "觀光景點與風景"
+    },
+    {
+      "id": "travel_087",
       "word": "bind",
       "partOfSpeech": "vt.",
       "meaning": "綁住；捆綁",
@@ -868,7 +885,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_086",
+      "id": "travel_088",
       "word": "buck",
       "partOfSpeech": "noun",
       "meaning": "雄鹿；美元；尬腳子",
@@ -878,7 +895,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_087",
+      "id": "travel_089",
       "word": "boulder",
       "partOfSpeech": "noun",
       "meaning": "卵石，大圓石；巨礫",
@@ -888,7 +905,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_088",
+      "id": "travel_090",
       "word": "texture",
       "partOfSpeech": "noun[C/U]",
       "meaning": "(織物的)結構;質地;紋理;肌理",
@@ -898,7 +915,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_089",
+      "id": "travel_091",
       "word": "miniature",
       "partOfSpeech": "noun",
       "meaning": "小型的;小規模的",
@@ -908,7 +925,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_090",
+      "id": "travel_092",
       "word": "hawk",
       "partOfSpeech": "noun[C]",
       "meaning": "鷹,隼",
@@ -918,7 +935,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_091",
+      "id": "travel_093",
       "word": "lamb",
       "partOfSpeech": "noun",
       "meaning": "小羊",
@@ -928,7 +945,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_092",
+      "id": "travel_094",
       "word": "magnitude",
       "partOfSpeech": "noun[U]",
       "meaning": "巨大;重大;強度",
@@ -938,7 +955,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_093",
+      "id": "travel_095",
       "word": "scenic",
       "partOfSpeech": "adj.",
       "meaning": "風景的;景色秀麗的",
@@ -948,7 +965,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_094",
+      "id": "travel_096",
       "word": "flavor",
       "partOfSpeech": "noun[C/U]",
       "meaning": "味,味道",
@@ -958,7 +975,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_095",
+      "id": "travel_097",
       "word": "alike",
       "partOfSpeech": "adj.",
       "meaning": "相似的",
@@ -968,7 +985,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_096",
+      "id": "travel_098",
       "word": "bite",
       "partOfSpeech": "noun[C]",
       "meaning": "咬,叮",
@@ -978,7 +995,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_097",
+      "id": "travel_099",
       "word": "mileage",
       "partOfSpeech": "noun[U]",
       "meaning": "總英里數;(每單位燃料的)行駛哩數",
@@ -988,7 +1005,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_098",
+      "id": "travel_100",
       "word": "idle",
       "partOfSpeech": "adj.",
       "meaning": "閒置的；懶散的",
@@ -998,7 +1015,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_099",
+      "id": "travel_101",
       "word": "ozone",
       "partOfSpeech": "noun",
       "meaning": "臭氧",
@@ -1008,7 +1025,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_100",
+      "id": "travel_102",
       "word": "cathedral",
       "partOfSpeech": "noun",
       "meaning": "大教堂",
@@ -1018,7 +1035,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_101",
+      "id": "travel_103",
       "word": "destiny",
       "partOfSpeech": "noun",
       "meaning": "命運;天數",
@@ -1028,7 +1045,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_102",
+      "id": "travel_104",
       "word": "generous",
       "partOfSpeech": "adj.",
       "meaning": "慷慨的",
@@ -1038,7 +1055,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_103",
+      "id": "travel_105",
       "word": "token",
       "partOfSpeech": "noun",
       "meaning": "標誌;象徵;代價券;籌碼",
@@ -1048,7 +1065,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_104",
+      "id": "travel_106",
       "word": "sacrifice",
       "partOfSpeech": "vi./vt.",
       "meaning": "犧牲",
@@ -1058,7 +1075,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_105",
+      "id": "travel_107",
       "word": "reservoir",
       "partOfSpeech": "noun[C]",
       "meaning": "蓄水庫;貯水池",
@@ -1068,7 +1085,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_106",
+      "id": "travel_108",
       "word": "helicopter",
       "partOfSpeech": "noun[C]",
       "meaning": "直昇機",
@@ -1078,7 +1095,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_107",
+      "id": "travel_109",
       "word": "breeze",
       "partOfSpeech": "noun",
       "meaning": "微風",
@@ -1088,7 +1105,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_108",
+      "id": "travel_110",
       "word": "saddle",
       "partOfSpeech": "noun",
       "meaning": "馬鞍;(自行車、摩托車的)車座",
@@ -1098,7 +1115,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_109",
+      "id": "travel_111",
       "word": "odyssey",
       "partOfSpeech": "noun",
       "meaning": "奧德賽；漫長冒險旅程",
@@ -1108,7 +1125,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_110",
+      "id": "travel_112",
       "word": "guideline",
       "partOfSpeech": "noun[C]",
       "meaning": "指南;指導方針",
@@ -1118,7 +1135,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_111",
+      "id": "travel_113",
       "word": "bucket",
       "partOfSpeech": "noun[C]",
       "meaning": "水桶",
@@ -1128,7 +1145,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_112",
+      "id": "travel_114",
       "word": "hike",
       "partOfSpeech": "noun[C]",
       "meaning": "徒步旅行",
@@ -1138,7 +1155,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_113",
+      "id": "travel_115",
       "word": "volcano",
       "partOfSpeech": "noun[C]",
       "meaning": "火山",
@@ -1148,7 +1165,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_114",
+      "id": "travel_116",
       "word": "avalanche",
       "partOfSpeech": "noun",
       "meaning": "雪崩；山崩；突然大量帶來的事物",
@@ -1158,7 +1175,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_115",
+      "id": "travel_117",
       "word": "herd",
       "partOfSpeech": "noun",
       "meaning": "畜群;牧群",
@@ -1168,7 +1185,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_116",
+      "id": "travel_118",
       "word": "submarine",
       "partOfSpeech": "noun",
       "meaning": "潛艇",
@@ -1178,7 +1195,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_117",
+      "id": "travel_119",
       "word": "swamp",
       "partOfSpeech": "noun",
       "meaning": "沼澤;沼澤地;困境",
@@ -1188,7 +1205,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_118",
+      "id": "travel_120",
       "word": "imposing",
       "partOfSpeech": "adj.",
       "meaning": "壯觀的;氣勢宏偉的;莊嚴的",
@@ -1198,7 +1215,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_119",
+      "id": "travel_121",
       "word": "flashlight",
       "partOfSpeech": "noun",
       "meaning": "手電筒",
@@ -1208,7 +1225,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_120",
+      "id": "travel_122",
       "word": "plague",
       "partOfSpeech": "noun[C/U]",
       "meaning": "瘟疫;天災;禍患",
@@ -1218,7 +1235,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_121",
+      "id": "travel_123",
       "word": "limestone",
       "partOfSpeech": "noun",
       "meaning": "石灰岩，石灰石",
@@ -1228,7 +1245,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_122",
+      "id": "travel_124",
       "word": "dragonfly",
       "partOfSpeech": "noun",
       "meaning": "蜻蜓",
@@ -1238,7 +1255,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_123",
+      "id": "travel_125",
       "word": "chunk",
       "partOfSpeech": "noun[C]",
       "meaning": "(肉、木材等的)大塊;厚片",
@@ -1248,7 +1265,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_124",
+      "id": "travel_126",
       "word": "refundable",
       "partOfSpeech": "adj.",
       "meaning": "可退還的；可償還的",
@@ -1258,7 +1275,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_125",
+      "id": "travel_127",
       "word": "billboard",
       "partOfSpeech": "noun",
       "meaning": "廣告牌",
@@ -1268,7 +1285,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_126",
+      "id": "travel_128",
       "word": "cyclone",
       "partOfSpeech": "noun",
       "meaning": "氣旋；旋風；暴風；龍卷風",
@@ -1278,7 +1295,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_127",
+      "id": "travel_129",
       "word": "blizzard",
       "partOfSpeech": "noun",
       "meaning": "大風雪",
@@ -1288,7 +1305,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_128",
+      "id": "travel_130",
       "word": "tumble",
       "partOfSpeech": "vi.",
       "meaning": "跌跤;墜落",
@@ -1298,7 +1315,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_129",
+      "id": "travel_131",
       "word": "aisle",
       "partOfSpeech": "noun[C]",
       "meaning": "通道;走道",
@@ -1308,7 +1325,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_130",
+      "id": "travel_132",
       "word": "blur",
       "partOfSpeech": "vt.",
       "meaning": "模糊;模糊不清的事物",
@@ -1318,7 +1335,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_131",
+      "id": "travel_133",
       "word": "pasture",
       "partOfSpeech": "noun",
       "meaning": "牧草地，放牧場；牧草",
@@ -1328,7 +1345,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_132",
+      "id": "travel_134",
       "word": "souvenir",
       "partOfSpeech": "noun[C]",
       "meaning": "紀念品,紀念物",
@@ -1338,7 +1355,7 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_133",
+      "id": "travel_135",
       "word": "outing",
       "partOfSpeech": "noun",
       "meaning": "遠足;郊遊",
@@ -1348,7 +1365,17 @@
       "section": "戶外活動與自然環境"
     },
     {
-      "id": "travel_134",
+      "id": "travel_136",
+      "word": "expedition",
+      "partOfSpeech": "noun",
+      "meaning": "探險；考察旅行",
+      "category": "旅遊 (travel)",
+      "level": "中階",
+      "frequencyRank": 4361,
+      "section": "戶外活動與自然環境"
+    },
+    {
+      "id": "travel_137",
       "word": "air",
       "partOfSpeech": "noun[U]",
       "meaning": "空氣；空中",
@@ -1358,7 +1385,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_135",
+      "id": "travel_138",
       "word": "bee",
       "partOfSpeech": "noun",
       "meaning": "蜜蜂",
@@ -1368,7 +1395,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_136",
+      "id": "travel_139",
       "word": "beach",
       "partOfSpeech": "noun[C]",
       "meaning": "海灘",
@@ -1378,7 +1405,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_137",
+      "id": "travel_140",
       "word": "hotel",
       "partOfSpeech": "noun[C]",
       "meaning": "旅館；飯店",
@@ -1388,7 +1415,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_138",
+      "id": "travel_141",
       "word": "lake",
       "partOfSpeech": "noun[C]",
       "meaning": "湖",
@@ -1398,7 +1425,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_139",
+      "id": "travel_142",
       "word": "map",
       "partOfSpeech": "noun[C]",
       "meaning": "地圖",
@@ -1408,7 +1435,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_140",
+      "id": "travel_143",
       "word": "river",
       "partOfSpeech": "noun[C]",
       "meaning": "河流",
@@ -1418,7 +1445,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_141",
+      "id": "travel_144",
       "word": "inn",
       "partOfSpeech": "noun",
       "meaning": "小旅館；客棧",
@@ -1428,7 +1455,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_142",
+      "id": "travel_145",
       "word": "island",
       "partOfSpeech": "noun[C]",
       "meaning": "島",
@@ -1438,7 +1465,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_143",
+      "id": "travel_146",
       "word": "bird",
       "partOfSpeech": "noun[C]",
       "meaning": "鳥",
@@ -1448,7 +1475,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_144",
+      "id": "travel_147",
       "word": "look",
       "partOfSpeech": "vi.",
       "meaning": "看",
@@ -1458,7 +1485,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_145",
+      "id": "travel_148",
       "word": "sea",
       "partOfSpeech": "noun[C/U]",
       "meaning": "海；海洋",
@@ -1468,7 +1495,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_146",
+      "id": "travel_149",
       "word": "mountain",
       "partOfSpeech": "noun[C]",
       "meaning": "山",
@@ -1478,7 +1505,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_147",
+      "id": "travel_150",
       "word": "holiday",
       "partOfSpeech": "noun[C]",
       "meaning": "假日",
@@ -1488,7 +1515,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_148",
+      "id": "travel_151",
       "word": "ticket",
       "partOfSpeech": "noun[C]",
       "meaning": "票",
@@ -1498,7 +1525,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_149",
+      "id": "travel_152",
       "word": "muddy",
       "partOfSpeech": "adj.",
       "meaning": "泥的；骯髒的",
@@ -1508,7 +1535,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_150",
+      "id": "travel_153",
       "word": "museum",
       "partOfSpeech": "noun[C]",
       "meaning": "博物館",
@@ -1518,7 +1545,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_151",
+      "id": "travel_154",
       "word": "national",
       "partOfSpeech": "adj.",
       "meaning": "國家的",
@@ -1528,7 +1555,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_152",
+      "id": "travel_155",
       "word": "nature",
       "partOfSpeech": "noun[U]",
       "meaning": "自然",
@@ -1538,7 +1565,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_153",
+      "id": "travel_156",
       "word": "travel",
       "partOfSpeech": "vi.",
       "meaning": "旅行；旅遊",
@@ -1548,7 +1575,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_154",
+      "id": "travel_157",
       "word": "trip",
       "partOfSpeech": "noun[C]",
       "meaning": "(一趟)旅程",
@@ -1558,7 +1585,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_155",
+      "id": "travel_158",
       "word": "traveler",
       "partOfSpeech": "noun[C]",
       "meaning": "旅行者",
@@ -1568,7 +1595,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_156",
+      "id": "travel_159",
       "word": "crocodile",
       "partOfSpeech": "noun",
       "meaning": "鱷魚",
@@ -1578,7 +1605,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_157",
+      "id": "travel_160",
       "word": "flag",
       "partOfSpeech": "noun[C]",
       "meaning": "旗子；在...上插旗子",
@@ -1588,7 +1615,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_158",
+      "id": "travel_161",
       "word": "giraffe",
       "partOfSpeech": "noun",
       "meaning": "長頸鹿",
@@ -1598,7 +1625,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_159",
+      "id": "travel_162",
       "word": "goldfish",
       "partOfSpeech": "noun",
       "meaning": "金魚",
@@ -1608,7 +1635,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_160",
+      "id": "travel_163",
       "word": "journey",
       "partOfSpeech": "noun[C]",
       "meaning": "旅程",
@@ -1618,7 +1645,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_161",
+      "id": "travel_164",
       "word": "kangaroo",
       "partOfSpeech": "noun",
       "meaning": "袋鼠",
@@ -1628,7 +1655,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_162",
+      "id": "travel_165",
       "word": "outdoors",
       "partOfSpeech": "noun",
       "meaning": "在戶外",
@@ -1638,7 +1665,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_163",
+      "id": "travel_166",
       "word": "penguin",
       "partOfSpeech": "noun",
       "meaning": "企鵝",
@@ -1648,7 +1675,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_164",
+      "id": "travel_167",
       "word": "pony",
       "partOfSpeech": "noun",
       "meaning": "小馬",
@@ -1658,7 +1685,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_165",
+      "id": "travel_168",
       "word": "suitcase",
       "partOfSpeech": "noun[C]",
       "meaning": "手提箱",
@@ -1668,7 +1695,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_166",
+      "id": "travel_169",
       "word": "autumn",
       "partOfSpeech": "noun[C/U]",
       "meaning": "秋季",
@@ -1678,7 +1705,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_167",
+      "id": "travel_170",
       "word": "brook",
       "partOfSpeech": "noun",
       "meaning": "小河",
@@ -1688,7 +1715,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_168",
+      "id": "travel_171",
       "word": "cliff",
       "partOfSpeech": "noun",
       "meaning": "懸崖",
@@ -1698,7 +1725,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_169",
+      "id": "travel_172",
       "word": "coast",
       "partOfSpeech": "noun[C]",
       "meaning": "海岸；沿海地區",
@@ -1708,7 +1735,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_170",
+      "id": "travel_173",
       "word": "cooker",
       "partOfSpeech": "noun",
       "meaning": "炊具",
@@ -1718,7 +1745,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_171",
+      "id": "travel_174",
       "word": "cord",
       "partOfSpeech": "noun[C/U]",
       "meaning": "細繩；電線",
@@ -1728,7 +1755,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_172",
+      "id": "travel_175",
       "word": "cub",
       "partOfSpeech": "noun",
       "meaning": "幼獸",
@@ -1738,7 +1765,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_173",
+      "id": "travel_176",
       "word": "passage",
       "partOfSpeech": "noun[C]",
       "meaning": "通行；通道；一段",
@@ -1748,7 +1775,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_174",
+      "id": "travel_177",
       "word": "airline",
       "partOfSpeech": "noun[C]",
       "meaning": "航線；航空公司",
@@ -1758,7 +1785,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_175",
+      "id": "travel_178",
       "word": "airplane",
       "partOfSpeech": "noun[C]",
       "meaning": "飛機",
@@ -1768,7 +1795,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_176",
+      "id": "travel_179",
       "word": "airport",
       "partOfSpeech": "noun[C]",
       "meaning": "機場；航空站",
@@ -1778,7 +1805,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_177",
+      "id": "travel_180",
       "word": "naturally",
       "partOfSpeech": "adv.",
       "meaning": "自然地",
@@ -1788,21 +1815,27 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_178",
-      "word": "photograph/photo",
+      "id": "travel_181",
+      "word": "photograph",
       "partOfSpeech": "noun[C]",
       "meaning": "照片",
       "category": "旅遊 (travel)",
       "level": "初階",
       "frequencyRank": 1481,
-      "section": "旅遊基礎與其他指定詞彙",
-      "lookupWords": [
-        "photograph",
-        "photo"
-      ]
+      "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_179",
+      "id": "travel_182",
+      "word": "photo",
+      "partOfSpeech": "noun[C]",
+      "meaning": "照片",
+      "category": "旅遊 (travel)",
+      "level": "初階",
+      "frequencyRank": 1328,
+      "section": "旅遊基礎與其他指定詞彙"
+    },
+    {
+      "id": "travel_183",
       "word": "visa",
       "partOfSpeech": "noun[C]",
       "meaning": "簽證",
@@ -1812,7 +1845,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_180",
+      "id": "travel_184",
       "word": "canyon",
       "partOfSpeech": "noun",
       "meaning": "峽谷",
@@ -1822,7 +1855,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_181",
+      "id": "travel_185",
       "word": "check-in",
       "partOfSpeech": "noun",
       "meaning": "登記手續",
@@ -1832,7 +1865,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_182",
+      "id": "travel_186",
       "word": "check-out",
       "partOfSpeech": "phr.",
       "meaning": "檢查；付款退租",
@@ -1842,7 +1875,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_183",
+      "id": "travel_187",
       "word": "tourism",
       "partOfSpeech": "noun[U]",
       "meaning": "觀光業",
@@ -1852,7 +1885,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_184",
+      "id": "travel_188",
       "word": "embark",
       "partOfSpeech": "vi.",
       "meaning": "裝船；從事",
@@ -1862,7 +1895,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_185",
+      "id": "travel_189",
       "word": "honeymoon",
       "partOfSpeech": "noun",
       "meaning": "蜜月假期",
@@ -1872,7 +1905,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_186",
+      "id": "travel_190",
       "word": "mare",
       "partOfSpeech": "noun",
       "meaning": "母馬；母驢",
@@ -1882,7 +1915,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_187",
+      "id": "travel_191",
       "word": "waterfall",
       "partOfSpeech": "noun",
       "meaning": "瀑布",
@@ -1892,7 +1925,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_188",
+      "id": "travel_192",
       "word": "hostel",
       "partOfSpeech": "noun",
       "meaning": "旅舍",
@@ -1902,7 +1935,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_189",
+      "id": "travel_193",
       "word": "traverse",
       "partOfSpeech": "noun",
       "meaning": "橫越",
@@ -1912,7 +1945,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_190",
+      "id": "travel_194",
       "word": "wayside",
       "partOfSpeech": "noun",
       "meaning": "路邊",
@@ -1922,7 +1955,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_191",
+      "id": "travel_195",
       "word": "international",
       "partOfSpeech": "adj.",
       "meaning": "國際的",
@@ -1932,7 +1965,7 @@
       "section": "旅遊基礎與其他指定詞彙"
     },
     {
-      "id": "travel_192",
+      "id": "travel_196",
       "word": "pilgrimage",
       "partOfSpeech": "noun",
       "meaning": "朝聖者的旅程",
