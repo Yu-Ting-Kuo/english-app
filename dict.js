@@ -129,9 +129,10 @@ const Dict = (() => {
       const trad = (meaning.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('');
       const simple = simplified ? (simplified.match(/[\u3400-\u9fff\uf900-\ufaff]+/g) || []).join('') : trad;
       const exact = trad.includes(q) || simple.includes(q);
-      return { word, meaning, pos, rank, exact };
+      const posKinds = pos ? pos.split(/[／/,、]+/).filter(Boolean).length : 0;
+      return { word, meaning, pos, rank, exact, posKinds };
     });
-    rows.sort((a, b) => Number(b.exact) - Number(a.exact) || (a.rank || Infinity) - (b.rank || Infinity) || a.word.localeCompare(b.word));
+    rows.sort((a, b) => Number(b.exact) - Number(a.exact) || a.posKinds - b.posKinds || (a.rank || Infinity) - (b.rank || Infinity) || a.word.localeCompare(b.word));
     return rows.slice(0, n);
   }
 
