@@ -80,9 +80,46 @@ def level_of(rank):
     return 'A'
 
 
+# 單字列表用的英文詞性標示：名詞 noun[C]／noun[U]、動詞 vt.／vi.，其他 adj.、adv.…
+POS_ABBR = {'adj': 'adj.', 'adv': 'adv.', 'prep': 'prep.', 'conj': 'conj.', 'pron': 'pron.', 'phr': 'phr.',
+            'int': 'int.', 'num': 'num.', 'aux': 'aux.', 'art': 'art.', 'abbr': 'abbr.'}
+GRAM = {'C': 'noun[C]', 'U': 'noun[U]', 'CU': 'noun[C/U]', 'vt': 'vt.', 'vi': 'vi.', 'vit': 'vi./vt.'}
+
+
+def load_senses():
+    """{字（小寫）: [詞義]}，詞義含 p、zh、g（文法標記，來自 tools/grammar）"""
+    from grammar_tasks import load_labels
+    labels = load_labels()
+    out = {}
+    for p in sorted((ROOT / 'tools' / 'senses').glob('*.json')):
+        for w, senses in json.loads(p.read_text(encoding='utf-8')).items():
+            out.setdefault(norm(w), [dict(s, g=labels.get((w, s.get('p'), s.get('zh')))) for s in senses])
+    return out
+
+
+def pos_of(word, key, gloss, entry, senses):
+    """找出主題中文意思對應的詞義，回傳英文詞性標示"""
+    ss = senses.get(norm(word)) or senses.get(key or '') or []
+    if ss:
+        chars = set(re.sub(r'[^一-鿿]', '', gloss))
+        best = max(ss, key=lambda s: len(chars & set(s.get('zh', ''))) / (len(chars) or 1))
+        if not chars & set(best.get('zh', '')):
+            best = ss[0]
+        p, g = best.get('p'), best.get('g')
+        if p in ('n', 'v'):
+            return GRAM.get(g) or ('noun' if p == 'n' else 'v.')
+        return POS_ABBR.get(p, '')
+    for m in (entry or {}).get('m', []):
+        if m.get('d') or m['p'] == 'other':
+            continue
+        return m['l'] if m['p'] in ('n', 'v') else POS_ABBR.get(m['p'], '')
+    return ''
+
+
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
     src = json.loads(SRC.read_text(encoding='utf-8'))
+    senses = load_senses()
     # 多益核心字彙單元（tools/build_core_units.py 產生）
     core_units = ROOT / 'tools' / 'core_units.json'
     if core_units.exists():
@@ -117,6 +154,9 @@ def main():
                     continue
                 seen[ident] = zh
                 item = {'w': word, 'g': gloss}
+                ps = pos_of(word, key, gloss, entry, senses)
+                if ps:
+                    item['ps'] = ps
                 r = rank_of(word, entry)
                 if r:
                     item['r'] = r

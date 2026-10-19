@@ -118,19 +118,62 @@ try { topicSort = localStorage.getItem('topicSort') || 'context'; } catch {}
 const LEVEL = { B: '初階', I: '中階', A: '進階' };
 const LEVEL_EN = { B: 'Beginner', I: 'Intermediate', A: 'Advanced' };
 
-function wordRow(w) {
-  const key = w.k || Dict.norm(w.w);
-  const saved = !!findSaved(key);
-  return `<button class="word-row" data-word="${esc(w.w)}" data-from-topic="1">
-    <span class="wr-main">
-      <span class="wr-word">${esc(w.w)}</span>
-      <span class="wr-gloss">${esc(w.g)}</span>
-    </span>
-    ${w.lv ? `<span class="lvl lvl-${w.lv}">${LEVEL[w.lv]}</span>` : ''}
-    ${saved ? `<span class="wr-star" aria-label="已收藏">${STAR.on}</span>` : ''}
-  </button>`;
+// 主題單字的統一資料格式（列表、收藏、測驗共用）：
+// { id, word, partOfSpeech, meaning, category, page, audioUrl, key, section, level, rank }
+// 沒有預錄音檔（audioUrl 為空），發音用手機內建英文語音
+const PAGE_SIZE = 20;
+let topicPage = 1;
+
+function topicItems(tid, t, sort = topicSort) {
+  let list = t.sections.flatMap(s => s.words.map(w => ({ w, section: s.zh, sectionEn: s.en })));
+  if (sort !== 'context') {
+    list = [...list].sort((a, b) => (a.w.r || 1e9) - (b.w.r || 1e9));
+    if (sort === 'level') list.sort((a, b) => 'BIA'.indexOf(a.w.lv) - 'BIA'.indexOf(b.w.lv));
+  }
+  return list.map(({ w, section, sectionEn }, i) => ({
+    id: `${tid}-${String(i + 1).padStart(3, '0')}`,
+    word: w.w,
+    partOfSpeech: w.ps || '',
+    meaning: w.g,
+    category: `${t.en} ${t.zh}`,
+    page: Math.floor(i / PAGE_SIZE) + 1,
+    audioUrl: '',
+    key: w.k || Dict.norm(w.w),
+    section, sectionEn,
+    level: w.lv, rank: w.r,
+  }));
 }
 
+const BOOKMARK = {
+  off: '<svg class="i" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+  on: '<svg class="i" viewBox="0 0 24 24" style="fill:currentColor"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+};
+
+function wordRow(it) {
+  const saved = !!findSaved(it.key);
+  return `<div class="word-row">
+    <button class="wr-main" data-word="${esc(it.word)}" data-from-topic="1">
+      <span class="wr-top"><span class="wr-word">${esc(it.word)}</span>${it.partOfSpeech ? `<span class="wr-pos">${esc(it.partOfSpeech)}</span>` : ''}</span>
+      <span class="wr-gloss">${esc(it.meaning)}</span>
+    </button>
+    ${it.level ? `<span class="lvl lvl-${it.level}">${LEVEL[it.level]}</span>` : ''}
+    <button class="icon-btn wr-save ${saved ? 'on' : ''}" data-save="${esc(it.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'} ${esc(it.word)}">${saved ? BOOKMARK.on : BOOKMARK.off}</button>
+    <button class="icon-btn" data-say-word="${esc(it.word)}" aria-label="播放 ${esc(it.word)} 的發音">${ICON.speaker}</button>
+  </div>`;
+}
+
+// 同一頁裡連續屬於同一組（情境分組或難度）的字放在同一張卡片
+function groupRows(items, by) {
+  const groups = [];
+  for (const it of items) {
+    const g = by(it);
+    const last = groups[groups.length - 1];
+    if (last && last[0] === g) last[1].push(it); else groups.push([g, [it]]);
+  }
+  return groups;
+}
+
+let currentItems = [];
 async function renderTopic() {
   const box = $('#topic-body');
   let data;
@@ -139,52 +182,103 @@ async function renderTopic() {
   if (!t) { show('home'); return; }
   const c = data.categories.find(x => x.id === t.cat);
   $('#title').textContent = t.zh;
-  const all = t.sections.flatMap(s => s.words);
-  let list;
-  if (topicSort === 'context') {
-    list = t.sections.map(s => `
+  currentItems = topicItems(currentTopic, t);
+  const pages = Math.max(1, Math.ceil(currentItems.length / PAGE_SIZE));
+  topicPage = Math.min(Math.max(1, topicPage), pages);
+  const pageItems = currentItems.filter(it => it.page === topicPage);
+  const groups = topicSort === 'context' ? groupRows(pageItems, it => it.section)
+    : topicSort === 'level' ? groupRows(pageItems, it => it.level) : [['', pageItems]];
+  const list = groups.map(([g, its]) => `
       <section class="card stack">
-        <h3>${esc(s.zh)} <span class="en">${esc(s.en)}</span></h3>
-        <div class="word-rows">${s.words.map(wordRow).join('')}</div>
+        ${g ? `<h3>${topicSort === 'level' ? `${LEVEL[g]} <span class="en">${LEVEL_EN[g]}</span>` : `${esc(g)} <span class="en">${esc(its[0].sectionEn)}</span>`}</h3>` : ''}
+        <div class="word-rows">${its.map(wordRow).join('')}</div>
       </section>`).join('');
-  } else {
-    // 依常用程度：詞頻排名小的在前；依難度：同樣依詞頻由易到難，並標出程度分組
-    const sorted = [...all].sort((a, b) => (a.r || 1e9) - (b.r || 1e9));
-    if (topicSort === 'level') {
-      const groups = ['B', 'I', 'A'].map(l => [l, sorted.filter(w => w.lv === l)]).filter(g => g[1].length);
-      list = groups.map(([l, ws]) => `
-        <section class="card stack">
-          <h3>${LEVEL[l]} <span class="en">${LEVEL_EN[l]}</span></h3>
-          <div class="word-rows">${ws.map(wordRow).join('')}</div>
-        </section>`).join('');
-    } else {
-      list = `<section class="card stack"><div class="word-rows">${sorted.map(wordRow).join('')}</div></section>`;
-    }
-  }
+  const pager = pages > 1 ? `<div class="pager" role="navigation" aria-label="分頁">${Array.from({ length: pages }, (_, i) =>
+    `<button data-page="${i + 1}" class="${i + 1 === topicPage ? 'on' : ''}" aria-label="第 ${i + 1} 頁"${i + 1 === topicPage ? ' aria-current="page"' : ''}>${i + 1}</button>`).join('')}</div>` : '';
   box.innerHTML = `
     <button class="ghost back" data-cat="${c.id}">← ${esc(c.zh)}</button>
     <div>
-      <h2 class="page-title">${esc(t.zh)} <span class="en">${esc(t.en)}</span></h2>
+      <h2 class="page-title">${esc(t.zh)} <span class="en">${esc(t.en)}</span> <span class="count">(${t.count})</span></h2>
       <p class="muted" style="margin:4px 0 8px">${esc(t.intro)}</p>
-      <div class="row wrap"><span class="chip">${t.count} 個單字</span>${levelChips(t)}</div>
+      <div class="row wrap">${levelChips(t)}</div>
     </div>
     <div class="seg" id="topic-sort">
       <button data-sort="context" class="${topicSort === 'context' ? 'on' : ''}">${t.auto ? '依詞性' : '依情境'}</button>
       <button data-sort="level" class="${topicSort === 'level' ? 'on' : ''}">依難度</button>
       <button data-sort="freq" class="${topicSort === 'freq' ? 'on' : ''}">依常用程度</button>
     </div>
+    ${pager}
     ${list}
+    ${pager}
     <p class="source">${t.auto
-      ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為 ECDICT 的主要釋義。'
+      ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為整理過的主要詞義。'
       : '主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文。'}點單字可以看完整辭典條目。
-    難度依 BNC／COCA 詞頻排名計算：初階為前 2,500 名、中階 2,501～8,000 名、進階為 8,000 名以後；片語依組成單字中最少見的那個字計算。</p>`;
+    難度依 BNC／COCA 詞頻排名計算：初階為前 2,500 名、中階 2,501～8,000 名、進階為 8,000 名以後；片語依組成單字中最少見的那個字計算。</p>
+    <div class="topic-actions">
+      <button id="t-practice">練習</button>
+      <button id="t-quiz" class="primary">開始測驗</button>
+    </div>`;
   $('#topic-sort').onclick = e => {
     const s = e.target.closest('[data-sort]')?.dataset.sort;
     if (!s || s === topicSort) return;
     topicSort = s;
+    topicPage = 1;
     try { localStorage.setItem('topicSort', s); } catch {}
     renderTopic();
   };
+  box.querySelectorAll('.pager').forEach(pg => pg.onclick = e => {
+    const n = Number(e.target.closest('[data-page]')?.dataset.page);
+    if (!n || n === topicPage) return;
+    topicPage = n;
+    renderTopic();
+    $('#topic-body .pager')?.scrollIntoView({ block: 'start' });
+  });
+  // 練習：這一頁的字；開始測驗：整個主題隨機出題
+  $('#t-practice').onclick = () => Quiz.choose({ mode: 'practice', items: pageItems, all: currentItems, title: `${t.zh}・第 ${topicPage} 頁` });
+  $('#t-quiz').onclick = () => Quiz.choose({ mode: 'test', items: currentItems, all: currentItems, title: t.zh });
+}
+
+// 列表上的書籤與發音按鈕
+$('#topic-body').addEventListener('click', async e => {
+  const sayBtn = e.target.closest('[data-say-word]');
+  if (sayBtn) { say(sayBtn.dataset.sayWord); return; }
+  const btn = e.target.closest('[data-save]');
+  if (!btn) return;
+  const it = currentItems.find(x => x.id === btn.dataset.save);
+  if (!it) return;
+  btn.disabled = true;
+  try {
+    const on = await toggleItemSaved(it);
+    btn.classList.toggle('on', on);
+    btn.setAttribute('aria-pressed', on);
+    btn.setAttribute('aria-label', `${on ? '取消收藏' : '收藏'} ${it.word}`);
+    btn.innerHTML = on ? BOOKMARK.on : BOOKMARK.off;
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+// 收藏或取消收藏一個主題單字；回傳收藏後的狀態
+async function toggleItemSaved(it) {
+  const saved = findSaved(it.key);
+  if (saved) {
+    await deleteWord(saved.id);
+    toast(`已取消收藏「${it.word}」`);
+    renderList();
+    return false;
+  }
+  const entry = await Dict.getEntry(it.key).catch(() => null);
+  await saveWord({
+    word: it.word,
+    phonetic: entry?.ph ? `/${entry.ph}/` : '',
+    meaning: it.meaning,
+    pos: it.partOfSpeech ? [it.partOfSpeech] : (entry ? Dict.posLabels(entry) : []),
+    example: '', note: '',
+    known: false, createdAt: Date.now(), starredAt: Date.now(), practice: {}, source: 'topic',
+  });
+  toast(`已收藏「${it.word}」`);
+  renderList();
+  return true;
 }
 
 function levelChips(t) {
@@ -192,6 +286,7 @@ function levelChips(t) {
 }
 
 function openTopic(id) {
+  if (id !== currentTopic) topicPage = 1;
   currentTopic = id;
   show('topic');
 }

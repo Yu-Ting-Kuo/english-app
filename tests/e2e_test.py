@@ -38,7 +38,7 @@ def check(name, fn):
         fn()
         results.append((True, name, ''))
     except Exception as e:  # noqa: BLE001 - 測試要繼續跑完並列出所有失敗
-        results.append((False, name, str(e).splitlines()[0][:200]))
+        results.append((False, name, (str(e).splitlines() or [type(e).__name__])[0][:200]))
 
 
 def main():
@@ -69,19 +69,41 @@ def main():
             assert 'A-Z' not in text and 'A–Z' not in text, 'home shows A-Z'
         check('首頁 1-2. 首頁是主題探索（搜尋列、今日主題、6 大分類，沒有 A–Z）', t_home)
 
+        def topic_pages():
+            n = page.locator('#topic-body .pager').first.locator('button').count()
+            return max(n, 1)
+
+        def goto_page(i):
+            if topic_pages() > 1:
+                page.locator('#topic-body .pager').first.locator('button', has_text=str(i)).first.click()
+                expect(page.locator('#topic-body .pager').first.locator('button.on')).to_have_text(str(i))
+
+        def topic_all(sel):
+            # 主題單字有分頁：逐頁收集，最後回到第 1 頁
+            out = []
+            for i in range(1, topic_pages() + 1):
+                goto_page(i)
+                out += page.locator(sel).all_text_contents()
+            goto_page(1)
+            return out
+
         def t_topic_flow():
             page.locator('.cat-card', has_text='旅遊英文').click()
             expect(page.locator('#cat-body .topic-card')).to_have_count(7)
             page.locator('.topic-card', has_text='機場與搭飛機').click()
             expect(page.locator('#topic-body h3').first).to_contain_text('報到與行李')
-            sections = page.locator('#topic-body section h3').all_text_contents()
+            sections = topic_all('#topic-body section h3')
             assert any('航班異動' in s for s in sections), sections
-            # 同一個主題裡沒有重複的字
-            ws = [w.strip().lower() for w in page.locator('#topic-body .wr-word').all_text_contents()]
+            # 同一個主題裡沒有重複的字，標題的字數等於全部頁面的字數
+            ws = [w.strip().lower() for w in topic_all('#topic-body .wr-word')]
             assert len(ws) == len(set(ws)), [w for w in ws if ws.count(w) > 1]
-            count = int(page.locator('#topic-body .chip', has_text='個單字').inner_text().split()[0])
+            count = int(re.search(r'\((\d+)\)', page.locator('#topic-body .page-title').inner_text()).group(1))
             assert count == len(ws), (count, len(ws))
-            page.locator('.word-row', has_text='layover').click()
+            for i in range(1, topic_pages() + 1):
+                goto_page(i)
+                if page.locator('#topic-body .wr-word', has_text='layover').count():
+                    break
+            page.locator('.word-row', has_text='layover').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('.entry .headword')).to_have_text('layover')
             expect(page.locator('#entry-topics')).to_contain_text('機場與搭飛機')
@@ -93,8 +115,9 @@ def main():
             page.locator('#topic-sort [data-sort=freq]').click()
             expect(page.locator('#topic-sort .on')).to_have_text('依常用程度')
             page.locator('#topic-sort [data-sort=level]').click()
-            heads = page.locator('#topic-body section h3').all_text_contents()
-            assert [h.split()[0] for h in heads] == ['初階', '中階', '進階'], heads
+            heads = topic_all('#topic-body section h3')
+            levels = list(dict.fromkeys(h.split()[0] for h in heads))
+            assert levels == ['初階', '中階', '進階'], heads
             page.locator('#topic-sort [data-sort=context]').click()
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
 
@@ -106,15 +129,85 @@ def main():
             assert page.locator('#cat-body .topic-card').count() > 80
             page.locator('.topic-card', has_text='多益必考字 第 1 單元').click()
             expect(page.locator('#topic-sort [data-sort=context]')).to_have_text('依詞性')
-            assert page.locator('#topic-body .wr-word').count() == 60
-            expect(page.locator('#topic-body .source')).to_contain_text('ECDICT 的主要釋義')
+            expect(page.locator('#topic-body .page-title')).to_contain_text('(60)')
+            expect(page.locator('#topic-body .source')).to_contain_text('主要詞義')
         check('多益核心字彙：依詞彙表分組、每單元 60 字', t_core_units)
+
+        def t_topic_list():
+            # 接續上一題：多益必考字 第 1 單元（60 字，每頁 20 字）
+            rows = page.locator('#topic-body .word-row')
+            expect(rows).to_have_count(20)
+            expect(page.locator('#topic-body .pager').first.locator('button')).to_have_count(3)
+            # 每個字都有英文詞性、中文、書籤和發音按鈕；詞性不用中文
+            poses = page.locator('#topic-body .wr-pos').all_text_contents()
+            assert len(poses) == 20 and all(re.fullmatch(r'noun(\[(C|U|C/U)\])?|vt\.|vi\.|vi\./vt\.|v\.|[a-z]+\.', x) for x in poses), poses
+            expect(page.locator('#topic-body [data-save]')).to_have_count(20)
+            expect(page.locator('#topic-body [data-say-word]')).to_have_count(20)
+            first_p1 = page.locator('#topic-body .wr-word').first.inner_text()
+            page.locator('#topic-body .pager').first.locator('button', has_text='2').click()
+            expect(page.locator('#topic-body .pager').first.locator('button.on')).to_have_text('2')
+            assert page.locator('#topic-body .wr-word').first.inner_text() != first_p1
+            # 書籤：收藏後資料庫有這個字，再按一次取消
+            w = page.locator('#topic-body .wr-word').first.inner_text()
+            btn = page.locator('#topic-body [data-save]').first
+            btn.click()
+            expect(btn).to_have_attribute('aria-pressed', 'true')
+            n = page.evaluate(f"db.all('words').then(ws => ws.filter(x => x.word === {w!r}).length)")
+            assert n == 1, n
+            btn.click()
+            expect(btn).to_have_attribute('aria-pressed', 'false')
+            expect(page.locator('.topic-actions button')).to_have_count(2)
+        check('主題單字列表：標題字數、分頁、英文詞性、書籤、發音、底部練習／測驗', t_topic_list)
+
+        def t_quiz():
+            # 開始測驗：選題型彈窗（含隨機混合）→ 英翻中 10 題 → 結果
+            page.click('#t-quiz')
+            expect(page.locator('#quiz-sheet .quiz-type')).to_have_count(5)
+            page.locator('#quiz-sheet [data-type=en-zh]').click()
+            expect(page.locator('#view-quiz')).to_be_visible()
+            for _ in range(10):
+                expect(page.locator('.quiz-opt')).to_have_count(4)
+                page.locator('.quiz-opt').first.click()
+                expect(page.locator('.quiz-feedback')).to_be_visible()
+                page.click('#quiz-next')
+            expect(page.locator('.quiz-score')).to_contain_text('/ 10')
+            page.click('#quiz-done')
+            expect(page.locator('#view-topic')).to_be_visible()
+            # 練習：中翻英、聽力、拼字
+            page.click('#t-practice')
+            expect(page.locator('#quiz-sheet .quiz-type')).to_have_count(4)
+            page.locator('#quiz-sheet [data-type=zh-en]').click()
+            expect(page.locator('.quiz-zh')).to_be_visible()
+            expect(page.locator('.quiz-opt.en')).to_have_count(4)
+            page.click('#quiz-quit')
+            page.click('#t-practice')
+            page.locator('#quiz-sheet [data-type=listen]').click()
+            expect(page.locator('.quiz-play')).to_be_visible()
+            expect(page.locator('.quiz-opt')).to_have_count(4)
+            page.click('#quiz-quit')
+            page.click('#t-practice')
+            page.locator('#quiz-sheet [data-type=spell]').click()
+            slots = page.locator('.slots .slot')
+            n = slots.count()
+            expect(page.locator('.slots .slot.fixed')).to_have_count(1)
+            expect(page.locator('.tile')).to_have_count(n - 1)
+            expect(page.locator('#spell-ok')).to_be_disabled()
+            page.locator('.tile').first.click()
+            page.click('#spell-del')
+            for _ in range(n - 1):
+                page.locator('.tile:not([disabled])').first.click()
+            page.click('#spell-ok')
+            expect(page.locator('.quiz-feedback')).to_be_visible()
+            answer = page.locator('.qf-answer b').inner_text()
+            assert len(answer) == n, (answer, n)
+            page.click('#quiz-quit')
+        check('測驗與練習：題型彈窗、英翻中、中翻英、聽力、拼字（首字母＋字母按鈕＋刪除＋確定）', t_quiz)
 
         def t_partial():
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='學術與科技').click()
             page.locator('.topic-card', has_text='網路與數位科技').click()
-            page.locator('.word-row', has_text='social media').click()
+            page.locator('.word-row', has_text='social media').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('#dict-body')).to_contain_text('沒有收錄這個片語')
             expect(page.locator('#dict-body')).to_contain_text('App 編輯整理')
@@ -141,7 +234,7 @@ def main():
             for lv in ['初階', '中階', '進階']:
                 chip = page.locator('#topic-body .lvl', has_text=lv).first.inner_text()
                 assert int(chip.split()[-1]) >= 3, chip
-            words = page.locator('#topic-body .wr-word').all_text_contents()
+            words = topic_all('#topic-body .wr-word')
             for w in ['allocate', 'implement', 'expenditure']:
                 assert w in words, (w, words)
         check('主題詞彙有初階、中階、進階，每種至少 3 個（含 allocate、implement 等）', t_levels)
