@@ -1,0 +1,2235 @@
+{
+  "category": "辦公室 (workplace)",
+  "count": 222,
+  "levelCounts": {
+    "初階": 154,
+    "中階": 41,
+    "進階": 27
+  },
+  "items": [
+    {
+      "id": "workplace_001",
+      "word": "assignment",
+      "partOfSpeech": "noun[C]",
+      "meaning": "分派的工作、任務",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3128,
+      "section": "日常行政"
+    },
+    {
+      "id": "workplace_002",
+      "word": "clerk",
+      "partOfSpeech": "noun[C]",
+      "meaning": "辦事員；店員；職員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2959,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_003",
+      "word": "carbon copy",
+      "partOfSpeech": "noun[C]",
+      "meaning": "副本；抄送副本",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3004,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_004",
+      "word": "colleague",
+      "partOfSpeech": "noun[C]",
+      "meaning": "同事",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1338,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_005",
+      "word": "document",
+      "partOfSpeech": "noun[C]",
+      "meaning": "文件；檔案",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1052,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_006",
+      "word": "disconnect",
+      "partOfSpeech": "vt.",
+      "meaning": "切斷(電源、電話)",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 8173,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_007",
+      "word": "extension",
+      "partOfSpeech": "noun[C]",
+      "meaning": "（電話）分機",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2123,
+      "section": "辦公空間與設施"
+    },
+    {
+      "id": "workplace_008",
+      "word": "exhilarate",
+      "partOfSpeech": "vt.",
+      "meaning": "使興奮；使振奮",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": null,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_009",
+      "word": "file",
+      "partOfSpeech": "noun[C]",
+      "meaning": "文件；歸檔（動詞）",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1170,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_010",
+      "word": "filing cabinet",
+      "partOfSpeech": "",
+      "meaning": "檔案櫃",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 6952,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_011",
+      "word": "hectic",
+      "partOfSpeech": "adj.",
+      "meaning": "繁忙的",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9476,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_012",
+      "word": "intercom",
+      "partOfSpeech": "noun[C]",
+      "meaning": "對講機",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 13367,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_013",
+      "word": "import",
+      "partOfSpeech": "vt.",
+      "meaning": "進口",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2757,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_014",
+      "word": "inquiry",
+      "partOfSpeech": "noun[C]",
+      "meaning": "調查；詢問",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2067,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_015",
+      "word": "joining",
+      "partOfSpeech": "noun",
+      "meaning": "加入；連接；合併",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 21185,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_016",
+      "word": "malfunction",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "（機器）故障、失靈",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 14802,
+      "section": "庫存與設備維修"
+    },
+    {
+      "id": "workplace_017",
+      "word": "material",
+      "partOfSpeech": "noun[U]",
+      "meaning": "資料；材料",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 499,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_018",
+      "word": "memo",
+      "partOfSpeech": "noun[C]",
+      "meaning": "（公司內部的）備忘錄、通知",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5129,
+      "section": "日常行政"
+    },
+    {
+      "id": "workplace_019",
+      "word": "monitor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "監視；監測",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2349,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_020",
+      "word": "microscope",
+      "partOfSpeech": "noun[C]",
+      "meaning": "顯微鏡",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 7274,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_021",
+      "word": "office supplies",
+      "partOfSpeech": "",
+      "meaning": "辦公室用品",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": null,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_022",
+      "word": "operator",
+      "partOfSpeech": "noun[C]",
+      "meaning": "接線生；操作員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2700,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_023",
+      "word": "overheat",
+      "partOfSpeech": "vt.",
+      "meaning": "過熱",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 20710,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_024",
+      "word": "oversee",
+      "partOfSpeech": "vt.",
+      "meaning": "監督",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4055,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_025",
+      "word": "supervise",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "監督、管理",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4673,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_026",
+      "word": "oversight",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "監督、督導；疏忽",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 6063,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_027",
+      "word": "petition",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "請願；請求",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4356,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_028",
+      "word": "partition",
+      "partOfSpeech": "noun[C]",
+      "meaning": "隔板、隔間牆",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 8564,
+      "section": "辦公設備與用品"
+    },
+    {
+      "id": "workplace_029",
+      "word": "portfolio",
+      "partOfSpeech": "noun[C]",
+      "meaning": "作品集;投資組合",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3733,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_030",
+      "word": "pile",
+      "partOfSpeech": "noun[C]",
+      "meaning": "一堆；一疊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3003,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_031",
+      "word": "punctuality",
+      "partOfSpeech": "noun[U]",
+      "meaning": "準時、守時",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 21572,
+      "section": "出勤與工時"
+    },
+    {
+      "id": "workplace_032",
+      "word": "plug",
+      "partOfSpeech": "noun[C]",
+      "meaning": "插插頭；堵塞",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5586,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_033",
+      "word": "press",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "按；壓；擠壓",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 961,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_034",
+      "word": "photocopier",
+      "partOfSpeech": "noun[C]",
+      "meaning": "影印機",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 15046,
+      "section": "辦公設備與用品"
+    },
+    {
+      "id": "workplace_035",
+      "word": "receptionist",
+      "partOfSpeech": "noun[C]",
+      "meaning": "接待人員、櫃檯人員",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 8900,
+      "section": "辦公空間與設施"
+    },
+    {
+      "id": "workplace_036",
+      "word": "refurnish",
+      "partOfSpeech": "vt.",
+      "meaning": "重新添置家具、重新布置",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 45015,
+      "section": "辦公空間與設施"
+    },
+    {
+      "id": "workplace_037",
+      "word": "storage cabinet",
+      "partOfSpeech": "noun[C]",
+      "meaning": "儲物櫃",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2703,
+      "section": "辦公設備與用品"
+    },
+    {
+      "id": "workplace_038",
+      "word": "shift",
+      "partOfSpeech": "noun[C]",
+      "meaning": "輪班、班次",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1680,
+      "section": "出勤與工時"
+    },
+    {
+      "id": "workplace_039",
+      "word": "staff",
+      "partOfSpeech": "noun[U]",
+      "meaning": "全體職員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 423,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_040",
+      "word": "strike",
+      "partOfSpeech": "noun[C]",
+      "meaning": "罷工；打；擊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1145,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_041",
+      "word": "stapler",
+      "partOfSpeech": "noun[C]",
+      "meaning": "釘書機",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 28941,
+      "section": "辦公設備與用品"
+    },
+    {
+      "id": "workplace_042",
+      "word": "shredder",
+      "partOfSpeech": "noun[C]",
+      "meaning": "碎紙機",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 21482,
+      "section": "辦公設備與用品"
+    },
+    {
+      "id": "workplace_043",
+      "word": "shorthand",
+      "partOfSpeech": "noun",
+      "meaning": "速記",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 11285,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_044",
+      "word": "stack",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "堆疊；堆放",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4466,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_045",
+      "word": "surplus",
+      "partOfSpeech": "adj.",
+      "meaning": "過剩；剩餘的",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4815,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_046",
+      "word": "task",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工作；任務",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 779,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_047",
+      "word": "tardy",
+      "partOfSpeech": "adj.",
+      "meaning": "遲緩的；延遲的",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 24629,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_048",
+      "word": "typist",
+      "partOfSpeech": "noun",
+      "meaning": "打字員",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 14970,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_049",
+      "word": "workforce",
+      "partOfSpeech": "noun[C]",
+      "meaning": "勞動人口",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4217,
+      "section": "補充職場核心詞彙"
+    },
+    {
+      "id": "workplace_050",
+      "word": "xerox",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "複印；影印機（商標俗稱）",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 17172,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_051",
+      "word": "paralysis",
+      "partOfSpeech": "noun",
+      "meaning": "麻痺",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9996,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_052",
+      "word": "profound",
+      "partOfSpeech": "adj.",
+      "meaning": "深刻的；重大的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3735,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_053",
+      "word": "neglect",
+      "partOfSpeech": "vt.",
+      "meaning": "忽略;疏忽;疏漏",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4477,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_054",
+      "word": "perverse",
+      "partOfSpeech": "adj.",
+      "meaning": "乖戾的；故意作對的",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9523,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_055",
+      "word": "export",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "出口",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2231,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_056",
+      "word": "impractical",
+      "partOfSpeech": "adj.",
+      "meaning": "不切實際的；不實用的",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 11205,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_057",
+      "word": "laborer",
+      "partOfSpeech": "noun[C]",
+      "meaning": "勞動者，勞工；輔助工",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 6939,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_058",
+      "word": "contact",
+      "partOfSpeech": "vt.",
+      "meaning": "聯絡；接觸",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1196,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_059",
+      "word": "business",
+      "partOfSpeech": "noun[U]",
+      "meaning": "商業;事",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 215,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_060",
+      "word": "click",
+      "partOfSpeech": "noun[C]",
+      "meaning": "喀噠聲；點擊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3794,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_061",
+      "word": "service",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "服務",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 160,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_062",
+      "word": "date",
+      "partOfSpeech": "noun[C]",
+      "meaning": "日期；約會",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 571,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_063",
+      "word": "state",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "狀態；美國的州",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 137,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_064",
+      "word": "next",
+      "partOfSpeech": "adj.",
+      "meaning": "下一個",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 199,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_065",
+      "word": "data",
+      "partOfSpeech": "noun[U]",
+      "meaning": "資料,數據",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 552,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_066",
+      "word": "post",
+      "partOfSpeech": "vt.",
+      "meaning": "郵件；站；交易所；發布",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 895,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_067",
+      "word": "policy",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "政策;策略",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 250,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_068",
+      "word": "number",
+      "partOfSpeech": "noun[C]",
+      "meaning": "數字；號碼；數量",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 143,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_069",
+      "word": "available",
+      "partOfSpeech": "adj.",
+      "meaning": "可得到的,有效的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 334,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_070",
+      "word": "public",
+      "partOfSpeech": "adj.",
+      "meaning": "公開的；公立的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 319,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_071",
+      "word": "privacy",
+      "partOfSpeech": "noun[U]",
+      "meaning": "隱私；隱私權",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3060,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_072",
+      "word": "company",
+      "partOfSpeech": "noun[C]",
+      "meaning": "公司；陪伴",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 151,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_073",
+      "word": "set",
+      "partOfSpeech": "noun[C]",
+      "meaning": "套；組；集合",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 213,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_074",
+      "word": "general",
+      "partOfSpeech": "adj.",
+      "meaning": "普遍的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 301,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_075",
+      "word": "research",
+      "partOfSpeech": "noun[U]",
+      "meaning": "(學術)研究",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 357,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_076",
+      "word": "full",
+      "partOfSpeech": "adj.",
+      "meaning": "滿的；完整的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 309,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_077",
+      "word": "program",
+      "partOfSpeech": "noun[C]",
+      "meaning": "節目；計畫",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 194,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_078",
+      "word": "management",
+      "partOfSpeech": "noun[U]",
+      "meaning": "管理;經營;處理",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 446,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_079",
+      "word": "item",
+      "partOfSpeech": "noun[C]",
+      "meaning": "項目;品目",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 950,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_080",
+      "word": "development",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "生長;發展",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 234,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_081",
+      "word": "report",
+      "partOfSpeech": "noun[C]",
+      "meaning": "報告",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 276,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_082",
+      "word": "local",
+      "partOfSpeech": "adj.",
+      "meaning": "本地的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 191,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_083",
+      "word": "area",
+      "partOfSpeech": "noun[C]",
+      "meaning": "地區;面積",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 149,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_084",
+      "word": "subject",
+      "partOfSpeech": "noun[C]",
+      "meaning": "主題;學科",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 358,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_085",
+      "word": "forum",
+      "partOfSpeech": "noun[C]",
+      "meaning": "公開討論的場所；討論會",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3756,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_086",
+      "word": "code",
+      "partOfSpeech": "noun[C]",
+      "meaning": "法規;代碼;電碼",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1469,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_087",
+      "word": "index",
+      "partOfSpeech": "noun[C]",
+      "meaning": "索引;標誌;指示符號",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1793,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_088",
+      "word": "sign",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "記號",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 759,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_089",
+      "word": "link",
+      "partOfSpeech": "vt.",
+      "meaning": "連結；聯繫，關聯；關係",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1277,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_090",
+      "word": "project",
+      "partOfSpeech": "noun[C]",
+      "meaning": "項目",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 509,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_091",
+      "word": "version",
+      "partOfSpeech": "noun[C]",
+      "meaning": "譯文;版本",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 953,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_092",
+      "word": "section",
+      "partOfSpeech": "noun[C]",
+      "meaning": "區段;部分;切片",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 409,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_093",
+      "word": "own",
+      "partOfSpeech": "adj.",
+      "meaning": "自己的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 118,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_094",
+      "word": "found",
+      "partOfSpeech": "vt.",
+      "meaning": "創立;建立",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2608,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_095",
+      "word": "media",
+      "partOfSpeech": "noun[C]",
+      "meaning": "媒介物;新聞媒介",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 757,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_096",
+      "word": "personal",
+      "partOfSpeech": "adj.",
+      "meaning": "個人的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 574,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_097",
+      "word": "since",
+      "partOfSpeech": "conj.",
+      "meaning": "自從；此後",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 260,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_098",
+      "word": "location",
+      "partOfSpeech": "noun[C]",
+      "meaning": "位置；地點",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1433,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_099",
+      "word": "text",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "文字；簡訊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1002,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_100",
+      "word": "return",
+      "partOfSpeech": "vt.",
+      "meaning": "退貨；歸還",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 428,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_101",
+      "word": "level",
+      "partOfSpeech": "noun[C]",
+      "meaning": "水平；程度",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 241,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_102",
+      "word": "previous",
+      "partOfSpeech": "adj.",
+      "meaning": "先的,以前的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 824,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_103",
+      "word": "image",
+      "partOfSpeech": "noun[C]",
+      "meaning": "影像；圖像",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 555,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_104",
+      "word": "department",
+      "partOfSpeech": "noun[C]",
+      "meaning": "部門；科系",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 447,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_105",
+      "word": "title",
+      "partOfSpeech": "noun[C]",
+      "meaning": "標題;頭銜",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 855,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_106",
+      "word": "description",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "敘述;形容",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1441,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_107",
+      "word": "insurance",
+      "partOfSpeech": "noun[U]",
+      "meaning": "保險;保險契約",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1197,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_108",
+      "word": "content",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "內容；滿意的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1281,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_109",
+      "word": "save",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "存（錢）；拯救",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 735,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_110",
+      "word": "compare",
+      "partOfSpeech": "vt.",
+      "meaning": "比較",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 773,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_111",
+      "word": "include",
+      "partOfSpeech": "vt.",
+      "meaning": "包含",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 246,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_112",
+      "word": "value",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "價值",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 367,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_113",
+      "word": "article",
+      "partOfSpeech": "noun[C]",
+      "meaning": "文章;條款",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 731,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_114",
+      "word": "card",
+      "partOfSpeech": "noun[C]",
+      "meaning": "卡；卡片",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 892,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_115",
+      "word": "single",
+      "partOfSpeech": "adj.",
+      "meaning": "單一的;獨身的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 569,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_116",
+      "word": "additional",
+      "partOfSpeech": "adj.",
+      "meaning": "附加的;額外的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1310,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_117",
+      "word": "password",
+      "partOfSpeech": "noun[C]",
+      "meaning": "密碼",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 10041,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_118",
+      "word": "range",
+      "partOfSpeech": "noun[C]",
+      "meaning": "範圍;一系列;爐灶",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 484,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_119",
+      "word": "light",
+      "partOfSpeech": "adj.",
+      "meaning": "輕的；明亮的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 464,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_120",
+      "word": "release",
+      "partOfSpeech": "vt.",
+      "meaning": "發行,發表;釋放,解放",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1120,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_121",
+      "word": "analysis",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "分析",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 707,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_122",
+      "word": "professional",
+      "partOfSpeech": "adj.",
+      "meaning": "專業的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 947,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_123",
+      "word": "edition",
+      "partOfSpeech": "noun[C]",
+      "meaning": "版本",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2537,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_124",
+      "word": "marketing",
+      "partOfSpeech": "noun",
+      "meaning": "交易；銷售；運銷",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1872,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_125",
+      "word": "further",
+      "partOfSpeech": "adv.",
+      "meaning": "較遠的;另外的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 696,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_126",
+      "word": "association",
+      "partOfSpeech": "noun[C]",
+      "meaning": "協會,公會,社團",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 742,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_127",
+      "word": "specific",
+      "partOfSpeech": "adj.",
+      "meaning": "特殊的,特定的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 882,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_128",
+      "word": "several",
+      "partOfSpeech": "adj.",
+      "meaning": "幾個的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 310,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_129",
+      "word": "short",
+      "partOfSpeech": "adj.",
+      "meaning": "短的；矮的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 500,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_130",
+      "word": "limited",
+      "partOfSpeech": "adj.",
+      "meaning": "有限的，不多的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1481,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_131",
+      "word": "period",
+      "partOfSpeech": "noun[C]",
+      "meaning": "時期;期間",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 324,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_132",
+      "word": "official",
+      "partOfSpeech": "adj.",
+      "meaning": "官方的,法定的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 526,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_133",
+      "word": "mar",
+      "partOfSpeech": "vt.",
+      "meaning": "毀損;損傷;玷污",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 8460,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_134",
+      "word": "average",
+      "partOfSpeech": "adj.",
+      "meaning": "平均的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1299,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_135",
+      "word": "chapter",
+      "partOfSpeech": "noun[C]",
+      "meaning": "章;回",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 593,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_136",
+      "word": "position",
+      "partOfSpeech": "noun[C]",
+      "meaning": "位置",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 345,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_137",
+      "word": "sort",
+      "partOfSpeech": "vt.",
+      "meaning": "類型;排序",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 421,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_138",
+      "word": "license",
+      "partOfSpeech": "noun[C]",
+      "meaning": "執照,許可證",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2872,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_139",
+      "word": "annual",
+      "partOfSpeech": "adj.",
+      "meaning": "一年一次的;每年的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1215,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_140",
+      "word": "method",
+      "partOfSpeech": "noun[C]",
+      "meaning": "方法",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 561,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_141",
+      "word": "regional",
+      "partOfSpeech": "adj.",
+      "meaning": "地區的,區域的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1253,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_142",
+      "word": "administration",
+      "partOfSpeech": "noun[U]",
+      "meaning": "政府;行政",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 635,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_143",
+      "word": "located",
+      "partOfSpeech": "adj.",
+      "meaning": "位於……的",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 38534,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_144",
+      "word": "multiple",
+      "partOfSpeech": "adj.",
+      "meaning": "複合的;多樣的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1948,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_145",
+      "word": "industrial",
+      "partOfSpeech": "adj.",
+      "meaning": "工業的,產業的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 863,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_146",
+      "word": "cause",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "原因;理由",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 476,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_147",
+      "word": "potential",
+      "partOfSpeech": "adj.",
+      "meaning": "潛在的,可能的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1260,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_148",
+      "word": "transfer",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "移交;轉讓",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1593,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_149",
+      "word": "introduction",
+      "partOfSpeech": "noun[C]",
+      "meaning": "介紹;正式引見",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1379,
+      "section": "補充行政與通用詞彙"
+    },
+    {
+      "id": "workplace_150",
+      "word": "excellent",
+      "partOfSpeech": "adj.",
+      "meaning": "非常好的",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1416,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_151",
+      "word": "desk",
+      "partOfSpeech": "noun[C]",
+      "meaning": "書桌",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1659,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_152",
+      "word": "late",
+      "partOfSpeech": "adj.",
+      "meaning": "遲到的；晚的；晚",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 298,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_153",
+      "word": "life",
+      "partOfSpeech": "noun[U]",
+      "meaning": "生命；生活",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 114,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_154",
+      "word": "work",
+      "partOfSpeech": "vi./vt.",
+      "meaning": "工作",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 117,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_155",
+      "word": "job",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工作；職位",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 243,
+      "section": "高頻基礎詞彙"
+    },
+    {
+      "id": "workplace_156",
+      "word": "farmer",
+      "partOfSpeech": "noun[C]",
+      "meaning": "農夫；農民",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1333,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_157",
+      "word": "factory",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工廠",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1505,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_158",
+      "word": "leader",
+      "partOfSpeech": "noun[C]",
+      "meaning": "領袖",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 463,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_159",
+      "word": "captain",
+      "partOfSpeech": "noun[C]",
+      "meaning": "隊長；船(艦)長",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1680,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_160",
+      "word": "fisherman",
+      "partOfSpeech": "noun",
+      "meaning": "漁民；漁夫",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4272,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_161",
+      "word": "meeting",
+      "partOfSpeech": "noun[C]",
+      "meaning": "會議",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 457,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_162",
+      "word": "boss",
+      "partOfSpeech": "noun[C]",
+      "meaning": "老闆",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2227,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_163",
+      "word": "office",
+      "partOfSpeech": "noun[C]",
+      "meaning": "辦公室",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 303,
+      "section": "高頻基礎詞彙"
+    },
+    {
+      "id": "workplace_164",
+      "word": "harvest",
+      "partOfSpeech": "noun[C/U]",
+      "meaning": "收成；收割",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4839,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_165",
+      "word": "information",
+      "partOfSpeech": "noun[U]",
+      "meaning": "資訊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 223,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_166",
+      "word": "matter",
+      "partOfSpeech": "noun[C]",
+      "meaning": "事情；要緊",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 370,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_167",
+      "word": "problem",
+      "partOfSpeech": "noun[C]",
+      "meaning": "問題",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 154,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_168",
+      "word": "chest",
+      "partOfSpeech": "noun[C]",
+      "meaning": "胸腔；箱子",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1717,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_169",
+      "word": "emergency",
+      "partOfSpeech": "noun[C]",
+      "meaning": "緊急情況",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1725,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_170",
+      "word": "actress",
+      "partOfSpeech": "noun[C]",
+      "meaning": "女演員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3236,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_171",
+      "word": "manager",
+      "partOfSpeech": "noun[C]",
+      "meaning": "經理；主管",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 508,
+      "section": "高頻基礎詞彙"
+    },
+    {
+      "id": "workplace_172",
+      "word": "pal",
+      "partOfSpeech": "noun",
+      "meaning": "夥伴",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5020,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_173",
+      "word": "actor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "男演員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1497,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_174",
+      "word": "singer",
+      "partOfSpeech": "noun[C]",
+      "meaning": "歌手",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2823,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_175",
+      "word": "worker",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工人",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 544,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_176",
+      "word": "director",
+      "partOfSpeech": "noun[C]",
+      "meaning": "主管；導演",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 510,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_177",
+      "word": "gardener",
+      "partOfSpeech": "noun[C]",
+      "meaning": "園丁；花匠",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4757,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_178",
+      "word": "manage",
+      "partOfSpeech": "vt.",
+      "meaning": "管理",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 752,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_179",
+      "word": "musician",
+      "partOfSpeech": "noun[C]",
+      "meaning": "音樂家",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2936,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_180",
+      "word": "plumber",
+      "partOfSpeech": "noun[C]",
+      "meaning": "水管工",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 11659,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_181",
+      "word": "poet",
+      "partOfSpeech": "noun[C]",
+      "meaning": "詩人",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2613,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_182",
+      "word": "prevent",
+      "partOfSpeech": "vt.",
+      "meaning": "預防",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 937,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_183",
+      "word": "professor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "教授",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 825,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_184",
+      "word": "coworker",
+      "partOfSpeech": "noun[C]",
+      "meaning": "同事",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 41273,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_185",
+      "word": "officer",
+      "partOfSpeech": "noun[C]",
+      "meaning": "軍官；官員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 556,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_186",
+      "word": "union",
+      "partOfSpeech": "noun[C]",
+      "meaning": "工會；聯盟",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 467,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_187",
+      "word": "lawyer",
+      "partOfSpeech": "noun[C]",
+      "meaning": "律師",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 816,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_188",
+      "word": "administrator",
+      "partOfSpeech": "noun[C]",
+      "meaning": "行政人員、管理員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2484,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_189",
+      "word": "adviser/advisor",
+      "partOfSpeech": "noun[C]",
+      "meaning": "顧問",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2553,
+      "section": "補充職業與人員詞彙",
+      "lookupWords": [
+        "adviser",
+        "advisor"
+      ]
+    },
+    {
+      "id": "workplace_190",
+      "word": "advisory",
+      "partOfSpeech": "adj.",
+      "meaning": "提供忠告的；諮詢的",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4233,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_191",
+      "word": "morale",
+      "partOfSpeech": "noun[U]",
+      "meaning": "士氣",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5631,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_192",
+      "word": "diligence",
+      "partOfSpeech": "noun[U]",
+      "meaning": "勤勉",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 12381,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_193",
+      "word": "diligent",
+      "partOfSpeech": "adj.",
+      "meaning": "勤奮的、認真的",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 14139,
+      "section": "人員與職場表現"
+    },
+    {
+      "id": "workplace_194",
+      "word": "overwork",
+      "partOfSpeech": "noun",
+      "meaning": "操勞過度",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 25116,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_195",
+      "word": "profession",
+      "partOfSpeech": "noun[C]",
+      "meaning": "職業",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 2211,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_196",
+      "word": "researcher",
+      "partOfSpeech": "noun[C]",
+      "meaning": "研究員",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1177,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_197",
+      "word": "scientist",
+      "partOfSpeech": "noun[C]",
+      "meaning": "科學家",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1057,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_198",
+      "word": "secretary",
+      "partOfSpeech": "noun[C]",
+      "meaning": "秘書",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 613,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_199",
+      "word": "astronaut",
+      "partOfSpeech": "noun",
+      "meaning": "太空人",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5656,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_200",
+      "word": "barber",
+      "partOfSpeech": "noun",
+      "meaning": "理髮師",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9131,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_201",
+      "word": "barkeeper",
+      "partOfSpeech": "",
+      "meaning": "酒吧主人",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": null,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_202",
+      "word": "bartender",
+      "partOfSpeech": "noun[C]",
+      "meaning": "酒保",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 7886,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_203",
+      "word": "bodyguard",
+      "partOfSpeech": "noun",
+      "meaning": "侍衛",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 8100,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_204",
+      "word": "disorganized",
+      "partOfSpeech": "adj.",
+      "meaning": "雜亂無章的",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 21693,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_205",
+      "word": "examiner",
+      "partOfSpeech": "noun",
+      "meaning": "主考人；審查員",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 7355,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_206",
+      "word": "miner",
+      "partOfSpeech": "noun",
+      "meaning": "礦工",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3339,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_207",
+      "word": "nomination",
+      "partOfSpeech": "noun[C]",
+      "meaning": "提名；任命",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3232,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_208",
+      "word": "novelist",
+      "partOfSpeech": "noun",
+      "meaning": "小說家",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 6213,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_209",
+      "word": "sailor",
+      "partOfSpeech": "noun",
+      "meaning": "水手",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5030,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_210",
+      "word": "sitter",
+      "partOfSpeech": "noun",
+      "meaning": "模特兒；照顧者",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 11445,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_211",
+      "word": "translator",
+      "partOfSpeech": "noun[C]",
+      "meaning": "翻譯者",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 6785,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_212",
+      "word": "vocation",
+      "partOfSpeech": "noun",
+      "meaning": "天職；志業",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9913,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_213",
+      "word": "potter",
+      "partOfSpeech": "noun",
+      "meaning": "陶藝家；（非正式）閒逛",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 9074,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_214",
+      "word": "urgency",
+      "partOfSpeech": "noun",
+      "meaning": "緊急",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5957,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_215",
+      "word": "columnist",
+      "partOfSpeech": "noun",
+      "meaning": "專欄作家",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4402,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_216",
+      "word": "superintendent",
+      "partOfSpeech": "noun",
+      "meaning": "管理員；監護人；警長",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5451,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_217",
+      "word": "delegation",
+      "partOfSpeech": "noun[C]",
+      "meaning": "代表團",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 3893,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_218",
+      "word": "newscaster",
+      "partOfSpeech": "noun",
+      "meaning": "新聞播報員",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 17052,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_219",
+      "word": "solicitor",
+      "partOfSpeech": "noun",
+      "meaning": "懇求者；事務律師",
+      "category": "辦公室 (workplace)",
+      "level": "初階",
+      "frequencyRank": 1625,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_220",
+      "word": "steward",
+      "partOfSpeech": "noun",
+      "meaning": "服務員",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 4750,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_221",
+      "word": "chairwoman",
+      "partOfSpeech": "noun",
+      "meaning": "女主席、女董事長",
+      "category": "辦公室 (workplace)",
+      "level": "進階",
+      "frequencyRank": 15732,
+      "section": "補充職業與人員詞彙"
+    },
+    {
+      "id": "workplace_222",
+      "word": "lieutenant",
+      "partOfSpeech": "noun",
+      "meaning": "中尉",
+      "category": "辦公室 (workplace)",
+      "level": "中階",
+      "frequencyRank": 5667,
+      "section": "補充職業與人員詞彙"
+    }
+  ]
+}

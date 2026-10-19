@@ -1,136 +1,1343 @@
 {
-  "id": "workplace",
-  "zh": "辦公室",
-  "en": "Workplace",
-  "intro": "學習辦公設備、空間設施、日常行政、出勤與職場表現等多益常見的辦公室情境用語。",
-  "sections": [
-    ["辦公設備與用品", "Office Equipment & Supplies", [
-      ["photocopier", "影印機"],
-      ["photocopy", "影印本；影印"],
-      ["stationery", "文具（總稱）"],
-      ["storage cabinet", "儲物櫃"],
-      ["cubicle", "（辦公室的）隔間座位"],
-      ["partition", "隔板、隔間牆"],
-      ["projector", "投影機"],
-      ["shredder", "碎紙機"],
-      ["stapler", "釘書機"],
-      ["toner", "（印表機、影印機的）碳粉"],
-      ["cartridge", "墨水匣、碳粉匣"],
-      ["scanner", "掃描器"],
-      ["printer", "印表機"],
-      ["peripheral", "（電腦）周邊設備"],
-      ["fax", "傳真；傳真機"],
-      ["binder", "活頁夾、資料夾"],
-      ["folder", "文件夾、資料夾"],
-      ["whiteboard", "白板"],
-      ["calculator", "計算機"],
-      ["outlet", "（電源）插座"]
-    ]],
-    ["庫存與設備維修", "Supplies & Maintenance", [
-      ["supplies", "辦公用品、耗材"],
-      ["inventory", "庫存；存貨清單"],
-      ["replenish", "補充（用品、庫存）"],
-      ["restock", "補貨、重新進貨"],
-      ["requisition", "請購單、領用申請"],
-      ["malfunction", "（機器）故障、失靈"],
-      ["glitch", "小故障、小毛病"],
-      ["faulty", "有毛病的、故障的"],
-      ["defective", "有瑕疵的、有缺陷的"],
-      ["breakdown", "（機器）故障、損壞"],
-      ["jam", "（影印機）卡紙；卡住"],
-      ["troubleshoot", "排除故障、找出問題"],
-      ["technician", "技術人員、維修技師"],
-      ["maintenance", "維修、保養"],
-      ["warranty", "保固"],
-      ["overhaul", "徹底檢修"],
-      ["inspection", "檢查、檢驗"]
-    ]],
-    ["辦公空間與設施", "Office Space & Facilities", [
-      ["premises", "（公司的）營業場所、辦公處所"],
-      ["headquarters", "總部、總公司"],
-      ["branch", "分公司、分行"],
-      ["reception", "接待處、櫃檯"],
-      ["receptionist", "接待人員、櫃檯人員"],
-      ["lobby", "（大樓的）大廳"],
-      ["lounge", "（員工）休息室"],
-      ["pantry", "茶水間"],
-      ["restroom", "洗手間"],
-      ["elevator", "電梯"],
-      ["workstation", "工作站、辦公座位"],
-      ["layout", "（空間）配置、格局"],
-      ["ergonomic", "符合人體工學的"],
-      ["extension", "（電話）分機"],
-      ["badge", "識別證、名牌"],
-      ["ventilation", "通風；通風設備"],
-      ["janitor", "工友、清潔人員"],
-      ["renovation", "翻修、整修"],
-      ["refurbish", "整修翻新"],
-      ["refurnish", "重新添置家具、重新布置"],
-      ["furnish", "為（辦公室）配置家具"],
-      ["relocate", "（公司、辦公室）搬遷"]
-    ]],
-    ["日常行政", "Daily Administration", [
-      ["assignment", "分派的工作、任務"],
-      ["deadline", "截止期限"],
-      ["memo", "（公司內部的）備忘錄、通知"],
-      ["paperwork", "文書工作、書面資料"],
-      ["clerical", "文書的、辦事員的"],
-      ["administrative", "行政的、管理的"],
-      ["filing", "文件歸檔"],
-      ["documentation", "證明文件、相關資料"],
-      ["procedure", "作業程序、步驟"],
-      ["protocol", "（正式的）規範、程序"],
-      ["workload", "工作量"],
-      ["delegate", "委派（工作）、授權"],
-      ["prioritize", "排定優先順序"],
-      ["coordinate", "協調、統籌"],
-      ["agenda", "（會議）議程"],
-      ["minutes", "會議紀錄"],
-      ["reimbursement", "報帳、費用核銷"],
-      ["authorize", "授權、核准"]
-    ]],
-    ["出勤與工時", "Attendance & Working Hours", [
-      ["punctuality", "準時、守時"],
-      ["punctual", "準時的、守時的"],
-      ["attendance", "出勤；出席"],
-      ["absenteeism", "（經常）缺勤、曠職"],
-      ["overtime", "加班；加班時數"],
-      ["shift", "輪班、班次"],
-      ["roster", "值班表、輪班表"],
-      ["commute", "通勤"],
-      ["telecommute", "遠距工作、在家上班"],
-      ["flextime", "彈性工時"],
-      ["standby", "待命；備用"]
-    ]],
-    ["人員與職場表現", "Staff & Workplace Conduct", [
-      ["supervisor", "主管、督導"],
-      ["subordinate", "部屬、下屬"],
-      ["superior", "上司、上級"],
-      ["colleague", "同事"],
-      ["coworker", "同事"],
-      ["personnel", "（全體）人員、員工"],
-      ["administrator", "行政人員、管理員"],
-      ["deputy", "副手、職務代理人"],
-      ["intern", "實習生"],
-      ["trainee", "受訓人員、培訓生"],
-      ["supervise", "監督、管理"],
-      ["oversight", "監督、督導；疏忽"],
-      ["collaborate", "合作、協作"],
-      ["teamwork", "團隊合作"],
-      ["morale", "士氣"],
-      ["productivity", "生產力、工作效率"],
-      ["efficiency", "效率"],
-      ["diligent", "勤奮的、認真的"],
-      ["competent", "能勝任的、有能力的"],
-      ["proficient", "精通的、熟練的"],
-      ["accountability", "責任歸屬、當責"],
-      ["compliance", "遵守（規定）、合規"],
-      ["etiquette", "（職場）禮儀"],
-      ["feedback", "回饋意見"],
-      ["appraisal", "（員工的）考核、績效評估"],
-      ["commendation", "表揚、嘉獎"],
-      ["reprimand", "訓誡、申誡"]
-    ]],
-  ["高頻基礎詞彙","High-frequency Basics",[["office","辦公室"],["job","工作；職位"],["manager","經理；主管"]]]
+ "id": "workplace",
+ "zh": "辦公室",
+ "en": "Workplace",
+ "intro": "辦公設備、行政流程、職場人員與工作常用詞彙；指定清單中的 222 個詞彙均納入，並依詞頻與學習情境標示初階、中階、進階。",
+  "levelOverrides": {
+    "office supplies": "B"
+  },
+ "sections": [
+  [
+   "辦公設備與用品",
+   "Office Equipment & Supplies",
+   [
+    [
+     "photocopier",
+     "影印機"
+    ],
+    [
+     "photocopy",
+     "影印本；影印"
+    ],
+    [
+     "stationery",
+     "文具（總稱）"
+    ],
+    [
+     "storage cabinet",
+     "儲物櫃"
+    ],
+    [
+     "cubicle",
+     "（辦公室的）隔間座位"
+    ],
+    [
+     "partition",
+     "隔板、隔間牆"
+    ],
+    [
+     "projector",
+     "投影機"
+    ],
+    [
+     "shredder",
+     "碎紙機"
+    ],
+    [
+     "stapler",
+     "釘書機"
+    ],
+    [
+     "toner",
+     "（印表機、影印機的）碳粉"
+    ],
+    [
+     "cartridge",
+     "墨水匣、碳粉匣"
+    ],
+    [
+     "scanner",
+     "掃描器"
+    ],
+    [
+     "printer",
+     "印表機"
+    ],
+    [
+     "peripheral",
+     "（電腦）周邊設備"
+    ],
+    [
+     "fax",
+     "傳真；傳真機"
+    ],
+    [
+     "binder",
+     "活頁夾、資料夾"
+    ],
+    [
+     "folder",
+     "文件夾、資料夾"
+    ],
+    [
+     "whiteboard",
+     "白板"
+    ],
+    [
+     "calculator",
+     "計算機"
+    ],
+    [
+     "outlet",
+     "（電源）插座"
+    ]
+   ]
+  ],
+  [
+   "庫存與設備維修",
+   "Supplies & Maintenance",
+   [
+    [
+     "supplies",
+     "辦公用品、耗材"
+    ],
+    [
+     "inventory",
+     "庫存；存貨清單"
+    ],
+    [
+     "replenish",
+     "補充（用品、庫存）"
+    ],
+    [
+     "restock",
+     "補貨、重新進貨"
+    ],
+    [
+     "requisition",
+     "請購單、領用申請"
+    ],
+    [
+     "malfunction",
+     "（機器）故障、失靈"
+    ],
+    [
+     "glitch",
+     "小故障、小毛病"
+    ],
+    [
+     "faulty",
+     "有毛病的、故障的"
+    ],
+    [
+     "defective",
+     "有瑕疵的、有缺陷的"
+    ],
+    [
+     "breakdown",
+     "（機器）故障、損壞"
+    ],
+    [
+     "jam",
+     "（影印機）卡紙；卡住"
+    ],
+    [
+     "troubleshoot",
+     "排除故障、找出問題"
+    ],
+    [
+     "technician",
+     "技術人員、維修技師"
+    ],
+    [
+     "maintenance",
+     "維修、保養"
+    ],
+    [
+     "warranty",
+     "保固"
+    ],
+    [
+     "overhaul",
+     "徹底檢修"
+    ],
+    [
+     "inspection",
+     "檢查、檢驗"
+    ]
+   ]
+  ],
+  [
+   "辦公空間與設施",
+   "Office Space & Facilities",
+   [
+    [
+     "premises",
+     "（公司的）營業場所、辦公處所"
+    ],
+    [
+     "headquarters",
+     "總部、總公司"
+    ],
+    [
+     "branch",
+     "分公司、分行"
+    ],
+    [
+     "reception",
+     "接待處、櫃檯"
+    ],
+    [
+     "receptionist",
+     "接待人員、櫃檯人員"
+    ],
+    [
+     "lobby",
+     "（大樓的）大廳"
+    ],
+    [
+     "lounge",
+     "（員工）休息室"
+    ],
+    [
+     "pantry",
+     "茶水間"
+    ],
+    [
+     "restroom",
+     "洗手間"
+    ],
+    [
+     "elevator",
+     "電梯"
+    ],
+    [
+     "workstation",
+     "工作站、辦公座位"
+    ],
+    [
+     "layout",
+     "（空間）配置、格局"
+    ],
+    [
+     "ergonomic",
+     "符合人體工學的"
+    ],
+    [
+     "extension",
+     "（電話）分機"
+    ],
+    [
+     "badge",
+     "識別證、名牌"
+    ],
+    [
+     "ventilation",
+     "通風；通風設備"
+    ],
+    [
+     "janitor",
+     "工友、清潔人員"
+    ],
+    [
+     "renovation",
+     "翻修、整修"
+    ],
+    [
+     "refurbish",
+     "整修翻新"
+    ],
+    [
+     "refurnish",
+     "重新添置家具、重新布置"
+    ],
+    [
+     "furnish",
+     "為（辦公室）配置家具"
+    ],
+    [
+     "relocate",
+     "（公司、辦公室）搬遷"
+    ]
+   ]
+  ],
+  [
+   "日常行政",
+   "Daily Administration",
+   [
+    [
+     "assignment",
+     "分派的工作、任務"
+    ],
+    [
+     "deadline",
+     "截止期限"
+    ],
+    [
+     "memo",
+     "（公司內部的）備忘錄、通知"
+    ],
+    [
+     "paperwork",
+     "文書工作、書面資料"
+    ],
+    [
+     "clerical",
+     "文書的、辦事員的"
+    ],
+    [
+     "administrative",
+     "行政的、管理的"
+    ],
+    [
+     "filing",
+     "文件歸檔"
+    ],
+    [
+     "documentation",
+     "證明文件、相關資料"
+    ],
+    [
+     "procedure",
+     "作業程序、步驟"
+    ],
+    [
+     "protocol",
+     "（正式的）規範、程序"
+    ],
+    [
+     "workload",
+     "工作量"
+    ],
+    [
+     "delegate",
+     "委派（工作）、授權"
+    ],
+    [
+     "prioritize",
+     "排定優先順序"
+    ],
+    [
+     "coordinate",
+     "協調、統籌"
+    ],
+    [
+     "agenda",
+     "（會議）議程"
+    ],
+    [
+     "minutes",
+     "會議紀錄"
+    ],
+    [
+     "reimbursement",
+     "報帳、費用核銷"
+    ],
+    [
+     "authorize",
+     "授權、核准"
+    ]
+   ]
+  ],
+  [
+   "出勤與工時",
+   "Attendance & Working Hours",
+   [
+    [
+     "punctuality",
+     "準時、守時"
+    ],
+    [
+     "punctual",
+     "準時的、守時的"
+    ],
+    [
+     "attendance",
+     "出勤；出席"
+    ],
+    [
+     "absenteeism",
+     "（經常）缺勤、曠職"
+    ],
+    [
+     "overtime",
+     "加班；加班時數"
+    ],
+    [
+     "shift",
+     "輪班、班次"
+    ],
+    [
+     "roster",
+     "值班表、輪班表"
+    ],
+    [
+     "commute",
+     "通勤"
+    ],
+    [
+     "telecommute",
+     "遠距工作、在家上班"
+    ],
+    [
+     "flextime",
+     "彈性工時"
+    ],
+    [
+     "standby",
+     "待命；備用"
+    ]
+   ]
+  ],
+  [
+   "人員與職場表現",
+   "Staff & Workplace Conduct",
+   [
+    [
+     "supervisor",
+     "主管、督導"
+    ],
+    [
+     "subordinate",
+     "部屬、下屬"
+    ],
+    [
+     "superior",
+     "上司、上級"
+    ],
+    [
+     "colleague",
+     "同事"
+    ],
+    [
+     "coworker",
+     "同事"
+    ],
+    [
+     "personnel",
+     "（全體）人員、員工"
+    ],
+    [
+     "administrator",
+     "行政人員、管理員"
+    ],
+    [
+     "deputy",
+     "副手、職務代理人"
+    ],
+    [
+     "intern",
+     "實習生"
+    ],
+    [
+     "trainee",
+     "受訓人員、培訓生"
+    ],
+    [
+     "supervise",
+     "監督、管理"
+    ],
+    [
+     "oversight",
+     "監督、督導；疏忽"
+    ],
+    [
+     "collaborate",
+     "合作、協作"
+    ],
+    [
+     "teamwork",
+     "團隊合作"
+    ],
+    [
+     "morale",
+     "士氣"
+    ],
+    [
+     "productivity",
+     "生產力、工作效率"
+    ],
+    [
+     "efficiency",
+     "效率"
+    ],
+    [
+     "diligent",
+     "勤奮的、認真的"
+    ],
+    [
+     "competent",
+     "能勝任的、有能力的"
+    ],
+    [
+     "proficient",
+     "精通的、熟練的"
+    ],
+    [
+     "accountability",
+     "責任歸屬、當責"
+    ],
+    [
+     "compliance",
+     "遵守（規定）、合規"
+    ],
+    [
+     "etiquette",
+     "（職場）禮儀"
+    ],
+    [
+     "feedback",
+     "回饋意見"
+    ],
+    [
+     "appraisal",
+     "（員工的）考核、績效評估"
+    ],
+    [
+     "commendation",
+     "表揚、嘉獎"
+    ],
+    [
+     "reprimand",
+     "訓誡、申誡"
+    ]
+   ]
+  ],
+  [
+   "高頻基礎詞彙",
+   "High-frequency Basics",
+   [
+    [
+     "office",
+     "辦公室"
+    ],
+    [
+     "job",
+     "工作；職位"
+    ],
+    [
+     "manager",
+     "經理；主管"
+    ]
+   ]
+  ],
+  [
+   "補充職場核心詞彙",
+   "Additional Workplace Terms",
+   [
+    [
+     "clerk",
+     "辦事員；店員；職員"
+    ],
+    [
+     "carbon copy",
+     "副本；抄送副本"
+    ],
+    [
+     "document",
+     "文件；檔案"
+    ],
+    [
+     "disconnect",
+     "切斷(電源、電話)"
+    ],
+    [
+     "exhilarate",
+     "使興奮；使振奮"
+    ],
+    [
+     "file",
+     "文件；歸檔（動詞）"
+    ],
+    [
+     "filing cabinet",
+     "檔案櫃"
+    ],
+    [
+     "hectic",
+     "繁忙的"
+    ],
+    [
+     "intercom",
+     "對講機"
+    ],
+    [
+     "import",
+     "進口"
+    ],
+    [
+     "inquiry",
+     "調查；詢問"
+    ],
+    [
+     "joining",
+     "加入；連接；合併"
+    ],
+    [
+     "material",
+     "資料；材料"
+    ],
+    [
+     "monitor",
+     "監視；監測"
+    ],
+    [
+     "microscope",
+     "顯微鏡"
+    ],
+    [
+     "office supplies",
+     "辦公室用品"
+    ],
+    [
+     "operator",
+     "接線生；操作員"
+    ],
+    [
+     "overheat",
+     "過熱"
+    ],
+    [
+     "oversee",
+     "監督"
+    ],
+    [
+     "petition",
+     "請願；請求"
+    ],
+    [
+     "portfolio",
+     "作品集;投資組合"
+    ],
+    [
+     "pile",
+     "一堆；一疊"
+    ],
+    [
+     "plug",
+     "插插頭；堵塞"
+    ],
+    [
+     "press",
+     "按；壓；擠壓"
+    ],
+    [
+     "staff",
+     "全體職員"
+    ],
+    [
+     "strike",
+     "罷工；打；擊"
+    ],
+    [
+     "shorthand",
+     "速記"
+    ],
+    [
+     "stack",
+     "堆疊；堆放"
+    ],
+    [
+     "surplus",
+     "過剩；剩餘的"
+    ],
+    [
+     "task",
+     "工作；任務"
+    ],
+    [
+     "tardy",
+     "遲緩的；延遲的"
+    ],
+    [
+     "typist",
+     "打字員"
+    ],
+    [
+     "workforce",
+     "勞動人口"
+    ]
+   ]
+  ],
+  [
+   "補充行政與通用詞彙",
+   "Additional Administrative & General Terms",
+   [
+    [
+     "xerox",
+     "複印；影印機（商標俗稱）"
+    ],
+    [
+     "paralysis",
+     "麻痺"
+    ],
+    [
+     "profound",
+     "深刻的；重大的"
+    ],
+    [
+     "neglect",
+     "忽略;疏忽;疏漏"
+    ],
+    [
+     "perverse",
+     "乖戾的；故意作對的"
+    ],
+    [
+     "export",
+     "出口"
+    ],
+    [
+     "impractical",
+     "不切實際的；不實用的"
+    ],
+    [
+     "laborer",
+     "勞動者，勞工；輔助工"
+    ],
+    [
+     "contact",
+     "聯絡；接觸"
+    ],
+    [
+     "business",
+     "商業;事"
+    ],
+    [
+     "click",
+     "喀噠聲；點擊"
+    ],
+    [
+     "service",
+     "服務"
+    ],
+    [
+     "date",
+     "日期；約會"
+    ],
+    [
+     "state",
+     "狀態；美國的州"
+    ],
+    [
+     "next",
+     "下一個"
+    ],
+    [
+     "data",
+     "資料,數據"
+    ],
+    [
+     "post",
+     "郵件；站；交易所；發布"
+    ],
+    [
+     "policy",
+     "政策;策略"
+    ],
+    [
+     "number",
+     "數字；號碼；數量"
+    ],
+    [
+     "available",
+     "可得到的,有效的"
+    ],
+    [
+     "public",
+     "公開的；公立的"
+    ],
+    [
+     "privacy",
+     "隱私；隱私權"
+    ],
+    [
+     "company",
+     "公司；陪伴"
+    ],
+    [
+     "set",
+     "套；組；集合"
+    ],
+    [
+     "general",
+     "普遍的"
+    ],
+    [
+     "research",
+     "(學術)研究"
+    ],
+    [
+     "full",
+     "滿的；完整的"
+    ],
+    [
+     "program",
+     "節目；計畫"
+    ],
+    [
+     "management",
+     "管理;經營;處理"
+    ],
+    [
+     "item",
+     "項目;品目"
+    ],
+    [
+     "development",
+     "生長;發展"
+    ],
+    [
+     "report",
+     "報告"
+    ],
+    [
+     "local",
+     "本地的"
+    ],
+    [
+     "area",
+     "地區;面積"
+    ],
+    [
+     "subject",
+     "主題;學科"
+    ],
+    [
+     "forum",
+     "公開討論的場所；討論會"
+    ],
+    [
+     "code",
+     "法規;代碼;電碼"
+    ],
+    [
+     "index",
+     "索引;標誌;指示符號"
+    ],
+    [
+     "sign",
+     "記號"
+    ],
+    [
+     "link",
+     "連結；聯繫，關聯；關係"
+    ],
+    [
+     "project",
+     "項目"
+    ],
+    [
+     "version",
+     "譯文;版本"
+    ],
+    [
+     "section",
+     "區段;部分;切片"
+    ],
+    [
+     "own",
+     "自己的"
+    ],
+    [
+     "found",
+     "創立;建立"
+    ],
+    [
+     "media",
+     "媒介物;新聞媒介"
+    ],
+    [
+     "personal",
+     "個人的"
+    ],
+    [
+     "since",
+     "自從；此後"
+    ],
+    [
+     "location",
+     "位置；地點"
+    ],
+    [
+     "text",
+     "文字；簡訊"
+    ],
+    [
+     "return",
+     "退貨；歸還"
+    ],
+    [
+     "level",
+     "水平；程度"
+    ],
+    [
+     "previous",
+     "先的,以前的"
+    ],
+    [
+     "image",
+     "影像；圖像"
+    ],
+    [
+     "department",
+     "部門；科系"
+    ],
+    [
+     "title",
+     "標題;頭銜"
+    ],
+    [
+     "description",
+     "敘述;形容"
+    ],
+    [
+     "insurance",
+     "保險;保險契約"
+    ],
+    [
+     "content",
+     "內容；滿意的"
+    ],
+    [
+     "save",
+     "存（錢）；拯救"
+    ],
+    [
+     "compare",
+     "比較"
+    ],
+    [
+     "include",
+     "包含"
+    ],
+    [
+     "value",
+     "價值"
+    ],
+    [
+     "article",
+     "文章;條款"
+    ],
+    [
+     "card",
+     "卡；卡片"
+    ],
+    [
+     "single",
+     "單一的;獨身的"
+    ],
+    [
+     "additional",
+     "附加的;額外的"
+    ],
+    [
+     "password",
+     "密碼"
+    ],
+    [
+     "range",
+     "範圍;一系列;爐灶"
+    ],
+    [
+     "light",
+     "輕的；明亮的"
+    ],
+    [
+     "release",
+     "發行,發表;釋放,解放"
+    ],
+    [
+     "analysis",
+     "分析"
+    ],
+    [
+     "professional",
+     "專業的"
+    ],
+    [
+     "edition",
+     "版本"
+    ],
+    [
+     "marketing",
+     "交易；銷售；運銷"
+    ],
+    [
+     "further",
+     "較遠的;另外的"
+    ],
+    [
+     "association",
+     "協會,公會,社團"
+    ],
+    [
+     "specific",
+     "特殊的,特定的"
+    ],
+    [
+     "several",
+     "幾個的"
+    ],
+    [
+     "short",
+     "短的；矮的"
+    ],
+    [
+     "limited",
+     "有限的，不多的"
+    ],
+    [
+     "period",
+     "時期;期間"
+    ],
+    [
+     "official",
+     "官方的,法定的"
+    ],
+    [
+     "mar",
+     "毀損;損傷;玷污"
+    ],
+    [
+     "average",
+     "平均的"
+    ],
+    [
+     "chapter",
+     "章;回"
+    ],
+    [
+     "position",
+     "位置"
+    ],
+    [
+     "sort",
+     "類型;排序"
+    ],
+    [
+     "license",
+     "執照,許可證"
+    ],
+    [
+     "annual",
+     "一年一次的;每年的"
+    ],
+    [
+     "method",
+     "方法"
+    ],
+    [
+     "regional",
+     "地區的,區域的"
+    ],
+    [
+     "administration",
+     "政府;行政"
+    ],
+    [
+     "located",
+     "位於……的"
+    ],
+    [
+     "multiple",
+     "複合的;多樣的"
+    ],
+    [
+     "industrial",
+     "工業的,產業的"
+    ],
+    [
+     "cause",
+     "原因;理由"
+    ],
+    [
+     "potential",
+     "潛在的,可能的"
+    ],
+    [
+     "transfer",
+     "移交;轉讓"
+    ],
+    [
+     "introduction",
+     "介紹;正式引見"
+    ]
+   ]
+  ],
+  [
+   "補充職業與人員詞彙",
+   "Additional Occupations & People",
+   [
+    [
+     "excellent",
+     "非常好的"
+    ],
+    [
+     "desk",
+     "書桌"
+    ],
+    [
+     "late",
+     "遲到的；晚的；晚"
+    ],
+    [
+     "life",
+     "生命；生活"
+    ],
+    [
+     "work",
+     "工作"
+    ],
+    [
+     "farmer",
+     "農夫；農民"
+    ],
+    [
+     "factory",
+     "工廠"
+    ],
+    [
+     "leader",
+     "領袖"
+    ],
+    [
+     "captain",
+     "隊長；船(艦)長"
+    ],
+    [
+     "fisherman",
+     "漁民；漁夫"
+    ],
+    [
+     "meeting",
+     "會議"
+    ],
+    [
+     "boss",
+     "老闆"
+    ],
+    [
+     "harvest",
+     "收成；收割"
+    ],
+    [
+     "information",
+     "資訊"
+    ],
+    [
+     "matter",
+     "事情；要緊"
+    ],
+    [
+     "problem",
+     "問題"
+    ],
+    [
+     "chest",
+     "胸腔；箱子"
+    ],
+    [
+     "emergency",
+     "緊急情況"
+    ],
+    [
+     "actress",
+     "女演員"
+    ],
+    [
+     "pal",
+     "夥伴"
+    ],
+    [
+     "actor",
+     "男演員"
+    ],
+    [
+     "singer",
+     "歌手"
+    ],
+    [
+     "worker",
+     "工人"
+    ],
+    [
+     "director",
+     "主管；導演"
+    ],
+    [
+     "gardener",
+     "園丁；花匠"
+    ],
+    [
+     "manage",
+     "管理"
+    ],
+    [
+     "musician",
+     "音樂家"
+    ],
+    [
+     "plumber",
+     "水管工"
+    ],
+    [
+     "poet",
+     "詩人"
+    ],
+    [
+     "prevent",
+     "預防"
+    ],
+    [
+     "professor",
+     "教授"
+    ],
+    [
+     "officer",
+     "軍官；官員"
+    ],
+    [
+     "union",
+     "工會；聯盟"
+    ],
+    [
+     "lawyer",
+     "律師"
+    ],
+    [
+     "adviser",
+     "顧問"
+    ],
+    [
+     "advisor",
+     "顧問"
+    ],
+    [
+     "advisory",
+     "提供忠告的；諮詢的"
+    ],
+    [
+     "diligence",
+     "勤勉"
+    ],
+    [
+     "overwork",
+     "操勞過度"
+    ],
+    [
+     "profession",
+     "職業"
+    ],
+    [
+     "researcher",
+     "研究員"
+    ],
+    [
+     "scientist",
+     "科學家"
+    ],
+    [
+     "secretary",
+     "秘書"
+    ],
+    [
+     "astronaut",
+     "太空人"
+    ],
+    [
+     "barber",
+     "理髮師"
+    ],
+    [
+     "barkeeper",
+     "酒吧主人"
+    ],
+    [
+     "bartender",
+     "酒保"
+    ],
+    [
+     "bodyguard",
+     "侍衛"
+    ],
+    [
+     "disorganized",
+     "雜亂無章的"
+    ],
+    [
+     "examiner",
+     "主考人；審查員"
+    ],
+    [
+     "miner",
+     "礦工"
+    ],
+    [
+     "nomination",
+     "提名；任命"
+    ],
+    [
+     "novelist",
+     "小說家"
+    ],
+    [
+     "sailor",
+     "水手"
+    ],
+    [
+     "sitter",
+     "模特兒；照顧者"
+    ],
+    [
+     "translator",
+     "翻譯者"
+    ],
+    [
+     "vocation",
+     "天職；志業"
+    ],
+    [
+     "potter",
+     "陶藝家；（非正式）閒逛"
+    ],
+    [
+     "urgency",
+     "緊急"
+    ],
+    [
+     "columnist",
+     "專欄作家"
+    ],
+    [
+     "superintendent",
+     "管理員；監護人；警長"
+    ],
+    [
+     "delegation",
+     "代表團"
+    ],
+    [
+     "newscaster",
+     "新聞播報員"
+    ],
+    [
+     "solicitor",
+     "懇求者；事務律師"
+    ],
+    [
+     "steward",
+     "服務員"
+    ],
+    [
+     "chairwoman",
+     "女主席、女董事長"
+    ],
+    [
+     "lieutenant",
+     "中尉"
+    ]
+   ]
   ]
+ ]
 }
