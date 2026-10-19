@@ -1,0 +1,18 @@
+{
+  "weather": [["weather", 0, "天氣"]],
+  "user": [["computers", 1, "使用者"]],
+  "dinner": [["restaurant", 0, "晚餐"]],
+  "secretary": [["office", 0, "秘書"]],
+  "email": [["emails", 0, "電子郵件"]],
+  "advertise": [["marketing", 1, "做廣告、宣傳"]],
+  "annual": [["banking", 2, "年度的"]],
+  "traffic": [["transport", 2, "交通、車流"]],
+  "rain": [["weather", 0, "下雨"]],
+  "lesson": [["education", 0, "課、課程"]],
+  "library": [["education", 0, "圖書館"]],
+  "transport": [["logistics", 0, "運送、運輸"]],
+  "fair": [["events", 1, "展覽會、商展"]],
+  "chair": [["meetings", 0, "主持（會議）"]],
+  "photo": [["sightseeing", 2, "照片"]],
+  "camp": [["leisure", 0, "露營"]]
+}

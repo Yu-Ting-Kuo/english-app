@@ -1,0 +1,92 @@
+{
+  "trauma": [
+    {"p": "n", "zh": "（心理）創傷", "src": "app", "ai": [["Many survivors of the earthquake still suffer from trauma.", "許多地震倖存者至今仍受心理創傷所苦。"], ["Losing his job was a real trauma for him.", "失業對他來說是很大的打擊。"]]},
+    {"p": "n", "zh": "外傷、損傷（醫學）", "ai": [["The patient was taken to the hospital with severe head trauma.", "病患因頭部嚴重外傷被送往醫院。"], ["She works as a nurse in the trauma unit.", "她在創傷科當護理師。"]]}
+  ],
+  "triangle": [
+    {"p": "n", "zh": "三角形", "t": [244978, 7797079], "fix": {"244978": "請求出這個三角形的面積。", "7797079": "三角形有三個角，六邊形則有六個角。"}, "ai": [["Cut the sandwich into two triangles.", "把三明治切成兩個三角形。"]]},
+    {"p": "n", "zh": "三角關係", "ai": [["The movie is about a love triangle between three friends.", "這部電影講的是三個朋友之間的三角戀。"], ["She didn't want to be part of a triangle.", "她不想捲入三角關係。"]]}
+  ],
+  "trivial": [
+    {"p": "adj", "zh": "瑣碎的、不重要的", "t": [1283594, 5090019], "fix": {"1283594": "算了，那些只是無關緊要的細節。", "5090019": "這可不是小事。"}, "ai": [["Don't waste time arguing about trivial issues.", "別浪費時間爭論雞毛蒜皮的小事。"]]}
+  ],
+  "tumor": [
+    {"p": "n", "zh": "腫瘤", "t": [28156, 6033391], "fix": {"28156": "我得了胃腫瘤，必須開刀切除。"}, "ai": [["The doctors found that the tumor was not cancerous.", "醫生發現那顆腫瘤不是惡性的。"]]}
+  ],
+  "turbulent": [
+    {"p": "adj", "zh": "動盪的、混亂的", "ai": [["The company went through a turbulent period last year.", "這家公司去年經歷了一段動盪時期。"], ["Prices have been rising in these turbulent times.", "在這動盪的時期，物價持續上漲。"]]},
+    {"p": "adj", "zh": "（氣流、水流）洶湧的、不穩定的", "ai": [["The flight was turbulent, so we kept our seat belts on.", "飛行途中氣流不穩，所以我們一直繫著安全帶。"], ["The boat struggled through the turbulent waters.", "小船在洶湧的海水中艱難前進。"]]}
+  ],
+  "tutor": [
+    {"p": "n", "zh": "家教、家庭教師；（大學）助教、導師", "t": [4261682], "fix": {"4261682": "他是數學系的助教。"}, "ai": [["My parents hired a tutor to help me with English.", "我爸媽請了家教幫我加強英文。"], ["Amy works as a private tutor on weekends.", "Amy 週末兼差當家教。"]]},
+    {"p": "v", "zh": "當家教、個別指導", "ai": [["She tutors high school students in math.", "她當家教，教高中生數學。"], ["Tom was tutored at home for a year.", "Tom 在家接受了一年的家教指導。"]]}
+  ],
+  "undergraduate": [
+    {"p": "n", "zh": "大學生（尚未畢業的學士生）", "ai": [["The course is open to all undergraduates.", "這門課開放給所有大學部學生修。"], ["She was an undergraduate at National Taiwan University.", "她大學時就讀台大。"]]},
+    {"p": "adj", "zh": "大學部的、學士班的", "ai": [["He has an undergraduate degree in economics.", "他擁有經濟學學士學位。"], ["The university offers over fifty undergraduate programs.", "這所大學提供五十多個學士學程。"]]}
+  ],
+  "underneath": [
+    {"p": "prep", "zh": "在……下面", "t": [255674], "fix": {"255674": "我在門口地墊下面找到了鑰匙。"}, "ai": [["The cat is sleeping underneath the table.", "貓正在桌子底下睡覺。"], ["Please write your name underneath the photo.", "請在照片下方寫上你的名字。"]]},
+    {"p": "adv", "zh": "在下面；在內心、骨子裡", "t": [398040], "fix": {"398040": "我們在下面寫上班上同學的名字。"}, "ai": [["He seems tough, but underneath he's very kind.", "他看起來很強硬，但其實內心很善良。"]]}
+  ],
+  "unintelligible": [
+    {"p": "adj", "zh": "難以理解的、聽不懂的", "ai": [["The announcement at the station was almost unintelligible.", "車站的廣播幾乎聽不清楚在說什麼。"], ["His handwriting is completely unintelligible to me.", "他的字跡我完全看不懂。"]]}
+  ],
+  "unstable": [
+    {"p": "adj", "zh": "不穩定的", "t": [2915514, 5573351], "fix": {"2915514": "由於有些函式寫得很糟，系統大多時候都不穩定。", "5573351": "人們的感情生活變得越來越不穩定。"}, "ai": [["The internet connection here is very unstable.", "這裡的網路連線很不穩定。"]]}
+  ],
+  "uplift": [
+    {"p": "v", "zh": "鼓舞、提振（精神）；提高", "ai": [["Her speech uplifted everyone in the room.", "她的演講鼓舞了在場的每個人。"], ["The new park has uplifted the whole neighborhood.", "新公園讓整個社區煥然一新。"]]},
+    {"p": "n", "zh": "提升、上漲；鼓舞", "ai": [["The company expects an uplift in sales this quarter.", "公司預期這一季的銷售會成長。"], ["The good news gave the team a much-needed uplift.", "這個好消息替團隊打了一劑強心針。"]]}
+  ],
+  "urine": [
+    {"p": "n", "zh": "尿、尿液", "t": [709076, 281957], "fix": {"709076": "我們要幫您驗尿。", "281957": "我的尿液很清澈。"}, "ai": [["The doctor asked for a urine sample.", "醫生要我提供尿液檢體。"]]}
+  ],
+  "utterance": [
+    {"p": "n", "zh": "說出的話、言語", "ai": [["The child's first utterance was \"mama.\"", "這孩子說出的第一句話是「媽媽」。"], ["Each utterance was recorded for later analysis.", "每一句話都被錄下來供之後分析。"]]},
+    {"p": "n", "zh": "發言、表達", "ai": [["She was too shocked to give utterance to her feelings.", "她震驚到說不出自己的感受。"], ["His careful utterance made the speech easy to follow.", "他說話字字清楚，演講很容易聽懂。"]]}
+  ],
+  "valve": [
+    {"p": "n", "zh": "閥、閥門", "ai": [["Turn off the main water valve before fixing the pipe.", "修水管前先把總水閥關掉。"], ["The technician replaced a broken valve in the machine.", "技師更換了機器裡一個壞掉的閥門。"]]},
+    {"p": "n", "zh": "（心臟、血管的）瓣膜", "ai": [["My grandfather had surgery to repair a heart valve.", "我爺爺動了手術修補心臟瓣膜。"], ["Valves in the veins keep blood flowing in one direction.", "靜脈裡的瓣膜讓血液往單一方向流動。"]]}
+  ],
+  "variant": [
+    {"p": "n", "zh": "變體、變種；不同版本", "ai": [["Scientists are studying a new variant of the virus.", "科學家正在研究這種病毒的新變種。"], ["The car comes in three variants.", "這款車有三種車型可選。"], ["\"Colour\" is the British variant of \"color.\"", "colour 是 color 的英式拼法。"]]},
+    {"p": "adj", "zh": "不同的、變異的", "ai": [["There are several variant spellings of the name.", "這個名字有好幾種不同的拼法。"], ["The study compared two variant forms of the gene.", "這項研究比較了該基因的兩種變異型。"]]}
+  ],
+  "vegetation": [
+    {"p": "n", "zh": "（某地區的）植物、草木", "ai": [["The island is covered in thick vegetation.", "這座島上草木茂密。"], ["There is very little vegetation in the desert.", "沙漠裡幾乎沒有什麼植物。"]]}
+  ],
+  "vein": [
+    {"p": "n", "zh": "靜脈、血管", "t": [283541], "fix": {"283541": "他大吼的時候，脖子上青筋暴露。"}, "ai": [["The nurse took blood from a vein in my arm.", "護理師從我手臂的靜脈抽血。"]]},
+    {"p": "n", "zh": "風格、語氣；方式", "ai": [["The rest of the speech continued in the same vein.", "演講的其餘部分延續同樣的風格。"], ["He spoke in a more serious vein this time.", "這次他說話的語氣嚴肅多了。"]]}
+  ],
+  "velocity": [
+    {"p": "n", "zh": "速度、速率", "ai": [["The wind reached a velocity of 150 kilometers per hour.", "風速達到每小時 150 公里。"], ["Light travels at a constant velocity.", "光以固定的速度前進。"]]}
+  ],
+  "vocabulary": [
+    {"p": "n", "zh": "字彙、詞彙（量）", "t": [43868, 753000, 312669], "fix": {"43868": "你需要有很大的字彙量才能讀那本書。", "753000": "我用字卡背德文單字。", "312669": "她的英文字彙量很豐富。"}}
+  ],
+  "volition": [
+    {"p": "n", "zh": "自由意志、自願", "ai": [["She left the company of her own volition.", "她是自願離開公司的。"], ["Nobody forced him; he acted of his own volition.", "沒有人逼他，他是出於自己的意願。"]]}
+  ],
+  "vowel": [
+    {"p": "n", "zh": "母音", "t": [34161, 10018145], "fix": {"34161": "法語的母音比日語多得多。", "10018145": "有沒有哪種語言是沒有母音的？"}, "ai": [["English has five vowel letters: a, e, i, o and u.", "英文有五個母音字母：a、e、i、o、u。"]]}
+  ],
+  "watershed": [
+    {"p": "n", "zh": "轉捩點、分水嶺", "ai": [["The invention of the smartphone was a watershed in communication.", "智慧型手機的發明是通訊史上的轉捩點。"], ["That meeting proved to be a watershed for the company.", "那次會議後來成了公司的轉捩點。"]]},
+    {"p": "n", "zh": "（地理）分水嶺；流域", "ai": [["The river's watershed covers a huge area.", "這條河的流域面積非常廣大。"], ["Protecting the watershed keeps our drinking water clean.", "保護集水區能讓我們的飲用水保持乾淨。"]]}
+  ],
+  "wavelength": [
+    {"p": "n", "zh": "波長", "ai": [["Blue light has a shorter wavelength than red light.", "藍光的波長比紅光短。"], ["Each radio station broadcasts on a different wavelength.", "每個電台在不同的波長播送。"]]},
+    {"p": "phr", "zh": "on the same wavelength：想法一致、合得來", "ai": [["My manager and I are on the same wavelength.", "我和主管的想法很合拍。"], ["It's easy to work with people on your wavelength.", "跟想法相近的人共事很輕鬆。"]]}
+  ],
+  "weave": [
+    {"p": "v", "zh": "編織、織", "t": [8727445], "fix": {"8727445": "蜘蛛喜歡結網。"}, "ai": [["These baskets are woven by hand.", "這些籃子是手工編織的。"]]},
+    {"p": "v", "zh": "穿梭、迂迴前進", "ai": [["The scooter weaved through the heavy traffic.", "那台機車在車陣中鑽來鑽去。"], ["We wove our way through the crowded night market.", "我們在擁擠的夜市裡穿梭前進。"]]},
+    {"p": "v", "zh": "把……編進、融入（故事、細節）", "ai": [["The author weaves history into her novels.", "這位作者把歷史融入她的小說中。"], ["He wove a few jokes into his presentation.", "他在簡報裡穿插了幾個笑話。"]]}
+  ],
+  "yeast": [
+    {"p": "n", "zh": "酵母", "t": [34926], "fix": {"34926": "麵包是用麵粉、水做的，通常還會加酵母。"}, "ai": [["Add the yeast and let the dough rise for an hour.", "加入酵母，讓麵團發酵一小時。"]]}
+  ]
+}

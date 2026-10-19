@@ -83,6 +83,12 @@ def level_of(rank):
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
     src = json.loads(SRC.read_text(encoding='utf-8'))
+    # 多益核心字彙單元（tools/build_core_units.py 產生）
+    core_units = ROOT / 'tools' / 'core_units.json'
+    if core_units.exists():
+        extra = json.loads(core_units.read_text(encoding='utf-8'))
+        src['categories'] += extra['categories']
+        src['topics'].update(extra['topics'])
     errors, missing = [], []
     owner = {}
     for c in src['categories']:
@@ -126,11 +132,15 @@ def main():
                 words.append(item)
             sections.append({'zh': zh, 'en': en, 'words': words})
         levels = {lv: sum(w['lv'] == lv for s in sections for w in s['words']) for lv in LEVELS}
+        # 情境主題要求三種難度都有；核心字彙單元是依詞頻切的，不檢查
         for lv, label in zip(LEVELS, ('初階', '中階', '進階')):
-            if levels[lv] < 3:
+            if not t.get('auto') and levels[lv] < 3:
                 errors.append(f'{tid}：{label}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
                        'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}
+        for k in ('group', 'auto'):
+            if k in t:
+                topics[tid][k] = t[k]
 
     cats = [{**c, 'count': len({w for t in c['topics'] for s in topics[t]['sections'] for w in
                                 [x.get('k') or norm(x['w']) for x in s['words']]})} for c in src['categories']]

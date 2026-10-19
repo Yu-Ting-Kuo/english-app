@@ -1,0 +1,8 @@
+{
+  "tumor": [["health", 1, "腫瘤"]],
+  "tutor": [["education", 0, "家教、助教"]],
+  "undergraduate": [["education", 2, "大學生、大學部的"]],
+  "urine": [["health", 1, "尿液（檢驗）"]],
+  "vocabulary": [["education", 0, "字彙"]],
+  "velocity": [["science", 1, "速度"]]
+}

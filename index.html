@@ -159,6 +159,7 @@
   .ex-say { flex: none; min-height: 32px; width: 32px; padding: 0; border-radius: 50%; }
   .ex-say svg { width: 16px; height: 16px; }
   .ex-zh { font-size: 15px; margin-top: 2px; }
+  .gram { font: 600 12px/1.4 ui-monospace, Menlo, Consolas, monospace; color: var(--accent); margin-right: 6px; white-space: nowrap; }
   .ex-src { font-size: 11px; color: var(--muted); margin-top: 3px; line-height: 1.6; }
   .ex-src a { color: var(--muted); }
   .ecdict-all summary { font-size: 14px; }
@@ -405,8 +406,9 @@
       <label>資料來源與授權</label>
       <ul class="muted licenses">
         <li><b>中文詞義、詞性、詞形變化、詞頻、易混淆辨析</b>：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener">ECDICT</a>（MIT 授權），以 OpenCC 由簡體轉為台灣繁體。</li>
-        <li><b>例句與中文翻譯</b>：<a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>（CC BY 2.0 FR），每句標示原句編號與作者；翻譯經 App 修訂的會另外標示。只使用文字例句，沒有使用 Tatoeba 的錄音。</li>
-        <li><b>AI 生成例句</b>：Tatoeba 找不到合適例句的詞義，由 AI 補寫，並以程式檢查目標字、詞性與中文翻譯；尚未經過真人教師審閱。每句都標示「AI 生成例句」。</li>
+        <li><b>例句與中文翻譯</b>：<a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>（CC BY 2.0 FR），由 Tatoeba 社群貢獻者撰寫與翻譯；每句的原句編號與作者記錄在 App 的資料檔中，畫面上不逐句顯示，部分中文翻譯經 App 修訂。只使用文字例句，沒有使用 Tatoeba 的錄音。</li>
+        <li><b>詞性標示</b>：名詞標 noun[C]（可數）、noun[U]（不可數）、noun[C/U]（兩者皆常用）；動詞標 vt.（及物）、vi.（不及物）、vi./vt.（兩者皆常用）。逐義例句的可數與及物標記由 AI 依詞義判斷，ECDICT 釋義區的 vt./vi. 來自 ECDICT。</li>
+        <li><b>AI 生成例句</b>：Tatoeba 找不到合適例句的詞義，由 AI 補寫，並以程式檢查目標字、詞性與中文翻譯；尚未經過真人教師審閱。每句都標示「AI 例句」。</li>
         <li><b>真人發音、IPA、英英解釋、同義詞</b>：<a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a>（CC BY-SA），經 Free Dictionary API 取得。</li>
         <li><b>主題分類、主題中的意思、詞義分項</b>：App 編輯整理，不是詞典原文。</li>
         <li><b>難度</b>：依 BNC／COCA 詞頻排名（ECDICT 提供）計算。</li>

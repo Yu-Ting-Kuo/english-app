@@ -1,0 +1,569 @@
+{
+  "muscle": [
+    {"p": "n", "zh": "肌肉", "t": [11881716, 13297080], "fix": {"11881716": "記住，運動有助於強化肌肉和骨骼。", "13297080": "在泳池游完泳後要伸展肌肉。"}, "ai": [["I pulled a muscle in my leg while running.", "我跑步時拉傷了腿部肌肉。"]]}
+  ],
+  "scare": [
+    {"p": "v", "zh": "驚嚇、使害怕", "t": [2290419, 25870], "fix": {"2290419": "我不是故意要嚇你的。", "25870": "猴子撲向他時，他嚇了一跳。"}},
+    {"p": "n", "zh": "驚嚇；（社會的）恐慌", "ai": [["You gave me a scare!", "你嚇了我一跳！"], ["The food safety scare hurt the restaurant's business.", "食安風波重創了這家餐廳的生意。"]]}
+  ],
+  "badly": [
+    {"p": "adv", "zh": "嚴重地", "t": [37151, 263683], "fix": {"37151": "湯姆在車禍中受了重傷。", "263683": "我的車在事故中嚴重受損。"}},
+    {"p": "adv", "zh": "差勁地、不好地", "t": [6659571], "fix": {"6659571": "湯姆法文說得很差，常常被人誤會。"}, "ai": [["The meeting went badly, and nobody was happy.", "會議進行得很不順利，大家都不開心。"]]},
+    {"p": "adv", "zh": "非常、極度地（需要、想要）", "t": [71334], "fix": {"71334": "如果你離開日本，我會非常想念你。"}, "ai": [["We badly need more staff in the sales department.", "我們業務部非常需要更多人手。"]]}
+  ],
+  "everyday": [
+    {"p": "adj", "zh": "日常的、平常的", "t": [39189], "fix": {"39189": "電視在日常生活中扮演重要的角色。"}, "ai": [["Smartphones have become part of everyday life.", "智慧型手機已經成為日常生活的一部分。"], ["This jacket is perfect for everyday use.", "這件外套很適合日常穿著。"]]}
+  ],
+  "boundary": [
+    {"p": "n", "zh": "邊界、分界線", "t": [325941], "fix": {"325941": "我家院子和鄰居家之間有一道籬笆作為分界線。"}, "ai": [["The river forms the boundary between the two cities.", "這條河是兩座城市的分界線。"]]},
+    {"p": "n", "zh": "（行為、人際的）界限、分寸", "t": [13949870], "fix": {"13949870": "我很討厭沒有分寸的人。"}, "ai": [["It's important to set clear boundaries between work and family.", "在工作和家庭之間劃清界線很重要。"]]}
+  ],
+  "ratio": [
+    {"p": "n", "zh": "比、比率、比例", "t": [1131479], "fix": {"1131479": "這個應用程式能讓你快速算出身體質量指數（BMI）。"}, "ai": [["The ratio of students to teachers is twenty to one.", "學生與老師的比例是二十比一。"], ["The ratio of men to women in our office is about equal.", "我們辦公室的男女比例差不多。"]]}
+  ],
+  "essay": [
+    {"p": "n", "zh": "短文、作文、（學術）報告", "t": [456153, 10472685, 51773], "fix": {"456153": "我花了兩個小時寫完這篇作文。", "10472685": "我們什麼時候要交作文？", "51773": "所有作文都必須準時繳交。"}}
+  ],
+  "scream": [
+    {"p": "v", "zh": "尖叫、大叫", "t": [259369, 2335868], "fix": {"259369": "我聽到有人尖叫。", "2335868": "沉默了一分鐘之後，大家開始尖叫。"}},
+    {"p": "n", "zh": "尖叫聲", "ai": [["We heard a loud scream from upstairs.", "我們聽到樓上傳來一聲尖叫。"], ["She let out a scream when she saw the spider.", "她看到蜘蛛時尖叫了一聲。"]]}
+  ],
+  "disorder": [
+    {"p": "n", "zh": "（身心）失調、疾病", "src": "app", "t": [7175751], "fix": {"7175751": "湯姆認為瑪麗可能有飲食失調。"}, "ai": [["She suffers from a sleep disorder.", "她患有睡眠障礙。"]]},
+    {"p": "n", "zh": "雜亂、混亂", "t": [287463], "fix": {"287463": "他的房間一團亂。"}, "ai": [["The files were left in complete disorder.", "文件被弄得亂七八糟。"]]}
+  ],
+  "symbol": [
+    {"p": "n", "zh": "象徵", "t": [9275531, 7805713], "fix": {"9275531": "富士山是日本的象徵。", "7805713": "國旗是國家的象徵。"}},
+    {"p": "n", "zh": "符號、記號", "t": [59741, 4755365], "fix": {"59741": "我不知道這個符號代表什麼。", "4755365": "化學符號「H」代表氫。"}}
+  ],
+  "apartment": [
+    {"p": "n", "zh": "公寓", "t": [887275, 7963143, 3627609], "fix": {"887275": "她和他一起住在一間小公寓裡。", "7963143": "她的公寓有幾個房間？", "3627609": "我邀請了一位中國朋友來我的公寓。"}}
+  ],
+  "demonstration": [
+    {"p": "n", "zh": "示範、（產品）展示", "ai": [["The salesperson gave us a demonstration of the new software.", "業務員為我們示範了新軟體。"], ["We'd like to schedule a product demonstration next week.", "我們想安排下週做產品展示。"]]},
+    {"p": "n", "zh": "示威遊行", "t": [273960, 24539], "fix": {"273960": "工會有參加示威遊行嗎？", "24539": "幾十個年輕人參加了示威遊行。"}}
+  ],
+  "analyst": [
+    {"p": "n", "zh": "分析師", "t": [2957002], "fix": {"2957002": "湯姆是一名財務分析師。"}, "ai": [["Analysts expect sales to rise next quarter.", "分析師預期下一季銷售額會上升。"], ["She works as a data analyst at a bank.", "她在銀行擔任資料分析師。"]]}
+  ],
+  "cake": [
+    {"p": "n", "zh": "蛋糕", "t": [46380, 61171, 682479], "fix": {"46380": "男孩伸手又拿了一塊蛋糕。", "61171": "這塊蛋糕吃起來好像有加起司。", "682479": "我媽媽做的蛋糕是全世界最好吃的。"}},
+    {"p": "phr", "zh": "a piece of cake：小事一樁、輕而易舉", "ai": [["Don't worry, the test was a piece of cake.", "別擔心，考試超簡單。"], ["Setting up the printer was a piece of cake.", "設定印表機簡直輕而易舉。"]]}
+  ],
+  "transform": [
+    {"p": "v", "zh": "徹底改變、轉變、改造", "t": [6217052], "fix": {"6217052": "圖片和影片被轉成 GIF 和迷因。"}, "ai": [["The internet has transformed the way we work.", "網路徹底改變了我們的工作方式。"], ["They transformed the old warehouse into a modern office.", "他們把舊倉庫改造成現代化的辦公室。"]]}
+  ],
+  "wound": [
+    {"p": "n", "zh": "傷口、創傷", "t": [320956, 5313625], "fix": {"320956": "他先清洗傷口，再包上繃帶。", "5313625": "「我需要檢查一下傷口。」醫生說。"}},
+    {"p": "v", "zh": "使受傷", "t": [682496, 807556], "fix": {"682496": "一頭受傷的鯨魚被沖上海灘。", "807556": "雙方都有好幾千人受傷。"}}
+  ],
+  "restriction": [
+    {"p": "n", "zh": "限制、規定", "t": [318365], "fix": {"318365": "批評者猛烈抨擊收緊的經濟限制。"}, "ai": [["There are strict restrictions on what you can bring on the plane.", "能帶上飛機的物品有嚴格限制。"], ["The new rules place restrictions on overtime work.", "新規定對加班設下了限制。"]]}
+  ],
+  "foundation": [
+    {"p": "n", "zh": "基礎", "t": [1723922, 995449], "fix": {"1723922": "數學是所有科學的基礎。", "995449": "衣食住是生存的基礎。"}},
+    {"p": "n", "zh": "根據", "t": [49592], "fix": {"49592": "這個謠言毫無根據。"}, "ai": [["The claims in the report have no foundation.", "報告中的說法沒有根據。"]]},
+    {"p": "n", "zh": "基金會", "src": "app", "ai": [["The foundation provides scholarships for poor students.", "這個基金會為清寒學生提供獎學金。"], ["She works for a charitable foundation.", "她在一個慈善基金會工作。"]]}
+  ],
+  "designer": [
+    {"p": "n", "zh": "設計師", "t": [309173, 897536, 10540281], "fix": {"309173": "她希望成為一名設計師。", "897536": "她是工業設計師。", "10540281": "這幾件洋裝是同一位設計師設計的。"}}
+  ],
+  "strain": [
+    {"p": "n", "zh": "壓力、負擔", "t": [3442165], "fix": {"3442165": "湯姆最近壓力非常大。"}, "ai": [["Working long hours puts a strain on your health.", "長時間工作會對健康造成負擔。"]]},
+    {"p": "v", "zh": "拉傷；使過度勞累", "ai": [["I strained my back while moving the boxes.", "我搬箱子時拉傷了背。"], ["Don't strain your eyes by reading in the dark.", "別在暗處看書，會讓眼睛太累。"]]},
+    {"p": "n", "zh": "拉力、張力", "t": [240989], "fix": {"240989": "繩子承受不住拉力而斷了。"}, "ai": [["The bridge is designed to withstand great strain.", "這座橋的設計能承受巨大的拉力。"]]}
+  ],
+  "innovation": [
+    {"p": "n", "zh": "創新；新發明", "ai": [["Innovation is the key to the company's success.", "創新是公司成功的關鍵。"], ["The company invests heavily in technological innovation.", "公司大量投資於技術創新。"]]}
+  ],
+  "singer": [
+    {"p": "n", "zh": "歌手", "t": [302209, 49245, 2915155], "fix": {"302209": "他是日本最有名的歌手之一。", "49245": "那位歌手很受年輕人歡迎。", "2915155": "瑪麗發現湯姆其實是一位很有才華的歌手。"}}
+  ],
+  "trail": [
+    {"p": "n", "zh": "小徑、步道", "ai": [["We hiked along a mountain trail.", "我們沿著山間步道健行。"], ["The trail is closed due to heavy rain.", "步道因大雨而封閉。"]]},
+    {"p": "n", "zh": "蹤跡、痕跡；一串", "t": [13153682], "fix": {"13153682": "那位受挫的畫家狠狠踩著自己失敗的畫作，留下一片破碎的色彩。"}, "ai": [["The thief left a trail of footprints in the snow.", "小偷在雪地上留下一串腳印。"]]},
+    {"p": "v", "zh": "落後（於）", "ai": [["Our team trailed by ten points at halftime.", "我們隊上半場落後十分。"], ["The company trails its rivals in online sales.", "公司在網路銷售上落後於競爭對手。"]]}
+  ],
+  "trap": [
+    {"p": "n", "zh": "陷阱、圈套", "t": [248653, 4279700], "fix": {"248653": "我們設了陷阱來抓狐狸。", "4279700": "我知道怎麼設陷阱。"}},
+    {"p": "v", "zh": "困住；使陷入", "t": [681477, 13559634], "fix": {"681477": "很多工人被困在煤礦裡。", "13559634": "我因為暴風雨被困在波士頓。"}}
+  ],
+  "loose": [
+    {"p": "adj", "zh": "寬鬆的", "t": [315864, 727991], "fix": {"315864": "她穿了一件寬鬆的長外套。", "727991": "最初的旗袍又寬又鬆。"}},
+    {"p": "adj", "zh": "鬆的、不牢固的", "t": [60508], "fix": {"60508": "這顆鈕扣鬆了。"}, "ai": [["One of the screws on the chair is loose.", "椅子上有一顆螺絲鬆了。"]]}
+  ],
+  "wealth": [
+    {"p": "n", "zh": "財富", "t": [322990, 261485, 239689], "fix": {"322990": "他們顯然很嫉妒他的財富和地位。", "261485": "我不在乎財富和名聲。", "239689": "不用說，健康比財富重要。"}},
+    {"p": "n", "zh": "（a wealth of）大量、豐富", "ai": [["She has a wealth of experience in marketing.", "她在行銷方面經驗豐富。"], ["The website offers a wealth of information.", "這個網站提供大量資訊。"]]}
+  ],
+  "gradually": [
+    {"p": "adv", "zh": "逐漸地、慢慢地", "t": [2595671, 12381648, 790592], "fix": {"2595671": "這個國家的人口正在逐漸減少。", "12381648": "從硬體到軟體的轉變是逐步發生的。", "790592": "老實說，我已經漸漸不喜歡這裡的生活了。"}}
+  ],
+  "tank": [
+    {"p": "n", "zh": "槽、箱（如油箱、水箱、魚缸）", "t": [681039], "fix": {"681039": "車子的油箱是滿的。"}, "ai": [["The fish tank needs cleaning.", "魚缸需要清理了。"]]},
+    {"p": "n", "zh": "坦克", "t": [13543251], "fix": {"13543251": "坦克沒有後照鏡。"}, "ai": [["The museum has an old army tank on display.", "博物館展示著一輛舊坦克。"]]}
+  ],
+  "evil": [
+    {"p": "n", "zh": "邪惡、罪惡", "t": [273650, 272365], "fix": {"273650": "要分辨善惡並不容易。", "272365": "嬰兒不懂得分辨善惡。"}},
+    {"p": "adj", "zh": "邪惡的", "ai": [["The villain in the movie is truly evil.", "電影裡的反派真的很邪惡。"], ["He believed that money was not evil in itself.", "他認為金錢本身並不邪惡。"]]}
+  ],
+  "remarkable": [
+    {"p": "adj", "zh": "顯著的、非凡的、值得注意的", "t": [18643, 2311308, 294198], "fix": {"18643": "近年來，科學有了顯著的進步。", "2311308": "這家公司去年營業額顯著成長。", "294198": "他有非凡的音樂天分。"}}
+  ],
+  "tune": [
+    {"p": "n", "zh": "曲調、曲子", "t": [312023, 311394], "fix": {"312023": "她用鋼琴彈了一首曲子。", "311394": "她永遠不會忘記聽到那首悲傷曲子的情景。"}},
+    {"p": "v", "zh": "（為樂器）調音；調整", "t": [4550340, 1023905], "fix": {"4550340": "這台鋼琴可能好幾年沒調音了。", "1023905": "湯姆去學校學怎麼幫鋼琴調音。"}},
+    {"p": "phr", "zh": "stay tuned：敬請鎖定、持續關注", "ai": [["Stay tuned for more updates.", "請持續關注更多最新消息。"], ["Stay tuned, we'll be right back after the break.", "別走開，廣告後馬上回來。"]]}
+  ],
+  "grass": [
+    {"p": "n", "zh": "草、草地", "t": [7816807, 13587085, 306933], "fix": {"7816807": "孩子們在草地上玩得很開心。", "13587085": "公園的告示牌寫著「請勿踐踏草地」。", "306933": "我發現他們躺在人工草皮上。"}}
+  ],
+  "invitation": [
+    {"p": "n", "zh": "邀請；邀請函", "t": [263922, 9751848, 7795612], "fix": {"263922": "如果我有空，就會接受你的邀請。", "9751848": "你寄了邀請函給多少人？", "7795612": "許多人婉拒了歡迎會的邀請。"}}
+  ],
+  "transition": [
+    {"p": "n", "zh": "轉變、過渡（期）", "t": [12381648], "fix": {"12381648": "從硬體到軟體的轉變是逐步發生的。"}, "ai": [["The transition to the new system went smoothly.", "轉換到新系統的過程很順利。"], ["Students need time to make the transition to college life.", "學生需要時間適應大學生活。"]]}
+  ],
+  "frighten": [
+    {"p": "v", "zh": "使驚嚇、使害怕", "t": [681025, 47015, 320280], "fix": {"681025": "恐怖片會嚇到小孩。", "47015": "直到那時我才真的感到害怕。", "320280": "不用怕，他不會傷害你的。"}}
+  ],
+  "breed": [
+    {"p": "n", "zh": "（動物的）品種", "ai": [["What breed is your dog?", "你的狗是什麼品種？"], ["This breed of cattle produces high-quality milk.", "這個品種的牛能產出優質牛奶。"]]},
+    {"p": "v", "zh": "繁殖；飼養", "t": [73021], "fix": {"73021": "幾個月後，牠們會回到北極的繁殖地。"}, "ai": [["He breeds horses on his farm.", "他在農場養馬。"]]},
+    {"p": "v", "zh": "引起、滋生", "t": [318603, 270897], "fix": {"318603": "髒亂會滋生疾病。", "270897": "水至清則無魚。"}}
+  ],
+  "extraordinary": [
+    {"p": "adj", "zh": "非凡的、特別的、驚人的", "t": [518931, 4014636, 1640901], "fix": {"518931": "iPhone 是一支非凡的手機。", "4014636": "湯姆是個不平凡的人。", "1640901": "生活真正的藝術，是在平凡中看見不平凡。"}}
+  ],
+  "brilliant": [
+    {"p": "adj", "zh": "傑出的、聰明的、絕妙的", "t": [8249346, 316039], "fix": {"8249346": "他想到了一個絕妙的點子。", "316039": "她突然有了一個絕妙的靈感。"}, "ai": [["She is a brilliant engineer.", "她是一位才華洋溢的工程師。"]]},
+    {"p": "adj", "zh": "燦爛的、鮮豔的", "ai": [["The room was filled with brilliant sunshine.", "房間裡灑滿了燦爛的陽光。"], ["She wore a dress in brilliant red.", "她穿著一件鮮紅色的洋裝。"]]}
+  ],
+  "adviser": [
+    {"p": "n", "zh": "顧問；指導老師", "ai": [["She is a financial adviser at a bank.", "她是銀行的理財顧問。"], ["The president met with his advisers this morning.", "總統今天早上和他的顧問們開會。"], ["Talk to your academic adviser before choosing courses.", "選課前先和你的指導老師談談。"]]}
+  ],
+  "stem": [
+    {"p": "phr", "zh": "stem from：源自、起因於", "t": [68163, 2311318], "fix": {"68163": "他們的煩惱起因於一件小事。", "2311318": "我們的期望和現實之間的落差從何而來？"}},
+    {"p": "n", "zh": "（植物的）莖、梗", "ai": [["Cut the stems of the flowers before putting them in water.", "把花插進水裡之前先修剪花莖。"], ["The stem of this plant is very thin.", "這株植物的莖很細。"]]}
+  ],
+  "reverse": [
+    {"p": "v", "zh": "反轉、倒轉；倒車；推翻（決定）", "t": [34010], "fix": {"34010": "你的背心前後穿反了，要轉過來。"}, "ai": [["The court reversed the earlier decision.", "法院推翻了先前的判決。"], ["Can you reverse the car into the parking space?", "你可以把車倒進停車位嗎？"]]},
+    {"p": "n", "zh": "相反", "t": [297317], "fix": {"297317": "他做的跟我要求的正好相反。"}, "ai": [["Prices didn't fall; in fact, the reverse happened.", "價格沒有下跌，事實上正好相反。"]]},
+    {"p": "adj", "zh": "相反的、反向的", "ai": [["The names are listed in reverse order.", "名字是依相反的順序排列的。"], ["The plan had the reverse effect.", "這個計畫產生了反效果。"]]}
+  ],
+  "mode": [
+    {"p": "n", "zh": "（機器、程式的）模式", "t": [60560], "fix": {"60560": "這個程式無法在 DOS 模式下執行。"}, "ai": [["Please switch your phone to silent mode.", "請把手機切換到靜音模式。"]]},
+    {"p": "n", "zh": "方式", "ai": [["Trains are a popular mode of transport in Japan.", "火車在日本是很受歡迎的交通方式。"], ["Cycling is a cheap and healthy mode of transport.", "騎腳踏車是便宜又健康的交通方式。"]]}
+  ],
+  "mirror": [
+    {"p": "n", "zh": "鏡子", "t": [313275, 3066870, 295382], "fix": {"313275": "她在鏡子前停下來欣賞自己。", "3066870": "湯姆看著鏡中的自己。", "295382": "他拿起一面鏡子仔細看自己的舌頭。"}},
+    {"p": "v", "zh": "反映、映照", "ai": [["The novel mirrors the author's own life.", "這本小說反映了作者自己的人生。"], ["Sales trends mirror changes in consumer habits.", "銷售趨勢反映了消費習慣的改變。"]]}
+  ],
+  "awful": [
+    {"p": "adj", "zh": "糟糕的、很差的、可怕的", "t": [68598, 321663, 2375986], "fix": {"68598": "我不推薦那家餐廳，東西很難吃。", "321663": "我考試時犯了一個很嚴重的錯誤。", "2375986": "我知道我做了很糟糕的事。"}},
+    {"p": "phr", "zh": "an awful lot (of)：非常多", "t": [52010], "fix": {"52010": "你的書也太多了吧！"}, "ai": [["It took an awful lot of time to finish the report.", "完成這份報告花了非常多時間。"]]}
+  ],
+  "pose": [
+    {"p": "v", "zh": "構成、造成（威脅、問題）", "ai": [["Smoking poses a serious risk to your health.", "吸菸對健康構成嚴重威脅。"], ["The new rules may pose a problem for small businesses.", "新規定可能會對小型企業造成問題。"]]},
+    {"p": "v", "zh": "提出（問題）", "t": [809215], "fix": {"809215": "當你提出問題，就會期待得到答案。"}, "ai": [["She posed an interesting question during the meeting.", "她在會議中提出了一個有趣的問題。"]]},
+    {"p": "v", "zh": "擺姿勢", "ai": [["The team posed for a photo after the game.", "比賽結束後，隊員們擺姿勢合照。"], ["We posed in front of the tower for a picture.", "我們在塔前擺姿勢拍照。"]]}
+  ],
+  "adjust": [
+    {"p": "v", "zh": "調整、調節", "ai": [["You can adjust the seat height with this lever.", "你可以用這根桿子調整座椅高度。"], ["We adjusted our prices to stay competitive.", "我們調整了價格以維持競爭力。"]]},
+    {"p": "v", "zh": "適應（adjust to）", "t": [23337, 10172805], "fix": {"23337": "我們的眼睛需要時間適應黑暗。", "10172805": "我正慢慢適應這裡嚴酷的氣候。"}}
+  ],
+  "creative": [
+    {"p": "adj", "zh": "有創意的、有創造力的", "t": [8854295, 814230], "fix": {"8854295": "湯姆有很多有創意的點子。", "814230": "不知道還要等多久，我才能變得更有創意。"}, "ai": [["We need a creative solution to this problem.", "我們需要一個有創意的方法來解決這個問題。"]]}
+  ],
+  "nowadays": [
+    {"p": "adv", "zh": "現今、如今", "t": [243821, 242469, 65399], "fix": {"243821": "現在很多人開車旅行。", "242469": "現在幾乎每個家庭都有一兩台電視。", "65399": "現在的人沒有冷氣就活不下去。"}}
+  ],
+  "poem": [
+    {"p": "n", "zh": "詩", "t": [314210, 867949, 16229], "fix": {"314210": "她教我怎麼寫詩。", "867949": "他的女兒能背很多首詩。", "16229": "你讀過中國詩嗎？"}}
+  ],
+  "agricultural": [
+    {"p": "adj", "zh": "農業的", "t": [8104023, 7265204], "fix": {"8104023": "葡萄牙曾經是一個農業國家。", "7265204": "邊境上有一片農地。"}, "ai": [["Agricultural products are a major export of the country.", "農產品是這個國家主要的出口品。"]]}
+  ],
+  "alcohol": [
+    {"p": "n", "zh": "酒、酒精", "t": [3500606, 3364263, 6138571], "fix": {"3500606": "我聞得到他嘴裡的酒味。", "3364263": "歐洲人是全世界最大的酒精消費族群。", "6138571": "你喜歡喝哪種酒？"}}
+  ],
+  "vegetable": [
+    {"p": "n", "zh": "蔬菜", "t": [248774, 2187, 324119], "fix": {"248774": "我們在市場買了一些蔬菜和魚。", "2187": "蔬果是均衡飲食不可或缺的。", "324119": "蔬菜價格每天都在變。"}}
+  ],
+  "van": [
+    {"p": "n", "zh": "廂型車、小貨車", "t": [3403380, 10276493], "fix": {"3403380": "湯姆是最後一個上廂型車的。", "10276493": "街角出現了一輛大型廂型車。"}, "ai": [["The delivery van arrived at noon.", "送貨車中午到了。"]]}
+  ],
+  "confident": [
+    {"p": "adj", "zh": "有自信的", "t": [3417279, 4904966], "fix": {"3417279": "湯姆很有自信，對吧？", "4904966": "我現在覺得非常有自信。"}},
+    {"p": "adj", "zh": "確信的、有把握的", "t": [1293313, 6866193], "fix": {"1293313": "我相信你會成功。", "6866193": "我相當有把握能做到。"}}
+  ],
+  "planet": [
+    {"p": "n", "zh": "行星", "t": [1821214, 277128, 499549], "fix": {"1821214": "太陽系有幾顆行星？", "277128": "地球不是恆星，而是行星。", "499549": "木星是太陽系中最大的行星。"}}
+  ],
+  "curve": [
+    {"p": "n", "zh": "曲線；彎道", "ai": [["The road has a sharp curve ahead.", "前方道路有急彎。"], ["The sales curve went up sharply in May.", "銷售曲線在五月大幅上揚。"]]},
+    {"p": "v", "zh": "彎曲、呈弧形", "ai": [["The road curves along the coast.", "這條路沿著海岸蜿蜒。"], ["The path curves to the left near the lake.", "小路在湖邊向左彎。"]]},
+    {"p": "phr", "zh": "learning curve：學習曲線（上手所需的過程）", "ai": [["There's a steep learning curve with this software.", "這套軟體需要花不少時間才能上手。"], ["The new job has a learning curve, but I'm enjoying it.", "新工作需要時間上手，但我做得很開心。"]]}
+  ],
+  "knee": [
+    {"p": "n", "zh": "膝蓋", "t": [320776, 296450, 272605], "fix": {"320776": "媽媽在我膝蓋的傷口上擦藥。", "296450": "他從腰部到膝蓋都濕了。", "272605": "積雪深及膝蓋。"}}
+  ],
+  "overcome": [
+    {"p": "v", "zh": "克服、戰勝", "t": [4398846, 16596, 388342], "fix": {"4398846": "他幫助我克服了困難。", "16596": "你必須克服困難。", "388342": "她幫助他走出悲傷。"}}
+  ],
+  "web": [
+    {"p": "n", "zh": "（the Web）網路、網際網路", "t": [909563, 4305925, 414890], "fix": {"909563": "她花太多時間上網了。", "4305925": "你最喜歡哪一個網頁瀏覽器？", "414890": "他在學法文和網頁設計。"}},
+    {"p": "n", "zh": "蜘蛛網", "t": [1522312, 8727445], "fix": {"1522312": "這棟房子到處都是蜘蛛網。", "8727445": "蜘蛛喜歡結網。"}}
+  ],
+  "depth": [
+    {"p": "n", "zh": "深度", "t": [28842, 48137], "fix": {"28842": "我們測量了這條河的深度。", "48137": "這座湖有多深？"}},
+    {"p": "n", "zh": "深入、深度（in depth 深入地）", "ai": [["We discussed the issue in depth.", "我們深入討論了這個問題。"], ["The report lacks depth.", "這份報告不夠深入。"]]}
+  ],
+  "log": [
+    {"p": "phr", "zh": "log in / log out：登入／登出", "t": [1442, 13543200], "fix": {"1442": "我不應該登出的。", "13543200": "登出後要再登入需要密碼。"}},
+    {"p": "n", "zh": "紀錄、日誌", "ai": [["Keep a log of all customer calls.", "把所有客戶來電都記錄下來。"], ["Check the error log to find the problem.", "查看錯誤日誌來找出問題。"]]},
+    {"p": "n", "zh": "圓木、木頭", "t": [47782], "fix": {"47782": "那位作家住在一間小木屋裡。"}, "ai": [["We put another log on the fire.", "我們又往火裡加了一根木頭。"]]}
+  ],
+  "giant": [
+    {"p": "adj", "zh": "巨大的", "t": [54646, 13542196], "fix": {"54646": "我從沒看過這麼大的西瓜！", "13542196": "從空中看，這條河像一條巨蛇。"}},
+    {"p": "n", "zh": "巨人；（業界）巨頭、大企業", "ai": [["Apple is a tech giant.", "蘋果是科技巨頭。"], ["The retail giant plans to open fifty new stores.", "這家零售巨頭打算開五十家新店。"]]}
+  ],
+  "god": [
+    {"p": "n", "zh": "（God）上帝", "t": [1953], "fix": {"1953": "這要看你所謂「相信」上帝是什麼意思。"}, "ai": [["Many people pray to God for help.", "許多人向上帝祈求幫助。"]]},
+    {"p": "n", "zh": "神", "t": [5617841, 403897], "fix": {"5617841": "在希臘神話中，阿瑞斯是戰神。", "403897": "畢竟，就連神也偶爾會犯錯。"}}
+  ],
+  "portion": [
+    {"p": "n", "zh": "部分", "t": [715781], "fix": {"715781": "一部分收益將用於幫助身心障礙兒童。"}, "ai": [["A large portion of the budget goes to marketing.", "預算中有很大一部分用在行銷上。"]]},
+    {"p": "n", "zh": "（食物的）一份、份量", "t": [5573293, 7988387], "fix": {"5573293": "他吃完牛排，又點了一份。", "7988387": "這裡的份量超大。"}}
+  ],
+  "substance": [
+    {"p": "n", "zh": "物質", "t": [44134, 55100, 270762], "fix": {"44134": "這種物質很輕，可以浮在水面上。", "55100": "把這些物質混在一起很危險。", "270762": "水和冰是同一種物質的不同形態。"}},
+    {"p": "n", "zh": "實質內容；根據", "ai": [["The speech was long but lacked substance.", "這場演講很長，但缺乏實質內容。"], ["There is no substance to these rumors.", "這些傳言毫無根據。"]]}
+  ],
+  "extensive": [
+    {"p": "adj", "zh": "廣泛的、大量的、大規模的", "t": [13577812, 1731], "fix": {"13577812": "她對鳥類和花草植物有廣泛的知識。", "1731": "被選上的人將接受大量的醫學和心理測驗。"}, "ai": [["The hotel suffered extensive damage in the storm.", "飯店在暴風雨中嚴重受損。"]]}
+  ],
+  "interpret": [
+    {"p": "v", "zh": "解讀、理解", "t": [261297, 7768800, 11127197], "fix": {"261297": "我把她的沉默解讀為拒絕。", "7768800": "你怎麼解讀這些話？", "11127197": "同一個符號，不同的人或文化可能有不同的解讀。"}},
+    {"p": "v", "zh": "口譯", "ai": [["She interpreted for the Japanese clients at the meeting.", "她在會議上為日本客戶口譯。"], ["Could you interpret for me? I don't speak French.", "你可以幫我翻譯嗎？我不會說法文。"]]}
+  ],
+  "independence": [
+    {"p": "n", "zh": "（國家的）獨立", "t": [65728, 7831089], "fix": {"65728": "印度在 1947 年脫離英國獨立。", "7831089": "美國在 1776 年宣布脫離英國獨立。"}},
+    {"p": "n", "zh": "自立、自主", "ai": [["Living alone gave her a sense of independence.", "獨自生活讓她有了自立的感覺。"], ["Many young people want financial independence.", "許多年輕人希望經濟獨立。"]]}
+  ],
+  "sugar": [
+    {"p": "n", "zh": "糖", "t": [257650, 6434104, 61163], "fix": {"257650": "我不習慣喝不加糖的咖啡。", "6434104": "你的咖啡要加多少糖？", "61163": "做這個蛋糕需要麵粉、砂糖和雞蛋。"}}
+  ],
+  "inner": [
+    {"p": "adj", "zh": "內心的", "t": [11641309, 327957], "fix": {"11641309": "這種內心的衝突往往會隨著歲月而淡去。", "327957": "與她的相遇讓他的內心世界更加豐富。"}},
+    {"p": "adj", "zh": "內部的、裡面的", "ai": [["The inner pocket of my jacket has a zipper.", "我外套的內袋有拉鍊。"], ["The inner walls of the building were painted white.", "這棟建築的內牆漆成白色。"]]}
+  ],
+  "harm": [
+    {"p": "n", "zh": "傷害、害處", "t": [57021, 246585, 4683867], "fix": {"57021": "這本書弊大於利。", "246585": "在我看來，汽車弊大於利。", "4683867": "多喝水對你沒有壞處。"}},
+    {"p": "v", "zh": "傷害、損害", "t": [320280], "fix": {"320280": "不用怕，他不會傷害你的。"}, "ai": [["Too much sun can harm your skin.", "曬太多太陽會傷害皮膚。"], ["The scandal harmed the company's reputation.", "這起醜聞損害了公司的聲譽。"]]}
+  ],
+  "consult": [
+    {"p": "v", "zh": "請教、諮詢、商量", "t": [16317, 922945, 13648643], "fix": {"16317": "你最好請教一下醫生。", "922945": "買那種藥之前，你應該先諮詢藥師。", "13648643": "你做這個決定前，為什麼不先問我？"}},
+    {"p": "v", "zh": "查閱（資料、書籍）", "t": [66606], "fix": {"66606": "在英國時，我常常查閱旅遊指南。"}, "ai": [["Please consult the manual before using the machine.", "使用機器前請先查閱說明書。"]]}
+  ],
+  "pink": [
+    {"p": "adj", "zh": "粉紅色的", "t": [1417588, 1763152], "fix": {"1417588": "這朵玫瑰是粉紅色的。", "1763152": "我的筆記本是粉紅色的。"}},
+    {"p": "n", "zh": "粉紅色", "t": [68628], "fix": {"68628": "那位穿粉紅色衣服的女士是誰？"}, "ai": [["Pink is my favorite color.", "粉紅色是我最喜歡的顏色。"]]}
+  ],
+  "shadow": [
+    {"p": "n", "zh": "影子", "t": [292498, 12000605], "fix": {"292498": "他連自己的影子都怕。", "12000605": "斑馬的影子沒有條紋。"}},
+    {"p": "n", "zh": "陰影、陰暗處", "t": [2851279], "fix": {"2851279": "陰暗處潛伏著什麼？"}, "ai": [["By late afternoon, the garden was in shadow.", "到了傍晚，花園已籠罩在陰影中。"]]},
+    {"p": "v", "zh": "跟隨見習（觀摩他人工作）", "src": "app", "ai": [["New employees shadow a senior colleague for a week.", "新員工會跟著資深同事見習一週。"], ["Can I shadow you at work tomorrow?", "我明天可以跟在你身邊見習嗎？"]]}
+  ],
+  "strip": [
+    {"p": "n", "zh": "長條、細條", "t": [6956699], "fix": {"6956699": "我想把這些馬鈴薯切成條。"}, "ai": [["Cut the paper into thin strips.", "把紙剪成細條。"]]},
+    {"p": "v", "zh": "剝除、去除；脫去（衣服）", "t": [7653680], "fix": {"7653680": "湯姆打著赤膊。"}, "ai": [["We stripped the old paint off the walls.", "我們把牆上的舊油漆刮掉了。"]]}
+  ],
+  "smooth": [
+    {"p": "adj", "zh": "光滑的、平滑的", "t": [309622, 60975], "fix": {"309622": "她的皮膚很光滑。", "60975": "這條圍巾摸起來又軟又滑。"}},
+    {"p": "adj", "zh": "順利的、流暢的", "t": [13511546], "fix": {"13511546": "重新設計的使用者介面讓玩家在各種裝置上都能玩得更流暢。"}, "ai": [["We hope for a smooth transition to the new system.", "我們希望能順利轉換到新系統。"]]}
+  ],
+  "intervention": [
+    {"p": "n", "zh": "介入、干預", "ai": [["The government's intervention helped stabilize the market.", "政府的介入有助於穩定市場。"], ["Early medical intervention can save lives.", "及早進行醫療介入能挽救生命。"]]}
+  ],
+  "impress": [
+    {"p": "v", "zh": "使印象深刻、使佩服", "t": [263020, 6250260, 6661845], "fix": {"263020": "演講者精彩的演說讓我們印象深刻。", "6250260": "湯姆的設計沒讓我覺得有多厲害。", "6661845": "湯姆的勇氣讓我不得不佩服。"}}
+  ],
+  "vice": [
+    {"p": "phr", "zh": "vice president：副總統；副總裁", "t": [802664], "fix": {"802664": "他們提名卡爾文·柯立芝為副總統候選人。"}, "ai": [["She was promoted to vice president of sales.", "她被升為業務副總裁。"]]},
+    {"p": "phr", "zh": "vice versa：反之亦然", "ai": [["I help him with English, and vice versa.", "我幫他學英文，他也幫我。"], ["Cats don't like dogs, and vice versa.", "貓不喜歡狗，狗也不喜歡貓。"]]},
+    {"p": "n", "zh": "惡習、壞習慣", "ai": [["Smoking is his only vice.", "抽菸是他唯一的壞習慣。"], ["Gambling is a common vice.", "賭博是常見的惡習。"]]}
+  ],
+  "radical": [
+    {"p": "adj", "zh": "根本的、徹底的", "ai": [["The company needs a radical change in strategy.", "公司需要徹底改變策略。"], ["The new manager made radical changes to the team.", "新經理對團隊做了大刀闊斧的改變。"]]},
+    {"p": "adj", "zh": "激進的", "t": [311425, 415427], "fix": {"311425": "她對這個問題有很激進的看法。", "415427": "今天的激進，明天可能就成了老生常談。"}},
+    {"p": "n", "zh": "（漢字的）部首", "t": [6135584, 6900306], "fix": {"6135584": "漢字的基本組成單位叫做「部首」。", "6900306": "「好」的部首是「女」。"}}
+  ],
+  "similarly": [
+    {"p": "adv", "zh": "同樣地、類似地", "ai": [["Similarly, sales in Europe also increased.", "同樣地，歐洲的銷售額也增加了。"], ["The two products are similarly priced.", "這兩項產品的價格差不多。"], ["Children often behave similarly to their parents.", "孩子的行為常常和父母很相似。"]]}
+  ],
+  "behave": [
+    {"p": "v", "zh": "表現、舉止；（機器）運作", "t": [466082, 288926, 6029215], "fix": {"466082": "你受得了他的行為舉止嗎？", "288926": "他為自己表現得那麼差勁感到非常羞愧。", "6029215": "我的電腦怪怪的。"}},
+    {"p": "v", "zh": "守規矩、表現得體", "ai": [["Please behave yourself at the party.", "在派對上請守規矩。"], ["The children behaved well during the trip.", "孩子們在旅途中都很乖。"]]}
+  ],
+  "loud": [
+    {"p": "adj", "zh": "大聲的、吵鬧的", "t": [318964, 266290], "fix": {"318964": "我爸爸說話總是很大聲。", "266290": "這裡很吵，請說大聲一點。"}},
+    {"p": "phr", "zh": "out loud：出聲地、大聲地", "t": [1045006, 275778], "fix": {"1045006": "湯姆拚命忍著不笑出聲來。", "275778": "我突然很想放聲大哭。"}}
+  ],
+  "dimension": [
+    {"p": "n", "zh": "（dimensions）尺寸、大小", "ai": [["Please check the dimensions of the box before ordering.", "訂購前請確認箱子的尺寸。"], ["What are the dimensions of the room?", "這個房間的尺寸是多少？"]]},
+    {"p": "n", "zh": "面向、層面", "ai": [["The project adds a new dimension to our business.", "這個專案為我們的業務增添了新的面向。"], ["We need to consider the social dimension of the problem.", "我們需要考慮這個問題的社會層面。"]]}
+  ],
+  "subsequent": [
+    {"p": "adj", "zh": "隨後的、後續的", "ai": [["Subsequent meetings will be held online.", "之後的會議將在線上舉行。"], ["The problem was fixed in a subsequent update.", "這個問題在後續的更新中修正了。"]]}
+  ],
+  "infection": [
+    {"p": "n", "zh": "感染；傳染病", "t": [8499451], "fix": {"8499451": "他的肚臍發炎了。"}, "ai": [["Wash your hands often to prevent infection.", "要常洗手以預防感染。"], ["She has an ear infection.", "她耳朵發炎了。"]]}
+  ],
+  "jacket": [
+    {"p": "n", "zh": "夾克、外套", "t": [61039, 61045, 252687], "fix": {"61039": "穿上這件外套，你會暖和很多。", "61045": "這件外套有其他顏色嗎？", "252687": "我想要一件跟你身上穿的一樣的外套。"}}
+  ],
+  "dirty": [
+    {"p": "adj", "zh": "髒的", "t": [3399641, 264749], "fix": {"3399641": "手髒的時候千萬不要揉眼睛。", "264749": "我不想把手弄髒。"}},
+    {"p": "v", "zh": "弄髒", "t": [11290473, 2873021], "fix": {"11290473": "有些義大利麵掉到制服的徽章上，把它弄髒了。", "2873021": "我弄髒了一個。"}}
+  ],
+  "statistic": [
+    {"p": "n", "zh": "統計數字；（statistics）統計資料", "t": [47957, 667905], "fix": {"47957": "航空專家詳細分析了統計資料。", "667905": "事實是頑固的，但統計數字卻很有彈性。"}, "ai": [["Statistics show that more people are working from home.", "統計數字顯示，越來越多人在家工作。"]]}
+  ],
+  "regularly": [
+    {"p": "adv", "zh": "定期地、規律地、經常", "t": [315889, 20215, 7813312], "fix": {"315889": "她定期看牙醫，所以很少牙痛。", "20215": "我相信規律運動的好處。", "7813312": "湯姆定期捐錢給慈善機構。"}}
+  ],
+  "resort": [
+    {"p": "n", "zh": "度假勝地、度假村", "t": [238417, 34964], "fix": {"238417": "輕井澤是著名的避暑勝地。", "34964": "夏威夷是熱門的觀光勝地。"}},
+    {"p": "v", "zh": "（resort to）訴諸、不得不採取", "t": [12278226], "fix": {"12278226": "火車太擠了，所以我只好用走的。"}, "ai": [["We hope they won't resort to legal action.", "我們希望他們不會訴諸法律行動。"]]},
+    {"p": "phr", "zh": "last resort：最後的手段", "ai": [["Use this option only as a last resort.", "這個辦法只能當作最後手段。"], ["Borrowing money should be a last resort.", "借錢應該是最後不得已的手段。"]]}
+  ],
+  "iron": [
+    {"p": "v", "zh": "熨、燙（衣服）", "t": [315289, 65250], "fix": {"315289": "她幾分鐘前燙完了衣服。", "65250": "先燙領子內側，再燙外側。"}},
+    {"p": "n", "zh": "熨斗", "t": [1685762], "fix": {"1685762": "我沒辦法燙衣服，我沒有熨斗。"}, "ai": [["Be careful, the iron is still hot.", "小心，熨斗還很燙。"]]},
+    {"p": "n", "zh": "鐵；鐵質", "ai": [["The gate is made of iron.", "這扇大門是鐵做的。"], ["Spinach is rich in iron.", "菠菜富含鐵質。"]]}
+  ],
+  "membership": [
+    {"p": "n", "zh": "會員資格；會員身分", "t": [49184, 245037], "fix": {"49184": "我申請加入這個協會成為會員。", "245037": "加入不需要繳會費。"}, "ai": [["Your gym membership expires next month.", "你的健身房會員資格下個月到期。"]]}
+  ],
+  "bread": [
+    {"p": "n", "zh": "麵包", "t": [274927, 4764609, 13971631], "fix": {"274927": "很多日本年輕人早餐吃麵包。", "4764609": "廚房裡有烤箱可以烤麵包。", "13971631": "瑪麗餓了，所以買了一些麵包。"}}
+  ],
+  "blind": [
+    {"p": "adj", "zh": "失明的、瞎的", "t": [43340, 323722], "fix": {"43340": "這位老人一隻眼睛看不見。", "323722": "盲人的聽覺通常非常敏銳。"}},
+    {"p": "n", "zh": "百葉窗、捲簾", "t": [2537673], "fix": {"2537673": "湯姆拉開百葉窗，往窗外看。"}, "ai": [["Could you close the blinds? The sun is too bright.", "你可以把百葉窗關上嗎？陽光太刺眼了。"]]},
+    {"p": "v", "zh": "使失明；使盲目、矇蔽", "t": [28690, 435020], "fix": {"28690": "愛情讓他看不見她的缺點。", "435020": "他在一次意外中失明了。"}}
+  ],
+  "pure": [
+    {"p": "adj", "zh": "純的、不摻雜的", "t": [13540944, 3364267], "fix": {"13540944": "這些布料是純羊毛製的。", "3364267": "歐洲人平均每年喝下 12.5 公升的純酒精。"}},
+    {"p": "adj", "zh": "純淨的、乾淨的", "t": [1112077], "fix": {"1112077": "樣本不夠純淨。"}, "ai": [["The water from this spring is very pure.", "這口泉水非常純淨。"]]},
+    {"p": "adj", "zh": "純粹的、完全的", "ai": [["It was pure luck that we met.", "我們會相遇純粹是運氣。"], ["It was pure chance that I found the file.", "我找到這份檔案純屬偶然。"]]}
+  ],
+  "bloody": [
+    {"p": "adj", "zh": "血腥的；流血的", "t": [7851985], "fix": {"7851985": "因為美劇很血腥，所以他不喜歡看。"}, "ai": [["The war was long and bloody.", "那場戰爭漫長又血腥。"], ["He had a bloody nose after the fall.", "他跌倒後流鼻血了。"]]}
+  ],
+  "ally": [
+    {"p": "n", "zh": "盟友、同盟國", "t": [804111], "fix": {"804111": "有時候盟軍無法避免戰鬥。"}, "ai": [["She has been my strongest ally at work.", "她一直是我在職場上最堅定的盟友。"], ["We need allies to support this proposal.", "我們需要盟友來支持這個提案。"]]},
+    {"p": "v", "zh": "結盟、聯合", "t": [38971, 38963], "fix": {"38971": "二戰期間，德國與義大利結盟。", "38963": "德國曾經與義大利結盟。"}}
+  ],
+  "bend": [
+    {"p": "v", "zh": "彎曲；彎腰", "t": [315225, 7772884, 2097], "fix": {"315225": "她彎下腰把硬幣撿起來。", "7772884": "他背痛，沒辦法彎腰。", "2097": "我不用彎膝蓋就能把手掌平貼在地上。"}},
+    {"p": "n", "zh": "彎道、轉彎處", "t": [10596572], "fix": {"10596572": "湯姆轉彎轉得太快，衝進了水溝。"}, "ai": [["There's a sharp bend in the road ahead.", "前方道路有個急彎。"]]},
+    {"p": "phr", "zh": "bend over backwards：竭盡全力", "t": [296803], "fix": {"296803": "他費盡心思討好老婆。"}, "ai": [["The staff bent over backwards to help us.", "員工們竭盡全力幫助我們。"]]}
+  ],
+  "mature": [
+    {"p": "adj", "zh": "成熟的", "t": [293142], "fix": {"293142": "他留鬍子，好讓自己看起來更成熟。"}, "ai": [["She is very mature for her age.", "以她的年紀來說，她非常成熟。"]]},
+    {"p": "v", "zh": "成熟；（酒等）熟成", "t": [8292330], "fix": {"8292330": "葡萄酒會放在木桶裡熟成。"}, "ai": [["Children mature at different rates.", "每個孩子成熟的速度不同。"]]},
+    {"p": "v", "zh": "（債券、保單）到期", "ai": [["The bond matures in five years.", "這張債券五年後到期。"], ["My insurance policy matures next year.", "我的保單明年到期。"]]}
+  ],
+  "briefly": [
+    {"p": "adv", "zh": "簡短地、短暫地", "t": [1768848, 315164, 20956], "fix": {"1768848": "我們簡短地聊了一下。", "315164": "她很快地瞄了一眼報紙。", "20956": "簡單來說，我不同意。"}}
+  ],
+  "alarm": [
+    {"p": "n", "zh": "鬧鐘；警報（器）", "t": [323801, 3695301], "fix": {"323801": "我睡過頭了，因為鬧鐘沒響。", "3695301": "鬧鐘設在早上五點。"}, "ai": [["The fire alarm went off during the meeting.", "開會時火災警報響了。"]]},
+    {"p": "v", "zh": "使驚慌、使擔憂", "t": [287589, 11406940], "fix": {"287589": "你不負責任的態度讓我很擔憂。", "11406940": "沒有必要驚慌。"}}
+  ],
+  "disturb": [
+    {"p": "v", "zh": "打擾、妨礙", "t": [2470471, 32943, 1304], "fix": {"2470471": "希望我沒有打擾到你。", "32943": "麥克要求別人不要打擾他。", "1304": "我會盡量不打擾你讀書。"}},
+    {"p": "v", "zh": "使不安、使困擾", "t": [6158295], "fix": {"6158295": "在山上沒有 Wi-Fi 真的很讓人困擾。"}, "ai": [["The news disturbed everyone in the office.", "這則消息讓辦公室裡每個人都感到不安。"]]}
+  ],
+  "sustain": [
+    {"p": "v", "zh": "維持、使持續", "ai": [["The company cannot sustain such rapid growth.", "公司無法維持如此快速的成長。"], ["We need more funding to sustain the project.", "我們需要更多資金來維持這個專案。"]]},
+    {"p": "v", "zh": "遭受、蒙受（損失、傷害）", "t": [11523241, 10247776], "fix": {"11523241": "我們蒙受了重大損失。", "10247776": "湯姆嚴重燒傷，必須去醫院。"}}
+  ],
+  "poverty": [
+    {"p": "n", "zh": "貧窮、貧困", "t": [291557, 275900, 7785091], "fix": {"291557": "他在這麼貧困的情況下要怎麼維生？", "275900": "總統呼籲人民團結對抗貧窮與疾病。", "7785091": "全世界沒有一個地方沒有貧窮。"}}
+  ],
+  "crazy": [
+    {"p": "adj", "zh": "瘋狂的、荒唐的", "t": [1704, 5398452], "fix": {"1704": "你怎麼會想到這麼瘋狂的點子？", "5398452": "再做一次就太瘋狂了。"}},
+    {"p": "phr", "zh": "be crazy about：非常熱衷、超愛", "t": [18931], "fix": {"18931": "他不只是有興趣，簡直是為之瘋狂。"}, "ai": [["My son is crazy about soccer.", "我兒子超愛足球。"]]},
+    {"p": "phr", "zh": "drive someone crazy：把某人逼瘋", "t": [4350803], "fix": {"4350803": "啊！我全身都好癢，快把我逼瘋了。"}, "ai": [["The noise from next door is driving me crazy.", "隔壁的噪音快把我逼瘋了。"]]}
+  ],
+  "cite": [
+    {"p": "v", "zh": "引用、引述；舉出（理由、例子）", "t": [5758028], "fix": {"5758028": "請註明你的資料來源。"}, "ai": [["The report cites several recent studies.", "這份報告引用了幾項最新的研究。"], ["He cited lack of time as the reason for quitting.", "他以沒有時間為由辭職。"]]}
+  ],
+  "newly": [
+    {"p": "adv", "zh": "新近、最近（剛…的）", "t": [13559018, 13545680], "fix": {"13559018": "新買的被子蓋起來很暖和。", "13545680": "搭新開通的捷運上學只要二十分鐘。"}, "ai": [["The newly hired staff will start on Monday.", "新進員工將在星期一開始上班。"]]}
+  ],
+  "parallel": [
+    {"p": "adj", "zh": "平行的", "t": [72771, 44667], "fix": {"72771": "這兩條街互相平行。", "44667": "這條路和河流平行。"}},
+    {"p": "n", "zh": "相似之處、可相比之處", "ai": [["There are many parallels between the two cases.", "這兩個案例有許多相似之處。"], ["Historians have drawn parallels between the two crises.", "歷史學家將這兩次危機相提並論。"]]},
+    {"p": "v", "zh": "與…平行；與…相似、同步", "t": [280419], "fix": {"280419": "這條路與河流平行。"}, "ai": [["The rise in sales parallels the growth of online shopping.", "銷售額的成長與網購的成長同步。"]]}
+  ],
+  "gender": [
+    {"p": "n", "zh": "性別", "t": [10253678, 12080463], "fix": {"10253678": "嫌犯的性別目前不明。", "12080463": "你的性別是什麼？"}, "ai": [["Salaries should not depend on gender.", "薪資不應該因性別而有差異。"]]}
+  ],
+  "boot": [
+    {"p": "n", "zh": "靴子", "t": [253956, 292580], "fix": {"253956": "我想買一雙滑雪靴。", "292580": "他把靴子上的泥巴刮掉。"}},
+    {"p": "v", "zh": "（boot up）開機、啟動（電腦）", "src": "app", "ai": [["My laptop takes a long time to boot up.", "我的筆電開機要很久。"], ["Try booting the computer in safe mode.", "試著用安全模式啟動電腦。"]]}
+  ],
+  "accurate": [
+    {"p": "adj", "zh": "準確的、精確的", "t": [387412, 1640906, 8826809], "fix": {"387412": "這份資料一點也不準確。", "1640906": "時鐘最重要的就是要準確。", "8826809": "你說的完全正確。"}}
+  ],
+  "dealer": [
+    {"p": "n", "zh": "經銷商、商人", "t": [4305659], "fix": {"4305659": "我是根據經銷商的建議做決定的。"}, "ai": [["We bought our car from a local dealer.", "我們向當地的經銷商買了車。"], ["He is an antique dealer.", "他是古董商。"]]}
+  ],
+  "button": [
+    {"p": "n", "zh": "鈕扣", "t": [53081, 33430], "fix": {"53081": "你襯衫的第二顆扣子快掉了。", "33430": "你有一顆鈕扣掉了。"}},
+    {"p": "n", "zh": "按鈕、按鍵", "t": [5796995, 13541019], "fix": {"5796995": "按下這個按鈕，視窗就會自動打開。", "13541019": "發生意外時請按這個紅色按鈕。"}},
+    {"p": "v", "zh": "扣上（鈕扣）", "ai": [["Button your coat; it's cold outside.", "把外套扣好，外面很冷。"], ["He buttoned up his shirt before the interview.", "面試前他把襯衫扣好。"]]}
+  ],
+  "burden": [
+    {"p": "n", "zh": "負擔、重擔", "t": [45877, 4756778], "fix": {"45877": "那份責任對他是個負擔。", "4756778": "我知道我是個累贅，你不用一再提。"}, "ai": [["The new tax will be a heavy burden on small businesses.", "新稅對小型企業將是沉重的負擔。"]]},
+    {"p": "v", "zh": "使負擔、加重負擔", "ai": [["I don't want to burden you with my problems.", "我不想讓我的問題增加你的負擔。"], ["The company is burdened with debt.", "公司背負沉重的債務。"]]}
+  ],
+  "mate": [
+    {"p": "n", "zh": "夥伴、同伴（常用於 classmate、roommate 等）", "t": [7885837, 7835078, 8645596], "fix": {"7885837": "我聽不懂同學說的廣東話。", "7835078": "我是保羅，你的室友。", "8645596": "我同事辭職後搬到上海教英文。"}},
+    {"p": "n", "zh": "（英式口語）老兄、朋友", "t": [5136429], "fix": {"5136429": "老兄，我連你叫什麼都不知道。"}, "ai": [["Thanks for your help, mate!", "謝謝你的幫忙，兄弟！"]]},
+    {"p": "v", "zh": "（動物）交配", "t": [4275872], "fix": {"4275872": "很多動物在交配季節會散發強烈的氣味。"}, "ai": [["Many birds mate for life.", "許多鳥類一生只有一個伴侶。"]]}
+  ],
+  "occasionally": [
+    {"p": "adv", "zh": "偶爾、有時候", "t": [7782932, 8056690, 482308], "fix": {"7782932": "他喜歡偶爾去海邊走走。", "8056690": "迪克偶爾會上學遲到。", "482308": "他偶爾會看偵探小說。"}}
+  ],
+  "shareholder": [
+    {"p": "n", "zh": "股東", "ai": [["The shareholders approved the merger.", "股東們通過了這項合併案。"], ["The annual shareholder meeting will be held in June.", "年度股東大會將在六月舉行。"]]}
+  ],
+  "bowl": [
+    {"p": "n", "zh": "碗；一碗", "t": [13587178, 277432, 12080455], "fix": {"13587178": "我要麻婆豆腐和兩碗白飯，謝謝。", "277432": "一碗飯大約一百八十公克。", "12080455": "別把碗裡的飯盛得太滿。"}},
+    {"p": "v", "zh": "打保齡球（go bowling）", "t": [6337866], "fix": {"6337866": "雖然我喜歡打保齡球，但最近都沒去打。"}, "ai": [["We went bowling after work on Friday.", "我們星期五下班後去打保齡球。"]]}
+  ],
+  "resistance": [
+    {"p": "n", "zh": "反對、抗拒", "ai": [["The plan met strong resistance from employees.", "這項計畫遭到員工強烈反對。"], ["There is often resistance to change in large companies.", "大公司裡常常有抗拒改變的情況。"]]},
+    {"p": "n", "zh": "抵抗力；抗藥性", "ai": [["Regular exercise improves your resistance to disease.", "規律運動能增強你對疾病的抵抗力。"], ["Some bacteria have developed resistance to antibiotics.", "有些細菌已經對抗生素產生抗藥性。"]]}
+  ],
+  "bath": [
+    {"p": "n", "zh": "洗澡、泡澡", "t": [29112, 2334918], "fix": {"29112": "我在洗澡時電話響了。", "2334918": "比起淋浴，她比較喜歡泡澡。"}},
+    {"p": "n", "zh": "浴缸；浴室、衛浴", "ai": [["The apartment has two bedrooms and one bath.", "這間公寓有兩房一衛浴。"], ["I filled the bath with hot water.", "我在浴缸裡放滿了熱水。"]]}
+  ],
+  "frequency": [
+    {"p": "n", "zh": "頻率、頻繁", "t": [18689], "fix": {"18689": "最近地震頻繁，讓我們很緊張。"}, "ai": [["Increase the frequency of your workouts gradually.", "逐步增加運動的頻率。"], ["The radio station broadcasts on a different frequency.", "這個電台用另一個頻率播送。"]]}
+  ],
+  "criticize": [
+    {"p": "v", "zh": "批評、指責", "t": [1095016, 16761, 255666], "fix": {"1095016": "湯姆當著大家的面批評瑪麗。", "16761": "你老是批評我！", "255666": "如果我錯了，被批評我也不介意。"}}
+  ],
+  "tap": [
+    {"p": "n", "zh": "水龍頭", "t": [6183545, 9139995], "fix": {"6183545": "廚房的水龍頭在滴水。", "9139995": "去修一下廚房的水龍頭。"}},
+    {"p": "v", "zh": "輕拍、輕敲；（在螢幕上）點一下", "t": [276154, 3150900], "fix": {"276154": "有人拍了拍我的肩膀。", "3150900": "我覺得有人拍了拍我的肩膀。"}, "ai": [["Tap the icon to open the app.", "點一下圖示就能打開應用程式。"]]},
+    {"p": "v", "zh": "開發、利用（資源、市場；tap into）", "ai": [["The company wants to tap into the Asian market.", "公司想打入亞洲市場。"], ["We need to tap new sources of energy.", "我們需要開發新的能源。"]]}
+  ],
+  "philosophy": [
+    {"p": "n", "zh": "哲學", "t": [252296, 32771, 2864032], "fix": {"252296": "我大學主修哲學。", "32771": "第一個吸引我的科目是哲學。", "2864032": "佛教是宗教還是哲學？"}},
+    {"p": "n", "zh": "理念、人生觀", "ai": [["Our company's philosophy is to put customers first.", "我們公司的理念是顧客至上。"], ["My philosophy is to enjoy every day.", "我的人生哲學是享受每一天。"]]}
+  ],
+  "lip": [
+    {"p": "n", "zh": "嘴唇", "t": [10734967, 313520], "fix": {"10734967": "你的嘴唇上有東西。", "313520": "她抿緊嘴唇，強忍著不哭。"}, "ai": [["My lips get dry in winter.", "我的嘴唇一到冬天就很乾。"]]}
+  ],
+  "attribute": [
+    {"p": "v", "zh": "把…歸因於、歸功於（attribute A to B）", "t": [288178, 264973], "fix": {"288178": "他把自己的成功歸功於好運。", "264973": "把你的失敗歸咎於父母是不公平的。"}},
+    {"p": "n", "zh": "特質、屬性", "ai": [["Patience is an important attribute for a teacher.", "耐心是老師很重要的特質。"], ["What attributes do you look for in a new employee?", "你看重新員工的哪些特質？"]]}
+  ],
+  "grab": [
+    {"p": "v", "zh": "抓住、抓起", "t": [9241280], "fix": {"9241280": "雅尼迅速抓起電腦，離開了房間。"}, "ai": [["She grabbed her bag and ran to the bus.", "她抓起包包，跑去趕公車。"]]},
+    {"p": "v", "zh": "（口語）趕快吃、拿、買（grab a bite／coffee）", "t": [4197700, 10204437], "fix": {"4197700": "有人想跟我一起去吃點東西嗎？", "10204437": "齊里走到冰箱前去拿點牛奶。"}, "ai": [["Let's grab a coffee before the meeting.", "開會前我們去買杯咖啡吧。"]]},
+    {"p": "v", "zh": "吸引（注意）", "t": [10608624], "fix": {"10608624": "隔壁桌的對話吸引了我的注意。"}, "ai": [["The ad is designed to grab people's attention.", "這支廣告就是為了吸引大家的注意。"]]}
+  ],
+  "entitle": [
+    {"p": "v", "zh": "使有權利、使有資格（be entitled to）", "t": [291268, 10333300], "fix": {"291268": "他有權獲得這份獎勵。", "10333300": "我知道我是對的，不過你有權保有自己的看法。"}, "ai": [["Employees are entitled to fourteen days of paid leave.", "員工享有十四天的有薪假。"]]},
+    {"p": "v", "zh": "給…題名、命名為", "ai": [["She wrote a book entitled \"My Life in Tokyo.\"", "她寫了一本名為《我在東京的生活》的書。"], ["The report is entitled \"Future Trends in Retail.\"", "這份報告的標題是《零售業的未來趨勢》。"]]}
+  ],
+  "lend": [
+    {"p": "v", "zh": "借（出）、借給", "t": [30923, 17080, 3702594], "fix": {"30923": "如果你需要鉛筆，我借你一支。", "17080": "你介意把車借給我嗎？", "3702594": "我借他的錢，他到現在還沒還我。"}},
+    {"p": "v", "zh": "（銀行）放款、貸款給", "ai": [["The bank refused to lend us the money.", "銀行拒絕借錢給我們。"], ["Banks are lending less to small businesses.", "銀行對小型企業的放款減少了。"]]},
+    {"p": "phr", "zh": "lend (someone) a hand：幫忙", "ai": [["Could you lend me a hand with these boxes?", "你可以幫我搬這些箱子嗎？"], ["My neighbor is always willing to lend a hand.", "我的鄰居總是樂於幫忙。"]]}
+  ],
+  "involvement": [
+    {"p": "n", "zh": "參與；牽涉、牽連", "ai": [["Thank you for your involvement in this project.", "感謝你參與這個專案。"], ["He denied any involvement in the scandal.", "他否認與這起醜聞有任何牽連。"]]}
+  ],
+  "exposure": [
+    {"p": "n", "zh": "暴露、接觸", "ai": [["Too much exposure to the sun can damage your skin.", "過度曝曬會傷害皮膚。"], ["Early exposure to English helps children learn faster.", "從小接觸英文能幫助孩子學得更快。"]]},
+    {"p": "n", "zh": "（媒體）曝光、曝光度", "src": "app", "ai": [["The event gave our brand a lot of exposure.", "這場活動為我們的品牌帶來大量曝光。"], ["Social media can give small businesses more exposure.", "社群媒體能讓小型企業獲得更多曝光。"]]}
+  ],
+  "conventional": [
+    {"p": "adj", "zh": "傳統的、常規的", "t": [34218], "fix": {"34218": "塑膠已經取代了許多傳統材料。"}, "ai": [["Electric cars are quieter than conventional cars.", "電動車比傳統汽車安靜。"], ["She chose a conventional career in banking.", "她選擇了在銀行工作這條傳統的職涯路。"]]}
+  ],
+  "digital": [
+    {"p": "adj", "zh": "數位的", "t": [4008874, 1169630], "fix": {"4008874": "我的手機內建數位相機。", "1169630": "我今晚可以借你的數位相機嗎？"}, "ai": [["Many companies are going through digital transformation.", "許多公司正在進行數位轉型。"]]}
+  ],
+  "translate": [
+    {"p": "v", "zh": "翻譯", "t": [71158, 653140], "fix": {"71158": "我想請你把這本書翻成英文。", "653140": "我們知道這很難，但請不要逐字直譯。"}},
+    {"p": "v", "zh": "（translate into）轉化為、轉變成", "ai": [["Good ideas don't always translate into profits.", "好點子不一定能轉化為利潤。"], ["Higher sales should translate into bigger bonuses.", "銷售額提高應該會帶來更多獎金。"]]}
+  ],
+  "edit": [
+    {"p": "v", "zh": "編輯、修改；剪輯", "t": [868260, 7768543], "fix": {"868260": "交出去之前把你的作品好好修改一下，太馬虎了。", "7768543": "它可以修改你不喜歡的照片，然後印出來。"}, "ai": [["Can you edit this video before we post it?", "我們發布前，你可以先剪輯這支影片嗎？"]]}
+  ],
+  "formation": [
+    {"p": "n", "zh": "形成、組成", "t": [13543014], "fix": {"13543014": "從根本上說，十二生肖的形成與動物崇拜有關。"}, "ai": [["The formation of the new team took several months.", "新團隊的組成花了好幾個月。"]]},
+    {"p": "n", "zh": "形態、構造；隊形、編隊", "t": [3567592], "fix": {"3567592": "雲的形態有好幾種。"}, "ai": [["The planes flew in formation over the city.", "飛機以編隊飛越城市上空。"]]}
+  ],
+  "pleasant": [
+    {"p": "adj", "zh": "愉快的、令人舒服的", "t": [1223870, 21289, 244782], "fix": {"1223870": "他的聲音很悅耳。", "21289": "祝你旅途愉快。", "244782": "我昨晚做了一個好夢。"}}
+  ],
+  "overseas": [
+    {"p": "adv", "zh": "在國外、到海外", "t": [405494, 4875192, 285645], "fix": {"405494": "你打算出國嗎？", "4875192": "我當時人在國外。", "285645": "他的音樂在國外大受歡迎。"}},
+    {"p": "adj", "zh": "海外的、國外的", "t": [241423], "fix": {"241423": "我想打一通國際電話。"}, "ai": [["The company is expanding into overseas markets.", "公司正在拓展海外市場。"]]}
+  ],
+  "advocate": [
+    {"p": "v", "zh": "提倡、主張", "t": [1362585], "fix": {"1362585": "他提倡減稅。"}, "ai": [["Doctors advocate regular exercise for everyone.", "醫生提倡每個人都要規律運動。"]]},
+    {"p": "n", "zh": "提倡者、擁護者", "ai": [["She is a strong advocate of equal pay.", "她大力提倡同工同酬。"], ["He has long been an advocate for clean energy.", "他長期以來一直倡導乾淨能源。"]]},
+    {"p": "phr", "zh": "play devil's advocate：故意唱反調", "t": [2050654], "fix": {"2050654": "我只是故意唱反調而已。"}, "ai": [["Let me play devil's advocate for a moment.", "讓我暫時唱個反調。"]]}
+  ],
+  "establishment": [
+    {"p": "n", "zh": "建立、設立", "ai": [["The establishment of the new branch took two years.", "新分公司的設立花了兩年。"], ["We celebrated the tenth anniversary of the company's establishment.", "我們慶祝公司成立十週年。"]]},
+    {"p": "n", "zh": "機構、場所（如商店、餐廳）", "ai": [["The restaurant is a family-run establishment.", "這家餐廳是家族經營的店。"], ["Smoking is banned in all public establishments.", "所有公共場所都禁止吸菸。"]]}
+  ],
+  "rough": [
+    {"p": "adj", "zh": "粗糙的", "t": [44132, 54018], "fix": {"44132": "這個物體的表面相當粗糙。", "54018": "鯊魚皮比鮪魚皮粗糙多了。"}},
+    {"p": "adj", "zh": "大致的、粗略的", "t": [54088], "fix": {"54088": "粗略估計，這份工作大概要兩個星期。"}, "ai": [["Can you give me a rough idea of the cost?", "你能告訴我大概要多少錢嗎？"]]},
+    {"p": "adj", "zh": "艱難的、不順的", "ai": [["I had a rough day at work.", "我今天上班很不順。"], ["The company went through a rough year.", "公司度過了艱困的一年。"]]}
+  ],
+  "pen": [
+    {"p": "n", "zh": "筆、原子筆", "t": [33821, 55668, 69772], "fix": {"33821": "如果你需要筆，我借你一支。", "55668": "這支筆跟我昨天弄丟的那支一樣。", "69772": "你有很多支筆嗎？"}}
+  ],
+  "recovery": [
+    {"p": "n", "zh": "康復、痊癒", "t": [53464, 1304730], "fix": {"53464": "你的康復需要耐心。", "1304730": "祝你早日康復！"}},
+    {"p": "n", "zh": "（經濟）復甦、回升", "ai": [["The economy is showing signs of recovery.", "經濟出現復甦的跡象。"], ["Experts predict a slow recovery in the housing market.", "專家預測房市將緩慢復甦。"]]}
+  ],
+  "seal": [
+    {"p": "v", "zh": "密封、封住", "t": [10861260], "fix": {"10861260": "這個面罩能完全密合你的臉。"}, "ai": [["Seal the envelope before you mail it.", "寄出前把信封封好。"], ["The food is sealed in airtight bags.", "食物用密封袋封裝。"]]},
+    {"p": "n", "zh": "封條；印章", "ai": [["Do not use the product if the seal is broken.", "如果封條破損，請勿使用本產品。"], ["The document has an official seal.", "這份文件蓋有官方印章。"]]},
+    {"p": "n", "zh": "海豹", "ai": [["We saw seals resting on the rocks.", "我們看到海豹在岩石上休息。"], ["Seals are excellent swimmers.", "海豹很會游泳。"]]}
+  ],
+  "tube": [
+    {"p": "n", "zh": "管子；（牙膏等的）一條、一管", "t": [682251, 1954714], "fix": {"682251": "請買一條牙膏。", "1954714": "牙膏擠出來就塞不回去了。"}},
+    {"p": "n", "zh": "（the Tube）倫敦地鐵", "t": [5615748, 13547740], "fix": {"5615748": "最近的地鐵站在哪裡？", "13547740": "倫敦人把地鐵叫做「The Tube」。"}}
+  ],
+  "tower": [
+    {"p": "n", "zh": "塔、高樓", "t": [16811, 25827, 8716834], "fix": {"16811": "你知道那座電視塔有多高嗎？", "25827": "我們遠遠就看到了那座塔。", "8716834": "學校最高的建築就是那座水塔。"}},
+    {"p": "v", "zh": "高聳、聳立（tower over／above）", "t": [35925], "fix": {"35925": "紐約到處都是高聳的大樓。"}, "ai": [["The new building towers over the old town.", "新大樓高聳在舊城區之上。"]]}
+  ],
+  "characterize": [
+    {"p": "v", "zh": "描述、形容（…的特性）", "ai": [["How would you characterize your management style?", "你會怎麼形容你的管理風格？"], ["The report characterizes the market as stable.", "這份報告將市場形容為穩定。"]]},
+    {"p": "v", "zh": "以…為特徵（be characterized by）", "ai": [["The region is characterized by hot summers.", "這個地區的特色是夏天炎熱。"], ["His work is characterized by attention to detail.", "他的工作特色是注重細節。"]]}
+  ],
+  "specify": [
+    {"p": "v", "zh": "指定、具體說明、註明", "t": [4761093, 1094660], "fix": {"4761093": "他比指定時間晚了五分鐘到。", "1094660": "湯姆沒說清楚他想要什麼。"}, "ai": [["Please specify the size and color when ordering.", "訂購時請註明尺寸和顏色。"]]}
+  ],
+  "exact": [
+    {"p": "adj", "zh": "確切的、精確的", "t": [59665, 258970, 2169272], "fix": {"59665": "我不知道這座橋確切有多長。", "258970": "我不確定確切的日期。", "2169272": "你能解釋這個詞的確切意思嗎？"}}
+  ]
+}

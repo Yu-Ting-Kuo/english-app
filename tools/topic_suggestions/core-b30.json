@@ -1,0 +1,11 @@
+{
+  "chemotherapy": [["health", 2, "化療"]],
+  "diagnosis": [["health", 1, "診斷"]],
+  "infectious": [["health", 0, "傳染性的"]],
+  "fossil": [["environment", 1, "化石（燃料）"]],
+  "emit": [["environment", 0, "排放（廢氣）"]],
+  "interviewer": [["interviews", 1, "面試官"]],
+  "marker": [["office", 1, "麥克筆、白板筆"]],
+  "connector": [["computers", 0, "接頭、連接器"]],
+  "migrate": [["computers", 1, "（資料）轉移"]]
+}

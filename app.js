@@ -365,7 +365,7 @@ $('#form').addEventListener('submit', async e => {
     const dup = words.find(w => Dict.norm(w.word) === Dict.norm(data.word));
     if (dup) { toast(`「${dup.word}」已經收藏過了`); editWord(dup); return; }
     const entry = await Dict.getEntry(Dict.norm(data.word)).catch(() => null);
-    const pos = entry ? [...new Set(entry.m.filter(g => !g.d).map(g => g.l))] : [];
+    const pos = entry ? Dict.posLabels(entry) : [];
     await saveWord({ ...data, pos, known: false, createdAt: Date.now(), practice: {} });
     toast(`已加入「${data.word}」`); resetForm(); $('#f-word').focus();
   }
@@ -665,7 +665,7 @@ $('#import-file').onchange = async e => {
 // ---------- 啟動 ----------
 const SAMPLES = [
   { word: 'resilient', phonetic: '/rɪˈzɪliənt/', meaning: '有韌性的；能很快恢復的', pos: ['形容詞'], example: 'Children are often more resilient than adults.' },
-  { word: 'commute', phonetic: '/kəˈmjuːt/', meaning: '通勤', pos: ['動詞', '名詞'], example: 'My commute to work takes about forty minutes.' },
+  { word: 'commute', phonetic: '/kəˈmjuːt/', meaning: '通勤', pos: ['vi./vt.', 'noun'], example: 'My commute to work takes about forty minutes.' },
   { word: 'figure out', phonetic: '', meaning: '弄清楚；想出來', pos: ['片語'], example: "I can't figure out how this machine works." },
 ];
 
@@ -680,6 +680,18 @@ async function init() {
   renderList();
   renderHome();
   navigator.storage?.persist?.().catch(() => {});
+  migratePos().catch(() => {});
+}
+
+// 舊版收藏存的是中文詞性（名詞、動詞），改成 noun、vt./vi. 標示
+async function migratePos() {
+  const old = words.filter(w => w.pos?.some(p => p === '名詞' || p === '動詞'));
+  for (const w of old) {
+    const entry = await Dict.getEntry(Dict.norm(w.word)).catch(() => null);
+    w.pos = entry ? Dict.posLabels(entry) : w.pos.map(p => p === '名詞' ? 'noun' : p === '動詞' ? 'vi./vt.' : p);
+    await db.put('words', w);
+  }
+  if (old.length) renderList();
 }
 // init() 在 dictionary.js 最後呼叫，確保所有畫面函式都已載入
 

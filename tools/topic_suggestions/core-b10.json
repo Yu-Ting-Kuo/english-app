@@ -1,0 +1,21 @@
+{
+  "macroeconomics": [["economy", 0, "總體經濟學"]],
+  "deflation": [["economy", 0, "通貨緊縮"]],
+  "liquidation": [["banking", 2, "（公司）清算"]],
+  "accrual": [["banking", 2, "應計項目"]],
+  "reinvest": [["economy", 1, "再投資"]],
+  "antitrust": [["economy", 2, "反壟斷的"]],
+  "veto": [["government", 0, "否決"]],
+  "legislative": [["government", 0, "立法的"]],
+  "prosecute": [["government", 2, "起訴"]],
+  "prosecution": [["government", 2, "起訴；檢方"]],
+  "convict": [["government", 2, "判決有罪"]],
+  "enact": [["government", 2, "制定（法律）"]],
+  "textile": [["manufacturing", 1, "紡織品"]],
+  "handset": [["phone-calls", 0, "話筒"]],
+  "receiver": [["phone-calls", 0, "聽筒"]],
+  "cure": [["health", 2, "治療、治癒"]],
+  "tuple": [["computers", 2, "元組"]],
+  "yuan": [["geography", 2, "人民幣元"]],
+  "slash": [["shopping", 1, "大幅降價"]]
+}

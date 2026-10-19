@@ -1,0 +1,15 @@
+{
+  "room": [["hotel", 0, "房間"]],
+  "minute": [["meetings", 2, "（minutes）會議紀錄"]],
+  "shop": [["shopping", 0, "商店；購物"]],
+  "special": [["restaurant", 1, "今日特餐"]],
+  "present": [["presentations", 0, "報告、發表"]],
+  "stop": [["transport", 2, "（公車、捷運）站"]],
+  "film": [["leisure", 1, "電影"]],
+  "music": [["leisure", 1, "音樂"]],
+  "game": [["leisure", 2, "比賽"]],
+  "student": [["education", 0, "學生"]],
+  "class": [["education", 0, "課、班級"], ["business-travel", 1, "艙等"]],
+  "power": [["environment", 1, "電力"]],
+  "color": [["shopping", 0, "顏色"]]
+}

@@ -1,0 +1,14 @@
+{
+  "forecaster": [["weather", 1, "氣象預報員"]],
+  "dismissal": [["personnel", 2, "解僱、免職"]],
+  "credential": [["interviews", 1, "學經歷、資格證明"], ["internet", 2, "登入帳密、憑證"]],
+  "unsecured": [["banking", 1, "無擔保的（貸款）"]],
+  "speculator": [["economy", 1, "投機客"]],
+  "importer": [["economy", 2, "進口商"]],
+  "histogram": [["presentations", 1, "直方圖"]],
+  "worksheet": [["education", 0, "練習卷、學習單"]],
+  "enforceable": [["negotiation", 2, "（合約）可強制執行的"]],
+  "relational": [["computers", 2, "關聯式（資料庫）"]],
+  "timber": [["engineering", 1, "木材"]],
+  "tide": [["weather", 2, "潮汐"]]
+}

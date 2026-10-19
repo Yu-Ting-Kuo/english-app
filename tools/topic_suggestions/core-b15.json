@@ -1,0 +1,6 @@
+{
+  "family": [["family", 0, "家人、家庭"]],
+  "school": [["education", 0, "學校"]],
+  "job": [["interviews", 0, "工作、職位"]],
+  "pay": [["shopping", 2, "付錢、付款"]]
+}

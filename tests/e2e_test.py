@@ -60,7 +60,7 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['日常生活', '旅遊英文', '工作與商務', '多益主題', '學術與科技', '社會與世界'], cats
+            assert cats == ['日常生活', '旅遊英文', '工作與商務', '多益主題', '學術與科技', '社會與世界', '多益核心字彙'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
@@ -97,6 +97,18 @@ def main():
             assert [h.split()[0] for h in heads] == ['初階', '中階', '進階'], heads
             page.locator('#topic-sort [data-sort=context]').click()
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
+
+        def t_core_units():
+            page.click('nav [data-view=home]')
+            page.locator('.cat-card', has_text='多益核心字彙').click()
+            heads = page.locator('#cat-body h3').all_text_contents()
+            assert heads[:4] == ['多益必考字（TSL）', '商務英文字（BSL）', '核心英文字（NGSL）', '學術英文字（NAWL）'], heads
+            assert page.locator('#cat-body .topic-card').count() > 80
+            page.locator('.topic-card', has_text='多益必考字 第 1 單元').click()
+            expect(page.locator('#topic-sort [data-sort=context]')).to_have_text('依詞性')
+            assert page.locator('#topic-body .wr-word').count() == 60
+            expect(page.locator('#topic-body .source')).to_contain_text('ECDICT 的主要釋義')
+        check('多益核心字彙：依詞彙表分組、每單元 60 字', t_core_units)
 
         def t_partial():
             page.click('nav [data-view=home]')
@@ -138,7 +150,8 @@ def main():
             search('board')
             page.wait_for_selector('#senses-box .sense-item')
             labels = page.locator('#senses-box .pos-head').all_text_contents()
-            assert labels == ['動詞', '片語', '名詞'], labels
+            # 名詞標可數／不可數，動詞標及物／不及物（英文標示）
+            assert labels == ['vi./vt.', '片語', 'noun[C]'], labels
             items = page.locator('#senses-box .sense-item')
             assert items.count() == 4, items.count()
             for i in range(items.count()):
@@ -151,18 +164,19 @@ def main():
                     li = exs.nth(j)
                     assert li.locator('mark').count() == 1, li.inner_text()
                     assert li.locator('.ex-zh').inner_text().strip(), li.inner_text()
-                    assert li.locator('.ex-src').inner_text().strip(), li.inner_text()
-            # 董事會的例句要標出 board，並附 Tatoeba 來源
+            # 董事會的例句要標出 board；例句不顯示 Tatoeba 編號與貢獻者，只標示 AI 例句
             director = items.nth(2)
             expect(director.locator('summary')).to_contain_text('董事會')
-            expect(director.locator('.ex-src a').first).to_have_attribute('href', re.compile(r'tatoeba\.org/.+/sentences/show/\d+'))
-            expect(page.locator('#senses-box .ai-tag').first).to_have_text('AI 生成例句')
+            box = ' '.join(page.locator('#senses-box .pos-block').all_inner_texts())
+            assert 'Tatoeba #' not in box and '英文 ' not in box, box
+            expect(page.locator('#senses-box .exs a')).to_have_count(0)
+            expect(page.locator('#senses-box .ai-tag').first).to_have_text('AI 例句')
             # 第三個以後的詞義預設收合
             assert not items.nth(3).evaluate('e => e.open') or True
             search('layover')
             page.wait_for_selector('#senses-box .sense-item')
             expect(page.locator('#senses-box .ex-en mark').first).to_have_text('layover')
-            search('abandon')
+            search('walrus')
             expect(page.locator('#senses-box')).to_contain_text('還在整理中')
             # 進階商務字與多義字
             search('allocate')
@@ -177,7 +191,7 @@ def main():
             page.wait_for_selector('#senses-box .sense-item')
             marks = page.locator('#senses-box .ex-en mark').all_text_contents()
             assert any(m.startswith('call') and m.endswith('back') for m in marks), marks
-        check('詞義與例句：依詞性→詞義分組，每義 2 句以上，有高亮、翻譯、來源', t_senses)
+        check('詞義與例句：依詞性→詞義分組（noun[C]、vi./vt.），每義 2 句以上，有高亮、翻譯，不顯示來源編號', t_senses)
 
         def t_any():
             page.click('nav [data-view=home]')
@@ -193,8 +207,9 @@ def main():
         def t_common():
             search('make')
             expect(page.locator('.entry .headword')).to_have_text('make')
-            expect(page.locator('.sense .pos', has_text='動詞')).to_have_count(1)
-            expect(page.locator('.sense .pos', has_text='名詞')).to_have_count(1)
+            labels = page.locator('.sense .pos').all_text_contents()
+            assert 'noun' in labels and 'vt.' in labels and 'vi.' in labels, labels
+            assert not {'名詞', '動詞'} & set(labels), labels
             expect(page.locator('.sense-text').first).to_contain_text('製造')
         check('1. 搜尋常見單字 make', t_common)
 
@@ -212,9 +227,9 @@ def main():
         def t_pos():
             search('book')
             labels = page.locator('.sense .pos').all_text_contents()
-            assert '名詞' in labels and '動詞' in labels, labels
-            assert labels.count('名詞') == 1, labels
-        check('3. 詞性分開列出（book：名詞、動詞各一區）', t_pos)
+            assert 'noun' in labels and 'v.' in labels, labels
+            assert labels.count('noun') == 1, labels
+        check('3. 詞性分開列出（book：noun、v. 各一區）', t_pos)
 
         def t_infl():
             search('go')
@@ -263,7 +278,7 @@ def main():
             expect(page.locator('#star')).to_have_attribute('aria-pressed', 'true')
             page.click('nav [data-view=list]')
             expect(page.locator('.word-card .headword', has_text='decision')).to_have_count(1)
-            expect(page.locator('.word-card', has_text='decision').locator('.pos').first).to_have_text('名詞')
+            expect(page.locator('.word-card', has_text='decision').locator('.pos').first).to_have_text('noun')
         check('7. 收藏重新整理後還在（含詞性）', t_persist)
 
         def t_dupe():
@@ -280,7 +295,7 @@ def main():
 
         def t_list_tools():
             page.click('nav [data-view=list]')
-            page.select_option('#pos-filter', '名詞')
+            page.select_option('#pos-filter', 'noun')
             names = page.locator('.word-card .headword').all_text_contents()
             assert 'decision' in names and 'resilient' not in names, names
             page.select_option('#pos-filter', '')

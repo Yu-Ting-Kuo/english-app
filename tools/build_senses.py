@@ -23,7 +23,8 @@ tools/senses/*.json 格式：
  3. 目標字（含詞形變化、片語）確實出現在英文例句中，並記錄位置供高亮
  4. 詞性屬於 ECDICT 列出的詞性（App 補充的詞義除外）
  5. 同一個字的不同詞義之間沒有重複例句
- 6. Tatoeba 例句保留 id、作者、翻譯者；AI 例句標示來源
+ 6. Tatoeba 例句保留 id、作者、翻譯者（資料裡保留以符合授權，App 不逐句顯示）；AI 例句標示來源
+ 7. 名詞、動詞詞義的文法標記（tools/grammar/*.tsv：C／U／CU、vt／vi／vit），沒標到的會列出數量
 """
 import json
 import re
@@ -33,26 +34,41 @@ from pathlib import Path
 
 from build_topics import ROOT, norm, resolve, shard_of
 from examples_lib import find_span, load_pairs, word_forms
+from grammar_tasks import load_labels
 
-POS_LABEL = {'n': '名詞', 'v': '動詞', 'adj': '形容詞', 'adv': '副詞', 'prep': '介系詞', 'conj': '連接詞',
-             'pron': '代名詞', 'phr': '片語', 'int': '感嘆詞', 'num': '數詞', 'aux': '助動詞'}
+POS_LABEL = {'n': 'noun', 'v': 'verb', 'adj': '形容詞', 'adv': '副詞', 'prep': '介系詞', 'conj': '連接詞',
+             'pron': '代名詞', 'phr': '片語', 'int': '感嘆詞', 'num': '數詞', 'aux': '助動詞', 'art': '冠詞'}
 CJK = re.compile(r'[一-鿿]')
 TRAD_ONLY_BAD = re.compile(r'[们这个说时会来为对过还没么样]')  # 常見簡體字，出現代表沒轉換好
 
 
-def main(pairs_path):
+def main(pairs_path, only=None):
+    """only：只檢查這一個檔案，不寫出任何資料（給平行作業的各批次自行驗證用）"""
     sys.stdout.reconfigure(encoding='utf-8')
     pairs = load_pairs(pairs_path)
+    labels = load_labels()
     src = {}
-    for p in sorted((ROOT / 'tools' / 'senses').glob('*.json')):
-        for w, senses in json.loads(p.read_text(encoding='utf-8')).items():
-            if w in src:
-                print(f'⚠️ {w} 在多個檔案出現，使用 {p.name} 的版本')
-            src[w] = senses
+    files = sorted((ROOT / 'tools' / 'senses').glob('*.json'))
+    if only:
+        target = Path(only).resolve()
+        others = set()
+        for p in files:
+            if p.resolve() != target:
+                others.update(json.loads(p.read_text(encoding='utf-8')).keys())
+        src = json.loads(target.read_text(encoding='utf-8'))
+        dup = [w for w in src if w in others]
+        if dup:
+            print(f'⚠️ 這些字已經在其他檔案做過，請從本檔刪除：{", ".join(dup)}')
+    else:
+        for p in files:
+            for w, senses in json.loads(p.read_text(encoding='utf-8')).items():
+                if w in src:
+                    print(f'⚠️ {w} 在多個檔案出現，使用 {p.name} 的版本')
+                src[w] = senses
 
     errors, warns = [], []
     shards = defaultdict(dict)
-    stats = {'words': 0, 'words_with_ex': 0, 'senses': 0, 'ok': 0, 'one': 0, 'zero': 0, 'tatoeba': 0, 'ai': 0, 'revised': 0}
+    stats = {'words': 0, 'words_with_ex': 0, 'senses': 0, 'ok': 0, 'one': 0, 'zero': 0, 'tatoeba': 0, 'ai': 0, 'revised': 0, 'no_g': 0}
     for w, senses in src.items():
         key, entry = resolve(w)
         key = key or norm(w)
@@ -117,9 +133,27 @@ def main(pairs_path):
             sense = {'p': p, 'l': POS_LABEL[p], 'zh': s['zh'], 'ex': ex}
             if s.get('src') == 'app':
                 sense['src'] = 'app'
+            if p in ('n', 'v'):
+                g = labels.get((w, p, s['zh']))
+                if g:
+                    sense['g'] = g
+                else:
+                    stats['no_g'] += 1
             out.append(sense)
         stats['words_with_ex'] += has_ex
         shards[shard_of(key)][key] = out
+
+    if only:
+        if errors:
+            print('❌ 發現錯誤：')
+            for e in errors:
+                print('  -', e)
+        print(f"{'❌' if errors else '✅'} 本檔 {stats['words']} 個字、{stats['senses']} 個詞義；"
+              f"2 句以上 {stats['ok']}、只有 1 句 {stats['one']}、沒有例句 {stats['zero']}；"
+              f"Tatoeba {stats['tatoeba']} 句、AI {stats['ai']} 句")
+        for w in warns:
+            print('  ⚠️', w)
+        sys.exit(1 if errors else 0)
 
     # 主題詞彙是否都有逐義例句
     topics = json.loads((ROOT / 'dict' / 'topics.json').read_text(encoding='utf-8'))
@@ -149,6 +183,7 @@ def main(pairs_path):
           f"真人例句（Tatoeba）{stats['tatoeba']} 句（翻譯經修訂 {stats['revised']}）、AI 補充 {stats['ai']} 句")
     print(f"   每義 2～3 句：{stats['ex_2_3']}、4 句以上：{stats['ex_4_plus']}；"
           f"主題詞彙 {stats['topic_words']} 個，缺逐義例句 {stats['topic_words_missing']} 個")
+    print(f"   名詞／動詞詞義缺文法標記（可數、及物）：{stats['no_g']} 個")
     if warns:
         print(f'⚠️ {len(warns)} 個提醒：')
         for w in warns:
@@ -156,4 +191,6 @@ def main(pairs_path):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    # python tools/build_senses.py <pairs.tsv> [--only tools/senses/某批次.json]
+    only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
+    main(sys.argv[1], only)

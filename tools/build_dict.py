@@ -26,12 +26,13 @@ cc = opencc.OpenCC('s2twp')  # 簡體 → 台灣繁體與用語
 
 # ECDICT 詞性縮寫 → (統一代號, 顯示名稱)
 POS = {
-    'n': ('n', '名詞'), 'v': ('v', '動詞'), 'vt': ('v', '動詞'), 'vi': ('v', '動詞'),
+    # 名詞、動詞用英文標示（及物 vt.／不及物 vi.），ECDICT 沒有可數／不可數資料，名詞只標 noun
+    'n': ('n', 'noun'), 'v': ('v', 'v.'), 'vt': ('v', 'vt.'), 'vi': ('v', 'vi.'),
     'a': ('adj', '形容詞'), 'adj': ('adj', '形容詞'), 'ad': ('adv', '副詞'), 'adv': ('adv', '副詞'),
     'prep': ('prep', '介系詞'), 'conj': ('conj', '連接詞'), 'pron': ('pron', '代名詞'),
     'int': ('int', '感嘆詞'), 'interj': ('int', '感嘆詞'), 'art': ('art', '冠詞'),
     'num': ('num', '數詞'), 'aux': ('aux', '助動詞'), 'abbr': ('abbr', '縮寫'),
-    'pl': ('n', '名詞'), 'phr': ('phr', '片語'),
+    'pl': ('n', 'noun'), 'phr': ('phr', '片語'),
 }
 POS_RE = re.compile(r'^(n|vt|vi|v|adj|a|adv|ad|prep|conj|pron|interj|int|art|num|aux|abbr|pl|phr)\.\s*', re.I)
 DOMAIN_RE = re.compile(r'^\[([^\]]+)\]\s*')
@@ -78,7 +79,7 @@ def parse_translation(raw, is_phrase=False):
         text = cc.convert(line.strip(' ;；,，'))
         if not text:
             continue
-        gk = (pos, domain)
+        gk = (label, domain)  # vt. 和 vi. 分開列
         if gk not in groups:
             groups[gk] = {'p': pos, 'l': label, 'm': []}
             if domain:
@@ -143,6 +144,16 @@ def main(src):
                         if cand in rows:
                             common.setdefault(cand, rows[cand])
                             break
+
+    # 多益核心詞彙表（tools/core_words.txt，由 build_core_lists.py 產生）的字一定收錄
+    core_src = ROOT / 'tools' / 'core_words.txt'
+    if core_src.exists():
+        for word in core_src.read_text(encoding='utf-8').split('\n'):
+            k = key_of(word)
+            for cand in (k, k.replace('-', ' '), k.replace('-', '')):
+                if cand in rows:
+                    common.setdefault(cand, rows[cand])
+                    break
 
     # 詞形 → 原形
     forms = defaultdict(dict)

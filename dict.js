@@ -173,17 +173,26 @@ const Dict = (() => {
     const split = v => (v ? v.split(',').map(s => s.trim()).filter(Boolean) : []);
     const groups = [];
     if (x.p || x.d || x.i || x['3']) {
-      groups.push({ title: '動詞', rows: [
+      groups.push({ title: 'verb', rows: [
         ['原形', [entry.w]], ['第三人稱單數', split(x['3'])], ['過去式', split(x.p)],
         ['過去分詞', split(x.d)], ['現在分詞', split(x.i)],
       ].filter(r => r[1].length) });
     }
-    if (x.s) groups.push({ title: '名詞', rows: [['單數', [entry.w]], ['複數', split(x.s)]] });
+    if (x.s) groups.push({ title: 'noun', rows: [['單數', [entry.w]], ['複數', split(x.s)]] });
     if (x.r || x.t) {
       groups.push({ title: '形容詞／副詞', rows: [['原級', [entry.w]], ['比較級', split(x.r)], ['最高級', split(x.t)]].filter(r => r[1].length) });
     }
     return groups;
   }
 
-  return { norm, lookup, suggest, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev };
+  // 收藏清單用的詞性標籤：動詞的 vt./vi./v. 合併成一個（例如兩者都有就是 vi./vt.）
+  function posLabels(entry) {
+    const labels = [...new Set(entry.m.filter(g => !g.d).map(g => g.l))];
+    const verbs = labels.filter(l => ['vt.', 'vi.', 'v.'].includes(l));
+    if (!verbs.length) return labels;
+    const verb = verbs.includes('v.') || verbs.length > 1 ? 'vi./vt.' : verbs[0];
+    return [...new Set(labels.map(l => verbs.includes(l) ? verb : l))];
+  }
+
+  return { norm, lookup, suggest, fuzzy, getEntry, senses, resembleGroups, online, frequency, inflections, lev, posLabels };
 })();

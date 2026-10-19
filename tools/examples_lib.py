@@ -68,4 +68,8 @@ def form_regex(forms):
 
 def find_span(text, forms):
     m = form_regex(forms).search(text)
+    if not m:
+        # 退而求其次：連字號複合字裡的目標字（toll-free 的 toll、multi-purpose 的 multi）
+        alts = '|'.join(_form_pattern(f) for f in forms)
+        m = re.search(rf"(?<![A-Za-z'’])({alts})(?![A-Za-z])", text, re.I)
     return [m.start(), m.end()] if m else None

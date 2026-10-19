@@ -1,0 +1,16 @@
+{
+  "carpet": [["home", 0, "地毯"]],
+  "curtain": [["home", 0, "窗簾"]],
+  "stain": [["home", 1, "汙漬"]],
+  "wipe": [["home", 1, "擦拭"]],
+  "bucket": [["home", 1, "水桶"]],
+  "uncle": [["family", 0, "叔叔、伯伯、舅舅"]],
+  "aunt": [["family", 0, "阿姨、姑姑、舅媽"]],
+  "rice": [["restaurant", 1, "白飯"]],
+  "tent": [["leisure", 0, "帳篷（露營）"]],
+  "comedy": [["leisure", 1, "喜劇"]],
+  "athlete": [["leisure", 2, "運動員、選手"]],
+  "transportation": [["transport", 1, "交通工具、大眾運輸"]],
+  "summarize": [["presentations", 2, "總結、概述"]],
+  "faithfully": [["emails", 2, "Yours faithfully 謹啟"]]
+}

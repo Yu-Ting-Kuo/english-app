@@ -1,0 +1,29 @@
+{
+  "e-book": [
+    {"p": "n", "zh": "電子書", "t": [2445230], "ai": [["I read e-books on my tablet during my commute.", "我通勤時用平板看電子書。"], ["The e-book version costs less than the paperback.", "電子書版本比平裝本便宜。"]]}
+  ],
+  "login": [
+    {"p": "n", "zh": "登入；登入帳號與密碼", "src": "app", "ai": [["Please enter your login and password.", "請輸入你的帳號和密碼。"], ["The login page keeps showing an error message.", "登入頁面一直出現錯誤訊息。"]]}
+  ],
+  "repairperson": [
+    {"p": "n", "zh": "修理工、維修人員", "ai": [["We called a repairperson to fix the air conditioner.", "我們找了維修人員來修冷氣。"], ["The repairperson will arrive between 2 and 4 p.m.", "維修人員會在下午兩點到四點之間到。"]]}
+  ],
+  "housekeep": [
+    {"p": "v", "zh": "做家事、管理家務", "ai": [["She housekeeps for an elderly couple three days a week.", "她每週三天幫一對老夫婦打理家務。"], ["He learned to cook and housekeep after moving out.", "他搬出去住以後學會了煮飯和做家事。"]]}
+  ],
+  "smartphone": [
+    {"p": "n", "zh": "智慧型手機", "t": [13190377, 6120733], "fix": {"13190377": "我想找一支相機好用的智慧型手機。", "6120733": "我還是沒有智慧型手機。"}, "ai": [["You can check in for your flight on your smartphone.", "你可以用智慧型手機辦理登機報到。"]]}
+  ],
+  "by-law": [
+    {"p": "n", "zh": "（公司、社團的）內部章程、細則；地方法規", "ai": [["Under the company's by-laws, the board must meet twice a year.", "依照公司章程，董事會每年必須開會兩次。"], ["The city passed a by-law banning parking on this street.", "市政府通過一項法規，禁止在這條街停車。"]]}
+  ],
+  "annualize": [
+    {"p": "v", "zh": "換算成年率、年化", "src": "app", "ai": [["The fund's annualized return was 6 percent.", "這檔基金的年化報酬率是百分之六。"], ["Analysts annualized the first-quarter sales figures.", "分析師把第一季的銷售數字換算成全年數字。"]]}
+  ],
+  "capita": [
+    {"p": "phr", "zh": "（per capita）每人、人均", "src": "app", "ai": [["Taiwan's GDP per capita has grown steadily.", "台灣的人均國內生產毛額穩定成長。"], ["The country spends more per capita on health care than its neighbors.", "這個國家每人的醫療支出比鄰國高。"]]}
+  ],
+  "annum": [
+    {"p": "phr", "zh": "（per annum）每年", "src": "app", "ai": [["The position offers a salary of 900,000 dollars per annum.", "這個職位年薪九十萬元。"], ["The loan carries an interest rate of 3 percent per annum.", "這筆貸款的年利率是百分之三。"]]}
+  ]
+}

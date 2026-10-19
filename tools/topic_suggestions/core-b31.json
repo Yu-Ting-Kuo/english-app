@@ -1,0 +1,9 @@
+{
+  "pardon": [["daily-conversation", 3, "不好意思、請原諒"]],
+  "sneeze": [["health", 0, "打噴嚏"]],
+  "respiratory": [["health", 0, "呼吸道的"]],
+  "surgeon": [["health", 1, "外科醫生"]],
+  "pulse": [["health", 1, "脈搏"]],
+  "transplant": [["health", 2, "移植手術"]],
+  "nutrient": [["health", 3, "營養素"]]
+}

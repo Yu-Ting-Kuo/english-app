@@ -16,6 +16,8 @@ from examples_lib import find_span, load_pairs, word_forms
 
 
 def topic_words(which):
+    if which.startswith('@'):  # @檔案：一行一個字
+        return [w.strip() for w in Path(which[1:]).read_text(encoding='utf-8').split('\n') if w.strip()]
     src = json.loads((ROOT / 'tools' / 'topics.json').read_text(encoding='utf-8'))
     ids = [t for c in src['categories'] for t in c['topics']] if which == 'all' else which.split(',')
     out = []

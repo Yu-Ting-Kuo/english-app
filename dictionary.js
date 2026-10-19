@@ -232,33 +232,51 @@ function highlightSpan(text, sp) {
   return esc(text.slice(0, sp[0])) + '<mark>' + esc(text.slice(sp[0], sp[1])) + '</mark>' + esc(text.slice(sp[1]));
 }
 
+// 例句只標示 AI 生成的；Tatoeba 例句的編號與貢獻者保留在資料裡（授權需要），畫面上不顯示
 function exampleSource(e) {
-  if (e.s === 'ai') return '<span class="ai-tag">AI 生成例句</span>';
-  const link = `<a href="https://tatoeba.org/zh-tw/sentences/show/${e.id}" target="_blank" rel="noopener">Tatoeba #${e.id}</a>`;
-  return `${link}・英文 ${esc(e.by || '匿名')}・中文 ${esc(e.zby || '匿名')}${e.rev ? '・<span class="rev-tag">翻譯經 App 修訂</span>' : ''}`;
+  return e.s === 'ai' ? '<div class="ex-src"><span class="ai-tag">AI 例句</span></div>' : '';
+}
+
+// 名詞標可數／不可數，動詞標及物／不及物（標記由 tools/grammar 整理）
+const GRAMMAR = { C: '[C]', U: '[U]', CU: '[C/U]', vt: 'vt.', vi: 'vi.', vit: 'vi./vt.' };
+function posHead(p, label, senses) {
+  if (p !== 'n' && p !== 'v') return { head: label, each: false };
+  const gs = new Set(senses.map(s => s.g || ''));
+  if (gs.size === 1 && !gs.has('')) {
+    const g = GRAMMAR[[...gs][0]];
+    return { head: p === 'n' ? 'noun' + g : g, each: false };
+  }
+  if (p === 'n') return { head: 'noun', each: true };
+  const vt = senses.some(s => s.g === 'vt' || s.g === 'vit'), vi = senses.some(s => s.g === 'vi' || s.g === 'vit');
+  return { head: vt && vi ? 'vi./vt.' : vt ? 'vt.' : vi ? 'vi.' : 'verb', each: true };
 }
 
 function renderSenses(list) {
   const order = [];
-  for (const s of list) if (!order.includes(s.l)) order.push(s.l);
+  for (const s of list) if (!order.includes(s.p)) order.push(s.p);
   let n = 0;
-  return order.map(label => `
+  return order.map(p => {
+    const senses = list.filter(s => s.p === p);
+    const { head, each } = posHead(p, senses[0].l, senses);
+    return `
     <div class="pos-block">
-      <div class="pos-head"><span class="pos">${esc(label)}</span></div>
-      ${list.filter(s => s.l === label).map(s => {
+      <div class="pos-head"><span class="pos pos-${esc(p)}">${esc(head)}</span></div>
+      ${senses.map(s => {
         n++;
+        const tag = each && s.g ? `<span class="gram">${GRAMMAR[s.g]}</span>` : '';
         return `
         <details class="sense-item" ${n <= 2 ? 'open' : ''}>
-          <summary><span class="sn">${n}</span><span class="sz">${esc(s.zh)}</span>${s.src === 'app' ? '<span class="app-tag">App 補充詞義</span>' : ''}<span class="exn">${s.ex.length} 句</span></summary>
+          <summary><span class="sn">${n}</span>${tag}<span class="sz">${esc(s.zh)}</span>${s.src === 'app' ? '<span class="app-tag">App 補充詞義</span>' : ''}<span class="exn">${s.ex.length} 句</span></summary>
           ${s.ex.length ? `<ol class="exs">${s.ex.map(e => `
             <li>
               <div class="ex-en"><span>${highlightSpan(e.en, e.sp)}</span><button class="ex-say" data-say="${esc(e.en)}" aria-label="朗讀例句">${ICON.speaker}</button></div>
               <div class="ex-zh">${esc(e.zh)}</div>
-              <div class="ex-src">${exampleSource(e)}</div>
+              ${exampleSource(e)}
             </li>`).join('')}</ol>` : '<p class="muted" style="margin:6px 0 0">這個詞義目前沒有可靠的例句。</p>'}
         </details>`;
       }).join('')}
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 async function loadSenses(key, ecdictHtml) {
@@ -352,7 +370,7 @@ async function toggleStar(key, entry) {
         word: entry.w,
         phonetic: ipa || (entry.ph ? `/${entry.ph}/` : ''),
         meaning: shortMeaning(entry),
-        pos: [...new Set(entry.m.filter(g => !g.d).map(g => g.l))],
+        pos: Dict.posLabels(entry),
         example: '', note: '',
         known: false, createdAt: Date.now(), starredAt: Date.now(), practice: {}, source: 'dict',
       });

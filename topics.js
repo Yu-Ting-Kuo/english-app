@@ -18,11 +18,12 @@ const CAT_ICON = {
   toeic: '<svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>',
   academic: '<svg class="i" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>',
   society: '<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>',
+  core: '<svg class="i" viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h6"/></svg>',
 };
 
 // 依日期輪流推薦一個主題（同一天打開都一樣）
 function todayTopicId(data) {
-  const ids = data.categories.flatMap(c => c.topics);
+  const ids = data.categories.filter(c => c.id !== 'core').flatMap(c => c.topics);
   const day = Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 864e5);
   return ids[day % ids.length];
 }
@@ -88,14 +89,24 @@ async function renderCategory() {
       <h2 class="page-title">${esc(c.zh)} <span class="en">${esc(c.en)}</span></h2>
       <p class="muted" style="margin:4px 0 0">${esc(c.desc)}</p>
     </div>
-    <div class="topic-list">${c.topics.map(id => {
-      const t = data.topics[id];
-      return `<button class="topic-card" data-topic="${id}">
+    ${groupTopics(c.topics.map(id => [id, data.topics[id]])).map(([group, items]) => `
+      ${group ? `<h3 style="margin:8px 2px 0">${esc(group)}</h3>` : ''}
+      <div class="topic-list">${items.map(([id, t]) => `<button class="topic-card" data-topic="${id}">
         <span class="topic-name">${esc(t.zh)}</span>
         <span class="topic-en">${esc(t.en)}</span>
         <span class="topic-meta">${t.count} 個字</span>
-      </button>`;
-    }).join('')}</div>`;
+      </button>`).join('')}</div>`).join('')}`;
+}
+
+// 依 group 欄位分組（多益核心字彙依詞彙表分組），保持原本順序
+function groupTopics(pairs) {
+  const groups = [];
+  for (const p of pairs) {
+    const g = p[1].group || '';
+    const last = groups[groups.length - 1];
+    if (last && last[0] === g) last[1].push(p); else groups.push([g, [p]]);
+  }
+  return groups;
 }
 
 // ---------- 主題：單字列表 ----------
@@ -158,12 +169,14 @@ async function renderTopic() {
       <div class="row wrap"><span class="chip">${t.count} 個單字</span>${levelChips(t)}</div>
     </div>
     <div class="seg" id="topic-sort">
-      <button data-sort="context" class="${topicSort === 'context' ? 'on' : ''}">依情境</button>
+      <button data-sort="context" class="${topicSort === 'context' ? 'on' : ''}">${t.auto ? '依詞性' : '依情境'}</button>
       <button data-sort="level" class="${topicSort === 'level' ? 'on' : ''}">依難度</button>
       <button data-sort="freq" class="${topicSort === 'freq' ? 'on' : ''}">依常用程度</button>
     </div>
     ${list}
-    <p class="source">主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文；點單字可以看完整辭典條目。
+    <p class="source">${t.auto
+      ? '單元依 TSL／BSL／NGSL／NAWL 詞彙表（CC BY-SA 4.0，newgeneralservicelist.com）與詞頻排序整理；中文為 ECDICT 的主要釋義。'
+      : '主題分類與「在這個情境中的意思」由 App 編輯整理，不是詞典原文。'}點單字可以看完整辭典條目。
     難度依 BNC／COCA 詞頻排名計算：初階為前 2,500 名、中階 2,501～8,000 名、進階為 8,000 名以後；片語依組成單字中最少見的那個字計算。</p>`;
   $('#topic-sort').onclick = e => {
     const s = e.target.closest('[data-sort]')?.dataset.sort;
