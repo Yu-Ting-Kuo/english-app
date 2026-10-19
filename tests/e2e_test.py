@@ -302,10 +302,10 @@ def main():
         def t_common():
             search('make')
             expect(page.locator('.entry .headword')).to_have_text('make')
-            labels = page.locator('.sense .pos').all_text_contents()
-            assert 'noun' in labels and 'vt.' in labels and 'vi.' in labels, labels
-            assert not {'名詞', '動詞'} & set(labels), labels
-            expect(page.locator('.sense-text').first).to_contain_text('製造')
+            page.wait_for_selector('#senses-box .sense-item')
+            heads = page.locator('#senses-box .pos-head').all_text_contents()
+            assert 'vt.' in heads and not {'名詞', '動詞'} & set(heads), heads
+            expect(page.locator('#senses-box .sz').first).to_contain_text('做')
         check('1. 搜尋常見單字 make', t_common)
 
         def t_forms():
@@ -321,10 +321,10 @@ def main():
 
         def t_pos():
             search('book')
-            labels = page.locator('.sense .pos').all_text_contents()
-            assert 'noun' in labels and 'v.' in labels, labels
-            assert labels.count('noun') == 1, labels
-        check('3. 詞性分開列出（book：noun、v. 各一區）', t_pos)
+            page.wait_for_selector('#senses-box .sense-item')
+            heads = page.locator('#senses-box .pos-head').all_text_contents()
+            assert heads == ['noun[C]', 'vt.'], heads
+        check('3. 詞性分開列出（book：noun[C]、vt. 各一區）', t_pos)
 
         def t_infl():
             search('go')
@@ -414,7 +414,8 @@ def main():
             page.route('https://api.dictionaryapi.dev/**', lambda route: route.abort())
             search('apple')
             page.locator('#wk summary').click()
-            expect(page.locator('#wk-body')).to_contain_text('需要網路')
+            # 沒網路時英英解釋不顯示內容，但不能一直停在「載入中」
+            expect(page.locator('#wk-body')).not_to_contain_text('載入中')
             # 詞典分片抓不到（離線且沒快取過）
             page.route('**/dict/w/zy.json', lambda route: route.abort())
             search('zymurgy')

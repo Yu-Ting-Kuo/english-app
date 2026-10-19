@@ -323,8 +323,7 @@ async function loadSenses(key, ecdictHtml) {
     box.insertAdjacentHTML('beforeend', '<p class="source" style="margin:0">這個字的「逐義例句」還在整理中，目前先顯示詞典的中文釋義。</p>');
     return;
   }
-  box.innerHTML = `<h3>詞義與例句</h3>${renderSenses(list)}
-    ${ecdictHtml ? `<details class="ecdict-all"><summary>ECDICT 完整中文釋義</summary><div class="stack" style="margin-top:8px">${ecdictHtml}</div></details>` : ''}`;
+  box.innerHTML = `<h3>詞義與例句</h3>${renderSenses(list)}`;
 }
 
 // 詞典沒有獨立條目、但主題裡有收錄的片語
@@ -444,7 +443,7 @@ async function loadOnline(key, entry) {
     info = await onlineInfo(key);
   } catch {
     if (currentEntry?.key !== key) return;
-    body.innerHTML = '<div class="muted">需要網路才能載入英英解釋和真人發音。上方的美式、英式按鈕會用手機內建語音朗讀。</div>';
+    body.innerHTML = '';
     return;
   }
   if (currentEntry?.key !== key) return;
