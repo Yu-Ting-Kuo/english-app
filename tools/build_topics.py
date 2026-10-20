@@ -190,9 +190,9 @@ def main():
             sections.append({'zh': zh, 'en': en, 'words': words})
         topic_levels = CORE_LEVELS if t.get('auto') else LEVELS
         levels = {lv: sum(w['lv'] == lv for s in sections for w in s['words']) for lv in topic_levels}
-        # 情境主題要求三種難度都有；核心字彙單元是依詞頻切的，不檢查
+        # 情境主題要求三種難度都有；核心字彙單元是依詞頻切的、功能詞幾乎都是初階（fewLevels），不檢查
         for lv in topic_levels:
-            if not t.get('auto') and levels[lv] < 3:
+            if not t.get('auto') and not t.get('fewLevels') and levels[lv] < 3:
                 errors.append(f'{tid}：{LEVEL_NAMES[lv]}只有 {levels[lv]} 個字，每個主題每種難度至少要 3 個')
         topics[tid] = {'zh': t['zh'], 'en': t['en'], 'level': t['level'], 'intro': t['intro'],
                        'cat': owner.get(tid), 'count': len(seen), 'levels': levels, 'sections': sections}

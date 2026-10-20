@@ -60,7 +60,7 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '情緒與感覺', '社交與人際', '多益核心字彙'], cats
+            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '情緒與感覺', '社交與人際', '日常與基礎字彙', '多益核心字彙'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
@@ -99,7 +99,7 @@ def main():
             assert len(ws) == len(set(ws)), [w for w in ws if ws.count(w) > 1]
             count = int(re.search(r'\((\d+)\)', page.locator('#topic-body .page-title').inner_text()).group(1))
             assert count == len(ws), (count, len(ws))
-            page.locator('.word-row', has_text='photocopier').locator('.wr-main').click()
+            page.locator('#topic-body .word-row', has_text='photocopier').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('.entry .headword')).to_have_text('photocopier')
             expect(page.locator('#entry-topics')).to_contain_text('辦公室')
@@ -118,22 +118,100 @@ def main():
         check('主題 3. 可以切換排序（依情境／難度／常用程度）', t_topic_sort)
 
         def t_core_units():
+            # 多益核心字彙是一本 A–Z 單字本（不再分 94 個單元）
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='多益核心字彙').click()
-            heads = page.locator('#cat-body h3').all_text_contents()
-            assert heads[:4] == ['多益必考字（TSL）', '商務英文字（BSL）', '核心英文字（NGSL）', '學術英文字（NAWL）'], heads
-            assert page.locator('#cat-body .topic-card').count() > 80
-            page.locator('.topic-card', has_text='多益必考字 第 1 單元').click()
-            expect(page.locator('#topic-sort [data-sort=context]')).to_have_text('依詞性')
-            expect(page.locator('#topic-body .page-title')).to_contain_text('(60)')
-            expect(page.locator('#topic-body .source')).to_contain_text('主要詞義')
-        check('多益核心字彙：依詞彙表分組、每單元 60 字', t_core_units)
+            expect(page.locator('#view-az')).to_be_visible()
+            expect(page.locator('#az-body .page-title')).to_contain_text('多益核心字彙')
+            expect(page.locator('#az-count')).to_contain_text('共 5550 個字')
+            letters = page.locator('#az-list .az-letter').all_text_contents()
+            assert letters == sorted(letters) and letters[0] == 'A', letters
+        check('多益核心字彙：一個 A–Z 單元', t_core_units)
+
+        def t_az():
+            page.click('nav [data-view=home]')
+            page.locator('#browse-tabs [data-browse=az]').click()
+            expect(page.locator('#view-az')).to_be_visible()
+            expect(page.locator('#az-tabs [data-browse=az]')).to_have_class(re.compile('on'))
+            # 全部主題單字，同一個字只出現一次，依字母排序（不分大小寫、忽略符號）
+            page.wait_for_function('azPending.length === 0')
+            info = page.evaluate("""() => {
+              const ws = [...document.querySelectorAll('#az-list .wr-word')].map(e => e.textContent);
+              const keys = ws.map(w => w.toLowerCase().replace(/[^a-z0-9]/g, ''));
+              let bad = null;
+              for (let i = 1; i < keys.length; i++) if (keys[i - 1] > keys[i]) { bad = [ws[i - 1], ws[i]]; break; }
+              const secOk = [...document.querySelectorAll('#az-list .az-sec')].every(sec =>
+                [...sec.querySelectorAll('.wr-word')].every(w => (w.textContent.match(/[a-z]/i)?.[0] || '#').toUpperCase() === sec.dataset.letter));
+              return { n: ws.length, uniq: new Set(ws.map(w => w.toLowerCase())).size, bad, secOk };
+            }""")
+            assert info['n'] > 6000 and info['bad'] is None and info['secOk'], info
+            assert info['uniq'] >= info['n'] - 5, info
+            # 每列有英文詞性、中文、發音、收藏
+            row = page.locator('#az-list .word-row').first
+            expect(row.locator('.wr-pos')).to_have_count(1)
+            expect(row.locator('[data-say-word]')).to_have_count(1)
+            expect(row.locator('[data-save]')).to_have_count(1)
+            # 發音按鈕沿用 App 的 say()
+            page.evaluate("window.__said = null; window.__say = say; say = w => { window.__said = w; }")
+            row.locator('[data-say-word]').click()
+            said = page.evaluate("window.__said")
+            page.evaluate("say = window.__say")
+            assert said == row.locator('.wr-word').inner_text(), said
+            # 右側索引：點 M 跳到 M，索引固定不跟著捲動，目前字母有選取狀態
+            idx_box = page.locator('#az-index').bounding_box()
+            page.locator('#az-index [data-letter=M]').click()
+            page.wait_for_timeout(200)
+            top = page.evaluate("document.querySelector('#az-list .az-sec[data-letter=M]').getBoundingClientRect().top")
+            header = page.evaluate("document.querySelector('header').offsetHeight")
+            assert abs(top - header) < 60, (top, header)
+            expect(page.locator('#az-index button.on')).to_have_text('M')
+            assert page.locator('#az-index').bounding_box() == idx_box
+            # 索引不能蓋住收藏或發音按鈕
+            for b in page.locator('#az-list .az-sec[data-letter=M] [data-save]').all()[:5]:
+                assert b.bounding_box()['x'] + b.bounding_box()['width'] <= idx_box['x'] + 1
+            # 搜尋：部分字母、結果仍依字母排序、索引只剩有結果的字母
+            page.fill('#az-q', 'acc')
+            expect(page.locator('#az-count')).to_contain_text('找到')
+            ws = page.locator('#az-list .wr-word').all_text_contents()
+            assert ws and all('acc' in w.lower() for w in ws), ws
+            enabled = page.evaluate("[...document.querySelectorAll('#az-index button:not([disabled])')].map(b => b.dataset.letter)")
+            have = page.evaluate("[...document.querySelectorAll('#az-list .az-sec')].map(s => s.dataset.letter)")
+            assert enabled == have, (enabled, have)
+            page.fill('#az-q', 'zzqx')
+            expect(page.locator('#az-list .empty')).to_be_visible()
+            page.fill('#az-q', '')
+            expect(page.locator('#az-count')).to_contain_text('共')
+            # 收藏：收藏後資料庫只有一筆、切到依分類再回來狀態還在，再按一次取消
+            page.fill('#az-q', 'abandon')
+            btn = page.locator('#az-list .word-row', has_text='abandon').first.locator('[data-save]')
+            btn.click()
+            expect(btn).to_have_attribute('aria-pressed', 'true')
+            page.locator('#az-tabs [data-browse=cat]').click()
+            expect(page.locator('#view-home')).to_be_visible()
+            page.locator('#browse-tabs [data-browse=az]').click()
+            btn = page.locator('#az-list .word-row', has_text='abandon').first.locator('[data-save]')
+            expect(btn).to_have_attribute('aria-pressed', 'true')
+            n = page.evaluate("db.all('words').then(ws => ws.filter(x => x.word === 'abandon').length)")
+            assert n == 1, n
+            btn.click()
+            expect(btn).to_have_attribute('aria-pressed', 'false')
+            page.fill('#az-q', '')
+            # 沒有左右溢出
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), 'overflow'
+        check('單字本 A–Z：排序、字母索引跳轉、空字母、搜尋、收藏同步、不遮按鈕', t_az)
+
+        def t_topic_open():
+            page.click('nav [data-view=home]')
+            page.locator('.cat-card', has_text='日常與基礎字彙').click()
+            page.locator('.topic-card', has_text='常用動作與狀態').click()
+            expect(page.locator('#view-topic')).to_be_visible()
+        check('日常與基礎字彙：可以打開新主題', t_topic_open)
 
         def t_topic_list():
-            # 接續上一題：多益必考字 第 1 單元（60 字，每頁 40 字）
+            # 接續上一題：常用動作與狀態（每頁 40 字）
             rows = page.locator('#topic-body .word-row')
             expect(rows).to_have_count(40)
-            expect(page.locator('#topic-body .pager').first.locator('button')).to_have_count(2)
+            assert page.locator('#topic-body .pager').first.locator('button').count() >= 2
             # 每個字都有英文詞性、中文、書籤和發音按鈕；詞性不用中文
             poses = page.locator('#topic-body .wr-pos').all_text_contents()
             assert len(poses) == 40 and all(re.fullmatch(r'noun(\[(C|U|C/U)\])?|vt\.|vi\.|vi\./vt\.|v\.|[a-z]+\.', x) for x in poses), poses
@@ -205,9 +283,9 @@ def main():
             page.locator('.topic-card', has_text='業務拓展').click()
             for i in range(1, topic_pages() + 1):
                 goto_page(i)
-                if page.locator('.word-row', has_text='market penetration').count():
+                if page.locator('#topic-body .word-row', has_text='market penetration').count():
                     break
-            page.locator('.word-row', has_text='market penetration').locator('.wr-main').click()
+            page.locator('#topic-body .word-row', has_text='market penetration').locator('.wr-main').click()
             page.wait_for_selector('#dict-body .entry')
             expect(page.locator('#dict-body')).to_contain_text('沒有收錄這個片語')
             # 片語也有逐義例句

@@ -24,6 +24,7 @@ const CAT_ICON = {
   services: '<svg class="i" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>',
   emotion: '<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 1.5 2.4 2.3 4 2.3s3-.8 4-2.3"/><path d="M9 9.5h.01M15 9.5h.01"/></svg>',
   social: '<svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15.5 5a3.2 3.2 0 0 1 0 6.1M17.5 14.4c2 .8 3.5 3 3.5 5.6"/></svg>',
+  basic: '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg>',
   core: '<svg class="i" viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h6"/></svg>',
 };
 
@@ -410,7 +411,215 @@ function levelChips(t) {
   return levels.map(l => `<span class="lvl lvl-${l}">${LEVEL[l]}・${t.levels?.[l] ?? 0}</span>`).join('');
 }
 
+// ---------- 單字本 A–Z ----------
+// scope：all = App 全部主題單字（同一個字只列一次），core = 多益核心字彙
+// 排序和分組結果依 scope 快取，搜尋只篩選快取好的陣列，不重新排序
+let azScope = 'all';
+let azQuery = '';
+const azCache = {};
+const AZ_LETTERS = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '#'];
+
+// 排序用：忽略大小寫與開頭的符號；片語依第一個英文字的字母
+function azLetter(word) {
+  const m = /[a-z]/i.exec(word);
+  return m ? m[0].toUpperCase() : '#';
+}
+
+function azItems(data, scope) {
+  if (azCache[scope]) return azCache[scope];
+  const ids = scope === 'core'
+    ? data.categories.filter(c => c.id === 'core').flatMap(c => c.topics)
+    : data.categories.flatMap(c => c.topics);
+  const seen = new Map();
+  for (const tid of ids) {
+    const t = data.topics[tid];
+    for (const s of t.sections) {
+      for (const w of s.words) {
+        const key = w.k || Dict.norm(w.w);
+        if (seen.has(key)) continue;
+        seen.set(key, {
+          id: `az-${seen.size}`, word: w.w, partOfSpeech: w.ps || '', meaning: w.g,
+          key, lv: w.lv, level: LEVEL[w.lv] || '', letter: azLetter(w.w),
+          // 排序用：小寫、只留英文字母和數字（等同不分大小寫、忽略空白與符號）
+          sortKey: w.w.toLowerCase().replace(/[^a-z0-9]/g, ''),
+        });
+      }
+    }
+  }
+  const list = [...seen.values()].sort((a, b) =>
+    (a.letter === '#') - (b.letter === '#') || (a.sortKey < b.sortKey ? -1 : a.sortKey > b.sortKey ? 1 : 0) ||
+    (a.word < b.word ? -1 : a.word > b.word ? 1 : 0));
+  return (azCache[scope] = list);
+}
+
+function azRow(it, savedKeys) {
+  const saved = savedKeys.has(it.key);
+  return `<div class="word-row">
+    <button class="wr-main" data-word="${esc(it.word)}">
+      <span class="wr-word">${esc(it.word)}</span>
+      <span class="wr-gloss">${it.partOfSpeech ? `<span class="wr-pos">${esc(it.partOfSpeech)}</span> ` : ''}${esc(it.meaning)}</span>
+    </button>
+    <button class="icon-btn" data-say-word="${esc(it.word)}" aria-label="播放 ${esc(it.word)} 的發音">${ICON.speaker}</button>
+    <button class="icon-btn wr-save ${saved ? 'on' : ''}" data-save="${esc(it.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'} ${esc(it.word)}">${saved ? BOOKMARK.on : BOOKMARK.off}</button>
+  </div>`;
+}
+
+function openAZ(scope = 'all') {
+  if (scope !== azScope) azQuery = '';
+  azScope = scope;
+  show('az');
+}
+
+let azShown = [];
+async function renderAZ() {
+  const box = $('#az-body');
+  let data;
+  try { data = await loadTopics(); } catch { topicError(box, 'az-retry'); return; }
+  const core = azScope === 'core';
+  $('#title').textContent = core ? '多益核心字彙' : '單字本 A–Z';
+  box.innerHTML = `
+    ${core
+      ? `<button class="ghost back" data-go="home">← 所有主題</button>
+         <div><h2 class="page-title">多益核心字彙 <span class="en">TOEIC Core Vocabulary A–Z</span></h2>
+         <p class="muted" style="margin:4px 0 0">${esc(data.categories.find(c => c.id === 'core')?.desc || '')}</p></div>`
+      : `<div class="seg" id="az-tabs" role="tablist">
+           <button data-browse="cat" role="tab" aria-selected="false">依分類</button>
+           <button data-browse="az" role="tab" aria-selected="true" class="on">依字母</button>
+         </div>`}
+    <input id="az-q" type="search" placeholder="搜尋英文單字，例如 acc" value="${esc(azQuery)}" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="搜尋英文單字">
+    <div class="muted" id="az-count"></div>
+    <div id="az-list"></div>`;
+  $('#az-q').addEventListener('input', e => {
+    clearTimeout(renderAZ.timer);
+    renderAZ.timer = setTimeout(() => { azQuery = e.target.value; azRenderList(data); window.scrollTo(0, 0); }, 120);
+  });
+  azRenderList(data);
+}
+
+function azRenderList(data) {
+  const all = azItems(data, azScope);
+  const q = azQuery.trim().toLowerCase();
+  // 英文比對單字本身；輸入中文時比對中文意思
+  azShown = !q ? all : /[a-z]/.test(q)
+    ? all.filter(it => it.word.toLowerCase().includes(q))
+    : all.filter(it => it.meaning.includes(q));
+  const savedKeys = new Set(words.map(w => Dict.norm(w.word)));
+  const groups = groupRows(azShown, it => it.letter);
+  $('#az-count').textContent = q ? `找到 ${azShown.length} 個字` : `共 ${all.length} 個字，依字母 A–Z 排列`;
+  // 分批放進畫面：前面幾個字母馬上出現，其餘在接下來的畫格依序接在後面（不影響上方已顯示的內容）
+  const token = ++azRenderToken;
+  azPending = groups.map(([l, its]) => () => `
+    <section class="az-sec" data-letter="${l}" style="contain-intrinsic-size:auto ${its.length * 64 + 40}px">
+      <h3 class="az-letter">${l}</h3>
+      <div class="word-rows">${its.map(it => azRow(it, savedKeys)).join('')}</div>
+    </section>`);
+  $('#az-list').innerHTML = groups.length ? ''
+    : `<div class="card empty">找不到「${esc(azQuery.trim())}」開頭或包含它的單字。</div>`;
+  azFlush(300);
+  const more = () => {
+    if (token !== azRenderToken || !azPending.length) return;
+    azFlush(800);
+    setTimeout(more, 16);
+  };
+  setTimeout(more, 16);
+  const have = new Set(groups.map(g => g[0]));
+  $('#az-index').innerHTML = AZ_LETTERS.filter(l => l !== '#' || have.has('#')).map(l =>
+    `<button data-letter="${l}" ${have.has(l) ? '' : 'disabled'} aria-label="跳到 ${l === '#' ? '其他符號' : l} 開頭的單字">${l}</button>`).join('');
+  azSyncIndex();
+}
+
+// 把還沒放進畫面的字母區塊接上去，至少接 rows 個字（rows = Infinity 全部接完）
+let azRenderToken = 0;
+let azPending = [];
+function azFlush(rows, untilLetter) {
+  let html = '';
+  let n = 0;
+  while (azPending.length && (n < rows || untilLetter)) {
+    const part = azPending.shift()();
+    html += part;
+    n += (part.match(/class="word-row"/g) || []).length;
+    if (untilLetter && part.includes(`data-letter="${untilLetter}"`)) break;
+  }
+  if (html) $('#az-list').insertAdjacentHTML('beforeend', html);
+}
+
+// 捲動時標出目前所在的字母
+function azSyncIndex() {
+  if (currentView !== 'az') return;
+  const top = $('header').offsetHeight + 8;
+  let cur = null;
+  for (const sec of document.querySelectorAll('#az-list .az-sec')) {
+    if (sec.getBoundingClientRect().top - top > 1) break;
+    cur = sec.dataset.letter;
+  }
+  cur ??= document.querySelector('#az-list .az-sec')?.dataset.letter;
+  document.querySelectorAll('#az-index button').forEach(b => {
+    const on = b.dataset.letter === cur;
+    b.classList.toggle('on', on);
+    if (on) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+  });
+}
+let azScrollRaf = 0;
+window.addEventListener('scroll', () => {
+  if (currentView !== 'az' || azScrollRaf) return;
+  azScrollRaf = requestAnimationFrame(() => { azScrollRaf = 0; azSyncIndex(); });
+}, { passive: true });
+
+function azJump(letter) {
+  if (!document.querySelector(`#az-list .az-sec[data-letter="${letter}"]`)) azFlush(0, letter);
+  const sec = document.querySelector(`#az-list .az-sec[data-letter="${letter}"]`);
+  if (!sec) return;
+  sec.scrollIntoView({ block: 'start' });
+  azSyncIndex();
+}
+
+// 右側索引：點一下跳轉；手指按住上下滑動也能連續切換字母
+{
+  const idx = $('#az-index');
+  let dragging = false;
+  const pick = e => {
+    const el = document.elementFromPoint(idx.getBoundingClientRect().left + idx.offsetWidth / 2, e.clientY);
+    const b = el?.closest?.('#az-index button');
+    if (b && !b.disabled) azJump(b.dataset.letter);
+  };
+  idx.addEventListener('pointerdown', e => { dragging = true; idx.setPointerCapture?.(e.pointerId); pick(e); e.preventDefault(); });
+  idx.addEventListener('pointermove', e => { if (dragging) pick(e); });
+  const stop = () => { dragging = false; };
+  idx.addEventListener('pointerup', stop);
+  idx.addEventListener('pointercancel', stop);
+  idx.addEventListener('keydown', e => {
+    const b = e.target.closest('button');
+    if (b && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); azJump(b.dataset.letter); }
+  });
+}
+
+$('#az-body').addEventListener('click', async e => {
+  if (e.target.closest('[data-browse="cat"]')) { show('home'); return; }
+  const sayBtn = e.target.closest('[data-say-word]');
+  if (sayBtn) { say(sayBtn.dataset.sayWord); return; }
+  const btn = e.target.closest('[data-save]');
+  if (!btn) return;
+  const it = azShown.find(x => x.id === btn.dataset.save);
+  if (!it) return;
+  btn.disabled = true;
+  try {
+    const on = await toggleItemSaved(it);
+    btn.classList.toggle('on', on);
+    btn.setAttribute('aria-pressed', on);
+    btn.setAttribute('aria-label', `${on ? '取消收藏' : '收藏'} ${it.word}`);
+    btn.innerHTML = on ? BOOKMARK.on : BOOKMARK.off;
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+$('#browse-tabs').addEventListener('click', e => {
+  if (e.target.closest('[data-browse="az"]')) openAZ('all');
+});
+
 function openTopic(id) {
+  // 多益核心字彙以單字本 A–Z 呈現
+  if (id === 'core') { openAZ('core'); return; }
   if (id !== currentTopic) topicPage = 1;
   currentTopic = id;
   show('topic');
@@ -418,7 +627,10 @@ function openTopic(id) {
 
 document.addEventListener('click', e => {
   const cat = e.target.closest('[data-cat]');
-  if (cat) { currentCat = cat.dataset.cat; show('cat'); return; }
+  if (cat) {
+    if (cat.dataset.cat === 'core') { openAZ('core'); return; }
+    currentCat = cat.dataset.cat; show('cat'); return;
+  }
   const tp = e.target.closest('[data-topic]');
   if (tp) openTopic(tp.dataset.topic);
 });

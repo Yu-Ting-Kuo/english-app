@@ -228,15 +228,16 @@ function show(view) {
   currentView = view;
   document.querySelectorAll('.view').forEach(v => { v.hidden = v.id !== 'view-' + view; });
   // 新增／編輯頁屬於收藏；主題頁屬於首頁
-  const tab = { add: 'list', cat: 'home', topic: 'home', quiz: 'home' }[view] || view;
+  const tab = { add: 'list', cat: 'home', topic: 'home', quiz: 'home', az: 'home' }[view] || view;
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === tab));
   $('#title').textContent = {
     home: '主題探索', dict: '英文辭典', list: '我的收藏', add: $('#f-id').value ? '編輯單字' : '新增單字',
-    practice: '發音練習', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗',
+    practice: '發音練習', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗', az: '單字本 A–Z',
   }[view];
   if (view === 'home') renderHome();
   if (view === 'cat') renderCategory();
   if (view === 'topic') renderTopic();
+  if (view === 'az') renderAZ();
   if (view === 'quiz') Quiz.render();
   if (view === 'list') renderList();
   if (view === 'practice') renderPractice();

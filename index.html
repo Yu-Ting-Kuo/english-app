@@ -299,6 +299,21 @@
     display: grid; place-items: center; }
   .ring span { width: 66px; height: 66px; border-radius: 50%; background: var(--surface); display: grid; place-items: center;
     font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  /* 單字本 A–Z：字母標題、右側固定索引 */
+  #view-az { padding-right: 22px; }
+  .az-sec { content-visibility: auto; scroll-margin-top: calc(56px + env(safe-area-inset-top)); }
+  .az-letter { margin: 0; padding: 4px 12px; background: var(--accent-soft); color: var(--accent); border-radius: 8px;
+    font: 700 15px/1.6 var(--sans); }
+  .az-sec .word-rows { padding: 0 2px 8px; }
+  .az-sec .wr-gloss .wr-pos { margin-right: 2px; }
+  .az-index { position: fixed; z-index: 4; right: max(2px, env(safe-area-inset-right)); width: 22px;
+    top: calc(64px + env(safe-area-inset-top)); bottom: calc(72px + env(safe-area-inset-bottom));
+    display: flex; flex-direction: column; justify-content: space-between; align-items: center; touch-action: none; user-select: none; }
+  .az-index button { background: transparent; color: var(--accent); padding: 0; min-height: 0; flex: 1; width: 22px; max-height: 26px;
+    border-radius: 6px; font: 600 11px/1 var(--sans); }
+  .az-index button:disabled { color: var(--line); }
+  .az-index button.on { background: var(--accent); color: var(--surface); }
+  #view-az[hidden] .az-index, #view-az[hidden] { display: none; }
   .seg { display: flex; background: var(--accent-soft); border-radius: 12px; padding: 3px; }
   .seg button { flex: 1; background: transparent; min-height: 36px; padding: 6px; font-size: 14px; }
   .seg button.on { background: var(--surface); color: var(--ink); font-weight: 600; }
@@ -346,6 +361,10 @@
     <section class="card" id="home-today"><div class="muted">載入今日主題…</div></section>
     <div>
       <h3 style="margin:4px 2px 10px">依主題探索</h3>
+      <div class="seg" id="browse-tabs" role="tablist" style="margin-bottom:12px">
+        <button data-browse="cat" role="tab" aria-selected="true" class="on">依分類</button>
+        <button data-browse="az" role="tab" aria-selected="false">依字母</button>
+      </div>
       <div class="cat-grid" id="home-topics"></div>
     </div>
     <section class="card stack" id="home-news">
@@ -363,6 +382,12 @@
 
   <!-- 主題單字 -->
   <section class="view stack" id="view-topic" hidden><div class="stack" id="topic-body"></div></section>
+
+  <!-- 單字本 A–Z（依字母瀏覽全部主題單字；多益核心字彙也用這頁） -->
+  <section class="view stack" id="view-az" hidden>
+    <div class="stack" id="az-body"></div>
+    <div class="az-index" id="az-index" role="navigation" aria-label="字母索引"></div>
+  </section>
 
   <!-- 主題練習與測驗 -->
   <section class="view stack" id="view-quiz" hidden><div class="stack" id="quiz-body"></div></section>
