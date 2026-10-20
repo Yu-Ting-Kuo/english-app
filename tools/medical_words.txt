@@ -262,7 +262,7 @@
 262. antibody (n.) — 抗體
 263. enzyme (n.) — 酵素
 264. practitioner (n.) — 執業者；從業人員
-265. cripple (n., vt.) — 肢體殘障者；使殘廢
+265. cripple (n., vt.) — 使癱瘓、嚴重削弱；肢體殘障者（不禮貌用語）
 266. rehabilitate (vt.) — 使康復；使恢復
 267. rehabilitation (n.) — 復健；康復
 268. smallpox (n.) — 天花

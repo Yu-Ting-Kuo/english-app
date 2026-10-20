@@ -823,15 +823,15 @@
  "cripple": [
   {
    "p": "v",
-   "zh": "使殘廢；嚴重削弱",
+   "zh": "使癱瘓、嚴重削弱；使殘障",
    "ai": [
-    [
-     "The car accident crippled him, and he now uses a wheelchair.",
-     "那場車禍讓他終身殘障，現在他得坐輪椅。"
-    ],
     [
      "The strike crippled the city's hospitals for a week.",
      "罷工讓全市的醫院癱瘓了一個星期。"
+    ],
+    [
+     "The car accident crippled him, and he now uses a wheelchair.",
+     "那場車禍讓他終身殘障，現在他得坐輪椅。"
     ]
    ]
   },
