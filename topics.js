@@ -22,6 +22,8 @@ const CAT_ICON = {
   commerce: '<svg class="i" viewBox="0 0 24 24"><path d="M3 20h18"/><path d="M6 16v-5M11 16V8M16 16v-7M21 4l-6 5-4-3-7 5"/></svg>',
   tech: '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>',
   services: '<svg class="i" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>',
+  emotion: '<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 1.5 2.4 2.3 4 2.3s3-.8 4-2.3"/><path d="M9 9.5h.01M15 9.5h.01"/></svg>',
+  social: '<svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15.5 5a3.2 3.2 0 0 1 0 6.1M17.5 14.4c2 .8 3.5 3 3.5 5.6"/></svg>',
   core: '<svg class="i" viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h6"/></svg>',
 };
 
