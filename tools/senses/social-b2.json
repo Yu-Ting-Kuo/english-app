@@ -1,0 +1,101 @@
+{
+"children": [{"p": "n", "zh": "孩子們（child 的複數）", "t": [1836, 55701, 245621], "fix": {"55701": "這是一本適合兒童閱讀的好書。", "245621": "你應該為你的孩子們樹立好榜樣。"}}],
+"grandson": [{"p": "n", "zh": "孫子、外孫", "t": [814624, 13541076], "ai": [["My grandson visits us every Sunday and helps me in the garden.", "我孫子每個星期天都來看我們，還幫我整理花園。"]]}],
+"someone": [{"p": "pron", "zh": "某人、有人", "t": [276389, 3564751], "ai": [["Someone left a kind note on my desk this morning.", "今天早上有人在我桌上留了一張暖心的紙條。"]]}],
+"born": [
+  {"p": "v", "zh": "出生（bear 的過去分詞）", "t": [61647, 682324, 1391233]},
+  {"p": "adj", "zh": "天生的", "ai": [["She is a born leader, and everyone in the club listens to her.", "她是天生的領導者，社團裡每個人都聽她的。"], ["He is a born storyteller who can make any trip sound exciting.", "他是天生會說故事的人，任何旅行經他一說都很精彩。"]]}
+],
+"married": [
+  {"p": "adj", "zh": "已婚的、結婚的", "t": [247241, 1293235, 3204604], "fix": {"1293235": "雖然他們已經結婚了，卻還是分房睡。"}},
+  {"p": "adj", "zh": "婚姻的", "t": [66144], "ai": [["Married life taught them how to share chores and make decisions together.", "婚姻生活讓他們學會分擔家事、一起做決定。"]]}
+],
+"wedding": [{"p": "n", "zh": "婚禮", "t": [1093632, 562442, 2662211], "fix": {"2662211": "離婚禮還不到三個月。"}}],
+"cheers": [
+  {"p": "int", "zh": "乾杯", "ai": [["Everyone raised their glasses and shouted, \"Cheers!\"", "大家舉起酒杯，大喊：「乾杯！」"], ["Cheers to our new neighbors and many happy years together!", "敬我們的新鄰居，祝大家多年相處愉快，乾杯！"]]},
+  {"p": "int", "zh": "謝謝；再見（英式口語）", "ai": [["\"Here's your coffee.\" \"Cheers, mate!\"", "「這是你的咖啡。」「謝啦，老兄！」"], ["Cheers for the help yesterday; I couldn't have moved the sofa alone.", "謝謝你昨天幫忙，我自己一個人根本搬不動沙發。"]]}
+],
+"blessing": [
+  {"p": "n", "zh": "幸事、福分", "t": [11272359, 5739200], "ai": [["Having good friends nearby is a real blessing.", "身邊有好朋友真的是一種福氣。"]], "fix": {"11272359": "懂得珍惜自己擁有的人，會感受到更多快樂。"}},
+  {"p": "n", "zh": "祝福、同意", "ai": [["They got married with their parents' blessing.", "他們在父母的祝福下結婚了。"], ["The priest gave a blessing before the meal.", "神父在用餐前做了祝禱。"]]}
+],
+"manners": [{"p": "n", "zh": "禮貌、禮儀", "t": [270172, 268748, 296359], "fix": {"270172": "用手指著別人很不禮貌。"}}],
+"respectful": [{"p": "adj", "zh": "尊敬的、有禮貌的", "t": [7782278], "ai": [["Please be respectful when you visit the temple.", "參觀寺廟時請保持尊重。"], ["The students were quiet and respectful during the ceremony.", "典禮期間，學生們都很安靜、很有禮貌。"]]}],
+"impolite": [{"p": "adj", "zh": "不禮貌的、無禮的", "t": [1823648, 270148, 324758], "fix": {"324758": "他們認為反駁不太熟的人是不禮貌的。"}}],
+"insulting": [{"p": "adj", "zh": "侮辱人的、無禮的", "ai": [["His insulting comments made everyone at the table uncomfortable.", "他那些侮辱人的話讓整桌人都很不自在。"], ["It is insulting to ignore someone who is talking to you.", "別人跟你說話時不理他，是很失禮的。"]]}],
+"mingle": [
+  {"p": "v", "zh": "（在社交場合）與人交際、打成一片", "ai": [["At the party, she mingled with the guests and made new friends.", "派對上，她和賓客們聊天交流，交到了新朋友。"], ["New students are encouraged to mingle during the welcome lunch.", "迎新午餐時，學校鼓勵新生多多和大家互動。"]]},
+  {"p": "v", "zh": "混合、交織", "ai": [["The smell of coffee mingled with the scent of fresh bread.", "咖啡香和剛出爐麵包的香味交織在一起。"], ["Joy and sadness mingled in her heart on graduation day.", "畢業那天，她心中悲喜交加。"]]}
+],
+"modesty": [{"p": "n", "zh": "謙虛、謙遜", "t": [1126462, 286010], "ai": [["Despite her success, she spoke about her work with great modesty.", "儘管很成功，她談起自己的工作時仍非常謙虛。"]]}],
+"talkative": [{"p": "adj", "zh": "健談的、話多的", "t": [300856, 29557, 52958], "fix": {"29557": "我室友話太多了。"}}],
+"cult": [
+  {"p": "n", "zh": "邪教、異端教派", "ai": [["The family worried that their son had joined a dangerous cult.", "家人擔心兒子加入了一個危險的邪教。"], ["The cult leader controlled every part of his followers' lives.", "那個邪教領袖控制著信徒生活的每個層面。"]]},
+  {"p": "n", "zh": "狂熱崇拜；小眾熱捧", "ai": [["The old movie has a cult following among college students.", "這部老電影在大學生之間擁有一群死忠影迷。"], ["There is a cult of youth in the fashion industry.", "時尚界盛行一種對年輕的狂熱崇拜。"]]}
+],
+"dame": [{"p": "n", "zh": "夫人、女爵士（英國授予女性的爵位）", "ai": [["The famous actress was made a Dame for her services to theater.", "這位知名女演員因對戲劇界的貢獻而獲封女爵士。"], ["Dame Judi Dench is loved by audiences around the world.", "茱蒂．丹契女爵士深受全球觀眾喜愛。"]]}],
+"debut": [
+  {"p": "n", "zh": "首次登臺、初次亮相", "t": [37187], "ai": [["The young singer made her debut at a small café in Taipei.", "那位年輕歌手在臺北一家小咖啡館首次登臺。"]], "fix": {"37187": "湯姆一在螢幕上初次亮相，就大受青少年歡迎。"}},
+  {"p": "v", "zh": "首次登臺、首次推出", "ai": [["The band debuted their new song at the school festival.", "樂團在校慶上首次發表他們的新歌。"], ["The new phone will debut in stores next month.", "這款新手機下個月將首次在門市上市。"]]}
+],
+"denomination": [
+  {"p": "n", "zh": "（宗教的）教派、宗派", "ai": [["People from different denominations attended the charity event together.", "來自不同教派的人一起參加了這場慈善活動。"], ["Which Christian denomination does your family belong to?", "你們家屬於哪個基督教派？"]]},
+  {"p": "n", "zh": "（貨幣的）面額", "ai": [["The bank gave me the money in small denominations.", "銀行給我的錢都是小面額的鈔票。"], ["Coins of every denomination were scattered on the table.", "各種面額的硬幣散落在桌上。"]]}
+],
+"dignify": [{"p": "v", "zh": "使有尊嚴、使顯得莊重", "t": [20907], "ai": [["I won't dignify that rude question with an answer.", "那種無禮的問題，我不屑回答。"], ["She handled the difficult situation in a calm and dignified way.", "她以冷靜而有尊嚴的態度處理了這個難題。"]], "fix": {"20907": "你看起來很有威嚴。"}}],
+"dispel": [{"p": "v", "zh": "消除、驅散（疑慮、恐懼等）", "ai": [["Her warm smile helped dispel my nervousness at the interview.", "她溫暖的笑容讓我在面試時不再那麼緊張。"], ["The teacher tried to dispel the rumor before it spread.", "老師試著在謠言擴散前加以澄清。"], ["The sun soon dispelled the morning fog.", "太陽很快就驅散了晨霧。"]]}],
+"divine": [
+  {"p": "adj", "zh": "神的、神聖的", "t": [20868], "ai": [["Many ancient people believed that kings had divine power.", "許多古代人相信國王擁有神聖的力量。"]], "fix": {"20868": "犯錯是人之常情，寬恕則是神聖的。"}},
+  {"p": "adj", "zh": "極好的、美妙的（口語）", "t": [1019975, 61172], "fix": {"61172": "這蛋糕好吃極了！"}}
+],
+"drown": [
+  {"p": "v", "zh": "淹死、溺水", "t": [67866, 20720, 918079], "fix": {"918079": "這孩子會游泳，所以不會溺水。"}},
+  {"p": "v", "zh": "淹沒、蓋過（聲音等）", "ai": [["The loud music drowned out our conversation.", "大聲的音樂蓋過了我們的談話聲。"], ["She drowned her sorrows in work after the breakup.", "分手後，她把悲傷寄託在工作上。"]]}
+],
+"eccentric": [
+  {"p": "adj", "zh": "古怪的、怪癖的", "ai": [["Our eccentric neighbor wears a hat even when he sleeps.", "我們那位古怪的鄰居連睡覺都戴著帽子。"], ["People thought she was eccentric, but she was simply creative.", "大家覺得她很古怪，但她其實只是很有創意。"]]},
+  {"p": "n", "zh": "怪人", "t": [5272714], "ai": [["The old man was a harmless eccentric who talked to his plants.", "那位老先生是個無害的怪人，會跟他的植物說話。"]], "fix": {"5272714": "我媽媽是個怪人。"}}
+],
+"endurance": [{"p": "n", "zh": "耐力、忍耐力", "ai": [["Running a marathon requires great physical endurance.", "跑馬拉松需要很好的體力和耐力。"], ["Caring for a sick parent tested her patience and endurance.", "照顧生病的父母考驗著她的耐心與毅力。"]]}],
+"ensue": [{"p": "v", "zh": "接著發生、隨之而來", "ai": [["An argument ensued when no one wanted to pay the bill.", "沒人想付帳，接著就吵了起來。"], ["After the announcement, a long silence ensued.", "宣布之後，接著是一陣漫長的沉默。"]]}],
+"err": [{"p": "v", "zh": "犯錯、出差錯", "t": [403897, 432440, 7837562], "fix": {"432440": "犯錯是人之常情。"}}],
+"errand": [{"p": "n", "zh": "差事、跑腿", "t": [602006, 3921105], "ai": [["I asked my brother to run an errand to the post office for me.", "我請弟弟幫我跑一趟郵局。"]], "fix": {"602006": "我要去辦幾件事，你要一起來嗎？"}}],
+"exaggeration": [{"p": "n", "zh": "誇張、誇大其詞", "ai": [["It's no exaggeration to say she saved my life.", "說她救了我一命，一點也不誇張。"], ["His story was full of exaggerations, so nobody believed him.", "他的故事充滿誇大之詞，所以沒人相信他。"]]}],
+"exclaim": [{"p": "v", "zh": "（因驚訝、興奮而）大聲說、驚呼", "t": [1513], "ai": [["\"What a beautiful view!\" she exclaimed when we reached the top.", "我們登頂時，她驚呼：「風景好美啊！」"]]}],
+"expel": [{"p": "v", "zh": "開除、驅逐", "t": [45581, 2869306], "ai": [["The club expelled two members for breaking the rules.", "社團開除了兩名違反規定的成員。"]]}],
+"gasp": [
+  {"p": "v", "zh": "（因驚訝而）倒抽一口氣；喘氣", "ai": [["The audience gasped when the magician disappeared.", "魔術師消失時，觀眾都倒抽一口氣。"], ["He came out of the water gasping for air.", "他從水裡出來，大口喘著氣。"]]},
+  {"p": "n", "zh": "倒抽一口氣、喘息", "ai": [["She gave a gasp of surprise when she opened the gift.", "她打開禮物時驚訝地倒抽一口氣。"], ["There were gasps from the crowd as the plane landed safely.", "飛機安全降落時，人群中傳來陣陣驚呼。"]]}
+],
+"gleam": [
+  {"p": "n", "zh": "微光、閃光；（眼中）流露的神情", "t": [25857, 11822323], "ai": [["There was a gleam of excitement in the child's eyes.", "那孩子的眼中閃爍著興奮的光芒。"]]},
+  {"p": "v", "zh": "閃爍、發亮", "t": [239989], "ai": [["Her new car gleamed in the parking lot.", "她的新車在停車場裡閃閃發亮。"]]}
+],
+"goddess": [{"p": "n", "zh": "女神", "t": [9080716], "ai": [["In Greek myths, Athena is the goddess of wisdom.", "在希臘神話中，雅典娜是智慧女神。"], ["Fans called the singer a goddess after her amazing concert.", "那場精彩的演唱會後，粉絲都稱這位歌手為女神。"]]}],
+"gracious": [{"p": "adj", "zh": "親切的、和藹有禮的", "t": [315735], "ai": [["Our host was gracious and made everyone feel welcome.", "主人親切有禮，讓每個人都賓至如歸。"], ["She was gracious enough to congratulate the winner.", "她很有風度地向勝利者道賀。"]]}],
+"gravestone": [{"p": "n", "zh": "墓碑", "ai": [["We cleaned our grandfather's gravestone during Tomb Sweeping Day.", "清明節時，我們清理了爺爺的墓碑。"], ["The old gravestones in the churchyard were covered in moss.", "教堂墓園裡的老墓碑都長滿了青苔。"]]}],
+"greatness": [{"p": "n", "zh": "偉大、卓越", "ai": [["Few people recognized the artist's greatness during his lifetime.", "這位藝術家生前很少有人看出他的偉大。"], ["The coach saw signs of greatness in the young player.", "教練在這名年輕球員身上看到了成為頂尖人物的潛力。"]]}],
+"hinder": [{"p": "v", "zh": "阻礙、妨礙", "t": [2186969], "ai": [["Heavy rain hindered the rescue team's progress.", "大雨妨礙了救援隊的進度。"], ["Shyness can hinder you from making new friends.", "害羞可能會妨礙你交新朋友。"]]}],
+"immense": [{"p": "adj", "zh": "巨大的、極大的", "t": [9415022], "ai": [["Her kindness made an immense difference in my life.", "她的善意對我的人生影響極大。"], ["They felt immense relief when their lost dog came home.", "走失的狗回家時，他們大大地鬆了一口氣。"]], "fix": {"9415022": "儘管壓力巨大，老師們仍然堅持教學。"}}],
+"inflict": [{"p": "v", "zh": "使遭受（痛苦、傷害等）、施加", "ai": [["Cruel words can inflict deep pain on a friend.", "刻薄的話可能會深深傷害朋友。"], ["The storm inflicted serious damage on the coastal towns.", "暴風雨對沿海城鎮造成嚴重的損害。"]]}],
+"ingenuity": [{"p": "n", "zh": "巧思、創造力、聰明才智", "ai": [["With a little ingenuity, she turned old boxes into a bookshelf.", "她發揮一點巧思，把舊箱子改成了書架。"], ["The engineers solved the problem through skill and ingenuity.", "工程師們憑著技術和巧思解決了問題。"]]}],
+"intriguing": [{"p": "adj", "zh": "引人入勝的、耐人尋味的", "t": [1379], "ai": [["She made an intriguing suggestion at the meeting.", "她在會議上提出了一個很有意思的建議。"], ["The new neighbor is an intriguing person with many travel stories.", "新鄰居是個很有意思的人，有好多旅行故事。"]]}],
+"linger": [{"p": "v", "zh": "逗留、徘徊；（感覺等）揮之不去", "t": [2238868, 318902], "ai": [["The guests lingered over coffee long after dinner ended.", "晚餐結束後很久，客人們還在喝咖啡聊天，捨不得離開。"]], "fix": {"318902": "父親過世的打擊一直揮之不去，她完全不想出門。"}}],
+"livelihood": [{"p": "n", "zh": "生計、謀生之道", "ai": [["Fishing is the main livelihood of people in this village.", "捕魚是這個村莊居民主要的生計。"], ["The typhoon threatened the livelihood of many farmers.", "颱風威脅到許多農民的生計。"]]}],
+"mankind": [{"p": "n", "zh": "人類", "t": [21727, 864524, 2338124]}],
+"mastery": [{"p": "n", "zh": "精通、熟練掌握", "t": [10508851], "ai": [["Her mastery of three languages helped her get the job.", "她精通三種語言，因此得到了這份工作。"], ["Mastery of any skill takes years of practice.", "要精通任何技能都需要多年的練習。"]], "fix": {"10508851": "通往精通的路真是漫長啊。"}}],
+"mysterious": [{"p": "adj", "zh": "神祕的、難以理解的", "t": [2105, 3513485, 1310], "fix": {"2105": "這個地方有一種神祕的氣氛。", "3513485": "科學家們還沒找到這個神祕現象的解釋。", "1310": "我一直比較喜歡神祕一點的角色。"}}],
+"noticeable": [{"p": "adj", "zh": "顯而易見的、明顯的", "t": [325629], "ai": [["There was a noticeable change in his attitude after the trip.", "那趟旅行之後，他的態度有了明顯的轉變。"], ["Her English has improved in a very noticeable way.", "她的英文進步得非常明顯。"]]}],
+"orphan": [
+  {"p": "n", "zh": "孤兒", "t": [434852, 305757, 239649], "fix": {"239649": "德蕾莎退休後，全心投入照顧孤兒。"}},
+  {"p": "v", "zh": "使成為孤兒", "t": [6422136], "ai": [["Many children were orphaned by the war.", "許多孩子因戰爭而成了孤兒。"]]}
+],
+"orphanage": [{"p": "n", "zh": "孤兒院、育幼院", "t": [4757645], "ai": [["Our class volunteers at a local orphanage every month.", "我們班每個月都會去當地的育幼院當志工。"], ["She grew up in an orphanage and later became a teacher.", "她在孤兒院長大，後來成為一名老師。"]]}],
+"picket": [
+  {"p": "v", "zh": "（罷工時）設糾察線、在外抗議", "ai": [["Workers picketed outside the factory for better pay.", "工人們在工廠外設糾察線，要求更好的待遇。"], ["The nurses picketed the hospital to protest long working hours.", "護理師們在醫院外抗議工時過長。"]]},
+  {"p": "n", "zh": "糾察隊員；罷工糾察線", "ai": [["The pickets held signs and chanted outside the gate.", "糾察隊員們在大門外舉著標語喊口號。"], ["Some employees refused to cross the picket line.", "有些員工拒絕越過罷工糾察線去上班。"]]}
+],
+"piety": [{"p": "n", "zh": "虔誠；孝順（filial piety）", "t": [9400864], "ai": [["Filial piety is an important value in many Asian families.", "孝道是許多亞洲家庭重視的價值觀。"], ["The old woman was known for her piety and kindness.", "那位老婦人以虔誠和善良聞名。"]]}],
+"pious": [{"p": "adj", "zh": "虔誠的", "ai": [["My grandmother is a pious woman who prays every morning.", "我奶奶是個虔誠的人，每天早上都會禱告。"], ["The pious villagers gathered at the temple for the festival.", "虔誠的村民們聚集在廟裡參加慶典。"]]}],
+"populate": [{"p": "v", "zh": "居住於、構成…的人口", "t": [10794108], "ai": [["The island is populated mainly by fishermen and their families.", "島上的居民主要是漁民和他們的家人。"], ["Taipei is one of the most densely populated cities in Taiwan.", "臺北是臺灣人口最稠密的城市之一。"]]}]
+}

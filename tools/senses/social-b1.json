@@ -1,0 +1,177 @@
+{
+"console": [
+ {"p": "v", "zh": "安慰、慰問", "t": [2346021, 1662906, 10221408], "fix": {"10221408": "他在安慰他的母親。"}},
+ {"p": "n", "zh": "控制台、遊戲主機", "ai": [["My brother spends hours playing games on his new console.", "我弟弟花好幾個小時玩他的新遊戲主機。"], ["Open the console to check the error messages from the program.", "打開控制台查看程式的錯誤訊息。"]]}
+],
+"distinguished": [
+ {"p": "adj", "zh": "傑出的、著名的", "ai": [["The award was given to a distinguished scientist from Taiwan.", "這個獎頒給了一位來自台灣的傑出科學家。"], ["She comes from a distinguished family of doctors and teachers.", "她出身於一個醫生和老師輩出的名門家庭。"]]}
+],
+"eloquent": [
+ {"p": "adj", "zh": "口才好的、有說服力的", "t": [263020, 1095436], "fix": {"263020": "演講者雄辯的演說讓我們印象非常深刻。"}}
+],
+"greeting": [
+ {"p": "n", "zh": "問候、招呼", "t": [306415], "fix": {"306415": "他們客套地互相打了招呼。"}, "ai": [["She sent holiday greetings to all her old classmates.", "她向所有老同學寄送了節日問候。"]]}
+],
+"hilarious": [
+ {"p": "adj", "zh": "非常好笑的、爆笑的", "t": [6814222], "fix": {"6814222": "我盡量不笑自己講的笑話，但大家都知道我超好笑。"}, "ai": [["The movie was so hilarious that everyone in the theater kept laughing.", "這部電影太爆笑了，戲院裡每個人都笑個不停。"]]}
+],
+"intrude": [
+ {"p": "v", "zh": "打擾、侵擾", "t": [2275890, 302793, 309040]}
+],
+"nuisance": [
+ {"p": "n", "zh": "討厭的人或事、麻煩", "ai": [["The noisy neighbors have become a real nuisance to everyone on our street.", "那些吵鬧的鄰居已經成了我們這條街上每個人的困擾。"], ["I'm sorry to be a nuisance, but could you help me one more time?", "很抱歉給你添麻煩，但你可以再幫我一次嗎？"]]}
+],
+"nosy": [
+ {"p": "adj", "zh": "好管閒事的、愛打聽的", "t": [5078207], "ai": [["My nosy neighbor always asks who comes to visit our house.", "我那個愛打聽的鄰居總是問誰來我們家拜訪。"]]}
+],
+"quarrel": [
+ {"p": "n", "zh": "爭吵、口角", "t": [257228, 291646], "fix": {"291646": "他只是在一旁看著，沒有去阻止這場爭吵。"}},
+ {"p": "v", "zh": "吵架、爭吵", "t": [289121, 37389, 310411], "fix": {"310411": "她老是和兄弟們吵架。"}}
+],
+"salute": [
+ {"p": "v", "zh": "向…敬禮、致意", "t": [291251], "fix": {"291251": "他向那位女士致意。"}, "ai": [["The soldiers saluted the flag during the ceremony.", "典禮中士兵們向國旗敬禮。"]]}
+],
+"soothing": [
+ {"p": "adj", "zh": "撫慰的、令人安心的", "t": [8987982], "ai": [["Her soothing voice helped the crying baby fall asleep.", "她輕柔安撫的聲音讓哭鬧的寶寶睡著了。"]]}
+],
+"affection": [
+ {"p": "n", "zh": "喜愛、感情", "t": [2264196, 51687], "fix": {"2264196": "大家都知道他很疼愛那隻狗。"}}
+],
+"dreadful": [
+ {"p": "adj", "zh": "可怕的、糟糕的", "t": [792504], "fix": {"792504": "仙台地震造成的後果非常可怕！"}, "ai": [["We had a dreadful vacation because it rained every single day.", "我們的假期糟透了，因為每天都在下雨。"]]}
+],
+"solitary": [
+ {"p": "adj", "zh": "獨自的、獨居的", "t": [293732, 6331043]}
+],
+"apparel": [
+ {"p": "n", "zh": "服裝、衣著", "ai": [["This store sells sports apparel for men, women, and children.", "這家店販售男裝、女裝和童裝的運動服飾。"], ["The company has made outdoor apparel for over thirty years.", "這家公司生產戶外服裝已經超過三十年了。"]]}
+],
+"congress": [
+ {"p": "n", "zh": "國會；代表大會", "t": [5992352], "ai": [["The new law must be approved by Congress before it takes effect.", "新法律必須先經過國會通過才能生效。"], ["Doctors from forty countries attended the medical congress in Taipei.", "來自四十個國家的醫師參加了在台北舉行的醫學大會。"]]}
+],
+"hearing": [
+ {"p": "n", "zh": "聽力、聽覺", "t": [65095], "ai": [["Listening to loud music every day can damage your hearing.", "每天聽很大聲的音樂可能會損害你的聽力。"]]},
+ {"p": "n", "zh": "聽證會、審訊", "ai": [["The court hearing has been moved to next Monday.", "法院的開庭審理改到下週一。"], ["The city held a public hearing about the new airport.", "市政府針對新機場舉辦了一場公聽會。"]]}
+],
+"beguile": [
+ {"p": "v", "zh": "誘騙；使著迷", "ai": [["He beguiled the old woman into giving him all her savings.", "他誘騙那位老婦人把所有積蓄都給了他。"], ["She was beguiled by his charming smile and sweet words.", "她被他迷人的笑容和甜言蜜語迷住了。"]]}
+],
+"obdurate": [
+ {"p": "adj", "zh": "頑固的、固執的", "ai": [["My grandfather remained obdurate and refused to see a doctor.", "我爺爺依然很固執，拒絕去看醫生。"], ["The manager was obdurate and would not change his decision.", "經理態度強硬，不肯改變他的決定。"]]}
+],
+"pants": [
+ {"p": "n", "zh": "褲子、長褲", "t": [6559104, 463134, 1422128]}
+],
+"comic": [
+ {"p": "n", "zh": "漫畫；喜劇演員", "t": [303944, 321511, 395669], "fix": {"395669": "我向他妹妹借了這本漫畫。"}},
+ {"p": "adj", "zh": "滑稽的、喜劇的", "ai": [["The actor is famous for his comic roles in family movies.", "這位演員以在闔家觀賞的電影中演出喜劇角色而聞名。"], ["Her comic timing made the whole class burst out laughing.", "她搞笑的時機抓得剛好，讓全班哄堂大笑。"]]}
+],
+"crown": [
+ {"p": "n", "zh": "王冠、皇冠", "t": [522633, 880576], "fix": {"522633": "女王的王冠是用黃金打造的。", "880576": "這裡有一頂皇冠。"}},
+ {"p": "v", "zh": "為…加冕；使成為（冠軍）", "ai": [["She was crowned queen when she was only eighteen.", "她年僅十八歲就被加冕為女王。"], ["The team was crowned champion after winning the final game.", "這支隊伍贏得決賽後榮登冠軍寶座。"]]}
+],
+"bachelor": [
+ {"p": "n", "zh": "單身漢", "t": [3265986, 6350664, 2762869]},
+ {"p": "n", "zh": "學士（學位）", "ai": [["She earned a bachelor's degree in English literature last year.", "她去年取得了英國文學的學士學位。"], ["He is studying for a bachelor's degree in business.", "他正在攻讀商學學士學位。"]]}
+],
+"prescribed": [
+ {"p": "adj", "zh": "規定的；醫師開立的", "t": [8554342], "ai": [["Please take the prescribed dose twice a day after meals.", "請依照醫師開立的劑量，一天兩次飯後服用。"], ["Students must finish the prescribed reading before class.", "學生必須在上課前讀完指定的閱讀內容。"]]}
+],
+"isolated": [
+ {"p": "adj", "zh": "孤立的、與外界隔絕的", "t": [24660], "fix": {"24660": "好幾間小屋被洪水圍困，與外界隔絕。"}, "ai": [["Many elderly people feel isolated after their children move away.", "許多長輩在孩子搬走後覺得很孤單。"]]}
+],
+"harmony": [
+ {"p": "n", "zh": "和諧、融洽", "t": [248821, 13277864], "ai": [["The two families have lived next door in harmony for many years.", "這兩家人當鄰居多年，一直相處融洽。"]]}
+],
+"rip": [
+ {"p": "v", "zh": "撕破、扯開", "t": [1346012, 261580, 1164263], "fix": {"1346012": "她的裙子被樹枝勾破了。"}},
+ {"p": "n", "zh": "裂口、破洞", "ai": [["There's a rip in the back of your jeans.", "你牛仔褲的後面有一個破洞。"], ["She carefully sewed up the rip in her jacket.", "她小心地把外套上的裂口縫好。"]]}
+],
+"bent": [
+ {"p": "adj", "zh": "彎曲的；決心要（做…）的", "ai": [["The old man walked slowly with a bent back.", "那位老先生駝著背慢慢地走。"], ["He is bent on winning the championship this year.", "他一心要在今年拿下冠軍。"]]},
+ {"p": "v", "zh": "彎（腰）、彎曲（bend 的過去式）", "t": [315225, 2925546], "fix": {"315225": "她彎下身子，把硬幣撿了起來。"}}
+],
+"liaison": [
+ {"p": "n", "zh": "聯絡；聯絡人", "ai": [["She works as a liaison between the school and the parents.", "她擔任學校和家長之間的聯絡人。"], ["Good liaison between departments helps the company run smoothly.", "部門之間良好的聯繫讓公司運作順暢。"]]}
+],
+"complementary": [
+ {"p": "adj", "zh": "互補的、相輔相成的", "ai": [["The two partners have complementary skills, so they work well together.", "這兩位合夥人的能力互補，所以合作得很好。"], ["Exercise and a healthy diet are complementary parts of staying fit.", "運動和健康飲食是保持身材相輔相成的兩部分。"]]}
+],
+"cardinal": [
+ {"p": "adj", "zh": "主要的、基本的", "ai": [["Honesty is the cardinal rule in our family.", "誠實是我們家最重要的規矩。"], ["Respect is one of the cardinal principles of good teamwork.", "尊重是良好團隊合作的基本原則之一。"]]},
+ {"p": "n", "zh": "樞機主教", "ai": [["The cardinal led the prayer in the old cathedral.", "樞機主教在古老的大教堂裡帶領禱告。"], ["A cardinal from Rome visited our church last week.", "一位來自羅馬的樞機主教上週來訪我們的教堂。"]]}
+],
+"marital": [
+ {"p": "adj", "zh": "婚姻的", "t": [10645555], "ai": [["They went to counseling to work through their marital problems.", "他們去接受諮商，想解決婚姻問題。"]]}
+],
+"handsome": [
+ {"p": "adj", "zh": "英俊的、帥的", "t": [319262, 432741, 5788886]},
+ {"p": "adj", "zh": "（金額）可觀的、豐厚的", "ai": [["She made a handsome profit from selling her old apartment.", "她賣掉舊公寓賺了一筆可觀的利潤。"], ["He received a handsome reward for finding the lost dog.", "他因為找到走失的狗而得到一筆豐厚的獎金。"]]}
+],
+"gifted": [
+ {"p": "adj", "zh": "有天賦的、有才華的", "t": [4494689], "ai": [["Our school has a special program for gifted children.", "我們學校有專為資優兒童設計的課程。"]]}
+],
+"ego": [
+ {"p": "n", "zh": "自我；自尊心", "ai": [["Losing the game in front of his friends really hurt his ego.", "在朋友面前輸了比賽，讓他的自尊心很受傷。"], ["His big ego makes it hard for him to admit mistakes.", "他太自負了，很難承認自己的錯誤。"]]}
+],
+"hug": [
+ {"p": "v", "zh": "擁抱、抱住", "t": [1531008, 780919, 11371972]},
+ {"p": "n", "zh": "擁抱", "t": [2016824], "ai": [["She gave her best friend a big hug at the airport.", "她在機場給了好朋友一個大大的擁抱。"]]}
+],
+"curiosity": [
+ {"p": "n", "zh": "好奇心", "t": [858914, 240712], "fix": {"858914": "現在的北京讓我印象深刻，也激起了我的好奇心。", "240712": "好奇心會害死貓。"}}
+],
+"conformity": [
+ {"p": "n", "zh": "順從、遵從（規範）", "t": [4554854], "ai": [["Some schools value conformity more than creativity.", "有些學校重視循規蹈矩勝過創意。"]]}
+],
+"aggregation": [
+ {"p": "n", "zh": "聚集、集合", "ai": [["The app shows an aggregation of news from many different websites.", "這個應用程式彙整了許多不同網站的新聞。"], ["The aggregation of data from all branches took a whole week.", "彙整所有分店的資料花了整整一個星期。"]]}
+],
+"kin": [
+ {"p": "n", "zh": "親屬、親戚", "ai": [["All her kin came from different cities for the wedding.", "她所有的親戚都從各地趕來參加婚禮。"], ["The hospital needs to contact the patient's next of kin.", "醫院需要聯絡病人的最近親屬。"]]}
+],
+"sect": [
+ {"p": "n", "zh": "教派、派別", "ai": [["The small religious sect lives in the mountains far from the city.", "這個小教派住在遠離城市的山區。"], ["Buddhism has many sects with different teachings.", "佛教有許多教義各不相同的宗派。"]]}
+],
+"irony": [
+ {"p": "n", "zh": "諷刺、反諷；諷刺的事", "ai": [["The irony is that the fire station itself burned down.", "諷刺的是，消防局本身竟然被燒毀了。"], ["She said \"great job\" with obvious irony in her voice.", "她說「做得好」時，語氣裡帶著明顯的諷刺。"]]}
+],
+"injustice": [
+ {"p": "n", "zh": "不公平、不公正", "ai": [["Many people protested against the injustice of the new tax.", "很多人抗議新稅制的不公平。"], ["He has spent his whole life fighting injustice.", "他一輩子都在對抗不公不義。"]]}
+],
+"rumble": [
+ {"p": "v", "zh": "發出隆隆聲；（肚子）咕嚕叫", "t": [5150257], "fix": {"5150257": "你的肚子已經咕嚕咕嚕叫了好一陣子，你確定沒事嗎？"}, "ai": [["We heard thunder rumbling in the distance.", "我們聽到遠處雷聲隆隆。"]]},
+ {"p": "n", "zh": "隆隆聲", "ai": [["The rumble of trucks on the highway kept me awake.", "高速公路上卡車的隆隆聲讓我睡不著。"], ["We felt a low rumble just before the earthquake started.", "就在地震開始前，我們感覺到一陣低沉的轟隆聲。"]]}
+],
+"blockbuster": [
+ {"p": "n", "zh": "賣座大片、暢銷作品", "ai": [["The summer blockbuster broke box office records in its first week.", "這部暑期賣座大片上映第一週就打破票房紀錄。"], ["Let's watch a blockbuster with our friends this Saturday.", "我們這週六跟朋友一起去看強檔大片吧。"]]}
+],
+"deterioration": [
+ {"p": "n", "zh": "惡化、退化", "ai": [["The doctor was worried about the deterioration of her health.", "醫生很擔心她健康狀況的惡化。"], ["Poor communication led to the deterioration of their friendship.", "溝通不良導致他們的友誼漸漸變質。"]]}
+],
+"coincidence": [
+ {"p": "n", "zh": "巧合", "t": [2932103, 18131, 1094311]}
+],
+"nephew": [
+ {"p": "n", "zh": "姪子、外甥", "t": [7389391, 250229], "fix": {"7389391": "她在等著接她姪子。", "250229": "我姪子對雞蛋過敏。"}}
+],
+"erroneous": [
+ {"p": "adj", "zh": "錯誤的、不正確的", "ai": [["The report was based on erroneous information.", "這份報告是根據錯誤的資訊寫成的。"], ["Many people hold the erroneous belief that shy people are unfriendly.", "許多人錯誤地以為害羞的人不友善。"]]}
+],
+"transcend": [
+ {"p": "v", "zh": "超越、超出", "ai": [["Good music can transcend language and cultural differences.", "好的音樂能超越語言和文化的差異。"], ["Their friendship transcended age, class, and nationality.", "他們的友誼超越了年齡、階級和國籍。"]]}
+],
+"abbreviation": [
+ {"p": "n", "zh": "縮寫", "t": [1067763, 10540369]}
+],
+"havoc": [
+ {"p": "n", "zh": "大混亂、嚴重破壞", "ai": [["The typhoon caused havoc across the whole island.", "颱風在全島造成嚴重災情。"], ["The kids wreaked havoc in the living room while we were out.", "我們出門時，孩子們把客廳弄得一團亂。"]]}
+],
+"daddy": [
+ {"p": "n", "zh": "爸爸、爹地", "t": [2075226, 5134163, 318971], "fix": {"5134163": "爸爸去哪裡了？"}}
+],
+"goodbye": [
+ {"p": "int", "zh": "再見", "t": [379146], "fix": {"379146": "再見！有空再來玩！"}, "ai": [["Goodbye, everyone! See you next week.", "大家再見！下週見。"]]},
+ {"p": "n", "zh": "道別、告別", "t": [290045, 1994700, 2215], "fix": {"2215": "道別總是令人難過。"}}
+]
+}
