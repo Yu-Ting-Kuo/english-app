@@ -1,0 +1,131 @@
+1. administrative (adj.) 行政的；管理的
+2. applicant (n.) 申請人；報名者
+3. allocate (v.) 撥出；配置
+4. amateur (n.) 業餘者；外行
+5. appoint (v.) 任命；指定
+6. authorize (v.) 授權；批准
+7. benefit (v.) 有益於；受惠
+8. bonus (n.) 紅利；額外津貼；獎金
+9. capability (n.) 能力；性能
+10. collaboration (n.) 合作；協作
+11. consultation (n.) 諮詢；商議
+12. commission (n./v.) 委託；佣金
+13. candidate (n.) 候選人；應徵者
+14. certificate (n.) 憑證；證書；執照
+15. competent (adj.) 有能力的；能勝任的
+16. coordinate (v.) 協調；調整
+17. deploy (v.) 部署；有效運用
+18. discretion (n.) 決斷權；謹慎
+19. disciplinary (adj.) 訓練的；紀律的；懲戒的
+20. disciplined (adj.) 有紀律的
+21. entry-level (adj.) 入門的
+22. eligible (adj.) 合格的；合適的
+23. employer (n.) 雇主
+24. employee (n.) 受雇者
+25. executive (n.) 行政主管；經理
+26. exclusive (adj.) 獨家的；排他的
+27. evaluation (n.) 評價；估價
+28. expertise (n.) 專門技能；專長；絕技
+29. experienced (adj.) 有經驗的
+30. interview (n./v.) 面試；訪談
+31. income (n.) 收入；所得
+32. novice (n.) 新手；初學者
+33. occupation (n.) 職業；佔領；佔用
+34. pension (n.) 養老金；退休金
+35. personnel (n.) 職員；人事部門
+36. permanent (adj.) 不變的；永久的
+37. recruit (v.) 徵募
+38. recommendation (n.) 推薦；建議
+39. retire (v.) 退休
+40. resign (v.) 卸任；辭職；放棄職位
+41. redundancy (n.) 冗餘；（因職位過剩的）裁員
+42. resume (n.) 簡歷；履歷
+43. curriculum vitae (n.) 簡歷；履歷
+44. salary (n.) 薪水
+45. substitute (n.) 代理人；替代品
+46. status (n.) 地位；身分
+47. reverent (adj.) 恭敬的；虔誠的
+48. promote (v.) 升遷；促銷
+49. yardstick (n.) 衡量標準；評價標準
+50. commotion (n.) 騷動；喧鬧；動亂；暴動；起義
+51. aspect (n.) 方面；外觀
+52. aptitude (n.) 天賦；資質
+53. intention (n.) 意圖；目的
+54. notice (n./v.) 公告；通知；注意到
+55. remark (n./v.) 話語；評論
+56. attempt (v.) 嘗試；企圖
+57. remind (v.) 提醒；使想起
+58. register (v.) 登記；註冊；顯示；注意到
+59. undertake (v.) 承擔；許諾；從事
+60. verify (v.) 證明；證實
+61. legitimate (adj.) 合法的；正當的
+62. noteworthy (adj.) 值得注意的；顯著的
+63. oblivious (adj.) 未察覺的；健忘的
+64. presentable (adj.) （穿著）像樣的；體面的
+65. stagnant (adj.) 停滯的；不流動的；不景氣的
+66. self-explanatory (adj.) 不言自明的
+67. temporary (adj.) 暫時的；臨時的
+68. parsimonious (adj.) 吝嗇的；過於儉省的
+69. advice (n.) 建議
+70. opportunity (n.) 機會；良機
+71. qualified (adj.) 具備必要條件的；合格的；勝任的；有資格的
+72. contribute (v.) 捐獻；捐助；貢獻；出力
+73. raise (v.) 加薪；調高
+74. illegal (adj.) 不合法的；非法的；違反規則的
+75. consent (n./v.) 同意；贊成
+76. attend (v.) 出席；參加；照料；陪隨
+77. reliability (n.) 可靠；可信賴性；可靠程度
+78. orientation (n.) 迎新；導覽；取向
+79. wisdom (n.) 智慧；才智；名言
+80. elite (n./adj.) 精英；精英的
+81. deadline
+82. wage
+83. supervisor
+84. talented
+85. norm
+86. verbal
+87. wit
+88. mandate
+89. spokesman
+90. enforce
+91. habit
+92. negotiate
+93. hardy
+94. appropriately
+95. terminate
+96. renowned
+97. formally
+98. outgoing
+99. deficiency
+100. loyal
+101. initiate
+102. enthusiasm
+103. prestige
+104. shy
+105. rigid
+106. dignity
+107. chairperson
+108. niche
+109. diplomatic
+110. shutdown
+111. hassle
+112. enthusiast
+113. fidelity
+114. accountable
+115. refusal
+116. plea
+117. discreet
+118. verdict
+119. cooperate
+120. certify
+121. thoughtful
+122. hallmark
+123. resignation
+124. sincere
+125. dismiss
+126. motto
+127. staple
+128. manpower
+129. unemployed
+130. disability
+131. hierarchy (n.) 階級組織

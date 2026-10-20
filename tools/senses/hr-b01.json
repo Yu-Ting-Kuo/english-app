@@ -1,0 +1,507 @@
+{
+ "disciplined": [
+  {
+   "p": "adj",
+   "zh": "有紀律的、自律的",
+   "ai": [
+    [
+     "She is a disciplined worker who never misses a deadline.",
+     "她是個很自律的員工，從不錯過截止期限。"
+    ],
+    [
+     "The team stayed disciplined throughout the long project.",
+     "整個漫長的專案中，團隊始終保持紀律。"
+    ]
+   ]
+  }
+ ],
+ "experienced": [
+  {
+   "p": "adj",
+   "zh": "有經驗的、老練的",
+   "t": [
+    775575
+   ],
+   "ai": [
+    [
+     "We are looking for an experienced accountant.",
+     "我們正在找一位有經驗的會計師。"
+    ],
+    [
+     "The experienced manager handled the crisis calmly.",
+     "那位經驗豐富的經理冷靜地處理了危機。"
+    ]
+   ]
+  }
+ ],
+ "curriculum vitae": [
+  {
+   "p": "phr",
+   "zh": "履歷、簡歷（縮寫 CV）",
+   "ai": [
+    [
+     "Please send your curriculum vitae to the HR department.",
+     "請將你的履歷寄給人事部。"
+    ],
+    [
+     "Her curriculum vitae lists ten years of teaching experience.",
+     "她的履歷上列有十年的教學經驗。"
+    ]
+   ]
+  }
+ ],
+ "reverent": [
+  {
+   "p": "adj",
+   "zh": "恭敬的、虔誠的",
+   "ai": [
+    [
+     "The visitors stood in reverent silence at the memorial.",
+     "訪客們在紀念碑前恭敬地肅立默哀。"
+    ],
+    [
+     "He spoke of his old teacher in a reverent tone.",
+     "他用恭敬的語氣談起他的老師。"
+    ]
+   ]
+  }
+ ],
+ "yardstick": [
+  {
+   "p": "n",
+   "zh": "衡量標準、評價標準",
+   "ai": [
+    [
+     "Sales numbers are not the only yardstick of success.",
+     "銷售數字不是衡量成功的唯一標準。"
+    ],
+    [
+     "The company uses customer feedback as a yardstick for service quality.",
+     "公司把顧客回饋當作服務品質的評價標準。"
+    ]
+   ]
+  }
+ ],
+ "commotion": [
+  {
+   "p": "n",
+   "zh": "騷動、喧鬧",
+   "ai": [
+    [
+     "There was a commotion outside the office when the fire alarm went off.",
+     "火災警報響起時，辦公室外一陣騷動。"
+    ],
+    [
+     "What's all the commotion about?",
+     "大家在吵什麼？"
+    ]
+   ]
+  }
+ ],
+ "noteworthy": [
+  {
+   "p": "adj",
+   "zh": "值得注意的、顯著的",
+   "t": [
+    4833209
+   ],
+   "ai": [
+    [
+     "Her most noteworthy achievement was doubling the company's sales.",
+     "她最值得一提的成就是讓公司的銷售額翻倍。"
+    ],
+    [
+     "Nothing noteworthy happened at the meeting.",
+     "這次會議沒有發生什麼值得注意的事。"
+    ]
+   ]
+  }
+ ],
+ "oblivious": [
+  {
+   "p": "adj",
+   "zh": "未察覺的、渾然不知的",
+   "ai": [
+    [
+     "He was oblivious to the problems in his team.",
+     "他完全沒察覺到團隊裡的問題。"
+    ],
+    [
+     "She walked on, oblivious of the rain.",
+     "她繼續往前走，渾然不覺下雨了。"
+    ]
+   ]
+  }
+ ],
+ "presentable": [
+  {
+   "p": "adj",
+   "zh": "（穿著）像樣的、體面的",
+   "t": [
+    3730436
+   ],
+   "ai": [
+    [
+     "Make sure you look presentable for the job interview.",
+     "去面試時一定要穿得體面一點。"
+    ],
+    [
+     "The office was tidied up to make it presentable for visitors.",
+     "辦公室整理過了，好讓訪客看了覺得體面。"
+    ]
+   ]
+  }
+ ],
+ "stagnant": [
+  {
+   "p": "adj",
+   "zh": "停滯的、不景氣的",
+   "ai": [
+    [
+     "Wages have remained stagnant for several years.",
+     "薪資已經停滯了好幾年。"
+    ],
+    [
+     "The stagnant economy made it hard to find a job.",
+     "經濟不景氣讓人很難找到工作。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "（水、空氣）不流動的",
+   "ai": [
+    [
+     "Mosquitoes breed in stagnant water.",
+     "蚊子會在不流動的積水中繁殖。"
+    ],
+    [
+     "Open the window; the air in here is stagnant.",
+     "開個窗吧，這裡的空氣都不流通。"
+    ]
+   ]
+  }
+ ],
+ "self-explanatory": [
+  {
+   "p": "adj",
+   "zh": "不言自明的、一看就懂的",
+   "ai": [
+    [
+     "The instructions are self-explanatory, so you won't need any help.",
+     "說明一看就懂，所以你不需要別人幫忙。"
+    ],
+    [
+     "Most of the items on the form are self-explanatory.",
+     "表格上大部分項目都不用解釋就看得懂。"
+    ]
+   ]
+  }
+ ],
+ "parsimonious": [
+  {
+   "p": "adj",
+   "zh": "吝嗇的、過於節儉的",
+   "ai": [
+    [
+     "The parsimonious boss refused to buy new chairs for the staff.",
+     "那個吝嗇的老闆不肯為員工買新椅子。"
+    ],
+    [
+     "He was too parsimonious to give his workers a bonus.",
+     "他太小氣了，不肯發獎金給員工。"
+    ]
+   ]
+  }
+ ],
+ "qualified": [
+  {
+   "p": "adj",
+   "zh": "合格的、能勝任的",
+   "t": [
+    953222,
+    313061,
+    4529290
+   ]
+  }
+ ],
+ "talented": [
+  {
+   "p": "adj",
+   "zh": "有才華的、有天賦的",
+   "t": [
+    2915155,
+    2957037,
+    6424158
+   ]
+  }
+ ],
+ "wit": [
+  {
+   "p": "n",
+   "zh": "機智、風趣",
+   "ai": [
+    [
+     "Her quick wit made her a popular speaker.",
+     "她反應敏捷又風趣，因此是很受歡迎的講者。"
+    ],
+    [
+     "He answered every question with humor and wit.",
+     "他用幽默和機智回答每個問題。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "智力、頭腦（常用 at one's wit's end：束手無策）",
+   "t": [
+    45174,
+    257917
+   ]
+  }
+ ],
+ "hardy": [
+  {
+   "p": "adj",
+   "zh": "能吃苦耐勞的、強壯的",
+   "ai": [
+    [
+     "Only the hardy workers stayed on the farm through the winter.",
+     "只有吃苦耐勞的工人留在農場過冬。"
+    ],
+    [
+     "These hardy plants can survive very cold weather.",
+     "這些耐寒的植物能在非常寒冷的天氣中存活。"
+    ]
+   ]
+  }
+ ],
+ "renowned": [
+  {
+   "p": "adj",
+   "zh": "有名的、著名的",
+   "ai": [
+    [
+     "The hotel is renowned for its excellent service.",
+     "這家飯店以優質服務聞名。"
+    ],
+    [
+     "She was trained by a renowned chef in Paris.",
+     "她曾在巴黎接受一位知名主廚的指導。"
+    ]
+   ]
+  }
+ ],
+ "prestige": [
+  {
+   "p": "n",
+   "zh": "聲望、威望",
+   "t": [
+    11263528
+   ],
+   "ai": [
+    [
+     "Working for a famous company brings a certain prestige.",
+     "在知名公司工作會帶來一定的聲望。"
+    ],
+    [
+     "The award greatly increased the school's prestige.",
+     "這個獎大幅提升了學校的聲望。"
+    ]
+   ]
+  }
+ ],
+ "shy": [
+  {
+   "p": "adj",
+   "zh": "害羞的、怕生的",
+   "t": [
+    72110,
+    292147,
+    255390
+   ]
+  }
+ ],
+ "dignity": [
+  {
+   "p": "n",
+   "zh": "尊嚴、莊重",
+   "t": [
+    17161,
+    8645629,
+    12116358
+   ]
+  }
+ ],
+ "shutdown": [
+  {
+   "p": "n",
+   "zh": "停工、關閉、停機",
+   "ai": [
+    [
+     "The factory shutdown left 300 people without jobs.",
+     "工廠停工讓三百人失業。"
+    ],
+    [
+     "The system will be down during the planned shutdown on Sunday.",
+     "週日預定停機期間，系統將無法使用。"
+    ]
+   ]
+  }
+ ],
+ "hassle": [
+  {
+   "p": "n",
+   "zh": "麻煩、困擾",
+   "t": [
+    3182858
+   ],
+   "ai": [
+    [
+     "Filling out all these forms is such a hassle.",
+     "填這些表格真是麻煩。"
+    ],
+    [
+     "Online booking saves you the hassle of waiting in line.",
+     "線上預約可以免去排隊的麻煩。"
+    ]
+   ]
+  }
+ ],
+ "fidelity": [
+  {
+   "p": "n",
+   "zh": "忠誠、忠實",
+   "ai": [
+    [
+     "The company rewards employees for their fidelity and long service.",
+     "公司獎勵員工的忠誠與長期服務。"
+    ],
+    [
+     "They promised fidelity to each other at their wedding.",
+     "他們在婚禮上承諾彼此忠誠。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（翻譯、音質等的）準確度、保真度",
+   "ai": [
+    [
+     "The translation was praised for its fidelity to the original.",
+     "這份譯文因忠於原文而受到稱讚。"
+    ],
+    [
+     "These speakers offer high fidelity sound.",
+     "這組喇叭提供高傳真的音質。"
+    ]
+   ]
+  }
+ ],
+ "plea": [
+  {
+   "p": "n",
+   "zh": "懇求、請求",
+   "ai": [
+    [
+     "The workers made a plea for better working conditions.",
+     "工人們懇求改善工作環境。"
+    ],
+    [
+     "Her plea for help was ignored.",
+     "她的求救沒有人理會。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（法律上的）答辯、認罪與否的聲明",
+   "ai": [
+    [
+     "He entered a plea of not guilty.",
+     "他提出無罪答辯。"
+    ],
+    [
+     "The court accepted her guilty plea.",
+     "法院接受了她的認罪答辯。"
+    ]
+   ]
+  }
+ ],
+ "discreet": [
+  {
+   "p": "adj",
+   "zh": "謹慎的、言行得體的",
+   "t": [
+    6411350
+   ],
+   "ai": [
+    [
+     "HR staff must be discreet about employees' personal information.",
+     "人事人員對員工的個人資料必須謹慎保密。"
+    ],
+    [
+     "He made a discreet phone call during the meeting.",
+     "他在會議中低調地打了一通電話。"
+    ]
+   ]
+  }
+ ],
+ "thoughtful": [
+  {
+   "p": "adj",
+   "zh": "體貼的、考慮周到的",
+   "t": [
+    292102,
+    976070,
+    311777
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "深思的、若有所思的",
+   "ai": [
+    [
+     "She gave a thoughtful answer to the difficult question.",
+     "她對那個難題給出了深思熟慮的回答。"
+    ],
+    [
+     "He looked thoughtful for a moment before he spoke.",
+     "他若有所思了一會兒才開口。"
+    ]
+   ]
+  }
+ ],
+ "hallmark": [
+  {
+   "p": "n",
+   "zh": "特徵、標誌",
+   "ai": [
+    [
+     "Attention to detail is the hallmark of a good editor.",
+     "注重細節是好編輯的特徵。"
+    ],
+    [
+     "Friendly service has become the hallmark of the hotel.",
+     "親切的服務已成為這家飯店的招牌。"
+    ]
+   ]
+  }
+ ],
+ "motto": [
+  {
+   "p": "n",
+   "zh": "座右銘、格言",
+   "ai": [
+    [
+     "Our company motto is \"Customers come first.\"",
+     "我們公司的座右銘是「顧客至上」。"
+    ],
+    [
+     "His motto in life is to never give up.",
+     "他的人生座右銘是永不放棄。"
+    ]
+   ]
+  }
+ ]
+}
