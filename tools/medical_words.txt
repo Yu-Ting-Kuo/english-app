@@ -1,0 +1,288 @@
+1. antibiotic (n.) — 抗生素
+2. bacteria (n.) — 細菌
+3. bilateral (adj.) — 雙側的；有兩邊的
+4. chronic (adj.) — 慢性的；長期的
+5. collision (n.) — 碰撞
+6. compensation (n.) — 補償
+7. contagious (adj.) — 接觸傳染的
+8. crash (n., vi.) — 相撞；碰撞
+9. comprehensive (adj.) — 全面的
+10. diagnose (vt.) — 診斷
+11. emergency room (n.) — 急診室
+12. expiration date (n.) — 有效期限
+13. excruciating (adj.) — 極痛苦的；劇烈的
+14. extremity (n.) — 四肢；末端
+15. fraud (n.) — 詐騙；騙局；假貨
+16. handicapped (adj.) — 殘障的
+17. immune (adj.) — 免疫的；免除的
+18. incision (n.) — 切口；切開
+19. infection (n.) — 感染
+20. liable (adj.) — 有義務的；易於……的；負有法律責任的
+21. indemnity (n.) — 賠償；補償金
+22. intensive care unit (n.) — 加護病房
+23. investigator (n.) — 調查員
+24. mandatory (adj.) — 強制的；義務的
+25. nutrition (n.) — 營養
+26. option (n.) — 選擇；選項
+27. operation (n.) — 手術；操作
+28. outpatient (n.) — 門診病人
+29. organ donor (n.) — 器官捐贈者
+30. premium (n.) — 保費；溢價
+31. prosthesis (n.) — 義肢；人工義體
+32. pharmaceutical (adj., n.) — 製藥的；藥品
+33. purification (n.) — 淨化；洗淨
+34. surgery (n.) — 外科手術
+35. severe (adj.) — 嚴重的；嚴苛的
+36. stroke (n.) — 中風；打擊；筆畫
+37. trauma (n.) — 外傷；精神創傷
+38. vaccine (n.) — 疫苗
+39. vital (adj.) — 極重要的；維持生命所必需的
+40. waive (vt.) — 放棄；免除
+41. appliance (n.) — 設備；家用電器
+42. feature (n., vt.) — 特徵；特色
+43. approach (n., vt., vi.) — 方法；途徑；靠近
+44. physical (adj.) — 身體的；物理的
+45. unique (adj.) — 獨特的
+46. dipsomaniac (n.) — 嗜酒症患者
+47. string (n., vt.) — 線；細繩
+48. sense (n., vt.) — 感官；感覺；察覺
+49. pressure (n., vt.) — 壓力；施加壓力
+50. core (n., adj.) — 核心；果核
+51. theory (n.) — 學說；理論
+52. remove (vt.) — 移除；搬開
+53. aid (n., vt.) — 幫助；助手；助聽器
+54. surface (n., vt.) — 表面；浮出
+55. minimum (n., adj.) — 最小值；最少的
+56. visual (adj., n.) — 視覺的；視覺資料
+57. host (n., vt.) — 主人；主持人
+58. variety (n.) — 多樣性；種類
+59. naked (adj.) — 赤裸的；未經掩飾的
+60. labor (n., vi.) — 勞動；分娩
+61. avoid (vt.) — 避免
+62. corner (n., vt.) — 角落；使陷入困境
+63. element (n.) — 要素；成分
+64. abuse (n., vt.) — 濫用；虐待
+65. separate (adj., vt., vi.) — 分開的；分離
+66. optical (adj.) — 光學的；視覺的
+67. spread (n., vt., vi.) — 擴散；傳播；塗抹
+68. specialist (n.) — 專家；專科醫師
+69. affect (vt.) — 影響
+70. investigation (n.) — 調查
+71. institution (n.) — 機構；制度
+72. affected (adj.) — 受到影響的；受疾病侵襲的
+73. indicate (vt.) — 指出；顯示
+74. blonde (adj., n.) — 金髮的；金髮的人
+75. lose (vt., vi.) — 失去；輸掉
+76. organic (adj.) — 有機的
+77. hop (n., vi.) — 單足跳；跳躍
+78. split (n., adj., vt., vi.) — 分裂；分割
+79. physician (n.) — 醫師
+80. normally (adv.) — 正常地；通常
+81. spiritual (adj.) — 心靈的；精神上的
+82. blind (adj., vt.) — 失明的；使失明
+83. horror (n.) — 恐怖；震驚
+84. ethnic (adj.) — 族裔的；民族的
+85. lay (vt., vi.) — 放置；產卵
+86. genetic (adj.) — 基因的；遺傳的
+87. dose (n., vt.) — 劑量；給……服藥
+88. spectrum (n.) — 光譜；頻譜；範圍
+89. radiation (n.) — 放射線；輻射
+90. ward (n.) — 病房；牢房；行政區
+91. demonstrate (vt., vi.) — 示範；展示；證明
+92. cooling (n., adj.) — 冷卻；冷卻的
+93. loose (adj., vt.) — 鬆的；釋放
+94. recipient (n.) — 收件人；接受者；受贈者
+95. illness (n.) — 疾病；身體不適
+96. conditioning (n.) — 條件作用；訓練；薰陶
+97. outline (n., vt.) — 輪廓；概述
+98. odd (adj.) — 奇怪的；奇數的
+99. wrap (n., vt.) — 包裹；包起來
+100. valve (n.) — 閥；活門；瓣膜
+101. abortion (n.) — 墮胎
+102. membrane (n.) — 膜；薄膜
+103. elderly (adj., n.) — 年長的；老年人
+104. kidney (n.) — 腎臟
+105. moisture (n.) — 濕氣；水分
+106. scratch (n., vt., vi.) — 抓痕；擦傷；抓
+107. bundle (n., vt.) — 捆；一批；捆綁
+108. donor (n.) — 捐贈者
+109. remedy (n., vt.) — 治療方法；藥物；補救
+110. breathing (n.) — 呼吸
+111. allergy (n.) — 過敏症
+112. infectious (adj.) — 傳染的；有感染力的
+113. phenomenon (n.) — 現象
+114. conscious (adj.) — 神志清醒的；有知覺的
+115. bald (adj.) — 禿頭的
+116. deaf (adj.) — 聽不見的；聾的
+117. flush (n., vt., vi.) — 潮紅；沖洗；臉紅
+118. declare (vt.) — 宣布；宣告
+119. tear (n., vt.) — 眼淚；撕裂
+120. tragedy (n.) — 悲劇
+121. gale (n.) — 強風
+122. dim (adj., vt., vi.) — 微暗的；使變暗
+123. surgeon (n.) — 外科醫生
+124. cement (n., vt.) — 水泥；黏合
+125. psychiatry (n.) — 精神醫學；精神病學
+126. feeble (adj.) — 虛弱的；無力的
+127. hygiene (n.) — 衛生；衛生學
+128. insure (vt.) — 投保；確保
+129. decay (n., vi.) — 腐爛；衰敗；蛀牙
+130. reimbursement (n.) — 償還；退款；補償
+131. defect (n.) — 缺點；缺陷
+132. dentist (n.) — 牙醫
+133. ecosystem (n.) — 生態系統
+134. molecule (n.) — 分子
+135. cocaine (n.) — 古柯鹼
+136. catching (adj.) — 易傳染的；吸引人的
+137. react (vi.) — 作出反應
+138. insane (adj.) — 精神失常的；瘋狂的
+139. resonance (n.) — 共鳴；共振
+140. harsh (adj.) — 嚴厲的；刺耳的
+141. probation (n.) — 緩刑；試用期
+142. chin (n.) — 下巴
+143. breathe (vi., vt.) — 呼吸
+144. freak (n., adj., vi.) — 怪人；反常現象
+145. swallow (n., vt.) — 吞嚥；燕子
+146. transplant (n., vt.) — 移植；移植器官
+147. organism (n.) — 生物；有機體
+148. symptom (n.) — 症狀；徵候
+149. scrutiny (n.) — 詳細檢查；仔細觀察
+150. regeneration (n.) — 再生；恢復；復興
+151. sensible (adj.) — 明智的；合理的
+152. elbow (n., vt.) — 肘部；用肘推擠
+153. artery (n.) — 動脈
+154. sore (adj., n.) — 疼痛的；痛處
+155. sickness (n.) — 疾病；患病
+156. capsule (n.) — 膠囊；小盒；太空艙
+157. casualty (n.) — 傷亡人員；受害者
+158. epidemic (n., adj.) — 流行病；流行性的
+159. vein (n.) — 靜脈；葉脈；紋理
+160. lethal (adj.) — 致命的
+161. cavity (n.) — 洞；腔；蛀洞
+162. relieve (vt.) — 緩和；減輕；解除
+163. lame (adj.) — 跛腳的；站不住腳的
+164. muscular (adj.) — 肌肉的；健壯的
+165. backbone (n.) — 脊柱；支柱；骨幹
+166. acupuncture (n., vt.) — 針灸；施行針灸
+167. fracture (n., vt., vi.) — 骨折；裂縫；折斷
+168. bowel (n.) — 腸；內部
+169. faint (adj., vi., n.) — 頭暈的；昏倒；昏厥
+170. compensate (vt., vi.) — 補償；賠償
+171. limb (n.) — 肢體；臂
+172. nausea (n.) — 噁心；作嘔
+173. aspirin (n.) — 阿斯匹靈
+174. dispose (vt., vi.) — 處置；處理
+175. thigh (n.) — 大腿
+176. spit (n., vt., vi.) — 唾液；吐口水
+177. septic (adj.) — 敗血症的；引起感染的
+178. wrench (n., vt.) — 扳手；猛扭；扭傷
+179. scar (n., vt.) — 疤痕；留下疤痕
+180. rot (n., vi., vt.) — 腐爛；腐壞
+181. ultraviolet (adj., n.) — 紫外線的；紫外線
+182. saline (adj., n.) — 含鹽的；生理食鹽水
+183. prescribe (vt.) — 開藥方；規定；指定
+184. bleed (vi.) — 流血
+185. doctorate (n.) — 博士學位
+186. utmost (adj., n.) — 最大的；極限
+187. soak (vt., vi., n.) — 浸泡；浸漬
+188. infect (vt.) — 傳染；感染
+189. sick (adj.) — 生病的；不舒服的
+190. blood (n.) — 血液
+191. pain (n., vt.) — 疼痛；使痛苦
+192. nurse (n., vt.) — 護士；照料
+193. cough (n., vi., vt.) — 咳嗽；咳出
+194. doctor (n., vt.) — 醫生；博士；修理；竄改
+195. drug (n., vt.) — 藥物；毒品
+196. headache (n.) — 頭痛
+197. injury (n.) — 傷害；受傷
+198. eyesight (n.) — 視力
+199. powder (n., vt.) — 粉末；把……研成粉末
+200. ill (adj.) — 生病的
+201. ache (n., vi.) — 疼痛；隱隱作痛
+202. itch (n., vi., vt.) — 癢；發癢
+203. pregnant (adj.) — 懷孕的
+204. pill (n.) — 藥丸
+205. germ (n.) — 細菌；微生物
+206. bandage (n., vt.) — 繃帶；包紮
+207. oxygen (n.) — 氧；氧氣
+208. disease (n.) — 疾病
+209. fever (n.) — 發燒；狂熱
+210. medical (adj.) — 醫學的；醫療的
+211. medicine (n.) — 藥；醫學
+212. hospital (n.) — 醫院
+213. checkup (n.) — 健康檢查
+214. dental (adj.) — 牙齒的；牙科的
+215. lung (n.) — 肺
+216. pulse (n.) — 脈搏
+217. liver (n.) — 肝臟
+218. vet (n.) — 獸醫
+219. cancer (n.) — 癌症；惡性腫瘤
+220. digestion (n.) — 消化作用
+221. AIDS (n.) — 愛滋病
+222. childbirth (n.) — 分娩
+223. color-blind (adj.) — 色盲的
+224. gene (n.) — 基因；遺傳因子
+225. diagnosis (n.) — 診斷
+226. dosage (n.) — 劑量；用藥量
+227. drowsy (adj.) — 昏昏欲睡的
+228. genetics (n.) — 遺傳學
+229. measles (n.) — 麻疹
+230. medication (n.) — 藥物；藥物治療
+231. physiological (adj.) — 生理學的
+232. pimple (n.) — 粉刺；面皰
+233. preventive (adj.) — 預防的
+234. psychological (adj.) — 心理的
+235. psychologist (n.) — 心理學家
+236. supplement (n., vt.) — 補充品；補充
+237. tumor (n.) — 腫瘤
+238. ulcer (n.) — 潰瘍
+239. mentally (adv.) — 心理上地；精神上地
+240. milligram (n.) — 毫克
+241. vitamin (n.) — 維生素；維他命
+242. vomit (n., vi., vt.) — 嘔吐；嘔吐物
+243. hormone (n.) — 荷爾蒙；激素
+244. counseling (n.) — 諮商；輔導
+245. deafen (vt.) — 使聽不見
+246. embryo (n.) — 胚胎
+247. suffocate (vi., vt.) — 窒息；使窒息
+248. therapist (n.) — 治療師；治療專家
+249. thyroid (n.) — 甲狀腺
+250. condom (n.) — 保險套
+251. lotion (n.) — 乳液；化妝水；外用藥水
+252. nerve (n.) — 神經；膽量
+253. indigestion (n.) — 消化不良
+254. wheelchair (n.) — 輪椅
+255. ointment (n.) — 藥膏；軟膏
+256. penicillin (n.) — 青黴素
+257. malaria (n.) — 瘧疾
+258. sperm (n.) — 精子
+259. wound (n., vt.) — 傷口；使受傷
+260. nearsighted (adj.) — 近視的
+261. cholesterol (n.) — 膽固醇
+262. antibody (n.) — 抗體
+263. enzyme (n.) — 酵素
+264. practitioner (n.) — 執業者；從業人員
+265. cripple (n., vt.) — 肢體殘障者；使殘廢
+266. rehabilitate (vt.) — 使康復；使恢復
+267. rehabilitation (n.) — 復健；康復
+268. smallpox (n.) — 天花
+269. psychiatrist (n.) — 精神科醫生
+270. therapeutic (adj.) — 治療的；有療效的
+271. serum (n.) — 血清
+272. diabetes (n.) — 糖尿病
+273. panacea (n.) — 萬靈藥
+274. pulmonary (adj.) — 肺部的；肺的
+275. influenza (n.) — 流行性感冒
+276. tranquilizer (n.) — 鎮靜劑
+277. pneumonia (n.) — 肺炎
+278. tuberculosis (n.) — 結核病；肺結核
+279. fusion (n.) — 融合；熔合
+280. alien (n., adj.) — 外星人；外國的；陌生的
+281. constantly (adv.) — 不斷地；經常地
+282. documentary (n., adj.) — 紀錄片；紀錄的
+283. thesis (n.) — 論文；論點
+284. trim (vt., adj.) — 修剪；整齊的
+285. cure (n., vt.) — 治療；治癒；療法
+286. tongue (n.) — 舌頭；語言
+287. probe (n., vt.) — 探查；探針；調查
+288. sensitivity (n.) — 敏感；敏感度

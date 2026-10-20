@@ -1,0 +1,1233 @@
+{
+ "emergency room": [
+  {
+   "p": "phr",
+   "zh": "急診室",
+   "t": [],
+   "ai": [
+    [
+     "He was rushed to the emergency room after the car accident.",
+     "車禍後他被緊急送到急診室。"
+    ],
+    [
+     "The emergency room was crowded with patients on Saturday night.",
+     "星期六晚上急診室擠滿了病人。"
+    ]
+   ]
+  }
+ ],
+ "expiration date": [
+  {
+   "p": "phr",
+   "zh": "有效期限；到期日",
+   "t": [],
+   "ai": [
+    [
+     "Always check the expiration date before you take any medicine.",
+     "吃任何藥之前，一定要先看有效期限。"
+    ],
+    [
+     "This milk is past its expiration date, so throw it away.",
+     "這瓶牛奶已經過期了，把它丟掉吧。"
+    ],
+    [
+     "The expiration date of your insurance card is printed on the back.",
+     "你的保險卡有效期限印在背面。"
+    ]
+   ]
+  }
+ ],
+ "excruciating": [
+  {
+   "p": "adj",
+   "zh": "極痛苦的；劇烈的",
+   "t": [],
+   "ai": [
+    [
+     "She was in excruciating pain after she broke her leg.",
+     "她摔斷腿後痛得要命。"
+    ],
+    [
+     "The patient complained of an excruciating headache.",
+     "病人說他頭痛得非常劇烈。"
+    ]
+   ]
+  }
+ ],
+ "extremity": [
+  {
+   "p": "n",
+   "zh": "四肢；手腳（常用複數）",
+   "t": [],
+   "ai": [
+    [
+     "Poor circulation can make your extremities feel cold.",
+     "血液循環不良會讓你手腳冰冷。"
+    ],
+    [
+     "The doctor checked for numbness in his upper and lower extremities.",
+     "醫生檢查他的上下肢是否麻木。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "末端；極端；困境",
+   "t": [],
+   "ai": [
+    [
+     "The village lies at the southern extremity of the island.",
+     "那個村莊位在島嶼的最南端。"
+    ],
+    [
+     "They helped each other in their extremity.",
+     "他們在困境中互相幫助。"
+    ]
+   ]
+  }
+ ],
+ "handicapped": [
+  {
+   "p": "adj",
+   "zh": "殘障的；身心障礙的",
+   "t": [
+    4494969
+   ],
+   "ai": [
+    [
+     "The building has a special entrance for handicapped visitors.",
+     "這棟大樓有專供身障訪客使用的入口。"
+    ],
+    [
+     "Parking spaces near the door are reserved for handicapped drivers.",
+     "門口附近的停車位保留給身障駕駛。"
+    ]
+   ],
+   "fix": {
+    "4494969": "湯姆是身心障礙者。"
+   }
+  }
+ ],
+ "incision": [
+  {
+   "p": "n",
+   "zh": "切口；切開",
+   "t": [],
+   "ai": [
+    [
+     "The surgeon made a small incision in the patient's abdomen.",
+     "外科醫生在病人的腹部切了一個小切口。"
+    ],
+    [
+     "Keep the incision clean and dry for a week after surgery.",
+     "手術後一週內要保持切口乾淨乾燥。"
+    ]
+   ]
+  }
+ ],
+ "intensive care unit": [
+  {
+   "p": "phr",
+   "zh": "加護病房",
+   "t": [],
+   "ai": [
+    [
+     "After the operation, he spent three days in the intensive care unit.",
+     "手術後，他在加護病房待了三天。"
+    ],
+    [
+     "Visitors to the intensive care unit must wash their hands first.",
+     "到加護病房探病的人必須先洗手。"
+    ]
+   ]
+  }
+ ],
+ "organ donor": [
+  {
+   "p": "phr",
+   "zh": "器官捐贈者",
+   "t": [],
+   "ai": [
+    [
+     "She signed up to be an organ donor when she got her driver's license.",
+     "她考到駕照時就簽署成為器官捐贈者。"
+    ],
+    [
+     "One organ donor can save the lives of several patients.",
+     "一位器官捐贈者可以拯救好幾位病人的性命。"
+    ]
+   ]
+  }
+ ],
+ "prosthesis": [
+  {
+   "p": "n",
+   "zh": "義肢；人工義體",
+   "t": [],
+   "ai": [
+    [
+     "After losing his leg, he learned to walk with a prosthesis.",
+     "失去一條腿後，他學會用義肢走路。"
+    ],
+    [
+     "A modern prosthesis is light and very comfortable to wear.",
+     "現代的義肢又輕，穿戴起來也很舒適。"
+    ]
+   ]
+  }
+ ],
+ "purification": [
+  {
+   "p": "n",
+   "zh": "淨化；純化",
+   "t": [],
+   "ai": [
+    [
+     "Water purification is essential to prevent disease.",
+     "淨化水源對預防疾病非常重要。"
+    ],
+    [
+     "The hospital uses an air purification system in the operating rooms.",
+     "醫院的手術室使用空氣淨化系統。"
+    ]
+   ]
+  }
+ ],
+ "dipsomaniac": [
+  {
+   "p": "n",
+   "zh": "嗜酒症患者；酒癮者",
+   "t": [],
+   "ai": [
+    [
+     "The doctor said that the dipsomaniac needed long-term treatment.",
+     "醫生說那位酒癮患者需要長期治療。"
+    ],
+    [
+     "He was a dipsomaniac who could not go a day without drinking.",
+     "他是個嗜酒成癮的人，一天不喝酒都不行。"
+    ]
+   ]
+  }
+ ],
+ "affected": [
+  {
+   "p": "adj",
+   "zh": "受到影響的；受疾病侵襲的",
+   "t": [
+    315880
+   ],
+   "ai": [
+    [
+     "Apply the cream to the affected area twice a day.",
+     "每天在患部擦兩次藥膏。"
+    ],
+    [
+     "Aid was sent to the people in the affected regions.",
+     "救援物資已送到受災地區的民眾手中。"
+    ]
+   ],
+   "fix": {
+    "315880": "她患有痛風。"
+   }
+  },
+  {
+   "p": "adj",
+   "zh": "做作的；假裝的",
+   "t": [
+    285468
+   ],
+   "ai": [
+    [
+     "Her affected laugh made everyone feel uncomfortable.",
+     "她做作的笑聲讓大家都很不自在。"
+    ]
+   ]
+  }
+ ],
+ "blonde": [
+  {
+   "p": "adj",
+   "zh": "金髮的",
+   "t": [
+    7768503,
+    4935936,
+    919052
+   ],
+   "ai": [],
+   "fix": {
+    "7768503": "她有一頭金髮，身材苗條。",
+    "919052": "莉迪亞有一頭金色直髮。"
+   }
+  },
+  {
+   "p": "n",
+   "zh": "金髮女子",
+   "t": [
+    825615
+   ],
+   "ai": [
+    [
+     "The blonde sitting by the window is my cousin.",
+     "坐在窗邊的那位金髮女子是我表姐。"
+    ]
+   ],
+   "fix": {
+    "825615": "金髮女性的收入比其他髮色的女性多7%。"
+   }
+  }
+ ],
+ "hop": [
+  {
+   "p": "v",
+   "zh": "單腳跳；跳躍",
+   "t": [],
+   "ai": [
+    [
+     "He hurt his ankle and had to hop to the nurse's office.",
+     "他扭傷了腳踝，只好單腳跳到保健室。"
+    ],
+    [
+     "The rabbit hopped across the garden.",
+     "兔子蹦蹦跳跳地穿過花園。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "單腳跳；跳躍",
+   "t": [],
+   "ai": [
+    [
+     "The children practiced a hop, skip and jump in the gym.",
+     "孩子們在體育館練習三級跳。"
+    ],
+    [
+     "With one quick hop, the bird landed on the branch.",
+     "那隻鳥輕輕一跳，就停在樹枝上。"
+    ]
+   ]
+  }
+ ],
+ "spiritual": [
+  {
+   "p": "adj",
+   "zh": "心靈的；精神上的",
+   "t": [
+    637753
+   ],
+   "ai": [
+    [
+     "Some patients find spiritual comfort in prayer.",
+     "有些病人從禱告中得到心靈上的慰藉。"
+    ],
+    [
+     "Good health includes both physical and spiritual well-being.",
+     "真正的健康包括身體和心靈的安適。"
+    ]
+   ],
+   "fix": {
+    "637753": "決定我們人生的不是物質，而是精神上的東西。"
+   }
+  }
+ ],
+ "cooling": [
+  {
+   "p": "adj",
+   "zh": "冷卻的；涼爽的",
+   "t": [],
+   "ai": [
+    [
+     "Put a cooling gel pad on your forehead to bring down the fever.",
+     "在額頭貼退熱貼來幫助退燒。"
+    ],
+    [
+     "A cooling breeze blew in from the sea.",
+     "一陣涼爽的微風從海上吹來。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "冷卻；降溫",
+   "t": [],
+   "ai": [
+    [
+     "The computer needs better cooling to stop it from overheating.",
+     "這台電腦需要更好的散熱，才不會過熱。"
+    ],
+    [
+     "Cooling of the burn with running water should begin immediately.",
+     "燙傷應立即用流動的清水沖洗降溫。"
+    ]
+   ]
+  }
+ ],
+ "conditioning": [
+  {
+   "p": "n",
+   "zh": "條件作用；訓練；調理",
+   "t": [],
+   "ai": [
+    [
+     "Physical conditioning helps athletes avoid injuries.",
+     "體能訓練能幫助運動員避免受傷。"
+    ],
+    [
+     "Fear of the dentist can be the result of conditioning in childhood.",
+     "害怕看牙醫可能是童年時期制約的結果。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（air conditioning）空調；冷氣",
+   "t": [
+    44190,
+    256461,
+    13575950
+   ],
+   "ai": [],
+   "fix": {
+    "44190": "房間有冷氣嗎？",
+    "256461": "夏天沒有冷氣我會活不下去。",
+    "13575950": "實驗室的冷氣壞了。"
+   }
+  }
+ ],
+ "moisture": [
+  {
+   "p": "n",
+   "zh": "濕氣；水分",
+   "t": [],
+   "ai": [
+    [
+     "This cream helps your skin keep its moisture.",
+     "這款乳霜能幫助肌膚保濕。"
+    ],
+    [
+     "Moisture in the walls can cause mold and breathing problems.",
+     "牆壁裡的濕氣可能導致發霉和呼吸道問題。"
+    ]
+   ]
+  }
+ ],
+ "breathing": [
+  {
+   "p": "n",
+   "zh": "呼吸",
+   "t": [
+    7829854,
+    7837112,
+    12116889
+   ],
+   "ai": [],
+   "fix": {
+    "12116889": "湯姆有呼吸方面的問題。"
+   }
+  }
+ ],
+ "bald": [
+  {
+   "p": "adj",
+   "zh": "禿頭的；光禿的",
+   "t": [
+    291848,
+    292107,
+    7791045
+   ],
+   "ai": [],
+   "fix": {
+    "7791045": "你頭上禿了一塊。"
+   }
+  }
+ ],
+ "deaf": [
+  {
+   "p": "adj",
+   "zh": "聾的；聽不見的",
+   "t": [
+    33855,
+    326477
+   ],
+   "ai": [
+    [
+     "He became deaf in one ear after the illness.",
+     "生病之後，他一隻耳朵就聽不見了。"
+    ]
+   ],
+   "fix": {
+    "33855": "海倫・凱勒又盲又聾又啞。",
+    "326477": "聾啞人士用手語溝通。"
+   }
+  },
+  {
+   "p": "adj",
+   "zh": "（turn a deaf ear）充耳不聞的",
+   "t": [
+    302566,
+    297842
+   ],
+   "ai": []
+  }
+ ],
+ "flush": [
+  {
+   "p": "v",
+   "zh": "沖洗；沖（馬桶）",
+   "t": [
+    38940,
+    38948,
+    11892671
+   ],
+   "ai": [],
+   "fix": {
+    "38940": "別忘了沖馬桶。",
+    "38948": "馬桶沖水不太順。",
+    "11892671": "上完廁所請記得沖水。"
+   }
+  },
+  {
+   "p": "v",
+   "zh": "臉紅；（臉部）潮紅",
+   "t": [
+    836573
+   ],
+   "ai": [
+    [
+     "Her face flushed red when she drank a little wine.",
+     "她只喝了一點葡萄酒，臉就紅了。"
+    ]
+   ],
+   "fix": {
+    "836573": "他因為發燒而雙頰泛紅。"
+   }
+  },
+  {
+   "p": "n",
+   "zh": "（臉部）潮紅",
+   "t": [],
+   "ai": [
+    [
+     "Hot flushes are a common symptom of menopause.",
+     "熱潮紅是更年期常見的症狀。"
+    ],
+    [
+     "A flush spread across his cheeks.",
+     "他的雙頰泛起一陣紅暈。"
+    ]
+   ]
+  }
+ ],
+ "tragedy": [
+  {
+   "p": "n",
+   "zh": "悲劇；慘事",
+   "t": [
+    727339,
+    3630867,
+    51669
+   ],
+   "ai": [],
+   "fix": {
+    "3630867": "死一個人是悲劇，死一百萬人只是統計數字。",
+    "51669": "所有的悲劇都以死亡收場。"
+   }
+  }
+ ],
+ "gale": [
+  {
+   "p": "n",
+   "zh": "強風；大風",
+   "t": [
+    2367646
+   ],
+   "ai": [
+    [
+     "The ferry was cancelled because of the gale.",
+     "渡輪因為強風而停駛。"
+    ]
+   ],
+   "fix": {
+    "2367646": "北方的春天颳起狂風，橫掃街道。"
+   }
+  }
+ ],
+ "dim": [
+  {
+   "p": "adj",
+   "zh": "微暗的；模糊的",
+   "t": [
+    525831,
+    4948531,
+    259159
+   ],
+   "ai": [],
+   "fix": {
+    "525831": "光線這麼暗的房間，你不該在裡面看書。",
+    "4948531": "燈光太暗了，我很難看書。"
+   }
+  },
+  {
+   "p": "v",
+   "zh": "使變暗；（燈光）變暗",
+   "t": [],
+   "ai": [
+    [
+     "The nurse dimmed the lights so the patient could sleep.",
+     "護理師把燈光調暗，讓病人能睡覺。"
+    ],
+    [
+     "The lights in the theater dimmed as the show began.",
+     "表演開始時，劇院的燈光暗了下來。"
+    ]
+   ]
+  }
+ ],
+ "psychiatry": [
+  {
+   "p": "n",
+   "zh": "精神醫學；精神科",
+   "t": [
+    11680796
+   ],
+   "ai": [
+    [
+     "She decided to study psychiatry after medical school.",
+     "醫學院畢業後，她決定專攻精神醫學。"
+    ]
+   ],
+   "fix": {
+    "11680796": "布魯諾擁有精神科專科醫師資格。"
+   }
+  }
+ ],
+ "feeble": [
+  {
+   "p": "adj",
+   "zh": "虛弱的；無力的",
+   "t": [],
+   "ai": [
+    [
+     "After weeks in bed, the old man was too feeble to walk.",
+     "在床上躺了好幾週後，那位老先生虛弱得走不動。"
+    ],
+    [
+     "She gave a feeble cough and closed her eyes.",
+     "她無力地咳了一聲，閉上了眼睛。"
+    ],
+    [
+     "That was a feeble excuse for being late.",
+     "那是個站不住腳的遲到藉口。"
+    ]
+   ]
+  }
+ ],
+ "cocaine": [
+  {
+   "p": "n",
+   "zh": "古柯鹼",
+   "t": [],
+   "ai": [
+    [
+     "Cocaine is an illegal drug that can damage the heart.",
+     "古柯鹼是一種會傷害心臟的非法毒品。"
+    ],
+    [
+     "Doctors once used cocaine as a local anesthetic.",
+     "醫生以前曾用古柯鹼當作局部麻醉劑。"
+    ]
+   ]
+  }
+ ],
+ "catching": [
+  {
+   "p": "adj",
+   "zh": "易傳染的；有感染力的",
+   "t": [],
+   "ai": [
+    [
+     "Don't worry, a broken arm isn't catching.",
+     "別擔心，手臂骨折又不會傳染。"
+    ],
+    [
+     "Her laughter was so catching that everyone started to smile.",
+     "她的笑聲很有感染力，大家都跟著笑了。"
+    ]
+   ]
+  }
+ ],
+ "insane": [
+  {
+   "p": "adj",
+   "zh": "精神失常的；瘋了的",
+   "t": [
+    1642027,
+    3962726,
+    2236741
+   ],
+   "ai": [],
+   "fix": {
+    "1642027": "他的舉止就像瘋了一樣。",
+    "3962726": "湯姆瘋了嗎？",
+    "2236741": "湯姆瘋了。"
+   }
+  },
+  {
+   "p": "adj",
+   "zh": "瘋狂的；離譜的",
+   "t": [
+    13523805,
+    1411225
+   ],
+   "ai": [
+    [
+     "The price of medicine in that country is insane.",
+     "那個國家的藥價貴得離譜。"
+    ]
+   ],
+   "fix": {
+    "1411225": "那太扯了。"
+   }
+  }
+ ],
+ "resonance": [
+  {
+   "p": "n",
+   "zh": "共鳴；共振",
+   "t": [],
+   "ai": [
+    [
+     "The doctor ordered a magnetic resonance scan of my knee.",
+     "醫生安排我的膝蓋做核磁共振檢查。"
+    ],
+    [
+     "His speech had a special resonance for the nurses.",
+     "他的演講讓護理師們特別有共鳴。"
+    ]
+   ]
+  }
+ ],
+ "chin": [
+  {
+   "p": "n",
+   "zh": "下巴",
+   "t": [
+    292698,
+    314302
+   ],
+   "ai": [
+    [
+     "The child fell off his bike and cut his chin.",
+     "那個孩子從腳踏車上摔下來，下巴割傷了。"
+    ]
+   ],
+   "fix": {
+    "292698": "他用手撐著下巴聽著。"
+   }
+  }
+ ],
+ "freak": [
+  {
+   "p": "n",
+   "zh": "怪人；畸形；反常現象",
+   "t": [],
+   "ai": [
+    [
+     "He felt like a freak because of the scar on his face.",
+     "因為臉上的疤痕，他覺得自己像個怪物。"
+    ],
+    [
+     "The doctors called the illness a freak of nature.",
+     "醫生們說這種病是大自然的反常現象。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "反常的；離奇的",
+   "t": [],
+   "ai": [
+    [
+     "She broke her wrist in a freak accident at home.",
+     "她在家裡發生了一場離奇的意外，摔斷了手腕。"
+    ],
+    [
+     "A freak storm hit the town in the middle of summer.",
+     "盛夏時節，一場反常的暴風雨襲擊了小鎮。"
+    ]
+   ]
+  }
+ ],
+ "swallow": [
+  {
+   "p": "v",
+   "zh": "吞；嚥下",
+   "t": [
+    270737,
+    268668
+   ],
+   "ai": [
+    [
+     "It hurts when I swallow because of my sore throat.",
+     "我喉嚨痛，吞東西的時候會痛。"
+    ]
+   ],
+   "fix": {
+    "270737": "不喝水的話，我吞不下這些藥片。",
+    "268668": "食物要先嚼過再吞下去。"
+   }
+  },
+  {
+   "p": "n",
+   "zh": "燕子",
+   "t": [
+    39805,
+    3537624
+   ],
+   "ai": [],
+   "fix": {
+    "3537624": "到了秋天，燕子會往南飛。"
+   }
+  }
+ ],
+ "regeneration": [
+  {
+   "p": "n",
+   "zh": "再生；恢復；復興",
+   "t": [],
+   "ai": [
+    [
+     "Scientists are studying the regeneration of damaged nerve cells.",
+     "科學家正在研究受損神經細胞的再生。"
+    ],
+    [
+     "The liver is capable of remarkable regeneration.",
+     "肝臟有驚人的再生能力。"
+    ],
+    [
+     "The city plans the regeneration of its old downtown area.",
+     "市政府計畫振興舊市區。"
+    ]
+   ]
+  }
+ ],
+ "elbow": [
+  {
+   "p": "n",
+   "zh": "手肘；肘部",
+   "t": [
+    3436691,
+    39635,
+    292504
+   ],
+   "ai": [],
+   "fix": {
+    "39635": "不要把手肘放在桌上。",
+    "292504": "他用手肘撐著身體。"
+   }
+  },
+  {
+   "p": "v",
+   "zh": "用手肘推擠",
+   "t": [
+    317496
+   ],
+   "ai": [
+    [
+     "He elbowed his way to the front of the crowd.",
+     "他用手肘擠到人群的最前面。"
+    ]
+   ],
+   "fix": {
+    "317496": "她用手肘推開人群擠上了火車。"
+   }
+  }
+ ],
+ "artery": [
+  {
+   "p": "n",
+   "zh": "動脈",
+   "t": [],
+   "ai": [
+    [
+     "Blocked arteries can lead to a heart attack.",
+     "動脈阻塞可能導致心臟病發作。"
+    ],
+    [
+     "The nurse pressed on the artery to stop the bleeding.",
+     "護理師壓住動脈止血。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "幹道；要道",
+   "t": [],
+   "ai": [
+    [
+     "This road is the main artery into the city.",
+     "這條路是進城的主要幹道。"
+    ],
+    [
+     "Traffic on the major arteries was heavy this morning.",
+     "今天早上各主要幹道的交通都很壅塞。"
+    ]
+   ]
+  }
+ ],
+ "sickness": [
+  {
+   "p": "n",
+   "zh": "疾病；患病；噁心",
+   "t": [
+    316684
+   ],
+   "ai": [
+    [
+     "Take this pill before the trip to prevent motion sickness.",
+     "出發前吃這顆藥可以預防暈車。"
+    ],
+    [
+     "Health insurance protects you against the cost of sickness.",
+     "健康保險能保障你生病時的醫療開銷。"
+    ]
+   ],
+   "fix": {
+    "316684": "她因為生病而缺席。"
+   }
+  }
+ ],
+ "capsule": [
+  {
+   "p": "n",
+   "zh": "膠囊",
+   "t": [],
+   "ai": [
+    [
+     "Take one capsule three times a day after meals.",
+     "一天三次，飯後各服一顆膠囊。"
+    ],
+    [
+     "Swallow the capsule whole with a glass of water.",
+     "配一杯水把膠囊整顆吞下。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "太空艙；小艙",
+   "t": [
+    109242
+   ],
+   "ai": [
+    [
+     "The space capsule landed safely in the ocean.",
+     "太空艙安全降落在海上。"
+    ]
+   ],
+   "fix": {
+    "109242": "這棟建築是男女都能入住的膠囊旅館。"
+   }
+  }
+ ],
+ "lethal": [
+  {
+   "p": "adj",
+   "zh": "致命的",
+   "t": [],
+   "ai": [
+    [
+     "A lethal dose of the drug can stop the heart.",
+     "這種藥如果服用致死劑量，可能讓心臟停止跳動。"
+    ],
+    [
+     "The virus is lethal to people with weak immune systems.",
+     "這種病毒對免疫力差的人是致命的。"
+    ]
+   ]
+  }
+ ],
+ "cavity": [
+  {
+   "p": "n",
+   "zh": "蛀洞；蛀牙",
+   "t": [],
+   "ai": [
+    [
+     "The dentist found two cavities in my back teeth.",
+     "牙醫在我的後排牙齒找到兩顆蛀牙。"
+    ],
+    [
+     "Brushing after meals helps prevent cavities.",
+     "飯後刷牙有助於預防蛀牙。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "腔；洞",
+   "t": [],
+   "ai": [
+    [
+     "The heart and lungs are in the chest cavity.",
+     "心臟和肺位於胸腔內。"
+    ],
+    [
+     "Water had collected in a small cavity in the rock.",
+     "水積在岩石的一個小洞裡。"
+    ]
+   ]
+  }
+ ],
+ "lame": [
+  {
+   "p": "adj",
+   "zh": "跛腳的",
+   "t": [],
+   "ai": [
+    [
+     "The horse went lame after hurting its leg.",
+     "那匹馬腿受傷後就跛了。"
+    ],
+    [
+     "He has been lame since the accident.",
+     "自從那次意外後，他走路就一跛一跛的。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "站不住腳的；遜的",
+   "t": [
+    652489
+   ],
+   "ai": [
+    [
+     "Saying the dog ate your homework is a lame excuse.",
+     "說狗吃了你的作業是個很爛的藉口。"
+    ]
+   ],
+   "fix": {
+    "652489": "哈利波特的新電影很遜。"
+   }
+  }
+ ],
+ "muscular": [
+  {
+   "p": "adj",
+   "zh": "肌肉的；健壯的",
+   "t": [
+    11968435
+   ],
+   "ai": [
+    [
+     "He is a tall, muscular man who works out every day.",
+     "他是個每天健身、高大健壯的男人。"
+    ],
+    [
+     "The doctor said my back pain was muscular, not a bone problem.",
+     "醫生說我的背痛是肌肉引起的，不是骨頭的問題。"
+    ]
+   ]
+  }
+ ],
+ "backbone": [
+  {
+   "p": "n",
+   "zh": "脊柱；脊椎",
+   "t": [],
+   "ai": [
+    [
+     "The backbone protects the spinal cord.",
+     "脊柱保護著脊髓。"
+    ],
+    [
+     "He injured his backbone in a fall from a ladder.",
+     "他從梯子上摔下來，傷到了脊椎。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "支柱；骨幹；骨氣",
+   "t": [],
+   "ai": [
+    [
+     "Nurses are the backbone of the hospital.",
+     "護理師是醫院的中堅骨幹。"
+    ],
+    [
+     "He doesn't have the backbone to say no to his boss.",
+     "他沒有膽量拒絕老闆。"
+    ]
+   ]
+  }
+ ],
+ "acupuncture": [
+  {
+   "p": "n",
+   "zh": "針灸",
+   "t": [
+    2202514
+   ],
+   "ai": [
+    [
+     "My mother gets acupuncture once a week for her back pain.",
+     "我媽媽因為背痛，每週去做一次針灸。"
+    ],
+    [
+     "Some insurance plans now cover acupuncture.",
+     "現在有些保險方案也給付針灸。"
+    ]
+   ]
+  }
+ ],
+ "bowel": [
+  {
+   "p": "n",
+   "zh": "腸",
+   "t": [],
+   "ai": [
+    [
+     "The patient had surgery to remove part of his bowel.",
+     "病人動手術切除了一部分的腸子。"
+    ],
+    [
+     "Eating more fiber keeps your bowels healthy.",
+     "多吃纖維能讓腸道保持健康。"
+    ]
+   ]
+  }
+ ],
+ "faint": [
+  {
+   "p": "v",
+   "zh": "昏倒；昏厥",
+   "t": [
+    313440,
+    456543,
+    7837611
+   ],
+   "ai": [],
+   "fix": {
+    "313440": "她一看到血就昏倒了。",
+    "456543": "一聽到消息，她就昏倒了。"
+   }
+  },
+  {
+   "p": "adj",
+   "zh": "頭暈的；虛弱的",
+   "t": [],
+   "ai": [
+    [
+     "I felt faint after standing in the sun for an hour.",
+     "在太陽底下站了一個小時後，我覺得頭暈。"
+    ],
+    [
+     "If you feel faint, sit down and put your head between your knees.",
+     "如果覺得頭暈，就坐下來把頭放低到兩膝之間。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "微弱的；模糊的",
+   "t": [
+    253312,
+    19238,
+    8932631
+   ],
+   "ai": [],
+   "fix": {
+    "19238": "叫喊聲漸漸變弱了。"
+   }
+  }
+ ],
+ "nausea": [
+  {
+   "p": "n",
+   "zh": "噁心；作嘔",
+   "t": [
+    3150296
+   ],
+   "ai": [
+    [
+     "This medicine may cause nausea and dizziness.",
+     "這種藥可能會引起噁心和頭暈。"
+    ],
+    [
+     "Many pregnant women suffer from nausea in the morning.",
+     "許多孕婦早上會感到噁心想吐。"
+    ]
+   ],
+   "fix": {
+    "3150296": "他們感到噁心想吐。"
+   }
+  }
+ ],
+ "aspirin": [
+  {
+   "p": "n",
+   "zh": "阿斯匹靈",
+   "t": [
+    7796497,
+    1584127,
+    481597
+   ],
+   "ai": [],
+   "fix": {
+    "1584127": "你頭痛的話就吃兩顆阿斯匹靈吧。",
+    "7796497": "我頭好痛，也許該吃顆阿斯匹靈。",
+    "481597": "我想買一些阿斯匹靈。"
+   }
+  }
+ ],
+ "thigh": [
+  {
+   "p": "n",
+   "zh": "大腿",
+   "t": [],
+   "ai": [
+    [
+     "The nurse gave the baby an injection in the thigh.",
+     "護理師在嬰兒的大腿上打了一針。"
+    ],
+    [
+     "He pulled a muscle in his thigh while running.",
+     "他跑步時拉傷了大腿肌肉。"
+    ]
+   ]
+  }
+ ],
+ "spit": [
+  {
+   "p": "v",
+   "zh": "吐口水；吐出",
+   "t": [
+    52474,
+    2267745,
+    1190922
+   ],
+   "ai": [],
+   "fix": {
+    "52474": "在新加坡，隨地吐痰是違法的。"
+   }
+  },
+  {
+   "p": "n",
+   "zh": "唾液；口水",
+   "t": [],
+   "ai": [
+    [
+     "The doctor took a sample of spit to test for the virus.",
+     "醫生採集了唾液樣本來檢驗病毒。"
+    ],
+    [
+     "There was spit on the floor of the bus.",
+     "公車地板上有口水。"
+    ]
+   ]
+  }
+ ]
+}

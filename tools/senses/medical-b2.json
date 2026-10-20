@@ -1,0 +1,1064 @@
+{
+ "septic": [
+  {
+   "p": "adj",
+   "zh": "受感染的、敗血性的",
+   "ai": [
+    [
+     "The wound became septic because it was not cleaned properly.",
+     "傷口因為沒有好好清潔而感染化膿了。"
+    ],
+    [
+     "Doctors treated her for septic shock in the intensive care unit.",
+     "醫生在加護病房為她治療敗血性休克。"
+    ]
+   ]
+  }
+ ],
+ "wrench": [
+  {
+   "p": "n",
+   "zh": "扳手",
+   "ai": [
+    [
+     "Can you pass me the wrench? I need to tighten this bolt.",
+     "可以把扳手遞給我嗎？我要把這顆螺栓鎖緊。"
+    ],
+    [
+     "He used a wrench to fix the leaking pipe.",
+     "他用扳手修好了漏水的水管。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "扭傷；猛扭",
+   "t": [
+    290981
+   ],
+   "ai": [
+    [
+     "She wrenched her ankle while running down the stairs.",
+     "她跑下樓梯時扭傷了腳踝。"
+    ],
+    [
+     "I wrenched my back lifting a heavy box.",
+     "我搬重箱子時扭傷了背。"
+    ]
+   ],
+   "fix": {
+    "290981": "他把信從我手中搶走了。"
+   }
+  }
+ ],
+ "scar": [
+  {
+   "p": "n",
+   "zh": "疤痕、傷疤",
+   "t": [
+    1890930,
+    4728364
+   ],
+   "ai": [
+    [
+     "The surgery left a small scar on her stomach.",
+     "手術在她肚子上留下了一道小疤痕。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "留下疤痕",
+   "ai": [
+    [
+     "The burn scarred his arm for life.",
+     "那次燙傷在他手臂上留下了一輩子的疤。"
+    ],
+    [
+     "If you keep picking at the wound, it will scar.",
+     "如果你一直摳傷口，就會留疤。"
+    ]
+   ]
+  }
+ ],
+ "rot": [
+  {
+   "p": "v",
+   "zh": "腐爛、腐壞",
+   "t": [
+    6900113,
+    13573033
+   ],
+   "ai": [
+    [
+     "Eating too much candy can rot your teeth.",
+     "吃太多糖果會蛀壞你的牙齒。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "腐爛",
+   "ai": [
+    [
+     "The builder found signs of rot in the old wooden floor.",
+     "工人發現老舊的木頭地板有腐爛的跡象。"
+    ],
+    [
+     "Wet leaves on the ground soon turn to rot.",
+     "地上潮溼的落葉很快就會腐爛。"
+    ]
+   ]
+  }
+ ],
+ "ultraviolet": [
+  {
+   "p": "adj",
+   "zh": "紫外線的",
+   "t": [
+    263366,
+    10540285
+   ],
+   "ai": [
+    [
+     "Wear sunglasses to protect your eyes from ultraviolet light.",
+     "戴太陽眼鏡保護眼睛不受紫外線傷害。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "紫外線",
+   "ai": [
+    [
+     "Too much ultraviolet can damage your skin.",
+     "過量的紫外線會傷害你的皮膚。"
+    ],
+    [
+     "Sunscreen stops most ultraviolet from reaching your skin.",
+     "防曬乳能阻擋大部分紫外線接觸皮膚。"
+    ]
+   ]
+  }
+ ],
+ "saline": [
+  {
+   "p": "n",
+   "zh": "生理食鹽水",
+   "ai": [
+    [
+     "The nurse cleaned the wound with saline.",
+     "護理師用生理食鹽水清洗傷口。"
+    ],
+    [
+     "He was given a bag of saline through an IV.",
+     "他打了一袋生理食鹽水點滴。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "含鹽的",
+   "ai": [
+    [
+     "I use a saline spray when my nose is blocked.",
+     "我鼻塞的時候會用食鹽水噴劑。"
+    ],
+    [
+     "Contact lenses should be stored in saline solution.",
+     "隱形眼鏡應該泡在食鹽水溶液裡保存。"
+    ]
+   ]
+  }
+ ],
+ "doctorate": [
+  {
+   "p": "n",
+   "zh": "博士學位",
+   "t": [
+    13523530
+   ],
+   "ai": [
+    [
+     "She earned her doctorate in public health last year.",
+     "她去年取得了公共衛生博士學位。"
+    ],
+    [
+     "He is working on a doctorate in medicine.",
+     "他正在攻讀醫學博士學位。"
+    ]
+   ]
+  }
+ ],
+ "utmost": [
+  {
+   "p": "adj",
+   "zh": "極度的、最大的",
+   "t": [
+    55708
+   ],
+   "ai": [
+    [
+     "Patient privacy is treated with the utmost care at this clinic.",
+     "這間診所以最謹慎的態度保護病人隱私。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "極限、最大努力",
+   "ai": [
+    [
+     "The doctors did their utmost to save the boy's life.",
+     "醫生們盡全力搶救那個男孩的性命。"
+    ],
+    [
+     "I will try my utmost to finish the report on time.",
+     "我會盡最大努力準時完成報告。"
+    ]
+   ]
+  }
+ ],
+ "soak": [
+  {
+   "p": "v",
+   "zh": "浸泡；使溼透",
+   "t": [
+    10540269,
+    10713783
+   ],
+   "ai": [
+    [
+     "Soak your sore feet in warm water for twenty minutes.",
+     "把痠痛的腳泡在溫水裡二十分鐘。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "浸泡",
+   "ai": [
+    [
+     "A long soak in a hot bath helps my muscles relax.",
+     "泡個久一點的熱水澡能讓我的肌肉放鬆。"
+    ],
+    [
+     "Give the beans a good soak before you cook them.",
+     "煮豆子之前先好好泡一下。"
+    ]
+   ]
+  }
+ ],
+ "eyesight": [
+  {
+   "p": "n",
+   "zh": "視力",
+   "t": [
+    263376,
+    4663317,
+    470170
+   ],
+   "fix": {
+    "470170": "他在意外中失明了。"
+   }
+  }
+ ],
+ "ache": [
+  {
+   "p": "n",
+   "zh": "疼痛",
+   "t": [
+    2576170
+   ],
+   "ai": [
+    [
+     "I have a dull ache in my lower back.",
+     "我的下背部隱隱作痛。"
+    ],
+    [
+     "After the marathon, I had an ache in every muscle.",
+     "跑完馬拉松後，我全身肌肉都在痠痛。"
+    ]
+   ],
+   "fix": {
+    "2576170": "痛在這裡，對嗎？那是胃痛。"
+   }
+  },
+  {
+   "p": "v",
+   "zh": "隱隱作痛、痠痛",
+   "t": [
+    282100,
+    2262981
+   ],
+   "fix": {
+    "2262981": "我的肩膀好痠。"
+   }
+  }
+ ],
+ "itch": [
+  {
+   "p": "n",
+   "zh": "癢",
+   "t": [
+    264389
+   ],
+   "ai": [
+    [
+     "The mosquito bite gave me a terrible itch.",
+     "蚊子叮的地方癢得要命。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "發癢",
+   "t": [
+    1205635,
+    1369203
+   ],
+   "ai": [
+    [
+     "This wool sweater makes my skin itch.",
+     "這件羊毛衣讓我的皮膚發癢。"
+    ]
+   ]
+  }
+ ],
+ "germ": [
+  {
+   "p": "n",
+   "zh": "細菌、病菌",
+   "t": [
+    1039464
+   ],
+   "ai": [
+    [
+     "Wash your hands often to stop germs from spreading.",
+     "常洗手以防止病菌傳播。"
+    ],
+    [
+     "Cover your mouth when you cough so you don't spread germs.",
+     "咳嗽時要遮住嘴巴，以免散播病菌。"
+    ]
+   ]
+  }
+ ],
+ "bandage": [
+  {
+   "p": "n",
+   "zh": "繃帶",
+   "t": [
+    48869,
+    665541
+   ],
+   "fix": {
+    "665541": "他用繃帶把傷口包紮起來。"
+   }
+  },
+  {
+   "p": "v",
+   "zh": "用繃帶包紮",
+   "ai": [
+    [
+     "The nurse bandaged my sprained wrist.",
+     "護理師幫我扭傷的手腕包上繃帶。"
+    ],
+    [
+     "He bandaged the cut on his finger himself.",
+     "他自己把手指上的傷口包紮好。"
+    ]
+   ]
+  }
+ ],
+ "vet": [
+  {
+   "p": "n",
+   "zh": "獸醫",
+   "t": [
+    6427504
+   ],
+   "ai": [
+    [
+     "We took our cat to the vet for a vaccination.",
+     "我們帶貓去獸醫那裡打預防針。"
+    ],
+    [
+     "The vet said my dog needs to lose some weight.",
+     "獸醫說我的狗需要減肥。"
+    ]
+   ],
+   "fix": {
+    "6427504": "瑪莉帶她的狗去看獸醫。"
+   }
+  }
+ ],
+ "digestion": [
+  {
+   "p": "n",
+   "zh": "消化（作用）",
+   "t": [
+    4091901,
+    3622633
+   ],
+   "ai": [
+    [
+     "Eating more fiber is good for your digestion.",
+     "多吃纖維對消化有幫助。"
+    ]
+   ],
+   "fix": {
+    "4091901": "葡萄酒有助消化。",
+    "3622633": "不要吃太多，以免擾亂胃的正常消化。"
+   }
+  }
+ ],
+ "aids": [
+  {
+   "p": "n",
+   "zh": "愛滋病",
+   "t": [
+    23985,
+    276300
+   ],
+   "ai": [
+    [
+     "AIDS is caused by a virus called HIV.",
+     "愛滋病是由一種叫做 HIV 的病毒引起的。"
+    ]
+   ],
+   "fix": {
+    "276300": "真希望很快就有科學家找到治療愛滋病的方法。"
+   }
+  }
+ ],
+ "childbirth": [
+  {
+   "p": "n",
+   "zh": "分娩、生產",
+   "ai": [
+    [
+     "She took classes to prepare for childbirth.",
+     "她去上課為生產做準備。"
+    ],
+    [
+     "Childbirth can be painful, but doctors can help reduce the pain.",
+     "生產可能很痛，但醫生可以幫忙減輕疼痛。"
+    ],
+    [
+     "Her mother nearly died in childbirth.",
+     "她媽媽生產時差點喪命。"
+    ]
+   ]
+  }
+ ],
+ "color blind": [
+  {
+   "p": "adj",
+   "zh": "色盲的",
+   "t": [
+    11291142,
+    10863146
+   ],
+   "ai": [
+    [
+     "Being color blind, he finds it hard to tell red from green.",
+     "他是色盲，很難分辨紅色和綠色。"
+    ]
+   ],
+   "fix": {
+    "11291142": "我姊姊是色盲。"
+   }
+  }
+ ],
+ "drowsy": [
+  {
+   "p": "adj",
+   "zh": "昏昏欲睡的",
+   "t": [
+    317320,
+    40117
+   ],
+   "ai": [
+    [
+     "This cold medicine may make you drowsy, so don't drive.",
+     "這種感冒藥可能會讓人想睡，所以不要開車。"
+    ]
+   ],
+   "fix": {
+    "40117": "我那時剛起床，還迷迷糊糊的。"
+   }
+  }
+ ],
+ "measles": [
+  {
+   "p": "n",
+   "zh": "麻疹",
+   "t": [
+    326281
+   ],
+   "ai": [
+    [
+     "Children should get vaccinated against measles.",
+     "兒童應該接種麻疹疫苗。"
+    ],
+    [
+     "Measles spreads very easily through coughing and sneezing.",
+     "麻疹很容易透過咳嗽和打噴嚏傳染。"
+    ]
+   ]
+  }
+ ],
+ "pimple": [
+  {
+   "p": "n",
+   "zh": "青春痘、粉刺",
+   "t": [
+    13087048,
+    3621235
+   ],
+   "ai": [
+    [
+     "Try not to squeeze your pimples, or they may leave scars.",
+     "盡量別擠青春痘，不然可能會留疤。"
+    ]
+   ],
+   "fix": {
+    "3621235": "他的鼻子上長了一顆小痘痘。"
+   }
+  }
+ ],
+ "ulcer": [
+  {
+   "p": "n",
+   "zh": "潰瘍",
+   "ai": [
+    [
+     "Stress and spicy food made his stomach ulcer worse.",
+     "壓力和辛辣食物讓他的胃潰瘍更嚴重了。"
+    ],
+    [
+     "I have a painful mouth ulcer, so it hurts to eat.",
+     "我嘴巴破了一個潰瘍，吃東西都會痛。"
+    ]
+   ]
+  }
+ ],
+ "mentally": [
+  {
+   "p": "adv",
+   "zh": "心理上、精神上",
+   "t": [
+    4757570,
+    16728
+   ],
+   "ai": [
+    [
+     "Exercise keeps you healthy both physically and mentally.",
+     "運動讓你身心都保持健康。"
+    ]
+   ],
+   "fix": {
+    "16728": "你一定精神上很疲憊。"
+   }
+  }
+ ],
+ "milligram": [
+  {
+   "p": "n",
+   "zh": "毫克",
+   "ai": [
+    [
+     "Take one 500-milligram tablet twice a day after meals.",
+     "每天兩次，飯後服用一顆五百毫克的藥錠。"
+    ],
+    [
+     "This drink contains 80 milligrams of caffeine.",
+     "這杯飲料含有八十毫克的咖啡因。"
+    ]
+   ]
+  }
+ ],
+ "vomit": [
+  {
+   "p": "v",
+   "zh": "嘔吐",
+   "t": [
+    1600900,
+    12135618
+   ],
+   "ai": [
+    [
+     "The child vomited twice after eating bad seafood.",
+     "孩子吃了不新鮮的海鮮後吐了兩次。"
+    ]
+   ],
+   "fix": {
+    "12135618": "我覺得不舒服，想吐。"
+   }
+  },
+  {
+   "p": "n",
+   "zh": "嘔吐物",
+   "ai": [
+    [
+     "The nurse quickly cleaned up the vomit on the floor.",
+     "護理師很快把地上的嘔吐物清乾淨。"
+    ],
+    [
+     "There was vomit on his shirt after the long bus ride.",
+     "坐了很久的公車後，他的襯衫上沾了嘔吐物。"
+    ]
+   ]
+  }
+ ],
+ "counseling": [
+  {
+   "p": "n",
+   "zh": "諮商、輔導",
+   "ai": [
+    [
+     "After the accident, she received counseling to deal with her fear.",
+     "車禍後，她接受了心理諮商來面對恐懼。"
+    ],
+    [
+     "The school offers free counseling to students.",
+     "學校為學生提供免費的輔導。"
+    ]
+   ]
+  }
+ ],
+ "deafen": [
+  {
+   "p": "v",
+   "zh": "使聽不見、震耳欲聾",
+   "ai": [
+    [
+     "The loud music at the concert nearly deafened me.",
+     "演唱會的音樂大聲到我差點聽不見。"
+    ],
+    [
+     "Working near loud machines can slowly deafen you.",
+     "長期在吵雜的機器旁工作可能會讓人慢慢失去聽力。"
+    ]
+   ]
+  }
+ ],
+ "embryo": [
+  {
+   "p": "n",
+   "zh": "胚胎",
+   "ai": [
+    [
+     "At eight weeks, the embryo is about the size of a bean.",
+     "八週大時，胚胎大約只有一顆豆子那麼大。"
+    ],
+    [
+     "Doctors checked the embryos before the IVF treatment.",
+     "醫生在試管嬰兒療程前檢查了胚胎。"
+    ]
+   ]
+  }
+ ],
+ "suffocate": [
+  {
+   "p": "v",
+   "zh": "窒息；使窒息",
+   "ai": [
+    [
+     "Keep plastic bags away from babies, or they could suffocate.",
+     "塑膠袋要遠離嬰兒，否則他們可能會窒息。"
+    ],
+    [
+     "The thick smoke nearly suffocated the firefighters.",
+     "濃煙差點讓消防員窒息。"
+    ]
+   ]
+  }
+ ],
+ "therapist": [
+  {
+   "p": "n",
+   "zh": "治療師",
+   "t": [
+    1920346
+   ],
+   "ai": [
+    [
+     "My physical therapist taught me exercises for my back.",
+     "我的物理治療師教我一些背部的運動。"
+    ],
+    [
+     "She talks to a therapist once a week about her stress.",
+     "她每週找治療師談一次她的壓力。"
+    ]
+   ]
+  }
+ ],
+ "thyroid": [
+  {
+   "p": "n",
+   "zh": "甲狀腺",
+   "ai": [
+    [
+     "The doctor ordered a blood test to check my thyroid.",
+     "醫生安排抽血檢查我的甲狀腺。"
+    ],
+    [
+     "Her thyroid problem makes her feel tired all the time.",
+     "她的甲狀腺問題讓她總是覺得很累。"
+    ]
+   ]
+  }
+ ],
+ "condom": [
+  {
+   "p": "n",
+   "zh": "保險套",
+   "t": [
+    1882955,
+    8958583
+   ],
+   "ai": [
+    [
+     "The health center gives out free condoms to prevent disease.",
+     "衛生所免費發放保險套以預防疾病。"
+    ]
+   ],
+   "fix": {
+    "1882955": "保險套可以預防性病。",
+    "8958583": "保險套是預防愛滋病毒和許多其他疾病的有效方法。"
+   }
+  }
+ ],
+ "lotion": [
+  {
+   "p": "n",
+   "zh": "乳液；外用藥水",
+   "t": [
+    5193113
+   ],
+   "ai": [
+    [
+     "Put some lotion on your hands if your skin feels dry.",
+     "皮膚覺得乾的話，就在手上擦點乳液。"
+    ],
+    [
+     "The doctor gave me a lotion for the itchy rash.",
+     "醫生開了一瓶外用藥水給我擦發癢的疹子。"
+    ]
+   ],
+   "fix": {
+    "5193113": "你可以幫我在背上擦些防曬乳嗎？"
+   }
+  }
+ ],
+ "indigestion": [
+  {
+   "p": "n",
+   "zh": "消化不良",
+   "ai": [
+    [
+     "Eating too fast often gives me indigestion.",
+     "吃太快常常讓我消化不良。"
+    ],
+    [
+     "He took some medicine for his indigestion after the big dinner.",
+     "豐盛的晚餐後，他吃了點治消化不良的藥。"
+    ]
+   ]
+  }
+ ],
+ "penicillin": [
+  {
+   "p": "n",
+   "zh": "青黴素、盤尼西林",
+   "ai": [
+    [
+     "Tell the doctor if you are allergic to penicillin.",
+     "如果你對盤尼西林過敏，要告訴醫生。"
+    ],
+    [
+     "Penicillin was the first widely used antibiotic.",
+     "青黴素是第一種被廣泛使用的抗生素。"
+    ]
+   ]
+  }
+ ],
+ "malaria": [
+  {
+   "p": "n",
+   "zh": "瘧疾",
+   "t": [
+    32358,
+    681029
+   ],
+   "ai": [
+    [
+     "Take malaria pills before you travel to that region.",
+     "去那個地區旅行前要先吃預防瘧疾的藥。"
+    ]
+   ],
+   "fix": {
+    "681029": "他們罹患了瘧疾。"
+   }
+  }
+ ],
+ "nearsighted": [
+  {
+   "p": "adj",
+   "zh": "近視的",
+   "ai": [
+    [
+     "Many students in Taiwan become nearsighted at a young age.",
+     "台灣很多學生年紀很小就近視了。"
+    ],
+    [
+     "I'm nearsighted, so I need glasses to see the board.",
+     "我有近視，所以要戴眼鏡才看得到黑板。"
+    ]
+   ]
+  }
+ ],
+ "cripple": [
+  {
+   "p": "v",
+   "zh": "使殘廢；嚴重削弱",
+   "ai": [
+    [
+     "The car accident crippled him, and he now uses a wheelchair.",
+     "那場車禍讓他終身殘障，現在他得坐輪椅。"
+    ],
+    [
+     "The strike crippled the city's hospitals for a week.",
+     "罷工讓全市的醫院癱瘓了一個星期。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "肢體殘障者（不禮貌用語）",
+   "ai": [
+    [
+     "Calling someone a cripple is rude; say \"a person with a disability.\"",
+     "叫別人「跛子」很不禮貌，應該說「身心障礙者」。"
+    ],
+    [
+     "In the old story, the cripple was healed and walked again.",
+     "在那個古老的故事裡，那位跛腳的人被治好，又能走路了。"
+    ]
+   ]
+  }
+ ],
+ "rehabilitate": [
+  {
+   "p": "v",
+   "zh": "使康復；使恢復",
+   "ai": [
+    [
+     "The clinic helps rehabilitate patients after a stroke.",
+     "這間診所協助中風病人做復健。"
+    ],
+    [
+     "It took months of exercise to rehabilitate his injured knee.",
+     "他花了好幾個月做運動，受傷的膝蓋才復原。"
+    ]
+   ]
+  }
+ ],
+ "smallpox": [
+  {
+   "p": "n",
+   "zh": "天花",
+   "t": [
+    241685,
+    7819927
+   ],
+   "ai": [
+    [
+     "Smallpox was wiped out thanks to vaccines.",
+     "多虧了疫苗，天花才被根除。"
+    ]
+   ],
+   "fix": {
+    "241685": "現在每個人都對天花免疫了。",
+    "7819927": "他們努力的目標是消滅天花。"
+   }
+  }
+ ],
+ "psychiatrist": [
+  {
+   "p": "n",
+   "zh": "精神科醫師",
+   "ai": [
+    [
+     "If you feel depressed for weeks, you should see a psychiatrist.",
+     "如果你連續好幾週情緒低落，應該去看精神科醫師。"
+    ],
+    [
+     "The psychiatrist prescribed medicine to help her sleep.",
+     "精神科醫師開了幫助她睡眠的藥。"
+    ]
+   ]
+  }
+ ],
+ "therapeutic": [
+  {
+   "p": "adj",
+   "zh": "治療的、有療效的",
+   "ai": [
+    [
+     "Swimming has a therapeutic effect on back pain.",
+     "游泳對背痛有療效。"
+    ],
+    [
+     "Many people find gardening therapeutic after a stressful week.",
+     "很多人覺得在忙碌的一週後種花種菜很療癒。"
+    ]
+   ]
+  }
+ ],
+ "serum": [
+  {
+   "p": "n",
+   "zh": "血清",
+   "ai": [
+    [
+     "The hospital gave him serum after the snake bite.",
+     "他被蛇咬後，醫院為他注射了血清。"
+    ],
+    [
+     "The lab tested the blood serum for signs of infection.",
+     "實驗室檢驗血清，看看有沒有感染的跡象。"
+    ]
+   ]
+  }
+ ],
+ "diabetes": [
+  {
+   "p": "n",
+   "zh": "糖尿病",
+   "t": [
+    280075
+   ],
+   "ai": [
+    [
+     "People with diabetes need to check their blood sugar every day.",
+     "糖尿病患者每天都需要量血糖。"
+    ],
+    [
+     "Eating too much sugar increases the risk of diabetes.",
+     "吃太多糖會增加罹患糖尿病的風險。"
+    ]
+   ]
+  }
+ ],
+ "panacea": [
+  {
+   "p": "n",
+   "zh": "萬靈藥",
+   "ai": [
+    [
+     "Vitamins are not a panacea for every health problem.",
+     "維他命並不是解決所有健康問題的萬靈藥。"
+    ],
+    [
+     "Some people see exercise as a panacea, but rest matters too.",
+     "有些人把運動當成萬靈藥，但休息也很重要。"
+    ]
+   ]
+  }
+ ],
+ "pulmonary": [
+  {
+   "p": "adj",
+   "zh": "肺部的",
+   "ai": [
+    [
+     "Smoking is a major cause of pulmonary disease.",
+     "吸菸是肺部疾病的主要原因之一。"
+    ],
+    [
+     "He was sent to a pulmonary specialist for his breathing problems.",
+     "他因為呼吸問題被轉診給胸腔科醫師。"
+    ]
+   ]
+  }
+ ],
+ "influenza": [
+  {
+   "p": "n",
+   "zh": "流行性感冒、流感",
+   "ai": [
+    [
+     "Getting a flu shot can protect you from influenza.",
+     "打流感疫苗可以保護你不得流感。"
+    ],
+    [
+     "Influenza spreads quickly in crowded places in winter.",
+     "冬天時流感在人多的地方傳播得很快。"
+    ]
+   ]
+  }
+ ],
+ "tranquilizer": [
+  {
+   "p": "n",
+   "zh": "鎮靜劑",
+   "ai": [
+    [
+     "The doctor gave the anxious patient a mild tranquilizer.",
+     "醫生給焦慮的病人一劑溫和的鎮靜劑。"
+    ],
+    [
+     "The zookeeper used a tranquilizer to calm the injured tiger.",
+     "動物園管理員用鎮靜劑讓受傷的老虎安靜下來。"
+    ]
+   ]
+  }
+ ],
+ "pneumonia": [
+  {
+   "p": "n",
+   "zh": "肺炎",
+   "t": [
+    4632989
+   ],
+   "ai": [
+    [
+     "Older people should get vaccinated against pneumonia.",
+     "年長者應該接種肺炎疫苗。"
+    ],
+    [
+     "He was in the hospital for a week with pneumonia.",
+     "他因為肺炎住院一個星期。"
+    ]
+   ],
+   "fix": {
+    "4632989": "他得了肺炎，難怪咳個不停。"
+   }
+  }
+ ],
+ "tuberculosis": [
+  {
+   "p": "n",
+   "zh": "結核病、肺結核",
+   "t": [
+    7251987
+   ],
+   "ai": [
+    [
+     "Tuberculosis is a serious disease that mainly attacks the lungs.",
+     "結核病是一種主要侵襲肺部的嚴重疾病。"
+    ],
+    [
+     "Everyone in the class had a test for tuberculosis.",
+     "班上每個人都做了肺結核檢查。"
+    ]
+   ],
+   "fix": {
+    "7251987": "胡安死於肺結核。"
+   }
+  }
+ ]
+}
