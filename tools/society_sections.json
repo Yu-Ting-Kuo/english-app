@@ -1,0 +1,272 @@
+{
+ "source": "「社會與文化」分組選詞參考 NGSL／NAWL 等開放詞彙表（CC BY-SA 4.0，newgeneralservicelist.org），另依學術情境編輯補充；詞頻級別依 BNC／COCA；中文釋義與例句來源見個別詞條。",
+ "levelOverrides": {
+  "authority": "I",
+  "distribution": "I",
+  "migration": "I",
+  "inequality": "I",
+  "discrimination": "I",
+  "legislation": "I",
+  "institution": "I",
+  "demographic": "A",
+  "constitution": "A",
+  "treaty": "A",
+  "civilization": "A",
+  "colonial": "A",
+  "integration": "A",
+  "consensus": "I",
+  "legitimacy": "A",
+  "legislative": "A",
+  "democracy": "I",
+  "regime": "A",
+  "elite": "A"
+ },
+ "sections": [
+  [
+   "人口與社群",
+   "Population & Communities",
+   [
+    [
+     "society",
+     "社會"
+    ],
+    [
+     "culture",
+     "文化"
+    ],
+    [
+     "community",
+     "社區、地方"
+    ],
+    [
+     "population",
+     "人口"
+    ],
+    [
+     "demographic",
+     "族群（依年齡、性別等劃分）"
+    ],
+    [
+     "urban",
+     "都市的、城市的"
+    ],
+    [
+     "rural",
+     "鄉村的、農村的"
+    ],
+    [
+     "migration",
+     "遷移、移居"
+    ],
+    [
+     "region",
+     "地區、區域"
+    ],
+    [
+     "citizen",
+     "公民、市民"
+    ],
+    [
+     "citizenship",
+     "公民身分、國籍"
+    ],
+    [
+     "generation",
+     "世代、一代人"
+    ],
+    [
+     "ethnic",
+     "種族的、民族的；異國風味的"
+    ],
+    [
+     "tribe",
+     "部落、族群"
+    ],
+    [
+     "identity",
+     "身分"
+    ],
+    [
+     "diversity",
+     "多樣性、多元"
+    ]
+   ]
+  ],
+  [
+   "制度與公共政策",
+   "Institutions & Public Policy",
+   [
+    [
+     "authority",
+     "（常用複數）當局、主管機關"
+    ],
+    [
+     "government",
+     "政府"
+    ],
+    [
+     "legislation",
+     "法律、法規；立法"
+    ],
+    [
+     "policy",
+     "政策、方針"
+    ],
+    [
+     "regime",
+     "制度、體制（如稅制、監管制度）"
+    ],
+    [
+     "constitution",
+     "憲法"
+    ],
+    [
+     "republic",
+     "共和國"
+    ],
+    [
+     "treaty",
+     "條約"
+    ],
+    [
+     "institution",
+     "機構、機關（如銀行、大學）"
+    ],
+    [
+     "political",
+     "政治的"
+    ],
+    [
+     "economy",
+     "經濟"
+    ],
+    [
+     "welfare",
+     "福祉、幸福"
+    ],
+    [
+     "consent",
+     "同意、許可"
+    ],
+    [
+     "occupation",
+     "職業"
+    ]
+   ]
+  ],
+  [
+   "社會變遷與文化",
+   "Social Change & Culture",
+   [
+    [
+     "media",
+     "媒體"
+    ],
+    [
+     "tradition",
+     "傳統"
+    ],
+    [
+     "inequality",
+     "不平等、不均"
+    ],
+    [
+     "discrimination",
+     "歧視、差別待遇"
+    ],
+    [
+     "gender",
+     "性別"
+    ],
+    [
+     "religion",
+     "宗教；信仰"
+    ],
+    [
+     "belief",
+     "信念、相信；信仰"
+    ],
+    [
+     "conflict",
+     "衝突、矛盾"
+    ],
+    [
+     "revolution",
+     "革命"
+    ],
+    [
+     "colonial",
+     "殖民（時期）的"
+    ],
+    [
+     "civilization",
+     "文明"
+    ],
+    [
+     "norm",
+     "常態；規範、準則"
+    ],
+    [
+     "ritual",
+     "儀式；例行習慣"
+    ],
+    [
+     "elite",
+     "菁英、上層人士"
+    ],
+    [
+     "consensus",
+     "共識"
+    ],
+    [
+     "alliance",
+     "聯盟、結盟；（企業間的）策略聯盟"
+    ],
+    [
+     "integration",
+     "整合、結合；融入"
+    ],
+    [
+     "distribution",
+     "配送、經銷；分配"
+    ],
+    [
+     "employment",
+     "就業、工作；僱用"
+    ],
+    [
+     "immigration",
+     "入境審查"
+    ],
+    [
+     "social",
+     "社會的"
+    ],
+    [
+     "economic",
+     "經濟的、經濟上的"
+    ],
+    [
+     "cultural",
+     "文化的"
+    ],
+    [
+     "democracy",
+     "民主（制度）；民主國家"
+    ],
+    [
+     "democratic",
+     "民主的"
+    ],
+    [
+     "legitimacy",
+     "合法性、正當性；可信度"
+    ],
+    [
+     "legislative",
+     "立法的、有立法權的"
+    ]
+   ]
+  ]
+ ]
+}
