@@ -4,6 +4,34 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026101168645",
+      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
+      "summary": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of Human Rights Council-appointed independent experts.",
+      "url": "https://news.un.org/en/story/2026/10/1168645",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "vocabulary": [
+        "resumption",
+        "unknown",
+        "scale",
+        "independent"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/19-12-2023-Unsplash-DPRK.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168636",
+      "title": "AI on track to ‘crowd out’ human decision-making in warfare",
+      "summary": "Artificial intelligence is already being widely used on the battlefield, and the role of human judgment in military operations is shrinking rapidly, the head of the UN’s independent disarmament research institute warned on Tuesday.",
+      "url": "https://news.un.org/en/story/2026/10/1168636",
+      "publishedAt": "2026-10-20T12:00:00Z",
+      "vocabulary": [
+        "disarmament",
+        "battlefield",
+        "warfare",
+        "judgment"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/25-08-2026-Adobe-Stock-unmanned-drone.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168628",
       "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
       "summary": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
@@ -72,34 +100,6 @@
         "brain"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/23-03-21-WIPO-Assistive-Technology-Video-Screengrab.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168598",
-      "title": "Haiti sanctions renewed: Starving the gangs of bullets",
-      "summary": "Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing rape and other sexual assaults, kidnapping for ransom and extorting individuals and businesses.",
-      "url": "https://news.un.org/en/story/2026/10/1168598",
-      "publishedAt": "2026-10-14T12:00:00Z",
-      "vocabulary": [
-        "ransom",
-        "acute",
-        "rural",
-        "sexual"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/21-05-2026_WFP_Haiti-09.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168589",
-      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs",
-      "summary": "Yemen’s southwestern city of Taiz is facing a “devastating” humanitarian crisis as escalating tensions are dramatically driving up food prices and causing shortages of supplies, the UN Spokesperson said on Tuesday.",
-      "url": "https://news.un.org/en/story/2026/10/1168589",
-      "publishedAt": "2026-10-13T12:00:00Z",
-      "vocabulary": [
-        "cholera",
-        "southwestern",
-        "siege",
-        "humanitarian"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/13-10-2026-WHO-Yemen-cholera.jpg/image560x340cropped.jpg"
     }
   ]
 }
