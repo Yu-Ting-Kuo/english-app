@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026101168647",
+      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+      "summary": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
+      "url": "https://news.un.org/en/story/2026/10/1168647",
+      "publishedAt": "2026-10-22T12:00:00Z",
+      "vocabulary": [
+        "outbreak",
+        "deadly",
+        "province",
+        "disease"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/26-08-2026-UNOCHA-DR-Congo-ebola-01.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168645",
       "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
       "summary": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of Human Rights Council-appointed independent experts.",
@@ -86,20 +100,6 @@
         "climate"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/05-10-2026-UNICEF-Pakistan.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168609",
-      "title": "Could your brain data be used against you? UN calls for limits on neurotechnology",
-      "summary": "Brain signals recorded by a gaming headset or a wellness gadget could one day be used as evidence against you in court, according to a new UN report which warns that neurotechnology is outpacing the laws meant to protect human rights.",
-      "url": "https://news.un.org/en/story/2026/10/1168609",
-      "publishedAt": "2026-10-15T12:00:00Z",
-      "vocabulary": [
-        "wellness",
-        "headset",
-        "gadget",
-        "brain"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/23-03-21-WIPO-Assistive-Technology-Video-Screengrab.jpg/image560x340cropped.jpg"
     }
   ]
 }
