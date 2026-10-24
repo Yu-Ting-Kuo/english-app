@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026101168647",
-      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
-      "summary": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
-      "url": "https://news.un.org/en/story/2026/10/1168647",
+      "id": "httpsnewsunorgenstory2026101168664",
+      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
+      "summary": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
+      "url": "https://news.un.org/en/story/2026/10/1168664",
+      "publishedAt": "2026-10-23T12:00:00Z",
+      "vocabulary": [
+        "fragility",
+        "proliferation",
+        "swift",
+        "deadly"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-04-2026-UNOCHA-Sudan-Darfur-05.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168648",
+      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
+      "summary": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
+      "url": "https://news.un.org/en/story/2026/10/1168648",
       "publishedAt": "2026-10-22T12:00:00Z",
       "vocabulary": [
-        "outbreak",
-        "deadly",
-        "province",
-        "disease"
+        "unlawful",
+        "overnight",
+        "civilian",
+        "elderly"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/26-08-2026-UNOCHA-DR-Congo-ebola-01.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/19-10-2026-UNOCHA-Ukraine-04.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026101168645",
@@ -86,20 +100,6 @@
         "peace"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/22-01-2024_Unsplash_parrot.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168617",
-      "title": "As disasters mount, next UN climate summit faces a test of trust",
-      "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in climate action when the consequences of a warming planet are already being felt?",
-      "url": "https://news.un.org/en/story/2026/10/1168617",
-      "publishedAt": "2026-10-16T12:00:00Z",
-      "vocabulary": [
-        "successive",
-        "summit",
-        "mount",
-        "climate"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/05-10-2026-UNICEF-Pakistan.jpg/image560x340cropped.jpg"
     }
   ]
 }
