@@ -194,6 +194,7 @@ const Quiz = (() => {
   function answer(q, ok) {
     st.answered = true;
     QuizStats.record(q.it.key, ok);
+    Game.award('quiz', ok);
     st.lastOk = ok;
     if (ok) st.correct++;
     else {

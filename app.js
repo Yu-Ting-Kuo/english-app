@@ -232,7 +232,7 @@ function show(view) {
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === tab));
   $('#title').textContent = {
     home: '主題探索', dict: '英文辭典', list: '我的收藏', add: $('#f-id').value ? '編輯單字' : '新增單字',
-    practice: '發音練習', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗', az: '單字本 A–Z',
+    practice: '發音練習', adventure: '勇者冒險', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗', az: '單字本 A–Z',
   }[view];
   if (view === 'home') renderHome();
   if (view === 'cat') renderCategory();
@@ -242,6 +242,7 @@ function show(view) {
   if (view === 'list') renderList();
   if (view === 'practice') renderPractice();
   if (view === 'review') startReview();
+  if (view === 'adventure') Game.render();
   if (view === 'dict' && !$('#dict-body').innerHTML.trim()) setTimeout(() => $('#dict-q').focus(), 50);
   window.scrollTo(0, 0);
 }
@@ -601,6 +602,7 @@ async function renderPractice() {
         return k - n;
       });
       lastResult = { ...r, id: w.id, target: practiceTarget };
+      Game.award('speak', r.score);
       if (alts.length) {
         const p = (w.practice ||= {});
         const s = (p[practiceTarget] ||= { best: 0, count: 0, last: 0 });
@@ -709,6 +711,7 @@ function renderCard() {
   $('#flash').onclick = () => { if (!flipped) { flipped = true; renderCard(); say(w.word); } };
   $('#r-no')?.addEventListener('click', () => { queue.splice(Math.min(3, queue.length), 0, w); current = queue.shift(); flipped = false; renderCard(); });
   $('#r-yes')?.addEventListener('click', async () => {
+    Game.award('review', !w.known);
     if (!w.known) { w.known = true; await saveWord(w); renderList(); }
     current = queue.shift(); flipped = false; renderCard();
   });
@@ -759,7 +762,7 @@ $('#close-settings').onclick = () => { $('#settings').hidden = true; };
 $('#settings').addEventListener('click', e => { if (e.target.id === 'settings') $('#settings').hidden = true; });
 
 $('#export').onclick = async () => {
-  const data = JSON.stringify({ app: 'english-app', version: 1, exportedAt: new Date().toISOString(), words: words.map(({ id, ...w }) => w) }, null, 2);
+  const data = JSON.stringify({ app: 'english-app', version: 1, exportedAt: new Date().toISOString(), words: words.map(({ id, ...w }) => w), game: Game.exportData() }, null, 2);
   const name = `單字本備份-${new Date().toISOString().slice(0, 10)}.json`;
   const file = new File([data], name, { type: 'application/json' });
   // iPhone 用分享選單存到「檔案」或傳給自己
@@ -788,7 +791,8 @@ $('#import-file').onchange = async e => {
     }
     words.sort((a, b) => b.createdAt - a.createdAt);
     renderList();
-    toast(`匯入了 ${added} 個新單字`);
+    const gameOk = data.game && Game.importData(data.game);
+    toast(`匯入了 ${added} 個新單字` + (gameOk ? '，冒險進度也已合併' : ''));
   } catch { toast('這不是單字本的備份檔'); }
 };
 

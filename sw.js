@@ -1,6 +1,6 @@
 ﻿// 離線快取：App 本身的檔案有網路時一律抓最新版，沒網路時用快取，所以離線也能開。
 // VERSION 加一會清掉舊快取。
-const VERSION = 'v56';
+const VERSION = 'v57';
 const CACHE = 'english-app-' + VERSION;
 // 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題、例句時把 DICT_VERSION 加一
 const DICT_VERSION = 'd32';
@@ -13,6 +13,7 @@ const ASSETS = [
   './pronounce.js',
   './topics.js',
   './quiz.js',
+  './game.js',
   './dictionary.js',
   './manifest.webmanifest',
   './icon-192.png',

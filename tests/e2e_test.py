@@ -502,7 +502,7 @@ def main():
         check('10. 網路或 API 失敗時顯示提示', t_online_fail)
 
         def t_layout():
-            for view in ['home', 'dict', 'list', 'review', 'practice']:
+            for view in ['home', 'dict', 'list', 'review', 'adventure']:
                 page.click(f'nav [data-view={view}]')
                 over = page.evaluate('document.documentElement.scrollWidth - window.innerWidth')
                 assert over <= 0, f'{view} 頁面左右溢出 {over}px'
@@ -565,7 +565,7 @@ def main():
             pg.on('pageerror', lambda e: errors.append('發音練習：' + str(e)))
             pg.goto(BASE)
             pg.wait_for_selector('#home-topics .cat-card')
-            pg.click('nav [data-view=practice]')
+            pg.evaluate("practiceId = null; show('practice')")
             pg.wait_for_selector('#p-word')
             rid = pg.evaluate("words.find(w => w.word === 'resilient').id")
             pg.select_option('#p-word', str(rid))
