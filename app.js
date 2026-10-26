@@ -542,7 +542,7 @@ async function renderPractice() {
           <button id="p-score" class="primary full">${ICON.target}念一次，幫我評分</button>
         </div>
       </div>
-      ${res ? diagHtml(res.diag, color) : ''}
+      ${res ? diagHtml({ ...res.diag, hasRec: !!rec && res.hasRec }, color) : ''}
       <div class="muted" style="text-align:center">${stats ? `已練習 ${stats.count} 次 · 最高 ${stats.best} 分 · 上次 ${stats.last} 分` : '還沒評分過這一題'}</div>
     </div>`;
 
@@ -562,6 +562,14 @@ async function renderPractice() {
   $('#p-demo')?.addEventListener('click', () => slowDemo(text, practiceTarget === 'word'));
   $('#p-play').onclick = () => rec && playBlob(rec.blob);
   $('#p-compare').onclick = async () => { await say(text); await new Promise(r => setTimeout(r, 400)); await playBlob(rec.blob); };
+  // 慢速示範 → 停一下 → 我的錄音
+  $('#p-cmp-slow')?.addEventListener('click', async () => {
+    if (!rec) return;
+    if (practiceTarget === 'word') await say(text, { rate: 0.6 }); else await slowDemo(text, false);
+    await new Promise(r => setTimeout(r, 500));
+    await playBlob(rec.blob);
+  });
+  $('#p-cmp-mine')?.addEventListener('click', () => rec && playBlob(rec.blob));
   $('#p-rec').onclick = async () => {
     if (recorder.active) { recorder.stop(); return; }
     try {
@@ -590,6 +598,10 @@ async function renderPractice() {
     try {
       let alts, frames;
       try { alts = await listen(); } finally { frames = meter?.stop(); }
+      // 評分時的錄音存成「我的錄音」，取代之前的錄音
+      const blob = await Promise.race([meter?.recorded ?? null, new Promise(r => setTimeout(() => r(null), 1500))]);
+      const gotRec = !!blob && blob.size > 1000;
+      if (gotRec) await db.put('recordings', { key: `${w.id}:${practiceTarget}`, blob, at: Date.now() });
       const r = scoreAttempt(text, alts);
       r.diag = Pron.diagnose({ target: text, isWord: practiceTarget === 'word', best: r, frames, phonetic: w.phonetic, marks: r.marks });
       r.score = r.diag.total;
@@ -601,7 +613,7 @@ async function renderPractice() {
         k += n;
         return k - n;
       });
-      lastResult = { ...r, id: w.id, target: practiceTarget };
+      lastResult = { ...r, id: w.id, target: practiceTarget, hasRec: gotRec };
       Game.award('speak', r.score);
       if (alts.length) {
         const p = (w.practice ||= {});
@@ -644,7 +656,12 @@ function diagHtml(d, color) {
             ${d.tags.length ? `<div class="row wrap" style="gap:6px">${d.tags.map(t => `<span class="dtag">${esc(t)}</span>`).join('')}</div>` : ''}
           </div>
         </div>
-        ${g.level !== 'high' ? `<button id="p-demo" class="full">${ICON.speaker}${g.level === 'low' ? '聽慢速分段示範' : '聽慢速示範'}</button>` : ''}
+        ${d.hasRec ? `<button id="p-cmp-slow" class="primary full">${ICON.play}對照：慢速示範 → 我的錄音</button>`
+          : `<div class="muted">這次沒有錄到聲音，可以用上面的「錄我的聲音」另外錄一次再對照。</div>`}
+        <div class="row">
+          ${d.hasRec ? `<button id="p-cmp-mine" class="grow">${ICON.play}我的錄音</button>` : ''}
+          ${g.level !== 'high' ? `<button id="p-demo" class="grow">${ICON.speaker}${g.level === 'low' ? '慢速分段示範' : '慢速示範'}</button>` : ''}
+        </div>
         <div class="dims">${DIMS.map(([k, zh, en]) => {
           const x = d.dims[k];
           return `<div class="dim">

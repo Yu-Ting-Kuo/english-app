@@ -163,6 +163,21 @@ const Pron = (() => {
       src.connect(an);
       const buf = new Float32Array(an.fftSize);
       const frames = [];
+      // 同一條麥克風也拿來錄音，評分完可以和慢速示範對照（不另外開麥克風，避免和語音辨識搶）
+      let mr = null; const chunks = [];
+      let recorded = Promise.resolve(null);
+      if (window.MediaRecorder) {
+        try {
+          const type = ['audio/mp4', 'audio/aac', 'audio/webm;codecs=opus', 'audio/webm'].find(t => MediaRecorder.isTypeSupported?.(t));
+          mr = new MediaRecorder(stream, type ? { mimeType: type } : undefined);
+          mr.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+          recorded = new Promise(res => {
+            mr.onstop = () => res(chunks.length ? new Blob(chunks, { type: mr.mimeType || type || 'audio/mp4' }) : null);
+            mr.onerror = () => res(null);
+          });
+          mr.start();
+        } catch { mr = null; recorded = Promise.resolve(null); }
+      }
       const t0 = performance.now();
       const timer = setInterval(() => {
         an.getFloatTimeDomainData(buf);
@@ -171,9 +186,12 @@ const Pron = (() => {
         frames.push({ t: (performance.now() - t0) / 1000, v: Math.sqrt(sum / buf.length) });
       }, 15);
       return {
+        recorded,
         stop() {
           clearInterval(timer);
-          stream.getTracks().forEach(t => t.stop());
+          // 先停錄音再關麥克風，錄音檔才會完整
+          if (mr?.state === 'recording') { mr.stop(); recorded.finally(() => stream.getTracks().forEach(t => t.stop())); }
+          else stream.getTracks().forEach(t => t.stop());
           ctx.close?.();
           return frames;
         },
