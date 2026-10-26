@@ -232,7 +232,7 @@ function show(view) {
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.view === tab));
   $('#title').textContent = {
     home: '主題探索', dict: '英文辭典', list: '我的收藏', add: $('#f-id').value ? '編輯單字' : '新增單字',
-    practice: '發音練習', adventure: '勇者冒險', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗', az: '單字本 A–Z',
+    practice: '發音練習', farm: '學習農場', conversation: '英文對話', review: '複習', cat: '主題', topic: '主題', quiz: '測驗', az: '單字本 A–Z',
   }[view];
   if (view === 'home') renderHome();
   if (view === 'cat') renderCategory();
@@ -242,7 +242,7 @@ function show(view) {
   if (view === 'list') renderList();
   if (view === 'practice') renderPractice();
   if (view === 'review') startReview();
-  if (view === 'adventure') Game.render();
+  if (view === 'farm') Farm.render();
   if (view === 'dict' && !$('#dict-body').innerHTML.trim()) setTimeout(() => $('#dict-q').focus(), 50);
   window.scrollTo(0, 0);
 }
@@ -739,6 +739,8 @@ $('#s-accent').value = settings.accent;
 $('#s-rate').value = settings.rate;
 $('#s-accent').onchange = e => { settings.accent = e.target.value; saveSettings(); };
 $('#s-rate').onchange = e => { settings.rate = e.target.value; saveSettings(); };
+try { $('#s-farm-anim').value = localStorage.getItem('farmCalm') === '1' ? '1' : '0'; } catch {}
+$('#s-farm-anim').onchange = e => { try { localStorage.setItem('farmCalm', e.target.value); } catch {} if (currentView === 'farm') Farm.render(); };
 $('#download-relations').onclick = async e => {
   const button = e.currentTarget;
   const status = $('#relations-download-status');
@@ -779,7 +781,7 @@ $('#close-settings').onclick = () => { $('#settings').hidden = true; };
 $('#settings').addEventListener('click', e => { if (e.target.id === 'settings') $('#settings').hidden = true; });
 
 $('#export').onclick = async () => {
-  const data = JSON.stringify({ app: 'english-app', version: 1, exportedAt: new Date().toISOString(), words: words.map(({ id, ...w }) => w), game: Game.exportData() }, null, 2);
+  const data = JSON.stringify({ app: 'english-app', version: 1, exportedAt: new Date().toISOString(), words: words.map(({ id, ...w }) => w), game: Game.exportData(), farm: Farm.exportData() }, null, 2);
   const name = `單字本備份-${new Date().toISOString().slice(0, 10)}.json`;
   const file = new File([data], name, { type: 'application/json' });
   // iPhone 用分享選單存到「檔案」或傳給自己
@@ -809,7 +811,8 @@ $('#import-file').onchange = async e => {
     words.sort((a, b) => b.createdAt - a.createdAt);
     renderList();
     const gameOk = data.game && Game.importData(data.game);
-    toast(`匯入了 ${added} 個新單字` + (gameOk ? '，冒險進度也已合併' : ''));
+    const farmOk = data.farm && Farm.importData(data.farm);
+    toast(`匯入了 ${added} 個新單字` + (gameOk || farmOk ? '，學習紀錄與農場進度也已合併' : ''));
   } catch { toast('這不是單字本的備份檔'); }
 };
 

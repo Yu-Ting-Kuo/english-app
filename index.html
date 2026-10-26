@@ -382,6 +382,160 @@
   .ev:last-child { border: 0; }
   .rules summary { cursor: pointer; font-weight: 600; }
   .rules ul { margin: 8px 0 0; padding-left: 20px; }
+
+  /* 學習農場 */
+  .xp-hint.danger { border-color: var(--bad); }
+  .farm-scene { position: relative; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); background: #bfe6fb; box-shadow: 0 2px 10px rgba(30,60,40,.08); }
+  .farm-svg { display: block; width: 100%; height: auto; }
+  .farm-status { position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; justify-content: space-between; gap: 8px; pointer-events: none; }
+  .farm-status span { background: rgba(255,255,255,.9); color: #2b3a2f; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 99px; }
+  .farm-status .sky-tag { font-weight: 500; }
+  .farm-tap { position: absolute; left: 28%; right: 28%; top: 6%; bottom: 20%; background: transparent; border: 0; padding: 0; min-height: 0; display: flex; align-items: flex-start; justify-content: center; border-radius: 16px; }
+  .farm-tap:focus-visible { outline: 3px solid #ffd84a; }
+  .farm-hint { background: #fff; color: #2b3a2f; font-weight: 700; font-size: 14px; padding: 4px 12px; border-radius: 99px; box-shadow: 0 2px 8px rgba(0,0,0,.18); animation: hint-bob 1.1s ease-in-out infinite; }
+  @keyframes hint-bob { 50% { transform: translateY(-5px); } }
+
+  .farm-svg .sky1 { stop-color: var(--s1); } .farm-svg .sky2 { stop-color: var(--s2); }
+  .farm-svg .grass1 { stop-color: var(--g1); } .farm-svg .grass2 { stop-color: var(--g2); }
+  .sky-morning { --s1: #8fd3f4; --s2: #e8f8ff; --g1: #a3da7c; --g2: #74c057; --h1: #c2e6a3; --h2: #a8da88; --tree: #7cbf5a; }
+  .sky-afternoon { --s1: #5ab4ee; --s2: #c8eafc; --g1: #9cd774; --g2: #6cbb50; --h1: #b6e095; --h2: #9bd47c; --tree: #6fb54f; }
+  .sky-evening { --s1: #f2896b; --s2: #ffd99e; --g1: #b0c971; --g2: #86a852; --h1: #d6c58e; --h2: #bdb878; --tree: #8aa25a; }
+  .sky-night { --s1: #17244c; --s2: #3b4b82; --g1: #4e7a4c; --g2: #34573a; --h1: #3e5c56; --h2: #304c44; --tree: #3f6648; }
+  .hill.h1 { fill: var(--h1); } .hill.h2 { fill: var(--h2); }
+  .bgtree circle { fill: var(--tree); }
+  .sun-c { fill: #ffd84a; } .sun-halo { fill: #fff2a8; opacity: .35; }
+  .sun { transform: translate(298px, 48px); }
+  .sky-afternoon .sun { transform: translate(250px, 34px); }
+  .sky-evening .sun { transform: translate(300px, 150px); } .sky-evening .sun-c { fill: #ff9d4a; }
+  .sky-night .sun { display: none; }
+  .moon { display: none; transform: translate(298px, 40px); } .sky-night .moon { display: inline; }
+  .moon-cut { fill: var(--s1); }
+  .stars { display: none; } .sky-night .stars { display: inline; }
+  .star { fill: #fff; animation: twinkle 2.6s ease-in-out infinite; }
+  .cloud { fill: #fff; opacity: .92; }
+  .sky-night .cloud { opacity: .18; } .sky-evening .cloud { fill: #ffe9d6; }
+  .cloud.c1 { animation: drift1 38s ease-in-out infinite alternate; }
+  .cloud.c2 { animation: drift2 30s ease-in-out infinite alternate; }
+  @keyframes drift1 { from { transform: translate(70px, 46px); } to { transform: translate(150px, 46px); } }
+  @keyframes drift2 { from { transform: translate(250px, 74px); } to { transform: translate(190px, 74px); } }
+  @keyframes twinkle { 50% { opacity: .25; } }
+  .sky-night .barn, .sky-night .fence, .sky-night .sign { opacity: .82; }
+  .fence rect { fill: #f6e7c8; stroke: #c9a774; stroke-width: .8; }
+  .tuft { stroke: #4f9a35; stroke-width: 2; fill: none; stroke-linecap: round; transform-box: fill-box; transform-origin: 50% 100%; animation: tuft 3.4s ease-in-out infinite alternate; }
+  @keyframes tuft { from { transform: rotate(-4deg); } to { transform: rotate(5deg); } }
+  .soil { fill: #8a5a32; } .soil-top { fill: #a8703f; }
+  .furrow { stroke: #7a4a28; stroke-width: 2; fill: none; opacity: .55; stroke-linecap: round; }
+  .sign-t1 { font: 700 11px var(--sans); fill: #4a2e14; } .sign-t2 { font: 600 10px var(--sans); fill: #5a3a1c; }
+
+  .pl { --leaf: #6cc04a; --leaf-d: #3f8a2a; --stem: #4f9a35; --clump: #6cbf4f; --clump-hi: #93d870; --trunk: #9a6a3c; }
+  .pl-golden { --clump: #5fb68a; --clump-hi: #8fd8b0; }
+  .clump.pink { --clump: #f6a9c6; --clump-hi: #fcd3e2; }
+  .leaf { fill: var(--leaf); stroke: var(--leaf-d); stroke-width: 1; transition: fill 2.5s, stroke 2.5s; }
+  .vein { stroke: var(--leaf-d); stroke-width: .8; opacity: .55; fill: none; transition: stroke 2.5s; }
+  .stem { stroke: var(--stem); fill: none; stroke-linecap: round; transition: stroke 2.5s; }
+  .stem.woody { stroke: #8f7f3e; }
+  .trunk { fill: var(--trunk); stroke: #6b4a2b; stroke-width: 1.2; transition: fill 2s; }
+  .branch { stroke: var(--trunk); stroke-width: 3.5; fill: none; stroke-linecap: round; transition: stroke 2s; }
+  .clump-c { fill: var(--clump); stroke: rgba(0,0,0,.12); transition: fill 2.5s; }
+  .clump-hi { fill: var(--clump-hi); opacity: .8; transition: fill 2.5s; }
+  .stake { stroke: #c9a06a; stroke-width: 3; stroke-linecap: round; } .tie { stroke: #f2e6c8; stroke-width: 1.5; }
+  .vine { stroke: var(--stem); stroke-width: 1.4; }
+  .seed-glow { fill: #fff3a0; opacity: .5; animation: twinkle 1.6s ease-in-out infinite; }
+
+  /* 日常：葉子各自搖、莖微微擺 */
+  .lf, .lf-droop, .clump, .plant-sway, .sf-head, #farm-plant { transform-origin: 0 0; }
+  .lf { animation: leaf-sway 3.2s ease-in-out infinite alternate; }
+  @keyframes leaf-sway { from { transform: rotate(-5deg); } to { transform: rotate(6deg); } }
+  .lf-droop { transition: transform 2.6s ease; }
+  .clump { animation: clump-sway 4s ease-in-out infinite alternate; }
+  @keyframes clump-sway { from { transform: translate(-1px, 0); } to { transform: translate(1.5px, -1px); } }
+  .plant-sway { animation: stem-sway 5s ease-in-out infinite alternate; }
+  @keyframes stem-sway { from { transform: rotate(-1.4deg); } to { transform: rotate(1.4deg); } }
+  .sf-head { animation: stem-sway 4s ease-in-out infinite alternate; }
+  .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 1.8s ease-in-out infinite; }
+  .petal-fall ellipse { animation: petal 5s linear infinite; }
+  .petal-fall ellipse:nth-child(2) { animation-delay: -1.7s; } .petal-fall ellipse:nth-child(3) { animation-delay: -3.4s; }
+  @keyframes petal { from { transform: translate(0, 0) rotate(0); opacity: 1; } to { transform: translate(18px, 80px) rotate(200deg); opacity: 0; } }
+
+  /* 缺水：葉子下垂變黃；救回時慢慢抬起來 */
+  .thirsty .pl { --leaf: #d6c25c; --leaf-d: #a1882c; --stem: #9ba24a; --clump: #cbbf66; --clump-hi: #ddd38d; }
+  .thirsty .clump.pink { --clump: #dcb2a2; --clump-hi: #e9cbbd; }
+  .thirsty .lf-droop.r { transform: rotate(38deg); } .thirsty .lf-droop.l { transform: rotate(-38deg); }
+  .thirsty .plant-sway { animation-duration: 8s; }
+  /* 枯死：變褐色、葉子一片片掉落，最後只剩枯枝 */
+  .dying .pl, .dead .pl { --leaf: #a07a4a; --leaf-d: #6b4a2b; --stem: #8a6a3a; --clump: #a38058; --clump-hi: #b8936a; --trunk: #7a5a3a; }
+  .dying .clump.pink, .dead .clump.pink { --clump: #a38058; --clump-hi: #b8936a; }
+  .falling { animation: fall 1.5s ease-in forwards !important; }
+  @keyframes fall { to { transform: translate(var(--fx, 10px), 80px) rotate(140deg); opacity: 0; } }
+  .dead .lf-droop, .dead .clump, .dead .fruit, .dead .bloom, .dead .sf-head, .dead .bud, .dead .petal-fall, .dead .twinkle { display: none; }
+  .dead .plant-sway, .dead .lf { animation: none; }
+  .dead .stem { stroke-dasharray: none; }
+
+  /* 播種、澆水、成長、收成 */
+  .sowing { animation: seed-drop 1s cubic-bezier(.3,0,.5,1); }
+  @keyframes seed-drop { 0% { transform: translateY(-120px); } 55% { transform: translateY(0); } 70% { transform: translateY(-10px); } 85%, 100% { transform: translateY(0); } }
+  .dust { fill: #7a4a28; opacity: 0; animation: dust .7s ease-out forwards; }
+  @keyframes dust { 0% { opacity: .9; transform: translate(0, -2px); } 100% { opacity: 0; transform: translate(var(--dx), -12px) scale(.4); } }
+  .can { opacity: 0; pointer-events: none; }
+  .can-in { transform-box: fill-box; transform-origin: 50% 50%; }
+  .drop { fill: #5cbcf2; opacity: 0; }
+  .watering .can { animation: can-show 3s ease forwards; }
+  .watering .can-in { animation: can-tilt 3s ease forwards; }
+  .watering .drop { animation: drop .65s ease-in 3; }
+  @keyframes can-show { 0% { opacity: 0; transform: translate(248px, 98px); } 12%, 85% { opacity: 1; transform: translate(224px, 116px); } 100% { opacity: 0; transform: translate(238px, 106px); } }
+  @keyframes can-tilt { 0%, 12% { transform: rotate(0); } 28%, 72% { transform: rotate(-30deg); } 100% { transform: rotate(0); } }
+  @keyframes drop { 0% { opacity: 0; transform: translate(0, 0); } 15% { opacity: 1; } 100% { opacity: 0; transform: translate(-6px, 72px); } }
+  .grow-in { animation: grow-in 1s cubic-bezier(.2,1.4,.4,1); }
+  @keyframes grow-in { 0% { transform: scale(.7); } 60% { transform: scale(1.06); } 100% { transform: scale(1); } }
+  .spark { fill: #ffe066; stroke: #f2b52b; stroke-width: .6; animation: spark 1.2s ease-out forwards; }
+  @keyframes spark { 0% { opacity: 0; transform: translate(0, 0) scale(.4); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--sx), var(--sy)) scale(1.1); } }
+  .picked .fruit-in { animation: pick 1.3s ease-in forwards; }
+  @keyframes pick { 0% { transform: translate(0, 0); } 25% { transform: translate(0, -18px) scale(1.15); } 92% { opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(.55); opacity: 0; } }
+  .basket-in.bump { animation: bump .5s ease; transform-box: fill-box; transform-origin: 50% 100%; }
+  @keyframes bump { 40% { transform: scale(1.15, .9); } 70% { transform: scale(.95, 1.06); } }
+  .ripe #farm-plant .fruit-in { animation: ripe 1.6s ease-in-out infinite; }
+  @keyframes ripe { 50% { transform: translateY(-1.5px) scale(1.06); } }
+
+  .calm .lf, .calm .clump, .calm .plant-sway, .calm .cloud, .calm .tuft, .calm .star, .calm .sf-head, .calm .petal-fall ellipse, .calm .twinkle, .calm .seed-glow, .calm.ripe #farm-plant .fruit-in { animation: none !important; }
+  .mini * { animation: none !important; transition: none !important; }
+  @media (prefers-reduced-motion: reduce) {
+    .farm-scene *, .farm-hint { animation-duration: .01ms !important; animation-iteration-count: 1 !important; animation-delay: 0s !important; }
+  }
+
+  /* 農場卡片 */
+  .farm-msg { margin: 0; } .farm-msg.bad { color: var(--bad); } .farm-msg.warn { color: var(--mid); } .farm-msg.good { color: var(--good); }
+  .card.farm-msg { font-size: 14px; }
+  .water-bar { height: 14px; border-radius: 99px; background: #dcefff; overflow: hidden; }
+  .water-bar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, #6cc6f5, #3d9be0); transition: width .5s; }
+  .water-bar.thirsty { background: #fbe8cf; } .water-bar.thirsty i { background: linear-gradient(90deg, #f6c35a, #ea8f2c); }
+  @media (prefers-color-scheme: dark) { .water-bar { background: #1f3444; } .water-bar.thirsty { background: #3d3020; } }
+  .farm-quick button { font-size: 14px; min-height: 40px; padding: 6px 8px; }
+  .seed-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+  .seed-opt { flex-direction: column; gap: 1px; padding: 6px 2px; min-height: 0; font-size: 12px; background: var(--bg); border: 2px solid transparent; border-radius: 12px; }
+  .seed-opt.on { border-color: var(--accent); background: var(--accent-soft); }
+  .seed-opt b { font-size: 12px; } .seed-opt span { font-size: 10.5px; color: var(--muted); line-height: 1.25; text-align: center; }
+  .mini { width: 100%; max-width: 60px; height: auto; aspect-ratio: 124 / 164; }
+  .mini.locked { filter: grayscale(1) brightness(.35); opacity: .35; }
+  .soil-mini { fill: #a8703f; }
+  .barn-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+  .barn-slot { display: flex; flex-direction: column; align-items: center; gap: 2px; background: var(--bg); border-radius: 12px; padding: 8px 2px; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .barn-slot .q { width: 30px; height: 30px; display: grid; place-items: center; color: var(--muted); font-weight: 700; }
+  .barn-slot.empty .item-ic { opacity: .4; filter: grayscale(.8); }
+  .item-ic { width: 30px; height: 30px; }
+  .ev .item-ic { width: 18px; height: 18px; vertical-align: -4px; }
+  .badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(66px, 1fr)); gap: 8px; }
+  .badge { flex-direction: column; gap: 3px; padding: 8px 2px; min-height: 0; background: var(--bg); border-radius: 14px; font-size: 11px; }
+  .badge-ic { font-size: 24px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--line); filter: grayscale(1); opacity: .45; }
+  .badge.got .badge-ic { filter: none; opacity: 1; background: #fff3c4; box-shadow: inset 0 0 0 2px #f2c443; }
+  .badge-nm { line-height: 1.2; color: var(--muted); } .badge.got .badge-nm { color: var(--ink); font-weight: 600; }
+  .pop-emoji.locked { filter: grayscale(1); opacity: .5; }
+  .pop-svg .item-ic { width: 64px; height: 64px; }
+  .pop-unlock { display: flex; gap: 10px; align-items: center; text-align: left; background: var(--accent-soft); border-radius: 12px; padding: 8px 10px; }
+  .pop-unlock .mini { width: 52px; flex: none; } .pop-unlock p { margin: 0; }
+  .dex { display: flex; flex-direction: column; gap: 10px; text-align: left; max-height: 58vh; overflow: auto; }
+  .dex-item { display: flex; gap: 10px; align-items: center; } .dex-item .mini { width: 60px; flex: none; }
+  .dex-stages { display: flex; flex-wrap: wrap; gap: 3px; margin: 3px 0; }
+  .dex-stages span { font-size: 11px; background: var(--accent-soft); color: var(--accent); border-radius: 99px; padding: 0 6px; }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } button:active { transform: none; } }
 </style>
 </head>
@@ -539,8 +693,11 @@
   </section>
 
   <!-- 複習 -->
-  <!-- 冒險：等級、經驗值、每日學習紀錄 -->
-  <section class="view stack" id="view-adventure" hidden><div class="stack" id="adv-body"></div></section>
+  <!-- 學習農場：上面是農場（farm.js），下面是原本的經驗值、等級與統計（game.js） -->
+  <section class="view stack" id="view-farm" hidden>
+    <div class="stack" id="farm-body"></div>
+    <div class="stack" id="adv-stats"></div>
+  </section>
 
   <section class="view" id="view-review" hidden>
     <div class="seg" style="margin-bottom:12px" id="review-mode">
@@ -560,8 +717,8 @@
     <svg class="i" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>收藏</button>
   <button data-view="review">
     <svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="15" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>複習</button>
-  <button data-view="adventure">
-    <svg class="i" viewBox="0 0 24 24"><path d="M14.5 17.5 3 6V3h3l11.5 11.5"/><path d="m13 19 6-6M16 16l4 4M19 21l2-2"/></svg>冒險</button>
+  <button data-view="farm">
+    <svg class="i" viewBox="0 0 24 24"><path d="M12 21v-9"/><path d="M12 13C12 8.5 9 6 4 6c0 4.5 3 7 8 7Z"/><path d="M12 11c0-4 2.6-6.5 8-6.5 0 4-2.6 6.5-8 6.5Z"/><path d="M7 21h10"/></svg>學習</button>
   <button data-view="conversation">
     <svg class="i" viewBox="0 0 24 24"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H6l-3 2v-6.5A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/></svg>對話</button>
 </nav>
@@ -585,6 +742,11 @@
         <option value="0.7">慢</option>
         <option value="0.9" selected>正常</option>
         <option value="1.05">快</option>
+      </select>
+      <label for="s-farm-anim">學習農場動畫</label>
+      <select id="s-farm-anim">
+        <option value="0">全部開啟</option>
+        <option value="1">減少（關閉葉子搖擺、雲朵等背景動畫）</option>
       </select>
     </div>
     <div>
@@ -632,6 +794,7 @@
 <script src="topics.js"></script>
 <script src="quiz.js"></script>
 <script src="game.js"></script>
+<script src="farm.js"></script>
 <script src="dictionary.js"></script>
 </body>
 </html>

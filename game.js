@@ -22,11 +22,13 @@ const Game = (() => {
   const need = L => (L - 1) * (20 * L + 60);
   const levelOf = xp => { let L = 1; while (L < MAX_LEVEL && need(L + 1) <= xp) L++; return L; };
 
-  const dayKey = (d = new Date()) => {
-    const p = n => String(n).padStart(2, '0');
-    return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
-  };
-  const addDays = (key, n) => { const [y, m, d] = key.split('-').map(Number); return dayKey(new Date(y, m - 1, d + n)); };
+  // 每日進度一律用台灣時間（UTC+8，台灣沒有日光節約時間），不受手機時區設定影響
+  const TW = 8 * 3600000;
+  const p2 = n => String(n).padStart(2, '0');
+  const ymd = d => `${d.getUTCFullYear()}-${p2(d.getUTCMonth() + 1)}-${p2(d.getUTCDate())}`;
+  const dayKey = (t = Date.now()) => ymd(new Date((t instanceof Date ? t.getTime() : t) + TW));
+  const twHour = (t = Date.now()) => new Date(t + TW).getUTCHours();
+  const addDays = (key, n) => { const [y, m, d] = key.split('-').map(Number); return ymd(new Date(Date.UTC(y, m - 1, d + n))); };
 
   const fresh = () => ({ xp: 0, start: dayKey(), checked: addDays(dayKey(), -1), days: {}, events: [], lastTs: 0 });
   let st = fresh();
@@ -89,7 +91,9 @@ const Game = (() => {
     if (lvAfter > lvBefore) setTimeout(() => celebrate('up', { before: lvBefore, after: lvAfter }), 700);
     else if (bonus) toast(`🎯 今日目標達成！+${gain + bonus} XP`, 2200);
     else if (gain) toast(`+${gain} XP`, 900);
-    if (currentView === 'adventure') render();
+    // 通知學習農場（澆水、成就）；農場出錯不能影響原本的計分
+    try { window.Farm?.onPractice({ kind, arg, day: dayKey(now), n: d.n, hour: twHour(now) }); } catch (e) { console.error('[farm]', e); }
+    if (currentView === 'farm') render();
   }
 
   // ---------- 畫面 ----------
@@ -130,7 +134,7 @@ const Game = (() => {
   }
 
   function render() {
-    const box = document.getElementById('adv-body');
+    const box = document.getElementById('adv-stats');
     if (!box) return;
     settle();
     const days = last7(), d = st.days[dayKey()] || { n: 0, xp: 0, sec: 0 };
@@ -146,6 +150,7 @@ const Game = (() => {
         : `⚠️ 今天還沒練習。今天沒練，明天打開 App 會扣 ${PENALTY} XP。`)
       : d.n < GOAL ? `再練 ${GOAL - d.n} 題就達成今日目標，額外獲得 ${GOAL_BONUS} XP！` : `🎯 今日目標達成！今天已經安全了。`;
     box.innerHTML = `
+      <h3 class="adv-h">學習統計</h3>
       <div class="card hero">
         <div class="hero-av">${t[1]}</div>
         <div class="grow">
@@ -158,16 +163,7 @@ const Game = (() => {
         <div><b>🔥 ${sk}</b> 天<div class="muted">連續學習${mult ? `・XP +${mult}%` : ''}</div></div>
         <div><b>⭐ ${st.xp}</b><div class="muted">累計經驗值</div></div>
       </div>
-      <div class="card stack today-card${d.n === 0 ? ' danger' : ''}">
-        <div class="row"><h3 class="grow">今日任務</h3><span class="chip">${d.n} / ${GOAL} 題</span></div>
-        <div class="xpbar goalbar"><i style="width:${Math.min(100, (d.n / GOAL) * 100)}%"></i></div>
-        <div class="muted">${danger}</div>
-        <div class="row wrap">
-          <button class="grow primary" data-adv="review">翻卡複習</button>
-          <button class="grow" data-adv="home">主題測驗</button>
-          <button class="grow" data-adv="practice">發音練習</button>
-        </div>
-      </div>
+      <div class="card xp-hint${d.n === 0 ? ' danger' : ''}"><div class="muted">${danger}</div></div>
 
       <h3 class="adv-h">練習次數</h3>
       <div class="card">
@@ -226,7 +222,7 @@ const Game = (() => {
     return true;
   }
 
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) { settle(); if (currentView === 'adventure') render(); } });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) { settle(); if (currentView === 'farm') render(); } });
   settle();
-  return { award, render, exportData, importData, levelOf, need, GOAL };
+  return { award, render, exportData, importData, levelOf, need, GOAL, dayKey, addDays, twHour, days: () => st.days };
 })();

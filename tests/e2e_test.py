@@ -502,8 +502,13 @@ def main():
         check('10. 網路或 API 失敗時顯示提示', t_online_fail)
 
         def t_layout():
-            for view in ['home', 'dict', 'list', 'review', 'adventure']:
+            for view in ['home', 'dict', 'list', 'review', 'farm']:
                 page.click(f'nav [data-view={view}]')
+                # 學習農場可能跳出成就視窗（例如半夜跑測試會解鎖「夜貓子」），先關掉
+                page.wait_for_timeout(300)
+                while page.locator('#farm-sheet').is_visible():
+                    page.click('#farm-sheet [data-close]')
+                    page.wait_for_timeout(300)
                 over = page.evaluate('document.documentElement.scrollWidth - window.innerWidth')
                 assert over <= 0, f'{view} 頁面左右溢出 {over}px'
             page.click('nav [data-view=home]')

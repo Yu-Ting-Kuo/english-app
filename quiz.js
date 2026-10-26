@@ -220,6 +220,11 @@ const Quiz = (() => {
   function renderEnd(box) {
     const total = st.questions.length;
     const pct = Math.round((st.correct / total) * 100);
+    // 學習農場「百發百中」：測驗模式全部答對（每次測驗只通知一次）
+    if (st.opts.mode === 'test' && total > 0 && st.correct === total && !st.wrong.length && !st.perfectSent) {
+      st.perfectSent = true;
+      try { window.Farm?.onQuizPerfect(); } catch (e) { console.error('[farm]', e); }
+    }
     const msg = pct >= 90 ? '太厲害了！這些字你都掌握了。' : pct >= 70 ? '不錯！再複習一下答錯的字。' : '多練習幾次，答錯的字可以加入收藏慢慢複習。';
     box.innerHTML = `
       <button class="ghost back" id="quiz-quit">← ${esc(st.opts.title)}</button>
