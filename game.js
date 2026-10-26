@@ -13,8 +13,9 @@ const Game = (() => {
   const XP = { quizRight: 10, review: 15, speakGood: 20, speakTry: 5 };
 
   const TIERS = [
-    [1, '🧑‍🌾', '見習村民'], [3, '📘', '單字學徒'], [6, '🧭', '詞彙旅人'], [10, '⚔️', '文法劍士'],
-    [15, '🛡️', '詞彙騎士'], [20, '🔮', '語言法師'], [30, '📜', '辭典賢者'], [40, '👑', '傳說勇者'],
+    [1, '🧑‍🌾', '見習村民', 'Village Apprentice'], [3, '📘', '單字學徒', 'Word Apprentice'], [6, '🧭', '詞彙旅人', 'Vocabulary Traveler'],
+    [10, '⚔️', '文法劍士', 'Grammar Swordsman'], [15, '🛡️', '詞彙騎士', 'Word Knight'], [20, '🔮', '語言法師', 'Language Mage'],
+    [30, '📜', '辭典賢者', 'Dictionary Sage'], [40, '👑', '傳說勇者', 'Legendary Hero'],
   ];
   const tierOf = lv => [...TIERS].reverse().find(t => lv >= t[0]);
 
@@ -35,7 +36,11 @@ const Game = (() => {
   try { Object.assign(st, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch {}
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch {} };
   const today = () => (st.days[dayKey()] ||= { n: 0, xp: 0, sec: 0, goal: false });
-  const log = text => { st.events.unshift({ t: Date.now(), text }); st.events.length = Math.min(st.events.length, 30); };
+  const log = (text, en = '') => { st.events.unshift({ t: Date.now(), text, en }); st.events.length = Math.min(st.events.length, 30); };
+  // 中英對照：標題旁的英文、句子下面的英文（學英文的 App，介面也順便練英文）
+  const en = t => `<span class="en" lang="en">${t}</span>`;
+  const enLine = t => `<span class="en-line" lang="en">${t}</span>`;
+  const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
 
   // 連續學習天數：今天有練就算今天，今天還沒練就從昨天往回算
   function streak() {
@@ -61,7 +66,8 @@ const Game = (() => {
       const loss = Math.min(st.xp, days * PENALTY);
       st.xp -= loss;
       const after = levelOf(st.xp);
-      if (loss) log(`缺席 ${missed} 天，失去 ${loss} XP` + (after < before ? `，從 Lv.${before} 降到 Lv.${after}` : ''));
+      if (loss) log(`缺席 ${missed} 天，失去 ${loss} XP` + (after < before ? `，從 Lv.${before} 降到 Lv.${after}` : ''),
+        `Missed ${plural(missed, 'day')}, lost ${loss} XP` + (after < before ? `, dropped from Lv.${before} to Lv.${after}` : ''));
       save();
       if (loss) setTimeout(() => celebrate(after < before ? 'down' : 'loss', { missed, loss, before, after }), 400);
     } else save();
@@ -82,14 +88,14 @@ const Game = (() => {
     d.n++;
     let gain = Math.round(base * multiplier());
     let bonus = 0;
-    if (!d.goal && d.n >= GOAL) { d.goal = true; bonus = GOAL_BONUS; log(`達成今日目標 ${GOAL} 題，獲得 ${GOAL_BONUS} XP`); }
+    if (!d.goal && d.n >= GOAL) { d.goal = true; bonus = GOAL_BONUS; log(`達成今日目標 ${GOAL} 題，獲得 ${GOAL_BONUS} XP`, `Daily goal of ${GOAL} questions reached, +${GOAL_BONUS} XP`); }
     st.xp += gain + bonus;
     d.xp += gain + bonus;
     const lvAfter = levelOf(st.xp);
-    if (lvAfter > lvBefore) log(`升級！Lv.${lvBefore} → Lv.${lvAfter}　${tierOf(lvAfter)[2]}`);
+    if (lvAfter > lvBefore) log(`升級！Lv.${lvBefore} → Lv.${lvAfter}　${tierOf(lvAfter)[2]}`, `Level up! Lv.${lvBefore} → Lv.${lvAfter}, ${tierOf(lvAfter)[3]}`);
     save();
     if (lvAfter > lvBefore) setTimeout(() => celebrate('up', { before: lvBefore, after: lvAfter }), 700);
-    else if (bonus) toast(`🎯 今日目標達成！+${gain + bonus} XP`, 2200);
+    else if (bonus) toast(`🎯 今日目標達成！Goal reached! +${gain + bonus} XP`, 2200);
     else if (gain) toast(`+${gain} XP`, 900);
     // 通知學習農場（澆水、成就）；農場出錯不能影響原本的計分
     try { window.Farm?.onPractice({ kind, arg, day: dayKey(now), n: d.n, hour: twHour(now) }); } catch (e) { console.error('[farm]', e); }
@@ -108,11 +114,11 @@ const Game = (() => {
     }
     const t = o.after ? tierOf(o.after) : null;
     const html = {
-      up: `<div class="pop-emoji">🎉</div><h2>升級了！</h2><p class="pop-big">Lv.${o.before} → Lv.${o.after}</p><p>${t[1]} 你現在是「${t[2]}」</p>`,
-      loss: `<div class="pop-emoji">💤</div><h2>勇者休息太久了</h2><p>你有 ${o.missed} 天沒有練習，失去了 <b>${o.loss} XP</b>。</p><p class="muted">今天練習 ${GOAL} 題就能慢慢補回來。</p>`,
-      down: `<div class="pop-emoji">💥</div><h2>等級下降了…</h2><p class="pop-big">Lv.${o.before} → Lv.${o.after}</p><p>缺席 ${o.missed} 天，失去了 <b>${o.loss} XP</b>。</p><p class="muted">每天練習就不會再掉了，加油！</p>`,
+      up: `<div class="pop-emoji">🎉</div><h2>升級了！${enLine('Level up!')}</h2><p class="pop-big">Lv.${o.before} → Lv.${o.after}</p><p>${t[1]} 你現在是「${t[2]}」${enLine(`You are now a ${t[3]}.`)}</p>`,
+      loss: `<div class="pop-emoji">💤</div><h2>勇者休息太久了${enLine('You rested too long')}</h2><p>你有 ${o.missed} 天沒有練習，失去了 <b>${o.loss} XP</b>。${enLine(`You skipped ${plural(o.missed, 'day')} and lost <b>${o.loss} XP</b>.`)}</p><p class="muted">今天練習 ${GOAL} 題就能慢慢補回來。${enLine(`Practice ${GOAL} questions today to start earning it back.`)}</p>`,
+      down: `<div class="pop-emoji">💥</div><h2>等級下降了…${enLine('Level down…')}</h2><p class="pop-big">Lv.${o.before} → Lv.${o.after}</p><p>缺席 ${o.missed} 天，失去了 <b>${o.loss} XP</b>。${enLine(`You skipped ${plural(o.missed, 'day')} and lost <b>${o.loss} XP</b>.`)}</p><p class="muted">每天練習就不會再掉了，加油！${enLine('Practice every day and it won’t happen again. You can do it!')}</p>`,
     }[type];
-    el.querySelector('.sheet').innerHTML = html + '<button class="primary full" data-close>' + (type === 'up' ? '繼續冒險' : '我要重振旗鼓') + '</button>';
+    el.querySelector('.sheet').innerHTML = html + '<button class="primary full" data-close>' + (type === 'up' ? '繼續冒險 Keep going' : '我要重振旗鼓 I’ll bounce back') + '</button>';
     el.hidden = false;
   }
 
@@ -144,61 +150,63 @@ const Game = (() => {
     const total7 = days.reduce((s, x) => s + x.n, 0);
     const min7 = Math.round(days.reduce((s, x) => s + x.sec, 0) / 60);
     const todayMin = Math.round(d.sec / 60);
+    const drop = levelOf(st.xp - PENALTY);
     const danger = d.n === 0
       ? (st.xp - PENALTY < lo && lv > 1
-        ? `⚠️ 今天還沒練習。明天打開 App 會扣 ${PENALTY} XP，<b>你會從 Lv.${lv} 降到 Lv.${levelOf(st.xp - PENALTY)}</b>！`
-        : `⚠️ 今天還沒練習。今天沒練，明天打開 App 會扣 ${PENALTY} XP。`)
-      : d.n < GOAL ? `再練 ${GOAL - d.n} 題就達成今日目標，額外獲得 ${GOAL_BONUS} XP！` : `🎯 今日目標達成！今天已經安全了。`;
+        ? `⚠️ 今天還沒練習。明天打開 App 會扣 ${PENALTY} XP，<b>你會從 Lv.${lv} 降到 Lv.${drop}</b>！${enLine(`You haven't practiced today. Tomorrow you'll lose ${PENALTY} XP and <b>drop from Lv.${lv} to Lv.${drop}</b>!`)}`
+        : `⚠️ 今天還沒練習。今天沒練，明天打開 App 會扣 ${PENALTY} XP。${enLine(`You haven't practiced today. If you skip today, you'll lose ${PENALTY} XP tomorrow.`)}`)
+      : d.n < GOAL ? `再練 ${GOAL - d.n} 題就達成今日目標，額外獲得 ${GOAL_BONUS} XP！${enLine(`${plural(GOAL - d.n, 'more question')} to reach today's goal and earn a ${GOAL_BONUS} XP bonus!`)}`
+      : `🎯 今日目標達成！今天已經安全了。${enLine(`Daily goal reached! You're safe for today.`)}`;
     box.innerHTML = `
-      <h3 class="adv-h">學習統計</h3>
+      <h3 class="adv-h">學習統計 ${en('Learning Stats')}</h3>
       <div class="card hero">
         <div class="hero-av">${t[1]}</div>
         <div class="grow">
-          <div class="hero-lv">Lv.${lv} <span>${t[2]}</span></div>
+          <div class="hero-lv">Lv.${lv} <span>${t[2]}</span>${en(t[3])}</div>
           <div class="xpbar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
-          <div class="muted">${lv >= MAX_LEVEL ? '已達最高等級' : `經驗值 ${st.xp - lo} / ${hi - lo}（距離升級還差 ${hi - st.xp}）`}</div>
+          <div class="muted">${lv >= MAX_LEVEL ? `已達最高等級${enLine('Max level reached')}` : `經驗值 ${st.xp - lo} / ${hi - lo}（距離升級還差 ${hi - st.xp}）${enLine(`XP ${st.xp - lo} / ${hi - lo} (${hi - st.xp} to next level)`)}`}</div>
         </div>
       </div>
       <div class="card hero-sub">
-        <div><b>🔥 ${sk}</b> 天<div class="muted">連續學習${mult ? `・XP +${mult}%` : ''}</div></div>
-        <div><b>⭐ ${st.xp}</b><div class="muted">累計經驗值</div></div>
+        <div><b>🔥 ${sk}</b> 天<div class="muted">連續學習${mult ? `・XP +${mult}%` : ''}${enLine(`${plural(sk, 'day')} in a row`)}</div></div>
+        <div><b>⭐ ${st.xp}</b><div class="muted">累計經驗值${enLine('Total XP')}</div></div>
       </div>
       <div class="card xp-hint${d.n === 0 ? ' danger' : ''}"><div class="muted">${danger}</div></div>
 
-      <h3 class="adv-h">練習次數</h3>
+      <h3 class="adv-h">練習次數 ${en('Practice Count')}</h3>
       <div class="card">
-        ${bars(days, x => x.n, GOAL, 30, '題', '目標')}
-        <div class="adv-foot"><div><b class="big">${total7}</b> 題<div class="muted">過去 7 天共練習</div></div>
-          <div class="r"><b class="big">${d.n}</b> / ${GOAL}<div class="muted">今日練習</div></div></div>
+        ${bars(days, x => x.n, GOAL, 30, '題', '目標 Goal')}
+        <div class="adv-foot"><div><b class="big">${total7}</b> 題<div class="muted">過去 7 天共練習${enLine('Past 7 days')}</div></div>
+          <div class="r"><b class="big">${d.n}</b> / ${GOAL}<div class="muted">今日練習${enLine('Today')}</div></div></div>
       </div>
 
-      <h3 class="adv-h">連續學習</h3>
+      <h3 class="adv-h">連續學習 ${en('Study Streak')}</h3>
       <div class="card">
         <div class="streak-row">${days.map(x => `<div><div class="bolt${x.n > 0 ? ' on' : ''}${x.isToday ? ' today' : ''}">⚡</div><div class="gday${x.isToday ? ' today' : ''}">${x.wd}</div></div>`).join('')}</div>
-        <div class="muted" style="margin-top:8px">連續學習 <b class="big">${sk}</b> 天　最近 7 天有 ${days.filter(x => x.n > 0).length} 天學習</div>
+        <div class="muted" style="margin-top:8px">連續學習 <b class="big">${sk}</b> 天　最近 7 天有 ${days.filter(x => x.n > 0).length} 天學習${enLine(`${plural(sk, 'day')} in a row · studied on ${days.filter(x => x.n > 0).length} of the last 7 days`)}</div>
       </div>
 
-      <h3 class="adv-h">學習時間</h3>
+      <h3 class="adv-h">學習時間 ${en('Study Time')}</h3>
       <div class="card">
-        ${bars(days, x => Math.round(x.sec / 60), TIME_GOAL, 20, '分', '目標')}
-        <div class="adv-foot"><div><b class="big">${min7}</b> 分<div class="muted">過去 7 天共學習</div></div>
-          <div class="r"><b class="big">${todayMin}</b> / ${TIME_GOAL}<div class="muted">今日學習（分）</div></div></div>
+        ${bars(days, x => Math.round(x.sec / 60), TIME_GOAL, 20, '分', '目標 Goal')}
+        <div class="adv-foot"><div><b class="big">${min7}</b> 分<div class="muted">過去 7 天共學習${enLine('Minutes, past 7 days')}</div></div>
+          <div class="r"><b class="big">${todayMin}</b> / ${TIME_GOAL}<div class="muted">今日學習（分）${enLine('Minutes today')}</div></div></div>
       </div>
 
-      <h3 class="adv-h">冒險紀錄</h3>
+      <h3 class="adv-h">冒險紀錄 ${en('Activity Log')}</h3>
       <div class="card">${st.events.length
-        ? st.events.slice(0, 8).map(e => `<div class="ev"><span class="muted">${fmtDate(e.t)}</span> ${esc(e.text)}</div>`).join('')
-        : '<div class="muted">還沒有紀錄。答對一題就會得到第一筆經驗值！</div>'}</div>
+        ? st.events.slice(0, 8).map(e => `<div class="ev"><span class="muted">${fmtDate(e.t)}</span> ${esc(e.text)}${e.en ? enLine(esc(e.en)) : ''}</div>`).join('')
+        : `<div class="muted">還沒有紀錄。答對一題就會得到第一筆經驗值！${enLine('Nothing yet. Answer one question correctly to earn your first XP!')}</div>`}</div>
 
       <details class="card rules">
-        <summary>經驗值與扣分規則</summary>
+        <summary>經驗值與扣分規則 ${en('XP Rules')}</summary>
         <ul class="muted">
-          <li>測驗答對一題 <b>+${XP.quizRight}</b> XP；翻卡複習「記住了」<b>+${XP.review}</b> XP（同一個字只在第一次記住時給）。</li>
-          <li>發音練習 70 分以上 <b>+${XP.speakGood}</b> XP，其他 <b>+${XP.speakTry}</b> XP。</li>
-          <li>每天練習 ${GOAL} 題，額外 <b>+${GOAL_BONUS}</b> XP。</li>
-          <li>連續學習每多一天，XP 多 10%，最高 +50%。</li>
-          <li>某一天完全沒練習，隔天打開 App 會扣 <b>${PENALTY}</b> XP，扣到低於目前等級門檻就會<b>降級</b>。一次最多結算 ${MAX_PENALTY_DAYS} 天，等級最低是 Lv.1。</li>
-          <li>練習次數包含答錯的題目，只是答錯不給 XP。</li>
+          <li>測驗答對一題 <b>+${XP.quizRight}</b> XP；翻卡複習「記住了」<b>+${XP.review}</b> XP（同一個字只在第一次記住時給）。${enLine(`Correct quiz answer: +${XP.quizRight} XP. Flashcard “Got it”: +${XP.review} XP (only the first time for each word).`)}</li>
+          <li>發音練習 70 分以上 <b>+${XP.speakGood}</b> XP，其他 <b>+${XP.speakTry}</b> XP。${enLine(`Pronunciation score of 70 or above: +${XP.speakGood} XP; otherwise +${XP.speakTry} XP.`)}</li>
+          <li>每天練習 ${GOAL} 題，額外 <b>+${GOAL_BONUS}</b> XP。${enLine(`Practice ${GOAL} questions in a day for a +${GOAL_BONUS} XP bonus.`)}</li>
+          <li>連續學習每多一天，XP 多 10%，最高 +50%。${enLine('Each day of your streak adds 10% more XP, up to +50%.')}</li>
+          <li>某一天完全沒練習，隔天打開 App 會扣 <b>${PENALTY}</b> XP，扣到低於目前等級門檻就會<b>降級</b>。一次最多結算 ${MAX_PENALTY_DAYS} 天，等級最低是 Lv.1。${enLine(`Skip a whole day and you lose ${PENALTY} XP the next time you open the app, which can drop your level. At most ${MAX_PENALTY_DAYS} days are counted at once, and you never go below Lv.1.`)}</li>
+          <li>練習次數包含答錯的題目，只是答錯不給 XP。${enLine('Wrong answers count toward your practice total but give no XP.')}</li>
         </ul>
       </details>`;
     box.querySelectorAll('[data-adv]').forEach(b => b.onclick = () => {

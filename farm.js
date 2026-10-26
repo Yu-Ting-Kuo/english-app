@@ -22,15 +22,22 @@ const Farm = (() => {
 
   // ---------- 作物 ----------
   const STAGES = ['種子', '發芽', '幼苗', '長葉', '開花', '結果', '可收成'];
+  const STAGES_EN = ['Seed', 'Sprout', 'Seedling', 'Leafy', 'Flowering', 'Fruiting', 'Ready to Harvest'];
   const CROPS = [
-    { id: 'tomato', name: '小番茄', days: 3, item: '番茄', stages: STAGES },
-    { id: 'sunflower', name: '向日葵', days: 5, item: '向日葵', stages: STAGES },
-    { id: 'apple', name: '蘋果樹', days: 7, item: '蘋果', stages: STAGES },
-    { id: 'cherry', name: '櫻花樹', days: 14, item: '櫻桃', stages: ['種子', '發芽', '幼苗', '長葉', '開花', '滿開', '可收成'] },
-    { id: 'golden', name: '金蘋果樹', days: 30, item: '金蘋果', stages: STAGES },
+    { id: 'tomato', name: '小番茄', en: 'Cherry Tomato', days: 3, item: '番茄', itemEn: 'tomatoes', stages: STAGES, stagesEn: STAGES_EN },
+    { id: 'sunflower', name: '向日葵', en: 'Sunflower', days: 5, item: '向日葵', itemEn: 'a sunflower', stages: STAGES, stagesEn: STAGES_EN },
+    { id: 'apple', name: '蘋果樹', en: 'Apple Tree', days: 7, item: '蘋果', itemEn: 'apples', stages: STAGES, stagesEn: STAGES_EN },
+    { id: 'cherry', name: '櫻花樹', en: 'Cherry Tree', days: 14, item: '櫻桃', itemEn: 'cherries', stages: ['種子', '發芽', '幼苗', '長葉', '開花', '滿開', '可收成'],
+      stagesEn: ['Seed', 'Sprout', 'Seedling', 'Leafy', 'Flowering', 'Full Bloom', 'Ready to Harvest'] },
+    { id: 'golden', name: '金蘋果樹', en: 'Golden Apple Tree', days: 30, item: '金蘋果', itemEn: 'golden apples', stages: STAGES, stagesEn: STAGES_EN },
   ];
+  // 中英對照：學英文的 App，介面也順便練英文。英文點一下會念出來（用 App 的發音設定）
+  const en = t => `<span class="en" lang="en">${t}</span>`;
+  const enLine = t => `<span class="en-line" lang="en">${t}</span>`;
+  const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
   const CROP = Object.fromEntries(CROPS.map((c, i) => [c.id, { ...c, i }]));
   const unlockText = c => { const i = CROP[c.id].i; return i === 0 ? '一開始就能種' : `收成「${CROPS[i - 1].name}」後解鎖`; };
+  const unlockEn = c => { const i = CROP[c.id].i; return i === 0 ? 'Available from the start' : `Unlocks after you harvest the ${CROPS[i - 1].en}`; };
 
   // 成長天數 → 7 個階段（0 種子 … 6 可收成）。不同天數的作物各自分配，成熟前一天一定是「結果」（櫻花樹為「滿開」）
   function stageOf(g, need) {
@@ -42,20 +49,20 @@ const Farm = (() => {
 
   // ---------- 成就 ----------
   const ACH = [
-    { id: 'seed', icon: '🌱', name: '第一顆種子', desc: '第一次播種' },
-    { id: 'harvest', icon: '🧺', name: '初次收成', desc: '第一次成功收成' },
-    { id: 's7', icon: '🔥', name: '一週不間斷', desc: '連續 7 天，每天完成 15 題' },
-    { id: 's30', icon: '📅', name: '月月耕耘', desc: '連續 30 天，每天完成 15 題' },
-    { id: 's100', icon: '🏆', name: '百日農夫', desc: '連續 100 天，每天完成 15 題' },
-    { id: 'rescue', icon: '💧', name: '起死回生', desc: '植物缺水時，一天完成 30 題把它救回來' },
-    { id: 'perfect', icon: '🌳', name: '完美栽培', desc: '櫻花樹或金蘋果樹（14 天以上的作物）從播種到收成都沒有缺水' },
-    { id: 'dex', icon: '📖', name: '植物圖鑑', desc: '五種作物都至少收成一次' },
-    { id: 'big', icon: '🌾', name: '豐收日', desc: '單日完成 50 題' },
-    { id: 'quiz', icon: '🎯', name: '百發百中', desc: '主題測驗（測驗模式）全部答對' },
-    { id: 'speak', icon: '🎤', name: '字正腔圓', desc: '發音評分 90 分以上，累計 10 次' },
-    { id: 'owl', icon: '🦉', name: '夜貓子', desc: '在凌晨 00:00–04:59 練習（台灣時間）' },
-    { id: 'bird', icon: '🐦', name: '早起鳥', desc: '在早上 05:00–06:59 練習（台灣時間）' },
-    { id: 'k1000', icon: '📚', name: '千題達人', desc: '累計練習 1,000 題' },
+    { id: 'seed', icon: '🌱', name: '第一顆種子', desc: '第一次播種', en: 'First Seed', descEn: 'Plant your first seed' },
+    { id: 'harvest', icon: '🧺', name: '初次收成', desc: '第一次成功收成', en: 'First Harvest', descEn: 'Harvest a crop for the first time' },
+    { id: 's7', icon: '🔥', name: '一週不間斷', desc: '連續 7 天，每天完成 15 題', en: 'Week-Long Streak', descEn: 'Do 15 questions a day for 7 days in a row' },
+    { id: 's30', icon: '📅', name: '月月耕耘', desc: '連續 30 天，每天完成 15 題', en: 'Month of Effort', descEn: 'Do 15 questions a day for 30 days in a row' },
+    { id: 's100', icon: '🏆', name: '百日農夫', desc: '連續 100 天，每天完成 15 題', en: '100-Day Farmer', descEn: 'Do 15 questions a day for 100 days in a row' },
+    { id: 'rescue', icon: '💧', name: '起死回生', desc: '植物缺水時，一天完成 30 題把它救回來', en: 'Back from the Brink', descEn: 'Save a thirsty plant by doing 30 questions in one day' },
+    { id: 'perfect', icon: '🌳', name: '完美栽培', desc: '櫻花樹或金蘋果樹（14 天以上的作物）從播種到收成都沒有缺水', en: 'Perfect Grower', descEn: 'Grow a cherry tree or golden apple tree (14+ days) without it ever getting thirsty' },
+    { id: 'dex', icon: '📖', name: '植物圖鑑', desc: '五種作物都至少收成一次', en: 'Plant Collector', descEn: 'Harvest all five crops at least once' },
+    { id: 'big', icon: '🌾', name: '豐收日', desc: '單日完成 50 題', en: 'Bumper Crop Day', descEn: 'Do 50 questions in one day' },
+    { id: 'quiz', icon: '🎯', name: '百發百中', desc: '主題測驗（測驗模式）全部答對', en: "Bull's-Eye", descEn: 'Get every question right on a topic test (test mode)' },
+    { id: 'speak', icon: '🎤', name: '字正腔圓', desc: '發音評分 90 分以上，累計 10 次', en: 'Crystal Clear', descEn: 'Score 90 or higher on pronunciation 10 times' },
+    { id: 'owl', icon: '🦉', name: '夜貓子', desc: '在凌晨 00:00–04:59 練習（台灣時間）', en: 'Night Owl', descEn: 'Practice between 12:00 and 4:59 a.m. (Taiwan time)' },
+    { id: 'bird', icon: '🐦', name: '早起鳥', desc: '在早上 05:00–06:59 練習（台灣時間）', en: 'Early Bird', descEn: 'Practice between 5:00 and 6:59 a.m. (Taiwan time)' },
+    { id: 'k1000', icon: '📚', name: '千題達人', desc: '累計練習 1,000 題', en: 'Thousand-Question Master', descEn: 'Practice 1,000 questions in total' },
   ];
   const ACHMAP = Object.fromEntries(ACH.map(a => [a.id, a]));
 
@@ -190,7 +197,7 @@ const Farm = (() => {
     if (currentView === 'farm' && !document.hidden) queuePop({ type: 'ach', id });
     else {
       F.pendingPops.push({ type: 'ach', id });
-      toast(`🏅 解鎖成就「${ACHMAP[id].name}」`, 2600);
+      toast(`🏅 解鎖成就「${ACHMAP[id].name}」${ACHMAP[id].en}`, 2600);
     }
     save();
     return true;
@@ -233,10 +240,10 @@ const Farm = (() => {
     let msg = '';
     if (before && F.plant) {
       const p = F.plant, name = CROP[p.crop].name;
-      if (before.s === 'thirsty' && p.status !== 'thirsty' && p.rescues.includes(day)) msg = `💧 救回${name}了！它又恢復精神`;
-      else if (p.growth > before.g) msg = p.status === 'mature' ? `🌟 ${name}成熟了！到「學習」收成` : `💧 今日澆水完成！${name}長大一天`;
-      else if (before.s === 'thirsty' && n === GOAL) msg = `💧 ${name}撐住了，完成 ${RESCUE} 題才能救回`;
-    } else if (!before && n === GOAL) msg = '💧 今天練習達標！到「學習」播種吧';
+      if (before.s === 'thirsty' && p.status !== 'thirsty' && p.rescues.includes(day)) msg = `💧 救回${name}了！Your ${CROP[p.crop].en} is saved!`;
+      else if (p.growth > before.g) msg = p.status === 'mature' ? `🌟 ${name}成熟了！Ready to harvest!` : `💧 今日澆水完成！Watered! Your plant grew.`;
+      else if (before.s === 'thirsty' && n === GOAL) msg = `💧 ${name}撐住了 It's holding on. ${RESCUE} to save it!`;
+    } else if (!before && n === GOAL) msg = '💧 今天練習達標！Goal reached! Plant a seed.';
     if (msg) setTimeout(() => toast(msg, 2600), 2300);   // 等原本的 XP 提示顯示完
     checkRecords();
     if (currentView === 'farm') render();
@@ -364,16 +371,16 @@ const Farm = (() => {
 
   // ---------- 場景 ----------
   function skyPeriod(h = Game.twHour()) {
-    if (h >= 5 && h < 12) return ['morning', '早上'];
-    if (h >= 12 && h < 18) return ['afternoon', '下午'];
-    if (h >= 18 && h < 23) return ['evening', '傍晚'];
-    return ['night', '晚上'];
+    if (h >= 5 && h < 12) return ['morning', `早上${en('Morning')}`];
+    if (h >= 12 && h < 18) return ['afternoon', `下午${en('Afternoon')}`];
+    if (h >= 18 && h < 23) return ['evening', `傍晚${en('Evening')}`];
+    return ['night', `晚上${en('Night')}`];
   }
   function sceneSvg(pl, st, sky) {
     const c = CROP[pl ? pl.crop : (pickedCrop || pickDefault())];
-    const sign = pl ? (pl.deadDay ? '已枯死' : `第 ${pl.growth} / ${pl.need} 天`) : '準備播種';
+    const sign = pl ? (pl.deadDay ? '已枯死 Withered' : `第 ${pl.growth}/${pl.need} 天 Day ${pl.growth}`) : '準備播種 Ready';
     const stars = Array.from({ length: 14 }, (_, i) => `<circle class="star" style="animation-delay:${(i * .37 % 2.5).toFixed(2)}s" cx="${(i * 53 + 17) % 350 + 5}" cy="${(i * 29 + 11) % 80 + 6}" r="${i % 3 ? 1 : 1.6}"/>`).join('');
-    return `<svg class="farm-svg sky-${sky}" viewBox="0 0 360 240" role="img" aria-label="農場：${esc(c.name)}，${pl ? esc(c.stages[st]) : '還沒播種'}">
+    return `<svg class="farm-svg sky-${sky}" viewBox="0 0 360 240" role="img" aria-label="農場 Farm：${esc(c.name)} ${esc(c.en)}，${pl ? `${esc(c.stages[st])} ${esc(c.stagesEn[st])}` : '還沒播種 not planted yet'}">
       <defs><linearGradient id="f-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="sky1"/><stop offset="1" class="sky2"/></linearGradient>
         <linearGradient id="f-grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="grass1"/><stop offset="1" class="grass2"/></linearGradient></defs>
       <rect width="360" height="240" fill="url(#f-sky)"/>
@@ -391,8 +398,8 @@ const Farm = (() => {
       <g class="fence">${Array.from({ length: 9 }, (_, i) => `<rect x="${236 + i * 14}" y="160" width="5" height="22" rx="2"/>`).join('')}<rect x="232" y="166" width="126" height="3.5" rx="1.5"/><rect x="232" y="175" width="126" height="3.5" rx="1.5"/></g>
       <g class="tufts">${[[20, 222], [96, 232], [272, 230], [340, 216], [120, 186], [250, 190]].map(([x, y], i) => `<g transform="translate(${x} ${y})"><path class="tuft" style="animation-delay:${-i * .5}s" d="M-5 0Q-6 -8 -3 -12M0 0Q0 -10 1 -14M5 0Q6 -8 3 -11"/></g>`).join('')}
         <g transform="translate(108 216)">${flower5(0, 0, 3, '#fff', '#ffd84a')}</g><g transform="translate(286 212)">${flower5(0, 0, 3, '#ffd0e0', '#f39c2b')}</g></g>
-      <g class="sign" transform="translate(66 196)"><rect x="-1.5" y="-4" width="5" height="30" fill="#9a6a3c"/><rect x="-36" y="-30" width="74" height="30" rx="5" fill="#d9a066" stroke="#9a6a3c" stroke-width="2"/>
-        <text x="1" y="-18" text-anchor="middle" class="sign-t1">${esc(c.name)}</text><text x="1" y="-6" text-anchor="middle" class="sign-t2">${sign}</text></g>
+      <g class="sign" transform="translate(66 196)"><rect x="-1.5" y="-4" width="5" height="30" fill="#9a6a3c"/><rect x="-43" y="-40" width="88" height="40" rx="5" fill="#d9a066" stroke="#9a6a3c" stroke-width="2"/>
+        <text x="1" y="-28" text-anchor="middle" class="sign-t1">${esc(c.name)}</text><text x="1" y="-18" text-anchor="middle" class="sign-en">${esc(c.en)}</text><text x="1" y="-6" text-anchor="middle" class="sign-t2">${sign}</text></g>
       <ellipse cx="180" cy="210" rx="82" ry="20" class="soil"/><ellipse cx="180" cy="205" rx="74" ry="14" class="soil-top"/>
       <path class="furrow" d="M126 206Q180 198 234 206M138 214Q180 208 222 214"/>
       <g class="basket" transform="translate(300 214)"><g class="basket-in"><path d="M-20 -8H20L15 10H-15Z" fill="#d9a066" stroke="#8a5a32" stroke-width="2"/><path d="M-18 -2H18M-16 4H16" stroke="#b07a42" stroke-width="1.5"/><path d="M-14 -8Q0 -26 14 -8" stroke="#8a5a32" stroke-width="2.5" fill="none"/><g class="basket-fill"></g></g></g>
@@ -416,46 +423,49 @@ const Farm = (() => {
   const calm = () => { try { return localStorage.getItem('farmCalm') === '1'; } catch { return false; } };
 
   function statusLine(pl, st) {
-    if (!pl) return '田地空著，選一種種子播下去吧';
+    if (!pl) return `田地空著${en('The field is empty')}`;
     const c = CROP[pl.crop];
-    if (pl.deadDay) return `${c.name}枯死了（連續兩天沒有澆水）`;
+    if (pl.deadDay) return `${c.name}枯死了${en(`The ${c.en} withered`)}`;
     const s = c.stages[st];
-    return { growing: `${c.name}・${s}・健康`, thirsty: `${c.name}・${s}・缺水中`, mature: `${c.name}・可以收成了！` }[pl.status] || s;
+    const se = c.stagesEn[st];
+    return { growing: `${c.name}・${s}・健康${en(`${se} · Healthy`)}`, thirsty: `${c.name}・${s}・缺水中${en(`${se} · Thirsty`)}`, mature: `${c.name}・可以收成了！${en('Ready to harvest!')}` }[pl.status] || s;
   }
 
   function waterCard(pl, n) {
     const quick = `<div class="row wrap farm-quick">
-        <button class="grow primary" data-go-farm="review">翻卡複習</button>
-        <button class="grow" data-go-farm="home">主題測驗</button>
-        <button class="grow" data-go-farm="practice">發音練習</button></div>`;
+        <button class="grow primary bi-btn" data-go-farm="review">翻卡複習<small lang="en">Flashcards</small></button>
+        <button class="grow bi-btn" data-go-farm="home">主題測驗<small lang="en">Topic Quiz</small></button>
+        <button class="grow bi-btn" data-go-farm="practice">發音練習<small lang="en">Pronunciation</small></button></div>`;
     const bar = (v, max, cls = '') => `<div class="water-bar ${cls}" role="progressbar" aria-valuenow="${Math.min(v, max)}" aria-valuemin="0" aria-valuemax="${max}"><i style="width:${Math.min(100, v / max * 100)}%"></i></div>`;
-    let head = `${n} / ${GOAL} 題`, body = '', b = bar(n, GOAL);
+    let head = `${n} / ${GOAL} 題 questions`, body = '', b = bar(n, GOAL);
     if (!pl || pl.deadDay) {
       const opts = CROPS.map(c => {
         const ok = F.unlocked.includes(c.id);
         const need = F.compost ? Math.max(1, c.days - 1) : c.days;
         return `<button class="seed-opt${pickedCrop === c.id ? ' on' : ''}" data-seed="${c.id}" ${ok ? '' : 'disabled'} aria-pressed="${pickedCrop === c.id}">
-          ${miniPlant(c.id, ok ? 6 : 6, ok ? '' : 'locked')}<b>${ok ? esc(c.name) : '？？？'}</b><span>${ok ? `${need} 天${F.compost ? '（堆肥）' : ''}` : unlockText(c)}</span></button>`;
+          ${miniPlant(c.id, ok ? 6 : 6, ok ? '' : 'locked')}<b>${ok ? esc(c.name) : '？？？'}</b>${ok ? `<i class="en" lang="en">${esc(c.en)}</i>` : ''}<span>${ok ? `${need} 天<i lang="en">${plural(need, 'day')}</i>` : '未解鎖<i lang="en">Locked</i>'}</span></button>`;
       }).join('');
-      body = `${pl?.deadDay ? `<p class="farm-msg bad">🥀 植物枯死了…別灰心，重新播種吧！${F.compost ? '枯枝變成了堆肥，下一株少長 1 天。' : ''}</p>` : '<p class="farm-msg">選一種種子播下去。之後每天練習 15 題，就能幫它澆一次水。</p>'}
+      body = `${pl?.deadDay
+        ? `<p class="farm-msg bad">🥀 植物枯死了…別灰心，重新播種吧！${F.compost ? '枯枝變成了堆肥，下一株少長 1 天。' : ''}${enLine(`Your plant withered… Don't give up. Plant a new seed!${F.compost ? ' The dead stems turned into compost, so your next plant needs one day less.' : ''}`)}</p>`
+        : `<p class="farm-msg">選一種種子播下去。之後每天練習 15 題，就能幫它澆一次水。${enLine('Pick a seed and plant it. Practice 15 questions a day to water it.')}</p>`}
         <div class="seed-row">${opts}</div>
-        <button class="primary full" id="farm-sow">🌱 播下${esc(CROP[pickedCrop].name)}的種子</button>`;
+        <button class="primary full bi-btn" id="farm-sow">🌱 播下${esc(CROP[pickedCrop].name)}的種子<small lang="en">Plant ${esc(CROP[pickedCrop].en)} seeds</small></button>`;
     } else if (pl.status === 'mature') {
-      body = `<p class="farm-msg good">🌟 ${esc(CROP[pl.crop].name)}成熟了！點田裡的植物收成，不收成也不會枯萎。</p><button class="primary full" id="farm-harvest">🧺 收成${esc(CROP[pl.crop].item)}</button>`;
+      body = `<p class="farm-msg good">🌟 ${esc(CROP[pl.crop].name)}成熟了！點田裡的植物收成，不收成也不會枯萎。${enLine(`Your ${esc(CROP[pl.crop].en)} is ready! Tap the plant to harvest. It won't wither while it waits.`)}</p><button class="primary full bi-btn" id="farm-harvest">🧺 收成${esc(CROP[pl.crop].item)}<small lang="en">Harvest ${esc(CROP[pl.crop].itemEn)}</small></button>`;
     } else if (pl.status === 'thirsty') {
-      head = `${n} / ${RESCUE} 題`; b = bar(n, RESCUE, 'thirsty');
+      head = `${n} / ${RESCUE} 題 questions`; b = bar(n, RESCUE, 'thirsty');
       body = n >= GOAL
-        ? `<p class="farm-msg warn">💧 今天已達 15 題，植物撐住了，但還是很渴。再 ${RESCUE - n} 題（共 30 題）就能救回它！</p>`
-        : `<p class="farm-msg warn">🥵 植物有點渴了！今天完成 ${RESCUE} 題就能救回它（還差 ${RESCUE - n} 題）。今天再沒達到 15 題，它就會枯死。</p>`;
+        ? `<p class="farm-msg warn">💧 今天已達 15 題，植物撐住了，但還是很渴。再 ${RESCUE - n} 題（共 30 題）就能救回它！${enLine(`You've done 15 today, so your plant is holding on, but it's still thirsty. ${plural(RESCUE - n, 'more question')} (30 in total) to save it!`)}</p>`
+        : `<p class="farm-msg warn">🥵 植物有點渴了！今天完成 ${RESCUE} 題就能救回它（還差 ${RESCUE - n} 題）。今天再沒達到 15 題，它就會枯死。${enLine(`Your plant is thirsty! Finish ${RESCUE} questions today to save it (${RESCUE - n} to go). If you don't reach 15 today, it will wither.`)}</p>`;
     } else if (pl.wateredToday) {
-      body = `<p class="farm-msg good">✅ 今天已經澆過水了，植物長大了一天。明天再來！</p>`;
+      body = `<p class="farm-msg good">✅ 今天已經澆過水了，植物長大了一天。明天再來！${enLine('You already watered today, and your plant grew one day. See you tomorrow!')}</p>`;
     } else if (pl.sowDay === today() && pl.sowN >= GOAL) {
-      body = `<p class="farm-msg">今天的澆水已經用在上一株植物了，明天練習 15 題開始照顧它。</p>`;
+      body = `<p class="farm-msg">今天的澆水已經用在上一株植物了，明天練習 15 題開始照顧它。${enLine("Today's watering went to your last plant. Practice 15 questions tomorrow to start caring for this one.")}</p>`;
     } else {
-      body = `<p class="farm-msg">再 ${Math.max(0, GOAL - n)} 題就能澆水，植物會長大一天。可以分好幾次練習。</p>`;
+      body = `<p class="farm-msg">再 ${Math.max(0, GOAL - n)} 題就能澆水，植物會長大一天。可以分好幾次練習。${enLine(`${plural(Math.max(0, GOAL - n), 'more question')} to water your plant so it grows one day. You can split them into several sessions.`)}</p>`;
     }
     return `<div class="card stack" id="farm-water">
-      <div class="row"><h3 class="grow">💧 今日澆水進度</h3><span class="chip">${head}</span></div>
+      <div class="row"><h3 class="grow">💧 今日澆水進度 ${en("Today's Watering")}</h3><span class="chip">${head}</span></div>
       ${b}${body}${quick}</div>`;
   }
 
@@ -464,33 +474,34 @@ const Farm = (() => {
     const total = F.harvests.length;
     const grownDays = F.harvests.reduce((s, h) => s + (h.days || 0), 0) + F.deadPlants.reduce((s, d) => s + (d.growth || 0), 0) + (F.plant && !F.plant.deadDay ? F.plant.growth || 0 : 0);
     return `<div class="card stack" id="farm-barn">
-      <div class="row"><h3 class="grow">🧺 收成倉庫</h3><button class="ghost small-btn" id="farm-dex">植物圖鑑 ›</button></div>
+      <div class="row"><h3 class="grow">🧺 收成倉庫 ${en('Harvest Barn')}</h3><button class="ghost small-btn bi-btn" id="farm-dex">植物圖鑑 ›<small lang="en">Plant Guide</small></button></div>
       <div class="barn-row">${CROPS.map(c => {
         const ok = F.unlocked.includes(c.id);
-        return `<div class="barn-slot${counts[c.id] ? '' : ' empty'}" title="${esc(c.name)}">${ok ? itemIcon(c.id) : '<span class="q">？</span>'}<span>${ok ? `× ${counts[c.id]}` : '未解鎖'}</span></div>`;
+        return `<div class="barn-slot${counts[c.id] ? '' : ' empty'}" title="${esc(c.name)} ${esc(c.en)}">${ok ? itemIcon(c.id) : '<span class="q">？</span>'}<span>${ok ? `× ${counts[c.id]}` : '未解鎖<br><i lang="en">Locked</i>'}</span></div>`;
       }).join('')}</div>
-      <div class="muted">總收成 ${total} 次・累計成長 ${grownDays} 天・成就 ${Object.keys(F.ach).filter(id => ACHMAP[id]).length} / ${ACH.length}</div>
-      ${F.harvests.length ? `<div class="recent">${F.harvests.slice(0, 3).map(h => `<div class="ev">${itemIcon(h.crop)} ${esc(h.day.slice(5).replace('-', '/'))} 收成${esc(CROP[h.crop].item)}${h.perfect ? '（完美栽培）' : ''}</div>`).join('')}</div>` : '<div class="muted">還沒有收成紀錄。</div>'}
+      <div class="muted">總收成 ${total} 次・累計成長 ${grownDays} 天・成就 ${Object.keys(F.ach).filter(id => ACHMAP[id]).length} / ${ACH.length}${enLine(`${plural(total, 'harvest')} · ${plural(grownDays, 'day')} of growth · ${Object.keys(F.ach).filter(id => ACHMAP[id]).length} / ${ACH.length} achievements`)}</div>
+      ${F.harvests.length ? `<div class="recent">${F.harvests.slice(0, 3).map(h => `<div class="ev">${itemIcon(h.crop)} ${esc(h.day.slice(5).replace('-', '/'))} 收成${esc(CROP[h.crop].item)} <i class="en" lang="en">harvested ${esc(CROP[h.crop].itemEn)}</i>${h.perfect ? '（完美栽培 Perfect）' : ''}</div>`).join('')}</div>` : `<div class="muted">還沒有收成紀錄。${enLine('No harvests yet.')}</div>`}
     </div>`;
   }
 
   function achCard() {
     const got = ACH.filter(a => F.ach[a.id]).length;
     return `<div class="card stack" id="farm-ach">
-      <div class="row"><h3 class="grow">⭐ 成就牆</h3><span class="muted">已解鎖 ${got} / ${ACH.length}</span></div>
-      <div class="badges">${ACH.map(a => `<button class="badge${F.ach[a.id] ? ' got' : ''}" data-ach="${a.id}" aria-label="${esc(a.name)}${F.ach[a.id] ? '（已解鎖）' : '（未解鎖）'}">
-        <span class="badge-ic">${a.icon}</span><span class="badge-nm">${F.ach[a.id] ? esc(a.name) : '未解鎖'}</span></button>`).join('')}</div>
+      <div class="row"><h3 class="grow">⭐ 成就牆 ${en('Achievements')}</h3><span class="muted">已解鎖 ${got} / ${ACH.length}<br><i lang="en">${got} unlocked</i></span></div>
+      <div class="badges">${ACH.map(a => `<button class="badge${F.ach[a.id] ? ' got' : ''}" data-ach="${a.id}" aria-label="${esc(a.name)} ${esc(a.en)}${F.ach[a.id] ? '（已解鎖 unlocked）' : '（未解鎖 locked）'}">
+        <span class="badge-ic">${a.icon}</span><span class="badge-nm">${F.ach[a.id] ? `${esc(a.name)}<i lang="en">${esc(a.en)}</i>` : '未解鎖<i lang="en">Locked</i>'}</span></button>`).join('')}</div>
     </div>`;
   }
 
   function rulesCard() {
-    return `<details class="card rules"><summary>學習農場規則</summary><ul class="muted">
-      <li>每天（台灣時間）累計練習 ${GOAL} 題 = 澆一次水，植物長大一天。可以分好幾次完成。</li>
-      <li>題數和下方「練習次數」圖表是同一份紀錄：測驗作答、複習按「記住了」、發音評分，各算一題。</li>
-      <li>某天沒達到 ${GOAL} 題：植物缺水，不會長大。缺水時一天完成 ${RESCUE} 題可以救回來。</li>
-      <li>連續兩天沒達到 ${GOAL} 題，植物會枯死，要重新播種；枯枝會變成堆肥，下一株少長 1 天。</li>
-      <li>成熟後不會枯萎，隨時都能收成。收成後解鎖下一種作物。</li>
-      <li>枯死不影響經驗值、等級、成就和收成紀錄。</li></ul></details>`;
+    return `<details class="card rules"><summary>學習農場規則 ${en('Farm Rules')}</summary><ul class="muted">
+      <li>每天（台灣時間）累計練習 ${GOAL} 題 = 澆一次水，植物長大一天。可以分好幾次完成。${enLine(`Practice ${GOAL} questions a day (Taiwan time) to water your plant, and it grows one day. You can split them up.`)}</li>
+      <li>題數和下方「練習次數」圖表是同一份紀錄：測驗作答、複習按「記住了」、發音評分，各算一題。${enLine('This uses the same count as the Practice Count chart below: each quiz answer, flashcard “Got it,” and pronunciation score counts as one.')}</li>
+      <li>某天沒達到 ${GOAL} 題：植物缺水，不會長大。缺水時一天完成 ${RESCUE} 題可以救回來。${enLine(`Miss ${GOAL} questions for a day and your plant gets thirsty and stops growing. Do ${RESCUE} in one day to save it.`)}</li>
+      <li>連續兩天沒達到 ${GOAL} 題，植物會枯死，要重新播種；枯枝會變成堆肥，下一株少長 1 天。${enLine('Miss two days in a row and the plant withers. Plant a new seed; the compost makes your next plant grow one day faster.')}</li>
+      <li>成熟後不會枯萎，隨時都能收成。收成後解鎖下一種作物。${enLine('A ripe plant never withers, so harvest whenever you like. Each harvest unlocks the next crop.')}</li>
+      <li>枯死不影響經驗值、等級、成就和收成紀錄。${enLine('A withered plant never affects your XP, level, achievements, or harvest history.')}</li>
+      <li>英文點一下就會念出來。${enLine('Tap any English text to hear it read aloud.')}</li></ul></details>`;
   }
 
   function render() {
@@ -519,11 +530,11 @@ const Farm = (() => {
     const plState = pl ? (pl.deadDay ? (plan === 'die' ? '' : 'dead') : (plan === 'revive' || plan === 'droop') ? (plan === 'revive' ? 'thirsty' : '') : pl.status === 'thirsty' ? 'thirsty' : '') : '';
     box.innerHTML = `
       ${loadError ? `<div class="card farm-msg bad">${esc(loadError)}</div>` : ''}
-      ${storageOk ? '' : '<div class="card farm-msg bad">這個瀏覽器不能保存資料，農場進度只會保留到關閉 App 為止。</div>'}
+      ${storageOk ? '' : `<div class="card farm-msg bad">這個瀏覽器不能保存資料，農場進度只會保留到關閉 App 為止。${enLine("This browser can't save data, so your farm progress will be lost when you close the app.")}</div>`}
       <div class="farm-scene${calm() ? ' calm' : ''} ${plState}${pl?.status === 'mature' && !pl.deadDay ? ' ripe' : ''}">
         ${sceneSvg(pl, drawSt, sky)}
-        ${pl?.status === 'mature' && !pl.deadDay ? `<button class="farm-tap" id="farm-tap" aria-label="收成${esc(CROP[pl.crop].name)}"><span class="farm-hint">👆 點我收成</span></button>` : ''}
-        <div class="farm-status"><span>${esc(statusLine(pl, st))}</span><span class="sky-tag">${skyName}</span></div>
+        ${pl?.status === 'mature' && !pl.deadDay ? `<button class="farm-tap" id="farm-tap" aria-label="收成${esc(CROP[pl.crop].name)} Harvest ${esc(CROP[pl.crop].en)}"><span class="farm-hint">👆 點我收成 Tap to harvest!</span></button>` : ''}
+        <div class="farm-status"><span>${statusLine(pl, st)}</span><span class="sky-tag">${skyName}</span></div>
       </div>
       ${waterCard(pl, n)}
       ${barnCard()}
@@ -607,7 +618,7 @@ const Farm = (() => {
     plant.classList.remove('grow-in');
     // 階段畫面已更新，順便更新牌子上的天數
     const t2 = scene.querySelector('.sign-t2');
-    if (t2) t2.textContent = `第 ${pl.growth} / ${pl.need} 天`;
+    if (t2) t2.textContent = `第 ${pl.growth}/${pl.need} 天 Day ${pl.growth}`;
   }
   function sparkle(fx, x, y, n = 8) {
     if (!fx) return;
@@ -675,33 +686,34 @@ const Farm = (() => {
     let html = '';
     if (p.type === 'ach') {
       const a = ACHMAP[p.id]; if (!a) return showNextPop();
-      html = `<div class="pop-emoji">${a.icon}</div><h2>解鎖成就！</h2><p class="pop-big">${esc(a.name)}</p><p class="muted">${esc(a.desc)}</p>`;
+      html = `<div class="pop-emoji">${a.icon}</div><h2>解鎖成就！${enLine('Achievement unlocked!')}</h2><p class="pop-big">${esc(a.name)}${enLine(esc(a.en))}</p><p class="muted">${esc(a.desc)}${enLine(esc(a.descEn))}</p>`;
     } else if (p.type === 'harvest') {
       const c = CROP[p.crop], nw = p.newly && CROP[p.newly];
-      html = `<div class="pop-emoji pop-svg">${itemIcon(c.id)}</div><h2>收成了！</h2><p>你收成了 <b>${esc(c.item)}</b>，已放進倉庫。</p>
-        ${nw ? `<div class="pop-unlock">${miniPlant(nw.id)}<p>解鎖新作物：<b>${esc(nw.name)}</b>（${nw.days} 天收成）</p></div>` : ''}`;
+      html = `<div class="pop-emoji pop-svg">${itemIcon(c.id)}</div><h2>收成了！${enLine('Harvest time!')}</h2><p>你收成了 <b>${esc(c.item)}</b>，已放進倉庫。${enLine(`You harvested ${esc(c.itemEn)}! Your harvest is now in the barn.`)}</p>
+        ${nw ? `<div class="pop-unlock">${miniPlant(nw.id)}<p>解鎖新作物：<b>${esc(nw.name)}</b>（${nw.days} 天收成）${enLine(`New crop unlocked: <b>${esc(nw.en)}</b> (ready in ${nw.days} days)`)}</p></div>` : ''}`;
     } else if (p.type === 'info') html = p.html;
-    el.querySelector('.sheet').innerHTML = html + `<button class="primary full" data-close>${p.type === 'info' ? '知道了' : '太好了'}</button>`;
+    el.querySelector('.sheet').innerHTML = html + `<button class="primary full" data-close>${p.type === 'info' ? '知道了 Got it' : '太好了 Awesome!'}</button>`;
     el.hidden = false;
   }
   function openAch(id) {
     const a = ACHMAP[id], t = F.ach[id];
     let prog = '';
     if (!t) {
-      if (id === 'speak') prog = `目前 ${F.speak90 || 0} / 10 次`;
-      if (['s7', 's30', 's100'].includes(id)) prog = `目前連續 ${currentRun()} 天，最長紀錄 ${longestRun()} 天`;
-      if (id === 'k1000') prog = `目前累計 ${Object.values(Game.days()).reduce((s, d) => s + (d.n || 0), 0)} 題`;
-      if (id === 'dex') prog = `已收成 ${CROPS.filter(c => F.harvests.some(h => h.crop === c.id)).length} / 5 種`;
+      const tot = Object.values(Game.days()).reduce((s, d) => s + (d.n || 0), 0), kinds = CROPS.filter(c => F.harvests.some(h => h.crop === c.id)).length;
+      if (id === 'speak') prog = [`目前 ${F.speak90 || 0} / 10 次`, `${F.speak90 || 0} / 10 so far`];
+      if (['s7', 's30', 's100'].includes(id)) prog = [`目前連續 ${currentRun()} 天，最長紀錄 ${longestRun()} 天`, `Current streak: ${plural(currentRun(), 'day')} · best: ${plural(longestRun(), 'day')}`];
+      if (id === 'k1000') prog = [`目前累計 ${tot} 題`, `${tot.toLocaleString('en-US')} so far`];
+      if (id === 'dex') prog = [`已收成 ${kinds} / 5 種`, `${kinds} / 5 crops harvested`];
     }
-    queuePop({ type: 'info', html: `<div class="pop-emoji${t ? '' : ' locked'}">${a.icon}</div><h2>${esc(a.name)}</h2><p>${esc(a.desc)}</p>
-      <p class="muted">${t ? `已在 ${fmtDate(t)} 解鎖` : '尚未解鎖'}${prog ? `・${prog}` : ''}</p>` });
+    queuePop({ type: 'info', html: `<div class="pop-emoji${t ? '' : ' locked'}">${a.icon}</div><h2>${esc(a.name)}${enLine(esc(a.en))}</h2><p>${esc(a.desc)}${enLine(esc(a.descEn))}</p>
+      <p class="muted">${t ? `已在 ${fmtDate(t)} 解鎖` : '尚未解鎖'}${prog ? `・${prog[0]}` : ''}${enLine(`${t ? `Unlocked on ${fmtDate(t)}` : 'Not unlocked yet'}${prog ? ` · ${prog[1]}` : ''}`)}</p>` });
   }
   function openDex() {
-    queuePop({ type: 'info', html: `<h2>📖 植物圖鑑</h2><div class="dex">${CROPS.map(c => {
+    queuePop({ type: 'info', html: `<h2>📖 植物圖鑑${enLine('Plant Guide')}</h2><div class="dex">${CROPS.map(c => {
       const ok = F.unlocked.includes(c.id), n = F.harvests.filter(h => h.crop === c.id).length;
       return `<div class="dex-item${ok ? '' : ' locked'}">${miniPlant(c.id, 6, ok ? '' : 'locked')}
-        <div class="grow"><b>${ok ? esc(c.name) : '？？？'}</b><div class="muted">${c.days} 天收成・${unlockText(c)}</div>
-        ${ok ? `<div class="dex-stages">${c.stages.map(s => `<span>${s}</span>`).join('')}</div><div class="muted">已收成 ${n} 次</div>` : ''}</div></div>`;
+        <div class="grow"><b>${ok ? `${esc(c.name)} ${en(esc(c.en))}` : '？？？'}</b><div class="muted">${c.days} 天收成・${unlockText(c)}${enLine(`Ready in ${c.days} days · ${unlockEn(c)}`)}</div>
+        ${ok ? `<div class="dex-stages">${c.stages.map((s, i) => `<span>${s} <i lang="en">${c.stagesEn[i]}</i></span>`).join('')}</div><div class="muted">已收成 ${n} 次${enLine(`Harvested ${n === 1 ? 'once' : `${n} times`}`)}</div>` : ''}</div></div>`;
     }).join('')}</div>` });
   }
 
@@ -730,6 +742,11 @@ const Farm = (() => {
   }
 
   document.addEventListener('visibilitychange', () => { if (!document.hidden && currentView === 'farm') render(); });
+  // 學習頁和農場視窗裡的英文：點一下念出來
+  document.addEventListener('click', e => {
+    const t = e.target.closest('#view-farm [lang="en"], #farm-sheet [lang="en"], #game-sheet [lang="en"]');
+    if (t && typeof say === 'function') say(t.textContent.replace(/[·•]/g, ',').trim());
+  });
 
   return {
     render, onPractice, onQuizPerfect, exportData, importData,
