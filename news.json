@@ -4,18 +4,60 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026101168664",
-      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
-      "summary": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
-      "url": "https://news.un.org/en/story/2026/10/1168664",
+      "id": "httpsnewsunorgenstory2026101168672",
+      "title": "West Bank: Hebron crackdown displaces thousands, Türk warns of ethnic cleansing",
+      "summary": "Israel’s “aggressive operation” in the West Bank city of Hebron raises serious concerns of ethnic cleansing, UN human rights chief Volker Türk warned on Monday, as the number of Palestinians forced from their homes passed 3,000 on the eve of Israeli elections.",
+      "url": "https://news.un.org/en/story/2026/10/1168672",
+      "publishedAt": "2026-10-26T12:00:00Z",
+      "vocabulary": [
+        "crackdown",
+        "aggressive",
+        "ethnic",
+        "chief"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/31-07-2026_Adobe_West-Bank-01.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168666",
+      "title": "Why do planes keep circling before landing? UN has a plan to fix it",
+      "summary": "Air traffic delays cost billions and turn journeys into ordeals. Some countries are already proving that better coordination saves thousands of flying hours and cuts emissions – and the UN’s aviation agency wants the rest of the world to follow.",
+      "url": "https://news.un.org/en/story/2026/10/1168666",
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "vocabulary": [
+        "coordination",
+        "aviation",
+        "traffic",
+        "agency"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168663",
+      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan",
+      "summary": "When Tahani Al-Numeiri heard the first explosions in Khartoum, her hometown, war seemed so remote that she assumed they were celebrations from a nearby wedding. It was the morning of 15 April 2023, and the paramilitary Rapid Support Forces had just turned their guns on the army.",
+      "url": "https://news.un.org/en/story/2026/10/1168663",
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "vocabulary": [
+        "frontline",
+        "paramilitary",
+        "siege",
+        "hometown"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/23-10-2026-UNICEF-Sudan-03.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168665",
+      "title": "UN marks 81 years of global cooperation",
+      "summary": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
+      "url": "https://news.un.org/en/story/2026/10/1168665",
       "publishedAt": "2026-10-23T12:00:00Z",
       "vocabulary": [
-        "fragility",
-        "proliferation",
-        "swift",
-        "deadly"
+        "marks",
+        "anniversary",
+        "cooperation",
+        "advance"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-04-2026-UNOCHA-Sudan-Darfur-05.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/23-09-2026-UN-Photo-UNGA81-Guterres.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026101168648",
@@ -58,48 +100,6 @@
         "judgment"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/25-08-2026-Adobe-Stock-unmanned-drone.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168628",
-      "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
-      "summary": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
-      "url": "https://news.un.org/en/story/2026/10/1168628",
-      "publishedAt": "2026-10-19T12:00:00Z",
-      "vocabulary": [
-        "drone",
-        "displacement",
-        "hunger",
-        "deadly"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/06-11-2023-UN-Photo-UNMIS-peacekeeping.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168608",
-      "title": "Inside the New York ‘time machine’ racing to save a century of sound and film",
-      "summary": "“I tell my kids I work in a time machine,” said Rhony Dostaly. In a basement beneath Lincoln Center, the media preservation engineer rescues moments from the past. “I go back in time, and I grab elements, and I make them available for people today.”",
-      "url": "https://news.un.org/en/story/2026/10/1168608",
-      "publishedAt": "2026-10-18T12:00:00Z",
-      "vocabulary": [
-        "preservation",
-        "basement",
-        "engineer",
-        "machine"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/13-10-2026_Media%20Preservation%209.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168618",
-      "title": "COP17: The world has a plan to save nature. Is it working?",
-      "summary": "The UN Secretary-General has called for an end to the “war on nature”. On Monday, governments gathering in Yerevan, Armenia, will have to confront a more practical question: are they doing enough to win the peace and put the world’s biodiversity goals back on track?",
-      "url": "https://news.un.org/en/story/2026/10/1168618",
-      "publishedAt": "2026-10-17T12:00:00Z",
-      "vocabulary": [
-        "biodiversity",
-        "practical",
-        "track",
-        "peace"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/22-01-2024_Unsplash_parrot.jpg/image560x340cropped.jpg"
     }
   ]
 }
