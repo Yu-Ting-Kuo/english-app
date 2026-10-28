@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026101168672",
-      "title": "West Bank: Hebron crackdown displaces thousands, Türk warns of ethnic cleansing",
-      "summary": "Israel’s “aggressive operation” in the West Bank city of Hebron raises serious concerns of ethnic cleansing, UN human rights chief Volker Türk warned on Monday, as the number of Palestinians forced from their homes passed 3,000 on the eve of Israeli elections.",
-      "url": "https://news.un.org/en/story/2026/10/1168672",
+      "id": "httpsnewsunorgenstory2026101168686",
+      "title": "General Assembly weighs US embargo against Cuba ahead of 34th vote",
+      "summary": "The General Assembly opened its annual debate on the US economic embargo against Cuba on Tuesday. On Wednesday, 28 October, Member States will vote for the 34th time on a resolution calling for it to end.",
+      "url": "https://news.un.org/en/story/2026/10/1168686",
+      "publishedAt": "2026-10-27T12:00:00Z",
+      "vocabulary": [
+        "embargo",
+        "resolution",
+        "annual",
+        "debate"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/27-10-2015-Unsplash-Havana-Cuba.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168674",
+      "title": "World News in Brief: Ethiopians flee to Kenya amidst renewed conflict, new head of UN’s food programme, UN mission in Somalia concludes",
+      "summary": "Around 36,600 people have fled into northern Kenya following an uptick in fighting on the Ethiopian side of the border.",
+      "url": "https://news.un.org/en/story/2026/10/1168674",
       "publishedAt": "2026-10-26T12:00:00Z",
       "vocabulary": [
-        "crackdown",
-        "aggressive",
-        "ethnic",
-        "chief"
+        "northern",
+        "border",
+        "conflict",
+        "mission"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/31-07-2026_Adobe_West-Bank-01.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/26-10-2026-Kenya-Red-Cross-Moyale-02.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026101168666",
@@ -86,20 +100,6 @@
         "independent"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/19-12-2023-Unsplash-DPRK.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168636",
-      "title": "AI on track to ‘crowd out’ human decision-making in warfare",
-      "summary": "Artificial intelligence is already being widely used on the battlefield, and the role of human judgment in military operations is shrinking rapidly, the head of the UN’s independent disarmament research institute warned on Tuesday.",
-      "url": "https://news.un.org/en/story/2026/10/1168636",
-      "publishedAt": "2026-10-20T12:00:00Z",
-      "vocabulary": [
-        "disarmament",
-        "battlefield",
-        "warfare",
-        "judgment"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/25-08-2026-Adobe-Stock-unmanned-drone.jpg/image560x340cropped.jpg"
     }
   ]
 }
