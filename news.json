@@ -4,6 +4,34 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026101168705",
+      "title": "Myanmar’s illicit economy fuels escalating violence, with civilians bearing the brunt",
+      "summary": "Myanmar’s human rights situation is “catastrophic”, the UN independent expert on the country warned at a press briefing Thursday, as the war spirals with no end in sight.",
+      "url": "https://news.un.org/en/story/2026/10/1168705",
+      "publishedAt": "2026-10-29T12:00:00Z",
+      "vocabulary": [
+        "brunt",
+        "illicit",
+        "catastrophic",
+        "sight"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/UNHCR/Embargoed%202/30-09-2025-UNDP-Myanmar-01.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026101168679",
+      "title": "Higher Ground: How New York is raising a park to hold back the sea",
+      "summary": "On 29 October 2012, Hurricane Sandy slammed into New York City, unleashing a devastating storm surge that flooded homes, subways and tunnels, knocked out power and sparked deadly fires.",
+      "url": "https://news.un.org/en/story/2026/10/1168679",
+      "publishedAt": "2026-10-28T12:00:00Z",
+      "vocabulary": [
+        "surge",
+        "deadly",
+        "storm",
+        "flooded"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/08-10-2026-NYC-Gov-East-River-02.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168686",
       "title": "General Assembly weighs US embargo against Cuba ahead of 34th vote",
       "summary": "The General Assembly opened its annual debate on the US economic embargo against Cuba on Tuesday. On Wednesday, 28 October, Member States will vote for the 34th time on a resolution calling for it to end.",
@@ -72,34 +100,6 @@
         "advance"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/23-09-2026-UN-Photo-UNGA81-Guterres.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168648",
-      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
-      "summary": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
-      "url": "https://news.un.org/en/story/2026/10/1168648",
-      "publishedAt": "2026-10-22T12:00:00Z",
-      "vocabulary": [
-        "unlawful",
-        "overnight",
-        "civilian",
-        "elderly"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/19-10-2026-UNOCHA-Ukraine-04.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168645",
-      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
-      "summary": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of Human Rights Council-appointed independent experts.",
-      "url": "https://news.un.org/en/story/2026/10/1168645",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "vocabulary": [
-        "resumption",
-        "unknown",
-        "scale",
-        "independent"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/19-12-2023-Unsplash-DPRK.jpg/image560x340cropped.jpg"
     }
   ]
 }
