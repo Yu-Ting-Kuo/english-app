@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026101168713",
+      "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
+      "summary": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, where the humanitarian crisis is “far from over,” according to the UN’s aid coordination office (OCHA).",
+      "url": "https://news.un.org/en/story/2026/10/1168713",
+      "publishedAt": "2026-10-30T12:00:00Z",
+      "vocabulary": [
+        "coordination",
+        "humanitarian",
+        "closure",
+        "refugee"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-UNICEF-Lebanon.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168705",
       "title": "Myanmar’s illicit economy fuels escalating violence, with civilians bearing the brunt",
       "summary": "Myanmar’s human rights situation is “catastrophic”, the UN independent expert on the country warned at a press briefing Thursday, as the war spirals with no end in sight.",
@@ -86,20 +100,6 @@
         "hometown"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/23-10-2026-UNICEF-Sudan-03.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168665",
-      "title": "UN marks 81 years of global cooperation",
-      "summary": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
-      "url": "https://news.un.org/en/story/2026/10/1168665",
-      "publishedAt": "2026-10-23T12:00:00Z",
-      "vocabulary": [
-        "marks",
-        "anniversary",
-        "cooperation",
-        "advance"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/23-09-2026-UN-Photo-UNGA81-Guterres.jpg/image560x340cropped.jpg"
     }
   ]
 }
