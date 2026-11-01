@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026101168716",
+      "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
+      "summary": "The UN human rights chief on Saturday demanded an independent investigation into the death of a Yemeni colleague held by the Houthis for more than two years, whose family learned of his death only weeks after it happened.",
+      "url": "https://news.un.org/en/story/2026/10/1168716",
+      "publishedAt": "2026-10-31T12:00:00Z",
+      "vocabulary": [
+        "staffer",
+        "probe",
+        "custody",
+        "colleague"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/27-02-2026-HRC-Volker-Turk.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168713",
       "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
       "summary": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, where the humanitarian crisis is “far from over,” according to the UN’s aid coordination office (OCHA).",
@@ -86,20 +100,6 @@
         "agency"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168663",
-      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan",
-      "summary": "When Tahani Al-Numeiri heard the first explosions in Khartoum, her hometown, war seemed so remote that she assumed they were celebrations from a nearby wedding. It was the morning of 15 April 2023, and the paramilitary Rapid Support Forces had just turned their guns on the army.",
-      "url": "https://news.un.org/en/story/2026/10/1168663",
-      "publishedAt": "2026-10-24T12:00:00Z",
-      "vocabulary": [
-        "frontline",
-        "paramilitary",
-        "siege",
-        "hometown"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/23-10-2026-UNICEF-Sudan-03.jpg/image560x340cropped.jpg"
     }
   ]
 }
