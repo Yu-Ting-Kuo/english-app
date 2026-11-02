@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168718",
+      "title": "COP17: Nations chart ‘Yerevan Pathway’ to speed up action for nature",
+      "summary": "At the halfway mark to 2030, countries meeting in Armenia have agreed a roadmap to accelerate action for nature, after a global review found the world off track to meet its biodiversity targets.",
+      "url": "https://news.un.org/en/story/2026/11/1168718",
+      "publishedAt": "2026-11-01T12:00:00Z",
+      "vocabulary": [
+        "biodiversity",
+        "halfway",
+        "chart",
+        "track"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/31-05-2023_Agricultural%20Heritage%20Systems%203.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026101168716",
       "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
       "summary": "The UN human rights chief on Saturday demanded an independent investigation into the death of a Yemeni colleague held by the Houthis for more than two years, whose family learned of his death only weeks after it happened.",
@@ -86,20 +100,6 @@
         "mission"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/26-10-2026-Kenya-Red-Cross-Moyale-02.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168666",
-      "title": "Why do planes keep circling before landing? UN has a plan to fix it",
-      "summary": "Air traffic delays cost billions and turn journeys into ordeals. Some countries are already proving that better coordination saves thousands of flying hours and cuts emissions – and the UN’s aviation agency wants the rest of the world to follow.",
-      "url": "https://news.un.org/en/story/2026/10/1168666",
-      "publishedAt": "2026-10-25T12:00:00Z",
-      "vocabulary": [
-        "coordination",
-        "aviation",
-        "traffic",
-        "agency"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg"
     }
   ]
 }
