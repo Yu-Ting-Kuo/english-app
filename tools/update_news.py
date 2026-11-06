@@ -4,8 +4,11 @@ from __future__ import annotations
 
 import html
 import json
+import gzip
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -107,12 +110,47 @@ def load_existing() -> list[dict]:
         return []
 
 
+def fetch_feed(attempts: int = 4) -> ET.Element:
+    """Download and parse the RSS feed, tolerating gzip, BOMs and transient blocks."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; EnglishNotebook/1.0; +https://github.com/Yu-Ting-Kuo/english-app)",
+        "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+        "Accept-Encoding": "gzip",
+    }
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            request = urllib.request.Request(FEED_URL, headers=headers)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                body = response.read()
+                if response.headers.get("Content-Encoding", "").lower() == "gzip" or body[:2] == b"\x1f\x8b":
+                    body = gzip.decompress(body)
+                content_type = response.headers.get("Content-Type", "")
+            body = body.lstrip(b"\xef\xbb\xbf \t\r\n")
+            if not body.startswith(b"<"):
+                raise ValueError(f"feed is not XML (Content-Type {content_type!r}): {body[:120]!r}")
+            root = ET.fromstring(body)
+            if root.find("./channel") is None:
+                raise ValueError(f"feed has no <channel> (Content-Type {content_type!r}): {body[:120]!r}")
+            return root
+        except (urllib.error.URLError, OSError, ValueError, ET.ParseError, EOFError) as exc:
+            last_error = exc
+            print(f"Feed fetch attempt {attempt}/{attempts} failed: {exc}", file=sys.stderr)
+            if attempt < attempts:
+                time.sleep(5 * attempt)
+    assert last_error is not None
+    raise last_error
+
+
 def main() -> int:
     now = datetime.now(timezone.utc)
     cutoff = now - RETENTION
-    request = urllib.request.Request(FEED_URL, headers={"User-Agent": "EnglishNotebook/1.0 (educational RSS reader)"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        root = ET.fromstring(response.read())
+    try:
+        root = fetch_feed()
+    except Exception as exc:
+        # A temporary feed outage should not turn the schedule red or drop stored stories.
+        print(f"::warning::UN News feed unavailable, keeping existing news.json: {exc}")
+        return 0
 
     existing = load_existing()
     by_day: dict[str, dict] = {}
