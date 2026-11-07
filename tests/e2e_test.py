@@ -55,6 +55,16 @@ def main():
         page.route('https://api.dictionaryapi.dev/**', lambda route: route.fulfill(
             json=[{'word': 'make', 'phonetics': [{'text': '/meɪk/', 'audio': 'https://example.invalid/make-us.mp3'}],
                    'meanings': [{'partOfSpeech': 'verb', 'definitions': [{'definition': 'To build or create.'}]}]}]))
+        # Wiktionary 頁面（音標與真人發音來源）：amateur 用固定內容，其他字回 404
+        wiktionary_amateur = """<html><body><section><h2 id="Dutch">Dutch</h2></section><section><h2 id="English">English</h2>
+          <section><h3 id="Pronunciation">Pronunciation</h3><ul>
+          <li><span class="ib-content"><span class="usage-label-accent">UK</span></span> IPA<span class="IPA nowrap">/ˈæ.mə.tə/</span></li>
+          <li><span class="ib-content"><span class="usage-label-accent">US</span></span> IPA<span class="IPA">/ˈæ.mə.t͡ʃɚ/</span>, <span class="IPA">/ˈæ.mə.tɚ/</span></li>
+          <li>Audio <span class="usage-label-accent">US</span><audio><source src="//upload.example.invalid/En-us-amateur1.ogg"><source src="//upload.example.invalid/En-us-amateur1.mp3"></audio></li>
+          </ul></section></section></body></html>"""
+        page.route('https://en.wiktionary.org/**', lambda route: route.fulfill(
+            body=wiktionary_amateur, content_type='text/html') if route.request.url.endswith('/amateur')
+            else route.fulfill(status=404, body=''))
         page.goto(BASE)
         page.wait_for_selector('#home-topics .cat-card')
 
@@ -318,6 +328,16 @@ def main():
             expect(page.locator('#dict-body .sense').first).to_contain_text('爬行')
         check('辭典：日常慣用語與變化形顯示日常意思（soft spot／crawling）', t_everyday)
 
+        def t_pron():
+            # 音標以 Wiktionary 標示的英式／美式為準：美式取第一個變體（含 tʃ），沒有英式錄音就標「合成」
+            search('amateur')
+            pron = page.locator('#pron')
+            expect(pron).to_contain_text('美式 /ˈæ.mə.tʃɚ/')
+            expect(pron.locator('[data-audio]')).to_have_attribute('data-audio', 'https://upload.example.invalid/En-us-amateur1.mp3')
+            expect(pron).to_contain_text('英式 /ˈæ.mə.tə/（合成）')
+            assert 'tɚ/' not in pron.inner_text().replace('tʃɚ/', ''), pron.inner_text()
+        check('發音：音標分英式／美式，美式有真人錄音，英式沒錄音標「合成」並顯示音標', t_pron)
+
         def t_levels():
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='職場與辦公').click()
@@ -501,6 +521,7 @@ def main():
         def t_online_fail():
             page.unroute('https://api.dictionaryapi.dev/**')
             page.route('https://api.dictionaryapi.dev/**', lambda route: route.abort())
+            page.route('https://en.wiktionary.org/**', lambda route: route.abort())
             search('apple')
             page.locator('#wk summary').click()
             # 沒網路時英英解釋不顯示內容，但不能一直停在「載入中」

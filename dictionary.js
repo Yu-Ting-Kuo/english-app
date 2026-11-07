@@ -452,7 +452,8 @@ async function loadOnline(key, entry) {
     body.innerHTML = '<div class="muted">Wiktionary 沒有這個字的資料。</div>';
     return;
   }
-  const part = (label, r, lang) => r ? `<button class="pill" ${r.audio ? `data-audio="${esc(r.audio)}"` : `data-tts="${lang}"`}>${ICON.speaker}${label}${r.ipa ? ` ${esc(r.ipa)}` : ''}</button>` : '';
+  // 有真人錄音就標示音標；沒有錄音的口音用手機語音念，並標「合成」，音標照樣顯示
+  const part = (label, r, lang) => r ? `<button class="pill" ${r.audio ? `data-audio="${esc(r.audio)}"` : `data-tts="${lang}"`}>${ICON.speaker}${label}${r.ipa ? ` ${esc(r.ipa)}` : ''}${r.audio ? '' : '（合成）'}</button>` : '';
   const real = part('美式', info.us, 'en-US') + part('英式', info.uk, 'en-GB');
   pron.innerHTML = `
     ${!info.us && !info.uk && info.ipa ? `<span class="muted">IPA ${esc(info.ipa)}</span>` : ''}
