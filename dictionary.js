@@ -206,6 +206,7 @@ function renderEntry(res) {
     <div class="sense">
       <span class="pos pos-${esc(g.p)}">${esc(g.l)}</span>${g.d ? `<span class="domain">${esc(g.d)}</span>` : ''}
       <div class="sense-text">${esc(g.m)}</div>
+      ${g.en ? `<div class="sense-en" lang="en">${esc(g.en)}</div>` : ''}
     </div>`).join('');
 
   const infl = Dict.inflections(key, entry).map(g => `

@@ -307,6 +307,17 @@ def main():
                   && (b.querySelector('.entry') || b.textContent.includes('找不到') || b.textContent.includes('網路'));
             }""", arg=q)
 
+        def t_everyday():
+            # 日常用法：慣用語優先顯示日常意思，必要時附英英解釋；變化形先顯示原形的意思
+            search('soft spot')
+            sense = page.locator('#dict-body .sense').first
+            expect(sense).to_contain_text('特別喜愛')
+            expect(sense.locator('.sense-en')).to_contain_text('liking')
+            assert '軟點' not in page.locator('#dict-body').inner_text()
+            search('crawling')
+            expect(page.locator('#dict-body .sense').first).to_contain_text('爬行')
+        check('辭典：日常慣用語與變化形顯示日常意思（soft spot／crawling）', t_everyday)
+
         def t_levels():
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='職場與辦公').click()
