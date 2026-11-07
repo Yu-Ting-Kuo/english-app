@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168758",
+      "title": "Afghanistan faces deepening humanitarian crisis amid sweeping rights restrictions",
+      "summary": "Afghanistan stands at a “difficult crossroad” more than five years after the Taliban returned to power, a senior UN official said on Friday. Relative stability and security are being undercut by a fragile economy, sweeping curbs on rights and acute humanitarian need.",
+      "url": "https://news.un.org/en/story/2026/11/1168758",
+      "publishedAt": "2026-11-06T12:00:00Z",
+      "vocabulary": [
+        "undercut",
+        "humanitarian",
+        "fragile",
+        "acute"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/13-07-2026-UNICEF-Afghanistan-02.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168750",
       "title": "World News in Brief: Korea tensions mount, UN demands answers over staff death in Yemen, Guterres in Spain, Nepal alert ahead of COP31",
       "summary": "UN Secretary-General António Guterres remains concerned over the situation on the Korean Peninsula, including the potential escalation of tensions across the Demilitarized Zone (DMZ), his Spokesperson said on Thursday.",
@@ -86,20 +100,6 @@
         "colleague"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/27-02-2026-HRC-Volker-Turk.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168713",
-      "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
-      "summary": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, where the humanitarian crisis is “far from over,” according to the UN’s aid coordination office (OCHA).",
-      "url": "https://news.un.org/en/story/2026/10/1168713",
-      "publishedAt": "2026-10-30T12:00:00Z",
-      "vocabulary": [
-        "coordination",
-        "humanitarian",
-        "closure",
-        "refugee"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-UNICEF-Lebanon.jpg/image560x340cropped.jpg"
     }
   ]
 }
