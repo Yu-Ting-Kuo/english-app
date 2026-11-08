@@ -1,0 +1,270 @@
+{
+"fitting": [
+{"p":"adj","zh":"適當的、合適的","ai":[["That song is a fitting end to the evening.","那首歌為這個夜晚畫下了適當的句點。"],["She wore a fitting dress for the formal dinner.","她穿了一件適合正式晚宴的洋裝。"]]},
+{"p":"n","zh":"試穿、試衣","ai":[["I have a fitting for my wedding suit tomorrow.","我明天要試穿我的結婚西裝。"],["The tailor asked me to come back for another fitting.","裁縫師請我再來試穿一次。"]]}
+],
+"coming": [
+{"p":"adj","zh":"即將到來的、接下來的","ai":[["I am busy preparing for the coming exams.","我正忙著準備即將到來的考試。"],["We are planning a trip for the coming weekend.","我們正在規劃這個週末的旅行。"]]},
+{"p":"n","zh":"來臨、到來","ai":[["Everyone was excited about the coming of spring.","大家都對春天的到來感到興奮。"],["The coming and going of guests kept us busy.","客人來來去去讓我們忙個不停。"]]}
+],
+"varying": [
+{"p":"adj","zh":"變化的、不同的","ai":[["The students have varying levels of English ability.","學生們的英文程度各不相同。"],["Prices change depending on varying market conditions.","價格會隨著不斷變動的市場狀況而改變。"]]}
+],
+"theological": [
+{"p":"adj","zh":"神學的","ai":[["He studied at a theological college for four years.","他在神學院讀了四年書。"],["They had a long theological debate about the book.","他們針對這本書進行了一場很長的神學辯論。"]]}
+],
+"shaft": [
+{"p":"n","zh":"軸、桿","ai":[["The shaft of the arrow was made of bamboo.","這支箭的箭桿是用竹子做的。"],["A broken shaft stopped the machine from working.","一根斷掉的傳動軸讓機器停止運轉。"]]},
+{"p":"n","zh":"豎井、礦井、電梯井","ai":[["The workers climbed down the mine shaft carefully.","工人們小心地爬下礦井。"],["Someone dropped a coin down the elevator shaft.","有人把硬幣掉進了電梯井裡。"]]}
+],
+"denial": [
+{"p":"n","zh":"否認、否定","ai":[["The company issued a denial of the rumors yesterday.","公司昨天發表聲明否認了那些傳言。"],["His denial of the mistake made everyone angry.","他否認犯錯，讓大家都很生氣。"]]},
+{"p":"n","zh":"拒絕、不予批准","ai":[["The denial of her visa surprised the whole family.","她的簽證被拒讓全家人都很驚訝。"],["The denial of the request was explained in a letter.","拒絕該申請的原因已在信中說明。"]]}
+],
+"varied": [
+{"p":"adj","zh":"各式各樣的、多樣的","ai":[["The menu offers a varied selection of local dishes.","菜單上有各式各樣的在地料理可選。"],["She has a varied career in teaching and design.","她的職涯多采多姿，橫跨教學與設計。"]]}
+],
+"screw": [
+{"p":"n","zh":"螺絲、螺釘","ai":[["I need a screw to fix the table leg.","我需要一根螺絲來修理桌腳。"],["One screw fell out and rolled under the sofa.","有一根螺絲掉了出來，滾到沙發底下。"]]},
+{"p":"v","zh":"用螺絲固定、擰緊","ai":[["Please screw the lid on tightly after use.","使用完請把蓋子旋緊。"],["He screwed the shelf to the wall himself.","他自己把層架用螺絲鎖在牆上。"]]}
+],
+"jewellery": [
+{"p":"n","zh":"珠寶、首飾","ai":[["She keeps her jewellery in a small wooden box.","她把首飾收在一個小木盒裡。"],["The shop sells handmade silver jewellery.","這家店販售手工銀飾。"]]}
+],
+"aspiration": [
+{"p":"n","zh":"抱負、志向、渴望","ai":[["Her aspiration is to become a doctor one day.","她的志向是有一天成為醫生。"],["Young people often have high aspirations for the future.","年輕人對未來往往抱有遠大的志向。"]]}
+],
+"grape": [
+{"p":"n","zh":"葡萄","ai":[["She bought a bunch of green grapes at the market.","她在市場買了一串青葡萄。"],["This grape juice is sweet and very fresh.","這杯葡萄汁又甜又新鮮。"]]}
+],
+"arch": [
+{"p":"n","zh":"拱門、拱形結構","ai":[["We walked through a stone arch into the old town.","我們穿過一道石拱門進入老城區。"],["The bridge has three large arches over the river.","這座橋在河上有三個大拱形橋孔。"]]},
+{"p":"n","zh":"足弓","ai":[["Flat shoes gave me pain in the arch of my foot.","平底鞋讓我的足弓疼痛。"],["Good insoles can support the arch and reduce tiredness.","好的鞋墊能支撐足弓並減輕疲勞。"]]},
+{"p":"v","zh":"使彎成弓形、拱起","ai":[["The cat arched its back and stretched.","貓咪拱起背伸了個懶腰。"],["Tall trees arch over the quiet country road.","高大的樹木在寧靜的鄉間小路上方形成拱形。"]]}
+],
+"tiger": [
+{"p":"n","zh":"老虎","ai":[["We saw a tiger sleeping in the shade at the zoo.","我們在動物園看到一隻老虎在樹蔭下睡覺。"],["The tiger is the largest member of the cat family.","老虎是貓科動物中體型最大的。"]]}
+],
+"misleading": [
+{"p":"adj","zh":"誤導的、容易讓人誤解的","ai":[["The title of the article is a bit misleading.","這篇文章的標題有點誤導人。"],["Be careful with misleading ads that promise quick results.","要小心那些承諾速效的誤導性廣告。"]]}
+],
+"mist": [
+{"p":"n","zh":"薄霧、霧氣","ai":[["A thin mist covered the lake early in the morning.","清晨一層薄霧籠罩著湖面。"],["We drove slowly through the mist on the mountain road.","我們在山路上緩慢地穿過霧氣。"]]},
+{"p":"v","zh":"起霧、變模糊","ai":[["My glasses mist up when I enter a warm room.","我一進到溫暖的房間，眼鏡就會起霧。"],["The windows misted over during the hot shower.","洗熱水澡時，窗戶都起霧了。"]]}
+],
+"brigade": [
+{"p":"n","zh":"旅（軍隊單位）","ai":[["The brigade moved to a new base last month.","這個旅上個月移防到新的基地。"],["A brigade is usually larger than a battalion.","旅通常比營還要大。"]]},
+{"p":"n","zh":"隊、組織性團體","ai":[["The fire brigade arrived within five minutes.","消防隊在五分鐘內就趕到了。"],["Volunteers formed a cleaning brigade after the festival.","志工們在慶典結束後組成了清潔隊。"]]}
+],
+"headmaster": [
+{"p":"n","zh":"（中小學）校長","ai":[["The headmaster welcomed the new students on the first day.","開學第一天，校長歡迎新生。"],["She wrote a letter to the headmaster about the problem.","她寫了一封信給校長反映這個問題。"]]}
+],
+"printing": [
+{"p":"n","zh":"印刷、列印","ai":[["The printing of the new books will take two weeks.","新書的印刷需要兩週。"],["Printing in color costs more than in black and white.","彩色列印比黑白列印貴。"]]}
+],
+"gravel": [
+{"p":"n","zh":"碎石、砂礫","ai":[["The car drove slowly along the gravel road.","那輛車沿著碎石路慢慢地開。"],["They spread gravel on the garden path.","他們在花園小徑上鋪了碎石。"]]}
+],
+"quarry": [
+{"p":"n","zh":"採石場","ai":[["The stone for the old bridge came from a nearby quarry.","那座老橋的石材來自附近的採石場。"],["The abandoned quarry is now filled with water.","那座廢棄的採石場現在已經積滿了水。"]]},
+{"p":"n","zh":"獵物、追捕的對象","ai":[["The hunter followed his quarry through the forest.","獵人在森林裡跟蹤他的獵物。"],["The fox lost its quarry in the thick bushes.","狐狸在濃密的灌木叢中跟丟了獵物。"]]}
+],
+"ironically": [
+{"p":"adv","zh":"諷刺地、具有諷刺意味地","ai":[["Ironically, the fire station was damaged by a fire.","諷刺的是，消防局竟然遭受火災。"],["Ironically, he missed the meeting about being on time.","諷刺的是，他錯過了那場討論準時的會議。"]]},
+{"p":"adv","zh":"挖苦地、反話地","ai":[["\"Great job,\" she said ironically after I spilled the soup.","我把湯灑出來後，她挖苦地說：「幹得好。」"],["He smiled ironically and clapped his hands slowly.","他嘲諷地笑著，慢慢地拍著手。"]]}
+],
+"gospel": [
+{"p":"n","zh":"福音（基督教聖經中的福音書）","ai":[["The pastor read a passage from the gospel on Sunday.","牧師在週日朗讀了一段福音書的內容。"],["There are four gospels in the New Testament.","新約聖經裡有四本福音書。"]]},
+{"p":"n","zh":"絕對真理、深信不疑的事","ai":[["Don't take everything online as gospel truth.","別把網路上的一切都當成絕對真理。"],["He treats his boss's words as gospel.","他把老闆說的話當成金科玉律。"]]}
+],
+"preach": [
+{"p":"v","zh":"傳道、講道","ai":[["The priest preaches every Sunday morning in the church.","神父每個週日早上都在教堂講道。"],["He traveled the country to preach to large crowds.","他走遍全國，向大批群眾傳道。"]]},
+{"p":"v","zh":"說教、鼓吹","ai":[["I don't want to preach, but you should sleep more.","我不想說教，但你應該多睡一點。"],["She preaches the value of hard work to her kids.","她向孩子們宣揚努力工作的價值。"]]}
+],
+"blond": [
+{"p":"adj","zh":"金髮的","ai":[["The little boy has blond hair and blue eyes.","那個小男孩有一頭金髮和藍眼睛。"],["She dyed her hair blond for the summer.","她為了夏天把頭髮染成金色。"]]},
+{"p":"n","zh":"金髮的男子","ai":[["The tall blond in the photo is my cousin.","照片中那個高個子金髮男生是我的表哥。"],["A blond waved at us from across the street.","一位金髮男子從街對面向我們揮手。"]]}
+],
+"monk": [
+{"p":"n","zh":"僧侶、修士","ai":[["The monk walked quietly through the temple garden.","那位僧人安靜地走過寺廟的庭院。"],["Many monks wake up before sunrise to pray.","許多僧侶在日出前就起床祈禱。"]]}
+],
+"confession": [
+{"p":"n","zh":"坦白、承認","ai":[["I have a confession to make: I ate your cake.","我要坦白一件事：我吃了你的蛋糕。"],["His confession surprised everyone in the room.","他的坦白讓房間裡的每個人都很驚訝。"]]},
+{"p":"n","zh":"（宗教上的）告解","ai":[["She goes to confession at the church every month.","她每個月都會到教堂告解。"],["The priest listened to his confession patiently.","神父耐心地聽他告解。"]]}
+],
+"caravan": [
+{"p":"n","zh":"大篷車、露營拖車","ai":[["They spent the summer traveling in a caravan.","他們夏天開著露營拖車到處旅行。"],["We parked our caravan next to the lake.","我們把露營拖車停在湖邊。"]]},
+{"p":"n","zh":"商隊、旅行隊","ai":[["A caravan of camels crossed the desert slowly.","一支駱駝商隊緩慢地穿越沙漠。"],["Traders once traveled in caravans along the old road.","商人過去會結伴組成商隊走在古老的道路上。"]]}
+],
+"woodland": [
+{"p":"n","zh":"林地、樹林","ai":[["We went for a walk in the quiet woodland.","我們在寧靜的林地裡散步。"],["Many birds live in the woodland near our village.","我們村子附近的林地住著許多鳥類。"]]}
+],
+"disturbing": [
+{"p":"adj","zh":"令人不安的、擾人的","ai":[["The news report was very disturbing to watch.","那則新聞報導看了讓人很不安。"],["It is disturbing that so many people ignored the warning.","這麼多人無視警告，實在令人不安。"]]}
+],
+"counselling": [
+{"p":"n","zh":"諮商、輔導","ai":[["She decided to try counselling to deal with stress.","她決定嘗試諮商來處理壓力。"],["The school offers free counselling for students.","學校為學生提供免費的輔導服務。"]]}
+],
+"neighboring": [
+{"p":"adj","zh":"鄰近的、隔壁的","ai":[["We often drive to the neighboring town for lunch.","我們常開車到鄰近的小鎮吃午餐。"],["The neighboring countries signed a trade agreement.","這幾個鄰近國家簽訂了貿易協定。"]]}
+],
+"testament": [
+{"p":"n","zh":"證明、明證","ai":[["The old building is a testament to the builders' skill.","這棟老建築證明了建造者的高超技藝。"],["Her success is a testament to years of hard work.","她的成功是多年努力的明證。"]]},
+{"p":"n","zh":"遺囑","ai":[["He left a testament dividing his land among his children.","他留下遺囑，把土地分給了子女。"],["The lawyer read the last will and testament aloud.","律師大聲朗讀了遺囑。"]]}
+],
+"devastating": [
+{"p":"adj","zh":"毀滅性的、破壞力極大的","ai":[["The storm had a devastating effect on the coastal town.","這場暴風雨對沿海小鎮造成毀滅性的影響。"],["The flood was devastating for local farmers.","這場洪水對當地農民來說是毀滅性的打擊。"]]},
+{"p":"adj","zh":"令人悲痛的、打擊很大的","ai":[["The news of his illness was devastating to the family.","他生病的消息對家人來說是沉重的打擊。"],["Losing the game was devastating for the young team.","輸掉比賽對這支年輕的球隊打擊很大。"]]}
+],
+"ribbon": [
+{"p":"n","zh":"緞帶、絲帶","ai":[["She tied a red ribbon around the gift box.","她在禮物盒上綁了一條紅色緞帶。"],["The little girl wore a blue ribbon in her hair.","小女孩頭髮上繫著一條藍色絲帶。"]]},
+{"p":"n","zh":"（印表機或打字機的）色帶","ai":[["The old printer needs a new ink ribbon.","這台舊印表機需要換新的色帶。"],["The typewriter stopped working because the ribbon was dry.","因為色帶乾掉了，打字機無法使用。"]]}
+],
+"dragon": [
+{"p":"n","zh":"龍","ai":[["Children love stories about a dragon that guards a treasure.","孩子們愛聽守護寶藏的龍的故事。"],["In Taiwan, people watch dragon boat races in June.","在台灣，人們六月會觀賞划龍舟比賽。"]]}
+],
+"lace": [
+{"p":"n","zh":"蕾絲、花邊","ai":[["Her wedding dress was decorated with fine white lace.","她的婚紗用精緻的白色蕾絲裝飾。"],["The curtains have a beautiful lace edge.","這些窗簾有漂亮的蕾絲邊。"]]},
+{"p":"n","zh":"鞋帶","ai":[["Wait a second, my lace has come undone.","等一下，我的鞋帶鬆開了。"],["He bent down to tie his shoe laces.","他彎下腰繫鞋帶。"]]},
+{"p":"v","zh":"繫緊（鞋帶）、用帶子綁","ai":[["Lace your shoes tightly before you start running.","開始跑步前，要把鞋帶綁緊。"],["She laced up her boots and went out into the snow.","她繫好靴子的鞋帶，走進雪地裡。"]]}
+],
+"exploitation": [
+{"p":"n","zh":"剝削","ai":[["The report exposed the exploitation of factory workers.","這份報告揭露了工廠工人遭受剝削的情況。"],["Child labor is a serious form of exploitation.","童工是一種嚴重的剝削形式。"]]},
+{"p":"n","zh":"開發、開採、利用","ai":[["The exploitation of natural resources must be controlled.","對自然資源的開採必須受到管制。"],["The island's exploitation for tourism began in the 1980s.","這座島嶼從八〇年代開始被開發作觀光用途。"]]}
+],
+"clutch": [
+{"p":"v","zh":"緊抓、緊握","ai":[["The child clutched his mother's hand in the crowd.","孩子在人群中緊緊抓住媽媽的手。"],["She clutched her bag and ran to the station.","她緊抓著包包跑向車站。"]]},
+{"p":"n","zh":"離合器","ai":[["Press the clutch before you change gears.","換檔前要先踩下離合器。"],["My car's clutch is making a strange noise.","我的車子離合器發出奇怪的聲音。"]]}
+],
+"borrowing": [
+{"p":"n","zh":"借、借貸、借款","ai":[["Borrowing money from friends can cause problems.","向朋友借錢可能會造成問題。"],["The government is planning to reduce its borrowing.","政府計劃減少舉債。"]]}
+],
+"unidentified": [
+{"p":"adj","zh":"身分不明的、未確認的","ai":[["Police found an unidentified man near the station.","警方在車站附近發現一名身分不明的男子。"],["The pilot saw an unidentified object in the sky.","飛行員在空中看見一個不明物體。"]]}
+],
+"sufferer": [
+{"p":"n","zh":"患者、受苦的人","ai":[["Allergy sufferers should avoid the garden in spring.","過敏患者春天應該避免進入花園。"],["The charity helps sufferers of rare diseases.","這個慈善團體幫助罹患罕見疾病的人。"]]}
+],
+"shorts": [
+{"p":"n","zh":"短褲","ai":[["It was so hot that I wore shorts all day.","天氣太熱了，我整天都穿短褲。"],["He packed two pairs of shorts for the beach trip.","他為海邊旅行打包了兩條短褲。"]]}
+],
+"soften": [
+{"p":"v","zh":"使變軟、變柔軟","ai":[["Soak the beans overnight to soften them.","把豆子泡一晚讓它們變軟。"],["Warm water will soften the hard butter quickly.","溫水會讓硬的奶油很快變軟。"]]},
+{"p":"v","zh":"使緩和、使柔和","ai":[["She tried to soften the bad news with a smile.","她試著用微笑來緩和壞消息帶來的衝擊。"],["Soft lighting can soften the look of a room.","柔和的燈光能讓房間看起來更溫馨。"]]}
+],
+"bride": [
+{"p":"n","zh":"新娘","ai":[["The bride walked down the aisle with her father.","新娘由父親陪著走過紅毯。"],["Everyone said the bride looked beautiful in white.","大家都說穿白紗的新娘很美。"]]}
+],
+"straighten": [
+{"p":"v","zh":"弄直、拉直","ai":[["He straightened his tie before the interview.","面試前他把領帶拉直。"],["She straightened the picture on the wall.","她把牆上的畫扶正。"]]},
+{"p":"v","zh":"整理、整頓","ai":[["Let me straighten my desk before we start.","開始之前讓我先整理一下書桌。"],["We need to straighten out the schedule for next week.","我們需要把下週的行程整理清楚。"]]}
+],
+"compelling": [
+{"p":"adj","zh":"引人入勝的、有說服力的","ai":[["The author tells a compelling story about growing up.","作者講述了一個關於成長的引人入勝的故事。"],["She gave a compelling reason for changing the plan.","她提出了一個有說服力的理由來改變計畫。"]]}
+],
+"troubled": [
+{"p":"adj","zh":"憂慮的、不安的","ai":[["He looked troubled when he heard the news.","他聽到消息時看起來憂心忡忡。"],["The troubled student asked the teacher for advice.","那位心事重重的學生向老師尋求建議。"]]},
+{"p":"adj","zh":"動盪的、有問題的","ai":[["The company has been troubled by money problems for years.","這家公司多年來一直為資金問題所困。"],["They moved away from the troubled neighborhood.","他們搬離了那個不太平靜的社區。"]]}
+],
+"erosion": [
+{"p":"n","zh":"侵蝕、沖蝕","ai":[["Heavy rain causes soil erosion on the steep hills.","大雨會使陡峭的山坡出現土壤侵蝕。"],["Beach erosion is a growing problem along the coast.","海灘侵蝕是沿海地區日益嚴重的問題。"]]},
+{"p":"n","zh":"逐漸削弱、損耗","ai":[["There has been an erosion of trust between the two sides.","雙方之間的信任逐漸流失。"],["Inflation leads to the erosion of our savings.","通貨膨脹使我們的存款逐漸縮水。"]]}
+],
+"balanced": [
+{"p":"adj","zh":"均衡的、平衡的","ai":[["A balanced diet includes vegetables, fruit and protein.","均衡的飲食包含蔬菜、水果和蛋白質。"],["She tries to keep a balanced schedule of work and rest.","她努力維持工作與休息均衡的生活作息。"]]},
+{"p":"adj","zh":"公正的、不偏頗的","ai":[["The article gives a balanced view of both sides.","這篇文章對雙方的看法都做了公正的呈現。"],["He is a calm and balanced person.","他是個冷靜又不偏激的人。"]]}
+],
+"ace": [
+{"p":"n","zh":"（撲克牌的）A、一點","ai":[["I held the ace of spades in my hand.","我手上拿著黑桃A。"],["He played an ace and won the round.","他打出一張A，贏得了這一局。"]]},
+{"p":"n","zh":"高手、王牌；（網球）發球得分","ai":[["She is an ace at solving math problems.","她是解數學題的高手。"],["He served an ace on the final point.","他在最後一分用發球直接得分。"]]},
+{"p":"adj","zh":"一流的、傑出的","ai":[["He is an ace pilot with years of experience.","他是一位有多年經驗的王牌飛行員。"],["My sister is an ace swimmer on her school team.","我姊姊是校隊的頂尖游泳選手。"]]}
+],
+"promoter": [
+{"p":"n","zh":"促進者、提倡者","ai":[["She is a strong promoter of healthy eating in schools.","她是校園健康飲食的積極提倡者。"],["The mayor is a promoter of local tourism.","市長是推廣在地觀光的倡導者。"]]},
+{"p":"n","zh":"（活動的）主辦人、宣傳者","ai":[["The concert promoter sold all the tickets in one day.","演唱會主辦人一天就賣光了所有門票。"],["A music promoter booked the band for three shows.","一位音樂活動宣傳人為這個樂團安排了三場演出。"]]}
+],
+"bolt": [
+{"p":"n","zh":"螺栓、門閂","ai":[["He tightened the bolt with a wrench.","他用扳手把螺栓鎖緊。"],["Please slide the bolt across before you go to bed.","睡覺前請把門閂拴上。"]]},
+{"p":"n","zh":"閃電","ai":[["A bolt of lightning lit up the dark sky.","一道閃電照亮了漆黑的天空。"],["The tree was hit by a bolt during the storm.","這棵樹在暴風雨中被閃電擊中。"]]},
+{"p":"v","zh":"突然衝出、逃跑","ai":[["The horse bolted when it heard the loud noise.","馬聽到巨大的聲響後突然狂奔起來。"],["She bolted out of the room to answer the phone.","她衝出房間去接電話。"]]}
+],
+"learner": [
+{"p":"n","zh":"學習者、初學者","ai":[["She is a quick learner and picks things up fast.","她學得很快，很快就能上手。"],["This book is written for beginner English learners.","這本書是為初學英文的學習者所寫的。"]]}
+],
+"narrator": [
+{"p":"n","zh":"敘述者、旁白","ai":[["The narrator of the story is a young girl.","這個故事的敘述者是一位年輕女孩。"],["The documentary has a calm narrator with a deep voice.","這部紀錄片的旁白聲音低沉、語調平穩。"]]}
+],
+"organized": [
+{"p":"adj","zh":"有條理的、井然有序的","ai":[["My sister is very organized and never forgets anything.","我姊姊很有條理，從來不會忘記任何事。"],["The files on his computer are neatly organized.","他電腦裡的檔案整理得井井有條。"]]},
+{"p":"adj","zh":"有組織的、有計畫安排的","ai":[["We joined an organized tour of the old city.","我們參加了一個有安排的老城區導覽行程。"],["The school held an organized trip to the museum.","學校舉辦了一次有組織的博物館參訪。"]]}
+],
+"privatisation": [
+{"p":"n","zh":"私有化、民營化","ai":[["The privatisation of the railway was debated for years.","鐵路民營化的議題被討論了好幾年。"],["Many people worried about the privatisation of water services.","許多人擔心供水服務的私有化。"]]}
+],
+"missionary": [
+{"p":"n","zh":"傳教士","ai":[["The missionary lived in the village for many years.","那位傳教士在這個村子住了很多年。"],["Missionaries built the first school in the area.","傳教士在這個地區蓋了第一所學校。"]]}
+],
+"yep": [
+{"p":"int","zh":"是的、對（口語）","ai":[["\"Are you ready to go?\" \"Yep, let's leave.\"","「你準備好要走了嗎？」「嗯，我們出發吧。」"],["Yep, I finished all my homework already.","對啊，我已經寫完所有功課了。"]]}
+],
+"butterfly": [
+{"p":"n","zh":"蝴蝶","ai":[["A colorful butterfly landed on the flower.","一隻色彩繽紛的蝴蝶停在花上。"],["Children chased the butterfly across the field.","孩子們在田野上追著蝴蝶跑。"]]},
+{"p":"n","zh":"蝶式（游泳姿勢）","ai":[["He is training hard to swim the butterfly faster.","他正在努力訓練，想把蝶式游得更快。"],["The butterfly is the hardest swimming style for me.","蝶式是我覺得最難的游泳姿勢。"]]}
+],
+"convincing": [
+{"p":"adj","zh":"有說服力的、令人信服的","ai":[["She gave a convincing reason for being late.","她提出了一個令人信服的遲到理由。"],["The evidence was not convincing enough for the judge.","這份證據對法官來說不夠有說服力。"]]}
+],
+"crossing": [
+{"p":"n","zh":"十字路口、穿越處","ai":[["Wait for the green light at the pedestrian crossing.","在行人穿越道等綠燈。"],["There is a railway crossing near my school.","我的學校附近有一個鐵路平交道。"]]},
+{"p":"n","zh":"橫越、渡過","ai":[["The ferry crossing took about two hours.","搭渡輪過海大約花了兩個小時。"],["Their crossing of the mountains was difficult in winter.","他們在冬天翻越山脈非常辛苦。"]]}
+],
+"kneel": [
+{"p":"v","zh":"跪下、跪著","ai":[["He knelt down to tie the child's shoes.","他蹲跪下來幫孩子綁鞋帶。"],["People kneel quietly in the church to pray.","人們在教堂裡安靜地跪著禱告。"]]}
+],
+"respectable": [
+{"p":"adj","zh":"體面的、值得尊敬的","ai":[["He comes from a respectable family in the town.","他來自鎮上一個受人尊敬的家庭。"],["She wanted to look respectable for the interview.","她想在面試時看起來體面一點。"]]},
+{"p":"adj","zh":"相當不錯的、可觀的","ai":[["The team finished with a respectable score.","這支球隊以相當不錯的成績結束了比賽。"],["He earns a respectable salary at the bank.","他在銀行領有一份相當可觀的薪水。"]]}
+],
+"beloved": [
+{"p":"adj","zh":"心愛的、深受喜愛的","ai":[["She cried when her beloved dog passed away.","她心愛的狗過世時，她哭了。"],["He is a beloved teacher at our school.","他是我們學校深受喜愛的老師。"]]}
+],
+"relieved": [
+{"p":"adj","zh":"鬆一口氣的、寬慰的","ai":[["I was relieved to hear that you were safe.","聽到你平安無事，我鬆了一口氣。"],["She felt relieved after the exam was finally over.","考試終於結束後，她覺得如釋重負。"]]}
+],
+"obey": [
+{"p":"v","zh":"服從、遵守","ai":[["Children should obey their parents and teachers.","孩子應該聽從父母和老師的話。"],["All drivers must obey the traffic rules.","所有駕駛人都必須遵守交通規則。"]]}
+],
+"hammer": [
+{"p":"n","zh":"鐵鎚、榔頭","ai":[["He used a hammer to drive the nail into the wall.","他用鐵鎚把釘子敲進牆裡。"],["Can I borrow your hammer for a few minutes?","我可以跟你借一下鐵鎚嗎？"]]},
+{"p":"v","zh":"用鎚子敲打、猛敲","ai":[["She hammered the sign onto the wooden post.","她用鎚子把告示牌釘在木柱上。"],["Someone was hammering on the door in the middle of the night.","半夜有人在猛敲門。"]]}
+],
+"smoking": [
+{"p":"n","zh":"吸菸","ai":[["Smoking is not allowed inside the restaurant.","餐廳內禁止吸菸。"],["He quit smoking last year for his health.","他去年為了健康戒菸了。"]]}
+],
+"decisive": [
+{"p":"adj","zh":"決定性的、關鍵的","ai":[["Her goal in the last minute was decisive for the game.","她在最後一分鐘的進球是這場比賽的關鍵。"],["The vote played a decisive role in the final result.","這次投票對最終結果起了決定性的作用。"]]},
+{"p":"adj","zh":"果斷的、堅決的","ai":[["A good leader must be decisive in an emergency.","好的領導者在緊急時刻必須果斷。"],["He took decisive action to fix the problem.","他採取了果斷的行動來解決問題。"]]}
+],
+"betray": [
+{"p":"v","zh":"背叛、出賣","ai":[["He would never betray a friend for money.","他絕不會為了錢出賣朋友。"],["She felt betrayed when he told her secret to others.","他把她的祕密告訴別人，讓她覺得被背叛了。"]]},
+{"p":"v","zh":"流露、洩漏（情緒或祕密）","ai":[["His shaking voice betrayed how nervous he was.","他顫抖的聲音洩漏了他有多緊張。"],["Her smile betrayed her excitement about the trip.","她的笑容透露出她對這趟旅行的興奮。"]]}
+],
+"telegraph": [
+{"p":"n","zh":"電報","ai":[["In the past, people sent news by telegraph.","過去人們用電報傳送消息。"],["The telegraph made long-distance communication much faster.","電報讓遠距離通訊變得快多了。"]]},
+{"p":"v","zh":"打電報","ai":[["He telegraphed his family to say he had arrived.","他打電報告訴家人自己已經抵達。"],["They telegraphed the news to the capital at once.","他們立刻把這個消息用電報發到首都。"]]}
+],
+"recorder": [
+{"p":"n","zh":"錄音機、錄影機","ai":[["The reporter put a small recorder on the table.","記者在桌上放了一台小型錄音機。"],["I used a voice recorder to save the lecture.","我用錄音機把這堂課錄下來。"]]},
+{"p":"n","zh":"直笛","ai":[["Our class learned to play the recorder in music lessons.","我們班在音樂課學吹直笛。"],["She practiced a simple song on her recorder.","她用直笛練習一首簡單的歌。"]]}
+],
+"intake": [
+{"p":"n","zh":"攝取量、吸入量","ai":[["Doctors suggest lowering your daily salt intake.","醫生建議降低每天的鹽分攝取量。"],["A healthy water intake keeps your body hydrated.","適量的飲水能讓身體保持水分。"]]},
+{"p":"n","zh":"（學校等的）招生人數、入口","ai":[["This year's student intake is larger than last year's.","今年的招生人數比去年多。"],["The air intake of the engine was blocked by leaves.","引擎的進氣口被樹葉堵住了。"]]}
+],
+"challenging": [
+{"p":"adj","zh":"具挑戰性的、困難但有趣的","ai":[["Learning a new language can be challenging but fun.","學習一種新語言可能很有挑戰性，但也很有趣。"],["This is a challenging job that requires a lot of patience.","這是一份需要很多耐心的有挑戰性的工作。"]]}
+],
+"cleaning": [
+{"p":"n","zh":"清潔、打掃","ai":[["Cleaning the house takes me about two hours.","打掃整間房子大約要花我兩個小時。"],["She hired a company to do the cleaning every week.","她請了一家公司每週來打掃。"]]}
+]
+}
