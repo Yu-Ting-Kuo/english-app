@@ -38,10 +38,10 @@
       "url": "https://news.un.org/en/story/2026/11/1168735",
       "publishedAt": "2026-11-04T12:00:00Z",
       "vocabulary": [
+        "faster",
         "summit",
         "tackle",
-        "stake",
-        "climate"
+        "stake"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/03-11-2026-UNICEF-Bangladesh-02.jpg/image560x340cropped.jpg"
     },
@@ -86,20 +86,6 @@
         "uniform"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/12-10-26_UN_Human-Rights_Zorayda_Gallegos.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026101168716",
-      "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
-      "summary": "The UN human rights chief on Saturday demanded an independent investigation into the death of a Yemeni colleague held by the Houthis for more than two years, whose family learned of his death only weeks after it happened.",
-      "url": "https://news.un.org/en/story/2026/10/1168716",
-      "publishedAt": "2026-10-31T12:00:00Z",
-      "vocabulary": [
-        "staffer",
-        "probe",
-        "custody",
-        "colleague"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/27-02-2026-HRC-Volker-Turk.jpg/image560x340cropped.jpg"
     }
   ]
 }
