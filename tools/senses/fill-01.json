@@ -1,0 +1,1802 @@
+{
+ "going": [
+  {
+   "p": "adj",
+   "zh": "進行中的；現行的",
+   "ai": [
+    [
+     "The going rate for a haircut here is about three hundred dollars.",
+     "這裡剪頭髮的現行行情大約是三百元。"
+    ],
+    [
+     "Is the project still going smoothly?",
+     "這個專案還進行得順利嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "離去；進展情況",
+   "ai": [
+    [
+     "His going left the whole team feeling sad.",
+     "他的離去讓整個團隊都很難過。"
+    ],
+    [
+     "The going was slow because of the heavy rain.",
+     "因為下大雨，行進的速度很慢。"
+    ]
+   ]
+  }
+ ],
+ "later": [
+  {
+   "p": "adv",
+   "zh": "以後；稍後",
+   "ai": [
+    [
+     "I will call you later this evening.",
+     "我今天晚上晚一點再打給你。"
+    ],
+    [
+     "She arrived ten minutes later than the others.",
+     "她比其他人晚了十分鐘到。"
+    ],
+    [
+     "See you later!",
+     "待會見！"
+    ]
+   ]
+  }
+ ],
+ "best": [
+  {
+   "p": "adj",
+   "zh": "最好的",
+   "ai": [
+    [
+     "This is the best coffee shop in our town.",
+     "這是我們鎮上最好的咖啡店。"
+    ],
+    [
+     "She is my best friend from high school.",
+     "她是我高中時期最好的朋友。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "最好地；最",
+   "ai": [
+    [
+     "Which season do you like best?",
+     "你最喜歡哪個季節？"
+    ],
+    [
+     "Do what you think is best.",
+     "做你認為最好的事。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "最好的人或事物",
+   "ai": [
+    [
+     "Let's hope for the best tomorrow.",
+     "希望明天一切順利。"
+    ],
+    [
+     "She always wants the best for her children.",
+     "她總是希望給孩子最好的。"
+    ]
+   ]
+  }
+ ],
+ "centre": [
+  {
+   "p": "n",
+   "zh": "中心；中央",
+   "ai": [
+    [
+     "The library is in the centre of the city.",
+     "圖書館位於市中心。"
+    ],
+    [
+     "There is a large table in the centre of the room.",
+     "房間中央有一張大桌子。"
+    ],
+    [
+     "We visited a sports centre near my home.",
+     "我們去了我家附近的運動中心。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "以...為中心；集中",
+   "ai": [
+    [
+     "The discussion centred on the cost of the project.",
+     "討論的重點集中在專案的成本上。"
+    ],
+    [
+     "Her life centres around her family.",
+     "她的生活以家人為重心。"
+    ]
+   ]
+  }
+ ],
+ "programme": [
+  {
+   "p": "n",
+   "zh": "節目；計劃、方案",
+   "ai": [
+    [
+     "My favourite TV programme starts at eight tonight.",
+     "我最喜歡的電視節目今晚八點開始。"
+    ],
+    [
+     "The school runs a reading programme for children.",
+     "學校為孩子們辦了一項閱讀計劃。"
+    ],
+    [
+     "Please check the programme to see the concert schedule.",
+     "請看節目單，了解音樂會的時間表。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "規劃；設定程式",
+   "ai": [
+    [
+     "The engineer programmed the machine to stop automatically.",
+     "工程師設定了機器讓它自動停止。"
+    ],
+    [
+     "We programmed the schedule well in advance.",
+     "我們很早就安排好了行程。"
+    ]
+   ]
+  }
+ ],
+ "including": [
+  {
+   "p": "prep",
+   "zh": "包括",
+   "ai": [
+    [
+     "The price is NT$500, including tax.",
+     "價格是五百元，含稅。"
+    ],
+    [
+     "Everyone came to the party, including my teacher.",
+     "大家都來參加派對，包括我的老師。"
+    ],
+    [
+     "Many countries, including Japan, have earthquakes.",
+     "包括日本在內的許多國家都有地震。"
+    ]
+   ]
+  }
+ ],
+ "hundred": [
+  {
+   "p": "num",
+   "zh": "一百",
+   "ai": [
+    [
+     "There are about a hundred students in the hall.",
+     "大廳裡大約有一百名學生。"
+    ],
+    [
+     "She is one hundred years old today.",
+     "她今天一百歲了。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "數以百計；許多",
+   "ai": [
+    [
+     "Hundreds of people waited outside the stadium.",
+     "數以百計的人在體育場外等候。"
+    ],
+    [
+     "The old temple has hundreds of stone steps.",
+     "這座古廟有數百級石階。"
+    ]
+   ]
+  }
+ ],
+ "better": [
+  {
+   "p": "adj",
+   "zh": "較好的；好轉的",
+   "ai": [
+    [
+     "This phone is better than my old one.",
+     "這支手機比我的舊手機好。"
+    ],
+    [
+     "I feel much better after a good sleep.",
+     "睡了好覺之後，我覺得好多了。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "更好地",
+   "ai": [
+    [
+     "You should speak more slowly so people understand you better.",
+     "你應該說慢一點，大家才能更了解你。"
+    ],
+    [
+     "He plays the piano better than I do.",
+     "他鋼琴彈得比我好。"
+    ]
+   ]
+  }
+ ],
+ "third": [
+  {
+   "p": "num",
+   "zh": "第三；第三個",
+   "ai": [
+    [
+     "She finished third in the swimming race.",
+     "她在游泳比賽中拿到第三名。"
+    ],
+    [
+     "Our office is on the third floor.",
+     "我們的辦公室在三樓。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "三分之一",
+   "ai": [
+    [
+     "A third of the class was absent today.",
+     "班上有三分之一的人今天缺席。"
+    ],
+    [
+     "Add one third of a cup of sugar.",
+     "加入三分之一杯的糖。"
+    ]
+   ]
+  }
+ ],
+ "according": [
+  {
+   "p": "adj",
+   "zh": "根據（according to）",
+   "ai": [
+    [
+     "According to the weather report, it will rain tomorrow.",
+     "根據氣象預報，明天會下雨。"
+    ],
+    [
+     "According to my sister, the movie is boring.",
+     "據我姊姊說，那部電影很無聊。"
+    ]
+   ]
+  }
+ ],
+ "everyone": [
+  {
+   "p": "pron",
+   "zh": "每個人；大家",
+   "ai": [
+    [
+     "Everyone in my family likes hot pot.",
+     "我家每個人都喜歡吃火鍋。"
+    ],
+    [
+     "Hello, everyone! Please take your seats.",
+     "大家好！請就座。"
+    ],
+    [
+     "I think everyone should try this dish once.",
+     "我覺得每個人都該試試這道菜。"
+    ]
+   ]
+  }
+ ],
+ "lord": [
+  {
+   "p": "n",
+   "zh": "統治者；貴族；閣下",
+   "ai": [
+    [
+     "In the story, the lord lived in a big castle.",
+     "故事裡，那位領主住在一座大城堡裡。"
+    ],
+    [
+     "He was made a lord by the queen.",
+     "他被女王封為貴族。"
+    ]
+   ]
+  }
+ ],
+ "concerned": [
+  {
+   "p": "adj",
+   "zh": "擔心的；關心的",
+   "ai": [
+    [
+     "Her parents were concerned about her health.",
+     "她的父母很擔心她的健康。"
+    ],
+    [
+     "We are all concerned about the rising prices.",
+     "我們都很擔心物價上漲。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "有關的；涉及的",
+   "ai": [
+    [
+     "All the people concerned must attend the meeting.",
+     "所有相關人員都必須出席會議。"
+    ],
+    [
+     "As far as I am concerned, this plan is fine.",
+     "就我而言，這個計劃沒問題。"
+    ]
+   ]
+  }
+ ],
+ "thousand": [
+  {
+   "p": "num",
+   "zh": "一千",
+   "ai": [
+    [
+     "The bike cost about two thousand dollars.",
+     "這輛腳踏車大約要兩千元。"
+    ],
+    [
+     "A thousand people came to the concert.",
+     "有一千人來參加了音樂會。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "數以千計；許許多多",
+   "ai": [
+    [
+     "Thousands of fans were waiting outside the hall.",
+     "成千上萬的粉絲在會場外等候。"
+    ],
+    [
+     "Thousands of birds fly south every winter.",
+     "每年冬天有數以千計的鳥飛往南方。"
+    ]
+   ]
+  }
+ ],
+ "used": [
+  {
+   "p": "adj",
+   "zh": "習慣的（be used to）",
+   "ai": [
+    [
+     "I am not used to getting up so early.",
+     "我不習慣這麼早起床。"
+    ],
+    [
+     "She is used to living alone.",
+     "她已習慣獨自生活。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "二手的；用過的",
+   "ai": [
+    [
+     "He bought a used car for his daughter.",
+     "他為女兒買了一輛二手車。"
+    ],
+    [
+     "The shop sells used books at a low price.",
+     "這家店以低價販售二手書。"
+    ]
+   ]
+  }
+ ],
+ "colour": [
+  {
+   "p": "n",
+   "zh": "顏色",
+   "ai": [
+    [
+     "What is your favourite colour?",
+     "你最喜歡什麼顏色？"
+    ],
+    [
+     "The walls are painted a light colour.",
+     "牆壁漆成了淺色。"
+    ],
+    [
+     "The leaves change colour in autumn.",
+     "葉子在秋天會變色。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "著色；塗上顏色",
+   "ai": [
+    [
+     "The children coloured the picture with crayons.",
+     "孩子們用蠟筆為圖畫著色。"
+    ],
+    [
+     "She coloured her hair brown last week.",
+     "她上週把頭髮染成了棕色。"
+    ]
+   ]
+  }
+ ],
+ "per": [
+  {
+   "p": "prep",
+   "zh": "每；按",
+   "ai": [
+    [
+     "The car was going eighty kilometres per hour.",
+     "那輛車以每小時八十公里的速度行駛。"
+    ],
+    [
+     "Tickets cost two hundred dollars per person.",
+     "門票每人兩百元。"
+    ]
+   ]
+  }
+ ],
+ "thought": [
+  {
+   "p": "n",
+   "zh": "想法；思考",
+   "ai": [
+    [
+     "I had a strange thought on my way home.",
+     "我在回家的路上冒出一個奇怪的想法。"
+    ],
+    [
+     "She sat quietly, lost in thought.",
+     "她靜靜地坐著，陷入沉思。"
+    ],
+    [
+     "The thought of exams makes me nervous.",
+     "一想到考試我就緊張。"
+    ]
+   ]
+  }
+ ],
+ "labour": [
+  {
+   "p": "n",
+   "zh": "勞動；勞工",
+   "ai": [
+    [
+     "The work needs a lot of hard labour.",
+     "這份工作需要大量的粗重勞動。"
+    ],
+    [
+     "The factory is short of labour this year.",
+     "這間工廠今年缺乏勞動力。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "辛勤工作；努力",
+   "ai": [
+    [
+     "He laboured all night to finish the report.",
+     "他整晚辛苦工作，只為完成報告。"
+    ],
+    [
+     "They laboured in the fields from morning to dark.",
+     "他們從早到晚在田裡辛勤勞動。"
+    ]
+   ]
+  }
+ ],
+ "organisation": [
+  {
+   "p": "n",
+   "zh": "組織；團體",
+   "ai": [
+    [
+     "She works for a charity organisation.",
+     "她在一個慈善機構工作。"
+    ],
+    [
+     "The organisation helps families in need.",
+     "這個組織幫助有需要的家庭。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "組織；安排",
+   "ai": [
+    [
+     "The organisation of the event took three months.",
+     "這場活動的籌劃花了三個月。"
+    ],
+    [
+     "Good organisation saves a lot of time.",
+     "良好的規劃能省下很多時間。"
+    ]
+   ]
+  }
+ ],
+ "behaviour": [
+  {
+   "p": "n",
+   "zh": "行為；舉止",
+   "ai": [
+    [
+     "The teacher praised the children for their good behaviour.",
+     "老師稱讚孩子們的良好行為。"
+    ],
+    [
+     "His behaviour at dinner surprised everyone.",
+     "他在晚餐時的舉止讓大家很驚訝。"
+    ]
+   ]
+  }
+ ],
+ "defence": [
+  {
+   "p": "n",
+   "zh": "防衛；防守",
+   "ai": [
+    [
+     "The team has a strong defence this season.",
+     "這支球隊本季的防守很強。"
+    ],
+    [
+     "She learned self-defence at the community centre.",
+     "她在社區中心學了防身術。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "辯護；辯解",
+   "ai": [
+    [
+     "He spoke in defence of his friend.",
+     "他為他的朋友辯護。"
+    ],
+    [
+     "The lawyer prepared a strong defence for the case.",
+     "律師為這個案子準備了有力的辯護。"
+    ]
+   ]
+  }
+ ],
+ "feeling": [
+  {
+   "p": "n",
+   "zh": "感覺；感受",
+   "ai": [
+    [
+     "I have a good feeling about tomorrow's interview.",
+     "我對明天的面試有好預感。"
+    ],
+    [
+     "She had a strange feeling that someone was watching her.",
+     "她有種奇怪的感覺，好像有人在看她。"
+    ],
+    [
+     "It was a feeling of pure joy.",
+     "那是一種純粹的喜悅。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "情感；同情",
+   "ai": [
+    [
+     "He hid his feelings behind a smile.",
+     "他把感受藏在微笑背後。"
+    ],
+    [
+     "I didn't mean to hurt your feelings.",
+     "我不是故意傷害你的感情。"
+    ]
+   ]
+  }
+ ],
+ "nor": [
+  {
+   "p": "conj",
+   "zh": "也不；也沒有",
+   "ai": [
+    [
+     "I don't like coffee, nor do I like tea.",
+     "我不喜歡咖啡，也不喜歡茶。"
+    ],
+    [
+     "Neither he nor his sister came to the party.",
+     "他和他妹妹都沒有來參加派對。"
+    ]
+   ]
+  }
+ ],
+ "united": [
+  {
+   "p": "adj",
+   "zh": "聯合的；團結的",
+   "ai": [
+    [
+     "The villagers were united in their wish for a new school.",
+     "村民們團結一致，希望有一所新學校。"
+    ],
+    [
+     "The two companies united to build the bridge.",
+     "兩家公司聯手建造這座橋。"
+    ]
+   ]
+  }
+ ],
+ "sales": [
+  {
+   "p": "n",
+   "zh": "銷售；銷售額",
+   "ai": [
+    [
+     "Sales rose sharply during the holiday season.",
+     "假期期間銷售額大幅上升。"
+    ],
+    [
+     "Online sales have grown quickly in recent years.",
+     "近年來網路銷售成長得很快。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "銷售的",
+   "ai": [
+    [
+     "My brother works in the sales department.",
+     "我哥哥在業務部門工作。"
+    ],
+    [
+     "She is the new sales manager.",
+     "她是新來的業務經理。"
+    ]
+   ]
+  }
+ ],
+ "realise": [
+  {
+   "p": "v",
+   "zh": "領悟；意識到",
+   "ai": [
+    [
+     "I didn't realise how late it was.",
+     "我沒意識到已經這麼晚了。"
+    ],
+    [
+     "She realised she had left her keys at home.",
+     "她發現自己把鑰匙忘在家裡了。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "實現",
+   "ai": [
+    [
+     "He worked hard to realise his dream of becoming a chef.",
+     "他努力工作，要實現當廚師的夢想。"
+    ],
+    [
+     "The plan was finally realised after two years.",
+     "這個計劃在兩年後終於實現了。"
+    ]
+   ]
+  }
+ ],
+ "earlier": [
+  {
+   "p": "adj",
+   "zh": "較早的；先前的",
+   "ai": [
+    [
+     "We took an earlier train to avoid the crowd.",
+     "我們搭了較早的一班火車以避開人潮。"
+    ],
+    [
+     "In earlier times, people wrote letters by hand.",
+     "在早期，人們用手寫信。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "較早地；先前",
+   "ai": [
+    [
+     "As I said earlier, the shop opens at nine.",
+     "如我先前所說，這家店九點開門。"
+    ],
+    [
+     "You should have told me earlier.",
+     "你應該早點告訴我的。"
+    ]
+   ]
+  }
+ ],
+ "involved": [
+  {
+   "p": "adj",
+   "zh": "涉及的；參與的",
+   "ai": [
+    [
+     "Many students were involved in the school project.",
+     "許多學生參與了這個學校專案。"
+    ],
+    [
+     "I don't want to get involved in their argument.",
+     "我不想牽扯進他們的爭吵。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "複雜的",
+   "ai": [
+    [
+     "The story is too involved for children to follow.",
+     "這個故事太複雜了，孩子們看不懂。"
+    ],
+    [
+     "It was a long and involved process.",
+     "那是一個漫長又複雜的過程。"
+    ]
+   ]
+  }
+ ],
+ "interesting": [
+  {
+   "p": "adj",
+   "zh": "有趣的",
+   "ai": [
+    [
+     "That was an interesting book about the ocean.",
+     "那是一本關於海洋的有趣的書。"
+    ],
+    [
+     "It would be interesting to visit Tainan next year.",
+     "明年去台南玩應該會很有趣。"
+    ],
+    [
+     "She told us an interesting story.",
+     "她跟我們說了一個有趣的故事。"
+    ]
+   ]
+  }
+ ],
+ "means": [
+  {
+   "p": "n",
+   "zh": "方法；手段",
+   "ai": [
+    [
+     "Cycling is a cheap means of transport.",
+     "騎腳踏車是一種便宜的交通方式。"
+    ],
+    [
+     "We need a better means of reaching our customers.",
+     "我們需要更好的方法來接觸客戶。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "財力；收入",
+   "ai": [
+    [
+     "He lives beyond his means.",
+     "他過著入不敷出的生活。"
+    ],
+    [
+     "A person of means can afford this house.",
+     "有財力的人才買得起這間房子。"
+    ]
+   ]
+  }
+ ],
+ "existing": [
+  {
+   "p": "adj",
+   "zh": "現有的；目前的",
+   "ai": [
+    [
+     "We can use the existing equipment for now.",
+     "我們目前可以先使用現有的設備。"
+    ],
+    [
+     "The new rules will replace the existing ones.",
+     "新規定將取代現行的規定。"
+    ]
+   ]
+  }
+ ],
+ "recognise": [
+  {
+   "p": "v",
+   "zh": "認出；辨認",
+   "ai": [
+    [
+     "I hardly recognised you with short hair.",
+     "你剪短髮後我幾乎認不出你。"
+    ],
+    [
+     "Can you recognise this song?",
+     "你認得出這首歌嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "承認；認可",
+   "ai": [
+    [
+     "The school recognised her hard work with an award.",
+     "學校以一個獎項肯定她的努力。"
+    ],
+    [
+     "He refused to recognise his mistake.",
+     "他不肯承認自己的錯誤。"
+    ]
+   ]
+  }
+ ],
+ "interested": [
+  {
+   "p": "adj",
+   "zh": "感興趣的",
+   "ai": [
+    [
+     "I am interested in learning to cook.",
+     "我對學做菜很感興趣。"
+    ],
+    [
+     "Are you interested in joining our club?",
+     "你有興趣加入我們的社團嗎？"
+    ]
+   ]
+  }
+ ],
+ "beginning": [
+  {
+   "p": "n",
+   "zh": "開始；開端",
+   "ai": [
+    [
+     "The beginning of the movie was a little slow.",
+     "電影的開頭有點慢。"
+    ],
+    [
+     "At the beginning of the year, I made a plan.",
+     "年初的時候，我訂了一個計劃。"
+    ],
+    [
+     "This is only the beginning.",
+     "這只是個開始。"
+    ]
+   ]
+  }
+ ],
+ "works": [
+  {
+   "p": "n",
+   "zh": "作品；著作",
+   "ai": [
+    [
+     "The museum shows the works of many local artists.",
+     "博物館展出許多本地藝術家的作品。"
+    ],
+    [
+     "He has read all her works.",
+     "她的作品他全都讀過。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "工廠",
+   "ai": [
+    [
+     "My uncle works at the steel works nearby.",
+     "我叔叔在附近的鋼鐵廠工作。"
+    ],
+    [
+     "The gas works closed down years ago.",
+     "那間煤氣廠幾年前就關閉了。"
+    ]
+   ]
+  }
+ ],
+ "queen": [
+  {
+   "p": "n",
+   "zh": "女王；王后",
+   "ai": [
+    [
+     "The queen waved to the crowd from the balcony.",
+     "女王從陽台向群眾揮手。"
+    ],
+    [
+     "In the story, the queen lived in a tall tower.",
+     "故事裡，王后住在一座高塔裡。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（西洋棋）后",
+   "ai": [
+    [
+     "She moved her queen across the board.",
+     "她把她的皇后棋子移過棋盤。"
+    ],
+    [
+     "He lost his queen early in the game.",
+     "他在棋局早期就丟了皇后。"
+    ]
+   ]
+  }
+ ],
+ "meaning": [
+  {
+   "p": "n",
+   "zh": "意思；含義",
+   "ai": [
+    [
+     "What is the meaning of this word?",
+     "這個字是什麼意思？"
+    ],
+    [
+     "The poem has a deeper meaning.",
+     "這首詩有更深一層的含義。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "意義；目的",
+   "ai": [
+    [
+     "Helping others gives her life meaning.",
+     "幫助別人讓她的生活有意義。"
+    ],
+    [
+     "His words had no real meaning for me.",
+     "他的話對我來說沒有什麼真正的意義。"
+    ]
+   ]
+  }
+ ],
+ "august": [
+  {
+   "p": "n",
+   "zh": "八月",
+   "ai": [
+    [
+     "We are going to Japan in August.",
+     "我們八月要去日本。"
+    ],
+    [
+     "School starts at the end of August.",
+     "學校在八月底開學。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "威嚴的；令人敬畏的",
+   "ai": [
+    [
+     "The august hall was filled with old paintings.",
+     "那座莊嚴的大廳掛滿了古老的畫作。"
+    ],
+    [
+     "He was an august figure in the town.",
+     "他是鎮上一位德高望重的人物。"
+    ]
+   ]
+  }
+ ],
+ "supposed": [
+  {
+   "p": "adj",
+   "zh": "應該的；被期望的",
+   "ai": [
+    [
+     "You are supposed to arrive before nine.",
+     "你應該在九點前到。"
+    ],
+    [
+     "What was I supposed to do?",
+     "我當時應該怎麼做？"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "據稱的；所謂的",
+   "ai": [
+    [
+     "The supposed shortcut took us twice as long.",
+     "那條所謂的捷徑讓我們多花了一倍的時間。"
+    ],
+    [
+     "Her supposed friends did not help her.",
+     "她那些所謂的朋友並沒有幫她。"
+    ]
+   ]
+  }
+ ],
+ "fig": [
+  {
+   "p": "n",
+   "zh": "無花果",
+   "ai": [
+    [
+     "I ate a fresh fig for breakfast.",
+     "我早餐吃了一顆新鮮的無花果。"
+    ],
+    [
+     "She made jam from ripe figs.",
+     "她用熟透的無花果做果醬。"
+    ]
+   ]
+  }
+ ],
+ "understanding": [
+  {
+   "p": "n",
+   "zh": "理解；領會",
+   "ai": [
+    [
+     "She has a good understanding of math.",
+     "她對數學有很好的理解。"
+    ],
+    [
+     "Reading helps our understanding of other cultures.",
+     "閱讀有助於我們理解其他文化。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "諒解；體諒",
+   "ai": [
+    [
+     "Thank you for your understanding.",
+     "謝謝你的體諒。"
+    ],
+    [
+     "The two sides reached an understanding.",
+     "雙方達成了共識。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "體諒人的",
+   "ai": [
+    [
+     "My boss is very understanding about family matters.",
+     "我的老闆對家庭的事情很體諒。"
+    ],
+    [
+     "She gave me an understanding smile.",
+     "她給了我一個善解人意的微笑。"
+    ]
+   ]
+  }
+ ],
+ "living": [
+  {
+   "p": "n",
+   "zh": "生計；生活",
+   "ai": [
+    [
+     "What do you do for a living?",
+     "你是做什麼工作維生的？"
+    ],
+    [
+     "The cost of living is high in this city.",
+     "這座城市的生活成本很高。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "活著的",
+   "ai": [
+    [
+     "The garden is full of living plants.",
+     "花園裡長滿了活生生的植物。"
+    ],
+    [
+     "He is the oldest living person in our village.",
+     "他是我們村裡現在最年長的人。"
+    ]
+   ]
+  }
+ ],
+ "growing": [
+  {
+   "p": "adj",
+   "zh": "成長中的；增加的",
+   "ai": [
+    [
+     "There is a growing interest in healthy food.",
+     "人們對健康食品的興趣日益增加。"
+    ],
+    [
+     "She has a growing family to take care of.",
+     "她要照顧一個日漸壯大的家庭。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "生長中的",
+   "ai": [
+    [
+     "Growing children need plenty of sleep.",
+     "成長中的孩子需要充足的睡眠。"
+    ],
+    [
+     "It's a fast growing town near the coast.",
+     "這是一座靠海、快速發展的城鎮。"
+    ]
+   ]
+  }
+ ],
+ "housing": [
+  {
+   "p": "n",
+   "zh": "住房；住宅",
+   "ai": [
+    [
+     "Housing is very expensive in big cities.",
+     "大城市的住房非常昂貴。"
+    ],
+    [
+     "The government built new housing for young families.",
+     "政府為年輕家庭興建了新住宅。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "外殼；罩殼",
+   "ai": [
+    [
+     "The housing of the machine is made of metal.",
+     "這台機器的外殼是金屬做的。"
+    ],
+    [
+     "A crack in the housing let water in.",
+     "外殼上的裂縫讓水滲了進去。"
+    ]
+   ]
+  }
+ ],
+ "learning": [
+  {
+   "p": "n",
+   "zh": "學習",
+   "ai": [
+    [
+     "Learning a new language takes time.",
+     "學一種新語言需要時間。"
+    ],
+    [
+     "Online learning has become more popular.",
+     "線上學習變得越來越普遍。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "學問；知識",
+   "ai": [
+    [
+     "He is a man of great learning.",
+     "他是一位學識淵博的人。"
+    ],
+    [
+     "Her love of learning started in childhood.",
+     "她對知識的熱愛從小就開始了。"
+    ]
+   ]
+  }
+ ],
+ "theatre": [
+  {
+   "p": "n",
+   "zh": "劇院；戲劇",
+   "ai": [
+    [
+     "We saw a play at the theatre last night.",
+     "我們昨晚在劇院看了一齣戲。"
+    ],
+    [
+     "She wants to study theatre at university.",
+     "她想在大學學戲劇。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "電影院",
+   "ai": [
+    [
+     "The new theatre has very comfortable seats.",
+     "新的電影院座椅非常舒適。"
+    ],
+    [
+     "We met outside the theatre at seven.",
+     "我們七點在電影院外面碰面。"
+    ]
+   ]
+  }
+ ],
+ "prince": [
+  {
+   "p": "n",
+   "zh": "王子",
+   "ai": [
+    [
+     "The prince lived in a big castle by the sea.",
+     "王子住在海邊的一座大城堡裡。"
+    ],
+    [
+     "In the fairy tale, the frog turns into a prince.",
+     "在童話裡，青蛙變成了王子。"
+    ]
+   ]
+  }
+ ],
+ "finding": [
+  {
+   "p": "n",
+   "zh": "發現；研究結果",
+   "ai": [
+    [
+     "The main finding of the study surprised everyone.",
+     "這項研究的主要發現讓大家很驚訝。"
+    ],
+    [
+     "The report's findings were clear.",
+     "報告的調查結果很清楚。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "尋找；找到",
+   "ai": [
+    [
+     "Finding a parking space here is difficult.",
+     "在這裡要找到停車位很困難。"
+    ],
+    [
+     "Finding the right words took a long time.",
+     "找到合適的字眼花了很長的時間。"
+    ]
+   ]
+  }
+ ],
+ "writing": [
+  {
+   "p": "n",
+   "zh": "寫作；書寫",
+   "ai": [
+    [
+     "Her writing is clear and easy to read.",
+     "她的文筆清楚又好讀。"
+    ],
+    [
+     "I enjoy writing in my diary every night.",
+     "我喜歡每晚寫日記。"
+    ],
+    [
+     "Please put your request in writing.",
+     "請以書面方式提出你的要求。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "作品；筆跡",
+   "ai": [
+    [
+     "I can't read his writing; it's too messy.",
+     "我看不懂他的字跡，太潦草了。"
+    ],
+    [
+     "The writings of this author are famous.",
+     "這位作者的作品很有名。"
+    ]
+   ]
+  }
+ ],
+ "whereas": [
+  {
+   "p": "conj",
+   "zh": "然而；反之",
+   "ai": [
+    [
+     "My brother loves sports, whereas I prefer reading.",
+     "我哥哥愛運動，而我比較喜歡閱讀。"
+    ],
+    [
+     "Summers are hot here, whereas winters are mild.",
+     "這裡夏天很熱，而冬天很溫和。"
+    ]
+   ]
+  }
+ ],
+ "thanks": [
+  {
+   "p": "int",
+   "zh": "謝謝",
+   "ai": [
+    [
+     "Thanks for helping me with my homework.",
+     "謝謝你幫我做功課。"
+    ],
+    [
+     "Thanks a lot for the ride!",
+     "非常謝謝你載我一程！"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "感謝；謝意",
+   "ai": [
+    [
+     "She sent flowers to give thanks for their help.",
+     "她送了花來感謝他們的幫忙。"
+    ],
+    [
+     "Thanks to your advice, I found the answer.",
+     "多虧了你的建議，我找到了答案。"
+    ]
+   ]
+  }
+ ],
+ "offence": [
+  {
+   "p": "n",
+   "zh": "冒犯；觸怒",
+   "ai": [
+    [
+     "I meant no offence by my joke.",
+     "我開那個玩笑並無冒犯之意。"
+    ],
+    [
+     "He took offence at her words.",
+     "他對她的話感到不悅。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "違法行為；罪行",
+   "ai": [
+    [
+     "Parking here is an offence.",
+     "在這裡停車是違規的。"
+    ],
+    [
+     "It was his first offence, so the fine was small.",
+     "那是他的初犯，所以罰款不多。"
+    ]
+   ]
+  }
+ ],
+ "leading": [
+  {
+   "p": "adj",
+   "zh": "主要的；領先的",
+   "ai": [
+    [
+     "She is a leading expert in marine biology.",
+     "她是海洋生物學的頂尖專家。"
+    ],
+    [
+     "The company is a leading maker of bicycles.",
+     "這家公司是領先的腳踏車製造商。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "領頭的；帶頭的",
+   "ai": [
+    [
+     "The leading runner was far ahead of the others.",
+     "領先的跑者遠遠超前其他人。"
+    ],
+    [
+     "He plays the leading role in the school play.",
+     "他在學校的話劇中擔任主角。"
+    ]
+   ]
+  }
+ ],
+ "working": [
+  {
+   "p": "adj",
+   "zh": "工作的；上班的",
+   "ai": [
+    [
+     "My mother is a working woman with two jobs.",
+     "我母親是個身兼兩份工作的職業婦女。"
+    ],
+    [
+     "The working hours are from nine to six.",
+     "工作時間是九點到六點。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "運作正常的",
+   "ai": [
+    [
+     "Is the elevator working today?",
+     "電梯今天有在運作嗎？"
+    ],
+    [
+     "We need a working computer for the class.",
+     "我們上課需要一台能正常使用的電腦。"
+    ]
+   ]
+  }
+ ],
+ "detailed": [
+  {
+   "p": "adj",
+   "zh": "詳細的",
+   "ai": [
+    [
+     "The teacher gave us a detailed explanation.",
+     "老師給了我們詳細的說明。"
+    ],
+    [
+     "Please send me a detailed report by Friday.",
+     "請在週五前寄給我一份詳細的報告。"
+    ]
+   ]
+  }
+ ],
+ "nod": [
+  {
+   "p": "v",
+   "zh": "點頭",
+   "ai": [
+    [
+     "She nodded to show that she agreed.",
+     "她點頭表示同意。"
+    ],
+    [
+     "He nodded at me when I walked in.",
+     "我走進去時，他向我點了點頭。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "點頭",
+   "ai": [
+    [
+     "He gave me a quick nod and smiled.",
+     "他對我快速點了點頭並微笑。"
+    ],
+    [
+     "A nod from the teacher meant we could start.",
+     "老師點個頭就表示我們可以開始了。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "打瞌睡",
+   "ai": [
+    [
+     "Grandpa nodded off in front of the TV.",
+     "爺爺在電視前打起盹來。"
+    ],
+    [
+     "I nearly nodded off during the long lecture.",
+     "在冗長的演講中我差點睡著。"
+    ]
+   ]
+  }
+ ],
+ "reading": [
+  {
+   "p": "n",
+   "zh": "閱讀",
+   "ai": [
+    [
+     "Reading before bed helps me relax.",
+     "睡前閱讀能讓我放鬆。"
+    ],
+    [
+     "Her hobbies are reading and hiking.",
+     "她的嗜好是閱讀和健行。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "讀數；讀物",
+   "ai": [
+    [
+     "The thermometer reading was thirty-eight degrees.",
+     "溫度計的讀數是三十八度。"
+    ],
+    [
+     "This is good reading for a long flight.",
+     "這很適合在長途飛行時閱讀。"
+    ]
+   ]
+  }
+ ],
+ "teaching": [
+  {
+   "p": "n",
+   "zh": "教學；教書",
+   "ai": [
+    [
+     "Teaching is a very rewarding job.",
+     "教書是一份很有成就感的工作。"
+    ],
+    [
+     "She enjoys teaching young children.",
+     "她喜歡教小朋友。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "教導；教義",
+   "ai": [
+    [
+     "He still follows his grandfather's teachings.",
+     "他仍然遵循祖父的教誨。"
+    ],
+    [
+     "The teaching of the old master inspired many people.",
+     "老師父的教導啟發了許多人。"
+    ]
+   ]
+  }
+ ],
+ "organise": [
+  {
+   "p": "v",
+   "zh": "組織；籌劃",
+   "ai": [
+    [
+     "We will organise a picnic for the class.",
+     "我們會為班上籌辦一場野餐。"
+    ],
+    [
+     "She helped organise the charity concert.",
+     "她協助籌辦了這場慈善音樂會。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "整理；安排",
+   "ai": [
+    [
+     "I need to organise my desk before the exam.",
+     "考試前我得整理一下書桌。"
+    ],
+    [
+     "Let's organise the files by date.",
+     "我們按日期來整理這些檔案吧。"
+    ]
+   ]
+  }
+ ],
+ "thinking": [
+  {
+   "p": "n",
+   "zh": "思考；想法",
+   "ai": [
+    [
+     "Clear thinking is important in an emergency.",
+     "在緊急情況下，清晰的思考很重要。"
+    ],
+    [
+     "That's wishful thinking.",
+     "那只是一廂情願的想法。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "會思考的",
+   "ai": [
+    [
+     "She is a thinking person who asks good questions.",
+     "她是個愛思考的人，總是提出好問題。"
+    ],
+    [
+     "Thinking people should read different opinions.",
+     "愛思考的人應該閱讀不同的意見。"
+    ]
+   ]
+  }
+ ],
+ "increasing": [
+  {
+   "p": "adj",
+   "zh": "日益增加的",
+   "ai": [
+    [
+     "There is an increasing number of cars on the road.",
+     "路上的車輛越來越多。"
+    ],
+    [
+     "The increasing cost of food worries many families.",
+     "食物成本日益上漲讓許多家庭擔憂。"
+    ]
+   ]
+  }
+ ],
+ "opening": [
+  {
+   "p": "n",
+   "zh": "開幕；開始",
+   "ai": [
+    [
+     "The opening of the new mall is next week.",
+     "新的購物中心下週開幕。"
+    ],
+    [
+     "The opening of the film was very exciting.",
+     "這部電影的開場非常精彩。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "開口；缺口；空缺",
+   "ai": [
+    [
+     "There is a small opening in the fence.",
+     "圍籬上有一個小缺口。"
+    ],
+    [
+     "The company has an opening for a designer.",
+     "公司有一個設計師的職缺。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "開始的；開幕的",
+   "ai": [
+    [
+     "The opening speech was short and warm.",
+     "開幕致詞簡短而溫暖。"
+    ],
+    [
+     "We missed the opening ceremony.",
+     "我們錯過了開幕典禮。"
+    ]
+   ]
+  }
+ ],
+ "setting": [
+  {
+   "p": "n",
+   "zh": "環境；背景",
+   "ai": [
+    [
+     "The restaurant has a lovely setting by the river.",
+     "這家餐廳位於河邊，環境優美。"
+    ],
+    [
+     "The story's setting is a small fishing village.",
+     "這個故事的背景是一個小漁村。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "設定；調整",
+   "ai": [
+    [
+     "Change the setting to a lower temperature.",
+     "把設定調成較低的溫度。"
+    ],
+    [
+     "Check the privacy settings on your phone.",
+     "檢查一下你手機上的隱私設定。"
+    ]
+   ]
+  }
+ ],
+ "prepared": [
+  {
+   "p": "adj",
+   "zh": "準備好的",
+   "ai": [
+    [
+     "Are you prepared for tomorrow's test?",
+     "你為明天的考試準備好了嗎？"
+    ],
+    [
+     "She was well prepared for the interview.",
+     "她為面試做了充分的準備。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "願意的",
+   "ai": [
+    [
+     "I am not prepared to pay that much.",
+     "我不願意付那麼多錢。"
+    ],
+    [
+     "He is prepared to wait as long as needed.",
+     "他願意等多久都可以。"
+    ]
+   ]
+  }
+ ],
+ "criterion": [
+  {
+   "p": "n",
+   "zh": "標準；準則",
+   "ai": [
+    [
+     "Price is the main criterion when we choose a hotel.",
+     "我們選飯店時，價格是主要的標準。"
+    ],
+    [
+     "What criterion do you use to judge a good essay?",
+     "你用什麼標準來評斷一篇好文章？"
+    ]
+   ]
+  }
+ ]
+}

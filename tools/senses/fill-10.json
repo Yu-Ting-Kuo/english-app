@@ -1,0 +1,35 @@
+{
+  "skiing": [
+    {"p": "n", "zh": "滑雪運動", "ai": [["Skiing is very popular in Japan during the winter.", "滑雪在日本冬天非常受歡迎。"], ["She went skiing with her cousins over the holiday.", "她假期和表兄弟姊妹去滑雪。"], ["My brother broke his leg while skiing last year.", "我哥哥去年滑雪時摔斷了腿。"]]}
+  ],
+  "unaware": [
+    {"p": "adj", "zh": "不知道的、沒察覺的", "ai": [["He was unaware that the meeting had been cancelled.", "他不知道會議已經被取消了。"], ["Many people are unaware of how much sugar is in soda.", "很多人不知道汽水裡有多少糖。"], ["She walked past, completely unaware of the danger ahead.", "她走了過去，完全沒察覺前方的危險。"]]}
+  ],
+  "compassion": [
+    {"p": "n", "zh": "同情、憐憫", "ai": [["The nurse treated every patient with kindness and compassion.", "那位護理師以善意與同情心對待每一位病人。"], ["He felt great compassion for the lost child.", "他對那個迷路的孩子充滿同情。"], ["Teachers need patience and compassion to work with young children.", "老師需要耐心與同理心才能和小孩相處。"]]}
+  ],
+  "fashionable": [
+    {"p": "adj", "zh": "時髦的、流行的", "ai": [["She always wears fashionable clothes to the office.", "她總是穿著時髦的衣服上班。"], ["This neighborhood has become a fashionable place to live.", "這個社區已經變成一個時髦的居住地點。"], ["Short hair is very fashionable this year.", "短髮今年非常流行。"]]}
+  ],
+  "congregation": [
+    {"p": "n", "zh": "（教會的）會眾", "ai": [["The whole congregation stood up and sang together.", "全體會眾一起站起來唱歌。"], ["Our congregation has grown a lot in the past five years.", "我們的會眾在過去五年成長了很多。"]]},
+    {"p": "n", "zh": "聚集、集合", "ai": [["A large congregation of birds gathered by the lake.", "一大群鳥聚集在湖邊。"], ["The congregation of fans outside the stadium blocked the road.", "體育場外聚集的球迷擋住了道路。"]]}
+  ],
+  "mercy": [
+    {"p": "n", "zh": "仁慈、寬恕", "ai": [["The judge showed mercy because it was his first mistake.", "法官因為這是他的初犯而從輕發落。"], ["They begged the king for mercy.", "他們向國王求饒。"], ["She has no mercy when she plays chess.", "她下棋時毫不留情。"]]},
+    {"p": "n", "zh": "幸運、恩惠", "ai": [["It was a mercy that no one was hurt in the storm.", "暴風雨中沒有人受傷，真是萬幸。"], ["We are grateful for small mercies on a hard day.", "在艱難的一天裡，我們對小小的幸運心懷感激。"]]},
+    {"p": "phr", "zh": "任憑擺布、受制於（at the mercy of）", "ai": [["The small boat was at the mercy of the waves.", "那艘小船任由海浪擺布。"], ["Farmers are often at the mercy of the weather.", "農民常常得看天吃飯。"]]}
+  ],
+  "beautifully": [
+    {"p": "adv", "zh": "美麗地、優美地", "ai": [["She sings beautifully, and everyone loves her voice.", "她唱得很好聽，大家都喜歡她的聲音。"], ["The room was beautifully decorated for the party.", "房間為了派對布置得很漂亮。"], ["The sun set beautifully over the sea.", "夕陽在海面上美麗地落下。"]]},
+    {"p": "adv", "zh": "非常好、極為順利", "ai": [["The new system works beautifully so far.", "新系統到目前為止運作得非常順利。"], ["Everything went beautifully at the wedding.", "婚禮上一切都進行得非常順利。"]]}
+  ],
+  "worm": [
+    {"p": "n", "zh": "蟲、蠕蟲", "ai": [["The bird pulled a worm out of the wet soil.", "那隻鳥從潮濕的土裡拉出一條蟲。"], ["After the rain, worms came out onto the sidewalk.", "下雨後，蚯蚓爬到了人行道上。"], ["He put a worm on the hook and cast his line.", "他把一條蟲掛在魚鉤上，然後甩出釣線。"]]},
+    {"p": "v", "zh": "蠕動前進、慢慢鑽行", "ai": [["The child wormed through the crowd to get to the front.", "那個孩子在人群中鑽到前面去。"], ["He wormed his way under the fence.", "他慢慢鑽過了圍籬下方。"]]}
+  ],
+  "legendary": [
+    {"p": "adj", "zh": "傳說中的、傳奇的", "ai": [["The legendary hero is said to have defeated a dragon.", "傳說中的英雄據說打敗過一條龍。"], ["Locals still tell legendary stories about the old mountain.", "當地人仍然流傳著關於那座老山的傳說。"]]},
+    {"p": "adj", "zh": "非常有名的、傳奇般的", "ai": [["He is a legendary coach who has won many championships.", "他是一位贏得許多冠軍的傳奇教練。"], ["The restaurant is legendary for its beef noodle soup.", "這家餐廳的牛肉麵非常有名。"], ["Her patience with students is legendary.", "她對學生的耐心是出了名的。"]]}
+  ]
+}

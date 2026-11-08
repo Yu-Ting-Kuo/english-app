@@ -53,7 +53,7 @@ def load_english_defs():
     return out
 
 
-def main(pairs_path, only=None):
+def main(pairs_path, only=None, merge=None):
     """only：只檢查這一個檔案，不寫出任何資料（給平行作業的各批次自行驗證用）"""
     sys.stdout.reconfigure(encoding='utf-8')
     pairs = load_pairs(pairs_path)
@@ -71,6 +71,18 @@ def main(pairs_path, only=None):
         dup = [w for w in src if w in others]
         if dup:
             print(f'⚠️ 這些字已經在其他檔案做過，請從本檔刪除：{", ".join(dup)}')
+    elif merge:
+        # 只處理指定的新檔案（純 AI 例句，不需要 Tatoeba 配對表），合併進現有 dict/s，不動其他字
+        have = set()
+        for p in files:
+            if p.name not in merge:
+                have.update(json.loads(p.read_text(encoding='utf-8')).keys())
+        for name in merge:
+            for w, senses in json.loads((ROOT / 'tools' / 'senses' / name).read_text(encoding='utf-8')).items():
+                if w in have:
+                    print(f'⚠️ {w} 已經有逐義例句，略過')
+                    continue
+                src[w] = senses
     else:
         for p in files:
             for w, senses in json.loads(p.read_text(encoding='utf-8')).items():
@@ -170,6 +182,29 @@ def main(pairs_path, only=None):
             print('  ⚠️', w)
         sys.exit(1 if errors else 0)
 
+    if merge:
+        d = ROOT / 'dict' / 's'
+        if errors:
+            print('❌ 發現錯誤：')
+            for e in errors:
+                print('  -', e)
+            sys.exit(1)
+        for sh, data in shards.items():
+            f = d / f'{sh}.json'
+            cur = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+            cur.update(data)
+            f.write_text(json.dumps(cur, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+        st = json.loads((ROOT / 'dict' / 'senses-stats.json').read_text(encoding='utf-8'))
+        for k in ('words', 'words_with_ex', 'senses', 'ok', 'one', 'zero', 'tatoeba', 'ai', 'revised', 'no_g'):
+            st[k] = st.get(k, 0) + stats[k]
+        (ROOT / 'dict' / 'senses-stats.json').write_text(json.dumps(st, ensure_ascii=False), encoding='utf-8')
+        print(f"✅ 合併 {stats['words']} 個字、{stats['senses']} 個詞義（AI 例句 {stats['ai']} 句）進 dict/s")
+        if warns:
+            print(f'⚠️ {len(warns)} 個提醒：')
+            for w in warns:
+                print('  -', w)
+        return
+
     # 主題詞彙是否都有逐義例句
     topics = json.loads((ROOT / 'dict' / 'topics.json').read_text(encoding='utf-8'))
     no_senses = [k for k in topics['byWord'] if not any(k in s for s in shards.values())]
@@ -208,4 +243,5 @@ def main(pairs_path, only=None):
 if __name__ == '__main__':
     # python tools/build_senses.py <pairs.tsv> [--only tools/senses/某批次.json]
     only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
-    main(sys.argv[1], only)
+    merge = [Path(a).name for a in sys.argv[sys.argv.index('--merge') + 1:]] if '--merge' in sys.argv else None
+    main(sys.argv[1], only, merge)

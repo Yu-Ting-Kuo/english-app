@@ -1,0 +1,1328 @@
+{
+ "aye": [
+  {
+   "p": "int",
+   "zh": "（表決時）贊成",
+   "ai": [
+    [
+     "All those in favour say aye, and those against say no.",
+     "贊成的人請說「贊成」，反對的人請說「反對」。"
+    ],
+    [
+     "The chairman asked for a vote, and the room answered with a loud aye.",
+     "主席要求表決，會場大聲回應「贊成」。"
+    ]
+   ]
+  }
+ ],
+ "engineering": [
+  {
+   "p": "n",
+   "zh": "工程學；工程",
+   "ai": [
+    [
+     "She studied civil engineering at a university in Tainan.",
+     "她在台南的一所大學主修土木工程。"
+    ],
+    [
+     "The bridge is an impressive piece of engineering.",
+     "這座橋是一項令人讚嘆的工程。"
+    ],
+    [
+     "He works in the engineering department of a software company.",
+     "他在一家軟體公司的工程部門工作。"
+    ]
+   ]
+  }
+ ],
+ "neighbour": [
+  {
+   "p": "n",
+   "zh": "鄰居",
+   "ai": [
+    [
+     "Our neighbour often waters my plants when I am away.",
+     "我不在的時候，鄰居常常幫我澆花。"
+    ],
+    [
+     "My new neighbours invited us over for dinner.",
+     "我的新鄰居邀請我們去吃晚餐。"
+    ],
+    [
+     "She is friendly with every neighbour on her street.",
+     "她和街上每位鄰居都處得很好。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "與……相鄰",
+   "ai": [
+    [
+     "Our house neighbours a small park.",
+     "我們家緊鄰一座小公園。"
+    ],
+    [
+     "The school neighbours a busy train station.",
+     "那所學校緊鄰一個繁忙的火車站。"
+    ]
+   ]
+  }
+ ],
+ "drawing": [
+  {
+   "p": "n",
+   "zh": "圖畫；素描",
+   "ai": [
+    [
+     "The child gave me a drawing of our family.",
+     "那個孩子送了我一張我們一家人的圖畫。"
+    ],
+    [
+     "There are several drawings on the classroom wall.",
+     "教室牆上掛著好幾幅圖畫。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "繪圖；畫圖",
+   "ai": [
+    [
+     "Drawing is her favorite way to relax after work.",
+     "畫畫是她下班後最喜歡的放鬆方式。"
+    ],
+    [
+     "He is taking a drawing class on Saturday mornings.",
+     "他每個星期六早上都去上繪畫課。"
+    ]
+   ]
+  }
+ ],
+ "grey": [
+  {
+   "p": "adj",
+   "zh": "灰色的",
+   "ai": [
+    [
+     "He wore a grey jacket to the interview.",
+     "他穿著一件灰色外套去面試。"
+    ],
+    [
+     "The sky turned grey before the rain started.",
+     "下雨之前天空變成了灰色。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "陰沉的；灰暗的",
+   "ai": [
+    [
+     "It was a cold, grey morning in the city.",
+     "那是城裡一個寒冷又陰沉的早晨。"
+    ],
+    [
+     "Everything felt grey after the bad news.",
+     "聽到壞消息後，一切都顯得灰暗。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "灰色",
+   "ai": [
+    [
+     "I painted the walls light grey.",
+     "我把牆壁漆成淺灰色。"
+    ],
+    [
+     "Grey goes well with almost any color.",
+     "灰色幾乎和任何顏色都很搭。"
+    ]
+   ]
+  }
+ ],
+ "warning": [
+  {
+   "p": "n",
+   "zh": "警告；警示",
+   "ai": [
+    [
+     "The teacher gave him a warning for being late again.",
+     "老師因為他又遲到而給了他一次警告。"
+    ],
+    [
+     "There was a warning sign near the river.",
+     "河邊有一塊警告標誌。"
+    ],
+    [
+     "The storm hit the coast without any warning.",
+     "暴風雨毫無預警地襲擊了海岸。"
+    ]
+   ]
+  }
+ ],
+ "afterwards": [
+  {
+   "p": "adv",
+   "zh": "之後；後來",
+   "ai": [
+    [
+     "We watched a movie and went for ice cream afterwards.",
+     "我們看了電影，之後去吃冰淇淋。"
+    ],
+    [
+     "Shortly afterwards, the rain stopped.",
+     "不久之後，雨就停了。"
+    ],
+    [
+     "I felt much better afterwards.",
+     "事後我覺得好多了。"
+    ]
+   ]
+  }
+ ],
+ "parish": [
+  {
+   "p": "n",
+   "zh": "教區",
+   "ai": [
+    [
+     "The village is part of a small parish in the countryside.",
+     "這個村莊屬於鄉下的一個小教區。"
+    ],
+    [
+     "Everyone in the parish came to the church festival.",
+     "教區裡的每個人都來參加教堂的慶典。"
+    ]
+   ]
+  }
+ ],
+ "fewer": [
+  {
+   "p": "adj",
+   "zh": "較少的（可數）",
+   "ai": [
+    [
+     "There are fewer students in class this week.",
+     "這週班上的學生比較少。"
+    ],
+    [
+     "I try to eat fewer sweets these days.",
+     "我最近盡量少吃甜食。"
+    ],
+    [
+     "Fewer people take the bus now than before.",
+     "現在搭公車的人比以前少。"
+    ]
+   ]
+  }
+ ],
+ "via": [
+  {
+   "p": "prep",
+   "zh": "經由；途經",
+   "ai": [
+    [
+     "We flew to Paris via Tokyo.",
+     "我們經由東京飛往巴黎。"
+    ],
+    [
+     "You can reach me via email at any time.",
+     "你隨時都可以透過電子郵件聯絡我。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "透過（方式或媒介）",
+   "ai": [
+    [
+     "She sent the photos to me via a messaging app.",
+     "她透過通訊軟體把照片傳給我。"
+    ],
+    [
+     "Tickets can be bought online via our website.",
+     "可以透過我們的網站線上購票。"
+    ]
+   ]
+  }
+ ],
+ "fishing": [
+  {
+   "p": "n",
+   "zh": "釣魚；捕魚",
+   "ai": [
+    [
+     "My grandfather goes fishing every Sunday morning.",
+     "我爺爺每個星期天早上都去釣魚。"
+    ],
+    [
+     "Fishing is an important industry in this small town.",
+     "捕魚是這個小鎮的重要產業。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "釣魚的；捕魚用的",
+   "ai": [
+    [
+     "He bought a new fishing rod for his birthday.",
+     "他買了一支新釣竿當作生日禮物。"
+    ],
+    [
+     "We stayed in a quiet fishing village by the sea.",
+     "我們住在海邊一個寧靜的漁村。"
+    ]
+   ]
+  }
+ ],
+ "councillor": [
+  {
+   "p": "n",
+   "zh": "地方議員；議會委員",
+   "ai": [
+    [
+     "The local councillor visited our school last week.",
+     "當地的議員上週來訪我們學校。"
+    ],
+    [
+     "She was elected as a town councillor last year.",
+     "她去年當選為鎮議員。"
+    ]
+   ]
+  }
+ ],
+ "lower": [
+  {
+   "p": "adj",
+   "zh": "較低的；下方的",
+   "ai": [
+    [
+     "The lower shelf is easier for children to reach.",
+     "下層的架子比較方便小朋友拿取。"
+    ],
+    [
+     "Prices are lower in this store than in the mall.",
+     "這家店的價格比購物中心低。"
+    ],
+    [
+     "He has a pain in his lower back.",
+     "他的下背部會痛。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "降低；放下",
+   "ai": [
+    [
+     "Please lower your voice in the library.",
+     "在圖書館請小聲一點。"
+    ],
+    [
+     "The store lowered its prices for the holiday.",
+     "這家店為了假期降低了價格。"
+    ],
+    [
+     "They lowered the flag at sunset.",
+     "他們在日落時降下了旗子。"
+    ]
+   ]
+  }
+ ],
+ "licence": [
+  {
+   "p": "n",
+   "zh": "執照；許可證",
+   "ai": [
+    [
+     "You need a licence to drive a car.",
+     "你需要有駕照才能開車。"
+    ],
+    [
+     "The restaurant has a licence to sell alcohol.",
+     "這家餐廳有販售酒類的許可證。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "許可；發給執照",
+   "ai": [
+    [
+     "The government licences only a few companies to run this service.",
+     "政府只許可少數幾家公司經營這項服務。"
+    ],
+    [
+     "The city licences street musicians to perform downtown.",
+     "市政府核准街頭藝人在市區表演。"
+    ]
+   ]
+  }
+ ],
+ "kingdom": [
+  {
+   "p": "n",
+   "zh": "王國",
+   "ai": [
+    [
+     "The prince lived in a small kingdom by the sea.",
+     "王子住在海邊的一個小王國。"
+    ],
+    [
+     "The United Kingdom is made up of four countries.",
+     "聯合王國由四個國家組成。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（動物、植物等的）界",
+   "ai": [
+    [
+     "Mushrooms do not belong to the plant kingdom.",
+     "蕈菇不屬於植物界。"
+    ],
+    [
+     "Whales are part of the animal kingdom.",
+     "鯨魚屬於動物界。"
+    ]
+   ]
+  }
+ ],
+ "prayer": [
+  {
+   "p": "n",
+   "zh": "祈禱；禱告",
+   "ai": [
+    [
+     "She said a quiet prayer before the exam.",
+     "她在考試前默默地禱告。"
+    ],
+    [
+     "The villagers gathered for evening prayers.",
+     "村民們聚集在一起做晚禱。"
+    ]
+   ]
+  }
+ ],
+ "metre": [
+  {
+   "p": "n",
+   "zh": "公尺；米",
+   "ai": [
+    [
+     "The pool is twenty-five metres long.",
+     "這個游泳池長二十五公尺。"
+    ],
+    [
+     "He ran one hundred metres in under fourteen seconds.",
+     "他在十四秒內跑完一百公尺。"
+    ]
+   ]
+  }
+ ],
+ "proceeding": [
+  {
+   "p": "n",
+   "zh": "訴訟程序；法律程序",
+   "ai": [
+    [
+     "The court began legal proceedings against the company.",
+     "法院對這家公司展開了法律訴訟程序。"
+    ],
+    [
+     "The proceedings were delayed for two weeks.",
+     "訴訟程序被延後了兩週。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "會議進行；議事",
+   "ai": [
+    [
+     "The proceedings of the meeting were recorded on video.",
+     "會議的過程被錄影下來。"
+    ],
+    [
+     "The chairman opened the proceedings with a short speech.",
+     "主席以簡短的演說開啟了會議。"
+    ]
+   ]
+  }
+ ],
+ "funding": [
+  {
+   "p": "n",
+   "zh": "資金；經費",
+   "ai": [
+    [
+     "The school received new funding for its science lab.",
+     "這所學校獲得了新的經費來建科學實驗室。"
+    ],
+    [
+     "The project failed because of a lack of funding.",
+     "這個計畫因為缺乏資金而失敗。"
+    ]
+   ]
+  }
+ ],
+ "analyse": [
+  {
+   "p": "v",
+   "zh": "分析",
+   "ai": [
+    [
+     "The scientists analysed the water samples in the lab.",
+     "科學家們在實驗室分析水樣。"
+    ],
+    [
+     "We need to analyse the data before making a decision.",
+     "我們需要先分析資料再做決定。"
+    ],
+    [
+     "She analyses sales figures every month.",
+     "她每個月都會分析銷售數字。"
+    ]
+   ]
+  }
+ ],
+ "remaining": [
+  {
+   "p": "adj",
+   "zh": "剩下的；其餘的",
+   "ai": [
+    [
+     "Please divide the remaining cake among the children.",
+     "請把剩下的蛋糕分給孩子們。"
+    ],
+    [
+     "The remaining tickets will be sold at the door.",
+     "其餘的票會在現場販售。"
+    ],
+    [
+     "I spent my remaining money on a gift.",
+     "我把剩下的錢拿去買了禮物。"
+    ]
+   ]
+  }
+ ],
+ "saving": [
+  {
+   "p": "n",
+   "zh": "節省；存款",
+   "ai": [
+    [
+     "Turning off the lights is a simple saving of energy.",
+     "關燈是一種簡單的節能方式。"
+    ],
+    [
+     "She has some savings for her trip to Japan.",
+     "她有一些存款可以用來去日本旅行。"
+    ],
+    [
+     "The sale offers a saving of twenty percent.",
+     "這次特賣可以省下百分之二十。"
+    ]
+   ]
+  }
+ ],
+ "cop": [
+  {
+   "p": "n",
+   "zh": "警察（口語）",
+   "ai": [
+    [
+     "A cop stopped the driver for speeding.",
+     "一名警察攔下了超速的駕駛。"
+    ],
+    [
+     "The cops arrived at the scene within five minutes.",
+     "警察在五分鐘內抵達了現場。"
+    ]
+   ]
+  }
+ ],
+ "bishop": [
+  {
+   "p": "n",
+   "zh": "主教",
+   "ai": [
+    [
+     "The bishop gave a speech at the church ceremony.",
+     "主教在教堂典禮上發表了演說。"
+    ],
+    [
+     "The new bishop was welcomed by the whole town.",
+     "新任主教受到全鎮的歡迎。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（西洋棋）主教",
+   "ai": [
+    [
+     "He moved his bishop across the chessboard.",
+     "他把主教棋子移過棋盤。"
+    ],
+    [
+     "A bishop can only move diagonally.",
+     "主教只能斜著走。"
+    ]
+   ]
+  }
+ ],
+ "stairs": [
+  {
+   "p": "n",
+   "zh": "樓梯",
+   "ai": [
+    [
+     "I take the stairs instead of the elevator for exercise.",
+     "我為了運動而走樓梯，不搭電梯。"
+    ],
+    [
+     "She ran up the stairs to answer the phone.",
+     "她跑上樓梯去接電話。"
+    ],
+    [
+     "The baby cannot climb the stairs yet.",
+     "這個寶寶還不會爬樓梯。"
+    ]
+   ]
+  }
+ ],
+ "cottage": [
+  {
+   "p": "n",
+   "zh": "小屋；鄉間小屋",
+   "ai": [
+    [
+     "They rented a cottage near the lake for the weekend.",
+     "他們租了一間湖邊的小屋度週末。"
+    ],
+    [
+     "The old cottage has a small garden full of flowers.",
+     "那間老小屋有一座開滿花的小花園。"
+    ]
+   ]
+  }
+ ],
+ "trading": [
+  {
+   "p": "n",
+   "zh": "交易；買賣",
+   "ai": [
+    [
+     "Trading in this market starts at nine in the morning.",
+     "這個市場的交易在早上九點開始。"
+    ],
+    [
+     "The company has been trading with Japan for years.",
+     "這家公司多年來一直與日本做生意。"
+    ]
+   ]
+  }
+ ],
+ "sauce": [
+  {
+   "p": "n",
+   "zh": "醬；醬汁",
+   "ai": [
+    [
+     "Would you like some tomato sauce on your pasta?",
+     "你的義大利麵要不要加一些番茄醬汁？"
+    ],
+    [
+     "Dip the dumplings in soy sauce.",
+     "把水餃沾醬油吃。"
+    ],
+    [
+     "She made a spicy sauce for the chicken.",
+     "她為雞肉調了一種辣醬。"
+    ]
+   ]
+  }
+ ],
+ "priest": [
+  {
+   "p": "n",
+   "zh": "神父；牧師；祭司",
+   "ai": [
+    [
+     "The priest welcomed everyone to the church.",
+     "神父歡迎大家來到教堂。"
+    ],
+    [
+     "A priest led the ceremony at the temple.",
+     "一位祭司在廟裡主持儀式。"
+    ]
+   ]
+  }
+ ],
+ "amazing": [
+  {
+   "p": "adj",
+   "zh": "令人驚嘆的；很棒的",
+   "ai": [
+    [
+     "The view from the mountain was amazing.",
+     "從山上看出去的景色令人驚嘆。"
+    ],
+    [
+     "She has an amazing voice.",
+     "她的歌聲好棒。"
+    ],
+    [
+     "It is amazing how fast children learn.",
+     "小孩學得這麼快真是令人驚奇。"
+    ]
+   ]
+  }
+ ],
+ "parking": [
+  {
+   "p": "n",
+   "zh": "停車；停車位",
+   "ai": [
+    [
+     "Parking is difficult near the night market.",
+     "夜市附近很難停車。"
+    ],
+    [
+     "The hotel offers free parking for guests.",
+     "這間飯店提供房客免費停車。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "停車的",
+   "ai": [
+    [
+     "We looked for a parking space for twenty minutes.",
+     "我們找了二十分鐘的停車位。"
+    ],
+    [
+     "He got a parking ticket yesterday.",
+     "他昨天收到了一張停車罰單。"
+    ]
+   ]
+  }
+ ],
+ "spending": [
+  {
+   "p": "n",
+   "zh": "開支；花費",
+   "ai": [
+    [
+     "Government spending on schools has increased this year.",
+     "今年政府在學校方面的支出增加了。"
+    ],
+    [
+     "I need to keep my monthly spending under control.",
+     "我需要控制每個月的開銷。"
+    ]
+   ]
+  }
+ ],
+ "armed": [
+  {
+   "p": "adj",
+   "zh": "武裝的",
+   "ai": [
+    [
+     "The country has a strong armed force.",
+     "這個國家擁有強大的武裝部隊。"
+    ],
+    [
+     "The guards were armed with simple tools.",
+     "守衛們配備著簡單的工具。"
+    ]
+   ]
+  }
+ ],
+ "lifespan": [
+  {
+   "p": "n",
+   "zh": "壽命",
+   "ai": [
+    [
+     "The average lifespan of a dog is about twelve years.",
+     "狗的平均壽命大約是十二年。"
+    ],
+    [
+     "This battery has a lifespan of three years.",
+     "這顆電池的使用壽命是三年。"
+    ]
+   ]
+  }
+ ],
+ "holy": [
+  {
+   "p": "adj",
+   "zh": "神聖的",
+   "ai": [
+    [
+     "Many people travel to the holy city every year.",
+     "每年有許多人前往這座聖城。"
+    ],
+    [
+     "The temple is considered a holy place.",
+     "這座廟被視為神聖的地方。"
+    ]
+   ]
+  }
+ ],
+ "fixed": [
+  {
+   "p": "adj",
+   "zh": "固定的",
+   "ai": [
+    [
+     "The table is fixed to the floor.",
+     "這張桌子是固定在地板上的。"
+    ],
+    [
+     "We meet at a fixed time every week.",
+     "我們每週都在固定的時間見面。"
+    ],
+    [
+     "She has a fixed monthly income.",
+     "她有固定的月收入。"
+    ]
+   ]
+  }
+ ],
+ "honour": [
+  {
+   "p": "n",
+   "zh": "榮幸；榮譽",
+   "ai": [
+    [
+     "It is an honour to meet you.",
+     "很榮幸見到你。"
+    ],
+    [
+     "He received an award in honour of his service.",
+     "他因為多年的服務而獲頒獎項以表彰他。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "尊敬；實踐",
+   "ai": [
+    [
+     "We honour our teachers on Teacher's Day.",
+     "我們在教師節向老師致敬。"
+    ],
+    [
+     "The shop honoured the coupon even after it expired.",
+     "即使優待券已過期，這家店還是接受了。"
+    ],
+    [
+     "She honoured her promise and came back.",
+     "她信守承諾回來了。"
+    ]
+   ]
+  }
+ ],
+ "tablespoon": [
+  {
+   "p": "n",
+   "zh": "大湯匙；大匙",
+   "ai": [
+    [
+     "Add one tablespoon of sugar to the mixture.",
+     "在混合物中加入一大匙糖。"
+    ],
+    [
+     "Use a tablespoon to scoop the rice.",
+     "用大湯匙來舀飯。"
+    ]
+   ]
+  }
+ ],
+ "teaspoon": [
+  {
+   "p": "n",
+   "zh": "茶匙",
+   "ai": [
+    [
+     "Stir a teaspoon of salt into the water.",
+     "把一茶匙鹽攪進水裡。"
+    ],
+    [
+     "She added two teaspoons of honey to her tea.",
+     "她在茶裡加了兩茶匙蜂蜜。"
+    ]
+   ]
+  }
+ ],
+ "toss": [
+  {
+   "p": "v",
+   "zh": "投擲；扔",
+   "ai": [
+    [
+     "He tossed the ball to his little brother.",
+     "他把球丟給他的弟弟。"
+    ],
+    [
+     "She tossed her bag onto the sofa and sat down.",
+     "她把包包丟到沙發上然後坐了下來。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "擲硬幣決定",
+   "ai": [
+    [
+     "Let's toss a coin to decide who goes first.",
+     "我們來擲硬幣決定誰先開始。"
+    ],
+    [
+     "They tossed for the last seat on the bus.",
+     "他們擲硬幣決定公車上最後一個座位歸誰。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "翻來覆去；搖晃",
+   "ai": [
+    [
+     "I tossed and turned all night because of the heat.",
+     "我因為太熱，整晚翻來覆去睡不著。"
+    ],
+    [
+     "The small boat was tossed about by the waves.",
+     "那艘小船被海浪搖晃得很厲害。"
+    ]
+   ]
+  }
+ ],
+ "recording": [
+  {
+   "p": "n",
+   "zh": "錄音；錄影",
+   "ai": [
+    [
+     "I made a recording of the lecture on my phone.",
+     "我用手機錄下了這堂課。"
+    ],
+    [
+     "The recording of the concert is available online.",
+     "這場音樂會的錄音可以在網路上取得。"
+    ]
+   ]
+  }
+ ],
+ "lad": [
+  {
+   "p": "n",
+   "zh": "小伙子；少年",
+   "ai": [
+    [
+     "The lad helped the old woman carry her bags.",
+     "那個小伙子幫老奶奶提袋子。"
+    ],
+    [
+     "He was a quiet lad who loved books.",
+     "他是個愛看書的安靜少年。"
+    ]
+   ]
+  }
+ ],
+ "eh": [
+  {
+   "p": "int",
+   "zh": "嗯？對吧？（徵求同意或表示沒聽清楚）",
+   "ai": [
+    [
+     "Nice weather today, eh?",
+     "今天天氣不錯，對吧？"
+    ],
+    [
+     "Eh, what did you say? I couldn't hear you.",
+     "嗯？你說什麼？我沒聽到。"
+    ]
+   ]
+  }
+ ],
+ "enquiry": [
+  {
+   "p": "n",
+   "zh": "詢問；查詢",
+   "ai": [
+    [
+     "I made an enquiry about the price of the tickets.",
+     "我詢問了票價。"
+    ],
+    [
+     "The shop answers customer enquiries by phone and email.",
+     "這家店透過電話和電子郵件回覆顧客的詢問。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "調查",
+   "ai": [
+    [
+     "The police opened an enquiry into the accident.",
+     "警方對這起意外展開調查。"
+    ],
+    [
+     "A public enquiry was held after the fire.",
+     "火災後舉行了公開調查。"
+    ]
+   ]
+  }
+ ],
+ "judgement": [
+  {
+   "p": "n",
+   "zh": "判斷；判斷力",
+   "ai": [
+    [
+     "I trust her judgement on this matter.",
+     "在這件事上我信任她的判斷。"
+    ],
+    [
+     "It was a mistake in judgement to leave so late.",
+     "這麼晚才出發是判斷上的失誤。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "判決；裁決",
+   "ai": [
+    [
+     "The court will give its judgement next week.",
+     "法院將在下週宣判。"
+    ],
+    [
+     "The judge's judgement surprised everyone in the room.",
+     "法官的判決讓在場所有人都感到驚訝。"
+    ]
+   ]
+  }
+ ],
+ "cricket": [
+  {
+   "p": "n",
+   "zh": "板球",
+   "ai": [
+    [
+     "Cricket is a popular sport in India and England.",
+     "板球在印度和英國是很受歡迎的運動。"
+    ],
+    [
+     "He plays cricket with his friends every weekend.",
+     "他每個週末都和朋友打板球。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "蟋蟀",
+   "ai": [
+    [
+     "We heard a cricket singing in the garden at night.",
+     "我們晚上聽到花園裡有蟋蟀在叫。"
+    ],
+    [
+     "The children caught a cricket in a small box.",
+     "孩子們用一個小盒子抓到了一隻蟋蟀。"
+    ]
+   ]
+  }
+ ],
+ "testing": [
+  {
+   "p": "n",
+   "zh": "測試；檢驗",
+   "ai": [
+    [
+     "The software is still in the testing stage.",
+     "這個軟體還在測試階段。"
+    ],
+    [
+     "Regular testing helps us find problems early.",
+     "定期檢測能幫助我們及早發現問題。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "艱難的；考驗人的",
+   "ai": [
+    [
+     "It has been a testing year for the whole team.",
+     "對整個團隊來說，這是考驗重重的一年。"
+    ],
+    [
+     "The long hike was a testing experience for the beginners.",
+     "這次長途健行對新手來說是一次嚴苛的考驗。"
+    ]
+   ]
+  }
+ ],
+ "longer": [
+  {
+   "p": "adv",
+   "zh": "更久地；再（否定句中）",
+   "ai": [
+    [
+     "Can you stay a little longer?",
+     "你可以再多待一會兒嗎？"
+    ],
+    [
+     "He no longer lives in Taipei.",
+     "他已經不住在台北了。"
+    ],
+    [
+     "The meeting lasted longer than we expected.",
+     "會議比我們預期的還要久。"
+    ]
+   ]
+  }
+ ],
+ "favourite": [
+  {
+   "p": "adj",
+   "zh": "最喜愛的",
+   "ai": [
+    [
+     "Blue is my favourite colour.",
+     "藍色是我最喜歡的顏色。"
+    ],
+    [
+     "What is your favourite movie?",
+     "你最喜歡的電影是什麼？"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "特別喜愛的人或物",
+   "ai": [
+    [
+     "This song has always been a favourite of mine.",
+     "這首歌一直是我的最愛。"
+    ],
+    [
+     "The little girl is her grandmother's favourite.",
+     "那個小女孩是她奶奶的心肝寶貝。"
+    ]
+   ]
+  }
+ ],
+ "exciting": [
+  {
+   "p": "adj",
+   "zh": "令人興奮的；刺激的",
+   "ai": [
+    [
+     "The final game was really exciting.",
+     "決賽真的很刺激。"
+    ],
+    [
+     "I have some exciting news to share with you.",
+     "我有一個令人興奮的消息要跟你分享。"
+    ],
+    [
+     "She is planning an exciting trip to Europe.",
+     "她正在計畫一趟令人期待的歐洲之旅。"
+    ]
+   ]
+  }
+ ],
+ "advanced": [
+  {
+   "p": "adj",
+   "zh": "高階的；先進的",
+   "ai": [
+    [
+     "She is taking an advanced English course.",
+     "她正在上高級英文課程。"
+    ],
+    [
+     "The hospital uses advanced technology to treat patients.",
+     "這間醫院使用先進的技術來治療病人。"
+    ]
+   ]
+  }
+ ],
+ "onion": [
+  {
+   "p": "n",
+   "zh": "洋蔥",
+   "ai": [
+    [
+     "Cutting an onion always makes me cry.",
+     "切洋蔥總是讓我流眼淚。"
+    ],
+    [
+     "Add some chopped onions to the soup.",
+     "在湯裡加一些切碎的洋蔥。"
+    ],
+    [
+     "She fried the onion until it turned golden.",
+     "她把洋蔥炒到變成金黃色。"
+    ]
+   ]
+  }
+ ],
+ "developing": [
+  {
+   "p": "adj",
+   "zh": "發展中的",
+   "ai": [
+    [
+     "Many developing countries are investing in education.",
+     "許多發展中國家正投資在教育上。"
+    ],
+    [
+     "The company is looking at new developing markets.",
+     "這家公司正在關注新興市場。"
+    ]
+   ]
+  }
+ ],
+ "heaven": [
+  {
+   "p": "n",
+   "zh": "天堂",
+   "ai": [
+    [
+     "Many people believe that good souls go to heaven.",
+     "許多人相信善良的靈魂會上天堂。"
+    ],
+    [
+     "This ice cream tastes like heaven.",
+     "這個冰淇淋吃起來像天堂一樣美味。"
+    ]
+   ]
+  }
+ ],
+ "yell": [
+  {
+   "p": "v",
+   "zh": "大叫；吼叫",
+   "ai": [
+    [
+     "Don't yell at me; I can hear you.",
+     "不要對我大吼，我聽得到。"
+    ],
+    [
+     "The coach yelled instructions across the field.",
+     "教練隔著球場大聲喊出指示。"
+    ],
+    [
+     "She yelled for help when she saw the smoke.",
+     "她看到煙時大聲呼救。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "叫喊聲",
+   "ai": [
+    [
+     "We heard a loud yell from the next room.",
+     "我們聽到隔壁房間傳來一聲大喊。"
+    ],
+    [
+     "The crowd let out a yell when the team scored.",
+     "球隊得分時，群眾發出一陣歡呼。"
+    ]
+   ]
+  }
+ ],
+ "operating": [
+  {
+   "p": "adj",
+   "zh": "操作的；營運的",
+   "ai": [
+    [
+     "The company has high operating costs.",
+     "這家公司的營運成本很高。"
+    ],
+    [
+     "Please read the operating instructions before use.",
+     "使用前請先閱讀操作說明。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "手術的",
+   "ai": [
+    [
+     "The surgeon walked into the operating room.",
+     "外科醫生走進了手術室。"
+    ],
+    [
+     "The patient was moved to the operating table.",
+     "病人被移到了手術台上。"
+    ]
+   ]
+  }
+ ],
+ "concerning": [
+  {
+   "p": "prep",
+   "zh": "關於",
+   "ai": [
+    [
+     "I received a letter concerning my new job.",
+     "我收到一封關於我新工作的信。"
+    ],
+    [
+     "There are many rules concerning the use of this room.",
+     "關於這個房間的使用有許多規定。"
+    ]
+   ]
+  }
+ ],
+ "disabled": [
+  {
+   "p": "adj",
+   "zh": "身心障礙的",
+   "ai": [
+    [
+     "The building has a special entrance for disabled visitors.",
+     "這棟建築有專供身障訪客使用的入口。"
+    ],
+    [
+     "The city is building more parking spaces for disabled drivers.",
+     "這座城市正在為身障駕駛增設更多停車位。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "停用的；失效的",
+   "ai": [
+    [
+     "The alarm was disabled during the repair work.",
+     "維修期間警報器被停用了。"
+    ],
+    [
+     "The button is disabled until you fill in the form.",
+     "在你填完表單之前，這個按鈕是無法使用的。"
+    ]
+   ]
+  }
+ ]
+}
