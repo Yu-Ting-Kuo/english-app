@@ -205,7 +205,7 @@
 {"p":"n","zh":"傳教士","ai":[["The missionary lived in the village for many years.","那位傳教士在這個村子住了很多年。"],["Missionaries built the first school in the area.","傳教士在這個地區蓋了第一所學校。"]]}
 ],
 "yep": [
-{"p":"int","zh":"是的、對（口語）","ai":[["\"Are you ready to go?\" \"Yep, let's leave.\"","「你準備好要走了嗎？」「嗯，我們出發吧。」"],["Yep, I finished all my homework already.","對啊，我已經寫完所有功課了。"]]}
+{"p":"adv","zh":"是的、對（口語）","ai":[["\"Are you ready to go?\" \"Yep, let's leave.\"","「你準備好要走了嗎？」「嗯，我們出發吧。」"],["Yep, I finished all my homework already.","對啊，我已經寫完所有功課了。"]]}
 ],
 "butterfly": [
 {"p":"n","zh":"蝴蝶","ai":[["A colorful butterfly landed on the flower.","一隻色彩繽紛的蝴蝶停在花上。"],["Children chased the butterfly across the field.","孩子們在田野上追著蝴蝶跑。"]]},
