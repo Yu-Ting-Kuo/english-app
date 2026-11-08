@@ -23,7 +23,7 @@ async function recentHistory(n = 12) {
 
 // ---------- 線上資料快取（避免同一個字重複呼叫 API） ----------
 const ONLINE_TTL = 30 * 864e5;
-const ONLINE_CACHE_PREFIX = 'wk2:';
+const ONLINE_CACHE_PREFIX = 'wk3:';
 async function onlineInfo(key) {
   const cacheKey = ONLINE_CACHE_PREFIX + key;
   const hit = await db.get('cache', cacheKey);
@@ -245,13 +245,6 @@ function renderEntry(res) {
 
     <section class="card stack" id="entry-topics" hidden></section>
 
-    <section class="card">
-      <details id="wk">
-        <summary>英英解釋</summary>
-        <div class="stack" id="wk-body" style="margin-top:10px"><div class="muted">載入中…</div></div>
-      </details>
-    </section>
-
     ${saved ? `<button class="primary" data-practice="${saved.id}">${ICON.mic}練習這個字的發音</button>` : ''}
 
     `;
@@ -301,15 +294,16 @@ function renderSenses(list) {
         n++;
         const tag = each && s.g ? `<span class="gram">${GRAMMAR[s.g]}</span>` : '';
         return `
-        <details class="sense-item" ${n <= 2 ? 'open' : ''}>
-          <summary><span class="sn">${n}</span>${tag}<span class="sz">${esc(s.zh)}</span>${s.src === 'app' ? '<span class="app-tag">App 補充詞義</span>' : ''}<span class="exn">${s.ex.length} 句</span></summary>
+        <div class="sense-item">
+          <div class="sense-head"><span class="sn">${n}</span>${tag}<span class="sz">${esc(s.zh)}</span>${s.src === 'app' ? '<span class="app-tag">App 補充詞義</span>' : ''}</div>
+          ${s.en ? `<div class="sense-def" lang="en"><span class="def-tag">AI 英英解釋</span> ${esc(s.en)}</div>` : ''}
           ${s.ex.length ? `<ol class="exs">${s.ex.map(e => `
             <li>
               <div class="ex-en"><span>${highlightSpan(e.en, e.sp)}</span><button class="ex-say" data-say="${esc(e.en)}" aria-label="朗讀例句">${ICON.speaker}</button></div>
               <div class="ex-zh">${esc(e.zh)}</div>
               ${exampleSource(e)}
             </li>`).join('')}</ol>` : '<p class="muted" style="margin:6px 0 0">這個詞義目前沒有可靠的例句。</p>'}
-        </details>`;
+        </div>`;
       }).join('')}
     </div>`;
   }).join('');
@@ -435,7 +429,6 @@ async function toggleStar(key, entry) {
 
 async function loadOnline(key, entry) {
   const pron = $('#pron');
-  const body = $('#wk-body');
   for (const type of ['synonyms', 'antonyms']) {
     Dict.relations(key).then(rows => loadWordRelations(key, type, rows)).catch(() => {});
   }
@@ -443,15 +436,9 @@ async function loadOnline(key, entry) {
   try {
     info = await onlineInfo(key);
   } catch {
-    if (currentEntry?.key !== key) return;
-    body.innerHTML = '';
     return;
   }
-  if (currentEntry?.key !== key) return;
-  if (!info.found) {
-    body.innerHTML = '<div class="muted">Wiktionary 沒有這個字的資料。</div>';
-    return;
-  }
+  if (currentEntry?.key !== key || !info.found) return;
   // 有真人錄音就標示音標；沒有錄音的口音用手機語音念，並標「合成」，音標照樣顯示
   const part = (label, r, lang) => r ? `<button class="pill" ${r.audio ? `data-audio="${esc(r.audio)}"` : `data-tts="${lang}"`}>${ICON.speaker}${label}${r.ipa ? ` ${esc(r.ipa)}` : ''}${r.audio ? '' : '（合成）'}</button>` : '';
   const real = part('美式', info.us, 'en-US') + part('英式', info.uk, 'en-GB');
@@ -461,11 +448,6 @@ async function loadOnline(key, entry) {
     ${!info.us ? `<button class="pill" data-tts="en-US">${ICON.speaker}美式（合成）</button>` : ''}
     ${!info.uk ? `<button class="pill" data-tts="en-GB">${ICON.speaker}英式（合成）</button>` : ''}
     ${entry.ph && !info.ipa && !info.us?.ipa ? `<span class="muted">詞典音標 /${esc(entry.ph)}/</span>` : ''}`;
-  body.innerHTML = info.defs.length ? info.defs.map(g => `
-    <div><span class="pos">${esc(g.pos)}</span>
-    <ol class="defs">${g.items.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>`).join('')
-    + (info.source ? `<a class="source" href="${esc(info.source)}" target="_blank" rel="noopener">在 Wiktionary 查看原文</a>` : '')
-    : '<div class="muted">沒有英英解釋。</div>';
 }
 
 // 發音按鈕：有真人錄音就播錄音，沒有就用手機語音

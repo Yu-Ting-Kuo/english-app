@@ -45,16 +45,15 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8')
     srv = serve()
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel='msedge', headless=True)
+        browser = p.chromium.launch(channel='msedge', headless=True, args=['--disable-gpu', '--disable-extensions', '--disable-background-networking'])
         ctx = browser.new_context(viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True,
                                   locale='zh-TW', service_workers='block')
         page = ctx.new_page()
         errors = []
         page.on('pageerror', lambda e: errors.append(str(e)))
-        # 線上字典用假資料，測試不依賴外部網路
-        page.route('https://api.dictionaryapi.dev/**', lambda route: route.fulfill(
-            json=[{'word': 'make', 'phonetics': [{'text': '/meɪk/', 'audio': 'https://example.invalid/make-us.mp3'}],
-                   'meanings': [{'partOfSpeech': 'verb', 'definitions': [{'definition': 'To build or create.'}]}]}]))
+        # 外部字型伺服器不穩時會卡住 load 事件，測試不需要字型
+        page.route(re.compile(r'https://fonts\.(googleapis|gstatic)\.com/.*'), lambda route: route.abort())
+        # 音標與錄音（Wiktionary）用假資料，測試不依賴外部網路
         # Wiktionary 頁面（音標與真人發音來源）：amateur 用固定內容，其他字回 404
         wiktionary_amateur = """<html><body><section><h2 id="Dutch">Dutch</h2></section><section><h2 id="English">English</h2>
           <section><h3 id="Pronunciation">Pronunciation</h3><ul>
@@ -338,6 +337,23 @@ def main():
             assert 'tɚ/' not in pron.inner_text().replace('tʃɚ/', ''), pron.inner_text()
         check('發音：音標分英式／美式，美式有真人錄音，英式沒錄音標「合成」並顯示音標', t_pron)
 
+        def t_endef():
+            # 每個詞義有 AI 英英解釋，顯示在中文意思和例句之間；整頁沒有下拉選單、沒有 Wiktionary 英英區塊
+            search('absent')
+            page.wait_for_selector('#senses-box .sense-item')
+            items = page.locator('#senses-box .sense-item')
+            for i in range(items.count()):
+                d = items.nth(i).locator('.sense-def')
+                expect(d).to_have_count(1)
+                assert d.inner_text().strip().split(' ', 3)[-1], d.inner_text()
+                # 順序：中文意思 → 英英解釋 → 例句
+                order = items.nth(i).evaluate("e => [...e.children].map(c => c.className)")
+                assert order.index('sense-def') > order.index('sense-head') and order.index('sense-def') < order.index('exs'), order
+            expect(page.locator('#senses-box .sense-def').first).to_contain_text('not present')
+            assert page.locator('#dict-body details').count() == 0, 'dropdown found'
+            assert 'Wiktionary' not in page.locator('#dict-body').inner_text(), 'Wiktionary link found'
+        check('辭典：每個詞義有 AI 英英解釋，全部展開、沒有下拉與 Wiktionary 區塊', t_endef)
+
         def t_levels():
             page.click('nav [data-view=home]')
             page.locator('.cat-card', has_text='職場與辦公').click()
@@ -360,8 +376,6 @@ def main():
             assert items.count() == 4, items.count()
             for i in range(items.count()):
                 it = items.nth(i)
-                if not it.evaluate('e => e.open'):
-                    it.locator('summary').click()
                 exs = it.locator('.exs li')
                 assert exs.count() >= 2, (i, exs.count())
                 for j in range(exs.count()):
@@ -370,7 +384,7 @@ def main():
                     assert li.locator('.ex-zh').inner_text().strip(), li.inner_text()
             # 董事會的例句要標出 board；例句不顯示 Tatoeba 編號與貢獻者，只標示 AI 例句
             director = items.nth(2)
-            expect(director.locator('summary')).to_contain_text('董事會')
+            expect(director.locator('.sense-head')).to_contain_text('董事會')
             box = ' '.join(page.locator('#senses-box .pos-block').all_inner_texts())
             assert 'Tatoeba #' not in box and '英文 ' not in box, box
             expect(page.locator('#senses-box .exs a')).to_have_count(0)
@@ -519,13 +533,11 @@ def main():
         check('3.1 搜尋紀錄出現在首頁', t_history)
 
         def t_online_fail():
-            page.unroute('https://api.dictionaryapi.dev/**')
-            page.route('https://api.dictionaryapi.dev/**', lambda route: route.abort())
             page.route('https://en.wiktionary.org/**', lambda route: route.abort())
             search('apple')
-            page.locator('#wk summary').click()
-            # 沒網路時英英解釋不顯示內容，但不能一直停在「載入中」
-            expect(page.locator('#wk-body')).not_to_contain_text('載入中')
+            # 沒網路時發音區仍有按鈕（手機語音），整頁照樣能讀，沒有下拉選單
+            expect(page.locator('#pron .pill').first).to_be_visible()
+            assert page.locator('#dict-body details').count() == 0, 'dictionary page still has dropdowns'
             # 詞典分片抓不到（離線且沒快取過）
             page.route('**/dict/w/zy.json', lambda route: route.abort())
             search('zymurgy')

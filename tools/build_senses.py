@@ -42,11 +42,23 @@ CJK = re.compile(r'[一-鿿]')
 TRAD_ONLY_BAD = re.compile(r'[们这个说时会来为对过还没么样]')  # 常見簡體字，出現代表沒轉換好
 
 
+def load_english_defs():
+    """{(字, 詞性, 中文詞義): 英英解釋}，來自 tools/senses_en/*.tsv（每行：字、詞性、中文詞義、英文解釋，以 Tab 分隔）"""
+    out = {}
+    for p in sorted((ROOT / 'tools' / 'senses_en').glob('*.tsv')):
+        for line in p.read_text(encoding='utf-8').splitlines():
+            parts = line.split('	')
+            if len(parts) == 4 and parts[3].strip():
+                out[tuple(parts[:3])] = parts[3].strip()
+    return out
+
+
 def main(pairs_path, only=None):
     """only：只檢查這一個檔案，不寫出任何資料（給平行作業的各批次自行驗證用）"""
     sys.stdout.reconfigure(encoding='utf-8')
     pairs = load_pairs(pairs_path)
     labels = load_labels()
+    en_defs = load_english_defs()
     src = {}
     files = sorted((ROOT / 'tools' / 'senses').glob('*.json'))
     if only:
@@ -131,6 +143,9 @@ def main(pairs_path, only=None):
                 warns.append(f'{where}：只有 {n} 句例句')
             has_ex = has_ex or n > 0
             sense = {'p': p, 'l': POS_LABEL[p], 'zh': s['zh'], 'ex': ex}
+            if (key, p, s['zh']) in en_defs:
+                sense['en'] = en_defs[(key, p, s['zh'])]
+                stats['en'] = stats.get('en', 0) + 1
             if s.get('src') == 'app':
                 sense['src'] = 'app'
             if p in ('n', 'v'):
@@ -183,7 +198,7 @@ def main(pairs_path, only=None):
           f"真人例句（Tatoeba）{stats['tatoeba']} 句（翻譯經修訂 {stats['revised']}）、AI 補充 {stats['ai']} 句")
     print(f"   每義 2～3 句：{stats['ex_2_3']}、4 句以上：{stats['ex_4_plus']}；"
           f"主題詞彙 {stats['topic_words']} 個，缺逐義例句 {stats['topic_words_missing']} 個")
-    print(f"   名詞／動詞詞義缺文法標記（可數、及物）：{stats['no_g']} 個")
+    print(f"   名詞／動詞詞義缺文法標記（可數、及物）：{stats['no_g']} 個；有英英解釋 {stats.get('en', 0)} 個詞義")
     if warns:
         print(f'⚠️ {len(warns)} 個提醒：')
         for w in warns:

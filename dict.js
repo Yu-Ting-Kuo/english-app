@@ -1,6 +1,6 @@
 'use strict';
 // 詞典資料層：本機 ECDICT 分片（已轉台灣繁體，見 tools/build_dict.py）
-// + 線上 Free Dictionary API（Wiktionary 的音標、真人發音、英英解釋）。
+// + 線上 Wiktionary 頁面（音標、真人發音）。
 // 這個檔案只處理資料，不碰畫面。
 
 const Dict = (() => {
@@ -186,17 +186,19 @@ const Dict = (() => {
     return [...new Set(hits.map(h => h.k))].slice(0, n);
   }
 
-  // Free Dictionary API（資料來自 Wiktionary，CC BY-SA）：音標、真人發音、英英解釋
-  // 音標與真人發音以 Wiktionary 頁面為準：Free Dictionary API 的音標沒有標英式／美式，
-  // 又常只留最後一個變體（例如 amateur 變成缺少 tʃ 的 /ˈæ.mə.tɚ/），所以直接讀 Wiktionary 的 (UK)／(US) 標示。
+  // 音標與真人發音直接讀 Wiktionary 頁面的 (UK)／(US) 標示
+  // （曾經用的 Free Dictionary API 沒有分口音，又常只留最後一個變體，例如 amateur 會缺少 tʃ）
   const ACCENT = { uk: /^(uk|rp|british|received pronunciation|southern england)/i, us: /^(us|usa|america|general american|genam)/i };
   const cleanIpa = t => String(t || '').replace(/[͜͡]/g, '').trim();
   async function wiktionaryPron(word) {
     let res;
     try {
       res = await fetch('https://en.wiktionary.org/api/rest_v1/page/html/' + encodeURIComponent(word.replace(/ /g, '_')));
-    } catch { return null; }
-    if (!res.ok) return null;
+    } catch {
+      throw Object.assign(new Error('網路連線失敗'), { code: 'network' });  // 沒網路不要當成「查無資料」存進快取
+    }
+    if (res.status === 404) return null;
+    if (!res.ok) throw Object.assign(new Error('伺服器回應錯誤 ' + res.status), { code: 'http' });
     const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
     const section = [...doc.querySelectorAll('section')].find(sec => sec.querySelector(':scope > h2')?.id === 'English');
     if (!section) return null;
@@ -226,42 +228,13 @@ const Dict = (() => {
     return out;
   }
 
-  // Free Dictionary API（資料來自 Wiktionary，CC BY-SA）：英英解釋；音標與發音優先用 Wiktionary 頁面
+  // 音標與真人錄音（Wiktionary 頁面，CC BY-SA）。英英解釋已改成離線的 AI 解釋，放在每個詞義裡
   async function online(word) {
-    const [apiRes, wk] = await Promise.allSettled([
-      fetchJSON('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word)),
-      wiktionaryPron(word),
-    ]);
-    if (apiRes.status === 'rejected' && !(wk.value?.us || wk.value?.uk || wk.value?.ipa)) throw apiRes.reason;
-    const data = apiRes.value;
-    const pron = wk.value;
-    if (!Array.isArray(data) && !(pron?.us || pron?.uk || pron?.ipa)) return { found: false };
-    const out = { found: true, us: null, uk: null, ipa: null, defs: [], source: data?.[0]?.sourceUrls?.[0] || null };
-    for (const d of Array.isArray(data) ? data : []) {
-      for (const p of d.phonetics || []) {
-        const region = /-us\.mp3$/i.test(p.audio || '') ? 'us' : /-uk\.mp3$/i.test(p.audio || '') ? 'uk' : null;
-        if (region && !out[region]) out[region] = { ipa: p.text || null, audio: p.audio };
-        else if (region && out[region] && !out[region].ipa && p.text) out[region].ipa = p.text;
-        if (!out.ipa && p.text) out.ipa = p.text;
-      }
-      if (!out.ipa && d.phonetic) out.ipa = d.phonetic;
-      for (const m of d.meanings || []) {
-        let group = out.defs.find(g => g.pos === m.partOfSpeech);
-        if (!group) out.defs.push(group = { pos: m.partOfSpeech, items: [] });
-        for (const def of m.definitions || []) {
-          if (group.items.length < 4) group.items.push(def.definition);
-        }
-      }
-    }
-    if (pron) {
-      // Wiktionary 有標示的音標與錄音覆蓋 API 的結果；只有 Wiktionary 有 IPA 時，兩種口音都先顯示同一個音標
-      for (const acc of ['us', 'uk']) {
-        if (!pron[acc]) continue;
-        out[acc] = { ipa: pron[acc].ipa || out[acc]?.ipa || null, audio: pron[acc].audio || out[acc]?.audio || null };
-      }
-      if (pron.ipa) out.ipa = pron.ipa;
-      if (!out.us && !out.uk && pron.ipa) { out.us = { ipa: pron.ipa, audio: null }; out.uk = { ipa: pron.ipa, audio: null }; }
-    }
+    const pron = await wiktionaryPron(word);
+    if (!pron || !(pron.us || pron.uk || pron.ipa)) return { found: false };
+    const out = { found: true, us: null, uk: null, ipa: pron.ipa };
+    for (const acc of ['us', 'uk']) if (pron[acc]) out[acc] = { ipa: pron[acc].ipa || null, audio: pron[acc].audio || null };
+    if (!out.us && !out.uk && pron.ipa) { out.us = { ipa: pron.ipa, audio: null }; out.uk = { ipa: pron.ipa, audio: null }; }
     return out;
   }
 
