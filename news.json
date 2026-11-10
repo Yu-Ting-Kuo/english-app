@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168768",
+      "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
+      "summary": "The El Niño extreme weather pattern could cost the global economy up to $11 trillion and seriously impact food security, said the UN agency tackling rural poverty in developing countries on Monday.",
+      "url": "https://news.un.org/en/story/2026/11/1168768",
+      "publishedAt": "2026-11-09T12:00:00Z",
+      "vocabulary": [
+        "trillion",
+        "extreme",
+        "poverty",
+        "weather"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/03-11-2026-Climate-Visuals-Uganda.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168756",
       "title": "Beyond the broken glass: The human cost of the 1938 November Pogrom",
       "summary": "On his way to school in Vienna on the morning of 10 November 1938, eight-year-old Arthur Schneier watched his synagogue burn while firefighters and police officers stood by “rejoicing”.",
@@ -86,20 +100,6 @@
         "deadly"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-05-2026-UNOCHA-Sudan-05.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168723",
-      "title": "World News in Brief: healthcare crisis in Yemen’s Taiz and Afghanistan, Western Sahara mission's phased closure",
-      "summary": "The humanitarian crisis in Yemen is worsening, particularly in the southwestern city of Taiz, which is being encircled by paramilitary Iran-backed Houthi forces.",
-      "url": "https://news.un.org/en/story/2026/11/1168723",
-      "publishedAt": "2026-11-02T12:00:00Z",
-      "vocabulary": [
-        "healthcare",
-        "paramilitary",
-        "southwestern",
-        "humanitarian"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/02-11-2026-UNOCHA-Afghanistan.jpg/image560x340cropped.jpg"
     }
   ]
 }
