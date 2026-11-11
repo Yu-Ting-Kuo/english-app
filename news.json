@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026111168768",
-      "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
-      "summary": "The El Niño extreme weather pattern could cost the global economy up to $11 trillion and seriously impact food security, said the UN agency tackling rural poverty in developing countries on Monday.",
-      "url": "https://news.un.org/en/story/2026/11/1168768",
+      "id": "httpsnewsunorgenstory2026111168782",
+      "title": "World News in Brief: Ending cholera by 2030 ‘within reach’, Haiti displacement and hunger, US human rights review rescheduled",
+      "summary": "Ending cholera as a public health threat by 2030 is within reach, as every cholera death can be prevented with tools that already exist, the World Health Organization (WHO) said on Tuesday.",
+      "url": "https://news.un.org/en/story/2026/11/1168782",
+      "publishedAt": "2026-11-10T12:00:00Z",
+      "vocabulary": [
+        "cholera",
+        "displacement",
+        "hunger",
+        "review"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-UNHCR-Chad-cholera.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026111168769",
+      "title": "At least 56 migrants die in weekend shipwrecks off Senegal and Greece",
+      "summary": "At least 56 people died in a series of shipwrecks off Senegal and Greece over the weekend, the International Organization for Migration (IOM) said on Monday, calling it a stark reminder of the deadly risks they face on the Atlantic and Mediterranean.",
+      "url": "https://news.un.org/en/story/2026/11/1168769",
       "publishedAt": "2026-11-09T12:00:00Z",
       "vocabulary": [
-        "trillion",
-        "extreme",
-        "poverty",
-        "weather"
+        "stark",
+        "reminder",
+        "deadly",
+        "weekend"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/03-11-2026-Climate-Visuals-Uganda.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2018/09/25-09-2018Migration-IOM.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026111168756",
@@ -86,20 +100,6 @@
         "stake"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/03-11-2026-UNICEF-Bangladesh-02.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168731",
-      "title": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
-      "summary": "Intensifying drone attacks on civilian infrastructure across Sudan are disrupting electricity, water and fuel supplies, putting lives at risk and hampering the delivery of humanitarian aid, the UN’s top official in the country has warned.",
-      "url": "https://news.un.org/en/story/2026/11/1168731",
-      "publishedAt": "2026-11-03T12:00:00Z",
-      "vocabulary": [
-        "drone",
-        "humanitarian",
-        "infrastructure",
-        "deadly"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-05-2026-UNOCHA-Sudan-05.jpg/image560x340cropped.jpg"
     }
   ]
 }
