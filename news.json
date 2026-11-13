@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168796",
+      "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
+      "summary": "An Israeli airstrike on Gaza’s Nasser Hospital on Wednesday night killed six people, injured 27 others and caused extensive damage.",
+      "url": "https://news.un.org/en/story/2026/11/1168796",
+      "publishedAt": "2026-11-12T12:00:00Z",
+      "vocabulary": [
+        "airstrike",
+        "extensive",
+        "damage",
+        "killed"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/07-11-2026-UNNews-Gaza-Winer-Building.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168788",
       "title": "Gaza winter aid: ‘No more delay’, Fletcher tells governments stalling on support",
       "summary": "The UN’s Emergency Relief Coordinator, Tom Fletcher, expressed deep concern about the deteriorating humanitarian situation in Gaza, as UN member states and partners have been repeatedly delaying sending their support to the Strip.",
@@ -86,20 +100,6 @@
         "acute"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/13-07-2026-UNICEF-Afghanistan-02.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168750",
-      "title": "World News in Brief: Korea tensions mount, UN demands answers over staff death in Yemen, Guterres in Spain, Nepal alert ahead of COP31",
-      "summary": "UN Secretary-General António Guterres remains concerned over the situation on the Korean Peninsula, including the potential escalation of tensions across the Demilitarized Zone (DMZ), his Spokesperson said on Thursday.",
-      "url": "https://news.un.org/en/story/2026/11/1168750",
-      "publishedAt": "2026-11-05T12:00:00Z",
-      "vocabulary": [
-        "escalation",
-        "alert",
-        "remains",
-        "mount"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/02-02-21-OCHA-DPRK-Pyongyang-Street-2011.jpg/image560x340cropped.jpg"
     }
   ]
 }
