@@ -1,0 +1,3454 @@
+{
+ "the": [
+  {
+   "p": "art",
+   "zh": "這個、那個（定冠詞，指特定的人事物）",
+   "ai": [
+    [
+     "Please close the door when you leave the room.",
+     "離開房間時請把門關上。"
+    ],
+    [
+     "The book on the table is mine.",
+     "桌上的那本書是我的。"
+    ],
+    [
+     "We saw the sun rise over the mountains.",
+     "我們看見太陽從山後升起。"
+    ]
+   ]
+  }
+ ],
+ "and": [
+  {
+   "p": "conj",
+   "zh": "和、與；而且",
+   "ai": [
+    [
+     "I bought bread and milk at the store.",
+     "我在店裡買了麵包和牛奶。"
+    ],
+    [
+     "She opened the window and let in some fresh air.",
+     "她打開窗戶，讓新鮮空氣進來。"
+    ],
+    [
+     "It was cold and rainy all weekend.",
+     "整個週末又冷又下雨。"
+    ]
+   ]
+  }
+ ],
+ "of": [
+  {
+   "p": "prep",
+   "zh": "的、屬於",
+   "ai": [
+    [
+     "This is a photo of my family.",
+     "這是一張我家人的照片。"
+    ],
+    [
+     "The color of the sky changed at sunset.",
+     "天空的顏色在日落時改變了。"
+    ],
+    [
+     "She is a good friend of mine.",
+     "她是我的一位好朋友。"
+    ]
+   ]
+  }
+ ],
+ "it": [
+  {
+   "p": "pron",
+   "zh": "它、這件事",
+   "ai": [
+    [
+     "I lost my phone, but I found it under the sofa.",
+     "我弄丟了手機，不過在沙發底下找到了它。"
+    ],
+    [
+     "She asked me about the test, and I told her it was easy.",
+     "她問我考試的事，我說那很簡單。"
+    ]
+   ]
+  },
+  {
+   "p": "pron",
+   "zh": "（虛主詞，指天氣、時間、距離等，通常不翻譯）",
+   "ai": [
+    [
+     "It is raining hard, so take an umbrella.",
+     "雨下得很大，所以帶把傘吧。"
+    ],
+    [
+     "It takes about twenty minutes to walk to the station.",
+     "走到車站大約要二十分鐘。"
+    ],
+    [
+     "It is already ten o'clock at night.",
+     "已經是晚上十點了。"
+    ]
+   ]
+  }
+ ],
+ "i": [
+  {
+   "p": "pron",
+   "zh": "我",
+   "ai": [
+    [
+     "I usually get up at seven every morning.",
+     "我通常每天早上七點起床。"
+    ],
+    [
+     "Can you tell me where I can buy a ticket?",
+     "你可以告訴我哪裡能買票嗎？"
+    ],
+    [
+     "Yesterday I met an old friend on the street.",
+     "昨天我在街上遇到一位老朋友。"
+    ]
+   ]
+  }
+ ],
+ "for": [
+  {
+   "p": "prep",
+   "zh": "為了、給（for you 給你）",
+   "ai": [
+    [
+     "I made a cup of tea for you.",
+     "我幫你泡了一杯茶。"
+    ],
+    [
+     "We saved money for a trip to Japan.",
+     "我們為了去日本旅行而存錢。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "持續（一段時間，for two years 兩年之久）",
+   "ai": [
+    [
+     "He has lived in this city for two years.",
+     "他已經在這座城市住了兩年。"
+    ],
+    [
+     "We waited for an hour before the bus came.",
+     "我們等了一個小時公車才來。"
+    ]
+   ]
+  },
+  {
+   "p": "conj",
+   "zh": "因為（較書面）",
+   "ai": [
+    [
+     "She did not go out, for it was raining heavily.",
+     "她沒有出門，因為雨下得很大。"
+    ],
+    [
+     "He felt tired, for he had worked all night.",
+     "他覺得很累，因為他整晚都在工作。"
+    ]
+   ]
+  }
+ ],
+ "you": [
+  {
+   "p": "pron",
+   "zh": "你、你們",
+   "ai": [
+    [
+     "Do you want some more water?",
+     "你還想要一點水嗎？"
+    ],
+    [
+     "Thank you for helping me with my homework.",
+     "謝謝你幫我寫功課。"
+    ],
+    [
+     "I will see you all at the party tomorrow.",
+     "明天派對上再見啦，各位。"
+    ]
+   ]
+  }
+ ],
+ "with": [
+  {
+   "p": "prep",
+   "zh": "和…一起、跟",
+   "ai": [
+    [
+     "I went to the movies with my sister.",
+     "我和姊姊一起去看電影。"
+    ],
+    [
+     "Would you like to have lunch with us?",
+     "你要不要跟我們一起吃午餐？"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "用（工具、方法）",
+   "ai": [
+    [
+     "She cut the cake with a sharp knife.",
+     "她用一把鋒利的刀切蛋糕。"
+    ],
+    [
+     "You can pay with cash or a credit card.",
+     "你可以用現金或信用卡付款。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "有、帶著（a girl with long hair）",
+   "ai": [
+    [
+     "The girl with long hair is my classmate.",
+     "那個留著長髮的女孩是我的同學。"
+    ],
+    [
+     "He walked into the room with a big smile.",
+     "他帶著大大的笑容走進房間。"
+    ]
+   ]
+  }
+ ],
+ "they": [
+  {
+   "p": "pron",
+   "zh": "他們、她們、它們",
+   "ai": [
+    [
+     "They are waiting for us outside the cinema.",
+     "他們在電影院外面等我們。"
+    ],
+    [
+     "My neighbors are nice, and they always say hello.",
+     "我的鄰居人很好，他們總是會打招呼。"
+    ],
+    [
+     "I like these shoes because they are very comfortable.",
+     "我喜歡這雙鞋，因為它們非常舒服。"
+    ]
+   ]
+  }
+ ],
+ "she": [
+  {
+   "p": "pron",
+   "zh": "她",
+   "ai": [
+    [
+     "She works at a small bookstore near the park.",
+     "她在公園附近的一家小書店工作。"
+    ],
+    [
+     "I asked my mother where she put the keys.",
+     "我問媽媽她把鑰匙放在哪裡。"
+    ],
+    [
+     "She is learning how to play the piano.",
+     "她正在學彈鋼琴。"
+    ]
+   ]
+  }
+ ],
+ "at": [
+  {
+   "p": "prep",
+   "zh": "在（某處或某時）；向、對",
+   "ai": [
+    [
+     "We will meet at the train station at six.",
+     "我們六點在火車站見面。"
+    ],
+    [
+     "He is very good at solving math problems.",
+     "他很擅長解數學題。"
+    ],
+    [
+     "Don't shout at the children.",
+     "不要對孩子們大吼大叫。"
+    ]
+   ]
+  }
+ ],
+ "we": [
+  {
+   "p": "pron",
+   "zh": "我們",
+   "ai": [
+    [
+     "We are going to visit my grandparents this weekend.",
+     "這個週末我們要去探望祖父母。"
+    ],
+    [
+     "If we leave now, we can catch the last bus.",
+     "如果現在出發，我們就趕得上末班車。"
+    ],
+    [
+     "We have been friends since we were kids.",
+     "我們從小就是朋友。"
+    ]
+   ]
+  }
+ ],
+ "his": [
+  {
+   "p": "pron",
+   "zh": "他的",
+   "ai": [
+    [
+     "He forgot his umbrella on the bus.",
+     "他把雨傘忘在公車上了。"
+    ],
+    [
+     "Tom is cleaning his room right now.",
+     "湯姆現在正在打掃他的房間。"
+    ],
+    [
+     "The dog wagged its tail when it saw his father.",
+     "小狗一看到他的爸爸就搖起尾巴。"
+    ]
+   ]
+  }
+ ],
+ "from": [
+  {
+   "p": "prep",
+   "zh": "從、來自、根據",
+   "ai": [
+    [
+     "She walked home from school.",
+     "她從學校走路回家。"
+    ],
+    [
+     "My cousin is from Canada.",
+     "我的表哥來自加拿大。"
+    ],
+    [
+     "From what I heard, the shop will close next month.",
+     "根據我聽到的消息，這家店下個月要關了。"
+    ]
+   ]
+  }
+ ],
+ "which": [
+  {
+   "p": "pron",
+   "zh": "哪一個、哪些",
+   "ai": [
+    [
+     "Which do you prefer, tea or coffee?",
+     "你比較喜歡哪個，茶還是咖啡？"
+    ],
+    [
+     "Which of these bags is yours?",
+     "這些袋子裡哪一個是你的？"
+    ]
+   ]
+  },
+  {
+   "p": "pron",
+   "zh": "（關係代名詞）指前面提到的事物",
+   "ai": [
+    [
+     "This is the book which I told you about.",
+     "這就是我跟你說過的那本書。"
+    ],
+    [
+     "He lost his phone, which made him very upset.",
+     "他弄丟了手機，這讓他非常沮喪。"
+    ]
+   ]
+  }
+ ],
+ "or": [
+  {
+   "p": "conj",
+   "zh": "或、或者",
+   "ai": [
+    [
+     "Would you like tea or coffee?",
+     "你想喝茶還是咖啡？"
+    ],
+    [
+     "You can take the bus or ride a bike to work.",
+     "你可以搭公車或騎腳踏車去上班。"
+    ],
+    [
+     "Hurry up, or we will miss the train.",
+     "快一點，否則我們會趕不上火車。"
+    ]
+   ]
+  }
+ ],
+ "an": [
+  {
+   "p": "art",
+   "zh": "一（用在母音開頭的字前）",
+   "ai": [
+    [
+     "I ate an apple after dinner.",
+     "晚餐後我吃了一顆蘋果。"
+    ],
+    [
+     "She waited for an hour outside the shop.",
+     "她在店外等了一個小時。"
+    ],
+    [
+     "He is an honest man who always tells the truth.",
+     "他是個誠實的人，總是說實話。"
+    ]
+   ]
+  }
+ ],
+ "would": [
+  {
+   "p": "v",
+   "zh": "會（假設語氣，will 的過去式）",
+   "ai": [
+    [
+     "If I had more time, I would learn another language.",
+     "如果我有更多時間，我會學另一種語言。"
+    ],
+    [
+     "She said she would call me after the meeting.",
+     "她說開完會後會打給我。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "想要（would like to）",
+   "ai": [
+    [
+     "I would like a glass of water, please.",
+     "請給我一杯水。"
+    ],
+    [
+     "Would you like to sit by the window?",
+     "你想坐靠窗的位子嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "以前常常（過去的習慣）",
+   "ai": [
+    [
+     "When I was a child, we would visit the beach every summer.",
+     "我小時候，我們每年夏天都會去海邊。"
+    ],
+    [
+     "He would read a story to me before I went to sleep.",
+     "他以前常在我睡前念故事給我聽。"
+    ]
+   ]
+  }
+ ],
+ "their": [
+  {
+   "p": "pron",
+   "zh": "他們的",
+   "ai": [
+    [
+     "The students put their bags on the floor.",
+     "學生們把書包放在地上。"
+    ],
+    [
+     "My neighbors painted their house blue last year.",
+     "我的鄰居去年把他們的房子漆成藍色。"
+    ],
+    [
+     "The birds built their nest in a tall tree.",
+     "鳥兒在一棵高樹上築了牠們的巢。"
+    ]
+   ]
+  }
+ ],
+ "who": [
+  {
+   "p": "pron",
+   "zh": "誰",
+   "ai": [
+    [
+     "Who is knocking on the door?",
+     "是誰在敲門？"
+    ],
+    [
+     "I don't know who left this bag here.",
+     "我不知道是誰把這個袋子留在這裡的。"
+    ]
+   ]
+  },
+  {
+   "p": "pron",
+   "zh": "…的人（關係代名詞，如 the man who called）",
+   "ai": [
+    [
+     "The woman who lives next door is a nurse.",
+     "住在隔壁的那位女士是護理師。"
+    ],
+    [
+     "I have a friend who plays the violin very well.",
+     "我有個朋友小提琴拉得很好。"
+    ]
+   ]
+  }
+ ],
+ "her": [
+  {
+   "p": "pron",
+   "zh": "她的；她（受格）",
+   "ai": [
+    [
+     "I gave her a small gift for her birthday.",
+     "我送了她一份小禮物當作生日禮物。"
+    ],
+    [
+     "She lost her wallet on the way home.",
+     "她在回家的路上弄丟了她的錢包。"
+    ],
+    [
+     "Could you tell her that dinner is ready?",
+     "可以告訴她晚餐準備好了嗎？"
+    ]
+   ]
+  }
+ ],
+ "my": [
+  {
+   "p": "pron",
+   "zh": "我的",
+   "ai": [
+    [
+     "My brother is older than me.",
+     "我的哥哥比我年長。"
+    ],
+    [
+     "I left my keys on the kitchen table.",
+     "我把鑰匙放在廚房的桌上了。"
+    ],
+    [
+     "Let me introduce my friend to you.",
+     "讓我向你介紹我的朋友。"
+    ]
+   ]
+  }
+ ],
+ "could": [
+  {
+   "p": "v",
+   "zh": "能、可以（can 的過去式）",
+   "ai": [
+    [
+     "When I was five, I could already ride a bike.",
+     "我五歲的時候就已經會騎腳踏車了。"
+    ],
+    [
+     "She could not open the door because it was locked.",
+     "門鎖住了，所以她打不開。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "可能、也許（It could rain.）",
+   "ai": [
+    [
+     "It could rain this afternoon, so take an umbrella.",
+     "今天下午可能會下雨，所以帶把傘吧。"
+    ],
+    [
+     "That could be the reason he is late.",
+     "那也許就是他遲到的原因。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "可以…嗎（客氣的請求：Could you help me?）",
+   "ai": [
+    [
+     "Could you help me carry this box?",
+     "你可以幫我搬這個箱子嗎？"
+    ],
+    [
+     "Could I borrow your pen for a moment?",
+     "我可以借一下你的筆嗎？"
+    ]
+   ]
+  }
+ ],
+ "into": [
+  {
+   "p": "prep",
+   "zh": "進入…裡面、到…裡",
+   "ai": [
+    [
+     "He put the letter into the envelope.",
+     "他把信放進信封裡。"
+    ],
+    [
+     "The children ran into the house.",
+     "孩子們跑進了屋子裡。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "變成（turn into）、撞上（run into）",
+   "ai": [
+    [
+     "The caterpillar turned into a butterfly.",
+     "毛毛蟲變成了蝴蝶。"
+    ],
+    [
+     "The car ran into a tree by the road.",
+     "那輛車撞上了路邊的一棵樹。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "對…很有興趣、迷上（be into）",
+   "ai": [
+    [
+     "My sister is really into jazz music these days.",
+     "我姊姊最近很迷爵士樂。"
+    ],
+    [
+     "Are you into cooking or baking?",
+     "你喜歡煮菜還是烘焙？"
+    ]
+   ]
+  }
+ ],
+ "its": [
+  {
+   "p": "pron",
+   "zh": "它的",
+   "ai": [
+    [
+     "The cat licked its paw.",
+     "那隻貓舔了舔牠的腳掌。"
+    ],
+    [
+     "The company is proud of its new product.",
+     "這家公司為它的新產品感到驕傲。"
+    ],
+    [
+     "The city is famous for its night markets.",
+     "這座城市以夜市聞名。"
+    ]
+   ]
+  }
+ ],
+ "them": [
+  {
+   "p": "pron",
+   "zh": "他們、她們、它們（受格）",
+   "ai": [
+    [
+     "I invited them to my birthday party.",
+     "我邀請他們來參加我的生日派對。"
+    ],
+    [
+     "These cookies smell great, so let's try them.",
+     "這些餅乾聞起來很香，我們來嚐嚐吧。"
+    ],
+    [
+     "Please tell them that we will be a little late.",
+     "請告訴他們我們會晚一點到。"
+    ]
+   ]
+  }
+ ],
+ "two": [
+  {
+   "p": "n",
+   "zh": "二、兩個",
+   "ai": [
+    [
+     "I have two brothers and one sister.",
+     "我有兩個哥哥（弟弟）和一個姊姊（妹妹）。"
+    ],
+    [
+     "The meeting starts at two.",
+     "會議兩點開始。"
+    ],
+    [
+     "Two of my friends are coming to dinner.",
+     "我有兩位朋友要來吃晚餐。"
+    ]
+   ]
+  }
+ ],
+ "me": [
+  {
+   "p": "pron",
+   "zh": "我（受格）",
+   "ai": [
+    [
+     "Please give me a moment to think.",
+     "請給我一點時間想一想。"
+    ],
+    [
+     "He asked me to wait outside.",
+     "他要我在外面等。"
+    ],
+    [
+     "Do you want to come with me?",
+     "你要跟我一起去嗎？"
+    ]
+   ]
+  }
+ ],
+ "your": [
+  {
+   "p": "pron",
+   "zh": "你的、你們的",
+   "ai": [
+    [
+     "Is this your umbrella?",
+     "這是你的雨傘嗎？"
+    ],
+    [
+     "Don't forget to bring your passport.",
+     "別忘了帶你的護照。"
+    ],
+    [
+     "Thank you for sharing your ideas with us.",
+     "謝謝你們跟我們分享你們的想法。"
+    ]
+   ]
+  }
+ ],
+ "him": [
+  {
+   "p": "pron",
+   "zh": "他（受格）",
+   "ai": [
+    [
+     "I saw him at the bus stop this morning.",
+     "我今天早上在公車站看到他。"
+    ],
+    [
+     "Can you send him the address by text?",
+     "你可以用簡訊把地址傳給他嗎？"
+    ],
+    [
+     "Everyone likes him because he is so friendly.",
+     "大家都喜歡他，因為他非常友善。"
+    ]
+   ]
+  }
+ ],
+ "than": [
+  {
+   "p": "conj",
+   "zh": "比（連接子句）",
+   "ai": [
+    [
+     "She runs faster than I do.",
+     "她跑得比我快。"
+    ],
+    [
+     "The test was easier than we expected.",
+     "這次考試比我們預期的簡單。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "比（接名詞或代名詞）",
+   "ai": [
+    [
+     "My brother is taller than me.",
+     "我哥哥比我高。"
+    ],
+    [
+     "This bag is cheaper than that one.",
+     "這個包包比那個便宜。"
+    ]
+   ]
+  }
+ ],
+ "these": [
+  {
+   "p": "pron",
+   "zh": "這些",
+   "ai": [
+    [
+     "These are my favorite shoes.",
+     "這些是我最喜歡的鞋子。"
+    ],
+    [
+     "I bought these at the night market yesterday.",
+     "我昨天在夜市買了這些。"
+    ],
+    [
+     "Are these your keys on the table?",
+     "桌上的這些是你的鑰匙嗎？"
+    ]
+   ]
+  }
+ ],
+ "our": [
+  {
+   "p": "pron",
+   "zh": "我們的",
+   "ai": [
+    [
+     "Our teacher gave us a lot of homework.",
+     "我們的老師給了我們很多功課。"
+    ],
+    [
+     "We cleaned our room before the guests arrived.",
+     "客人到之前，我們把房間打掃乾淨了。"
+    ],
+    [
+     "Our train leaves in ten minutes.",
+     "我們的火車十分鐘後出發。"
+    ]
+   ]
+  }
+ ],
+ "should": [
+  {
+   "p": "v",
+   "zh": "應該、應當",
+   "ai": [
+    [
+     "You should drink more water every day.",
+     "你每天應該多喝水。"
+    ],
+    [
+     "We should leave early to avoid the traffic.",
+     "我們應該早點出發以避開塞車。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "應該會、大概會（表推測）",
+   "ai": [
+    [
+     "The package should arrive by Friday.",
+     "包裹應該會在星期五前送到。"
+    ],
+    [
+     "It should be sunny tomorrow, according to the forecast.",
+     "根據預報，明天應該會放晴。"
+    ]
+   ]
+  }
+ ],
+ "because": [
+  {
+   "p": "conj",
+   "zh": "因為",
+   "ai": [
+    [
+     "I stayed home because I was sick.",
+     "我因為生病所以待在家裡。"
+    ],
+    [
+     "She is happy because she passed the exam.",
+     "她很開心，因為她通過了考試。"
+    ],
+    [
+     "Because it was late, we took a taxi home.",
+     "因為時間已晚，我們搭計程車回家。"
+    ]
+   ]
+  }
+ ],
+ "between": [
+  {
+   "p": "prep",
+   "zh": "在…之間",
+   "ai": [
+    [
+     "The bank is between the post office and the library.",
+     "銀行在郵局和圖書館之間。"
+    ],
+    [
+     "I usually have lunch between twelve and one.",
+     "我通常在十二點到一點之間吃午餐。"
+    ],
+    [
+     "There is a big difference between these two phones.",
+     "這兩支手機之間有很大的差別。"
+    ]
+   ]
+  }
+ ],
+ "er": [
+  {
+   "p": "int",
+   "zh": "呃…（說話遲疑時的聲音）",
+   "ai": [
+    [
+     "Well, er, I'm not sure what to say.",
+     "嗯，呃，我不確定該說什麼。"
+    ],
+    [
+     "It costs, er, about fifty dollars, I think.",
+     "那個要，呃，我想大概五十元。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "急診室（ER，emergency room）",
+   "ai": [
+    [
+     "He was rushed to the ER after the accident.",
+     "意外發生後，他被緊急送往急診室。"
+    ],
+    [
+     "The ER was full of people on Saturday night.",
+     "星期六晚上急診室裡擠滿了人。"
+    ]
+   ]
+  }
+ ],
+ "those": [
+  {
+   "p": "pron",
+   "zh": "那些",
+   "ai": [
+    [
+     "Those are my parents over there.",
+     "那邊那兩位是我的父母。"
+    ],
+    [
+     "I don't like those, but I love these.",
+     "我不喜歡那些，但我很喜歡這些。"
+    ],
+    [
+     "Those who work hard will be rewarded.",
+     "努力工作的人會得到回報。"
+    ]
+   ]
+  }
+ ],
+ "three": [
+  {
+   "p": "num",
+   "zh": "三、三個",
+   "ai": [
+    [
+     "I have three cats at home.",
+     "我家裡有三隻貓。"
+    ],
+    [
+     "The movie starts in three minutes.",
+     "電影三分鐘後開始。"
+    ],
+    [
+     "Three of us walked to the park together.",
+     "我們三個人一起走到公園。"
+    ]
+   ]
+  }
+ ],
+ "us": [
+  {
+   "p": "pron",
+   "zh": "我們（受格）",
+   "ai": [
+    [
+     "Please come and join us for dinner.",
+     "請來和我們一起吃晚餐。"
+    ],
+    [
+     "The teacher gave us some extra time.",
+     "老師多給了我們一些時間。"
+    ],
+    [
+     "Can you show us the way to the station?",
+     "你可以告訴我們怎麼去車站嗎？"
+    ]
+   ]
+  }
+ ],
+ "oh": [
+  {
+   "p": "int",
+   "zh": "喔、噢（表示驚訝、恍然大悟或回應）",
+   "ai": [
+    [
+     "Oh, I see what you mean now.",
+     "喔，我現在懂你的意思了。"
+    ],
+    [
+     "Oh no, I left my wallet at home!",
+     "糟糕，我把錢包忘在家裡了！"
+    ],
+    [
+     "Oh, thank you so much for the gift.",
+     "噢，真的很謝謝你送的禮物。"
+    ]
+   ]
+  }
+ ],
+ "mr": [
+  {
+   "p": "n",
+   "zh": "先生（對男子的稱呼）",
+   "ai": [
+    [
+     "Mr. Brown is our new math teacher.",
+     "布朗先生是我們新來的數學老師。"
+    ],
+    [
+     "Good morning, Mr. Lee. How are you today?",
+     "早安，李先生。您今天好嗎？"
+    ],
+    [
+     "Please give this letter to Mr. Wang.",
+     "請把這封信交給王先生。"
+    ]
+   ]
+  }
+ ],
+ "something": [
+  {
+   "p": "pron",
+   "zh": "某事、某物",
+   "ai": [
+    [
+     "I want to eat something sweet.",
+     "我想吃點甜的東西。"
+    ],
+    [
+     "There is something in my shoe.",
+     "我的鞋子裡有東西。"
+    ],
+    [
+     "Can I ask you something before you go?",
+     "你走之前我可以問你一件事嗎？"
+    ]
+   ]
+  }
+ ],
+ "against": [
+  {
+   "p": "prep",
+   "zh": "反對、違反（against the law 違法）",
+   "ai": [
+    [
+     "Parking here is against the law.",
+     "在這裡停車是違法的。"
+    ],
+    [
+     "Many people voted against the new plan.",
+     "很多人投票反對這個新計畫。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "對抗、與…比賽",
+   "ai": [
+    [
+     "Our school played against a team from Taichung.",
+     "我們學校和一支台中的隊伍比賽。"
+    ],
+    [
+     "The two countries fought against a common enemy.",
+     "兩國共同對抗同一個敵人。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "靠著、貼著（lean against the wall）",
+   "ai": [
+    [
+     "He leaned against the wall to rest.",
+     "他靠著牆休息。"
+    ],
+    [
+     "Rain beat against the window all night.",
+     "雨整晚拍打著窗戶。"
+    ]
+   ]
+  }
+ ],
+ "american": [
+  {
+   "p": "n",
+   "zh": "美國人",
+   "ai": [
+    [
+     "My neighbor is an American who teaches English.",
+     "我的鄰居是一位教英文的美國人。"
+    ],
+    [
+     "Many Americans enjoy watching baseball in summer.",
+     "很多美國人夏天喜歡看棒球。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "美國的、美洲的",
+   "ai": [
+    [
+     "She bought an American car last year.",
+     "她去年買了一輛美國製的車。"
+    ],
+    [
+     "I like American movies, especially comedies.",
+     "我喜歡美國電影，尤其是喜劇片。"
+    ]
+   ]
+  }
+ ],
+ "four": [
+  {
+   "p": "num",
+   "zh": "四、四個",
+   "ai": [
+    [
+     "There are four chairs around the table.",
+     "桌子周圍有四張椅子。"
+    ],
+    [
+     "My sister is four years older than me.",
+     "我姊姊比我大四歲。"
+    ],
+    [
+     "We waited at the station until four.",
+     "我們在車站一直等到四點。"
+    ]
+   ]
+  }
+ ],
+ "during": [
+  {
+   "p": "prep",
+   "zh": "在…的時候、在…期間",
+   "ai": [
+    [
+     "I fell asleep during the movie.",
+     "我看電影時睡著了。"
+    ],
+    [
+     "We visited many museums during our trip to Europe.",
+     "我們歐洲之行期間參觀了很多博物館。"
+    ],
+    [
+     "Please keep quiet during the exam.",
+     "考試期間請保持安靜。"
+    ]
+   ]
+  }
+ ],
+ "although": [
+  {
+   "p": "conj",
+   "zh": "雖然、儘管",
+   "ai": [
+    [
+     "Although it was raining, we went for a walk.",
+     "雖然下著雨，我們還是出去散步了。"
+    ],
+    [
+     "He kept working, although he was very tired.",
+     "儘管他很累，還是繼續工作。"
+    ],
+    [
+     "Although the room was small, it felt warm and cozy.",
+     "雖然房間很小，卻讓人覺得溫暖舒適。"
+    ]
+   ]
+  }
+ ],
+ "five": [
+  {
+   "p": "num",
+   "zh": "五、五個",
+   "ai": [
+    [
+     "I usually wake up at five on Mondays.",
+     "我星期一通常五點起床。"
+    ],
+    [
+     "She has lived here for five years.",
+     "她已經住在這裡五年了。"
+    ],
+    [
+     "Please give me five minutes to finish.",
+     "請給我五分鐘讓我完成。"
+    ]
+   ]
+  }
+ ],
+ "million": [
+  {
+   "p": "num",
+   "zh": "百萬",
+   "ai": [
+    [
+     "The city has more than two million people.",
+     "這座城市有超過兩百萬人口。"
+    ],
+    [
+     "The company earned one million dollars last year.",
+     "這家公司去年賺了一百萬元。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "百萬；（口語）很多、無數",
+   "ai": [
+    [
+     "Millions of people watched the game on TV.",
+     "數百萬人在電視上收看了這場比賽。"
+    ],
+    [
+     "I have a million things to do today.",
+     "我今天有一大堆事情要做。"
+    ]
+   ]
+  }
+ ],
+ "london": [
+  {
+   "p": "n",
+   "zh": "倫敦（英國首都）",
+   "ai": [
+    [
+     "London is the capital of the United Kingdom.",
+     "倫敦是英國的首都。"
+    ],
+    [
+     "The River Thames flows through London.",
+     "泰晤士河流經倫敦。"
+    ],
+    [
+     "Many tourists visit London every summer.",
+     "每年夏天都有很多遊客造訪倫敦。"
+    ]
+   ]
+  }
+ ],
+ "whether": [
+  {
+   "p": "conj",
+   "zh": "是否、要不要（I don't know whether...）",
+   "ai": [
+    [
+     "I don't know whether he will come to the party.",
+     "我不知道他會不會來參加派對。"
+    ],
+    [
+     "She asked whether the store was open on Sundays.",
+     "她問這家店星期天有沒有營業。"
+    ]
+   ]
+  },
+  {
+   "p": "conj",
+   "zh": "不論、不管（whether...or...）",
+   "ai": [
+    [
+     "We will go camping whether it rains or not.",
+     "不管會不會下雨，我們都要去露營。"
+    ],
+    [
+     "Whether you agree or not, I'm going to try it.",
+     "不管你同不同意，我都要試試看。"
+    ]
+   ]
+  }
+ ],
+ "mm": [
+  {
+   "p": "n",
+   "zh": "毫米、公釐",
+   "ai": [
+    [
+     "The screen protector is only 0.3 mm thick.",
+     "這片螢幕保護貼只有零點三毫米厚。"
+    ],
+    [
+     "It rained about 20 mm in one hour.",
+     "一個小時內下了大約二十毫米的雨。"
+    ]
+   ]
+  },
+  {
+   "p": "int",
+   "zh": "嗯（表示同意或好吃）",
+   "ai": [
+    [
+     "Mm, this soup tastes really good.",
+     "嗯，這碗湯真好喝。"
+    ],
+    [
+     "Mm, I think you are right.",
+     "嗯，我想你說得對。"
+    ]
+   ]
+  }
+ ],
+ "john": [
+  {
+   "p": "n",
+   "zh": "約翰（男子名）",
+   "ai": [
+    [
+     "John is a very common name in English-speaking countries.",
+     "約翰是英語系國家非常常見的名字。"
+    ],
+    [
+     "John and his sister walk to school together.",
+     "約翰和他的妹妹一起走路上學。"
+    ],
+    [
+     "Our new classmate's name is John.",
+     "我們的新同學叫約翰。"
+    ]
+   ]
+  }
+ ],
+ "until": [
+  {
+   "p": "prep",
+   "zh": "直到、在…以前",
+   "ai": [
+    [
+     "I waited at the station until midnight.",
+     "我在車站一直等到半夜。"
+    ],
+    [
+     "The shop is open until nine every night.",
+     "這家店每晚營業到九點。"
+    ]
+   ]
+  },
+  {
+   "p": "conj",
+   "zh": "直到…時、在…以前",
+   "ai": [
+    [
+     "Stay here until I come back.",
+     "待在這裡，直到我回來。"
+    ],
+    [
+     "She did not understand the joke until her friend explained it.",
+     "直到朋友解釋後，她才懂那個笑話。"
+    ]
+   ]
+  }
+ ],
+ "among": [
+  {
+   "p": "prep",
+   "zh": "在…之中",
+   "ai": [
+    [
+     "She was standing among a group of tourists.",
+     "她站在一群觀光客當中。"
+    ],
+    [
+     "Pizza is very popular among teenagers.",
+     "披薩在青少年之間非常受歡迎。"
+    ],
+    [
+     "The house was hidden among tall trees.",
+     "那棟房子藏在高大的樹木之間。"
+    ]
+   ]
+  }
+ ],
+ "himself": [
+  {
+   "p": "pron",
+   "zh": "他自己、他親自",
+   "ai": [
+    [
+     "He cut himself while cooking dinner.",
+     "他煮晚餐時不小心割到了自己。"
+    ],
+    [
+     "The manager answered the phone himself.",
+     "經理親自接了電話。"
+    ],
+    [
+     "Tom built the wooden table by himself.",
+     "湯姆自己一個人做了那張木桌。"
+    ]
+   ]
+  }
+ ],
+ "six": [
+  {
+   "p": "num",
+   "zh": "六、六個",
+   "ai": [
+    [
+     "There are six eggs in the box.",
+     "盒子裡有六顆蛋。"
+    ],
+    [
+     "My train leaves at six in the morning.",
+     "我的火車早上六點開。"
+    ],
+    [
+     "She started school when she was six.",
+     "她六歲時開始上學。"
+    ]
+   ]
+  }
+ ],
+ "anything": [
+  {
+   "p": "pron",
+   "zh": "任何事物、什麼",
+   "ai": [
+    [
+     "Is there anything I can do to help?",
+     "有什麼我可以幫忙的嗎？"
+    ],
+    [
+     "I didn't eat anything this morning.",
+     "我今天早上什麼都沒吃。"
+    ],
+    [
+     "You can ask me anything about the trip.",
+     "關於這趟旅行，你什麼都可以問我。"
+    ]
+   ]
+  }
+ ],
+ "towards": [
+  {
+   "p": "prep",
+   "zh": "朝、向；對於",
+   "ai": [
+    [
+     "The children ran towards the ice cream truck.",
+     "孩子們朝著冰淇淋車跑去。"
+    ],
+    [
+     "She has a friendly attitude towards everyone.",
+     "她對每個人的態度都很友善。"
+    ],
+    [
+     "We walked slowly towards the old bridge.",
+     "我們慢慢地走向那座老橋。"
+    ]
+   ]
+  }
+ ],
+ "others": [
+  {
+   "p": "pron",
+   "zh": "其他人、別人",
+   "ai": [
+    [
+     "Some students like music, while others prefer sports.",
+     "有些學生喜歡音樂，有些則偏好運動。"
+    ],
+    [
+     "You should think about the feelings of others.",
+     "你應該多為別人的感受著想。"
+    ],
+    [
+     "Two of them stayed, and the others went home.",
+     "他們有兩人留下來，其他人都回家了。"
+    ]
+   ]
+  }
+ ],
+ "britain": [
+  {
+   "p": "n",
+   "zh": "英國（不列顛）",
+   "ai": [
+    [
+     "Britain is an island country in northwest Europe.",
+     "英國是位於歐洲西北部的島國。"
+    ],
+    [
+     "They traveled around Britain by train last summer.",
+     "他們去年夏天搭火車遊遍了英國。"
+    ],
+    [
+     "Tea is a popular drink in Britain.",
+     "茶是英國很受歡迎的飲料。"
+    ]
+   ]
+  }
+ ],
+ "everything": [
+  {
+   "p": "pron",
+   "zh": "每件事物、所有事物",
+   "ai": [
+    [
+     "Everything in this shop is on sale today.",
+     "這家店裡的所有東西今天都在特價。"
+    ],
+    [
+     "Thank you for everything you have done for me.",
+     "謝謝你為我做的一切。"
+    ],
+    [
+     "She packed everything into one small bag.",
+     "她把所有東西都塞進一個小包包裡。"
+    ]
+   ]
+  }
+ ],
+ "themselves": [
+  {
+   "p": "pron",
+   "zh": "他們自己、她們自己、它們自己",
+   "ai": [
+    [
+     "The kids made lunch for themselves.",
+     "孩子們自己做了午餐。"
+    ],
+    [
+     "They enjoyed themselves at the beach all afternoon.",
+     "他們整個下午在海邊玩得很開心。"
+    ],
+    [
+     "The students themselves decided to clean the classroom.",
+     "學生們自己決定打掃教室。"
+    ]
+   ]
+  }
+ ],
+ "itself": [
+  {
+   "p": "pron",
+   "zh": "它本身、它自己",
+   "ai": [
+    [
+     "The cat washed itself in the sun.",
+     "那隻貓在陽光下替自己洗毛。"
+    ],
+    [
+     "The door closed by itself.",
+     "門自己關上了。"
+    ],
+    [
+     "The idea itself is simple, but making it work is hard.",
+     "這個想法本身很簡單，但要實現卻很難。"
+    ]
+   ]
+  }
+ ],
+ "upon": [
+  {
+   "p": "prep",
+   "zh": "在…之上（on 的正式說法）",
+   "ai": [
+    [
+     "Once upon a time, a king lived in a tall castle.",
+     "從前從前，有一位國王住在高高的城堡裡。"
+    ],
+    [
+     "The cat sat upon the old wooden chair.",
+     "那隻貓坐在老舊的木椅上。"
+    ]
+   ]
+  },
+  {
+   "p": "prep",
+   "zh": "一…就…（upon arrival 一抵達）",
+   "ai": [
+    [
+     "Upon arrival, please check in at the front desk.",
+     "一抵達，請先到櫃檯辦理登記。"
+    ],
+    [
+     "Upon hearing the news, she burst into tears.",
+     "一聽到這個消息，她就哭了出來。"
+    ]
+   ]
+  }
+ ],
+ "england": [
+  {
+   "p": "n",
+   "zh": "英格蘭",
+   "ai": [
+    [
+     "England is one of the countries in the United Kingdom.",
+     "英格蘭是英國的組成國之一。"
+    ],
+    [
+     "London is the largest city in England.",
+     "倫敦是英格蘭最大的城市。"
+    ],
+    [
+     "We spent our holiday in the south of England.",
+     "我們在英格蘭南部度過了假期。"
+    ]
+   ]
+  }
+ ],
+ "mrs": [
+  {
+   "p": "n",
+   "zh": "太太、夫人（對已婚女子的稱呼）",
+   "ai": [
+    [
+     "Mrs. Chen is my English teacher.",
+     "陳太太是我的英文老師。"
+    ],
+    [
+     "Mr. and Mrs. Lin invited us to dinner.",
+     "林先生和林太太邀請我們吃晚餐。"
+    ],
+    [
+     "Please send the package to Mrs. Wang.",
+     "請把包裹寄給王太太。"
+    ]
+   ]
+  }
+ ],
+ "ten": [
+  {
+   "p": "num",
+   "zh": "十、十個",
+   "ai": [
+    [
+     "I have been waiting for ten minutes.",
+     "我已經等了十分鐘了。"
+    ],
+    [
+     "There are ten students in my class.",
+     "我的班上有十個學生。"
+    ],
+    [
+     "Count from one to ten slowly.",
+     "慢慢地從一數到十。"
+    ]
+   ]
+  }
+ ],
+ "shall": [
+  {
+   "p": "v",
+   "zh": "將、會（較正式）",
+   "ai": [
+    [
+     "I shall return the book to you next week.",
+     "我下星期會把書還給你。"
+    ],
+    [
+     "We shall never forget your kindness.",
+     "我們永遠不會忘記你的好意。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "…好嗎、要不要…（Shall we…? 提議）",
+   "ai": [
+    [
+     "Shall we go for a walk after dinner?",
+     "晚餐後我們去散步好嗎？"
+    ],
+    [
+     "Shall I open the window for you?",
+     "要不要我幫你把窗戶打開？"
+    ]
+   ]
+  }
+ ],
+ "whose": [
+  {
+   "p": "pron",
+   "zh": "誰的",
+   "ai": [
+    [
+     "Whose umbrella is this on the chair?",
+     "椅子上這把雨傘是誰的？"
+    ],
+    [
+     "I wonder whose idea it was to come here.",
+     "我在想來這裡是誰出的主意。"
+    ],
+    [
+     "He is the man whose car was stolen last week.",
+     "他就是上星期車子被偷的那個人。"
+    ]
+   ]
+  }
+ ],
+ "european": [
+  {
+   "p": "n",
+   "zh": "歐洲人",
+   "ai": [
+    [
+     "Many Europeans travel by train in summer.",
+     "很多歐洲人夏天搭火車旅行。"
+    ],
+    [
+     "She is a European who now lives in Taipei.",
+     "她是一位現在住在台北的歐洲人。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "歐洲的、歐洲人的",
+   "ai": [
+    [
+     "We took a European tour last summer.",
+     "我們去年夏天參加了歐洲之旅。"
+    ],
+    [
+     "Italy is a European country with a long history.",
+     "義大利是一個歷史悠久的歐洲國家。"
+    ]
+   ]
+  }
+ ],
+ "europe": [
+  {
+   "p": "n",
+   "zh": "歐洲",
+   "ai": [
+    [
+     "Europe has many countries close to each other.",
+     "歐洲有許多彼此相鄰的國家。"
+    ],
+    [
+     "She hopes to travel around Europe after graduation.",
+     "她希望畢業後能到歐洲各地旅行。"
+    ],
+    [
+     "France and Germany are both in Europe.",
+     "法國和德國都在歐洲。"
+    ]
+   ]
+  }
+ ],
+ "uk": [
+  {
+   "p": "n",
+   "zh": "英國（the UK，聯合王國）",
+   "ai": [
+    [
+     "The UK includes England, Scotland, Wales and Northern Ireland.",
+     "英國包括英格蘭、蘇格蘭、威爾士和北愛爾蘭。"
+    ],
+    [
+     "My cousin is studying in the UK this year.",
+     "我表哥今年在英國念書。"
+    ],
+    [
+     "Is it difficult to get a visa for the UK?",
+     "申請英國簽證很困難嗎？"
+    ]
+   ]
+  }
+ ],
+ "seven": [
+  {
+   "p": "num",
+   "zh": "七、七個",
+   "ai": [
+    [
+     "There are seven days in a week.",
+     "一個星期有七天。"
+    ],
+    [
+     "I get home at seven every evening.",
+     "我每天晚上七點到家。"
+    ],
+    [
+     "The little boy is seven years old.",
+     "那個小男孩七歲了。"
+    ]
+   ]
+  }
+ ],
+ "eight": [
+  {
+   "p": "num",
+   "zh": "八、八個",
+   "ai": [
+    [
+     "I sleep for about eight hours every night.",
+     "我每晚大約睡八個小時。"
+    ],
+    [
+     "The shop opens at eight in the morning.",
+     "這家店早上八點開門。"
+    ],
+    [
+     "There are eight people in her family.",
+     "她家裡有八個人。"
+    ]
+   ]
+  }
+ ],
+ "herself": [
+  {
+   "p": "pron",
+   "zh": "她自己、她親自",
+   "ai": [
+    [
+     "She taught herself how to play the guitar.",
+     "她自學了彈吉他。"
+    ],
+    [
+     "The teacher herself made all the cookies.",
+     "老師親自做了所有的餅乾。"
+    ],
+    [
+     "My sister looked at herself in the mirror.",
+     "我姊姊看著鏡子裡的自己。"
+    ]
+   ]
+  }
+ ],
+ "republican": [
+  {
+   "p": "n",
+   "zh": "共和黨員（美國）",
+   "ai": [
+    [
+     "My uncle has been a Republican for many years.",
+     "我叔叔多年來一直是共和黨員。"
+    ],
+    [
+     "The Republican candidate gave a speech in the city hall.",
+     "那位共和黨候選人在市政廳發表了演說。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "共和黨的（美國）；共和政體的",
+   "ai": [
+    [
+     "The Republican Party is one of the two major parties in the United States.",
+     "共和黨是美國的兩大政黨之一。"
+    ],
+    [
+     "France has a republican form of government.",
+     "法國採行共和政體。"
+    ]
+   ]
+  }
+ ],
+ "twenty": [
+  {
+   "p": "num",
+   "zh": "二十、二十個",
+   "ai": [
+    [
+     "There are twenty students in the classroom.",
+     "教室裡有二十個學生。"
+    ],
+    [
+     "I will be there in twenty minutes.",
+     "我二十分鐘後到那裡。"
+    ],
+    [
+     "My grandmother gave me twenty dollars for my birthday.",
+     "奶奶在我生日時給了我二十元。"
+    ]
+   ]
+  }
+ ],
+ "billion": [
+  {
+   "p": "num",
+   "zh": "十億",
+   "ai": [
+    [
+     "The world has more than eight billion people.",
+     "全世界有超過八十億人口。"
+    ],
+    [
+     "The project cost about a billion dollars.",
+     "這個計畫花了大約十億元。"
+    ],
+    [
+     "Billions of stars fill our galaxy.",
+     "我們的銀河系裡有數十億顆星星。"
+    ]
+   ]
+  }
+ ],
+ "david": [
+  {
+   "p": "n",
+   "zh": "大衛（男子名）",
+   "ai": [
+    [
+     "David is a common first name in many countries.",
+     "大衛是許多國家都很常見的名字。"
+    ],
+    [
+     "David and his brother play basketball every weekend.",
+     "大衛和他的哥哥每個週末都打籃球。"
+    ],
+    [
+     "Our new neighbor's name is David.",
+     "我們新鄰居的名字是大衛。"
+    ]
+   ]
+  }
+ ],
+ "anyone": [
+  {
+   "p": "pron",
+   "zh": "任何人",
+   "ai": [
+    [
+     "Is anyone home right now?",
+     "現在有人在家嗎？"
+    ],
+    [
+     "I didn't tell anyone about the surprise party.",
+     "我沒有告訴任何人那場驚喜派對的事。"
+    ],
+    [
+     "Anyone can learn to swim with enough practice.",
+     "只要多練習，任何人都能學會游泳。"
+    ]
+   ]
+  }
+ ],
+ "myself": [
+  {
+   "p": "pron",
+   "zh": "我自己、我親自",
+   "ai": [
+    [
+     "I made this cake myself.",
+     "這個蛋糕是我自己做的。"
+    ],
+    [
+     "I looked at myself in the mirror and smiled.",
+     "我看著鏡中的自己笑了。"
+    ],
+    [
+     "I live by myself in a small apartment.",
+     "我一個人住在一間小公寓裡。"
+    ]
+   ]
+  }
+ ],
+ "april": [
+  {
+   "p": "n",
+   "zh": "四月",
+   "ai": [
+    [
+     "The cherry blossoms are beautiful in April.",
+     "四月的櫻花很美。"
+    ],
+    [
+     "My birthday is on the tenth of April.",
+     "我的生日是四月十日。"
+    ],
+    [
+     "It often rains in April in Taiwan.",
+     "台灣的四月常常下雨。"
+    ]
+   ]
+  }
+ ],
+ "june": [
+  {
+   "p": "n",
+   "zh": "六月",
+   "ai": [
+    [
+     "School finishes in June, and summer vacation begins.",
+     "學校六月結束，暑假就開始了。"
+    ],
+    [
+     "They plan to get married next June.",
+     "他們打算明年六月結婚。"
+    ],
+    [
+     "The weather in June is hot and humid.",
+     "六月的天氣又熱又潮濕。"
+    ]
+   ]
+  }
+ ],
+ "tv": [
+  {
+   "p": "n",
+   "zh": "電視",
+   "ai": [
+    [
+     "We watch TV together after dinner.",
+     "晚餐後我們一起看電視。"
+    ],
+    [
+     "Please turn off the TV and go to bed.",
+     "請把電視關掉去睡覺。"
+    ],
+    [
+     "They bought a big new TV for the living room.",
+     "他們為客廳買了一台新的大電視。"
+    ]
+   ]
+  }
+ ],
+ "nine": [
+  {
+   "p": "num",
+   "zh": "九、九個",
+   "ai": [
+    [
+     "The movie ends at nine o'clock.",
+     "電影九點結束。"
+    ],
+    [
+     "Our baby is nine months old now.",
+     "我們的寶寶現在九個月大了。"
+    ],
+    [
+     "There are nine players on a baseball team.",
+     "一支棒球隊有九名球員。"
+    ]
+   ]
+  }
+ ],
+ "whatever": [
+  {
+   "p": "pron",
+   "zh": "無論什麼、任何",
+   "ai": [
+    [
+     "You can order whatever you like on the menu.",
+     "菜單上你喜歡什麼都可以點。"
+    ],
+    [
+     "Whatever happens, I will always support you.",
+     "無論發生什麼事，我都會支持你。"
+    ]
+   ]
+  },
+  {
+   "p": "int",
+   "zh": "隨便、無所謂",
+   "ai": [
+    [
+     "\"Do you want pizza or noodles?\" \"Whatever, I don't mind.\"",
+     "「你要吃披薩還是麵？」「隨便啦，我都可以。」"
+    ],
+    [
+     "Whatever, it doesn't matter to me.",
+     "隨便啦，我無所謂。"
+    ]
+   ]
+  }
+ ],
+ "scotland": [
+  {
+   "p": "n",
+   "zh": "蘇格蘭",
+   "ai": [
+    [
+     "Scotland is the northern part of the United Kingdom.",
+     "蘇格蘭位於英國北部。"
+    ],
+    [
+     "Edinburgh is the capital of Scotland.",
+     "愛丁堡是蘇格蘭的首府。"
+    ],
+    [
+     "They went hiking in the mountains of Scotland last summer.",
+     "他們去年夏天到蘇格蘭的山區健行。"
+    ]
+   ]
+  }
+ ],
+ "whom": [
+  {
+   "p": "pron",
+   "zh": "誰（受格）；…的人（關係代名詞受格）",
+   "ai": [
+    [
+     "To whom should I send this letter?",
+     "這封信我該寄給誰？"
+    ],
+    [
+     "The woman whom I met yesterday is a doctor.",
+     "我昨天遇到的那位女士是醫生。"
+    ],
+    [
+     "He is the friend with whom I traveled to Japan.",
+     "他就是和我一起去日本旅行的朋友。"
+    ]
+   ]
+  }
+ ],
+ "st": [
+  {
+   "p": "n",
+   "zh": "街（Street 的縮寫）",
+   "ai": [
+    [
+     "The bakery is on Main St. near the bank.",
+     "那家麵包店在銀行附近的主街上。"
+    ],
+    [
+     "Turn left at Oak St. and walk two blocks.",
+     "在橡樹街左轉，再走兩個街區。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "聖（Saint 的縮寫，如 St. Peter）",
+   "ai": [
+    [
+     "St. Patrick's Day is celebrated every March.",
+     "聖派翠克節每年三月慶祝。"
+    ],
+    [
+     "We visited St. Paul's Cathedral during our trip.",
+     "我們旅行時參觀了聖保羅大教堂。"
+    ]
+   ]
+  }
+ ],
+ "everybody": [
+  {
+   "p": "pron",
+   "zh": "每個人、人人",
+   "ai": [
+    [
+     "Everybody likes a free lunch.",
+     "每個人都喜歡免費的午餐。"
+    ],
+    [
+     "Hello, everybody! Please take a seat.",
+     "大家好！請就座。"
+    ],
+    [
+     "Everybody was surprised by the good news.",
+     "每個人都對這個好消息感到驚訝。"
+    ]
+   ]
+  }
+ ],
+ "peter": [
+  {
+   "p": "n",
+   "zh": "彼得（男子名）",
+   "ai": [
+    [
+     "Peter is a common name in many countries.",
+     "彼得是許多國家都很常見的名字。"
+    ],
+    [
+     "Peter and his friends play soccer after school.",
+     "彼得和他的朋友們放學後踢足球。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "逐漸減少、逐漸消失（peter out）",
+   "ai": [
+    [
+     "The stream petered out in the dry season.",
+     "這條小溪在乾季漸漸乾涸了。"
+    ],
+    [
+     "Her excitement slowly petered out as the day went on.",
+     "隨著時間過去，她的興奮感漸漸消退了。"
+    ]
+   ]
+  }
+ ],
+ "dr": [
+  {
+   "p": "n",
+   "zh": "博士；醫生（Dr.）",
+   "ai": [
+    [
+     "Dr. Chen will see you in a few minutes.",
+     "陳醫師幾分鐘後就會看你的診。"
+    ],
+    [
+     "Please make an appointment with Dr. Lin.",
+     "請和林醫師預約看診。"
+    ],
+    [
+     "Dr. Wang gave a talk about healthy eating.",
+     "王博士做了一場關於健康飲食的演講。"
+    ]
+   ]
+  }
+ ],
+ "pm": [
+  {
+   "p": "adv",
+   "zh": "下午、晚上（p.m.，如 3 pm）",
+   "ai": [
+    [
+     "The meeting starts at 3 pm.",
+     "會議下午三點開始。"
+    ],
+    [
+     "The store closes at 9 pm on weekdays.",
+     "這家店平日晚上九點打烊。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "首相、總理（Prime Minister 的縮寫）",
+   "ai": [
+    [
+     "The PM gave a speech about the new education plan.",
+     "首相發表了關於新教育計畫的演說。"
+    ],
+    [
+     "The PM will meet leaders from other countries next week.",
+     "首相下週將與他國領袖會面。"
+    ]
+   ]
+  }
+ ],
+ "france": [
+  {
+   "p": "n",
+   "zh": "法國",
+   "ai": [
+    [
+     "France is famous for its food and wine.",
+     "法國以美食和葡萄酒聞名。"
+    ],
+    [
+     "Paris is the capital of France.",
+     "巴黎是法國的首都。"
+    ],
+    [
+     "They spent two weeks traveling around France.",
+     "他們花了兩個星期遊覽法國。"
+    ]
+   ]
+  }
+ ],
+ "ok": [
+  {
+   "p": "adj",
+   "zh": "好、不錯、可以",
+   "ai": [
+    [
+     "Is it OK if I sit here?",
+     "我坐這裡可以嗎？"
+    ],
+    [
+     "The movie was OK, but not great.",
+     "這部電影還可以，但不算很棒。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "好、沒問題",
+   "ai": [
+    [
+     "My phone is working OK again after the update.",
+     "更新後我的手機又能正常運作了。"
+    ],
+    [
+     "She did OK on the test, so she was relieved.",
+     "她考得還可以，所以鬆了一口氣。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "批准、認可（the OK）",
+   "ai": [
+    [
+     "We are waiting for the boss to give the OK.",
+     "我們正在等老闆點頭同意。"
+    ],
+    [
+     "He got the OK to leave work early.",
+     "他獲准提早下班。"
+    ]
+   ]
+  }
+ ],
+ "july": [
+  {
+   "p": "n",
+   "zh": "七月",
+   "ai": [
+    [
+     "Summer vacation starts in July.",
+     "暑假從七月開始。"
+    ],
+    [
+     "It is very hot and sunny in July.",
+     "七月又熱又晴朗。"
+    ],
+    [
+     "We are going to the beach on the fifth of July.",
+     "我們七月五日要去海邊。"
+    ]
+   ]
+  }
+ ],
+ "paul": [
+  {
+   "p": "n",
+   "zh": "保羅（男子名）",
+   "ai": [
+    [
+     "Paul is a common first name in many countries.",
+     "保羅是許多國家都很常見的名字。"
+    ],
+    [
+     "Paul rides his bike to school every day.",
+     "保羅每天騎腳踏車上學。"
+    ],
+    [
+     "My classmate Paul likes to draw cartoons.",
+     "我的同學保羅喜歡畫漫畫。"
+    ]
+   ]
+  }
+ ],
+ "george": [
+  {
+   "p": "n",
+   "zh": "喬治（男子名）",
+   "ai": [
+    [
+     "George is a common first name in English-speaking countries.",
+     "喬治是英語系國家很常見的名字。"
+    ],
+    [
+     "George walks his dog in the park every evening.",
+     "喬治每天傍晚都在公園遛狗。"
+    ],
+    [
+     "Our teacher asked George to open the window.",
+     "老師請喬治把窗戶打開。"
+    ]
+   ]
+  }
+ ],
+ "democrat": [
+  {
+   "p": "n",
+   "zh": "民主黨員（美國）；民主主義者",
+   "ai": [
+    [
+     "My aunt has been a Democrat since she was young.",
+     "我阿姨從年輕時就是民主黨員。"
+    ],
+    [
+     "A true democrat believes everyone should have a voice.",
+     "真正的民主主義者相信每個人都應該有發言權。"
+    ]
+   ]
+  }
+ ],
+ "soviet": [
+  {
+   "p": "adj",
+   "zh": "蘇聯的、蘇維埃的",
+   "ai": [
+    [
+     "The Soviet Union broke up in 1991.",
+     "蘇聯在一九九一年解體。"
+    ],
+    [
+     "The museum has many old Soviet posters.",
+     "這間博物館收藏了許多舊的蘇聯海報。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "蘇維埃（蘇聯時期的議會或委員會）",
+   "ai": [
+    [
+     "The local soviet made decisions about the town's schools.",
+     "當地的蘇維埃負責決定這個城鎮學校的事務。"
+    ],
+    [
+     "Each region sent delegates to the Supreme Soviet.",
+     "各地區都派代表前往最高蘇維埃。"
+    ]
+   ]
+  }
+ ],
+ "yourself": [
+  {
+   "p": "pron",
+   "zh": "你自己",
+   "ai": [
+    [
+     "Please help yourself to some tea.",
+     "請自己倒點茶喝。"
+    ],
+    [
+     "You should be proud of yourself.",
+     "你應該為自己感到驕傲。"
+    ],
+    [
+     "Did you make this bag yourself?",
+     "這個包包是你自己做的嗎？"
+    ]
+   ]
+  }
+ ],
+ "onto": [
+  {
+   "p": "prep",
+   "zh": "到…上面（表示移動方向）",
+   "ai": [
+    [
+     "The cat jumped onto the sofa.",
+     "那隻貓跳到了沙發上。"
+    ],
+    [
+     "He put the heavy box onto the shelf.",
+     "他把重重的箱子放到架子上。"
+    ],
+    [
+     "Please move your bag onto the floor.",
+     "請把你的包包移到地上。"
+    ]
+   ]
+  }
+ ],
+ "germany": [
+  {
+   "p": "n",
+   "zh": "德國",
+   "ai": [
+    [
+     "Germany is a country in central Europe.",
+     "德國是位於中歐的國家。"
+    ],
+    [
+     "Berlin is the capital of Germany.",
+     "柏林是德國的首都。"
+    ],
+    [
+     "My friend studied engineering in Germany for two years.",
+     "我的朋友在德國念了兩年的工程。"
+    ]
+   ]
+  }
+ ],
+ "october": [
+  {
+   "p": "n",
+   "zh": "十月",
+   "ai": [
+    [
+     "The weather gets cooler in October.",
+     "十月的天氣開始變涼。"
+    ],
+    [
+     "Our school sports day is in October.",
+     "我們學校的運動會在十月。"
+    ],
+    [
+     "Halloween is on the last day of October.",
+     "萬聖節在十月的最後一天。"
+    ]
+   ]
+  }
+ ],
+ "september": [
+  {
+   "p": "n",
+   "zh": "九月",
+   "ai": [
+    [
+     "The new school year begins in September.",
+     "新學年從九月開始。"
+    ],
+    [
+     "My sister was born in September.",
+     "我姊姊是九月出生的。"
+    ],
+    [
+     "The Mid-Autumn Festival is often in September.",
+     "中秋節常常在九月。"
+    ]
+   ]
+  }
+ ],
+ "america": [
+  {
+   "p": "n",
+   "zh": "美洲；美國",
+   "ai": [
+    [
+     "North America includes Canada, the United States and Mexico.",
+     "北美洲包括加拿大、美國和墨西哥。"
+    ],
+    [
+     "Her uncle moved to America many years ago.",
+     "她的叔叔多年前搬到了美國。"
+    ],
+    [
+     "Many people in America enjoy watching baseball.",
+     "美國有很多人喜歡看棒球。"
+    ]
+   ]
+  }
+ ],
+ "james": [
+  {
+   "p": "n",
+   "zh": "詹姆斯（男子名、姓氏）",
+   "ai": [
+    [
+     "James is a common first name in English-speaking countries.",
+     "詹姆斯是英語系國家很常見的名字。"
+    ],
+    [
+     "James and his cousin built a small boat together.",
+     "詹姆斯和他的表弟一起做了一艘小船。"
+    ],
+    [
+     "Our new classmate's name is James.",
+     "我們新同學的名字叫詹姆斯。"
+    ]
+   ]
+  }
+ ],
+ "january": [
+  {
+   "p": "n",
+   "zh": "一月",
+   "ai": [
+    [
+     "The Lunar New Year often comes in January or February.",
+     "農曆新年常常在一月或二月。"
+    ],
+    [
+     "It is very cold in January in northern countries.",
+     "北方國家的一月非常冷。"
+    ],
+    [
+     "The new year begins on the first of January.",
+     "新的一年從一月一日開始。"
+    ]
+   ]
+  }
+ ],
+ "sunday": [
+  {
+   "p": "n",
+   "zh": "星期日",
+   "ai": [
+    [
+     "We usually visit my grandparents on Sunday.",
+     "我們星期天通常會去看祖父母。"
+    ],
+    [
+     "The shop is closed on Sundays.",
+     "這家店星期天不營業。"
+    ],
+    [
+     "Let's meet at the park next Sunday morning.",
+     "我們下個星期天早上在公園見面吧。"
+    ]
+   ]
+  }
+ ],
+ "richard": [
+  {
+   "p": "n",
+   "zh": "理查德（男子名）",
+   "ai": [
+    [
+     "Richard is a common first name in English-speaking countries.",
+     "理查德是英語系國家很常見的名字。"
+    ],
+    [
+     "Richard walks to work every morning.",
+     "理查德每天早上走路上班。"
+    ],
+    [
+     "My teacher asked Richard to read the next page.",
+     "老師請理查德念下一頁。"
+    ]
+   ]
+  }
+ ],
+ "thirty": [
+  {
+   "p": "num",
+   "zh": "三十、三十個",
+   "ai": [
+    [
+     "The class has thirty students.",
+     "這個班級有三十個學生。"
+    ],
+    [
+     "I will be ready in thirty minutes.",
+     "我三十分鐘後準備好。"
+    ],
+    [
+     "It takes about thirty minutes to get to school.",
+     "去學校大約要三十分鐘。"
+    ]
+   ]
+  }
+ ],
+ "york": [
+  {
+   "p": "n",
+   "zh": "約克（英格蘭北部的歷史古城與郡）",
+   "ai": [
+    [
+     "York is a historic city in northern England.",
+     "約克是英格蘭北部的一座歷史古城。"
+    ],
+    [
+     "Many tourists visit York to see its old walls.",
+     "許多遊客到約克參觀古老的城牆。"
+    ],
+    [
+     "We took a train from London to York.",
+     "我們從倫敦搭火車到約克。"
+    ]
+   ]
+  }
+ ],
+ "ah": [
+  {
+   "p": "int",
+   "zh": "啊、哈（表示領悟、滿足或驚訝）",
+   "ai": [
+    [
+     "Ah, now I understand the problem.",
+     "啊，我現在明白問題在哪了。"
+    ],
+    [
+     "Ah, this hot soup feels so good on a cold day.",
+     "啊，天氣冷的時候喝熱湯真舒服。"
+    ],
+    [
+     "Ah, there you are! I've been looking for you.",
+     "啊，原來你在這裡！我一直在找你。"
+    ]
+   ]
+  }
+ ],
+ "german": [
+  {
+   "p": "adj",
+   "zh": "德國的、德國人的、德語的",
+   "ai": [
+    [
+     "She bought a German car last year.",
+     "她去年買了一輛德國車。"
+    ],
+    [
+     "I am taking a German class this semester.",
+     "我這學期在上德語課。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "德國人；德語",
+   "ai": [
+    [
+     "Many Germans enjoy riding bicycles on weekends.",
+     "許多德國人週末喜歡騎腳踏車。"
+    ],
+    [
+     "He speaks German and English fluently.",
+     "他的德語和英語都說得很流利。"
+    ]
+   ]
+  }
+ ],
+ "scottish": [
+  {
+   "p": "adj",
+   "zh": "蘇格蘭的、蘇格蘭人的",
+   "ai": [
+    [
+     "The Scottish countryside is famous for its green hills.",
+     "蘇格蘭的鄉間以綠色丘陵聞名。"
+    ],
+    [
+     "We listened to some traditional Scottish music.",
+     "我們聽了一些傳統的蘇格蘭音樂。"
+    ],
+    [
+     "She has a Scottish friend who lives in Edinburgh.",
+     "她有一位住在愛丁堡的蘇格蘭朋友。"
+    ]
+   ]
+  }
+ ],
+ "ireland": [
+  {
+   "p": "n",
+   "zh": "愛爾蘭",
+   "ai": [
+    [
+     "Ireland is an island country west of Britain.",
+     "愛爾蘭是位於英國西邊的島國。"
+    ],
+    [
+     "Dublin is the capital of Ireland.",
+     "都柏林是愛爾蘭的首都。"
+    ],
+    [
+     "The grass in Ireland stays green for most of the year.",
+     "愛爾蘭的草地一年中大部分時間都是綠的。"
+    ]
+   ]
+  }
+ ],
+ "fifty": [
+  {
+   "p": "num",
+   "zh": "五十、五十個",
+   "ai": [
+    [
+     "The book costs fifty dollars.",
+     "這本書要五十元。"
+    ],
+    [
+     "My grandfather is almost fifty years old.",
+     "我的叔叔快要五十歲了。"
+    ],
+    [
+     "There are about fifty people in the hall.",
+     "大廳裡大約有五十個人。"
+    ]
+   ]
+  }
+ ],
+ "michael": [
+  {
+   "p": "n",
+   "zh": "邁克爾（男子名）",
+   "ai": [
+    [
+     "Michael is a common first name in English-speaking countries.",
+     "邁克爾是英語系國家很常見的名字。"
+    ],
+    [
+     "Michael plays the guitar in a small band.",
+     "邁克爾在一個小樂團裡彈吉他。"
+    ],
+    [
+     "Please ask Michael to bring some water.",
+     "請叫邁克爾帶點水來。"
+    ]
+   ]
+  }
+ ],
+ "november": [
+  {
+   "p": "n",
+   "zh": "十一月",
+   "ai": [
+    [
+     "The days get shorter in November.",
+     "十一月白天變得比較短。"
+    ],
+    [
+     "We will take a trip in November.",
+     "我們十一月要去旅行。"
+    ],
+    [
+     "Her birthday is on the twentieth of November.",
+     "她的生日是十一月二十日。"
+    ]
+   ]
+  }
+ ],
+ "december": [
+  {
+   "p": "n",
+   "zh": "十二月",
+   "ai": [
+    [
+     "Christmas is celebrated in December.",
+     "聖誕節在十二月慶祝。"
+    ],
+    [
+     "It is cold and dry in December in northern Taiwan.",
+     "台灣北部的十二月又冷又乾。"
+    ],
+    [
+     "The school year ends in late December for some countries.",
+     "有些國家的學期在十二月下旬結束。"
+    ]
+   ]
+  }
+ ],
+ "wales": [
+  {
+   "p": "n",
+   "zh": "威爾士",
+   "ai": [
+    [
+     "Wales is one of the countries in the United Kingdom.",
+     "威爾士是英國的組成國之一。"
+    ],
+    [
+     "Cardiff is the capital of Wales.",
+     "卡地夫是威爾士的首府。"
+    ],
+    [
+     "We went camping in the hills of Wales last summer.",
+     "我們去年夏天到威爾士的山區露營。"
+    ]
+   ]
+  }
+ ],
+ "charles": [
+  {
+   "p": "n",
+   "zh": "查爾斯（男子名）",
+   "ai": [
+    [
+     "Charles is a common first name in English-speaking countries.",
+     "查爾斯是英語系國家很常見的名字。"
+    ],
+    [
+     "Charles reads a book before bed every night.",
+     "查爾斯每天睡前都會看書。"
+    ],
+    [
+     "I sat next to Charles during the meeting.",
+     "開會時我坐在查爾斯旁邊。"
+    ]
+   ]
+  }
+ ],
+ "mum": [
+  {
+   "p": "n",
+   "zh": "媽媽（英式）",
+   "ai": [
+    [
+     "My mum makes the best soup in the world.",
+     "我媽媽煮的湯是全世界最好喝的。"
+    ],
+    [
+     "Mum, can I go to Tom's house after school?",
+     "媽，我放學後可以去湯姆家嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "沉默的（keep mum 保持沉默）",
+   "ai": [
+    [
+     "Everyone kept mum about the surprise party.",
+     "大家對驚喜派對的事都保持沉默。"
+    ],
+    [
+     "He stayed mum when the teacher asked who broke the window.",
+     "老師問是誰打破窗戶時，他一聲不吭。"
+    ]
+   ]
+  }
+ ],
+ "senate": [
+  {
+   "p": "n",
+   "zh": "參議院、立法機構、評議會",
+   "ai": [
+    [
+     "The Senate voted on the new law yesterday.",
+     "參議院昨天針對新法律進行了投票。"
+    ],
+    [
+     "Each state elects two members to the US Senate.",
+     "每個州選出兩位美國參議員。"
+    ],
+    [
+     "The university senate meets once a month.",
+     "大學評議會每個月開一次會。"
+    ]
+   ]
+  }
+ ],
+ "ii": [
+  {
+   "p": "n",
+   "zh": "第二、二世（羅馬數字 2，如 World War II、Henry II）",
+   "ai": [
+    [
+     "World War II ended in 1945.",
+     "第二次世界大戰在一九四五年結束。"
+    ],
+    [
+     "We watched Part II of the movie last night.",
+     "我們昨晚看了這部電影的第二集。"
+    ],
+    [
+     "The king was called Henry II.",
+     "那位國王被稱為亨利二世。"
+    ]
+   ]
+  }
+ ],
+ "christmas": [
+  {
+   "p": "n",
+   "zh": "聖誕節",
+   "ai": [
+    [
+     "We decorate a tree every Christmas.",
+     "我們每年聖誕節都會裝飾一棵樹。"
+    ],
+    [
+     "She bought a scarf for her mother as a Christmas gift.",
+     "她買了一條圍巾送媽媽當聖誕禮物。"
+    ],
+    [
+     "The streets look beautiful at Christmas.",
+     "聖誕節時街道看起來很美。"
+    ]
+   ]
+  }
+ ],
+ "ms": [
+  {
+   "p": "n",
+   "zh": "女士（Ms.，不區分已婚未婚的稱呼）",
+   "ai": [
+    [
+     "Ms. Chen is the manager of our department.",
+     "陳女士是我們部門的經理。"
+    ],
+    [
+     "Please send the report to Ms. Lin by Friday.",
+     "請在星期五前把報告寄給林女士。"
+    ],
+    [
+     "Good morning, Ms. Wang. May I help you?",
+     "早安，王女士。需要我幫忙嗎？"
+    ]
+   ]
+  }
+ ],
+ "saturday": [
+  {
+   "p": "n",
+   "zh": "星期六",
+   "ai": [
+    [
+     "We usually go hiking on Saturday.",
+     "我們星期六通常會去健行。"
+    ],
+    [
+     "The party starts at seven on Saturday evening.",
+     "派對星期六晚上七點開始。"
+    ],
+    [
+     "I sleep late on Saturdays.",
+     "我星期六都睡得很晚。"
+    ]
+   ]
+  }
+ ],
+ "smith": [
+  {
+   "p": "n",
+   "zh": "史密斯（常見姓氏）",
+   "ai": [
+    [
+     "Smith is one of the most common last names in English.",
+     "史密斯是英語中最常見的姓氏之一。"
+    ],
+    [
+     "Mr. Smith teaches science at our school.",
+     "史密斯先生在我們學校教自然科學。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "鐵匠、金屬工匠",
+   "ai": [
+    [
+     "The village smith made horseshoes by hand.",
+     "村裡的鐵匠用手工打造馬蹄鐵。"
+    ],
+    [
+     "A skilled smith can turn a metal bar into a beautiful tool.",
+     "技藝純熟的工匠能把一根金屬棒變成漂亮的工具。"
+    ]
+   ]
+  }
+ ],
+ "oxford": [
+  {
+   "p": "n",
+   "zh": "牛津（英國城市）；牛津大學",
+   "ai": [
+    [
+     "Oxford is a city in England with a famous university.",
+     "牛津是英格蘭的一座城市，有一所著名的大學。"
+    ],
+    [
+     "She went to Oxford to study history.",
+     "她去牛津大學念歷史。"
+    ],
+    [
+     "We visited old libraries and colleges in Oxford.",
+     "我們參觀了牛津的古老圖書館和學院。"
+    ]
+   ]
+  }
+ ],
+ "states": [
+  {
+   "p": "v",
+   "zh": "說明、陳述（state 的第三人稱單數）",
+   "ai": [
+    [
+     "The sign states that no pets are allowed.",
+     "告示牌上說明禁止攜帶寵物。"
+    ],
+    [
+     "She clearly states her opinion in every meeting.",
+     "她在每次會議上都清楚表達自己的意見。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "州、國家（state 的複數）",
+   "ai": [
+    [
+     "The country is made up of fifty states.",
+     "這個國家由五十個州組成。"
+    ],
+    [
+     "Water can exist in three different states.",
+     "水可以存在於三種不同的狀態。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "美國（the States）",
+   "ai": [
+    [
+     "My cousin moved to the States last year.",
+     "我表哥去年搬到了美國。"
+    ],
+    [
+     "Have you ever been to the States?",
+     "你去過美國嗎？"
+    ]
+   ]
+  }
+ ],
+ "british": [
+  {
+   "p": "adj",
+   "zh": "英國的",
+   "ai": [
+    [
+     "She has a British passport.",
+     "她持有英國護照。"
+    ],
+    [
+     "I enjoy watching British comedies on weekends.",
+     "我週末喜歡看英國的喜劇節目。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "英國人（the British）",
+   "ai": [
+    [
+     "The British are known for drinking a lot of tea.",
+     "英國人以愛喝茶聞名。"
+    ],
+    [
+     "Many British live in big cities like London.",
+     "許多英國人住在倫敦這類大城市。"
+    ]
+   ]
+  }
+ ],
+ "february": [
+  {
+   "p": "n",
+   "zh": "二月",
+   "ai": [
+    [
+     "February is the shortest month of the year.",
+     "二月是一年中最短的月份。"
+    ],
+    [
+     "The weather is still cold in February.",
+     "二月的天氣還是很冷。"
+    ],
+    [
+     "Valentine's Day is on the fourteenth of February.",
+     "情人節在二月十四日。"
+    ]
+   ]
+  }
+ ],
+ "william": [
+  {
+   "p": "n",
+   "zh": "威廉（男子名）",
+   "ai": [
+    [
+     "William is a common first name in English-speaking countries.",
+     "威廉是英語系國家很常見的名字。"
+    ],
+    [
+     "William goes jogging with his dog every morning.",
+     "威廉每天早上都帶著狗去慢跑。"
+    ],
+    [
+     "Our teacher called William to the front of the class.",
+     "老師叫威廉到教室前面。"
+    ]
+   ]
+  }
+ ],
+ "am": [
+  {
+   "p": "v",
+   "zh": "是（be 的第一人稱單數現在式，用於 I am）",
+   "ai": [
+    [
+     "I am a student at a high school in Hsinchu.",
+     "我是新竹一所高中的學生。"
+    ],
+    [
+     "I am very happy to see you again.",
+     "再次見到你我非常開心。"
+    ],
+    [
+     "Sorry, I am not ready yet.",
+     "抱歉，我還沒準備好。"
+    ]
+   ]
+  }
+ ],
+ "african": [
+  {
+   "p": "n",
+   "zh": "非洲人",
+   "ai": [
+    [
+     "Many Africans speak more than two languages.",
+     "許多非洲人會說兩種以上的語言。"
+    ],
+    [
+     "She is an African who studies medicine in Taipei.",
+     "她是一位在台北念醫學的非洲人。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "非洲的、非洲人的",
+   "ai": [
+    [
+     "We watched a documentary about African animals.",
+     "我們看了一部關於非洲動物的紀錄片。"
+    ],
+    [
+     "He loves African music and dance.",
+     "他很喜歡非洲的音樂和舞蹈。"
+    ]
+   ]
+  }
+ ],
+ "chinese": [
+  {
+   "p": "adj",
+   "zh": "中國的、中文的",
+   "ai": [
+    [
+     "I like Chinese tea and Chinese food.",
+     "我喜歡中國茶和中式料理。"
+    ],
+    [
+     "She is learning to write Chinese characters.",
+     "她正在學寫中文字。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "中文、中國人",
+   "ai": [
+    [
+     "He speaks Chinese and English at work.",
+     "他在工作時說中文和英文。"
+    ],
+    [
+     "Many Chinese celebrate the Lunar New Year with their families.",
+     "許多中國人和家人一起慶祝農曆新年。"
+    ]
+   ]
+  }
+ ],
+ "robert": [
+  {
+   "p": "n",
+   "zh": "羅伯特（男子名）",
+   "ai": [
+    [
+     "Robert is a common first name in English-speaking countries.",
+     "羅伯特是英語系國家很常見的名字。"
+    ],
+    [
+     "Robert takes the bus to work every morning.",
+     "羅伯特每天早上搭公車上班。"
+    ],
+    [
+     "I borrowed a pen from Robert in class.",
+     "我在課堂上向羅伯特借了一支筆。"
+    ]
+   ]
+  }
+ ],
+ "africa": [
+  {
+   "p": "n",
+   "zh": "非洲",
+   "ai": [
+    [
+     "Africa is the second largest continent in the world.",
+     "非洲是世界上第二大的洲。"
+    ],
+    [
+     "They hope to see wild animals in Africa one day.",
+     "他們希望有一天能到非洲看野生動物。"
+    ],
+    [
+     "Many different languages are spoken across Africa.",
+     "整個非洲使用著許多不同的語言。"
+    ]
+   ]
+  }
+ ],
+ "christian": [
+  {
+   "p": "n",
+   "zh": "基督徒",
+   "ai": [
+    [
+     "My neighbor is a Christian and goes to church on Sundays.",
+     "我的鄰居是基督徒，星期天會去教會。"
+    ],
+    [
+     "Many Christians celebrate Christmas with their families.",
+     "許多基督徒和家人一起慶祝聖誕節。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "基督的、基督教的",
+   "ai": [
+    [
+     "The town has a small Christian church on the hill.",
+     "這個小鎮的山丘上有一間小小的基督教教堂。"
+    ],
+    [
+     "She grew up in a Christian family.",
+     "她在一個基督教家庭中長大。"
+    ]
+   ]
+  }
+ ],
+ "etc": [
+  {
+   "p": "phr",
+   "zh": "等等、及其他（et cetera）",
+   "ai": [
+    [
+     "We bought apples, bananas, oranges, etc.",
+     "我們買了蘋果、香蕉、柳橙等等。"
+    ],
+    [
+     "The store sells pens, notebooks, folders, etc.",
+     "這家店賣筆、筆記本、資料夾等等。"
+    ],
+    [
+     "Please bring your ID card, phone, keys, etc.",
+     "請帶著身分證、手機、鑰匙等等。"
+    ]
+   ]
+  }
+ ],
+ "mhm": [
+  {
+   "p": "int",
+   "zh": "嗯哼（表示同意或在聽對方說話）",
+   "ai": [
+    [
+     "\"Are you listening?\" \"Mhm, go on.\"",
+     "「你有在聽嗎？」「嗯哼，你繼續說。」"
+    ],
+    [
+     "Mhm, that sounds like a good idea.",
+     "嗯哼，聽起來是個好主意。"
+    ],
+    [
+     "\"Did you finish your homework?\" \"Mhm.\"",
+     "「你功課寫完了嗎？」「嗯。」"
+    ]
+   ]
+  }
+ ],
+ "henry": [
+  {
+   "p": "n",
+   "zh": "亨利（男子名）",
+   "ai": [
+    [
+     "Henry is a common first name in English-speaking countries.",
+     "亨利是英語系國家很常見的名字。"
+    ],
+    [
+     "Henry feeds the birds in the garden every morning.",
+     "亨利每天早上都會餵花園裡的鳥。"
+    ],
+    [
+     "Our teacher asked Henry to share his answer.",
+     "老師請亨利分享他的答案。"
+    ]
+   ]
+  }
+ ],
+ "mary": [
+  {
+   "p": "n",
+   "zh": "瑪麗（女子名）",
+   "ai": [
+    [
+     "Mary is a common first name in English-speaking countries.",
+     "瑪麗是英語系國家很常見的名字。"
+    ],
+    [
+     "Mary takes piano lessons every Tuesday.",
+     "瑪麗每個星期二都去上鋼琴課。"
+    ],
+    [
+     "I shared my umbrella with Mary on the way home.",
+     "回家的路上我和瑪麗共撐一把傘。"
+    ]
+   ]
+  }
+ ],
+ "forty": [
+  {
+   "p": "num",
+   "zh": "四十、四十個",
+   "ai": [
+    [
+     "My father is forty years old.",
+     "我的父親四十歲。"
+    ],
+    [
+     "There are forty seats in this classroom.",
+     "這間教室有四十個座位。"
+    ],
+    [
+     "The bus ride takes about forty minutes.",
+     "搭公車大約要四十分鐘。"
+    ]
+   ]
+  }
+ ],
+ "french": [
+  {
+   "p": "adj",
+   "zh": "法國的、法國人的、法語的",
+   "ai": [
+    [
+     "She loves French bread and cheese.",
+     "她很喜歡法式麵包和起司。"
+    ],
+    [
+     "We visited a French restaurant for my birthday.",
+     "我們為了慶祝我的生日去了一家法式餐廳。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "法語；法國人（the French）",
+   "ai": [
+    [
+     "She is learning French because she wants to live in Paris.",
+     "她正在學法語，因為她想住在巴黎。"
+    ],
+    [
+     "The French are famous for their cooking.",
+     "法國人以烹飪聞名。"
+    ]
+   ]
+  }
+ ],
+ "edward": [
+  {
+   "p": "n",
+   "zh": "愛德華（男子名）",
+   "ai": [
+    [
+     "Edward is a common first name in English-speaking countries.",
+     "愛德華是英語系國家很常見的名字。"
+    ],
+    [
+     "Edward plays chess with his grandfather every weekend.",
+     "愛德華每個週末都和爺爺下西洋棋。"
+    ],
+    [
+     "The teacher called Edward to answer the question.",
+     "老師叫愛德華回答問題。"
+    ]
+   ]
+  }
+ ]
+}

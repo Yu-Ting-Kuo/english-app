@@ -1,0 +1,2508 @@
+{
+ "southeastern": [
+  {
+   "p": "adj",
+   "zh": "東南方的",
+   "ai": [
+    [
+     "The southeastern part of the island gets the most rain.",
+     "島的東南部降雨最多。"
+    ],
+    [
+     "We drove to a small town in southeastern Spain.",
+     "我們開車前往西班牙東南部的一個小鎮。"
+    ]
+   ]
+  }
+ ],
+ "elicit": [
+  {
+   "p": "v",
+   "zh": "引出；引起（反應、資訊）",
+   "ai": [
+    [
+     "The teacher asked a question to elicit answers from the students.",
+     "老師提出問題，想引導學生說出答案。"
+    ],
+    [
+     "His joke failed to elicit a single laugh.",
+     "他的笑話連一點笑聲都沒引起。"
+    ],
+    [
+     "Police tried to elicit more details from the witness.",
+     "警方試著從目擊者口中問出更多細節。"
+    ]
+   ]
+  }
+ ],
+ "duchess": [
+  {
+   "p": "n",
+   "zh": "公爵夫人",
+   "ai": [
+    [
+     "The duchess greeted the guests at the entrance of the castle.",
+     "公爵夫人在城堡入口迎接賓客。"
+    ],
+    [
+     "In the novel, the duchess is kind to everyone in her village.",
+     "小說裡的公爵夫人對村裡每個人都很和善。"
+    ]
+   ]
+  }
+ ],
+ "edmund": [
+  {
+   "p": "n",
+   "zh": "艾德蒙（男子名）",
+   "ai": [
+    [
+     "Edmund is a traditional English name for boys.",
+     "艾德蒙是傳統的英文男孩名字。"
+    ],
+    [
+     "My neighbor's son, Edmund, plays the violin.",
+     "我鄰居的兒子艾德蒙會拉小提琴。"
+    ]
+   ]
+  }
+ ],
+ "madam": [
+  {
+   "p": "n",
+   "zh": "女士；夫人（對女性的敬稱）",
+   "ai": [
+    [
+     "Can I help you with your bags, madam?",
+     "女士，需要我幫您提行李嗎？"
+    ],
+    [
+     "Dear Madam, I am writing to ask about your job opening.",
+     "敬啟者，我來信是想詢問貴公司的職缺。"
+    ]
+   ]
+  }
+ ],
+ "divisional": [
+  {
+   "p": "adj",
+   "zh": "部門的；分區的",
+   "ai": [
+    [
+     "The divisional manager will present the sales report tomorrow.",
+     "部門經理明天會報告銷售情況。"
+    ],
+    [
+     "Each divisional office handles its own budget.",
+     "每個分部辦公室各自管理自己的預算。"
+    ]
+   ]
+  }
+ ],
+ "winchester": [
+  {
+   "p": "n",
+   "zh": "溫徹斯特（英國城市）",
+   "ai": [
+    [
+     "Winchester is an old city in the south of England.",
+     "溫徹斯特是英格蘭南部的一座古城。"
+    ],
+    [
+     "We spent a weekend visiting the cathedral in Winchester.",
+     "我們花了一個週末參觀溫徹斯特的大教堂。"
+    ]
+   ]
+  }
+ ],
+ "cyclist": [
+  {
+   "p": "n",
+   "zh": "騎自行車的人",
+   "ai": [
+    [
+     "The cyclist stopped at the red light and waited.",
+     "那位騎自行車的人在紅燈前停下來等待。"
+    ],
+    [
+     "Many cyclists ride along the river on weekends.",
+     "許多騎車的人週末會沿著河邊騎。"
+    ]
+   ]
+  }
+ ],
+ "jacob": [
+  {
+   "p": "n",
+   "zh": "雅各（男子名；聖經人物）",
+   "ai": [
+    [
+     "Jacob is a common name for boys in many countries.",
+     "雅各在許多國家都是常見的男孩名字。"
+    ],
+    [
+     "Jacob is one of the people mentioned in the Bible.",
+     "雅各是聖經中提到的人物之一。"
+    ]
+   ]
+  }
+ ],
+ "vibration": [
+  {
+   "p": "n",
+   "zh": "振動；顫動",
+   "ai": [
+    [
+     "I felt a slight vibration when the train passed by.",
+     "火車經過時，我感覺到輕微的震動。"
+    ],
+    [
+     "Turn your phone to vibration mode during the meeting.",
+     "開會時請把手機調成震動模式。"
+    ]
+   ]
+  }
+ ],
+ "loved": [
+  {
+   "p": "v",
+   "zh": "愛過、喜愛（love 的過去式或過去分詞）",
+   "ai": [
+    [
+     "She loved the gift her friends gave her.",
+     "她很喜歡朋友送她的禮物。"
+    ],
+    [
+     "He has loved music since he was a child.",
+     "他從小就熱愛音樂。"
+    ],
+    [
+     "They loved each other very much.",
+     "他們彼此深愛著對方。"
+    ]
+   ]
+  }
+ ],
+ "casually": [
+  {
+   "p": "adv",
+   "zh": "隨意地；不經意地",
+   "ai": [
+    [
+     "He casually mentioned that he was moving to Tainan.",
+     "他不經意地提到自己要搬去台南。"
+    ],
+    [
+     "She walked into the room as casually as she could.",
+     "她盡可能若無其事地走進房間。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "穿著休閒地",
+   "ai": [
+    [
+     "Everyone at the picnic was dressed casually.",
+     "野餐的每個人都穿得很休閒。"
+    ],
+    [
+     "You can dress casually on Fridays at our office.",
+     "我們公司星期五可以穿便服。"
+    ]
+   ]
+  }
+ ],
+ "vibrant": [
+  {
+   "p": "adj",
+   "zh": "充滿活力的",
+   "ai": [
+    [
+     "The city has a vibrant nightlife and many street markets.",
+     "這座城市有活力十足的夜生活和許多街頭市集。"
+    ],
+    [
+     "She is a vibrant young woman full of ideas.",
+     "她是個充滿點子、朝氣蓬勃的年輕女孩。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "（顏色）鮮豔的",
+   "ai": [
+    [
+     "The garden was full of vibrant red and yellow flowers.",
+     "花園裡開滿了鮮豔的紅花與黃花。"
+    ],
+    [
+     "He painted the wall a vibrant shade of blue.",
+     "他把牆漆成了鮮豔的藍色。"
+    ]
+   ]
+  }
+ ],
+ "gerry": [
+  {
+   "p": "n",
+   "zh": "格里（男子名）",
+   "ai": [
+    [
+     "Gerry is short for Gerald in English.",
+     "Gerry 是英文名字 Gerald 的暱稱。"
+    ],
+    [
+     "My coworker Gerry always brings snacks to meetings.",
+     "我的同事格里開會時總會帶點心。"
+    ]
+   ]
+  }
+ ],
+ "parole": [
+  {
+   "p": "n",
+   "zh": "假釋",
+   "ai": [
+    [
+     "The prisoner was released on parole after five years.",
+     "那名囚犯服刑五年後獲得假釋。"
+    ],
+    [
+     "He must report to his parole officer every month.",
+     "他每個月都必須向假釋官報到。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "使假釋出獄",
+   "ai": [
+    [
+     "The board decided to parole him early for good behavior.",
+     "委員會因他表現良好，決定提前讓他假釋。"
+    ],
+    [
+     "She was paroled last spring and found a new job.",
+     "她去年春天獲得假釋，並找到了新工作。"
+    ]
+   ]
+  }
+ ],
+ "frederick": [
+  {
+   "p": "n",
+   "zh": "弗雷德里克（男子名）",
+   "ai": [
+    [
+     "Frederick is a name often found in old European families.",
+     "弗雷德里克是歐洲老家族中常見的名字。"
+    ],
+    [
+     "Frederick asked his teacher a question about the homework.",
+     "弗雷德里克向老師問了一個作業的問題。"
+    ]
+   ]
+  }
+ ],
+ "ecclesiastical": [
+  {
+   "p": "adj",
+   "zh": "教會的；神職的",
+   "ai": [
+    [
+     "The old building was once used for ecclesiastical meetings.",
+     "這棟老建築曾用來舉行教會會議。"
+    ],
+    [
+     "He studied ecclesiastical history at university.",
+     "他在大學主修教會史。"
+    ]
+   ]
+  }
+ ],
+ "backdrop": [
+  {
+   "p": "n",
+   "zh": "背景幕；背景",
+   "ai": [
+    [
+     "The mountains made a beautiful backdrop for the wedding photos.",
+     "群山為婚禮照片提供了美麗的背景。"
+    ],
+    [
+     "The play's backdrop was painted to look like a forest.",
+     "這齣戲的背景幕被畫成森林的樣子。"
+    ],
+    [
+     "The story takes place against a backdrop of economic change.",
+     "這個故事發生在經濟變動的背景下。"
+    ]
+   ]
+  }
+ ],
+ "campaigner": [
+  {
+   "p": "n",
+   "zh": "競選者；（運動的）倡導者",
+   "ai": [
+    [
+     "She is a well-known campaigner for clean water.",
+     "她是知名的潔淨水倡議者。"
+    ],
+    [
+     "The campaigner handed out flyers outside the station.",
+     "那位倡議人士在車站外發傳單。"
+    ]
+   ]
+  }
+ ],
+ "sulphur": [
+  {
+   "p": "n",
+   "zh": "硫；硫磺",
+   "ai": [
+    [
+     "Sulphur has a strong smell like rotten eggs.",
+     "硫磺有種像臭蛋一樣的強烈氣味。"
+    ],
+    [
+     "Hot springs often contain a lot of sulphur.",
+     "溫泉通常含有大量的硫磺。"
+    ]
+   ]
+  }
+ ],
+ "poetic": [
+  {
+   "p": "adj",
+   "zh": "詩的；富有詩意的",
+   "ai": [
+    [
+     "She has a poetic way of describing the sea.",
+     "她描述海洋的方式很有詩意。"
+    ],
+    [
+     "The movie ends with a poetic scene of falling snow.",
+     "這部電影以一幕充滿詩意的飄雪畫面作結。"
+    ],
+    [
+     "He wrote a poetic letter to his grandmother.",
+     "他寫了一封詩意的信給奶奶。"
+    ]
+   ]
+  }
+ ],
+ "modeling": [
+  {
+   "p": "n",
+   "zh": "模特兒工作",
+   "ai": [
+    [
+     "She earns money from modeling during summer vacation.",
+     "她暑假靠當模特兒賺錢。"
+    ],
+    [
+     "Modeling requires a lot of patience and practice.",
+     "模特兒工作需要很多耐心與練習。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "建模；模擬",
+   "ai": [
+    [
+     "The engineers use computer modeling to test the bridge design.",
+     "工程師用電腦建模來測試橋梁的設計。"
+    ],
+    [
+     "Climate modeling helps scientists predict future weather.",
+     "氣候模擬幫助科學家預測未來的天氣。"
+    ]
+   ]
+  }
+ ],
+ "eruption": [
+  {
+   "p": "n",
+   "zh": "（火山）爆發；噴發",
+   "ai": [
+    [
+     "The eruption of the volcano forced thousands to leave their homes.",
+     "火山爆發迫使數千人離開家園。"
+    ],
+    [
+     "Scientists are watching the mountain for signs of an eruption.",
+     "科學家正在觀察這座山是否有噴發的跡象。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（疹子）突然出現",
+   "ai": [
+    [
+     "An eruption of red spots appeared on his arm.",
+     "他的手臂上突然冒出一片紅疹。"
+    ],
+    [
+     "The doctor said the skin eruption was caused by an allergy.",
+     "醫生說皮膚起疹是過敏造成的。"
+    ]
+   ]
+  }
+ ],
+ "interrogation": [
+  {
+   "p": "n",
+   "zh": "審問；詢問",
+   "ai": [
+    [
+     "The suspect was held for hours of interrogation.",
+     "嫌犯被審訊了好幾個小時。"
+    ],
+    [
+     "I felt like I was under interrogation when my parents asked about my trip.",
+     "爸媽問起我的旅行時，我覺得自己像在被審問。"
+    ]
+   ]
+  }
+ ],
+ "bennett": [
+  {
+   "p": "n",
+   "zh": "班尼特（男子名或姓氏）",
+   "ai": [
+    [
+     "Bennett is used as both a first name and a surname.",
+     "Bennett 可以當名字，也可以當姓氏。"
+    ],
+    [
+     "Bennett waved at us from across the street.",
+     "班尼特在街對面向我們揮手。"
+    ]
+   ]
+  }
+ ],
+ "shooter": [
+  {
+   "p": "n",
+   "zh": "開槍的人；射手",
+   "ai": [
+    [
+     "Police are looking for the shooter in the case.",
+     "警方正在尋找這起案件的開槍者。"
+    ],
+    [
+     "The shooter on the hunting team has excellent aim.",
+     "狩獵隊裡的射手瞄得非常準。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "射擊遊戲",
+   "ai": [
+    [
+     "My brother spends his weekends playing a shooter on his computer.",
+     "我哥哥週末都在電腦上玩射擊遊戲。"
+    ],
+    [
+     "Many players prefer a first-person shooter with online teams.",
+     "許多玩家偏好可以線上組隊的第一人稱射擊遊戲。"
+    ]
+   ]
+  }
+ ],
+ "scoring": [
+  {
+   "p": "v",
+   "zh": "得分（score 的現在分詞）",
+   "ai": [
+    [
+     "He kept scoring goals in every match this season.",
+     "他這季每場比賽都持續進球。"
+    ],
+    [
+     "She is scoring high on all her math tests.",
+     "她每次數學考試都拿高分。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "計分；得分",
+   "ai": [
+    [
+     "The scoring system in this game is easy to learn.",
+     "這個遊戲的計分方式很容易學會。"
+    ],
+    [
+     "Scoring in basketball depends on speed and teamwork.",
+     "籃球的得分要靠速度與團隊合作。"
+    ]
+   ]
+  }
+ ],
+ "handkerchief": [
+  {
+   "p": "n",
+   "zh": "手帕",
+   "ai": [
+    [
+     "He wiped his face with a clean handkerchief.",
+     "他用乾淨的手帕擦臉。"
+    ],
+    [
+     "My grandfather always carries a handkerchief in his pocket.",
+     "我爺爺口袋裡總是帶著一條手帕。"
+    ]
+   ]
+  }
+ ],
+ "wayne": [
+  {
+   "p": "n",
+   "zh": "韋恩（男子名）",
+   "ai": [
+    [
+     "Wayne is a popular first name in the United States.",
+     "韋恩是美國常見的男子名。"
+    ],
+    [
+     "Wayne is meeting us at the cafe at noon.",
+     "韋恩中午要在咖啡店跟我們碰面。"
+    ]
+   ]
+  }
+ ],
+ "jill": [
+  {
+   "p": "n",
+   "zh": "吉爾（女子名）",
+   "ai": [
+    [
+     "Jill is a common English name for girls.",
+     "吉爾是常見的英文女孩名字。"
+    ],
+    [
+     "Jill brought a cake to the party.",
+     "吉爾帶了一個蛋糕來參加派對。"
+    ]
+   ]
+  }
+ ],
+ "libel": [
+  {
+   "p": "n",
+   "zh": "誹謗（以文字損害名譽）",
+   "ai": [
+    [
+     "The newspaper was sued for libel after printing the false story.",
+     "報社刊登不實報導後被控誹謗。"
+    ],
+    [
+     "Writing lies about a person can be considered libel.",
+     "捏造文字抹黑他人可能構成誹謗。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "（以文字）誹謗",
+   "ai": [
+    [
+     "The magazine was accused of libeling the famous singer.",
+     "這本雜誌被指控以文字誹謗那位知名歌手。"
+    ],
+    [
+     "He threatened to sue anyone who libeled his company.",
+     "他揚言要控告任何誹謗他公司的人。"
+    ]
+   ]
+  }
+ ],
+ "cultivation": [
+  {
+   "p": "n",
+   "zh": "耕作；栽培",
+   "ai": [
+    [
+     "The cultivation of rice needs a lot of water.",
+     "稻米的栽種需要大量的水。"
+    ],
+    [
+     "These hills are used for the cultivation of tea.",
+     "這些山丘被用來種茶。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "培養；修養",
+   "ai": [
+    [
+     "The cultivation of good habits starts in childhood.",
+     "良好習慣的培養從童年開始。"
+    ],
+    [
+     "Reading is important for the cultivation of the mind.",
+     "閱讀對於心智的涵養很重要。"
+    ]
+   ]
+  }
+ ],
+ "evelyn": [
+  {
+   "p": "n",
+   "zh": "伊夫林（女子名）",
+   "ai": [
+    [
+     "Evelyn is a name that can be used for girls.",
+     "Evelyn 是可以給女孩用的名字。"
+    ],
+    [
+     "Evelyn is learning to play the piano.",
+     "伊夫林正在學彈鋼琴。"
+    ]
+   ]
+  }
+ ],
+ "foil": [
+  {
+   "p": "n",
+   "zh": "金屬箔；錫箔紙",
+   "ai": [
+    [
+     "Wrap the fish in foil before putting it in the oven.",
+     "把魚用錫箔紙包好再放進烤箱。"
+    ],
+    [
+     "Aluminum foil is useful in the kitchen.",
+     "鋁箔紙在廚房裡很好用。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "挫敗；阻止",
+   "ai": [
+    [
+     "The guards foiled the thief's attempt to escape.",
+     "警衛挫敗了小偷逃跑的企圖。"
+    ],
+    [
+     "Bad weather foiled our plans for a picnic.",
+     "壞天氣破壞了我們野餐的計畫。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "襯托的人或物",
+   "ai": [
+    [
+     "His calm attitude is a perfect foil to her excitement.",
+     "他沉穩的態度正好襯托出她的興奮。"
+    ],
+    [
+     "In the story, the quiet sister is a foil for the loud one.",
+     "在故事裡，安靜的姊姊襯托出吵鬧的妹妹。"
+    ]
+   ]
+  }
+ ],
+ "heave": [
+  {
+   "p": "v",
+   "zh": "用力舉起或拉動",
+   "ai": [
+    [
+     "They heaved the heavy box onto the truck.",
+     "他們費力地把重箱子抬上卡車。"
+    ],
+    [
+     "He heaved the rope with all his strength.",
+     "他使盡全力拉那條繩子。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "起伏；喘息",
+   "ai": [
+    [
+     "The sea heaved under the small boat.",
+     "海面在小船底下起伏翻騰。"
+    ],
+    [
+     "Her chest heaved as she tried to catch her breath.",
+     "她胸口劇烈起伏，努力喘口氣。"
+    ]
+   ]
+  }
+ ],
+ "flawed": [
+  {
+   "p": "adj",
+   "zh": "有缺陷的；有瑕疵的",
+   "ai": [
+    [
+     "The plan was flawed from the very beginning.",
+     "這個計畫打從一開始就有缺陷。"
+    ],
+    [
+     "This flawed diamond sold for much less than expected.",
+     "這顆有瑕疵的鑽石賣得遠比預期便宜。"
+    ],
+    [
+     "Their argument is flawed because it ignores the facts.",
+     "他們的論點有漏洞，因為忽略了事實。"
+    ]
+   ]
+  }
+ ],
+ "fisher": [
+  {
+   "p": "n",
+   "zh": "漁夫；捕魚者",
+   "ai": [
+    [
+     "The fisher pulled his net out of the cold water.",
+     "漁夫把漁網從冰冷的海水中拉起來。"
+    ],
+    [
+     "Several fishers were mending nets at the harbor.",
+     "好幾位漁民在港口修補漁網。"
+    ]
+   ]
+  }
+ ],
+ "georgia": [
+  {
+   "p": "n",
+   "zh": "喬治亞州（美國州名）",
+   "ai": [
+    [
+     "Georgia is a state in the southeastern United States.",
+     "喬治亞州是美國東南部的一個州。"
+    ],
+    [
+     "Atlanta is the largest city in Georgia.",
+     "亞特蘭大是喬治亞州最大的城市。"
+    ]
+   ]
+  }
+ ],
+ "maureen": [
+  {
+   "p": "n",
+   "zh": "莫林（女子名）",
+   "ai": [
+    [
+     "Maureen is an Irish name for girls.",
+     "Maureen 是愛爾蘭的女孩名字。"
+    ],
+    [
+     "Maureen teaches English at a small school.",
+     "莫林在一所小學校教英文。"
+    ]
+   ]
+  }
+ ],
+ "accountancy": [
+  {
+   "p": "n",
+   "zh": "會計學；會計工作",
+   "ai": [
+    [
+     "She decided to study accountancy at university.",
+     "她決定在大學讀會計。"
+    ],
+    [
+     "Accountancy is a stable career in many countries.",
+     "在許多國家，會計是穩定的職業。"
+    ]
+   ]
+  }
+ ],
+ "staffing": [
+  {
+   "p": "n",
+   "zh": "人員配置；人力編制",
+   "ai": [
+    [
+     "The hospital is having trouble with staffing on weekends.",
+     "這家醫院週末的人手配置有困難。"
+    ],
+    [
+     "Good staffing makes a restaurant run smoothly.",
+     "適當的人力配置讓餐廳運作順暢。"
+    ]
+   ]
+  }
+ ],
+ "frustrated": [
+  {
+   "p": "adj",
+   "zh": "感到挫折的；洩氣的",
+   "ai": [
+    [
+     "He felt frustrated when the computer froze again.",
+     "電腦又當機時，他覺得很沮喪。"
+    ],
+    [
+     "The frustrated students asked for more help from the teacher.",
+     "感到挫折的學生們向老師請求更多協助。"
+    ],
+    [
+     "I'm frustrated because I can't find my keys.",
+     "我找不到鑰匙，所以很懊惱。"
+    ]
+   ]
+  }
+ ],
+ "alec": [
+  {
+   "p": "n",
+   "zh": "亞歷克（男子名）",
+   "ai": [
+    [
+     "Alec is short for Alexander in some families.",
+     "在某些家庭裡，Alec 是 Alexander 的簡稱。"
+    ],
+    [
+     "Alec waited for us at the bus stop.",
+     "亞歷克在公車站等我們。"
+    ]
+   ]
+  }
+ ],
+ "uncommon": [
+  {
+   "p": "adj",
+   "zh": "不常見的；罕見的",
+   "ai": [
+    [
+     "Snow is uncommon in this part of the country.",
+     "這個地區很少下雪。"
+    ],
+    [
+     "It is not uncommon for students to feel nervous before exams.",
+     "學生在考試前感到緊張並不少見。"
+    ]
+   ]
+  }
+ ],
+ "bunker": [
+  {
+   "p": "n",
+   "zh": "地堡；掩體",
+   "ai": [
+    [
+     "The soldiers stayed in a concrete bunker during the storm.",
+     "士兵們在暴風雨期間待在水泥地堡裡。"
+    ],
+    [
+     "Old bunkers can still be seen along the coast.",
+     "沿著海岸仍能看到舊的碉堡。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（高爾夫球場的）沙坑",
+   "ai": [
+    [
+     "His ball landed in a bunker near the green.",
+     "他的球掉進了果嶺附近的沙坑。"
+    ],
+    [
+     "It took him three tries to get out of the bunker.",
+     "他試了三次才把球打出沙坑。"
+    ]
+   ]
+  }
+ ],
+ "julius": [
+  {
+   "p": "n",
+   "zh": "朱利葉斯（男子名）",
+   "ai": [
+    [
+     "Julius is a name that comes from ancient Rome.",
+     "Julius 是源自古羅馬的名字。"
+    ],
+    [
+     "Julius is sitting at the back of the classroom.",
+     "朱利葉斯坐在教室後面。"
+    ]
+   ]
+  }
+ ],
+ "animated": [
+  {
+   "p": "adj",
+   "zh": "動畫的",
+   "ai": [
+    [
+     "We watched an animated movie about a talking fish.",
+     "我們看了一部關於會說話的魚的動畫電影。"
+    ],
+    [
+     "She dreams of working for an animated film studio.",
+     "她夢想到動畫電影公司工作。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "生氣勃勃的；熱烈的",
+   "ai": [
+    [
+     "They had an animated discussion about the new project.",
+     "他們對新專案進行了熱烈的討論。"
+    ],
+    [
+     "Grandma became animated when she talked about her garden.",
+     "奶奶聊起她的花園時變得興致勃勃。"
+    ]
+   ]
+  }
+ ],
+ "wendy": [
+  {
+   "p": "n",
+   "zh": "溫迪（女子名）",
+   "ai": [
+    [
+     "Wendy is a girl's name popular in English-speaking countries.",
+     "Wendy 是英語系國家常見的女孩名字。"
+    ],
+    [
+     "Wendy lent me her notes after class.",
+     "下課後溫迪把她的筆記借給我。"
+    ]
+   ]
+  }
+ ],
+ "deepen": [
+  {
+   "p": "v",
+   "zh": "加深；變深",
+   "ai": [
+    [
+     "The river deepens as it moves toward the sea.",
+     "這條河流向大海時會逐漸變深。"
+    ],
+    [
+     "Traveling together helped deepen their friendship.",
+     "一起旅行讓他們的友誼更深厚。"
+    ],
+    [
+     "The mystery deepened when the key went missing.",
+     "鑰匙不見後，謎團變得更深了。"
+    ]
+   ]
+  }
+ ],
+ "jeff": [
+  {
+   "p": "n",
+   "zh": "傑夫（男子名）",
+   "ai": [
+    [
+     "Jeff is a friendly nickname for Jeffrey.",
+     "Jeff 是 Jeffrey 親切的暱稱。"
+    ],
+    [
+     "Jeff drives to work every morning.",
+     "傑夫每天早上開車上班。"
+    ]
+   ]
+  }
+ ],
+ "enduring": [
+  {
+   "p": "adj",
+   "zh": "持久的；歷久不衰的",
+   "ai": [
+    [
+     "Their enduring friendship lasted for over fifty years.",
+     "他們持久的友誼維持了五十多年。"
+    ],
+    [
+     "This song has an enduring appeal for young people.",
+     "這首歌對年輕人有歷久不衰的吸引力。"
+    ]
+   ]
+  }
+ ],
+ "radioactive": [
+  {
+   "p": "adj",
+   "zh": "放射性的",
+   "ai": [
+    [
+     "Uranium is a radioactive element.",
+     "鈾是一種放射性元素。"
+    ],
+    [
+     "Radioactive waste must be stored in a safe place.",
+     "放射性廢料必須存放在安全的地方。"
+    ]
+   ]
+  }
+ ],
+ "lending": [
+  {
+   "p": "v",
+   "zh": "借出（lend 的現在分詞）",
+   "ai": [
+    [
+     "She is lending her bike to her cousin this week.",
+     "她這星期把腳踏車借給表弟。"
+    ],
+    [
+     "He stopped lending money to his friends.",
+     "他不再借錢給朋友了。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "放款；借貸",
+   "ai": [
+    [
+     "The bank has tightened its lending rules this year.",
+     "銀行今年收緊了放款規定。"
+    ],
+    [
+     "Lending to small businesses can help local towns grow.",
+     "對小型企業放款有助於地方城鎮成長。"
+    ]
+   ]
+  }
+ ],
+ "conquer": [
+  {
+   "p": "v",
+   "zh": "征服",
+   "ai": [
+    [
+     "The army tried to conquer the neighboring land.",
+     "軍隊試圖征服鄰近的土地。"
+    ],
+    [
+     "Alexander the Great conquered a huge area of land.",
+     "亞歷山大大帝征服了廣大的土地。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "克服；戰勝",
+   "ai": [
+    [
+     "She worked hard to conquer her fear of speaking in public.",
+     "她努力克服對公開演說的恐懼。"
+    ],
+    [
+     "He finally conquered the mountain after three attempts.",
+     "他嘗試了三次後終於征服了那座山。"
+    ]
+   ]
+  }
+ ],
+ "nigeria": [
+  {
+   "p": "n",
+   "zh": "奈及利亞（非洲國家）",
+   "ai": [
+    [
+     "Nigeria is a large country in West Africa.",
+     "奈及利亞是西非的一個大國。"
+    ],
+    [
+     "Lagos is a busy port city in Nigeria.",
+     "拉哥斯是奈及利亞一座繁忙的港口城市。"
+    ]
+   ]
+  }
+ ],
+ "sociologist": [
+  {
+   "p": "n",
+   "zh": "社會學家",
+   "ai": [
+    [
+     "The sociologist studied how people use social media.",
+     "那位社會學家研究人們如何使用社群媒體。"
+    ],
+    [
+     "A sociologist spoke at our school about family life.",
+     "一位社會學家到我們學校演講，談論家庭生活。"
+    ]
+   ]
+  }
+ ],
+ "symmetry": [
+  {
+   "p": "n",
+   "zh": "對稱；勻稱",
+   "ai": [
+    [
+     "The symmetry of the building makes it look elegant.",
+     "這棟建築的對稱設計讓它看起來很優雅。"
+    ],
+    [
+     "A butterfly's wings show perfect symmetry.",
+     "蝴蝶的翅膀呈現完美的對稱。"
+    ]
+   ]
+  }
+ ],
+ "giggle": [
+  {
+   "p": "v",
+   "zh": "咯咯地笑",
+   "ai": [
+    [
+     "The little girls began to giggle during the lesson.",
+     "小女孩們在上課時開始咯咯笑。"
+    ],
+    [
+     "He tried not to giggle at the teacher's funny hat.",
+     "他努力忍住不笑出聲來，因為老師的帽子很好笑。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "咯咯的笑聲",
+   "ai": [
+    [
+     "She let out a small giggle and covered her mouth.",
+     "她發出一聲輕笑，並用手摀住嘴。"
+    ],
+    [
+     "We heard a giggle from behind the door.",
+     "我們聽到門後傳來咯咯的笑聲。"
+    ]
+   ]
+  }
+ ],
+ "inhale": [
+  {
+   "p": "v",
+   "zh": "吸入；吸氣",
+   "ai": [
+    [
+     "Inhale slowly through your nose and then breathe out.",
+     "用鼻子慢慢吸氣，然後再吐氣。"
+    ],
+    [
+     "Try not to inhale the dust while you clean.",
+     "打掃時盡量不要吸入灰塵。"
+    ]
+   ]
+  }
+ ],
+ "fiona": [
+  {
+   "p": "n",
+   "zh": "菲奧納（女子名）",
+   "ai": [
+    [
+     "Fiona is a name often used in Scotland and Ireland.",
+     "Fiona 是蘇格蘭和愛爾蘭常見的名字。"
+    ],
+    [
+     "Fiona invited us to her birthday dinner.",
+     "菲奧納邀請我們參加她的生日晚餐。"
+    ]
+   ]
+  }
+ ],
+ "bryan": [
+  {
+   "p": "n",
+   "zh": "布賴恩（男子名）",
+   "ai": [
+    [
+     "Bryan is a common first name for boys.",
+     "布賴恩是常見的男孩名字。"
+    ],
+    [
+     "Bryan is training for a marathon this fall.",
+     "布賴恩今年秋天正在為馬拉松做訓練。"
+    ]
+   ]
+  }
+ ],
+ "siren": [
+  {
+   "p": "n",
+   "zh": "警報器；警笛",
+   "ai": [
+    [
+     "We heard a siren and saw an ambulance rush by.",
+     "我們聽到警笛聲，看見一輛救護車飛馳而過。"
+    ],
+    [
+     "The factory siren sounds at noon every day.",
+     "工廠的警報器每天中午都會響。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（希臘神話）海妖",
+   "ai": [
+    [
+     "In the myth, a siren sang to sailors from the rocks.",
+     "在神話裡，海妖在岩石上對水手唱歌。"
+    ],
+    [
+     "The siren's song led the ships off course.",
+     "海妖的歌聲讓船隻偏離了航道。"
+    ]
+   ]
+  }
+ ],
+ "hiss": [
+  {
+   "p": "v",
+   "zh": "發出嘶嘶聲",
+   "ai": [
+    [
+     "The cat hissed when the dog came close.",
+     "狗靠近時，貓發出嘶嘶的威嚇聲。"
+    ],
+    [
+     "Steam hissed from the pipe.",
+     "蒸氣從管子裡嘶嘶地冒出來。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "嘶嘶聲；噓聲",
+   "ai": [
+    [
+     "We heard a hiss from the tire as the air escaped.",
+     "我們聽見輪胎漏氣發出嘶嘶聲。"
+    ],
+    [
+     "There was a loud hiss from the audience when he lied.",
+     "他說謊時，觀眾席傳來一陣響亮的噓聲。"
+    ]
+   ]
+  }
+ ],
+ "ma": [
+  {
+   "p": "n",
+   "zh": "媽媽",
+   "ai": [
+    [
+     "Ma is cooking dinner in the kitchen.",
+     "媽媽正在廚房煮晚餐。"
+    ],
+    [
+     "He called his ma every Sunday evening.",
+     "他每個星期天晚上都打電話給媽媽。"
+    ]
+   ]
+  }
+ ],
+ "ta": [
+  {
+   "p": "int",
+   "zh": "謝謝（英式口語）",
+   "ai": [
+    [
+     "Here's your coffee. - Ta!",
+     "這是你的咖啡。——謝啦！"
+    ],
+    [
+     "Ta very much for the lift home.",
+     "非常感謝你載我回家。"
+    ]
+   ]
+  }
+ ],
+ "greg": [
+  {
+   "p": "n",
+   "zh": "格雷格（男子名）",
+   "ai": [
+    [
+     "Greg is short for Gregory.",
+     "Greg 是 Gregory 的簡稱。"
+    ],
+    [
+     "Greg usually takes the train to work.",
+     "格雷格通常搭火車上班。"
+    ]
+   ]
+  }
+ ],
+ "jennifer": [
+  {
+   "p": "n",
+   "zh": "詹尼弗（女子名）",
+   "ai": [
+    [
+     "Jennifer is a popular name for girls in English.",
+     "Jennifer 是英文裡常見的女孩名字。"
+    ],
+    [
+     "Jennifer sits next to me in class.",
+     "詹尼弗在班上坐在我旁邊。"
+    ]
+   ]
+  }
+ ],
+ "gel": [
+  {
+   "p": "n",
+   "zh": "凝膠；髮膠",
+   "ai": [
+    [
+     "He put some gel in his hair before school.",
+     "他上學前在頭髮上抹了點髮膠。"
+    ],
+    [
+     "Apply the cooling gel to the sore area.",
+     "把冰涼凝膠塗在痠痛的地方。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "融洽；合得來",
+   "ai": [
+    [
+     "The new team members gelled quickly.",
+     "新的團隊成員很快就合得來。"
+    ],
+    [
+     "It took time for the band to gel.",
+     "這個樂團花了一段時間才磨合好。"
+    ]
+   ]
+  }
+ ],
+ "barcelona": [
+  {
+   "p": "n",
+   "zh": "巴塞隆納（西班牙城市）",
+   "ai": [
+    [
+     "Barcelona is a large city on the coast of Spain.",
+     "巴塞隆納是西班牙海岸邊的一座大城市。"
+    ],
+    [
+     "Many tourists visit Barcelona every summer.",
+     "許多遊客每年夏天都會去巴塞隆納。"
+    ]
+   ]
+  }
+ ],
+ "shudder": [
+  {
+   "p": "v",
+   "zh": "發抖；打顫",
+   "ai": [
+    [
+     "I shudder when I think about that cold night.",
+     "一想到那個寒冷的夜晚，我就會發抖。"
+    ],
+    [
+     "The old bus shuddered as it started to move.",
+     "那輛老舊的公車起步時震顫了一下。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "顫抖；戰慄",
+   "ai": [
+    [
+     "A shudder ran through her body.",
+     "一陣顫抖竄過她的全身。"
+    ],
+    [
+     "He felt a shudder of fear in the dark hallway.",
+     "在漆黑的走廊裡，他感到一陣恐懼的戰慄。"
+    ]
+   ]
+  }
+ ],
+ "fastest": [
+  {
+   "p": "adj",
+   "zh": "最快的",
+   "ai": [
+    [
+     "Who is the fastest runner in your class?",
+     "你們班上跑最快的人是誰？"
+    ],
+    [
+     "This is the fastest way to get to the airport.",
+     "這是去機場最快的方法。"
+    ]
+   ]
+  }
+ ],
+ "boris": [
+  {
+   "p": "n",
+   "zh": "鮑里斯（男子名）",
+   "ai": [
+    [
+     "Boris is a common first name in Russia and Bulgaria.",
+     "Boris 是俄羅斯和保加利亞常見的名字。"
+    ],
+    [
+     "Boris is cooking soup in the kitchen.",
+     "鮑里斯正在廚房煮湯。"
+    ]
+   ]
+  }
+ ],
+ "paddy": [
+  {
+   "p": "n",
+   "zh": "稻田",
+   "ai": [
+    [
+     "Farmers were planting rice in the paddy.",
+     "農夫們正在稻田裡插秧。"
+    ],
+    [
+     "Water buffalo walked slowly across the paddy.",
+     "水牛慢慢地走過稻田。"
+    ]
+   ]
+  }
+ ],
+ "lush": [
+  {
+   "p": "adj",
+   "zh": "蒼翠繁茂的",
+   "ai": [
+    [
+     "The hills were lush and green after the rain.",
+     "雨後山丘一片蒼翠。"
+    ],
+    [
+     "They walked through a lush garden full of flowers.",
+     "他們穿過一座花團錦簇、綠意盎然的花園。"
+    ]
+   ]
+  }
+ ],
+ "joanna": [
+  {
+   "p": "n",
+   "zh": "喬安娜（女子名）",
+   "ai": [
+    [
+     "Joanna is a girl's name used in many countries.",
+     "Joanna 是許多國家使用的女孩名字。"
+    ],
+    [
+     "Joanna works at a bookstore near the station.",
+     "喬安娜在車站附近的書店工作。"
+    ]
+   ]
+  }
+ ],
+ "pamela": [
+  {
+   "p": "n",
+   "zh": "帕梅拉（女子名）",
+   "ai": [
+    [
+     "Pamela is a girl's name that became popular in the 1700s.",
+     "Pamela 是一個女孩名字，在十八世紀開始流行。"
+    ],
+    [
+     "Pamela is waiting for us outside.",
+     "帕梅拉正在外面等我們。"
+    ]
+   ]
+  }
+ ],
+ "millionaire": [
+  {
+   "p": "n",
+   "zh": "百萬富翁",
+   "ai": [
+    [
+     "He became a millionaire after selling his company.",
+     "他賣掉公司後成了百萬富翁。"
+    ],
+    [
+     "Few people become a millionaire by luck alone.",
+     "很少人光靠運氣就成為百萬富翁。"
+    ]
+   ]
+  }
+ ],
+ "consultative": [
+  {
+   "p": "adj",
+   "zh": "諮詢的；商議的",
+   "ai": [
+    [
+     "The committee plays a consultative role in the project.",
+     "委員會在這個專案中扮演諮詢的角色。"
+    ],
+    [
+     "The company prefers a consultative approach to decision-making.",
+     "公司偏好以商議的方式來做決策。"
+    ]
+   ]
+  }
+ ],
+ "peru": [
+  {
+   "p": "n",
+   "zh": "秘魯（南美洲國家）",
+   "ai": [
+    [
+     "Peru is a country in South America.",
+     "秘魯是南美洲的一個國家。"
+    ],
+    [
+     "Machu Picchu is one of the most famous places in Peru.",
+     "馬丘比丘是秘魯最著名的景點之一。"
+    ]
+   ]
+  }
+ ],
+ "molly": [
+  {
+   "p": "n",
+   "zh": "莫莉（女子名）",
+   "ai": [
+    [
+     "Molly is a friendly name for girls.",
+     "Molly 是個親切的女孩名字。"
+    ],
+    [
+     "Molly walks her dog before breakfast.",
+     "莫莉早餐前會遛狗。"
+    ]
+   ]
+  }
+ ],
+ "hannah": [
+  {
+   "p": "n",
+   "zh": "漢娜（女子名）",
+   "ai": [
+    [
+     "Hannah reads the same forwards and backwards.",
+     "Hannah 這個字正著念反著念都一樣。"
+    ],
+    [
+     "Hannah is my classmate from Kaohsiung.",
+     "漢娜是我來自高雄的同學。"
+    ]
+   ]
+  }
+ ],
+ "doug": [
+  {
+   "p": "n",
+   "zh": "道格（男子名）",
+   "ai": [
+    [
+     "Doug is short for Douglas.",
+     "Doug 是 Douglas 的簡稱。"
+    ],
+    [
+     "Doug fixed the fence over the weekend.",
+     "道格週末把圍籬修好了。"
+    ]
+   ]
+  }
+ ],
+ "stella": [
+  {
+   "p": "n",
+   "zh": "史黛拉（女子名）",
+   "ai": [
+    [
+     "Stella means star in Latin.",
+     "Stella 在拉丁文裡是星星的意思。"
+    ],
+    [
+     "Stella is saving money for a trip to Japan.",
+     "史黛拉正在存錢，準備去日本旅行。"
+    ]
+   ]
+  }
+ ],
+ "pervasive": [
+  {
+   "p": "adj",
+   "zh": "普遍的；無所不在的",
+   "ai": [
+    [
+     "Smartphones have become pervasive in modern life.",
+     "智慧型手機在現代生活中已無所不在。"
+    ],
+    [
+     "A pervasive smell of smoke filled the house.",
+     "一股瀰漫的煙味充滿了整間屋子。"
+    ]
+   ]
+  }
+ ],
+ "taiwan": [
+  {
+   "p": "n",
+   "zh": "臺灣",
+   "ai": [
+    [
+     "Taiwan is an island in East Asia.",
+     "臺灣是東亞的一座島嶼。"
+    ],
+    [
+     "Bubble tea is popular in Taiwan and around the world.",
+     "珍珠奶茶在臺灣和世界各地都很受歡迎。"
+    ]
+   ]
+  }
+ ],
+ "amy": [
+  {
+   "p": "n",
+   "zh": "艾米（女子名）",
+   "ai": [
+    [
+     "Amy is a short, popular name for girls.",
+     "Amy 是個簡短又常見的女孩名字。"
+    ],
+    [
+     "Amy sent me a message this morning.",
+     "艾米今天早上傳了訊息給我。"
+    ]
+   ]
+  }
+ ],
+ "elaine": [
+  {
+   "p": "n",
+   "zh": "伊萊恩（女子名）",
+   "ai": [
+    [
+     "Elaine is a name that comes from old French.",
+     "Elaine 是源自古法文的名字。"
+    ],
+    [
+     "Elaine joined the book club last month.",
+     "伊萊恩上個月加入了讀書會。"
+    ]
+   ]
+  }
+ ],
+ "papal": [
+  {
+   "p": "adj",
+   "zh": "羅馬教皇的",
+   "ai": [
+    [
+     "Thousands gathered to see the papal visit.",
+     "數千人聚集觀看教皇的來訪。"
+    ],
+    [
+     "The papal residence is located in Vatican City.",
+     "教皇的居所位於梵蒂岡城。"
+    ]
+   ]
+  }
+ ],
+ "strategist": [
+  {
+   "p": "n",
+   "zh": "戰略家；策略專家",
+   "ai": [
+    [
+     "The company hired a strategist to plan its future growth.",
+     "公司聘請了一位策略專家來規劃未來的成長。"
+    ],
+    [
+     "She is a skilled strategist who always thinks ahead.",
+     "她是個總是想得很遠的優秀策略家。"
+    ]
+   ]
+  }
+ ],
+ "martha": [
+  {
+   "p": "n",
+   "zh": "瑪莎（女子名；聖經人物）",
+   "ai": [
+    [
+     "Martha is a woman mentioned in the Bible.",
+     "瑪莎是聖經中提到的一位女性。"
+    ],
+    [
+     "Martha is a name used in many English-speaking countries.",
+     "Martha 是許多英語系國家使用的名字。"
+    ]
+   ]
+  }
+ ],
+ "aerospace": [
+  {
+   "p": "n",
+   "zh": "航太；航空太空",
+   "ai": [
+    [
+     "He works for an aerospace company that builds airplane parts.",
+     "他在一家製造飛機零件的航太公司工作。"
+    ],
+    [
+     "The aerospace industry needs many skilled engineers.",
+     "航太產業需要許多優秀的工程師。"
+    ]
+   ]
+  }
+ ],
+ "lp": [
+  {
+   "p": "n",
+   "zh": "黑膠唱片（長時間播放唱片）",
+   "ai": [
+    [
+     "My father still keeps his old LPs in a wooden box.",
+     "我爸爸仍把他的舊黑膠唱片收在木箱裡。"
+    ],
+    [
+     "She bought an LP at the flea market.",
+     "她在跳蚤市場買了一張黑膠唱片。"
+    ]
+   ]
+  }
+ ],
+ "icing": [
+  {
+   "p": "n",
+   "zh": "糖霜（蛋糕上的）",
+   "ai": [
+    [
+     "She spread white icing over the cake.",
+     "她把白色糖霜抹在蛋糕上。"
+    ],
+    [
+     "The cupcakes had pink icing and small candies.",
+     "這些杯子蛋糕有粉紅色糖霜和小糖果。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "結冰",
+   "ai": [
+    [
+     "Icing on the road made driving dangerous.",
+     "路面結冰讓開車變得危險。"
+    ],
+    [
+     "Pilots check for icing on the wings before takeoff.",
+     "飛行員在起飛前會檢查機翼是否結冰。"
+    ]
+   ]
+  }
+ ],
+ "oracle": [
+  {
+   "p": "n",
+   "zh": "神諭；預言",
+   "ai": [
+    [
+     "In ancient Greece, people asked the oracle about their future.",
+     "在古希臘，人們會向神諭請教自己的未來。"
+    ],
+    [
+     "The old man was treated like an oracle in the village.",
+     "那位老人在村裡被當成預言者般看待。"
+    ]
+   ]
+  }
+ ],
+ "wesley": [
+  {
+   "p": "n",
+   "zh": "韋斯利（男子名）",
+   "ai": [
+    [
+     "Wesley is both a first name and a surname.",
+     "Wesley 既是名字也是姓氏。"
+    ],
+    [
+     "Wesley plays guitar in a small band.",
+     "韋斯利在一個小樂團裡彈吉他。"
+    ]
+   ]
+  }
+ ],
+ "rosie": [
+  {
+   "p": "n",
+   "zh": "羅西（女子名）",
+   "ai": [
+    [
+     "Rosie is a short form of Rose.",
+     "Rosie 是 Rose 的暱稱。"
+    ],
+    [
+     "Rosie smiled and waved goodbye.",
+     "羅西微笑著揮手道別。"
+    ]
+   ]
+  }
+ ],
+ "picasso": [
+  {
+   "p": "n",
+   "zh": "畢卡索（西班牙畫家）",
+   "ai": [
+    [
+     "Picasso was a Spanish painter who lived in France for many years.",
+     "畢卡索是一位在法國住了很多年的西班牙畫家。"
+    ],
+    [
+     "We saw a painting by Picasso at the museum.",
+     "我們在博物館看到了一幅畢卡索的畫。"
+    ]
+   ]
+  }
+ ],
+ "header": [
+  {
+   "p": "n",
+   "zh": "（文件的）頁首；標頭",
+   "ai": [
+    [
+     "The page number appears in the header of each page.",
+     "頁碼出現在每一頁的頁首。"
+    ],
+    [
+     "Please add your name to the email header.",
+     "請把你的名字加進信件的標頭。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（足球）頭球",
+   "ai": [
+    [
+     "He scored with a header from the corner kick.",
+     "他用角球後的頭球得分。"
+    ],
+    [
+     "The goalkeeper stopped a powerful header.",
+     "守門員擋下了一記強力頭球。"
+    ]
+   ]
+  }
+ ],
+ "puppy": [
+  {
+   "p": "n",
+   "zh": "小狗；幼犬",
+   "ai": [
+    [
+     "The puppy ran around the yard chasing a ball.",
+     "小狗在院子裡追著球跑。"
+    ],
+    [
+     "We adopted a puppy from the animal shelter.",
+     "我們從動物收容所領養了一隻小狗。"
+    ]
+   ]
+  }
+ ],
+ "nicola": [
+  {
+   "p": "n",
+   "zh": "尼古拉（人名）",
+   "ai": [
+    [
+     "Nicola is a girl's name in the United Kingdom.",
+     "Nicola 在英國是女孩名字。"
+    ],
+    [
+     "Nicola took the early train to London.",
+     "尼古拉搭早班火車去倫敦。"
+    ]
+   ]
+  }
+ ],
+ "angler": [
+  {
+   "p": "n",
+   "zh": "釣魚的人",
+   "ai": [
+    [
+     "The angler waited patiently by the river.",
+     "那位釣客耐心地在河邊等待。"
+    ],
+    [
+     "Many anglers come to this lake in the spring.",
+     "春天有許多釣客來到這座湖。"
+    ]
+   ]
+  }
+ ],
+ "celia": [
+  {
+   "p": "n",
+   "zh": "西莉亞（女子名）",
+   "ai": [
+    [
+     "Celia is a girl's name from Latin.",
+     "Celia 是源自拉丁文的女孩名字。"
+    ],
+    [
+     "Celia painted the picture on the wall.",
+     "西莉亞畫了牆上那幅畫。"
+    ]
+   ]
+  }
+ ],
+ "meg": [
+  {
+   "p": "n",
+   "zh": "梅格（女子名）",
+   "ai": [
+    [
+     "Meg is short for Margaret.",
+     "Meg 是 Margaret 的簡稱。"
+    ],
+    [
+     "Meg lives next door and loves gardening.",
+     "梅格住在隔壁，很愛種花。"
+    ]
+   ]
+  }
+ ],
+ "carolyn": [
+  {
+   "p": "n",
+   "zh": "卡洛琳（女子名）",
+   "ai": [
+    [
+     "Carolyn is a girl's name in English.",
+     "Carolyn 是英文的女孩名字。"
+    ],
+    [
+     "Carolyn teaches music at a primary school.",
+     "卡洛琳在一所小學教音樂。"
+    ]
+   ]
+  }
+ ],
+ "dating": [
+  {
+   "p": "n",
+   "zh": "約會；交往",
+   "ai": [
+    [
+     "Online dating has become common among young people.",
+     "線上交友在年輕人之間變得很普遍。"
+    ],
+    [
+     "Dating can be stressful when you are shy.",
+     "害羞的時候，約會可能會讓人壓力很大。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "追溯到（dating back to）",
+   "ai": [
+    [
+     "The church is an old building dating back to the 1600s.",
+     "這座教堂是可追溯到十七世紀的古建築。"
+    ],
+    [
+     "Scientists found tools dating back thousands of years.",
+     "科學家發現了可追溯到數千年前的工具。"
+    ]
+   ]
+  }
+ ],
+ "guitarist": [
+  {
+   "p": "n",
+   "zh": "吉他手",
+   "ai": [
+    [
+     "The guitarist played a quiet song on stage.",
+     "吉他手在台上彈了一首輕柔的歌。"
+    ],
+    [
+     "My brother wants to become a professional guitarist.",
+     "我哥哥想成為職業吉他手。"
+    ]
+   ]
+  }
+ ],
+ "coconut": [
+  {
+   "p": "n",
+   "zh": "椰子",
+   "ai": [
+    [
+     "We drank fresh coconut water on the beach.",
+     "我們在海灘上喝新鮮的椰子水。"
+    ],
+    [
+     "She added coconut milk to the curry.",
+     "她在咖哩裡加了椰奶。"
+    ]
+   ]
+  }
+ ],
+ "croatia": [
+  {
+   "p": "n",
+   "zh": "克羅埃西亞（歐洲國家）",
+   "ai": [
+    [
+     "Croatia is a country in southeastern Europe.",
+     "克羅埃西亞是東南歐的一個國家。"
+    ],
+    [
+     "Many tourists enjoy the beaches of Croatia in summer.",
+     "許多遊客夏天會去克羅埃西亞享受海灘。"
+    ]
+   ]
+  }
+ ],
+ "colon": [
+  {
+   "p": "n",
+   "zh": "冒號",
+   "ai": [
+    [
+     "Put a colon before the list of items.",
+     "在項目清單前加上冒號。"
+    ],
+    [
+     "A colon is written as two dots, one above the other.",
+     "冒號是上下排列的兩個點。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "結腸",
+   "ai": [
+    [
+     "The colon is part of the large intestine.",
+     "結腸是大腸的一部分。"
+    ],
+    [
+     "Eating enough fiber is good for the colon.",
+     "攝取足夠的纖維對結腸有益。"
+    ]
+   ]
+  }
+ ],
+ "battered": [
+  {
+   "p": "adj",
+   "zh": "破舊的；磨損的",
+   "ai": [
+    [
+     "He drove an old, battered car to work.",
+     "他開著一輛破舊的老車上班。"
+    ],
+    [
+     "The battered suitcase had traveled around the world.",
+     "那只破舊的行李箱已經環遊過世界。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "受虐的；受到重創的",
+   "ai": [
+    [
+     "The battered ship finally reached the port.",
+     "受創嚴重的船終於抵達港口。"
+    ],
+    [
+     "The storm left the small town battered and quiet.",
+     "暴風雨過後，小鎮一片殘破寂靜。"
+    ]
+   ]
+  }
+ ],
+ "granite": [
+  {
+   "p": "n",
+   "zh": "花崗岩",
+   "ai": [
+    [
+     "The kitchen has a smooth granite countertop.",
+     "這間廚房有光滑的花崗岩檯面。"
+    ],
+    [
+     "The monument is made of solid granite.",
+     "這座紀念碑是用堅硬的花崗岩做成的。"
+    ]
+   ]
+  }
+ ],
+ "lesion": [
+  {
+   "p": "n",
+   "zh": "（身體組織的）損傷；病變",
+   "ai": [
+    [
+     "The doctor found a small lesion on his skin.",
+     "醫生在他的皮膚上發現一處小小的病變。"
+    ],
+    [
+     "The scan showed a lesion in the patient's liver.",
+     "掃描顯示病人的肝臟有一處病灶。"
+    ]
+   ]
+  }
+ ],
+ "intestinal": [
+  {
+   "p": "adj",
+   "zh": "腸的",
+   "ai": [
+    [
+     "She had an intestinal infection after the trip.",
+     "她旅行回來後得了腸道感染。"
+    ],
+    [
+     "Fiber helps keep the intestinal system healthy.",
+     "纖維有助於維持腸道健康。"
+    ]
+   ]
+  }
+ ],
+ "hum": [
+  {
+   "p": "v",
+   "zh": "哼唱；發出嗡嗡聲",
+   "ai": [
+    [
+     "She likes to hum while she cooks.",
+     "她喜歡邊做菜邊哼歌。"
+    ],
+    [
+     "The refrigerator hums quietly at night.",
+     "冰箱在夜裡發出安靜的嗡嗡聲。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "嗡嗡聲",
+   "ai": [
+    [
+     "I could hear the hum of the air conditioner.",
+     "我可以聽到冷氣的嗡嗡聲。"
+    ],
+    [
+     "A low hum came from the machine.",
+     "機器傳出低沉的嗡嗡聲。"
+    ]
+   ]
+  }
+ ],
+ "midfield": [
+  {
+   "p": "n",
+   "zh": "（球場的）中場",
+   "ai": [
+    [
+     "He controlled the ball in midfield and passed it forward.",
+     "他在中場控制住球並向前傳。"
+    ],
+    [
+     "The team's strength is in midfield.",
+     "這支球隊的強項在中場。"
+    ]
+   ]
+  }
+ ],
+ "syrup": [
+  {
+   "p": "n",
+   "zh": "糖漿",
+   "ai": [
+    [
+     "She poured maple syrup on the pancakes.",
+     "她把楓糖漿淋在鬆餅上。"
+    ],
+    [
+     "The doctor gave the child cough syrup.",
+     "醫生開了止咳糖漿給那個孩子。"
+    ]
+   ]
+  }
+ ],
+ "travis": [
+  {
+   "p": "n",
+   "zh": "崔維斯（男子名）",
+   "ai": [
+    [
+     "Travis is a first name used mostly for boys.",
+     "Travis 是主要給男孩用的名字。"
+    ],
+    [
+     "Travis rode his bike to the park.",
+     "崔維斯騎腳踏車去公園。"
+    ]
+   ]
+  }
+ ],
+ "buying": [
+  {
+   "p": "v",
+   "zh": "購買（buy 的現在分詞）",
+   "ai": [
+    [
+     "She is buying a new laptop for school.",
+     "她正在為上學買一台新筆電。"
+    ],
+    [
+     "We are buying fruit at the market.",
+     "我們正在市場買水果。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "購買；買進",
+   "ai": [
+    [
+     "Online buying has made shopping easier.",
+     "網路購物讓買東西變得更方便。"
+    ],
+    [
+     "Impulse buying can ruin your budget.",
+     "衝動購物可能會毀掉你的預算。"
+    ]
+   ]
+  }
+ ],
+ "infinitive": [
+  {
+   "p": "n",
+   "zh": "不定詞",
+   "ai": [
+    [
+     "In 'to eat', the word 'eat' is an infinitive.",
+     "在 'to eat' 中，eat 是不定詞。"
+    ],
+    [
+     "The teacher explained how to use an infinitive in a sentence.",
+     "老師解釋了如何在句子裡使用不定詞。"
+    ]
+   ]
+  }
+ ],
+ "mimic": [
+  {
+   "p": "v",
+   "zh": "模仿",
+   "ai": [
+    [
+     "The parrot can mimic human voices.",
+     "這隻鸚鵡會模仿人的聲音。"
+    ],
+    [
+     "Kids often mimic what their parents do.",
+     "小孩常會模仿父母的行為。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "模仿者",
+   "ai": [
+    [
+     "He is a great mimic and can copy any accent.",
+     "他很會模仿，任何口音都學得像。"
+    ],
+    [
+     "The mimic made the whole audience laugh.",
+     "那位模仿者把全場觀眾都逗笑了。"
+    ]
+   ]
+  }
+ ],
+ "illegally": [
+  {
+   "p": "adv",
+   "zh": "非法地",
+   "ai": [
+    [
+     "The car was illegally parked in front of the shop.",
+     "那輛車違規停在店門口。"
+    ],
+    [
+     "They were arrested for illegally selling tickets.",
+     "他們因非法販賣門票而被逮捕。"
+    ]
+   ]
+  }
+ ],
+ "oppression": [
+  {
+   "p": "n",
+   "zh": "壓迫；欺壓",
+   "ai": [
+    [
+     "The people fought against oppression for many years.",
+     "人民多年來一直對抗壓迫。"
+    ],
+    [
+     "Many novels describe the oppression of the poor.",
+     "許多小說描寫了窮人所受的壓迫。"
+    ]
+   ]
+  }
+ ],
+ "ammunition": [
+  {
+   "p": "n",
+   "zh": "彈藥",
+   "ai": [
+    [
+     "The soldiers ran out of ammunition.",
+     "士兵們彈藥用盡了。"
+    ],
+    [
+     "The police stored the ammunition in a locked room.",
+     "警方把彈藥存放在上鎖的房間裡。"
+    ]
+   ]
+  }
+ ],
+ "pierce": [
+  {
+   "p": "v",
+   "zh": "刺穿；穿透",
+   "ai": [
+    [
+     "The needle can pierce thick cloth.",
+     "這根針可以刺穿厚布料。"
+    ],
+    [
+     "A sharp nail pierced the tire.",
+     "一根尖釘刺穿了輪胎。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "穿（耳洞等）",
+   "ai": [
+    [
+     "She wants to pierce her ears this summer.",
+     "她今年夏天想去穿耳洞。"
+    ],
+    [
+     "He had his eyebrow pierced last year.",
+     "他去年穿了眉環。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "（聲音、光線）劃破",
+   "ai": [
+    [
+     "A loud scream pierced the silence.",
+     "一聲尖叫劃破了寂靜。"
+    ],
+    [
+     "A beam of light pierced the dark clouds.",
+     "一道光束穿透了烏雲。"
+    ]
+   ]
+  }
+ ],
+ "worse": [
+  {
+   "p": "adj",
+   "zh": "更糟的；更差的",
+   "ai": [
+    [
+     "The weather today is worse than yesterday.",
+     "今天的天氣比昨天更糟。"
+    ],
+    [
+     "His cough got worse during the night.",
+     "他的咳嗽在夜裡變得更嚴重。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "更糟地；更嚴重地",
+   "ai": [
+    [
+     "He plays the piano worse than his sister does.",
+     "他鋼琴彈得比他姊姊差。"
+    ],
+    [
+     "It hurts worse when I walk.",
+     "我走路時痛得更厲害。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "更糟的情況",
+   "ai": [
+    [
+     "If the rain continues, worse may come.",
+     "如果雨繼續下，更糟的情況可能還會發生。"
+    ],
+    [
+     "Things looked bad, but worse was still ahead.",
+     "情況看起來很糟，但更糟的還在後頭。"
+    ]
+   ]
+  }
+ ],
+ "depressing": [
+  {
+   "p": "adj",
+   "zh": "令人沮喪的",
+   "ai": [
+    [
+     "The gray weather was really depressing.",
+     "陰沉的天氣真的讓人很沮喪。"
+    ],
+    [
+     "It is depressing to read the news every morning.",
+     "每天早上看新聞讓人心情低落。"
+    ]
+   ]
+  }
+ ]
+}

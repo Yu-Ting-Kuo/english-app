@@ -1,0 +1,3658 @@
+{
+ "groom": [
+  {
+   "p": "n",
+   "zh": "新郎",
+   "ai": [
+    [
+     "The groom waited nervously at the front of the church.",
+     "新郎緊張地在教堂前方等待。"
+    ],
+    [
+     "The bride and groom cut the cake together.",
+     "新郎新娘一起切蛋糕。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "打理儀容；幫動物梳理毛髮",
+   "ai": [
+    [
+     "She spends an hour each morning grooming her horse.",
+     "她每天早上花一小時幫她的馬梳理毛髮。"
+    ],
+    [
+     "He groomed himself carefully before the job interview.",
+     "他在面試前仔細打理了自己的儀容。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "培養（接班人）",
+   "ai": [
+    [
+     "The company is grooming her to become the next manager.",
+     "公司正在栽培她成為下一任經理。"
+    ],
+    [
+     "He was groomed from a young age to take over the family business.",
+     "他從小就被培養要接手家族事業。"
+    ]
+   ]
+  }
+ ],
+ "jolly": [
+  {
+   "p": "adj",
+   "zh": "愉快的；高興的",
+   "ai": [
+    [
+     "Everyone was in a jolly mood at the party.",
+     "派對上每個人心情都很愉快。"
+    ],
+    [
+     "The jolly old man told funny stories all evening.",
+     "那位開朗的老先生整晚都在講有趣的故事。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "非常；極為（英式口語）",
+   "ai": [
+    [
+     "That was a jolly good meal, thank you.",
+     "那頓飯真是太好吃了，謝謝。"
+    ],
+    [
+     "You did jolly well on the exam.",
+     "你這次考試考得相當好。"
+    ]
+   ]
+  }
+ ],
+ "guts": [
+  {
+   "p": "n",
+   "zh": "勇氣；膽量",
+   "ai": [
+    [
+     "It takes guts to speak up in front of the whole class.",
+     "要在全班面前發言需要勇氣。"
+    ],
+    [
+     "He didn't have the guts to tell her the truth.",
+     "他沒有膽量告訴她實話。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "內臟；腸子",
+   "ai": [
+    [
+     "The cook removed the guts of the fish before frying it.",
+     "廚師在煎魚之前先把魚的內臟取出。"
+    ],
+    [
+     "The vet explained that the dog's guts were not damaged.",
+     "獸醫說明那隻狗的內臟沒有受損。"
+    ]
+   ]
+  }
+ ],
+ "spade": [
+  {
+   "p": "n",
+   "zh": "鏟子",
+   "ai": [
+    [
+     "He pushed the spade into the soil and turned it over.",
+     "他把鏟子插進土裡並翻土。"
+    ],
+    [
+     "Bring a spade if you want to plant the tree.",
+     "如果你想種樹，就帶一把鏟子來。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（撲克牌的）黑桃",
+   "ai": [
+    [
+     "She played the ace of spades and won the round.",
+     "她打出黑桃 A，贏了這一局。"
+    ],
+    [
+     "I need one more spade to finish the set.",
+     "我還差一張黑桃就能湊齊這組牌。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "用鏟子挖",
+   "ai": [
+    [
+     "The farmers spaded the field before planting the seeds.",
+     "農夫們在播種前先用鏟子翻整田地。"
+    ],
+    [
+     "She spaded the garden bed and added some compost.",
+     "她用鏟子翻了花圃並加了些堆肥。"
+    ]
+   ]
+  }
+ ],
+ "rampant": [
+  {
+   "p": "adj",
+   "zh": "猖獗的；蔓延的",
+   "ai": [
+    [
+     "Crime was rampant in the city during those years.",
+     "那幾年城裡犯罪猖獗。"
+    ],
+    [
+     "Rumors were rampant after the manager suddenly left.",
+     "經理突然離職後，謠言四處蔓延。"
+    ],
+    [
+     "Weeds grew rampant in the unused garden.",
+     "閒置的花園裡雜草蔓生。"
+    ]
+   ]
+  }
+ ],
+ "scissors": [
+  {
+   "p": "n",
+   "zh": "剪刀",
+   "ai": [
+    [
+     "Could you pass me the scissors, please?",
+     "可以請你把剪刀遞給我嗎？"
+    ],
+    [
+     "These scissors are too dull to cut the paper.",
+     "這把剪刀太鈍了，剪不斷紙。"
+    ],
+    [
+     "She cut the ribbon with a pair of scissors.",
+     "她用一把剪刀剪斷了緞帶。"
+    ]
+   ]
+  }
+ ],
+ "demographics": [
+  {
+   "p": "n",
+   "zh": "人口統計資料",
+   "ai": [
+    [
+     "The demographics of the town have changed a lot in ten years.",
+     "這個小鎮的人口結構十年間變化很大。"
+    ],
+    [
+     "Marketers study the demographics of their customers before launching a product.",
+     "行銷人員在推出產品前會研究顧客的人口統計資料。"
+    ]
+   ]
+  }
+ ],
+ "pleasantly": [
+  {
+   "p": "adv",
+   "zh": "愉快地；令人愉快地",
+   "ai": [
+    [
+     "I was pleasantly surprised by how good the food was.",
+     "食物好吃的程度讓我又驚又喜。"
+    ],
+    [
+     "The room was pleasantly cool after the long walk in the sun.",
+     "在太陽下走了很久後，房間裡涼爽宜人。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "親切地；和藹地",
+   "ai": [
+    [
+     "The receptionist smiled pleasantly and offered us some tea.",
+     "接待人員親切地微笑並請我們喝茶。"
+    ],
+    [
+     "He spoke pleasantly to everyone he met at the market.",
+     "他和市場裡遇到的每個人都和氣地說話。"
+    ]
+   ]
+  }
+ ],
+ "moss": [
+  {
+   "p": "n",
+   "zh": "苔蘚",
+   "ai": [
+    [
+     "Green moss covered the rocks beside the stream.",
+     "溪邊的石頭上長滿了綠色的苔蘚。"
+    ],
+    [
+     "The old stone wall was soft with moss.",
+     "那面老石牆被苔蘚覆蓋得軟軟的。"
+    ]
+   ]
+  }
+ ],
+ "dover": [
+  {
+   "p": "n",
+   "zh": "多佛（英國東南部的港口城市）",
+   "ai": [
+    [
+     "Dover is a port town on the southeast coast of England.",
+     "多佛是英格蘭東南海岸的一座港口城鎮。"
+    ],
+    [
+     "Ferries run between Dover and the French port of Calais.",
+     "渡輪往返於多佛和法國的加萊港之間。"
+    ]
+   ]
+  }
+ ],
+ "nestle": [
+  {
+   "p": "v",
+   "zh": "舒適地依偎；縮進",
+   "ai": [
+    [
+     "The cat likes to nestle into the blanket on the sofa.",
+     "那隻貓喜歡窩進沙發上的毯子裡。"
+    ],
+    [
+     "The child nestled against her mother's shoulder and fell asleep.",
+     "那孩子依偎在媽媽的肩膀上睡著了。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "（房屋、村莊等）坐落於",
+   "ai": [
+    [
+     "The little village nestles in a valley between two hills.",
+     "那個小村莊坐落在兩座山丘之間的山谷裡。"
+    ],
+    [
+     "A small cabin nestled among the pine trees.",
+     "一間小木屋依偎在松樹林之間。"
+    ]
+   ]
+  }
+ ],
+ "nonexistent": [
+  {
+   "p": "adj",
+   "zh": "不存在的",
+   "ai": [
+    [
+     "The company's customer service is practically nonexistent.",
+     "那家公司的客服幾乎等於不存在。"
+    ],
+    [
+     "He kept worrying about a nonexistent problem.",
+     "他一直在擔心一個根本不存在的問題。"
+    ],
+    [
+     "Public transportation is nonexistent in this small village.",
+     "這個小村莊沒有任何公共交通。"
+    ]
+   ]
+  }
+ ],
+ "stylish": [
+  {
+   "p": "adj",
+   "zh": "時髦的；有型的",
+   "ai": [
+    [
+     "She wore a stylish black coat to the meeting.",
+     "她穿著一件時髦的黑色外套去開會。"
+    ],
+    [
+     "They live in a stylish apartment in the city center.",
+     "他們住在市中心一間很有品味的公寓。"
+    ],
+    [
+     "The new cafe is small but very stylish.",
+     "這間新咖啡館雖小，卻很有型。"
+    ]
+   ]
+  }
+ ],
+ "shred": [
+  {
+   "p": "n",
+   "zh": "碎片；少量",
+   "ai": [
+    [
+     "There is not a shred of evidence to support his story.",
+     "沒有一絲證據能支持他的說法。"
+    ],
+    [
+     "The flag was torn into shreds by the strong wind.",
+     "那面旗子被強風撕成了碎片。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "撕碎；切成細絲",
+   "ai": [
+    [
+     "Please shred these old documents before throwing them away.",
+     "請在丟掉這些舊文件之前先把它們碎掉。"
+    ],
+    [
+     "I shredded the cabbage for the salad.",
+     "我把高麗菜切成細絲做沙拉。"
+    ]
+   ]
+  }
+ ],
+ "exterior": [
+  {
+   "p": "n",
+   "zh": "外部；外觀",
+   "ai": [
+    [
+     "The exterior of the house needs a fresh coat of paint.",
+     "這棟房子的外牆需要重新粉刷。"
+    ],
+    [
+     "Behind his calm exterior, he was very nervous.",
+     "在他平靜的外表下，其實非常緊張。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "外部的；外在的",
+   "ai": [
+    [
+     "The exterior walls are made of brick.",
+     "外牆是用磚頭砌成的。"
+    ],
+    [
+     "Check the exterior door to make sure it is locked.",
+     "請檢查一下外門有沒有鎖好。"
+    ]
+   ]
+  }
+ ],
+ "veer": [
+  {
+   "p": "v",
+   "zh": "突然轉向；偏離方向",
+   "ai": [
+    [
+     "The car veered off the road to avoid a dog.",
+     "那輛車為了閃避一隻狗而突然駛離道路。"
+    ],
+    [
+     "The wind veered to the north during the night.",
+     "風在夜裡轉向了北方。"
+    ],
+    [
+     "The conversation veered toward politics after dinner.",
+     "晚餐後話題突然轉到了政治上。"
+    ]
+   ]
+  }
+ ],
+ "instinctive": [
+  {
+   "p": "adj",
+   "zh": "本能的；直覺的",
+   "ai": [
+    [
+     "Her instinctive reaction was to step back from the edge.",
+     "她的本能反應是從邊緣退後一步。"
+    ],
+    [
+     "Babies have an instinctive ability to suck milk.",
+     "嬰兒天生就有吸奶的本能。"
+    ],
+    [
+     "He has an instinctive feel for what customers want.",
+     "他對顧客想要什麼有種直覺。"
+    ]
+   ]
+  }
+ ],
+ "supersede": [
+  {
+   "p": "v",
+   "zh": "取代；接替",
+   "ai": [
+    [
+     "Digital cameras have largely superseded film cameras.",
+     "數位相機已大幅取代了底片相機。"
+    ],
+    [
+     "The new rules will supersede the old ones next month.",
+     "新規定下個月起將取代舊規定。"
+    ]
+   ]
+  }
+ ],
+ "statesman": [
+  {
+   "p": "n",
+   "zh": "政治家（尤指德高望重者）",
+   "ai": [
+    [
+     "He was remembered as a wise statesman who valued peace.",
+     "他被人們記得是一位重視和平的睿智政治家。"
+    ],
+    [
+     "The retired statesman gave a speech at the university.",
+     "那位退休的政治家在大學裡發表了演說。"
+    ]
+   ]
+  }
+ ],
+ "inconsistency": [
+  {
+   "p": "n",
+   "zh": "不一致；前後矛盾",
+   "ai": [
+    [
+     "The lawyer pointed out an inconsistency in his story.",
+     "律師指出他的說詞有前後矛盾之處。"
+    ],
+    [
+     "There is some inconsistency between the two reports.",
+     "這兩份報告之間有些不一致。"
+    ],
+    [
+     "The team was criticized for its inconsistency this season.",
+     "這支球隊因本季表現起伏不定而受到批評。"
+    ]
+   ]
+  }
+ ],
+ "elegance": [
+  {
+   "p": "n",
+   "zh": "優雅；高雅",
+   "ai": [
+    [
+     "She walked into the room with great elegance.",
+     "她優雅地走進房間。"
+    ],
+    [
+     "The elegance of the hotel impressed all the guests.",
+     "飯店的高雅氣派讓所有客人印象深刻。"
+    ],
+    [
+     "The proof is admired for its simplicity and elegance.",
+     "這個證明因其簡潔與精妙而受到讚賞。"
+    ]
+   ]
+  }
+ ],
+ "caucus": [
+  {
+   "p": "n",
+   "zh": "黨團會議；核心小組",
+   "ai": [
+    [
+     "The party caucus met on Monday to discuss the budget.",
+     "該黨團在週一開會討論預算。"
+    ],
+    [
+     "She is a member of the women's caucus in the legislature.",
+     "她是議會中女性議員核心小組的成員。"
+    ]
+   ]
+  }
+ ],
+ "refreshing": [
+  {
+   "p": "adj",
+   "zh": "清爽的；提神的",
+   "ai": [
+    [
+     "A cold glass of lemonade is refreshing on a hot day.",
+     "大熱天裡來一杯冰檸檬水真是清爽。"
+    ],
+    [
+     "The cool breeze felt refreshing after the hike.",
+     "健行之後，涼風吹來讓人精神一振。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "令人耳目一新的",
+   "ai": [
+    [
+     "It is refreshing to hear someone speak so honestly.",
+     "聽到有人這麼坦白地說話讓人耳目一新。"
+    ],
+    [
+     "Her refreshing approach brought new ideas to the team.",
+     "她令人耳目一新的做法為團隊帶來了新點子。"
+    ]
+   ]
+  }
+ ],
+ "ailment": [
+  {
+   "p": "n",
+   "zh": "小病痛；疾病",
+   "ai": [
+    [
+     "Rest and warm tea are good for minor ailments like a cold.",
+     "休息和喝熱茶對感冒這類小毛病很有幫助。"
+    ],
+    [
+     "Her grandfather suffers from several age-related ailments.",
+     "她的祖父有好幾種與年齡有關的病痛。"
+    ]
+   ]
+  }
+ ],
+ "bonnet": [
+  {
+   "p": "n",
+   "zh": "（帶繫帶的）軟帽",
+   "ai": [
+    [
+     "The baby wore a little white bonnet in the sun.",
+     "嬰兒在陽光下戴著一頂小小的白色軟帽。"
+    ],
+    [
+     "She tied her bonnet under her chin with a ribbon.",
+     "她用緞帶把軟帽綁在下巴下方。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（英式）汽車引擎蓋",
+   "ai": [
+    [
+     "He opened the bonnet to check the engine.",
+     "他打開引擎蓋檢查引擎。"
+    ],
+    [
+     "Steam was coming out from under the bonnet.",
+     "引擎蓋下冒出了蒸氣。"
+    ]
+   ]
+  }
+ ],
+ "gunfire": [
+  {
+   "p": "n",
+   "zh": "槍聲；開火",
+   "ai": [
+    [
+     "Residents were woken by the sound of gunfire in the distance.",
+     "居民被遠處的槍聲吵醒。"
+    ],
+    [
+     "The soldiers moved forward under heavy gunfire.",
+     "士兵們在猛烈的火力下向前推進。"
+    ]
+   ]
+  }
+ ],
+ "amazingly": [
+  {
+   "p": "adv",
+   "zh": "令人驚訝地",
+   "ai": [
+    [
+     "Amazingly, nobody was hurt in the accident.",
+     "令人驚訝的是，這場意外中沒有人受傷。"
+    ],
+    [
+     "The little boy played the piano amazingly well.",
+     "那個小男孩的鋼琴彈得好得驚人。"
+    ]
+   ]
+  }
+ ],
+ "reunite": [
+  {
+   "p": "v",
+   "zh": "重聚；使團聚",
+   "ai": [
+    [
+     "The two friends reunited after twenty years apart.",
+     "兩位朋友在分開二十年後重逢。"
+    ],
+    [
+     "The rescue team reunited the lost child with her parents.",
+     "救援隊讓走失的孩子與父母團聚。"
+    ],
+    [
+     "The band plans to reunite for a final concert.",
+     "這個樂團打算為最後一場演唱會重新聚首。"
+    ]
+   ]
+  }
+ ],
+ "fugitive": [
+  {
+   "p": "n",
+   "zh": "逃亡者；逃犯",
+   "ai": [
+    [
+     "The fugitive was caught near the border after three days.",
+     "那名逃犯在三天後於邊境附近被抓獲。"
+    ],
+    [
+     "Police asked the public to report any sign of the fugitive.",
+     "警方請民眾提供任何有關逃犯的線索。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "逃亡的；轉瞬即逝的",
+   "ai": [
+    [
+     "A fugitive prisoner was hiding in the forest.",
+     "一名逃亡的囚犯躲在森林裡。"
+    ],
+    [
+     "She caught only a fugitive glimpse of the famous actor.",
+     "她只匆匆瞥見那位名演員一眼。"
+    ]
+   ]
+  }
+ ],
+ "intellect": [
+  {
+   "p": "n",
+   "zh": "智力；才智",
+   "ai": [
+    [
+     "She is known for her sharp intellect and quick wit.",
+     "她以敏銳的才智和機智聞名。"
+    ],
+    [
+     "The puzzle challenged even the best intellect in the room.",
+     "這道謎題連房間裡最聰明的人也被考倒了。"
+    ]
+   ]
+  }
+ ],
+ "coastline": [
+  {
+   "p": "n",
+   "zh": "海岸線",
+   "ai": [
+    [
+     "We drove along the coastline and stopped at a small beach.",
+     "我們沿著海岸線開車，並在一個小海灘停了下來。"
+    ],
+    [
+     "The country has a long and beautiful coastline.",
+     "這個國家擁有長而美麗的海岸線。"
+    ]
+   ]
+  }
+ ],
+ "childish": [
+  {
+   "p": "adj",
+   "zh": "幼稚的；孩子氣的",
+   "ai": [
+    [
+     "Stop being so childish and share your toys.",
+     "別這麼幼稚了，把玩具分給大家吧。"
+    ],
+    [
+     "It was childish of him to refuse to say sorry.",
+     "他拒絕道歉真是孩子氣。"
+    ],
+    [
+     "She laughed at his childish jokes.",
+     "她被他孩子氣的笑話逗笑了。"
+    ]
+   ]
+  }
+ ],
+ "hired": [
+  {
+   "p": "v",
+   "zh": "僱用；租用（hire 的過去式與過去分詞）",
+   "ai": [
+    [
+     "The restaurant hired three new cooks last week.",
+     "那家餐廳上週僱用了三位新廚師。"
+    ],
+    [
+     "We hired a car for the weekend trip.",
+     "我們為週末旅行租了一輛車。"
+    ],
+    [
+     "She was hired as a designer right after graduation.",
+     "她一畢業就被聘為設計師。"
+    ]
+   ]
+  }
+ ],
+ "versatile": [
+  {
+   "p": "adj",
+   "zh": "多才多藝的；用途廣泛的",
+   "ai": [
+    [
+     "She is a versatile actress who can play any role.",
+     "她是個多才多藝的演員，什麼角色都能演。"
+    ],
+    [
+     "A good knife is a versatile tool in any kitchen.",
+     "一把好刀是任何廚房裡用途廣泛的工具。"
+    ],
+    [
+     "This versatile jacket works for both rain and cold weather.",
+     "這件多用途外套雨天和冷天都能穿。"
+    ]
+   ]
+  }
+ ],
+ "brittle": [
+  {
+   "p": "adj",
+   "zh": "易碎的；脆的",
+   "ai": [
+    [
+     "The old plastic became brittle and cracked easily.",
+     "那塊舊塑膠變得很脆，一下就裂開了。"
+    ],
+    [
+     "Brittle bones can break from a small fall.",
+     "骨質脆弱的人，輕輕跌一跤就可能骨折。"
+    ],
+    [
+     "She ate a piece of crunchy, brittle peanut candy.",
+     "她吃了一塊酥脆的花生糖。"
+    ]
+   ]
+  }
+ ],
+ "irresistible": [
+  {
+   "p": "adj",
+   "zh": "無法抗拒的；極具吸引力的",
+   "ai": [
+    [
+     "The smell of fresh bread was irresistible.",
+     "剛出爐麵包的香味讓人無法抗拒。"
+    ],
+    [
+     "He found her smile irresistible.",
+     "他覺得她的笑容讓人無法抗拒。"
+    ],
+    [
+     "The store is offering an irresistible discount this weekend.",
+     "這間店本週末推出令人難以抗拒的折扣。"
+    ]
+   ]
+  }
+ ],
+ "lutheran": [
+  {
+   "p": "adj",
+   "zh": "路德教會的",
+   "ai": [
+    [
+     "They attend a Lutheran church near their home.",
+     "他們去家附近的一間路德教會做禮拜。"
+    ],
+    [
+     "The Lutheran school was founded over a century ago.",
+     "那所路德教會學校創立已超過一百年。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "路德教會教友",
+   "ai": [
+    [
+     "My neighbor is a Lutheran and goes to church every Sunday.",
+     "我的鄰居是路德教會的教友，每週日都上教堂。"
+    ],
+    [
+     "Many Lutherans live in northern Europe.",
+     "許多路德教會教友住在北歐。"
+    ]
+   ]
+  }
+ ],
+ "suggested": [
+  {
+   "p": "v",
+   "zh": "建議；提議（suggest 的過去式）",
+   "ai": [
+    [
+     "She suggested that we meet at the station.",
+     "她建議我們在車站碰面。"
+    ],
+    [
+     "He suggested a different route to avoid traffic.",
+     "他提議走另一條路以避開塞車。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "暗示；顯示（suggest 的過去式）",
+   "ai": [
+    [
+     "The results suggested that the medicine was working.",
+     "結果顯示這種藥有效。"
+    ],
+    [
+     "His silence suggested that he disagreed.",
+     "他的沉默暗示他並不同意。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "建議的",
+   "ai": [
+    [
+     "The suggested price for the book is twenty dollars.",
+     "這本書的建議售價是二十美元。"
+    ],
+    [
+     "Follow the suggested steps on the card to set it up.",
+     "請依照卡片上建議的步驟進行設定。"
+    ]
+   ]
+  }
+ ],
+ "recourse": [
+  {
+   "p": "n",
+   "zh": "求助；憑藉的手段",
+   "ai": [
+    [
+     "If the shop refuses to refund you, you have no recourse but to complain online.",
+     "如果店家拒絕退款，你只能上網投訴。"
+    ],
+    [
+     "They had recourse to a lawyer when the landlord refused to return the deposit.",
+     "房東拒絕退還押金時，他們求助於律師。"
+    ]
+   ]
+  }
+ ],
+ "juicy": [
+  {
+   "p": "adj",
+   "zh": "多汁的",
+   "ai": [
+    [
+     "The peaches were sweet and juicy.",
+     "這些桃子又甜又多汁。"
+    ],
+    [
+     "He bit into a juicy burger.",
+     "他咬了一口多汁的漢堡。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "（八卦、內容）精彩的；勁爆的",
+   "ai": [
+    [
+     "She loves telling juicy stories about her coworkers.",
+     "她很愛說同事們的精彩八卦。"
+    ],
+    [
+     "The magazine is full of juicy gossip.",
+     "這本雜誌滿是勁爆的八卦。"
+    ]
+   ]
+  }
+ ],
+ "ensuing": [
+  {
+   "p": "adj",
+   "zh": "隨後發生的",
+   "ai": [
+    [
+     "In the ensuing chaos, nobody noticed the thief.",
+     "在隨後的混亂中，沒有人注意到小偷。"
+    ],
+    [
+     "He moved abroad and, in the ensuing years, rarely visited home.",
+     "他搬到國外，隨後的幾年很少回家。"
+    ],
+    [
+     "The team lost the match and the ensuing argument lasted for hours.",
+     "球隊輸了比賽，隨之而來的爭論持續了好幾個小時。"
+    ]
+   ]
+  }
+ ],
+ "intentional": [
+  {
+   "p": "adj",
+   "zh": "故意的；有意的",
+   "ai": [
+    [
+     "The mistake was not intentional, and he apologized.",
+     "那個錯誤不是故意的，他也道歉了。"
+    ],
+    [
+     "The company denied any intentional damage to the environment.",
+     "該公司否認有任何蓄意破壞環境的行為。"
+    ],
+    [
+     "Her use of bright colors was intentional.",
+     "她使用鮮豔的顏色是有意為之。"
+    ]
+   ]
+  }
+ ],
+ "draught": [
+  {
+   "p": "n",
+   "zh": "穿堂風；冷風（英式拼法）",
+   "ai": [
+    [
+     "Close the door, there's a draught in here.",
+     "把門關上，這裡有冷風灌進來。"
+    ],
+    [
+     "The old window lets in a cold draught.",
+     "那扇老窗戶會漏進冷風。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "生啤酒",
+   "ai": [
+    [
+     "He ordered a pint of draught at the pub.",
+     "他在酒吧點了一品脫生啤酒。"
+    ],
+    [
+     "This bar serves three kinds of draught beer.",
+     "這間酒吧供應三種生啤酒。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（飲料的）一大口",
+   "ai": [
+    [
+     "He drank the water in one long draught.",
+     "他一大口把水喝完。"
+    ],
+    [
+     "She took a deep draught of the cool juice.",
+     "她大口喝了一口冰涼的果汁。"
+    ]
+   ]
+  }
+ ],
+ "subside": [
+  {
+   "p": "v",
+   "zh": "平息；減退",
+   "ai": [
+    [
+     "We waited for the storm to subside before going outside.",
+     "我們等暴風雨平息後才出門。"
+    ],
+    [
+     "The pain slowly subsided after he took the medicine.",
+     "他吃了藥後，疼痛慢慢減退了。"
+    ],
+    [
+     "The flood waters began to subside on Tuesday.",
+     "洪水在週二開始退去。"
+    ]
+   ]
+  }
+ ],
+ "professionalism": [
+  {
+   "p": "n",
+   "zh": "專業精神；專業素養",
+   "ai": [
+    [
+     "The nurse showed great professionalism during the emergency.",
+     "護理師在緊急狀況中展現了高度的專業素養。"
+    ],
+    [
+     "Arriving on time is a basic sign of professionalism.",
+     "準時到場是專業素養的基本表現。"
+    ]
+   ]
+  }
+ ],
+ "putt": [
+  {
+   "p": "v",
+   "zh": "（高爾夫）推桿",
+   "ai": [
+    [
+     "He putted the ball slowly toward the hole.",
+     "他把球緩緩推向洞口。"
+    ],
+    [
+     "She putted from six feet away and made it.",
+     "她從六英尺外推桿進洞。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "推桿；推桿的一擊",
+   "ai": [
+    [
+     "That was a difficult putt, but he made it.",
+     "那一桿推桿很難，但他推進了。"
+    ],
+    [
+     "She missed an easy putt on the last hole.",
+     "她在最後一洞漏掉了一個簡單的推桿。"
+    ]
+   ]
+  }
+ ],
+ "rhythmic": [
+  {
+   "p": "adj",
+   "zh": "有節奏的；有韻律的",
+   "ai": [
+    [
+     "The rhythmic sound of the rain helped me fall asleep.",
+     "有節奏的雨聲幫助我入睡。"
+    ],
+    [
+     "The dancers moved in a rhythmic pattern.",
+     "舞者們以富有節奏的方式移動。"
+    ],
+    [
+     "She enjoys the rhythmic beat of drums.",
+     "她喜歡鼓聲有節奏的拍子。"
+    ]
+   ]
+  }
+ ],
+ "sag": [
+  {
+   "p": "v",
+   "zh": "下垂；凹陷",
+   "ai": [
+    [
+     "The old sofa began to sag in the middle.",
+     "那張舊沙發中間開始凹陷。"
+    ],
+    [
+     "The branches sagged under the weight of the snow.",
+     "樹枝被雪的重量壓得下垂。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "（士氣、銷量等）下滑",
+   "ai": [
+    [
+     "Sales began to sag during the summer months.",
+     "夏季幾個月銷售額開始下滑。"
+    ],
+    [
+     "His spirits sagged when he heard the bad news.",
+     "聽到壞消息後，他的情緒低落了。"
+    ]
+   ]
+  }
+ ],
+ "frantically": [
+  {
+   "p": "adv",
+   "zh": "慌亂地；拚命地",
+   "ai": [
+    [
+     "She searched frantically for her lost keys.",
+     "她慌亂地到處找她弄丟的鑰匙。"
+    ],
+    [
+     "The students frantically wrote down the answers before time ran out.",
+     "學生們在時間用完前拚命寫下答案。"
+    ]
+   ]
+  }
+ ],
+ "pilgrim": [
+  {
+   "p": "n",
+   "zh": "朝聖者",
+   "ai": [
+    [
+     "Thousands of pilgrims travel to the holy site every year.",
+     "每年有數千名朝聖者前往這處聖地。"
+    ],
+    [
+     "The pilgrim walked for days to reach the temple.",
+     "那位朝聖者走了好幾天才抵達寺廟。"
+    ]
+   ]
+  }
+ ],
+ "endlessly": [
+  {
+   "p": "adv",
+   "zh": "不斷地；無窮無盡地",
+   "ai": [
+    [
+     "The children argued endlessly about which game to play.",
+     "孩子們為了要玩哪個遊戲爭論個不停。"
+    ],
+    [
+     "The road seemed to stretch endlessly across the desert.",
+     "這條路似乎在沙漠中無盡地延伸。"
+    ]
+   ]
+  }
+ ],
+ "hertfordshire": [
+  {
+   "p": "n",
+   "zh": "赫特福德郡（英格蘭東南部的郡）",
+   "ai": [
+    [
+     "Hertfordshire is a county in the southeast of England.",
+     "赫特福德郡是英格蘭東南部的一個郡。"
+    ],
+    [
+     "Many people who work in London live in Hertfordshire.",
+     "許多在倫敦工作的人住在赫特福德郡。"
+    ]
+   ]
+  }
+ ],
+ "immaculate": [
+  {
+   "p": "adj",
+   "zh": "一塵不染的；無瑕的",
+   "ai": [
+    [
+     "Her kitchen is always immaculate.",
+     "她的廚房總是一塵不染。"
+    ],
+    [
+     "He wore an immaculate white shirt to the ceremony.",
+     "他穿著一件潔白無瑕的襯衫參加典禮。"
+    ],
+    [
+     "The hotel room was immaculate when we arrived.",
+     "我們抵達時，飯店房間乾淨得一塵不染。"
+    ]
+   ]
+  }
+ ],
+ "illicit": [
+  {
+   "p": "adj",
+   "zh": "違法的；不正當的",
+   "ai": [
+    [
+     "The police closed down an illicit gambling den.",
+     "警方查封了一間非法賭場。"
+    ],
+    [
+     "The two had an illicit meeting that nobody was supposed to know about.",
+     "兩人進行了一場不能讓人知道的不正當會面。"
+    ]
+   ]
+  }
+ ],
+ "snail": [
+  {
+   "p": "n",
+   "zh": "蝸牛",
+   "ai": [
+    [
+     "A snail slowly crossed the garden path.",
+     "一隻蝸牛慢慢爬過花園小徑。"
+    ],
+    [
+     "Snails come out after the rain.",
+     "雨後蝸牛會出來活動。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "行動緩慢的人或事物",
+   "ai": [
+    [
+     "The traffic moved at a snail's pace this morning.",
+     "今天早上車流像蝸牛一樣緩慢移動。"
+    ],
+    [
+     "My old computer is a snail compared to the new one.",
+     "我的舊電腦跟新的比起來慢得像蝸牛。"
+    ]
+   ]
+  }
+ ],
+ "rift": [
+  {
+   "p": "n",
+   "zh": "裂縫；裂痕",
+   "ai": [
+    [
+     "A deep rift ran across the dry ground.",
+     "一道深深的裂縫橫過乾裂的地面。"
+    ],
+    [
+     "The argument created a rift between the two brothers.",
+     "這場爭吵使兄弟倆之間產生了裂痕。"
+    ],
+    [
+     "A rift opened in the clouds and the sun came out.",
+     "雲層裂開一道縫，太陽探了出來。"
+    ]
+   ]
+  }
+ ],
+ "makeshift": [
+  {
+   "p": "adj",
+   "zh": "臨時湊合的；權宜的",
+   "ai": [
+    [
+     "They built a makeshift shelter out of branches.",
+     "他們用樹枝搭了一個臨時的遮蔽處。"
+    ],
+    [
+     "The classroom had only a makeshift desk made from boxes.",
+     "教室裡只有一張用紙箱拼成的臨時桌子。"
+    ],
+    [
+     "The hospital used a makeshift bed in the hallway.",
+     "醫院在走廊上用了臨時湊合的床。"
+    ]
+   ]
+  }
+ ],
+ "privy": [
+  {
+   "p": "adj",
+   "zh": "知情的（privy to）",
+   "ai": [
+    [
+     "Only a few people were privy to the plan.",
+     "只有少數人知道這項計畫。"
+    ],
+    [
+     "I am not privy to the details of their contract.",
+     "我並不清楚他們合約的細節。"
+    ]
+   ]
+  }
+ ],
+ "wrongdoing": [
+  {
+   "p": "n",
+   "zh": "不當行為；壞事",
+   "ai": [
+    [
+     "The manager denied any wrongdoing.",
+     "經理否認有任何不當行為。"
+    ],
+    [
+     "An investigation found no evidence of wrongdoing.",
+     "調查沒有發現任何不當行為的證據。"
+    ]
+   ]
+  }
+ ],
+ "aerobic": [
+  {
+   "p": "adj",
+   "zh": "有氧的",
+   "ai": [
+    [
+     "Swimming is a good aerobic exercise.",
+     "游泳是很好的有氧運動。"
+    ],
+    [
+     "She takes an aerobic class three times a week.",
+     "她每週上三次有氧課程。"
+    ],
+    [
+     "Aerobic exercise helps strengthen your heart.",
+     "有氧運動有助於強化心臟。"
+    ]
+   ]
+  }
+ ],
+ "thrash": [
+  {
+   "p": "v",
+   "zh": "猛烈扭動；亂揮",
+   "ai": [
+    [
+     "The fish thrashed about in the net.",
+     "魚在網子裡猛烈扭動。"
+    ],
+    [
+     "He thrashed in the water until someone pulled him out.",
+     "他在水裡拚命掙扎，直到有人把他拉出來。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "徹底擊敗",
+   "ai": [
+    [
+     "Our team thrashed their rivals by twenty points.",
+     "我們隊以二十分的差距大敗對手。"
+    ],
+    [
+     "She thrashed him at chess in under ten minutes.",
+     "她不到十分鐘就把他殺得片甲不留。"
+    ]
+   ]
+  }
+ ],
+ "covert": [
+  {
+   "p": "adj",
+   "zh": "隱密的；暗中的",
+   "ai": [
+    [
+     "The agency ran a covert operation for months.",
+     "該機構暗中執行了數月的秘密行動。"
+    ],
+    [
+     "She gave him a covert glance across the table.",
+     "她隔著桌子偷偷瞥了他一眼。"
+    ]
+   ]
+  }
+ ],
+ "disarm": [
+  {
+   "p": "v",
+   "zh": "解除武裝；裁軍",
+   "ai": [
+    [
+     "Police managed to disarm the man without anyone getting hurt.",
+     "警方成功讓那名男子繳械，無人受傷。"
+    ],
+    [
+     "The countries agreed to disarm their forces along the border.",
+     "這些國家同意裁減邊境上的武力。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "化解（敵意）；使放下戒心",
+   "ai": [
+    [
+     "His warm smile disarmed even the angriest customers.",
+     "他溫暖的微笑連最生氣的顧客也能化解怒氣。"
+    ],
+    [
+     "She disarmed the tension with a joke.",
+     "她用一個笑話化解了緊張氣氛。"
+    ]
+   ]
+  }
+ ],
+ "implicitly": [
+  {
+   "p": "adv",
+   "zh": "含蓄地；暗中地",
+   "ai": [
+    [
+     "The contract implicitly allows workers to take short breaks.",
+     "這份合約暗示性地允許員工短暫休息。"
+    ],
+    [
+     "He implicitly admitted his mistake by not arguing back.",
+     "他沒有反駁，等於默認了自己的錯誤。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "毫無保留地；絕對地",
+   "ai": [
+    [
+     "She trusts her sister implicitly.",
+     "她完全信任她的姐姐。"
+    ],
+    [
+     "The soldiers implicitly obeyed their leader.",
+     "士兵們絕對服從他們的領袖。"
+    ]
+   ]
+  }
+ ],
+ "beckon": [
+  {
+   "p": "v",
+   "zh": "招手示意；召喚",
+   "ai": [
+    [
+     "She beckoned the waiter to bring the bill.",
+     "她招手請服務生把帳單拿來。"
+    ],
+    [
+     "He beckoned me over with a wave of his hand.",
+     "他揮手示意我過去。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "吸引；召喚（抽象）",
+   "ai": [
+    [
+     "The sunny beach beckoned us after a long week at work.",
+     "忙了一週的工作後，陽光海灘在向我們招手。"
+    ],
+    [
+     "Bright lights beckoned travelers into the small town.",
+     "明亮的燈光吸引旅人走進小鎮。"
+    ]
+   ]
+  }
+ ],
+ "fiddle": [
+  {
+   "p": "n",
+   "zh": "小提琴（口語）",
+   "ai": [
+    [
+     "He plays the fiddle at the village dance.",
+     "他在村裡的舞會上拉小提琴。"
+    ],
+    [
+     "The fiddle sounded sweet in the quiet evening.",
+     "在寧靜的夜晚，小提琴聲聽起來很悅耳。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "撥弄；亂動",
+   "ai": [
+    [
+     "Stop fiddling with your pen during the meeting.",
+     "開會時別再一直玩你的筆。"
+    ],
+    [
+     "He fiddled with the radio until he found a clear station.",
+     "他一直調整收音機，直到找到訊號清楚的電台。"
+    ]
+   ]
+  }
+ ],
+ "improvise": [
+  {
+   "p": "v",
+   "zh": "即興創作；臨時湊合",
+   "ai": [
+    [
+     "The singer improvised a song about the audience.",
+     "歌手即興編了一首關於觀眾的歌。"
+    ],
+    [
+     "We had no hammer, so we improvised with a heavy rock.",
+     "我們沒有鎚子，所以臨時拿一塊重石頭代替。"
+    ],
+    [
+     "Good cooks know how to improvise when an ingredient is missing.",
+     "好廚師知道缺少材料時該怎麼臨機應變。"
+    ]
+   ]
+  }
+ ],
+ "slipper": [
+  {
+   "p": "n",
+   "zh": "拖鞋",
+   "ai": [
+    [
+     "He put on his slippers and went to the kitchen.",
+     "他穿上拖鞋走進廚房。"
+    ],
+    [
+     "These warm slippers are perfect for winter mornings.",
+     "這雙保暖的拖鞋很適合冬天早晨穿。"
+    ],
+    [
+     "She left one slipper by the door.",
+     "她把一隻拖鞋留在門邊。"
+    ]
+   ]
+  }
+ ],
+ "hereditary": [
+  {
+   "p": "adj",
+   "zh": "遺傳的",
+   "ai": [
+    [
+     "Some forms of heart disease are hereditary.",
+     "某些心臟疾病是遺傳性的。"
+    ],
+    [
+     "The doctor asked if the condition was hereditary in her family.",
+     "醫生問這種狀況在她家族中是否會遺傳。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "世襲的",
+   "ai": [
+    [
+     "The country is ruled by a hereditary king.",
+     "這個國家由世襲的國王統治。"
+    ],
+    [
+     "In some places, the title of chief is hereditary.",
+     "在某些地方，首領的頭銜是世襲的。"
+    ]
+   ]
+  }
+ ],
+ "challenger": [
+  {
+   "p": "n",
+   "zh": "挑戰者",
+   "ai": [
+    [
+     "The young challenger surprised the champion in the first round.",
+     "年輕的挑戰者在第一輪就讓冠軍大吃一驚。"
+    ],
+    [
+     "A new challenger has entered the race for mayor.",
+     "一位新的挑戰者加入了市長選舉。"
+    ]
+   ]
+  }
+ ],
+ "candidacy": [
+  {
+   "p": "n",
+   "zh": "候選人資格；參選",
+   "ai": [
+    [
+     "She announced her candidacy for class president.",
+     "她宣布參選班長。"
+    ],
+    [
+     "His candidacy was supported by many young voters.",
+     "他的參選獲得許多年輕選民的支持。"
+    ]
+   ]
+  }
+ ],
+ "handgun": [
+  {
+   "p": "n",
+   "zh": "手槍",
+   "ai": [
+    [
+     "The law requires a license to own a handgun.",
+     "法律規定持有手槍需要許可證。"
+    ],
+    [
+     "The police found a handgun in the abandoned car.",
+     "警方在那輛廢棄的車裡發現了一把手槍。"
+    ]
+   ]
+  }
+ ],
+ "buddhist": [
+  {
+   "p": "n",
+   "zh": "佛教徒",
+   "ai": [
+    [
+     "My grandmother is a devout Buddhist.",
+     "我的祖母是虔誠的佛教徒。"
+    ],
+    [
+     "Many Buddhists visit the temple on holidays.",
+     "許多佛教徒會在節日時前往寺廟。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "佛教的",
+   "ai": [
+    [
+     "We visited a Buddhist temple in the mountains.",
+     "我們參觀了山上的一間佛教寺廟。"
+    ],
+    [
+     "She follows Buddhist teachings on kindness.",
+     "她遵循佛教關於慈悲的教導。"
+    ]
+   ]
+  }
+ ],
+ "fell": [
+  {
+   "p": "v",
+   "zh": "跌倒；掉落；下降（fall 的過去式）",
+   "ai": [
+    [
+     "She fell off her bike and scraped her knee.",
+     "她從腳踏車上摔下來，擦傷了膝蓋。"
+    ],
+    [
+     "The temperature fell sharply during the night.",
+     "夜裡氣溫急遽下降。"
+    ],
+    [
+     "The apple fell from the tree.",
+     "蘋果從樹上掉了下來。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "砍倒（樹木）",
+   "ai": [
+    [
+     "Workers will fell the old tree next week.",
+     "工人下週會把那棵老樹砍倒。"
+    ],
+    [
+     "They felled several pines to clear the land.",
+     "他們砍倒幾棵松樹來清出土地。"
+    ]
+   ]
+  }
+ ],
+ "floppy": [
+  {
+   "p": "adj",
+   "zh": "軟軟垂下的；鬆軟的",
+   "ai": [
+    [
+     "The puppy has big floppy ears.",
+     "那隻小狗有一對軟軟垂下的大耳朵。"
+    ],
+    [
+     "He wore a floppy hat to keep the sun off his face.",
+     "他戴了一頂軟塌塌的帽子遮陽。"
+    ]
+   ]
+  }
+ ],
+ "impede": [
+  {
+   "p": "v",
+   "zh": "妨礙；阻礙",
+   "ai": [
+    [
+     "Heavy snow impeded traffic all over the city.",
+     "大雪阻礙了全市的交通。"
+    ],
+    [
+     "Fear of failure can impede your progress.",
+     "害怕失敗可能會妨礙你的進步。"
+    ],
+    [
+     "Fallen trees impeded the rescue team's path.",
+     "倒下的樹木擋住了救援隊的去路。"
+    ]
+   ]
+  }
+ ],
+ "arithmetic": [
+  {
+   "p": "n",
+   "zh": "算術",
+   "ai": [
+    [
+     "Children learn basic arithmetic in elementary school.",
+     "孩子們在小學學習基本算術。"
+    ],
+    [
+     "He did the arithmetic in his head and gave me the total.",
+     "他在腦中算好，然後告訴我總數。"
+    ],
+    [
+     "The arithmetic doesn't add up, so we must have made a mistake.",
+     "這個算術對不起來，所以我們一定哪裡算錯了。"
+    ]
+   ]
+  }
+ ],
+ "wince": [
+  {
+   "p": "v",
+   "zh": "（因痛苦或尷尬而）畏縮",
+   "ai": [
+    [
+     "He winced when the nurse touched his sore arm.",
+     "護理師碰到他疼痛的手臂時，他痛得縮了一下。"
+    ],
+    [
+     "I winced at the sound of the chalk on the board.",
+     "我聽到粉筆刮黑板的聲音就忍不住皺眉縮了一下。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "畏縮；皺眉",
+   "ai": [
+    [
+     "She gave a wince of pain as she stood up.",
+     "她站起來時痛得皺了一下眉。"
+    ],
+    [
+     "With a wince, he remembered his embarrassing mistake.",
+     "他想起自己那個尷尬的錯誤，不禁縮了一下身子。"
+    ]
+   ]
+  }
+ ],
+ "stringent": [
+  {
+   "p": "adj",
+   "zh": "嚴格的；嚴厲的",
+   "ai": [
+    [
+     "The country has stringent rules about food safety.",
+     "這個國家對食品安全有嚴格的規定。"
+    ],
+    [
+     "Entry to the lab is subject to stringent security checks.",
+     "進入實驗室需經過嚴格的安全檢查。"
+    ]
+   ]
+  }
+ ],
+ "collegiate": [
+  {
+   "p": "adj",
+   "zh": "大學的；大學生的",
+   "ai": [
+    [
+     "He played collegiate basketball before turning professional.",
+     "他在轉為職業球員之前打過大學籃球。"
+    ],
+    [
+     "The collegiate sports league holds its final in March.",
+     "大學運動聯盟在三月舉行決賽。"
+    ]
+   ]
+  }
+ ],
+ "baseman": [
+  {
+   "p": "n",
+   "zh": "（棒球）守壘員",
+   "ai": [
+    [
+     "The first baseman caught the ball and tagged the runner.",
+     "一壘手接住球並觸殺了跑者。"
+    ],
+    [
+     "The team is looking for a new second baseman.",
+     "球隊正在找一位新的二壘手。"
+    ]
+   ]
+  }
+ ],
+ "impersonal": [
+  {
+   "p": "adj",
+   "zh": "冷漠的；沒有人情味的",
+   "ai": [
+    [
+     "The big hotel felt cold and impersonal.",
+     "那間大飯店讓人覺得冷冰冰、沒有人情味。"
+    ],
+    [
+     "Her reply was formal and impersonal.",
+     "她的回覆既正式又冷淡。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "客觀的；與個人無關的",
+   "ai": [
+    [
+     "Try to keep your feedback impersonal and focus on the work.",
+     "回饋意見盡量客觀，專注於工作本身。"
+    ],
+    [
+     "The decision was based on impersonal market forces.",
+     "這項決定是基於與個人無關的市場力量。"
+    ]
+   ]
+  }
+ ],
+ "glittering": [
+  {
+   "p": "adj",
+   "zh": "閃閃發光的；光彩奪目的",
+   "ai": [
+    [
+     "The glittering lights of the city shone below us.",
+     "城市閃耀的燈光在我們下方閃爍。"
+    ],
+    [
+     "She wore a glittering gold dress to the party.",
+     "她穿著一件閃閃發亮的金色洋裝去參加派對。"
+    ],
+    [
+     "He had a glittering career in film.",
+     "他在電影界有過輝煌的事業。"
+    ]
+   ]
+  }
+ ],
+ "outspoken": [
+  {
+   "p": "adj",
+   "zh": "直言不諱的；坦率的",
+   "ai": [
+    [
+     "She is an outspoken critic of the new policy.",
+     "她是這項新政策直言不諱的批評者。"
+    ],
+    [
+     "He has always been outspoken about his opinions.",
+     "他一向對自己的意見直言不諱。"
+    ]
+   ]
+  }
+ ],
+ "thirds": [
+  {
+   "p": "n",
+   "zh": "三分之一（third 的複數）",
+   "ai": [
+    [
+     "Two thirds of the class passed the test.",
+     "班上有三分之二的人通過了考試。"
+    ],
+    [
+     "Cut the cake into thirds so each of us gets a piece.",
+     "把蛋糕切成三等份，這樣我們每個人都有一塊。"
+    ]
+   ]
+  }
+ ],
+ "petal": [
+  {
+   "p": "n",
+   "zh": "花瓣",
+   "ai": [
+    [
+     "A single red petal fell onto the table.",
+     "一片紅色花瓣落在桌上。"
+    ],
+    [
+     "The petals of the rose were soft and bright.",
+     "玫瑰的花瓣柔軟而鮮豔。"
+    ]
+   ]
+  }
+ ],
+ "enlightened": [
+  {
+   "p": "adj",
+   "zh": "開明的；有見識的",
+   "ai": [
+    [
+     "The school has an enlightened approach to teaching.",
+     "這所學校的教學方式很開明。"
+    ],
+    [
+     "He is an enlightened leader who listens to everyone.",
+     "他是個開明的領導者，願意傾聽每個人的意見。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "開悟的",
+   "ai": [
+    [
+     "The monk was said to have become enlightened after years of meditation.",
+     "據說那位僧人在多年冥想後得到了開悟。"
+    ],
+    [
+     "She felt enlightened after reading the old philosophy book.",
+     "讀了那本古老的哲學書後，她覺得豁然開朗。"
+    ]
+   ]
+  }
+ ],
+ "bewildered": [
+  {
+   "p": "adj",
+   "zh": "困惑的；不知所措的",
+   "ai": [
+    [
+     "The tourists looked bewildered by the busy train map.",
+     "遊客們看著複雜的火車路線圖，一臉困惑。"
+    ],
+    [
+     "He gave me a bewildered look when I asked the question.",
+     "我問他那個問題時，他露出一臉茫然的表情。"
+    ],
+    [
+     "She felt bewildered by all the sudden changes.",
+     "面對所有突如其來的變化，她感到不知所措。"
+    ]
+   ]
+  }
+ ],
+ "retrospective": [
+  {
+   "p": "adj",
+   "zh": "回顧的；溯及既往的",
+   "ai": [
+    [
+     "The museum is holding a retrospective exhibition of his paintings.",
+     "博物館正在舉辦他畫作的回顧展。"
+    ],
+    [
+     "The new tax rule is not retrospective.",
+     "這項新稅制並不溯及既往。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "回顧展；回顧",
+   "ai": [
+    [
+     "A retrospective of her films opens next week.",
+     "她電影作品的回顧展下週開幕。"
+    ],
+    [
+     "The team held a retrospective at the end of the project.",
+     "團隊在專案結束時舉行了回顧會議。"
+    ]
+   ]
+  }
+ ],
+ "graffiti": [
+  {
+   "p": "n",
+   "zh": "塗鴉",
+   "ai": [
+    [
+     "Someone sprayed graffiti on the wall of the school.",
+     "有人在學校的牆上噴了塗鴉。"
+    ],
+    [
+     "The city organized a team to clean off the graffiti.",
+     "市政府組織了一個小組來清除塗鴉。"
+    ]
+   ]
+  }
+ ],
+ "cliche": [
+  {
+   "p": "n",
+   "zh": "陳腔濫調",
+   "ai": [
+    [
+     "\"Time heals all wounds\" is a well-known cliche.",
+     "「時間能治癒一切傷痛」是個眾所周知的陳腔濫調。"
+    ],
+    [
+     "The movie was full of every cliche in the book.",
+     "這部電影充滿了各種老套的橋段。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "陳腐的；老套的",
+   "ai": [
+    [
+     "The ending of the story felt cliche.",
+     "故事的結局感覺很老套。"
+    ],
+    [
+     "His speech was dull and cliche.",
+     "他的演說既乏味又陳腐。"
+    ]
+   ]
+  }
+ ],
+ "falter": [
+  {
+   "p": "v",
+   "zh": "蹣跚；動搖；衰退",
+   "ai": [
+    [
+     "His steps faltered as he climbed the last hill.",
+     "他爬上最後一座山丘時腳步蹣跚。"
+    ],
+    [
+     "The economy began to falter last year.",
+     "經濟在去年開始衰退。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "支吾；結結巴巴",
+   "ai": [
+    [
+     "Her voice faltered as she read the sad letter.",
+     "她讀著那封悲傷的信時，聲音顫抖了起來。"
+    ],
+    [
+     "He never faltered in his answer during the interview.",
+     "面試時他的回答從未支吾遲疑。"
+    ]
+   ]
+  }
+ ],
+ "barren": [
+  {
+   "p": "adj",
+   "zh": "貧瘠的；荒蕪的",
+   "ai": [
+    [
+     "Nothing could grow in the barren soil.",
+     "在貧瘠的土壤裡什麼都長不出來。"
+    ],
+    [
+     "The desert is a barren and silent place.",
+     "沙漠是個荒蕪而寂靜的地方。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "荒地",
+   "ai": [
+    [
+     "The explorers crossed a vast barren of rock and sand.",
+     "探險隊穿越了一大片岩石與沙組成的荒地。"
+    ],
+    [
+     "Little life exists in the northern barrens.",
+     "北方的荒原上幾乎沒有生物。"
+    ]
+   ]
+  }
+ ],
+ "hinge": [
+  {
+   "p": "n",
+   "zh": "鉸鏈",
+   "ai": [
+    [
+     "The door squeaked on its rusty hinge.",
+     "那扇門在生鏽的鉸鏈上吱吱作響。"
+    ],
+    [
+     "He oiled the hinges to stop the noise.",
+     "他在鉸鏈上上了油，讓聲音消失。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "取決於（hinge on）",
+   "ai": [
+    [
+     "The whole plan hinges on the weather.",
+     "整個計畫取決於天氣。"
+    ],
+    [
+     "Our success may hinge on how well we work together.",
+     "我們能否成功，或許取決於合作得好不好。"
+    ]
+   ]
+  }
+ ],
+ "annoyance": [
+  {
+   "p": "n",
+   "zh": "煩惱；惱怒",
+   "ai": [
+    [
+     "She could not hide her annoyance at being kept waiting.",
+     "被晾在一旁等待，她無法掩飾自己的不耐煩。"
+    ],
+    [
+     "He sighed with annoyance when the phone rang again.",
+     "電話又響起時，他不耐煩地嘆了口氣。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "令人討厭的事物",
+   "ai": [
+    [
+     "Slow internet is a constant annoyance when working from home.",
+     "在家工作時，網路很慢是個一直困擾人的麻煩。"
+    ],
+    [
+     "The loud neighbors are a minor annoyance.",
+     "吵鬧的鄰居是個小小的困擾。"
+    ]
+   ]
+  }
+ ],
+ "billing": [
+  {
+   "p": "n",
+   "zh": "（演出的）排名次序；宣傳",
+   "ai": [
+    [
+     "The actor got top billing in the new play.",
+     "那位演員在這齣新戲中名列首位。"
+    ],
+    [
+     "She was unhappy with her billing on the poster.",
+     "她對自己在海報上的排名不滿意。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "開立帳單；帳單作業",
+   "ai": [
+    [
+     "The billing department will send you an invoice by email.",
+     "帳務部門會用電子郵件寄給你一張帳單。"
+    ],
+    [
+     "There was a mistake in the billing for last month.",
+     "上個月的帳單開立出了錯。"
+    ]
+   ]
+  }
+ ],
+ "rector": [
+  {
+   "p": "n",
+   "zh": "教區牧師；（大學）校長",
+   "ai": [
+    [
+     "The rector welcomed the villagers at the church door.",
+     "教區牧師在教堂門口迎接村民。"
+    ],
+    [
+     "The rector of the university gave the opening speech.",
+     "大學校長發表了開幕致詞。"
+    ]
+   ]
+  }
+ ],
+ "celestial": [
+  {
+   "p": "adj",
+   "zh": "天空的；天體的",
+   "ai": [
+    [
+     "Stars and planets are celestial bodies.",
+     "恆星和行星都是天體。"
+    ],
+    [
+     "The astronomer studied celestial maps of the night sky.",
+     "天文學家研究夜空的星圖。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "天國的；神聖美妙的",
+   "ai": [
+    [
+     "The choir sang with celestial beauty.",
+     "合唱團以天籟般的美感歌唱。"
+    ],
+    [
+     "The paintings showed angels in a celestial garden.",
+     "這些畫作描繪了天使在天國花園中的情景。"
+    ]
+   ]
+  }
+ ],
+ "dole": [
+  {
+   "p": "n",
+   "zh": "失業救濟金",
+   "ai": [
+    [
+     "He was on the dole for six months after losing his job.",
+     "他失業後領了半年的失業救濟金。"
+    ],
+    [
+     "Many people lived on the dole during the recession.",
+     "衰退期間許多人靠失業救濟金過活。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "分發；施捨（dole out）",
+   "ai": [
+    [
+     "The volunteers doled out soup to the hungry.",
+     "志工們把湯分給飢餓的人。"
+    ],
+    [
+     "The teacher doled out the worksheets to each row.",
+     "老師把練習卷分發給每一排。"
+    ]
+   ]
+  }
+ ],
+ "disadvantaged": [
+  {
+   "p": "adj",
+   "zh": "弱勢的；處境不利的",
+   "ai": [
+    [
+     "The program offers free lunches to disadvantaged children.",
+     "這個計畫為弱勢兒童提供免費午餐。"
+    ],
+    [
+     "Disadvantaged families often struggle to pay for books.",
+     "弱勢家庭常常負擔不起書籍費用。"
+    ],
+    [
+     "She grew up in a disadvantaged neighborhood.",
+     "她在一個處境不利的社區長大。"
+    ]
+   ]
+  }
+ ],
+ "aristocracy": [
+  {
+   "p": "n",
+   "zh": "貴族階層",
+   "ai": [
+    [
+     "In the past, the aristocracy owned most of the land.",
+     "過去，貴族階層擁有大部分的土地。"
+    ],
+    [
+     "The novel describes the life of the French aristocracy.",
+     "這部小說描寫了法國貴族階層的生活。"
+    ]
+   ]
+  }
+ ],
+ "resurrection": [
+  {
+   "p": "n",
+   "zh": "復活",
+   "ai": [
+    [
+     "Many Christians celebrate the resurrection of Jesus at Easter.",
+     "許多基督徒在復活節慶祝耶穌的復活。"
+    ],
+    [
+     "The story tells of the resurrection of a hero from the dead.",
+     "這個故事講述一位英雄從死亡中復活。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "復興；重新興起",
+   "ai": [
+    [
+     "The old town is enjoying a resurrection as a tourist spot.",
+     "這座老城作為觀光景點正在重新興盛。"
+    ],
+    [
+     "The band's resurrection surprised everyone.",
+     "樂團的重新復出讓所有人驚訝。"
+    ]
+   ]
+  }
+ ],
+ "mundane": [
+  {
+   "p": "adj",
+   "zh": "平凡的；乏味的",
+   "ai": [
+    [
+     "She is tired of the mundane tasks of daily life.",
+     "她厭倦了日常生活中平凡乏味的瑣事。"
+    ],
+    [
+     "He turned a mundane trip to the store into an adventure.",
+     "他把一趟平凡的購物變成了一場冒險。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "世俗的；塵世的",
+   "ai": [
+    [
+     "The monk gave up mundane pleasures to live in the mountains.",
+     "那位僧人放棄塵世的享樂，住進山裡。"
+    ],
+    [
+     "They talked about mundane matters like rent and bills.",
+     "他們談論房租和帳單之類的世俗瑣事。"
+    ]
+   ]
+  }
+ ],
+ "purport": [
+  {
+   "p": "v",
+   "zh": "聲稱；號稱",
+   "ai": [
+    [
+     "The website purports to offer free tickets.",
+     "這個網站號稱提供免費門票。"
+    ],
+    [
+     "The letter purports to be from the mayor, but it looks fake.",
+     "這封信聲稱出自市長之手，但看起來是假的。"
+    ],
+    [
+     "He purports to be an expert in the field.",
+     "他自稱是這個領域的專家。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "要旨；意義",
+   "ai": [
+    [
+     "I could not understand the purport of his message.",
+     "我無法理解他訊息的要旨。"
+    ],
+    [
+     "The purport of her speech was clear to everyone.",
+     "她演說的主旨對每個人都很明確。"
+    ]
+   ]
+  }
+ ],
+ "raspberry": [
+  {
+   "p": "n",
+   "zh": "覆盆子；樹莓",
+   "ai": [
+    [
+     "She topped the cake with fresh raspberries.",
+     "她在蛋糕上放了新鮮的覆盆子。"
+    ],
+    [
+     "This raspberry jam is homemade.",
+     "這罐覆盆子果醬是自製的。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "噓聲（吐舌發出的嘲弄聲）",
+   "ai": [
+    [
+     "The little boy blew a raspberry at his sister.",
+     "小男孩對他姐姐吐舌頭發出噓聲。"
+    ],
+    [
+     "The crowd gave the referee a loud raspberry.",
+     "群眾對裁判發出響亮的噓聲。"
+    ]
+   ]
+  }
+ ],
+ "prerogative": [
+  {
+   "p": "n",
+   "zh": "特權；專屬權利",
+   "ai": [
+    [
+     "Choosing the team captain is the coach's prerogative.",
+     "挑選隊長是教練的專屬權利。"
+    ],
+    [
+     "It is your prerogative to say no.",
+     "你有權利說不。"
+    ]
+   ]
+  }
+ ],
+ "presbyterian": [
+  {
+   "p": "adj",
+   "zh": "長老教會的",
+   "ai": [
+    [
+     "They were married in a Presbyterian church.",
+     "他們在長老教會的教堂結婚。"
+    ],
+    [
+     "The Presbyterian school started in the nineteenth century.",
+     "那所長老教會學校創立於十九世紀。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "長老教會教友",
+   "ai": [
+    [
+     "My neighbor is a Presbyterian who sings in the church choir.",
+     "我的鄰居是長老教會教友，在教會詩班唱歌。"
+    ],
+    [
+     "Many early settlers there were Presbyterians.",
+     "當地許多早期移民是長老教會教友。"
+    ]
+   ]
+  }
+ ],
+ "wreckage": [
+  {
+   "p": "n",
+   "zh": "殘骸",
+   "ai": [
+    [
+     "Rescuers searched the wreckage of the plane for survivors.",
+     "救援人員在飛機殘骸中搜尋生還者。"
+    ],
+    [
+     "Pieces of wreckage washed up on the beach.",
+     "殘骸的碎片被沖上了海灘。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（事物的）殘局；毀壞",
+   "ai": [
+    [
+     "He tried to rebuild his life from the wreckage of his business.",
+     "他試著從事業的廢墟中重建生活。"
+    ],
+    [
+     "The war left the wreckage of a once-lively city.",
+     "戰爭留下了一座昔日繁華的城市的廢墟。"
+    ]
+   ]
+  }
+ ],
+ "lest": [
+  {
+   "p": "conj",
+   "zh": "以免；唯恐",
+   "ai": [
+    [
+     "Write it down lest you forget.",
+     "把它寫下來，以免你忘記。"
+    ],
+    [
+     "She spoke quietly lest she wake the baby.",
+     "她小聲說話，唯恐吵醒嬰兒。"
+    ],
+    [
+     "He hurried home lest his parents worry.",
+     "他趕緊回家，免得父母擔心。"
+    ]
+   ]
+  }
+ ],
+ "tavern": [
+  {
+   "p": "n",
+   "zh": "酒館；客棧",
+   "ai": [
+    [
+     "The travelers rested at a small tavern by the road.",
+     "旅人們在路邊的一間小酒館休息。"
+    ],
+    [
+     "Locals gathered at the old tavern every Friday night.",
+     "當地人每週五晚上都聚集在那間老酒館。"
+    ]
+   ]
+  }
+ ],
+ "assassin": [
+  {
+   "p": "n",
+   "zh": "刺客；暗殺者",
+   "ai": [
+    [
+     "The assassin was arrested soon after the attack.",
+     "刺客在案發後不久就被逮捕。"
+    ],
+    [
+     "The film is about a hired assassin who changes his life.",
+     "這部電影講的是一位受僱殺手改變人生的故事。"
+    ]
+   ]
+  }
+ ],
+ "cedar": [
+  {
+   "p": "n",
+   "zh": "雪松；香柏",
+   "ai": [
+    [
+     "The chest was made of fragrant cedar.",
+     "這個箱子是用芳香的雪松做的。"
+    ],
+    [
+     "Tall cedars grew along the mountain path.",
+     "高大的雪松沿著山路生長。"
+    ]
+   ]
+  }
+ ],
+ "contrasting": [
+  {
+   "p": "v",
+   "zh": "對比；形成對照（contrast 的現在分詞）",
+   "ai": [
+    [
+     "Contrasting the two plans, she found the second one cheaper.",
+     "比較這兩個計畫後，她發現第二個比較便宜。"
+    ],
+    [
+     "The report ends by contrasting city life with life in the countryside.",
+     "這份報告最後把都市生活與鄉村生活作對比。"
+    ]
+   ]
+  }
+ ],
+ "shutter": [
+  {
+   "p": "n",
+   "zh": "百葉窗；遮板",
+   "ai": [
+    [
+     "She closed the wooden shutters to block the sun.",
+     "她關上木製百葉窗來擋住陽光。"
+    ],
+    [
+     "The shutters rattled in the strong wind.",
+     "百葉窗在強風中喀喀作響。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（相機的）快門",
+   "ai": [
+    [
+     "The photographer pressed the shutter and took a picture.",
+     "攝影師按下快門拍了一張照片。"
+    ],
+    [
+     "A fast shutter speed lets you freeze a moving subject.",
+     "快門速度快就能凍結移動中的主體。"
+    ]
+   ]
+  }
+ ],
+ "etch": [
+  {
+   "p": "v",
+   "zh": "蝕刻；刻",
+   "ai": [
+    [
+     "The artist etched a pattern into the glass.",
+     "藝術家在玻璃上蝕刻了一個圖案。"
+    ],
+    [
+     "Their names were etched on the stone.",
+     "他們的名字被刻在石頭上。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "深深印入（記憶）",
+   "ai": [
+    [
+     "The scene was etched in her memory forever.",
+     "那一幕永遠刻在她的記憶裡。"
+    ],
+    [
+     "His kind words etched themselves in my mind.",
+     "他親切的話深深印在我的腦海裡。"
+    ]
+   ]
+  }
+ ],
+ "beech": [
+  {
+   "p": "n",
+   "zh": "山毛櫸",
+   "ai": [
+    [
+     "A large beech grows in front of the old school.",
+     "一棵高大的山毛櫸長在老學校前面。"
+    ],
+    [
+     "The furniture is made of polished beech wood.",
+     "這套家具是用拋光的山毛櫸木做的。"
+    ]
+   ]
+  }
+ ],
+ "flute": [
+  {
+   "p": "n",
+   "zh": "長笛",
+   "ai": [
+    [
+     "She plays the flute in the school orchestra.",
+     "她在學校管弦樂團吹長笛。"
+    ],
+    [
+     "The soft sound of the flute filled the room.",
+     "長笛柔和的聲音充滿了房間。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "細長的香檳杯",
+   "ai": [
+    [
+     "They raised their champagne flutes and made a toast.",
+     "他們舉起香檳杯敬酒。"
+    ],
+    [
+     "The waiter filled each flute carefully.",
+     "服務生小心地把每個香檳杯斟滿。"
+    ]
+   ]
+  }
+ ],
+ "avoidance": [
+  {
+   "p": "n",
+   "zh": "避免；迴避",
+   "ai": [
+    [
+     "Tax avoidance is legal, but tax evasion is not.",
+     "合法節稅是可以的，但逃稅不行。"
+    ],
+    [
+     "His avoidance of the subject made her suspicious.",
+     "他迴避這個話題讓她起了疑心。"
+    ],
+    [
+     "Avoidance of sugary drinks can improve your health.",
+     "避免含糖飲料能改善你的健康。"
+    ]
+   ]
+  }
+ ],
+ "nightly": [
+  {
+   "p": "adj",
+   "zh": "每晚的",
+   "ai": [
+    [
+     "The nightly news starts at nine o'clock.",
+     "每晚的新聞九點開始。"
+    ],
+    [
+     "He takes a nightly walk around the park.",
+     "他每晚都繞著公園散步。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "每晚",
+   "ai": [
+    [
+     "The show runs nightly at eight.",
+     "這場表演每晚八點上演。"
+    ],
+    [
+     "The streets are cleaned nightly.",
+     "街道每晚都會清掃。"
+    ]
+   ]
+  }
+ ],
+ "aristocratic": [
+  {
+   "p": "adj",
+   "zh": "貴族的；有貴族氣派的",
+   "ai": [
+    [
+     "She came from an old aristocratic family.",
+     "她出身於一個古老的貴族家庭。"
+    ],
+    [
+     "He had an aristocratic way of speaking.",
+     "他說話的方式很有貴族派頭。"
+    ]
+   ]
+  }
+ ],
+ "twig": [
+  {
+   "p": "n",
+   "zh": "細枝；小樹枝",
+   "ai": [
+    [
+     "The bird built its nest out of small twigs.",
+     "那隻鳥用小樹枝築巢。"
+    ],
+    [
+     "He snapped a twig and threw it into the fire.",
+     "他折斷一根小樹枝丟進火裡。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "突然明白（英式口語）",
+   "ai": [
+    [
+     "It took me a while to twig what she meant.",
+     "我過了好一會兒才搞懂她的意思。"
+    ],
+    [
+     "Then he twigged that it was a joke.",
+     "接著他才領悟那是個玩笑。"
+    ]
+   ]
+  }
+ ],
+ "strait": [
+  {
+   "p": "n",
+   "zh": "海峽",
+   "ai": [
+    [
+     "Ships pass through the narrow strait every day.",
+     "每天都有船隻通過這道狹窄的海峽。"
+    ],
+    [
+     "The Taiwan Strait lies between Taiwan and mainland China.",
+     "台灣海峽位於台灣與中國大陸之間。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "困境（常用複數 straits）",
+   "ai": [
+    [
+     "The company is in dire straits and may close.",
+     "這家公司處境艱難，可能會倒閉。"
+    ],
+    [
+     "After losing his job, he found himself in financial straits.",
+     "失業後，他陷入了經濟困境。"
+    ]
+   ]
+  }
+ ],
+ "smear": [
+  {
+   "p": "v",
+   "zh": "塗抹；弄髒",
+   "ai": [
+    [
+     "She smeared butter on the warm bread.",
+     "她把奶油塗抹在溫熱的麵包上。"
+    ],
+    [
+     "The child smeared chocolate all over his face.",
+     "小孩把巧克力抹得滿臉都是。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "抹黑；中傷",
+   "ai": [
+    [
+     "The newspaper tried to smear the mayor's reputation.",
+     "那份報紙企圖抹黑市長的名聲。"
+    ],
+    [
+     "Rivals smeared her with false rumors.",
+     "對手用不實的謠言中傷她。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "汙跡；汙點",
+   "ai": [
+    [
+     "There was a smear of oil on his shirt.",
+     "他的襯衫上有一道油漬。"
+    ],
+    [
+     "Wipe the smear off the window with a cloth.",
+     "用布把窗戶上的汙跡擦掉。"
+    ]
+   ]
+  }
+ ],
+ "assassinate": [
+  {
+   "p": "v",
+   "zh": "暗殺",
+   "ai": [
+    [
+     "Several attempts were made to assassinate the king.",
+     "有人多次企圖暗殺國王。"
+    ],
+    [
+     "The plot to assassinate the leader failed.",
+     "暗殺那位領袖的陰謀失敗了。"
+    ]
+   ]
+  }
+ ],
+ "bog": [
+  {
+   "p": "n",
+   "zh": "沼澤",
+   "ai": [
+    [
+     "Walkers should avoid the wet bog after heavy rain.",
+     "大雨過後，健行者應該避開潮濕的沼澤。"
+    ],
+    [
+     "Rare plants grow in the peat bog.",
+     "罕見的植物生長在泥炭沼澤裡。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "陷入泥沼；使陷入停滯（bog down）",
+   "ai": [
+    [
+     "The truck got bogged down in the mud.",
+     "那輛卡車陷在泥巴裡動彈不得。"
+    ],
+    [
+     "Don't let yourself get bogged down in small details.",
+     "別讓自己陷在小細節裡動彈不得。"
+    ]
+   ]
+  }
+ ],
+ "enlightenment": [
+  {
+   "p": "n",
+   "zh": "啟發；開悟",
+   "ai": [
+    [
+     "The monk spent years seeking enlightenment.",
+     "那位僧人花了多年尋求開悟。"
+    ],
+    [
+     "The lecture brought some enlightenment to the audience.",
+     "這場演講讓聽眾有所啟發。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "啟蒙運動（the Enlightenment）",
+   "ai": [
+    [
+     "The Enlightenment was an intellectual movement in Europe in the eighteenth century.",
+     "啟蒙運動是十八世紀歐洲的一場思想運動。"
+    ],
+    [
+     "Many writers of the Enlightenment argued for reason and science.",
+     "許多啟蒙運動的作家主張理性與科學。"
+    ]
+   ]
+  }
+ ],
+ "inspired": [
+  {
+   "p": "v",
+   "zh": "激勵；啟發（inspire 的過去式）",
+   "ai": [
+    [
+     "Her speech inspired many young people to volunteer.",
+     "她的演說激勵了許多年輕人去當志工。"
+    ],
+    [
+     "The old story inspired him to write a song.",
+     "那個老故事啟發他寫了一首歌。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "受到啟發的；有靈感的",
+   "ai": [
+    [
+     "I felt inspired after visiting the art museum.",
+     "參觀美術館後，我覺得充滿靈感。"
+    ],
+    [
+     "The inspired students worked hard on their project.",
+     "受到鼓舞的學生們認真做他們的專題。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "絕妙的；充滿創意的",
+   "ai": [
+    [
+     "Using old tires as flower pots was an inspired idea.",
+     "用舊輪胎當花盆是個絕妙的點子。"
+    ],
+    [
+     "The coach made an inspired decision to change the lineup.",
+     "教練調整陣容的決定十分高明。"
+    ]
+   ]
+  }
+ ],
+ "worthless": [
+  {
+   "p": "adj",
+   "zh": "沒有價值的；無用的",
+   "ai": [
+    [
+     "The old coins turned out to be worthless.",
+     "那些舊硬幣結果一文不值。"
+    ],
+    [
+     "He felt worthless after losing his job.",
+     "失業後，他覺得自己一無是處。"
+    ],
+    [
+     "Without a warranty, the product is nearly worthless.",
+     "沒有保固的話，這個產品幾乎沒有價值。"
+    ]
+   ]
+  }
+ ],
+ "trumpet": [
+  {
+   "p": "n",
+   "zh": "小號；喇叭",
+   "ai": [
+    [
+     "He plays the trumpet in the school band.",
+     "他在學校樂隊吹小號。"
+    ],
+    [
+     "The sound of a trumpet announced the start of the parade.",
+     "小號聲宣告遊行開始。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "大肆宣揚；吹噓",
+   "ai": [
+    [
+     "The company trumpeted its new product on every channel.",
+     "那家公司在每個管道大肆宣傳其新產品。"
+    ],
+    [
+     "He trumpets his achievements to anyone who will listen.",
+     "他向每個願意聽的人吹噓他的成就。"
+    ]
+   ]
+  }
+ ],
+ "persecution": [
+  {
+   "p": "n",
+   "zh": "迫害",
+   "ai": [
+    [
+     "Many families fled their country to escape religious persecution.",
+     "許多家庭為了逃避宗教迫害而離開自己的國家。"
+    ],
+    [
+     "The group suffered years of persecution.",
+     "這個團體遭受了多年的迫害。"
+    ]
+   ]
+  }
+ ],
+ "tremendously": [
+  {
+   "p": "adv",
+   "zh": "極大地；非常",
+   "ai": [
+    [
+     "The festival was tremendously popular this year.",
+     "今年的慶典極受歡迎。"
+    ],
+    [
+     "She has grown tremendously as a leader.",
+     "她作為領導者成長了很多。"
+    ],
+    [
+     "We enjoyed the trip tremendously.",
+     "我們非常喜歡這趟旅行。"
+    ]
+   ]
+  }
+ ],
+ "cerebral": [
+  {
+   "p": "adj",
+   "zh": "大腦的",
+   "ai": [
+    [
+     "The doctor checked for cerebral damage after the fall.",
+     "跌倒後，醫師檢查了是否有腦部損傷。"
+    ],
+    [
+     "The cerebral cortex controls thinking and memory.",
+     "大腦皮質掌管思考與記憶。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "理智的；偏重思考的",
+   "ai": [
+    [
+     "He prefers cerebral movies that make you think.",
+     "他偏愛那些會讓人思考的理性電影。"
+    ],
+    [
+     "Chess is a cerebral game.",
+     "西洋棋是個需要動腦的遊戲。"
+    ]
+   ]
+  }
+ ],
+ "flex": [
+  {
+   "p": "v",
+   "zh": "彎曲；活動（肌肉、關節）",
+   "ai": [
+    [
+     "He flexed his fingers after typing for hours.",
+     "他打了好幾個小時字後活動了一下手指。"
+    ],
+    [
+     "She flexed her arm to show off her muscles.",
+     "她彎起手臂秀出肌肉。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "炫耀（口語）",
+   "ai": [
+    [
+     "He likes to flex about his new car.",
+     "他很愛炫耀他的新車。"
+    ],
+    [
+     "Stop flexing and share your results honestly.",
+     "別再炫耀了，誠實分享你的成績吧。"
+    ]
+   ]
+  }
+ ],
+ "racket": [
+  {
+   "p": "n",
+   "zh": "球拍",
+   "ai": [
+    [
+     "She bought a new tennis racket for the tournament.",
+     "她為比賽買了一支新網球拍。"
+    ],
+    [
+     "He swung his racket and hit the ball.",
+     "他揮動球拍擊中了球。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "吵鬧聲；喧嘩",
+   "ai": [
+    [
+     "The kids made such a racket that I couldn't sleep.",
+     "孩子們吵得我睡不著。"
+    ],
+    [
+     "What is that terrible racket outside?",
+     "外面那個可怕的噪音是什麼？"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "非法勾當；詐騙手法",
+   "ai": [
+    [
+     "Police broke up a ticket-selling racket.",
+     "警方破獲了一個販售假票的非法集團。"
+    ],
+    [
+     "The scam was an old racket targeting the elderly.",
+     "這個騙局是專門針對老年人的老把戲。"
+    ]
+   ]
+  }
+ ],
+ "id": [
+  {
+   "p": "n",
+   "zh": "身分證件；ID",
+   "ai": [
+    [
+     "Please show your id at the entrance.",
+     "請在入口處出示您的證件。"
+    ],
+    [
+     "You need a photo id to pick up the package.",
+     "領取包裹需要附照片的證件。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "識別碼；帳號（user ID）",
+   "ai": [
+    [
+     "Enter your user id and password to log in.",
+     "請輸入您的使用者帳號和密碼以登入。"
+    ],
+    [
+     "Each student has a unique id number.",
+     "每位學生都有一組獨一無二的識別號碼。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "本我（心理學）",
+   "ai": [
+    [
+     "Freud said the id seeks immediate pleasure.",
+     "佛洛伊德認為本我追求即時的滿足。"
+    ],
+    [
+     "In his theory, the id, ego, and superego work together.",
+     "在他的理論中，本我、自我和超我共同運作。"
+    ]
+   ]
+  }
+ ],
+ "unanimously": [
+  {
+   "p": "adv",
+   "zh": "全體一致地",
+   "ai": [
+    [
+     "The committee voted unanimously to approve the plan.",
+     "委員會全體一致投票通過這項計畫。"
+    ],
+    [
+     "The jury unanimously agreed on the verdict.",
+     "陪審團全體一致同意這個判決。"
+    ],
+    [
+     "The audience unanimously praised the performance.",
+     "觀眾一致讚賞這場表演。"
+    ]
+   ]
+  }
+ ],
+ "assimilate": [
+  {
+   "p": "v",
+   "zh": "吸收；理解消化",
+   "ai": [
+    [
+     "It takes time to assimilate so much new information.",
+     "要消化這麼多新資訊需要時間。"
+    ],
+    [
+     "Plants assimilate nutrients from the soil.",
+     "植物從土壤中吸收養分。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "同化；融入",
+   "ai": [
+    [
+     "The immigrants quickly assimilated into the local community.",
+     "移民們很快就融入了當地社區。"
+    ],
+    [
+     "It can be hard for newcomers to assimilate into a new culture.",
+     "新來的人要融入新文化可能很困難。"
+    ]
+   ]
+  }
+ ],
+ "infuse": [
+  {
+   "p": "v",
+   "zh": "注入；使充滿",
+   "ai": [
+    [
+     "The coach infused the team with new energy.",
+     "教練為球隊注入了新的活力。"
+    ],
+    [
+     "She infused her paintings with bright colors and joy.",
+     "她讓畫作充滿鮮豔的色彩與喜悅。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "（用熱水）浸泡",
+   "ai": [
+    [
+     "Infuse the tea leaves in hot water for three minutes.",
+     "把茶葉用熱水泡三分鐘。"
+    ],
+    [
+     "The herbs were infused in oil for a week.",
+     "這些香草在油裡浸泡了一個星期。"
+    ]
+   ]
+  }
+ ],
+ "tan": [
+  {
+   "p": "n",
+   "zh": "曬成的古銅色",
+   "ai": [
+    [
+     "She came back from the beach with a nice tan.",
+     "她從海灘回來，皮膚曬成了漂亮的古銅色。"
+    ],
+    [
+     "He has a deep tan from working outdoors.",
+     "他因為在戶外工作而曬得很黑。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "曬黑",
+   "ai": [
+    [
+     "I tan easily if I stay in the sun too long.",
+     "我只要在太陽下待太久就容易曬黑。"
+    ],
+    [
+     "They tanned on the beach all afternoon.",
+     "他們整個下午都在海灘上做日光浴。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "棕褐色的",
+   "ai": [
+    [
+     "He wore a tan jacket and brown shoes.",
+     "他穿著一件棕褐色外套和棕色鞋子。"
+    ],
+    [
+     "The walls were painted a light tan color.",
+     "牆壁被漆成淺棕褐色。"
+    ]
+   ]
+  }
+ ],
+ "rake": [
+  {
+   "p": "n",
+   "zh": "耙子",
+   "ai": [
+    [
+     "He used a rake to gather the fallen leaves.",
+     "他用耙子把落葉耙在一起。"
+    ],
+    [
+     "Please put the rake back in the shed.",
+     "請把耙子放回工具棚。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "用耙子耙；搜尋",
+   "ai": [
+    [
+     "She raked the leaves into a big pile.",
+     "她把落葉耙成一大堆。"
+    ],
+    [
+     "Police raked through the garden looking for clues.",
+     "警方在花園裡仔細搜尋線索。"
+    ]
+   ]
+  }
+ ],
+ "spontaneously": [
+  {
+   "p": "adv",
+   "zh": "自發地；一時興起地",
+   "ai": [
+    [
+     "The crowd spontaneously began to sing.",
+     "群眾自發地開始唱起歌來。"
+    ],
+    [
+     "We decided spontaneously to drive to the coast.",
+     "我們臨時起意決定開車去海邊。"
+    ]
+   ]
+  }
+ ],
+ "coping": [
+  {
+   "p": "v",
+   "zh": "應付；處理（cope 的現在分詞）",
+   "ai": [
+    [
+     "She is coping well with the stress of her new job.",
+     "她把新工作的壓力應付得很好。"
+    ],
+    [
+     "He has been coping with a heavy workload all month.",
+     "他整個月都在應付繁重的工作量。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "調適；因應",
+   "ai": [
+    [
+     "Exercise is a healthy coping strategy for stress.",
+     "運動是紓解壓力的健康因應方式。"
+    ],
+    [
+     "The class teaches coping skills for anxiety.",
+     "這堂課教授面對焦慮的調適技巧。"
+    ]
+   ]
+  }
+ ],
+ "trickle": [
+  {
+   "p": "v",
+   "zh": "滴落；緩緩流動",
+   "ai": [
+    [
+     "Water trickled down the window.",
+     "水順著窗戶緩緩流下。"
+    ],
+    [
+     "Tears trickled down her cheeks.",
+     "淚水緩緩滑下她的臉頰。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "細流；少量",
+   "ai": [
+    [
+     "The river had dried to a trickle.",
+     "河流乾涸到只剩一條細流。"
+    ],
+    [
+     "Only a trickle of customers came in that day.",
+     "那天只有零星幾位顧客上門。"
+    ]
+   ]
+  }
+ ],
+ "armoured": [
+  {
+   "p": "adj",
+   "zh": "裝甲的",
+   "ai": [
+    [
+     "An armoured truck delivered the money to the bank.",
+     "一輛裝甲車把錢送到銀行。"
+    ],
+    [
+     "The museum has an armoured vehicle from the last century.",
+     "博物館展出一輛上個世紀的裝甲車。"
+    ]
+   ]
+  }
+ ],
+ "suppression": [
+  {
+   "p": "n",
+   "zh": "鎮壓；抑制",
+   "ai": [
+    [
+     "The government's suppression of the protests was widely criticized.",
+     "政府對抗議活動的鎮壓受到廣泛批評。"
+    ],
+    [
+     "This medicine helps with the suppression of coughing.",
+     "這種藥有助於抑制咳嗽。"
+    ]
+   ]
+  }
+ ],
+ "perennial": [
+  {
+   "p": "adj",
+   "zh": "長期的；反覆出現的",
+   "ai": [
+    [
+     "Traffic jams are a perennial problem in the city.",
+     "塞車是這座城市長期存在的問題。"
+    ],
+    [
+     "The team is a perennial favorite to win the title.",
+     "這支球隊每年都是奪冠熱門。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "多年生的",
+   "ai": [
+    [
+     "Lavender is a perennial plant that returns every spring.",
+     "薰衣草是每年春天都會再長出來的多年生植物。"
+    ],
+    [
+     "She planted perennial flowers along the fence.",
+     "她沿著圍籬種了多年生的花卉。"
+    ]
+   ]
+  }
+ ],
+ "longevity": [
+  {
+   "p": "n",
+   "zh": "長壽；壽命",
+   "ai": [
+    [
+     "Healthy eating can improve your longevity.",
+     "健康飲食可以增加你的壽命。"
+    ],
+    [
+     "The town is famous for the longevity of its residents.",
+     "這座小鎮以居民長壽聞名。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "持久；耐用",
+   "ai": [
+    [
+     "The longevity of this brand's batteries is impressive.",
+     "這個牌子的電池耐用度令人印象深刻。"
+    ],
+    [
+     "We value the longevity of our partnership.",
+     "我們珍視這段合作關係的長久。"
+    ]
+   ]
+  }
+ ],
+ "cilantro": [
+  {
+   "p": "n",
+   "zh": "香菜；芫荽",
+   "ai": [
+    [
+     "She added chopped cilantro to the salsa.",
+     "她在莎莎醬裡加了切碎的香菜。"
+    ],
+    [
+     "Some people think cilantro tastes like soap.",
+     "有些人覺得香菜吃起來像肥皂。"
+    ]
+   ]
+  }
+ ],
+ "lawful": [
+  {
+   "p": "adj",
+   "zh": "合法的；守法的",
+   "ai": [
+    [
+     "The police made a lawful arrest.",
+     "警方進行了合法的逮捕。"
+    ],
+    [
+     "It is lawful to park here on weekends.",
+     "週末在這裡停車是合法的。"
+    ],
+    [
+     "They are lawful citizens who pay their taxes.",
+     "他們是依法納稅的守法公民。"
+    ]
+   ]
+  }
+ ],
+ "handler": [
+  {
+   "p": "n",
+   "zh": "訓練員；領犬員",
+   "ai": [
+    [
+     "The dog handler led the dog through the crowd.",
+     "領犬員帶著狗穿過人群。"
+    ],
+    [
+     "The animal handler fed the elephants every morning.",
+     "動物訓練員每天早上餵大象。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "處理者；負責人",
+   "ai": [
+    [
+     "She works as a baggage handler at the airport.",
+     "她在機場擔任行李處理員。"
+    ],
+    [
+     "He is the main handler of customer complaints.",
+     "他是處理客訴的主要負責人。"
+    ]
+   ]
+  }
+ ],
+ "muse": [
+  {
+   "p": "n",
+   "zh": "靈感來源；繆思",
+   "ai": [
+    [
+     "The painter's wife was his muse for many years.",
+     "畫家的妻子多年來都是他的靈感來源。"
+    ],
+    [
+     "The poet said the sea was her muse.",
+     "那位詩人說大海是她的靈感泉源。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "沉思；若有所思地說",
+   "ai": [
+    [
+     "\"I wonder where they went,\" she mused.",
+     "「不知道他們去哪了。」她若有所思地說。"
+    ],
+    [
+     "He mused over the offer for several days.",
+     "他針對這個提議沉思了好幾天。"
+    ]
+   ]
+  }
+ ]
+}

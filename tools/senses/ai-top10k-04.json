@@ -1,0 +1,2304 @@
+{
+ "polytechnic": [
+  {
+   "p": "n",
+   "zh": "理工專科學校",
+   "ai": [
+    [
+     "He studied engineering at a polytechnic before getting a job.",
+     "他在找工作之前，先在理工專科學校讀工程。"
+    ],
+    [
+     "The polytechnic offers practical courses in design and technology.",
+     "這所理工專科學校開設設計與科技的實用課程。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "工藝的；理工的",
+   "ai": [
+    [
+     "She took a polytechnic course in electronics.",
+     "她修了一門理工類的電子學課程。"
+    ],
+    [
+     "The school gives a polytechnic education that focuses on practical skills.",
+     "這所學校提供注重實用技能的理工教育。"
+    ]
+   ]
+  }
+ ],
+ "marx": [
+  {
+   "p": "n",
+   "zh": "（馬克思，德國思想家）",
+   "ai": [
+    [
+     "Karl Marx was a German philosopher who wrote about economics and society.",
+     "卡爾·馬克思是德國哲學家，著有探討經濟與社會的作品。"
+    ],
+    [
+     "We read a short passage by Marx in our history class.",
+     "我們在歷史課上讀了一小段馬克思的文章。"
+    ]
+   ]
+  }
+ ],
+ "eliot": [
+  {
+   "p": "n",
+   "zh": "（艾略特，姓氏）",
+   "ai": [
+    [
+     "T. S. Eliot was a poet who wrote The Waste Land.",
+     "T. S. 艾略特是詩人，寫過《荒原》。"
+    ],
+    [
+     "Eliot is a surname that is also used as a boy's first name.",
+     "艾略特是個姓氏，也常被用來當作男孩的名字。"
+    ]
+   ]
+  }
+ ],
+ "olympics": [
+  {
+   "p": "n",
+   "zh": "奧林匹克運動會",
+   "ai": [
+    [
+     "The Olympics are held every four years.",
+     "奧林匹克運動會每四年舉行一次。"
+    ],
+    [
+     "Many young athletes dream of competing in the Olympics.",
+     "許多年輕運動員夢想參加奧運。"
+    ],
+    [
+     "We stayed up late to watch the opening of the Olympics.",
+     "我們熬夜看奧運開幕式。"
+    ]
+   ]
+  }
+ ],
+ "sooner": [
+  {
+   "p": "adv",
+   "zh": "更早、更快",
+   "ai": [
+    [
+     "If you had told me sooner, I could have helped.",
+     "如果你早點告訴我，我就能幫忙了。"
+    ],
+    [
+     "The sooner we start, the sooner we can finish.",
+     "我們越早開始，就能越早完成。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "遲早（sooner or later）",
+   "ai": [
+    [
+     "Sooner or later, you will have to make a decision.",
+     "你遲早得做出決定。"
+    ],
+    [
+     "He will find out the truth sooner or later.",
+     "他遲早會發現真相。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "寧願（would sooner）",
+   "ai": [
+    [
+     "I would sooner walk home than wait for the bus.",
+     "我寧願走路回家，也不想等公車。"
+    ],
+    [
+     "She would sooner stay in tonight than go to the party.",
+     "她今晚寧可待在家，也不想去派對。"
+    ]
+   ]
+  }
+ ],
+ "seventeen": [
+  {
+   "p": "num",
+   "zh": "十七",
+   "ai": [
+    [
+     "My cousin turns seventeen next month.",
+     "我表弟下個月就滿十七歲了。"
+    ],
+    [
+     "There are seventeen students in our class.",
+     "我們班上有十七個學生。"
+    ],
+    [
+     "The bus leaves at seventeen minutes past nine.",
+     "公車九點十七分開。"
+    ]
+   ]
+  }
+ ],
+ "twentieth": [
+  {
+   "p": "num",
+   "zh": "第二十",
+   "ai": [
+    [
+     "Today is the twentieth of the month.",
+     "今天是這個月的二十號。"
+    ],
+    [
+     "They are celebrating their twentieth anniversary this year.",
+     "他們今年慶祝結婚二十週年。"
+    ],
+    [
+     "He finished in twentieth place in the race.",
+     "他在比賽中得到第二十名。"
+    ]
+   ]
+  }
+ ],
+ "thames": [
+  {
+   "p": "n",
+   "zh": "泰晤士河",
+   "ai": [
+    [
+     "The Thames flows through the city of London.",
+     "泰晤士河流經倫敦市。"
+    ],
+    [
+     "We took a boat trip along the Thames last summer.",
+     "去年夏天我們搭船遊覽了泰晤士河。"
+    ]
+   ]
+  }
+ ],
+ "roy": [
+  {
+   "p": "n",
+   "zh": "（羅伊，男子名）",
+   "ai": [
+    [
+     "Roy is a short name for a boy.",
+     "羅伊是個簡短的男孩名字。"
+    ],
+    [
+     "The name Roy is often used in English-speaking countries.",
+     "羅伊這個名字常見於英語系國家。"
+    ]
+   ]
+  }
+ ],
+ "malcolm": [
+  {
+   "p": "n",
+   "zh": "（馬爾科姆，男子名）",
+   "ai": [
+    [
+     "Malcolm is a name that comes from Scotland.",
+     "馬爾科姆這個名字源自蘇格蘭。"
+    ],
+    [
+     "In the story, a boy named Malcolm finds a map.",
+     "故事裡，一個叫馬爾科姆的男孩找到了一張地圖。"
+    ]
+   ]
+  }
+ ],
+ "jenny": [
+  {
+   "p": "n",
+   "zh": "（珍妮，女子名）",
+   "ai": [
+    [
+     "Jenny is a short form of the name Jennifer.",
+     "珍妮是珍妮佛這個名字的簡稱。"
+    ],
+    [
+     "In the picture book, a girl named Jenny feeds the ducks.",
+     "在這本繪本裡，一個名叫珍妮的女孩正在餵鴨子。"
+    ]
+   ]
+  }
+ ],
+ "morgan": [
+  {
+   "p": "n",
+   "zh": "（摩根，姓氏、名字）",
+   "ai": [
+    [
+     "Morgan is both a surname and a first name.",
+     "摩根既是姓氏，也可以當作名字。"
+    ],
+    [
+     "The name Morgan has Welsh origins.",
+     "摩根這個名字源自威爾斯。"
+    ]
+   ]
+  }
+ ],
+ "allen": [
+  {
+   "p": "n",
+   "zh": "（艾倫，男子名）",
+   "ai": [
+    [
+     "Allen is a common name for boys in the United States.",
+     "艾倫是美國常見的男孩名字。"
+    ],
+    [
+     "The teacher asked Allen to read the next paragraph aloud.",
+     "老師請艾倫大聲朗讀下一段。"
+    ]
+   ]
+  }
+ ],
+ "marie": [
+  {
+   "p": "n",
+   "zh": "（瑪麗，女子名）",
+   "ai": [
+    [
+     "Marie is a French form of the name Mary.",
+     "瑪麗是 Mary 這個名字的法文形式。"
+    ],
+    [
+     "Marie Curie was a scientist who won two Nobel Prizes.",
+     "瑪麗·居禮是科學家，曾獲得兩次諾貝爾獎。"
+    ]
+   ]
+  }
+ ],
+ "vietnam": [
+  {
+   "p": "n",
+   "zh": "越南",
+   "ai": [
+    [
+     "Vietnam is a country in Southeast Asia.",
+     "越南是東南亞的一個國家。"
+    ],
+    [
+     "We tried delicious noodle soup on our trip to Vietnam.",
+     "我們去越南旅行時吃了好吃的湯麵。"
+    ]
+   ]
+  }
+ ],
+ "cardiff": [
+  {
+   "p": "n",
+   "zh": "（加的夫，英國城市）",
+   "ai": [
+    [
+     "Cardiff is the capital city of Wales.",
+     "加的夫是威爾斯的首府。"
+    ],
+    [
+     "We watched a football match in Cardiff last weekend.",
+     "我們上週末在加的夫看了一場足球賽。"
+    ]
+   ]
+  }
+ ],
+ "pakistan": [
+  {
+   "p": "n",
+   "zh": "巴基斯坦",
+   "ai": [
+    [
+     "Pakistan is a country in South Asia.",
+     "巴基斯坦是南亞的一個國家。"
+    ],
+    [
+     "Islamabad is the capital of Pakistan.",
+     "伊斯蘭瑪巴德是巴基斯坦的首都。"
+    ]
+   ]
+  }
+ ],
+ "faster": [
+  {
+   "p": "adj",
+   "zh": "更快的",
+   "ai": [
+    [
+     "This train is faster than the old one.",
+     "這班火車比舊的那班更快。"
+    ],
+    [
+     "I need a faster computer for my work.",
+     "我的工作需要一台更快的電腦。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "更快地",
+   "ai": [
+    [
+     "Can you walk a little faster? We are late.",
+     "你能走快一點嗎？我們遲到了。"
+    ],
+    [
+     "The kids ran faster as the rain got heavier.",
+     "雨越下越大，孩子們跑得更快了。"
+    ]
+   ]
+  }
+ ],
+ "huh": [
+  {
+   "p": "int",
+   "zh": "蛤？、咦（沒聽清楚或感到意外）",
+   "ai": [
+    [
+     "Huh? I didn't catch what you just said.",
+     "蛤？我沒聽到你剛剛說什麼。"
+    ],
+    [
+     "Huh, that's strange. The door was open a minute ago.",
+     "咦，真奇怪，剛剛門明明是開著的。"
+    ]
+   ]
+  },
+  {
+   "p": "int",
+   "zh": "是吧、對吧（放句尾）",
+   "ai": [
+    [
+     "It's a pretty good idea, huh?",
+     "這個點子不錯，對吧？"
+    ],
+    [
+     "You forgot your keys again, huh?",
+     "你又忘了帶鑰匙，是吧？"
+    ]
+   ]
+  }
+ ],
+ "ours": [
+  {
+   "p": "pron",
+   "zh": "我們的（東西）",
+   "ai": [
+    [
+     "That car is not yours. It is ours.",
+     "那輛車不是你的，是我們的。"
+    ],
+    [
+     "Your house is bigger, but ours has a nicer garden.",
+     "你們的房子比較大，但我們的花園比較漂亮。"
+    ],
+    [
+     "Their team played well, but the win was ours.",
+     "他們隊伍表現不錯，但勝利是屬於我們的。"
+    ]
+   ]
+  }
+ ],
+ "greece": [
+  {
+   "p": "n",
+   "zh": "希臘",
+   "ai": [
+    [
+     "Greece is famous for its beautiful islands.",
+     "希臘以美麗的島嶼聞名。"
+    ],
+    [
+     "Athens is the capital of Greece.",
+     "雅典是希臘的首都。"
+    ]
+   ]
+  }
+ ],
+ "geoffrey": [
+  {
+   "p": "n",
+   "zh": "（傑弗里，男子名）",
+   "ai": [
+    [
+     "Geoffrey is an old English name for boys.",
+     "傑弗里是個古老的英文男孩名字。"
+    ],
+    [
+     "Geoffrey Chaucer wrote The Canterbury Tales.",
+     "傑弗里·喬叟寫了《坎特伯里故事集》。"
+    ]
+   ]
+  }
+ ],
+ "barbara": [
+  {
+   "p": "n",
+   "zh": "（芭芭拉，女子名）",
+   "ai": [
+    [
+     "Barbara is a popular name for girls in many countries.",
+     "芭芭拉在許多國家都是受歡迎的女孩名字。"
+    ],
+    [
+     "The name Barbara comes from a Greek word.",
+     "芭芭拉這個名字來自一個希臘文單字。"
+    ]
+   ]
+  }
+ ],
+ "sweden": [
+  {
+   "p": "n",
+   "zh": "瑞典",
+   "ai": [
+    [
+     "Sweden is a country in northern Europe.",
+     "瑞典是北歐的一個國家。"
+    ],
+    [
+     "Stockholm is the capital of Sweden.",
+     "斯德哥爾摩是瑞典的首都。"
+    ]
+   ]
+  }
+ ],
+ "lancashire": [
+  {
+   "p": "n",
+   "zh": "（蘭開夏郡，英格蘭郡名）",
+   "ai": [
+    [
+     "Lancashire is a county in the north of England.",
+     "蘭開夏郡是英格蘭北部的一個郡。"
+    ],
+    [
+     "Blackpool is a seaside town in Lancashire.",
+     "黑潭是蘭開夏郡的一個海濱小鎮。"
+    ]
+   ]
+  }
+ ],
+ "bruce": [
+  {
+   "p": "n",
+   "zh": "（布魯斯，男子名）",
+   "ai": [
+    [
+     "Bruce is a common name for boys in English-speaking countries.",
+     "布魯斯是英語系國家常見的男孩名字。"
+    ],
+    [
+     "The name Bruce also appears as a surname in Scotland.",
+     "布魯斯這個名字在蘇格蘭也是常見的姓氏。"
+    ]
+   ]
+  }
+ ],
+ "clark": [
+  {
+   "p": "n",
+   "zh": "（克拉克，姓氏、男子名）",
+   "ai": [
+    [
+     "Clark is a common surname in English-speaking countries.",
+     "克拉克是英語系國家常見的姓氏。"
+    ],
+    [
+     "In the cartoon, Clark is a reporter at a newspaper.",
+     "在這部卡通裡，克拉克是報社的記者。"
+    ]
+   ]
+  }
+ ],
+ "brazil": [
+  {
+   "p": "n",
+   "zh": "巴西",
+   "ai": [
+    [
+     "Brazil is the largest country in South America.",
+     "巴西是南美洲最大的國家。"
+    ],
+    [
+     "People in Brazil speak Portuguese.",
+     "巴西人說葡萄牙語。"
+    ]
+   ]
+  }
+ ],
+ "liz": [
+  {
+   "p": "n",
+   "zh": "（莉斯，女子名）",
+   "ai": [
+    [
+     "Liz is a short form of the name Elizabeth.",
+     "莉斯是伊莉莎白的簡稱。"
+    ],
+    [
+     "My teacher called Liz to the front of the room.",
+     "我的老師把莉斯叫到教室前面。"
+    ]
+   ]
+  }
+ ],
+ "gp": [
+  {
+   "p": "n",
+   "zh": "家庭醫師",
+   "ai": [
+    [
+     "I made an appointment to see my GP tomorrow morning.",
+     "我預約了明天早上看家庭醫師。"
+    ],
+    [
+     "The GP told me to rest and drink plenty of water.",
+     "家庭醫師叫我多休息、多喝水。"
+    ]
+   ]
+  }
+ ],
+ "benjamin": [
+  {
+   "p": "n",
+   "zh": "（班傑明，男子名）",
+   "ai": [
+    [
+     "Benjamin is a name that comes from Hebrew.",
+     "班傑明這個名字源自希伯來文。"
+    ],
+    [
+     "Benjamin Franklin was a writer, scientist, and inventor.",
+     "班傑明·富蘭克林是作家、科學家，也是發明家。"
+    ]
+   ]
+  }
+ ],
+ "greek": [
+  {
+   "p": "adj",
+   "zh": "希臘的",
+   "ai": [
+    [
+     "We ate Greek salad at a small restaurant by the sea.",
+     "我們在海邊一家小餐館吃了希臘沙拉。"
+    ],
+    [
+     "She is studying Greek history at university.",
+     "她在大學主修希臘歷史。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "希臘語；希臘人",
+   "ai": [
+    [
+     "He is learning Greek so he can read old texts.",
+     "他正在學希臘語，好讀懂古老的文獻。"
+    ],
+    [
+     "Many Greeks enjoy spending summer days on the islands.",
+     "許多希臘人喜歡在島上度過夏天。"
+    ]
+   ]
+  }
+ ],
+ "cleveland": [
+  {
+   "p": "n",
+   "zh": "（克利夫蘭，美國城市）",
+   "ai": [
+    [
+     "Cleveland is a city in the state of Ohio.",
+     "克利夫蘭是俄亥俄州的一座城市。"
+    ],
+    [
+     "Cleveland sits on the shore of Lake Erie.",
+     "克利夫蘭位於伊利湖畔。"
+    ]
+   ]
+  }
+ ],
+ "harriet": [
+  {
+   "p": "n",
+   "zh": "（哈里特，女子名）",
+   "ai": [
+    [
+     "Harriet is an old-fashioned name for girls.",
+     "哈里特是個老派的女孩名字。"
+    ],
+    [
+     "Harriet Tubman helped many people escape slavery.",
+     "哈里特·塔布曼協助許多人逃離奴隸制度。"
+    ]
+   ]
+  }
+ ],
+ "gorbachev": [
+  {
+   "p": "n",
+   "zh": "（戈巴契夫，前蘇聯領導人）",
+   "ai": [
+    [
+     "Mikhail Gorbachev was the last leader of the Soviet Union.",
+     "米哈伊爾·戈巴契夫是蘇聯的最後一任領導人。"
+    ],
+    [
+     "We learned about Gorbachev in our modern history class.",
+     "我們在現代史課上學到了戈巴契夫。"
+    ]
+   ]
+  }
+ ],
+ "seventh": [
+  {
+   "p": "num",
+   "zh": "第七",
+   "ai": [
+    [
+     "She lives on the seventh floor of the building.",
+     "她住在這棟大樓的七樓。"
+    ],
+    [
+     "Our team finished in seventh place this season.",
+     "我們隊伍這個球季拿到第七名。"
+    ],
+    [
+     "My brother is in the seventh grade.",
+     "我弟弟讀七年級。"
+    ]
+   ]
+  }
+ ],
+ "holland": [
+  {
+   "p": "n",
+   "zh": "（荷蘭）",
+   "ai": [
+    [
+     "Holland is famous for its tulips and windmills.",
+     "荷蘭以鬱金香和風車聞名。"
+    ],
+    [
+     "Many people ride bicycles to work in Holland.",
+     "在荷蘭，許多人騎腳踏車上班。"
+    ]
+   ]
+  }
+ ],
+ "virgin": [
+  {
+   "p": "adj",
+   "zh": "未經開發的；初始的；純的",
+   "ai": [
+    [
+     "The hikers walked through a virgin forest.",
+     "健行者走過一片原始森林。"
+    ],
+    [
+     "I prefer virgin olive oil on my salad.",
+     "我喜歡在沙拉裡淋初榨橄欖油。"
+    ]
+   ]
+  }
+ ],
+ "catherine": [
+  {
+   "p": "n",
+   "zh": "（凱瑟琳，女子名）",
+   "ai": [
+    [
+     "Catherine is a classic name for girls.",
+     "凱瑟琳是個經典的女孩名字。"
+    ],
+    [
+     "Catherine the Great ruled Russia for many years.",
+     "葉卡捷琳娜大帝統治俄羅斯多年。"
+    ]
+   ]
+  }
+ ],
+ "robinson": [
+  {
+   "p": "n",
+   "zh": "（羅賓遜，姓氏）",
+   "ai": [
+    [
+     "Robinson is a common surname in English-speaking countries.",
+     "羅賓遜是英語系國家常見的姓氏。"
+    ],
+    [
+     "Robinson Crusoe is a famous novel about a man on an island.",
+     "《魯賓遜漂流記》是一本描寫荒島求生的知名小說。"
+    ]
+   ]
+  }
+ ],
+ "mexico": [
+  {
+   "p": "n",
+   "zh": "墨西哥",
+   "ai": [
+    [
+     "Mexico is a country in North America.",
+     "墨西哥是北美洲的一個國家。"
+    ],
+    [
+     "People in Mexico speak Spanish.",
+     "墨西哥人說西班牙語。"
+    ]
+   ]
+  }
+ ],
+ "cuban": [
+  {
+   "p": "adj",
+   "zh": "古巴的",
+   "ai": [
+    [
+     "He loves listening to Cuban music.",
+     "他喜歡聽古巴音樂。"
+    ],
+    [
+     "We tried a Cuban sandwich at a small cafe.",
+     "我們在一家小咖啡館吃了古巴三明治。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "古巴人",
+   "ai": [
+    [
+     "The Cuban at the next table was telling stories about Havana.",
+     "隔壁桌的古巴人正在講哈瓦那的故事。"
+    ],
+    [
+     "Many Cubans enjoy baseball.",
+     "許多古巴人喜歡棒球。"
+    ]
+   ]
+  }
+ ],
+ "donald": [
+  {
+   "p": "n",
+   "zh": "（唐納德，男子名）",
+   "ai": [
+    [
+     "Donald is a common name for boys in English-speaking countries.",
+     "唐納德是英語系國家常見的男孩名字。"
+    ],
+    [
+     "Donald Duck is a famous cartoon character.",
+     "唐老鴨是著名的卡通角色。"
+    ]
+   ]
+  }
+ ],
+ "hollywood": [
+  {
+   "p": "n",
+   "zh": "好萊塢，美國電影界",
+   "ai": [
+    [
+     "Hollywood is known as the center of the American film industry.",
+     "好萊塢被視為美國電影工業的中心。"
+    ],
+    [
+     "Many tourists visit Hollywood to see the famous sign.",
+     "許多遊客到好萊塢參觀著名的地標字樣。"
+    ]
+   ]
+  }
+ ],
+ "jonathan": [
+  {
+   "p": "n",
+   "zh": "（喬納森，男子名）",
+   "ai": [
+    [
+     "Jonathan is a name that comes from Hebrew.",
+     "喬納森這個名字源自希伯來文。"
+    ],
+    [
+     "Jonathan is a popular name for boys in many countries.",
+     "喬納森在許多國家都是受歡迎的男孩名字。"
+    ]
+   ]
+  }
+ ],
+ "kenneth": [
+  {
+   "p": "n",
+   "zh": "（肯尼斯，男子名）",
+   "ai": [
+    [
+     "Kenneth is a name that comes from Scotland.",
+     "肯尼斯這個名字源自蘇格蘭。"
+    ],
+    [
+     "The teacher asked Kenneth to hand out the papers.",
+     "老師請肯尼斯發考卷。"
+    ]
+   ]
+  }
+ ],
+ "charlotte": [
+  {
+   "p": "n",
+   "zh": "（夏洛特，女子名）",
+   "ai": [
+    [
+     "Charlotte is a popular name for girls.",
+     "夏洛特是個受歡迎的女孩名字。"
+    ],
+    [
+     "Charlotte Bronte wrote the novel Jane Eyre.",
+     "夏洛蒂·勃朗特寫了小說《簡愛》。"
+    ]
+   ]
+  }
+ ],
+ "marshall": [
+  {
+   "p": "n",
+   "zh": "（馬歇爾，姓氏、男子名）",
+   "ai": [
+    [
+     "Marshall is both a surname and a first name.",
+     "馬歇爾既是姓氏，也可以當作名字。"
+    ],
+    [
+     "The name Marshall once meant a person who looked after horses.",
+     "馬歇爾這個名字原本指的是照顧馬匹的人。"
+    ]
+   ]
+  }
+ ],
+ "johnny": [
+  {
+   "p": "n",
+   "zh": "（強尼，男子名）",
+   "ai": [
+    [
+     "Johnny is a short, friendly form of the name John.",
+     "強尼是約翰這個名字親切的簡稱。"
+    ],
+    [
+     "In the song, a boy named Johnny goes to the beach.",
+     "在這首歌裡，一個名叫強尼的男孩去了海邊。"
+    ]
+   ]
+  }
+ ],
+ "whoever": [
+  {
+   "p": "pron",
+   "zh": "無論誰；任何人",
+   "ai": [
+    [
+     "Whoever finishes first can help the others.",
+     "無論誰先做完，都可以去幫助其他人。"
+    ],
+    [
+     "You can invite whoever you like to the party.",
+     "你可以邀請任何你想邀請的人來派對。"
+    ],
+    [
+     "Whoever left the window open should close it.",
+     "不管是誰把窗戶開著，都該把它關上。"
+    ]
+   ]
+  }
+ ],
+ "campbell": [
+  {
+   "p": "n",
+   "zh": "（坎貝爾，姓氏）",
+   "ai": [
+    [
+     "Campbell is a well-known surname in Scotland.",
+     "坎貝爾是蘇格蘭著名的姓氏。"
+    ],
+    [
+     "The speaker introduced herself as Ms. Campbell.",
+     "講者自我介紹說她是坎貝爾女士。"
+    ]
+   ]
+  }
+ ],
+ "karen": [
+  {
+   "p": "n",
+   "zh": "（凱倫，女子名）",
+   "ai": [
+    [
+     "Karen is a popular girl's name in many countries.",
+     "凱倫在許多國家都是受歡迎的女孩名字。"
+    ],
+    [
+     "Karen waved to us from across the street.",
+     "凱倫在街的另一邊朝我們揮手。"
+    ]
+   ]
+  }
+ ],
+ "oxfordshire": [
+  {
+   "p": "n",
+   "zh": "（牛津郡，英格蘭郡名）",
+   "ai": [
+    [
+     "Oxfordshire is a county in southern England.",
+     "牛津郡是英格蘭南部的一個郡。"
+    ],
+    [
+     "The city of Oxford is in Oxfordshire.",
+     "牛津市位於牛津郡。"
+    ]
+   ]
+  }
+ ],
+ "bloke": [
+  {
+   "p": "n",
+   "zh": "傢伙；男人（英式口語）",
+   "ai": [
+    [
+     "He seems like a nice bloke.",
+     "他看起來是個不錯的傢伙。"
+    ],
+    [
+     "A bloke at the pub told us about a good restaurant.",
+     "酒館裡有個傢伙告訴我們一家好餐廳。"
+    ]
+   ]
+  }
+ ],
+ "freud": [
+  {
+   "p": "n",
+   "zh": "（佛洛伊德，奧地利精神分析學家）",
+   "ai": [
+    [
+     "Sigmund Freud was an Austrian doctor who studied the mind.",
+     "西格蒙德·佛洛伊德是研究心理的奧地利醫生。"
+    ],
+    [
+     "Our psychology teacher talked about Freud today.",
+     "我們的心理學老師今天談到了佛洛伊德。"
+    ]
+   ]
+  }
+ ],
+ "kuwait": [
+  {
+   "p": "n",
+   "zh": "科威特",
+   "ai": [
+    [
+     "Kuwait is a small country in the Middle East.",
+     "科威特是中東的一個小國。"
+    ],
+    [
+     "Kuwait City is the capital of Kuwait.",
+     "科威特城是科威特的首都。"
+    ]
+   ]
+  }
+ ],
+ "shocked": [
+  {
+   "p": "adj",
+   "zh": "震驚的",
+   "ai": [
+    [
+     "She was shocked to hear the sudden news.",
+     "她聽到這個突如其來的消息時嚇了一跳。"
+    ],
+    [
+     "We were all shocked by how expensive the bill was.",
+     "帳單貴得離譜，我們都嚇到了。"
+    ]
+   ]
+  }
+ ],
+ "added": [
+  {
+   "p": "v",
+   "zh": "增加、加上",
+   "ai": [
+    [
+     "She added some salt to the soup.",
+     "她在湯裡加了一些鹽。"
+    ],
+    [
+     "They added two new rooms to the house.",
+     "他們為房子增建了兩間新房間。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "補充說",
+   "ai": [
+    [
+     "\"I'll be late,\" he added quietly.",
+     "他又輕聲補了一句：「我會晚到。」"
+    ],
+    [
+     "She added that the meeting would start at ten.",
+     "她補充說會議十點開始。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "額外的、附加的",
+   "ai": [
+    [
+     "The hotel charges no added fee for breakfast.",
+     "這間旅館的早餐不另外收費。"
+    ],
+    [
+     "Fresh fruit juice has no added sugar.",
+     "新鮮果汁沒有額外添加糖。"
+    ]
+   ]
+  }
+ ],
+ "switzerland": [
+  {
+   "p": "n",
+   "zh": "瑞士",
+   "ai": [
+    [
+     "Switzerland is a country in the middle of Europe.",
+     "瑞士是位於歐洲中部的國家。"
+    ],
+    [
+     "Switzerland is famous for its mountains and chocolate.",
+     "瑞士以山景和巧克力聞名。"
+    ]
+   ]
+  }
+ ],
+ "daniel": [
+  {
+   "p": "n",
+   "zh": "（丹尼爾，男子名）",
+   "ai": [
+    [
+     "Daniel is a name that comes from Hebrew.",
+     "丹尼爾這個名字源自希伯來文。"
+    ],
+    [
+     "Daniel is one of the most common boys' names in English.",
+     "丹尼爾是英文裡最常見的男孩名字之一。"
+    ]
+   ]
+  }
+ ],
+ "norwich": [
+  {
+   "p": "n",
+   "zh": "（諾威奇，英國城市）",
+   "ai": [
+    [
+     "Norwich is a city in the east of England.",
+     "諾威奇是英格蘭東部的一座城市。"
+    ],
+    [
+     "Norwich has an old cathedral and a castle.",
+     "諾威奇有一座古老的大教堂和一座城堡。"
+    ]
+   ]
+  }
+ ],
+ "norway": [
+  {
+   "p": "n",
+   "zh": "挪威",
+   "ai": [
+    [
+     "Norway is a country in northern Europe.",
+     "挪威是北歐的一個國家。"
+    ],
+    [
+     "Many people travel to Norway to see the northern lights.",
+     "許多人到挪威去看極光。"
+    ]
+   ]
+  }
+ ],
+ "dried": [
+  {
+   "p": "adj",
+   "zh": "乾燥的、曬乾的",
+   "ai": [
+    [
+     "I packed some dried fruit for the hike.",
+     "我帶了一些果乾去健行。"
+    ],
+    [
+     "She added dried herbs to the sauce.",
+     "她在醬汁裡加了乾燥香草。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "弄乾、變乾",
+   "ai": [
+    [
+     "He dried his hands with a towel.",
+     "他用毛巾把手擦乾。"
+    ],
+    [
+     "The clothes dried quickly in the hot sun.",
+     "衣服在大太陽下很快就乾了。"
+    ]
+   ]
+  }
+ ],
+ "brussels": [
+  {
+   "p": "n",
+   "zh": "布魯塞爾",
+   "ai": [
+    [
+     "Brussels is the capital of Belgium.",
+     "布魯塞爾是比利時的首都。"
+    ],
+    [
+     "We took a train from Paris to Brussels.",
+     "我們搭火車從巴黎到布魯塞爾。"
+    ]
+   ]
+  }
+ ],
+ "moor": [
+  {
+   "p": "n",
+   "zh": "荒野；曠野",
+   "ai": [
+    [
+     "We walked across the open moor on a windy afternoon.",
+     "一個颳風的下午，我們走過空曠的荒野。"
+    ],
+    [
+     "Sheep were grazing on the moor.",
+     "羊群在荒野上吃草。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "繫住；停泊",
+   "ai": [
+    [
+     "They moored the boat to a post at the dock.",
+     "他們把船繫在碼頭的柱子上。"
+    ],
+    [
+     "We moored near the village for the night.",
+     "我們把船停泊在村莊附近過夜。"
+    ]
+   ]
+  }
+ ],
+ "chelsea": [
+  {
+   "p": "n",
+   "zh": "（切爾西，倫敦地區）",
+   "ai": [
+    [
+     "Chelsea is an area in west London.",
+     "切爾西是倫敦西部的一個地區。"
+    ],
+    [
+     "Chelsea is also a girl's name.",
+     "切爾西也是個女孩的名字。"
+    ]
+   ]
+  }
+ ],
+ "developed": [
+  {
+   "p": "adj",
+   "zh": "已開發的；成熟的",
+   "ai": [
+    [
+     "Japan is a developed country with a strong economy.",
+     "日本是經濟強大的已開發國家。"
+    ],
+    [
+     "She has a well developed sense of humor.",
+     "她的幽默感十分成熟。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "發展、開發",
+   "ai": [
+    [
+     "The company developed a new app last year.",
+     "這家公司去年開發了一款新的應用程式。"
+    ],
+    [
+     "Their friendship developed over many years.",
+     "他們的友誼是經過多年逐漸發展起來的。"
+    ]
+   ]
+  }
+ ],
+ "brighton": [
+  {
+   "p": "n",
+   "zh": "（布賴頓，英國海濱城市）",
+   "ai": [
+    [
+     "Brighton is a seaside city on the south coast of England.",
+     "布賴頓是英格蘭南岸的海濱城市。"
+    ],
+    [
+     "We spent a sunny weekend in Brighton.",
+     "我們在布賴頓度過了一個晴朗的週末。"
+    ]
+   ]
+  }
+ ],
+ "milton": [
+  {
+   "p": "n",
+   "zh": "（米爾頓，男子名、英國詩人）",
+   "ai": [
+    [
+     "John Milton was an English poet who wrote Paradise Lost.",
+     "約翰·米爾頓是英國詩人，寫了《失樂園》。"
+    ],
+    [
+     "Milton is also used as a boy's first name.",
+     "米爾頓也被用來當作男孩的名字。"
+    ]
+   ]
+  }
+ ],
+ "hamilton": [
+  {
+   "p": "n",
+   "zh": "（漢密爾頓，姓氏、城市名）",
+   "ai": [
+    [
+     "Hamilton is a surname and also the name of several cities.",
+     "漢密爾頓是個姓氏，也是好幾座城市的名稱。"
+    ],
+    [
+     "Alexander Hamilton was one of the founders of the United States.",
+     "亞歷山大·漢密爾頓是美國的開國元勳之一。"
+    ]
+   ]
+  }
+ ],
+ "anderson": [
+  {
+   "p": "n",
+   "zh": "（安德森，姓氏）",
+   "ai": [
+    [
+     "Anderson is a common surname in English-speaking countries.",
+     "安德森是英語系國家常見的姓氏。"
+    ],
+    [
+     "Hans Christian Andersen is spelled differently from Anderson.",
+     "安徒生（Andersen）的拼法和安德森（Anderson）不同。"
+    ]
+   ]
+  }
+ ],
+ "dennis": [
+  {
+   "p": "n",
+   "zh": "（丹尼斯，男子名）",
+   "ai": [
+    [
+     "Dennis is a common name for boys.",
+     "丹尼斯是個常見的男孩名字。"
+    ],
+    [
+     "Dennis is a short form of the name Dionysius.",
+     "丹尼斯是 Dionysius 這個名字的簡化形式。"
+    ]
+   ]
+  }
+ ],
+ "hungary": [
+  {
+   "p": "n",
+   "zh": "匈牙利",
+   "ai": [
+    [
+     "Hungary is a country in central Europe.",
+     "匈牙利是中歐的一個國家。"
+    ],
+    [
+     "Budapest is the capital of Hungary.",
+     "布達佩斯是匈牙利的首都。"
+    ]
+   ]
+  }
+ ],
+ "duncan": [
+  {
+   "p": "n",
+   "zh": "（鄧肯，姓氏、男子名）",
+   "ai": [
+    [
+     "Duncan is a name that comes from Scotland.",
+     "鄧肯這個名字源自蘇格蘭。"
+    ],
+    [
+     "Duncan is both a surname and a first name.",
+     "鄧肯既是姓氏，也可以當作名字。"
+    ]
+   ]
+  }
+ ],
+ "newton": [
+  {
+   "p": "n",
+   "zh": "（牛頓，英國科學家）",
+   "ai": [
+    [
+     "Isaac Newton was an English scientist who studied gravity.",
+     "艾薩克·牛頓是研究重力的英國科學家。"
+    ],
+    [
+     "Students learn about Newton's laws of motion in physics class.",
+     "學生在物理課上學習牛頓運動定律。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "牛頓（力的單位）",
+   "ai": [
+    [
+     "One newton is the force needed to move a one-kilogram mass.",
+     "一牛頓是使一公斤物體產生加速度所需的力。"
+    ],
+    [
+     "The force on the box was measured in newtons.",
+     "作用在箱子上的力是用牛頓來計量的。"
+    ]
+   ]
+  }
+ ],
+ "jordan": [
+  {
+   "p": "n",
+   "zh": "約旦",
+   "ai": [
+    [
+     "Jordan is a country in the Middle East.",
+     "約旦是中東的一個國家。"
+    ],
+    [
+     "Many tourists visit the ancient city of Petra in Jordan.",
+     "許多遊客到約旦參觀古城佩特拉。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（喬丹，人名）",
+   "ai": [
+    [
+     "Jordan is a name that can be used for both boys and girls.",
+     "喬丹這個名字男孩和女孩都可以使用。"
+    ],
+    [
+     "The name Jordan also comes from a river in the Middle East.",
+     "喬丹這個名字也源自中東的一條河。"
+    ]
+   ]
+  }
+ ],
+ "sally": [
+  {
+   "p": "n",
+   "zh": "（莎莉，女子名）",
+   "ai": [
+    [
+     "Sally is a short form of the name Sarah.",
+     "莎莉是莎拉的暱稱。"
+    ],
+    [
+     "In the story, Sally walks her dog every morning.",
+     "在這個故事裡，莎莉每天早上都會遛狗。"
+    ]
+   ]
+  }
+ ],
+ "roberts": [
+  {
+   "p": "n",
+   "zh": "（羅伯茨，姓氏）",
+   "ai": [
+    [
+     "Roberts is a common surname in English-speaking countries.",
+     "羅伯茨是英語系國家常見的姓氏。"
+    ],
+    [
+     "Please welcome our guest, Mr. Roberts.",
+     "請歡迎我們的來賓羅伯茨先生。"
+    ]
+   ]
+  }
+ ],
+ "eighth": [
+  {
+   "p": "num",
+   "zh": "第八",
+   "ai": [
+    [
+     "Our office is on the eighth floor.",
+     "我們的辦公室在八樓。"
+    ],
+    [
+     "She came in eighth in the swimming race.",
+     "她在游泳比賽中得到第八名。"
+    ],
+    [
+     "Today is the eighth day of our trip.",
+     "今天是我們旅行的第八天。"
+    ]
+   ]
+  }
+ ],
+ "emma": [
+  {
+   "p": "n",
+   "zh": "（艾瑪，女子名）",
+   "ai": [
+    [
+     "Emma is a popular name for girls in many countries.",
+     "艾瑪在許多國家都是受歡迎的女孩名字。"
+    ],
+    [
+     "Emma is the title of a novel by Jane Austen.",
+     "《愛瑪》是珍·奧斯汀寫的一本小說。"
+    ]
+   ]
+  }
+ ],
+ "louise": [
+  {
+   "p": "n",
+   "zh": "（路易絲，女子名）",
+   "ai": [
+    [
+     "Louise is a French name for girls.",
+     "路易絲是個法文的女孩名字。"
+    ],
+    [
+     "Louise is the female form of the name Louis.",
+     "路易絲是 Louis 這個名字的女性形式。"
+    ]
+   ]
+  }
+ ],
+ "julia": [
+  {
+   "p": "n",
+   "zh": "（朱莉婭，女子名）",
+   "ai": [
+    [
+     "Julia is a popular girl's name in many countries.",
+     "朱莉婭在許多國家都是受歡迎的女孩名字。"
+    ],
+    [
+     "The name Julia comes from Latin.",
+     "朱莉婭這個名字源自拉丁文。"
+    ]
+   ]
+  }
+ ],
+ "loch": [
+  {
+   "p": "n",
+   "zh": "（蘇格蘭的）湖；海灣",
+   "ai": [
+    [
+     "Loch Ness is a famous lake in Scotland.",
+     "尼斯湖是蘇格蘭著名的湖泊。"
+    ],
+    [
+     "We rented a small boat and sailed across the loch.",
+     "我們租了一艘小船，划過那片湖。"
+    ]
+   ]
+  }
+ ],
+ "gloucestershire": [
+  {
+   "p": "n",
+   "zh": "（格洛斯特郡，英格蘭郡名）",
+   "ai": [
+    [
+     "Gloucestershire is a county in the southwest of England.",
+     "格洛斯特郡是英格蘭西南部的一個郡。"
+    ],
+    [
+     "The Cotswolds stretch into Gloucestershire.",
+     "科茲窩地區延伸到格洛斯特郡。"
+    ]
+   ]
+  }
+ ],
+ "nato": [
+  {
+   "p": "n",
+   "zh": "北大西洋公約組織",
+   "ai": [
+    [
+     "NATO was founded in 1949.",
+     "北約成立於1949年。"
+    ],
+    [
+     "Several countries in Europe are members of NATO.",
+     "歐洲有好幾個國家是北約成員。"
+    ]
+   ]
+  }
+ ],
+ "quid": [
+  {
+   "p": "n",
+   "zh": "英鎊（英式口語）",
+   "ai": [
+    [
+     "This sandwich only cost me five quid.",
+     "這個三明治只花了我五英鎊。"
+    ],
+    [
+     "Can you lend me ten quid until Friday?",
+     "你能借我十英鎊到週五嗎？"
+    ]
+   ]
+  }
+ ],
+ "thanksgiving": [
+  {
+   "p": "n",
+   "zh": "感恩節",
+   "ai": [
+    [
+     "We have a big family dinner every Thanksgiving.",
+     "每年感恩節我們都有家族大聚餐。"
+    ],
+    [
+     "Thanksgiving is celebrated in November in the United States.",
+     "美國在十一月慶祝感恩節。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "感恩、感謝",
+   "ai": [
+    [
+     "The villagers held a service of thanksgiving after the harvest.",
+     "收成之後，村民舉行了感恩儀式。"
+    ],
+    [
+     "She offered a prayer of thanksgiving for her family.",
+     "她為家人獻上感恩的禱告。"
+    ]
+   ]
+  }
+ ],
+ "uh": [
+  {
+   "p": "int",
+   "zh": "呃、嗯（說話遲疑時）",
+   "ai": [
+    [
+     "Uh, I'm not sure what to say.",
+     "呃，我不知道該說什麼。"
+    ],
+    [
+     "He said, \"Uh, can I call you back later?\"",
+     "他說：「嗯，我可以晚點再回電給你嗎？」"
+    ]
+   ]
+  }
+ ],
+ "closest": [
+  {
+   "p": "adj",
+   "zh": "最近的、最靠近的",
+   "ai": [
+    [
+     "Where is the closest train station?",
+     "最近的火車站在哪裡？"
+    ],
+    [
+     "She is my closest friend, and we talk every day.",
+     "她是我最親近的朋友，我們每天都聊天。"
+    ]
+   ]
+  }
+ ],
+ "belgium": [
+  {
+   "p": "n",
+   "zh": "比利時",
+   "ai": [
+    [
+     "Belgium is a small country in western Europe.",
+     "比利時是西歐的一個小國。"
+    ],
+    [
+     "Belgium is well known for chocolate and waffles.",
+     "比利時以巧克力和鬆餅聞名。"
+    ]
+   ]
+  }
+ ],
+ "persian": [
+  {
+   "p": "n",
+   "zh": "波斯語；波斯人",
+   "ai": [
+    [
+     "She is learning Persian so she can read old poetry.",
+     "她在學波斯語，好讀懂古老的詩歌。"
+    ],
+    [
+     "Persian is the main language spoken in Iran.",
+     "波斯語是伊朗的主要語言。"
+    ]
+   ]
+  }
+ ],
+ "perceived": [
+  {
+   "p": "v",
+   "zh": "察覺；視為、認為",
+   "ai": [
+    [
+     "Many people perceived the change as a good sign.",
+     "許多人把這個改變視為好兆頭。"
+    ],
+    [
+     "She perceived a slight sadness in his voice.",
+     "她察覺到他的聲音裡有一絲哀傷。"
+    ]
+   ]
+  }
+ ],
+ "oscar": [
+  {
+   "p": "n",
+   "zh": "奧斯卡金像獎",
+   "ai": [
+    [
+     "The film won an Oscar for best music.",
+     "這部電影獲得了奧斯卡最佳配樂獎。"
+    ],
+    [
+     "The Oscars are given out every year in Los Angeles.",
+     "奧斯卡獎每年都在洛杉磯頒發。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（奧斯卡，男子名）",
+   "ai": [
+    [
+     "Oscar is a name for boys that comes from Ireland.",
+     "奧斯卡是個源自愛爾蘭的男孩名字。"
+    ],
+    [
+     "Oscar Wilde was an Irish writer and playwright.",
+     "奧斯卡·王爾德是愛爾蘭作家與劇作家。"
+    ]
+   ]
+  }
+ ],
+ "stanley": [
+  {
+   "p": "n",
+   "zh": "（斯坦利，男子名）",
+   "ai": [
+    [
+     "Stanley is a name that is also used as a surname.",
+     "斯坦利這個名字也被當作姓氏使用。"
+    ],
+    [
+     "In the picture book, Stanley goes on a trip to the sea.",
+     "在這本繪本裡，斯坦利去海邊旅行。"
+    ]
+   ]
+  }
+ ],
+ "kennedy": [
+  {
+   "p": "n",
+   "zh": "（肯尼迪，姓氏）",
+   "ai": [
+    [
+     "John F. Kennedy was the thirty-fifth president of the United States.",
+     "約翰·甘迺迪是美國第三十五任總統。"
+    ],
+    [
+     "Kennedy is a surname with Irish roots.",
+     "肯尼迪是個源自愛爾蘭的姓氏。"
+    ]
+   ]
+  }
+ ],
+ "norfolk": [
+  {
+   "p": "n",
+   "zh": "（諾福克，英格蘭郡名）",
+   "ai": [
+    [
+     "Norfolk is a county in the east of England.",
+     "諾福克是英格蘭東部的一個郡。"
+    ],
+    [
+     "Norwich is the largest city in Norfolk.",
+     "諾威奇是諾福克最大的城市。"
+    ]
+   ]
+  }
+ ],
+ "davis": [
+  {
+   "p": "n",
+   "zh": "（戴維斯，姓氏）",
+   "ai": [
+    [
+     "Davis is a common surname in English-speaking countries.",
+     "戴維斯是英語系國家常見的姓氏。"
+    ],
+    [
+     "Miles Davis was a famous American jazz musician.",
+     "邁爾士·戴維斯是美國著名的爵士樂手。"
+    ]
+   ]
+  }
+ ],
+ "churchill": [
+  {
+   "p": "n",
+   "zh": "（邱吉爾，英國首相）",
+   "ai": [
+    [
+     "Winston Churchill was the prime minister of Britain during World War II.",
+     "溫斯頓·邱吉爾是二戰期間的英國首相。"
+    ],
+    [
+     "Our class read a short biography of Churchill.",
+     "我們班讀了一篇關於邱吉爾的簡短傳記。"
+    ]
+   ]
+  }
+ ],
+ "saint": [
+  {
+   "p": "n",
+   "zh": "聖徒、聖人",
+   "ai": [
+    [
+     "Saint Patrick is the saint of Ireland.",
+     "聖派翠克是愛爾蘭的守護聖人。"
+    ],
+    [
+     "The old church was named after a local saint.",
+     "這座老教堂是以當地的一位聖人命名的。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "神聖的；聖…",
+   "ai": [
+    [
+     "The town celebrates Saint Valentine's Day every February.",
+     "這個小鎮每年二月都會慶祝聖瓦倫丁節。"
+    ],
+    [
+     "They visited the Saint Paul Cathedral in London.",
+     "他們參觀了倫敦的聖保羅大教堂。"
+    ]
+   ]
+  }
+ ],
+ "albeit": [
+  {
+   "p": "conj",
+   "zh": "儘管、雖然",
+   "ai": [
+    [
+     "He finished the race, albeit very slowly.",
+     "他跑完了比賽，雖然速度很慢。"
+    ],
+    [
+     "The plan worked, albeit with a few small problems.",
+     "計畫成功了，儘管出了一些小問題。"
+    ]
+   ]
+  }
+ ],
+ "spencer": [
+  {
+   "p": "n",
+   "zh": "（史賓賽，姓氏、男子名）",
+   "ai": [
+    [
+     "Spencer is a surname that is also used as a first name.",
+     "史賓賽是個姓氏，也被當作男孩的名字。"
+    ],
+    [
+     "The name Spencer once meant a person who handled supplies.",
+     "史賓賽這個名字原本指的是管理物資的人。"
+    ]
+   ]
+  }
+ ],
+ "turkish": [
+  {
+   "p": "adj",
+   "zh": "土耳其的",
+   "ai": [
+    [
+     "We had Turkish tea at a small cafe.",
+     "我們在一家小咖啡館喝了土耳其茶。"
+    ],
+    [
+     "She bought a beautiful Turkish carpet at the market.",
+     "她在市場買了一條漂亮的土耳其地毯。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "土耳其語",
+   "ai": [
+    [
+     "He speaks Turkish and English at home.",
+     "他在家裡說土耳其語和英語。"
+    ],
+    [
+     "Turkish is the official language of Turkey.",
+     "土耳其語是土耳其的官方語言。"
+    ]
+   ]
+  }
+ ],
+ "thompson": [
+  {
+   "p": "n",
+   "zh": "（湯普森，姓氏）",
+   "ai": [
+    [
+     "Thompson is a common surname in English-speaking countries.",
+     "湯普森是英語系國家常見的姓氏。"
+    ],
+    [
+     "Mr. Thompson teaches music at our school.",
+     "湯普森先生在我們學校教音樂。"
+    ]
+   ]
+  }
+ ],
+ "betty": [
+  {
+   "p": "n",
+   "zh": "（貝蒂，女子名）",
+   "ai": [
+    [
+     "Betty is a short form of the name Elizabeth.",
+     "貝蒂是伊莉莎白的暱稱。"
+    ],
+    [
+     "Betty is an old-fashioned name for girls.",
+     "貝蒂是個老派的女孩名字。"
+    ]
+   ]
+  }
+ ],
+ "alison": [
+  {
+   "p": "n",
+   "zh": "（艾莉森，女子名）",
+   "ai": [
+    [
+     "Alison is a popular name for girls in Britain.",
+     "艾莉森是英國受歡迎的女孩名字。"
+    ],
+    [
+     "The teacher asked Alison to open the window.",
+     "老師請艾莉森把窗戶打開。"
+    ]
+   ]
+  }
+ ],
+ "aberdeen": [
+  {
+   "p": "n",
+   "zh": "（亞伯丁，蘇格蘭城市）",
+   "ai": [
+    [
+     "Aberdeen is a city on the northeast coast of Scotland.",
+     "亞伯丁是蘇格蘭東北岸的一座城市。"
+    ],
+    [
+     "Aberdeen is known for its grey granite buildings.",
+     "亞伯丁以灰色花崗岩建築聞名。"
+    ]
+   ]
+  }
+ ],
+ "resulting": [
+  {
+   "p": "adj",
+   "zh": "因此產生的、所造成的",
+   "ai": [
+    [
+     "The storm and the resulting flood closed several roads.",
+     "暴風雨和隨之而來的洪水讓好幾條路封閉。"
+    ],
+    [
+     "We are worried about the resulting delay.",
+     "我們擔心由此造成的延誤。"
+    ]
+   ]
+  }
+ ],
+ "netherlands": [
+  {
+   "p": "n",
+   "zh": "荷蘭",
+   "ai": [
+    [
+     "The Netherlands is a country in western Europe.",
+     "荷蘭是西歐的一個國家。"
+    ],
+    [
+     "Amsterdam is the capital of the Netherlands.",
+     "阿姆斯特丹是荷蘭的首都。"
+    ]
+   ]
+  }
+ ],
+ "julie": [
+  {
+   "p": "n",
+   "zh": "（朱莉，女子名）",
+   "ai": [
+    [
+     "Julie is a French form of the name Julia.",
+     "朱莉是 Julia 這個名字的法文形式。"
+    ],
+    [
+     "Julie waved to her friends from the train window.",
+     "朱莉從火車窗戶向朋友們揮手。"
+    ]
+   ]
+  }
+ ],
+ "yugoslavia": [
+  {
+   "p": "n",
+   "zh": "南斯拉夫",
+   "ai": [
+    [
+     "Yugoslavia was a country in southeastern Europe.",
+     "南斯拉夫曾是東南歐的一個國家。"
+    ],
+    [
+     "Yugoslavia no longer exists as one country.",
+     "南斯拉夫已不再是單一國家。"
+    ]
+   ]
+  }
+ ],
+ "sunderland": [
+  {
+   "p": "n",
+   "zh": "（森德蘭，英國港市）",
+   "ai": [
+    [
+     "Sunderland is a city in the northeast of England.",
+     "森德蘭是英格蘭東北部的一座城市。"
+    ],
+    [
+     "Sunderland is located at the mouth of the River Wear.",
+     "森德蘭位於威爾河的河口。"
+    ]
+   ]
+  }
+ ],
+ "cheltenham": [
+  {
+   "p": "n",
+   "zh": "（切爾滕納姆，英國城市）",
+   "ai": [
+    [
+     "Cheltenham is a town in the southwest of England.",
+     "切爾滕納姆是英格蘭西南部的一座城鎮。"
+    ],
+    [
+     "Cheltenham is famous for its horse racing festival.",
+     "切爾滕納姆以賽馬節聞名。"
+    ]
+   ]
+  }
+ ],
+ "butt": [
+  {
+   "p": "n",
+   "zh": "菸蒂",
+   "ai": [
+    [
+     "Please do not throw your cigarette butt on the street.",
+     "請不要把菸蒂丟在街上。"
+    ],
+    [
+     "The ashtray was full of old butts.",
+     "菸灰缸裡堆滿了舊菸蒂。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "笑柄、嘲笑的對象",
+   "ai": [
+    [
+     "The clumsy waiter became the butt of everyone's jokes.",
+     "那位笨手笨腳的服務生成了大家取笑的對象。"
+    ],
+    [
+     "He didn't like being the butt of his brother's teasing.",
+     "他不喜歡成為哥哥捉弄的對象。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "用頭頂、用頭撞",
+   "ai": [
+    [
+     "The goat butted the gate with its head.",
+     "那隻山羊用頭頂撞大門。"
+    ],
+    [
+     "The two rams butted each other in the field.",
+     "兩隻公羊在田裡互相用頭頂撞。"
+    ]
+   ]
+  }
+ ],
+ "wicket": [
+  {
+   "p": "n",
+   "zh": "小門；售票窗",
+   "ai": [
+    [
+     "He opened the little wicket in the big gate.",
+     "他打開大門上的那扇小門。"
+    ],
+    [
+     "She bought the tickets at the wicket.",
+     "她在售票窗口買了票。"
+    ]
+   ]
+  }
+ ],
+ "stuck": [
+  {
+   "p": "v",
+   "zh": "黏住；刺入（stick 的過去式）",
+   "ai": [
+    [
+     "The stamp stuck firmly to the envelope.",
+     "郵票牢牢地黏在信封上。"
+    ],
+    [
+     "He stuck a note on the fridge.",
+     "他在冰箱上貼了一張便條。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "卡住的、困住的",
+   "ai": [
+    [
+     "We were stuck in traffic for an hour.",
+     "我們被困在車陣裡一個小時。"
+    ],
+    [
+     "The door is stuck, and I can't open it.",
+     "這扇門卡住了，我打不開。"
+    ]
+   ]
+  }
+ ],
+ "cornwall": [
+  {
+   "p": "n",
+   "zh": "（康沃爾，英格蘭西南部郡名）",
+   "ai": [
+    [
+     "Cornwall is a county in the southwest of England.",
+     "康沃爾是英格蘭西南部的一個郡。"
+    ],
+    [
+     "Many tourists visit Cornwall for its beaches.",
+     "許多遊客為了海灘造訪康沃爾。"
+    ]
+   ]
+  }
+ ],
+ "forwards": [
+  {
+   "p": "adv",
+   "zh": "向前",
+   "ai": [
+    [
+     "The crowd moved slowly forwards toward the stage.",
+     "人群慢慢地向舞台前進。"
+    ],
+    [
+     "She leaned forwards to hear him better.",
+     "她身體前傾，好聽得更清楚。"
+    ]
+   ]
+  }
+ ],
+ "don": [
+  {
+   "p": "v",
+   "zh": "穿上、戴上",
+   "ai": [
+    [
+     "The firefighters donned their helmets and jackets.",
+     "消防員穿上了頭盔和外套。"
+    ],
+    [
+     "He donned a warm coat before going outside.",
+     "他出門前穿上了一件保暖的外套。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（西班牙的）先生、紳士",
+   "ai": [
+    [
+     "In Spain, a gentleman may be addressed as Don.",
+     "在西班牙，對紳士可以用 Don 來稱呼。"
+    ],
+    [
+     "Don Quixote is the title of a famous Spanish novel.",
+     "《唐吉訶德》是一部著名西班牙小說的書名。"
+    ]
+   ]
+  }
+ ],
+ "devon": [
+  {
+   "p": "n",
+   "zh": "（德文郡，英格蘭郡名）",
+   "ai": [
+    [
+     "Devon is a county in the southwest of England.",
+     "德文郡是英格蘭西南部的一個郡。"
+    ],
+    [
+     "We went hiking along the coast of Devon.",
+     "我們沿著德文郡的海岸健行。"
+    ]
+   ]
+  }
+ ],
+ "denmark": [
+  {
+   "p": "n",
+   "zh": "丹麥",
+   "ai": [
+    [
+     "Denmark is a country in northern Europe.",
+     "丹麥是北歐的一個國家。"
+    ],
+    [
+     "Copenhagen is the capital of Denmark.",
+     "哥本哈根是丹麥的首都。"
+    ]
+   ]
+  }
+ ],
+ "max": [
+  {
+   "p": "n",
+   "zh": "最大值、上限",
+   "ai": [
+    [
+     "The max speed on this road is fifty kilometers an hour.",
+     "這條路的最高時速是五十公里。"
+    ],
+    [
+     "This elevator can hold ten people at the max.",
+     "這部電梯最多能載十個人。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（麥克斯，男子名）",
+   "ai": [
+    [
+     "Max is a short form of Maximilian.",
+     "麥克斯是馬克西米利安的簡稱。"
+    ],
+    [
+     "My neighbor named his dog Max.",
+     "我的鄰居把他的狗取名叫麥克斯。"
+    ]
+   ]
+  }
+ ],
+ "austria": [
+  {
+   "p": "n",
+   "zh": "奧地利",
+   "ai": [
+    [
+     "Austria is a country in central Europe.",
+     "奧地利是中歐的一個國家。"
+    ],
+    [
+     "Vienna is the capital of Austria.",
+     "維也納是奧地利的首都。"
+    ]
+   ]
+  }
+ ]
+}

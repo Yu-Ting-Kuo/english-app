@@ -1,0 +1,2598 @@
+{
+ "moscow": [
+  {
+   "p": "n",
+   "zh": "莫斯科（俄羅斯的首都）",
+   "ai": [
+    [
+     "Moscow is the capital city of Russia.",
+     "莫斯科是俄羅斯的首都。"
+    ],
+    [
+     "It gets very cold in Moscow during the winter.",
+     "莫斯科的冬天非常寒冷。"
+    ]
+   ]
+  }
+ ],
+ "ken": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Ken is bringing sandwiches to the picnic this weekend.",
+     "肯這個週末會帶三明治來野餐。"
+    ],
+    [
+     "I asked Ken to help me carry the boxes upstairs.",
+     "我請肯幫我把箱子搬上樓。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "知識範圍、理解範圍",
+   "ai": [
+    [
+     "That kind of advanced math is beyond my ken.",
+     "那種高深的數學超出我的理解範圍。"
+    ],
+    [
+     "Most of the technical details were beyond the ken of ordinary readers.",
+     "大部分技術細節超出了一般讀者的理解範圍。"
+    ]
+   ]
+  }
+ ],
+ "ruth": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Ruth baked a lemon cake for her neighbor's birthday.",
+     "露絲為鄰居的生日烤了一個檸檬蛋糕。"
+    ],
+    [
+     "I sat next to Ruth during the whole movie.",
+     "整場電影我都坐在露絲旁邊。"
+    ]
+   ]
+  }
+ ],
+ "processing": [
+  {
+   "p": "n",
+   "zh": "處理、加工的過程",
+   "ai": [
+    [
+     "Processing your order usually takes two or three business days.",
+     "處理你的訂單通常需要兩到三個工作天。"
+    ],
+    [
+     "The factory is famous for its fish processing.",
+     "這間工廠以魚類加工聞名。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "處理、加工（process 的現在分詞）",
+   "ai": [
+    [
+     "The website is processing your payment, so please wait a moment.",
+     "網站正在處理你的付款，請稍候。"
+    ],
+    [
+     "She is processing the photos she took on her trip.",
+     "她正在處理旅行時拍的照片。"
+    ]
+   ]
+  }
+ ],
+ "ha": [
+  {
+   "p": "int",
+   "zh": "哈、哈哈（表示得意、驚訝或笑聲）",
+   "ai": [
+    [
+     "Ha, I knew you would pick that one!",
+     "哈，我就知道你會選那個！"
+    ],
+    [
+     "Ha ha, that joke was really funny.",
+     "哈哈，那個笑話真的很好笑。"
+    ]
+   ]
+  }
+ ],
+ "olympic": [
+  {
+   "p": "adj",
+   "zh": "奧運的、奧林匹克的",
+   "ai": [
+    [
+     "She dreams of winning an Olympic gold medal one day.",
+     "她夢想有一天能贏得奧運金牌。"
+    ],
+    [
+     "Many people stayed up late to watch the Olympic opening ceremony.",
+     "很多人熬夜觀看奧運開幕典禮。"
+    ]
+   ]
+  }
+ ],
+ "bible": [
+  {
+   "p": "n",
+   "zh": "聖經",
+   "ai": [
+    [
+     "My grandmother keeps an old Bible on her bedside table.",
+     "我奶奶在床頭櫃上放著一本舊聖經。"
+    ],
+    [
+     "The Bible has been translated into hundreds of languages.",
+     "聖經已被翻譯成數百種語言。"
+    ]
+   ]
+  }
+ ],
+ "canada": [
+  {
+   "p": "n",
+   "zh": "加拿大",
+   "ai": [
+    [
+     "Canada is the second largest country in the world by area.",
+     "以面積來說，加拿大是世界第二大國。"
+    ],
+    [
+     "My cousin moved to Canada to study engineering.",
+     "我表哥搬到加拿大去念工程。"
+    ]
+   ]
+  }
+ ],
+ "arthur": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Arthur walks his dog every morning before work.",
+     "亞瑟每天早上上班前都會遛狗。"
+    ],
+    [
+     "I borrowed this book from Arthur last week.",
+     "這本書是我上週向亞瑟借的。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "亞瑟王（傳說中的英國國王）",
+   "ai": [
+    [
+     "According to legend, King Arthur led the Knights of the Round Table.",
+     "根據傳說，亞瑟王是圓桌騎士的領袖。"
+    ],
+    [
+     "The children listened to a story about Arthur and his sword.",
+     "孩子們聽了一個關於亞瑟王和他的劍的故事。"
+    ]
+   ]
+  }
+ ],
+ "bristol": [
+  {
+   "p": "n",
+   "zh": "布里斯托（英國西部的港口城市）",
+   "ai": [
+    [
+     "Bristol is a port city in the west of England.",
+     "布里斯托是英格蘭西部的一座港口城市。"
+    ],
+    [
+     "We took a train from London to Bristol.",
+     "我們從倫敦搭火車去布里斯托。"
+    ]
+   ]
+  }
+ ],
+ "nick": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Nick offered to drive us home after the party.",
+     "尼克提議派對後開車送我們回家。"
+    ],
+    [
+     "I will ask Nick whether he wants to join us.",
+     "我會問問尼克想不想加入我們。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "刻痕、小傷口",
+   "ai": [
+    [
+     "There is a small nick on the edge of this plate.",
+     "這個盤子的邊緣有一道小缺口。"
+    ],
+    [
+     "He cut himself shaving and got a nick on his chin.",
+     "他刮鬍子時割傷了自己，下巴上多了一道小傷口。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "偷（英式口語）",
+   "ai": [
+    [
+     "Someone nicked my bike while I was in the shop.",
+     "我在店裡的時候，有人把我的腳踏車偷走了。"
+    ],
+    [
+     "He got caught trying to nick a few sweets from the store.",
+     "他想從店裡偷幾顆糖，結果被抓到了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "千鈞一髮之際（in the nick of time）",
+   "ai": [
+    [
+     "We got to the station in the nick of time and caught the train.",
+     "我們在最後一刻趕到車站，搭上了火車。"
+    ],
+    [
+     "The rescue team arrived in the nick of time.",
+     "救援隊在千鈞一髮之際趕到了。"
+    ]
+   ]
+  }
+ ],
+ "keith": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Keith teaches math at the local high school.",
+     "基思在當地的高中教數學。"
+    ],
+    [
+     "Keith always arrives early for our meetings.",
+     "基思總是提早到我們的會議。"
+    ]
+   ]
+  }
+ ],
+ "charlie": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Charlie likes to ride his bike along the river.",
+     "查理喜歡沿著河邊騎腳踏車。"
+    ],
+    [
+     "We asked Charlie to take a photo of the whole group.",
+     "我們請查理幫大家拍一張合照。"
+    ]
+   ]
+  }
+ ],
+ "anna": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Anna plays the violin in the school orchestra.",
+     "安娜在學校的管弦樂團拉小提琴。"
+    ],
+    [
+     "I left a message for Anna, but she hasn't replied yet.",
+     "我留了訊息給安娜，但她還沒回覆。"
+    ]
+   ]
+  }
+ ],
+ "iv": [
+  {
+   "p": "n",
+   "zh": "點滴、靜脈注射",
+   "ai": [
+    [
+     "The nurse put an IV in his arm to give him fluids.",
+     "護士在他的手臂上插了點滴，給他補充水分。"
+    ],
+    [
+     "She was still on an IV when I visited her in the hospital.",
+     "我到醫院探望她時，她還在打點滴。"
+    ]
+   ]
+  }
+ ],
+ "andy": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Andy fixed my laptop in less than an hour.",
+     "安迪不到一個小時就修好了我的筆電。"
+    ],
+    [
+     "Andy and I have been friends since high school.",
+     "安迪和我從高中就是朋友。"
+    ]
+   ]
+  }
+ ],
+ "fourteen": [
+  {
+   "p": "num",
+   "zh": "十四、十四個",
+   "ai": [
+    [
+     "My little sister turns fourteen next month.",
+     "我妹妹下個月滿十四歲。"
+    ],
+    [
+     "There are fourteen students in our English class.",
+     "我們的英文班有十四位學生。"
+    ]
+   ]
+  }
+ ],
+ "sixteen": [
+  {
+   "p": "num",
+   "zh": "十六、十六個",
+   "ai": [
+    [
+     "You have to be sixteen to apply for this part-time job.",
+     "你必須年滿十六歲才能申請這份兼職工作。"
+    ],
+    [
+     "The bus ride takes about sixteen minutes.",
+     "搭公車大約要十六分鐘。"
+    ]
+   ]
+  }
+ ],
+ "helen": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Helen volunteers at the animal shelter every Sunday.",
+     "海倫每週日都到動物收容所當志工。"
+    ],
+    [
+     "I'm meeting Helen for coffee after work.",
+     "我下班後要和海倫去喝咖啡。"
+    ]
+   ]
+  }
+ ],
+ "newcastle": [
+  {
+   "p": "n",
+   "zh": "紐卡素（英國的港口城市）",
+   "ai": [
+    [
+     "Newcastle is a city in the north of England.",
+     "紐卡素是英格蘭北部的一座城市。"
+    ],
+    [
+     "They moved to Newcastle because of her new job.",
+     "因為她的新工作，他們搬到了紐卡素。"
+    ]
+   ]
+  }
+ ],
+ "howard": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Howard runs a small bookstore near the station.",
+     "霍華德在車站附近經營一間小書店。"
+    ],
+    [
+     "Howard gave us a ride to the airport this morning.",
+     "霍華德今天早上載我們去機場。"
+    ]
+   ]
+  }
+ ],
+ "dave": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Dave grills burgers in the backyard every summer.",
+     "戴夫每年夏天都在後院烤漢堡。"
+    ],
+    [
+     "Could you ask Dave to bring the extra chairs?",
+     "你能請戴夫把多的椅子帶來嗎？"
+    ]
+   ]
+  }
+ ],
+ "berlin": [
+  {
+   "p": "n",
+   "zh": "柏林（德國的首都）",
+   "ai": [
+    [
+     "Berlin is the capital of Germany.",
+     "柏林是德國的首都。"
+    ],
+    [
+     "We spent a long weekend visiting museums in Berlin.",
+     "我們花了一個長週末在柏林參觀博物館。"
+    ]
+   ]
+  }
+ ],
+ "lucy": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Lucy drew a beautiful picture for her grandmother.",
+     "露西畫了一幅漂亮的畫送給她的奶奶。"
+    ],
+    [
+     "Lucy forgot her umbrella on the train again.",
+     "露西又把雨傘忘在火車上了。"
+    ]
+   ]
+  }
+ ],
+ "maggie": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Maggie bakes fresh bread every Saturday morning.",
+     "瑪姬每週六早上都會烤新鮮的麵包。"
+    ],
+    [
+     "I sat beside Maggie during the long meeting.",
+     "開那場冗長的會議時，我坐在瑪姬旁邊。"
+    ]
+   ]
+  }
+ ],
+ "closer": [
+  {
+   "p": "adj",
+   "zh": "更近的、更親近的（close 的比較級）",
+   "ai": [
+    [
+     "The closer exit is on the left side of the hall.",
+     "比較近的出口在大廳的左側。"
+    ],
+    [
+     "They became closer friends after working on the project together.",
+     "一起做完這個專案後，他們成了更親近的朋友。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "更靠近地",
+   "ai": [
+    [
+     "Please come closer so I can hear you better.",
+     "請靠近一點，我才聽得比較清楚。"
+    ],
+    [
+     "The storm is moving closer to the coast.",
+     "暴風雨正逐漸逼近海岸。"
+    ]
+   ]
+  }
+ ],
+ "roger": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Roger coaches the neighborhood soccer team.",
+     "羅傑負責指導社區的足球隊。"
+    ],
+    [
+     "Roger lent me his camera for the trip.",
+     "羅傑把他的相機借給我去旅行。"
+    ]
+   ]
+  },
+  {
+   "p": "int",
+   "zh": "收到、了解（無線電用語）",
+   "ai": [
+    [
+     "Roger, we will meet you at the north gate.",
+     "收到，我們會在北門和你會合。"
+    ],
+    [
+     "Pilot to tower, we are ready for landing. Roger that.",
+     "機長呼叫塔台，我們準備降落。收到。"
+    ]
+   ]
+  }
+ ],
+ "victoria": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Victoria studies biology at the university.",
+     "維多利亞在大學念生物。"
+    ],
+    [
+     "I'm sending the invitation to Victoria tonight.",
+     "我今晚要把邀請函寄給維多利亞。"
+    ]
+   ]
+  }
+ ],
+ "kent": [
+  {
+   "p": "n",
+   "zh": "肯特郡（英國郡名）",
+   "ai": [
+    [
+     "Kent is a county in the southeast of England.",
+     "肯特郡是英格蘭東南部的一個郡。"
+    ],
+    [
+     "We drove through the green countryside of Kent.",
+     "我們開車穿過肯特郡綠意盎然的鄉間。"
+    ]
+   ]
+  }
+ ],
+ "matthew": [
+  {
+   "p": "n",
+   "zh": "馬太、馬太福音",
+   "ai": [
+    [
+     "Matthew is the first book of the New Testament.",
+     "馬太福音是新約聖經的第一卷書。"
+    ],
+    [
+     "The pastor read a short passage from Matthew on Sunday.",
+     "牧師週日朗讀了馬太福音中的一小段。"
+    ]
+   ]
+  }
+ ],
+ "alexander": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Alexander is learning how to play the piano.",
+     "亞歷山大正在學鋼琴。"
+    ],
+    [
+     "Everyone in the class likes Alexander because he is so kind.",
+     "班上每個人都喜歡亞歷山大，因為他很善良。"
+    ]
+   ]
+  }
+ ],
+ "depending": [
+  {
+   "p": "phr",
+   "zh": "視…而定（depending on）",
+   "ai": [
+    [
+     "The price changes depending on the size of the room.",
+     "價格會依房間大小而不同。"
+    ],
+    [
+     "Depending on the weather, we might cancel the trip.",
+     "視天氣而定，我們可能會取消旅行。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "依賴、取決於（depend 的現在分詞）",
+   "ai": [
+    [
+     "Many families are depending on this bridge to get to work.",
+     "許多家庭要靠這座橋通勤上班。"
+    ],
+    [
+     "The team is depending on you to finish the report.",
+     "團隊指望你完成這份報告。"
+    ]
+   ]
+  }
+ ],
+ "midland": [
+  {
+   "p": "n",
+   "zh": "中部地方、內陸地區",
+   "ai": [
+    [
+     "The midland of the country is mostly flat farmland.",
+     "這個國家的中部地區大多是平坦的農田。"
+    ],
+    [
+     "She grew up in a small town in the English midlands.",
+     "她在英格蘭中部的一個小鎮長大。"
+    ]
+   ]
+  }
+ ],
+ "zealand": [
+  {
+   "p": "n",
+   "zh": "紐西蘭（New Zealand 的後半）",
+   "ai": [
+    [
+     "New Zealand is known for its beautiful mountains and lakes.",
+     "紐西蘭以美麗的山脈與湖泊聞名。"
+    ],
+    [
+     "My uncle has lived in New Zealand for ten years.",
+     "我叔叔已經住在紐西蘭十年了。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "西蘭島（丹麥最大的島）",
+   "ai": [
+    [
+     "Copenhagen, the capital of Denmark, is located on the island of Zealand.",
+     "丹麥首都哥本哈根位於西蘭島上。"
+    ],
+    [
+     "Zealand is the largest island in Denmark.",
+     "西蘭島是丹麥最大的島。"
+    ]
+   ]
+  }
+ ],
+ "aha": [
+  {
+   "p": "int",
+   "zh": "啊哈（突然明白或發現時）",
+   "ai": [
+    [
+     "Aha, so that's where I left my keys!",
+     "啊哈，原來我的鑰匙放在那裡！"
+    ],
+    [
+     "Aha, now I understand how this works.",
+     "啊哈，我現在懂這個怎麼運作了。"
+    ]
+   ]
+  }
+ ],
+ "sixth": [
+  {
+   "p": "num",
+   "zh": "第六",
+   "ai": [
+    [
+     "My office is on the sixth floor.",
+     "我的辦公室在六樓。"
+    ],
+    [
+     "It was the sixth time she had watched that movie.",
+     "那是她第六次看那部電影。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "六分之一",
+   "ai": [
+    [
+     "A sixth of the class chose to study French.",
+     "班上有六分之一的人選擇學法文。"
+    ],
+    [
+     "He ate only a sixth of the pizza.",
+     "他只吃了披薩的六分之一。"
+    ]
+   ]
+  }
+ ],
+ "victorian": [
+  {
+   "p": "adj",
+   "zh": "維多利亞時代的",
+   "ai": [
+    [
+     "They live in a beautiful Victorian house near the park.",
+     "他們住在公園附近一棟漂亮的維多利亞式房屋裡。"
+    ],
+    [
+     "The museum has a large collection of Victorian clothing.",
+     "這間博物館收藏了大量維多利亞時代的服飾。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "維多利亞時代的人",
+   "ai": [
+    [
+     "Many Victorians believed that hard work was the key to success.",
+     "許多維多利亞時代的人相信努力工作是成功的關鍵。"
+    ],
+    [
+     "The book describes how a typical Victorian lived.",
+     "這本書描述了典型維多利亞時代的人是怎麼生活的。"
+    ]
+   ]
+  }
+ ],
+ "vat": [
+  {
+   "p": "n",
+   "zh": "大桶、大缸",
+   "ai": [
+    [
+     "The workers poured the grape juice into a huge vat.",
+     "工人把葡萄汁倒進一個巨大的桶子裡。"
+    ],
+    [
+     "The cloth was dipped in a vat of blue dye.",
+     "布料被浸入一大桶藍色染料中。"
+    ]
+   ]
+  }
+ ],
+ "francis": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Francis spends his weekends fishing at the lake.",
+     "法蘭西斯週末都在湖邊釣魚。"
+    ],
+    [
+     "I borrowed a ladder from Francis next door.",
+     "我向隔壁的法蘭西斯借了一把梯子。"
+    ]
+   ]
+  }
+ ],
+ "alice": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Alice reads a book before she goes to sleep every night.",
+     "愛麗絲每晚睡前都會看書。"
+    ],
+    [
+     "I'll pick up Alice from school at three o'clock.",
+     "我三點會去學校接愛麗絲。"
+    ]
+   ]
+  }
+ ],
+ "terry": [
+  {
+   "p": "n",
+   "zh": "（人名）",
+   "ai": [
+    [
+     "Terry is helping us paint the living room.",
+     "泰瑞正在幫我們粉刷客廳。"
+    ],
+    [
+     "I'll ask Terry whether he can come on Friday.",
+     "我會問問泰瑞星期五能不能來。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "毛巾布",
+   "ai": [
+    [
+     "This bathrobe is made of soft terry cloth.",
+     "這件浴袍是柔軟的毛巾布做的。"
+    ],
+    [
+     "She wiped her hands on a terry towel.",
+     "她用一條毛巾布的毛巾擦手。"
+    ]
+   ]
+  }
+ ],
+ "norman": [
+  {
+   "p": "adj",
+   "zh": "諾曼人的、諾曼第的",
+   "ai": [
+    [
+     "The old castle was built in the Norman style.",
+     "這座古堡是以諾曼式風格建造的。"
+    ],
+    [
+     "Many Norman soldiers crossed the sea to England in 1066.",
+     "許多諾曼士兵在一〇六六年渡海前往英格蘭。"
+    ]
+   ]
+  }
+ ],
+ "colin": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Colin cooks dinner for his family every Sunday.",
+     "柯林每個星期天都會為家人煮晚餐。"
+    ],
+    [
+     "Colin showed us the way to the museum.",
+     "柯林帶我們走到博物館。"
+    ]
+   ]
+  }
+ ],
+ "san": [
+  {
+   "p": "n",
+   "zh": "聖（用於地名、人名，如 San Francisco）",
+   "ai": [
+    [
+     "We took a ferry across the bay to San Francisco.",
+     "我們搭渡輪越過海灣去舊金山。"
+    ],
+    [
+     "The church was named after San Juan, a saint from Spain.",
+     "這間教堂是以來自西班牙的聖人聖胡安命名的。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "先生、小姐（日語敬稱，接在名字後）",
+   "ai": [
+    [
+     "In Japanese, you can call your coworker Tanaka-san.",
+     "在日語裡，你可以稱呼同事為田中先生。"
+    ],
+    [
+     "She greeted her neighbor politely, saying, \"Good morning, Sato-san.\"",
+     "她禮貌地跟鄰居打招呼說：「早安，佐藤先生。」"
+    ]
+   ]
+  }
+ ],
+ "hers": [
+  {
+   "p": "pron",
+   "zh": "她的（東西）",
+   "ai": [
+    [
+     "This umbrella isn't mine; I think it's hers.",
+     "這把傘不是我的，我想是她的。"
+    ],
+    [
+     "My phone is old, but hers is brand new.",
+     "我的手機很舊，但她的是全新的。"
+    ]
+   ]
+  }
+ ],
+ "durham": [
+  {
+   "p": "n",
+   "zh": "達勒姆（英格蘭的郡與城市）",
+   "ai": [
+    [
+     "Durham is a county in the northeast of England.",
+     "達勒姆是英格蘭東北部的一個郡。"
+    ],
+    [
+     "The city of Durham is famous for its old cathedral.",
+     "達勒姆市以古老的大教堂聞名。"
+    ]
+   ]
+  }
+ ],
+ "laura": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Laura sings in a choir on Thursday evenings.",
+     "蘿拉每週四晚上都在合唱團唱歌。"
+    ],
+    [
+     "Please send the file to Laura before noon.",
+     "請在中午前把檔案寄給蘿拉。"
+    ]
+   ]
+  }
+ ],
+ "islam": [
+  {
+   "p": "n",
+   "zh": "伊斯蘭教",
+   "ai": [
+    [
+     "Islam is one of the major religions in the world.",
+     "伊斯蘭教是世界主要宗教之一。"
+    ],
+    [
+     "The class learned about the history of Islam.",
+     "這堂課學習了伊斯蘭教的歷史。"
+    ]
+   ]
+  }
+ ],
+ "changing": [
+  {
+   "p": "v",
+   "zh": "改變、更換（change 的現在分詞）",
+   "ai": [
+    [
+     "I'm changing my password because it's too easy to guess.",
+     "我要換密碼，因為它太容易被猜到了。"
+    ],
+    [
+     "She is changing the bandage on her brother's knee.",
+     "她正在幫弟弟換膝蓋上的繃帶。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "不斷變化的",
+   "ai": [
+    [
+     "We live in a rapidly changing world.",
+     "我們生活在一個快速變化的世界。"
+    ],
+    [
+     "Farmers must adapt to the changing climate.",
+     "農民必須適應不斷變化的氣候。"
+    ]
+   ]
+  }
+ ],
+ "australian": [
+  {
+   "p": "n",
+   "zh": "澳洲人",
+   "ai": [
+    [
+     "My roommate is an Australian who loves surfing.",
+     "我的室友是個熱愛衝浪的澳洲人。"
+    ],
+    [
+     "Several Australians joined our hiking group.",
+     "有幾位澳洲人加入了我們的健行團。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "澳洲的",
+   "ai": [
+    [
+     "She has a strong Australian accent.",
+     "她有濃厚的澳洲口音。"
+    ],
+    [
+     "We tried some Australian wine at the party.",
+     "我們在派對上嚐了一些澳洲葡萄酒。"
+    ]
+   ]
+  }
+ ],
+ "anthony": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Anthony works as a nurse at the city hospital.",
+     "安東尼在市立醫院擔任護理師。"
+    ],
+    [
+     "I haven't seen Anthony since last summer.",
+     "我從去年夏天起就沒見過安東尼了。"
+    ]
+   ]
+  }
+ ],
+ "nicholas": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Nicholas is saving money to buy a new bicycle.",
+     "尼古拉斯正在存錢買一輛新腳踏車。"
+    ],
+    [
+     "Nicholas waved to us from across the street.",
+     "尼古拉斯在街的另一頭向我們揮手。"
+    ]
+   ]
+  }
+ ],
+ "douglas": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Douglas takes the train to work every day.",
+     "道格拉斯每天搭火車上班。"
+    ],
+    [
+     "We invited Douglas to join our book club.",
+     "我們邀請道格拉斯加入我們的讀書會。"
+    ]
+   ]
+  }
+ ],
+ "la": [
+  {
+   "p": "int",
+   "zh": "啦（哼歌時的聲音）",
+   "ai": [
+    [
+     "She hummed la la la while she washed the dishes.",
+     "她邊洗碗邊哼著啦啦啦。"
+    ],
+    [
+     "The kids sang \"la, la, la\" because they forgot the words.",
+     "孩子們因為忘了歌詞，就唱起了「啦、啦、啦」。"
+    ]
+   ]
+  }
+ ],
+ "jimmy": [
+  {
+   "p": "n",
+   "zh": "（男子名，James 的暱稱）",
+   "ai": [
+    [
+     "Jimmy practices the guitar after school every day.",
+     "吉米每天放學後都練吉他。"
+    ],
+    [
+     "Jimmy shared his lunch with a new classmate.",
+     "吉米把午餐分給一位新同學。"
+    ]
+   ]
+  }
+ ],
+ "gary": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Gary repaired our fence over the weekend.",
+     "蓋瑞週末修好了我們的籬笆。"
+    ],
+    [
+     "I'm going to the gym with Gary after work.",
+     "我下班後要和蓋瑞去健身房。"
+    ]
+   ]
+  }
+ ],
+ "kate": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Kate is learning Spanish before her trip to Mexico.",
+     "凱特在去墨西哥旅行前正在學西班牙文。"
+    ],
+    [
+     "Kate left her notebook on the desk.",
+     "凱特把筆記本留在書桌上了。"
+    ]
+   ]
+  }
+ ],
+ "dutch": [
+  {
+   "p": "n",
+   "zh": "荷蘭語、荷蘭人",
+   "ai": [
+    [
+     "She is learning Dutch because she plans to live in Amsterdam.",
+     "她打算住在阿姆斯特丹，所以正在學荷蘭語。"
+    ],
+    [
+     "The Dutch are known for riding bicycles everywhere.",
+     "荷蘭人以到處騎腳踏車聞名。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "荷蘭的",
+   "ai": [
+    [
+     "We bought some Dutch cheese at the market.",
+     "我們在市場買了一些荷蘭起司。"
+    ],
+    [
+     "The museum has many famous Dutch paintings.",
+     "這間博物館有許多著名的荷蘭畫作。"
+    ]
+   ]
+  }
+ ],
+ "christopher": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Christopher is studying to become a pilot.",
+     "克里斯多夫正在讀書，打算成為飛行員。"
+    ],
+    [
+     "Christopher is the tallest boy in our class.",
+     "克里斯多夫是我們班最高的男生。"
+    ]
+   ]
+  }
+ ],
+ "essex": [
+  {
+   "p": "n",
+   "zh": "艾塞克斯郡（英格蘭郡名）",
+   "ai": [
+    [
+     "Essex is a county in the east of England.",
+     "艾塞克斯是英格蘭東部的一個郡。"
+    ],
+    [
+     "They live in a quiet village in Essex.",
+     "他們住在艾塞克斯一個安靜的村莊。"
+    ]
+   ]
+  }
+ ],
+ "oliver": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Oliver loves playing with his toy trains.",
+     "奧利佛愛玩他的玩具火車。"
+    ],
+    [
+     "Oliver helped his mother carry the groceries.",
+     "奧利佛幫媽媽提雜貨。"
+    ]
+   ]
+  }
+ ],
+ "lloyd": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Lloyd takes care of the garden behind the school.",
+     "勞埃德負責照顧學校後面的花園。"
+    ],
+    [
+     "I got a call from Lloyd this morning.",
+     "我今天早上接到勞埃德的電話。"
+    ]
+   ]
+  }
+ ],
+ "dublin": [
+  {
+   "p": "n",
+   "zh": "都柏林（愛爾蘭的首都）",
+   "ai": [
+    [
+     "Dublin is the capital of Ireland.",
+     "都柏林是愛爾蘭的首都。"
+    ],
+    [
+     "We walked along the river in Dublin after dinner.",
+     "晚餐後我們沿著都柏林的河邊散步。"
+    ]
+   ]
+  }
+ ],
+ "kevin": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Kevin picked us up at the airport after the long flight.",
+     "長途飛行後，凱文到機場接我們。"
+    ],
+    [
+     "I asked Kevin to help me move the sofa.",
+     "我請凱文幫我搬沙發。"
+    ]
+   ]
+  }
+ ],
+ "fighting": [
+  {
+   "p": "n",
+   "zh": "打架、打鬥",
+   "ai": [
+    [
+     "The teacher stopped the fighting between the two boys.",
+     "老師制止了兩個男孩之間的打架。"
+    ],
+    [
+     "There was a lot of fighting in the crowd after the match.",
+     "比賽結束後，人群中發生了不少打鬥。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "打架、對抗（fight 的現在分詞）",
+   "ai": [
+    [
+     "The two brothers are always fighting over the remote control.",
+     "兩兄弟總是為了遙控器吵架。"
+    ],
+    [
+     "Doctors are fighting to save the patient's life.",
+     "醫生們正在全力搶救病人的生命。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "好鬥的、戰鬥的",
+   "ai": [
+    [
+     "The team showed great fighting spirit in the final game.",
+     "這支球隊在決賽中展現出強烈的鬥志。"
+    ],
+    [
+     "The two dogs were in a fighting mood.",
+     "那兩隻狗處於好鬥的狀態。"
+    ]
+   ]
+  }
+ ],
+ "diana": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Diana is the tallest girl on our volleyball team.",
+     "黛安娜是我們排球隊裡最高的女孩。"
+    ],
+    [
+     "I'll ask Diana to bring the snacks.",
+     "我會請黛安娜帶點心來。"
+    ]
+   ]
+  }
+ ],
+ "continued": [
+  {
+   "p": "v",
+   "zh": "繼續（continue 的過去式與過去分詞）",
+   "ai": [
+    [
+     "She continued working even though she was tired.",
+     "即使累了，她還是繼續工作。"
+    ],
+    [
+     "The rain continued all night long.",
+     "雨整晚都沒停。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "持續的、連續的",
+   "ai": [
+    [
+     "Thank you for your continued support.",
+     "謝謝你持續的支持。"
+    ],
+    [
+     "The company has seen continued growth over the past year.",
+     "這間公司在過去一年持續成長。"
+    ]
+   ]
+  }
+ ],
+ "cooking": [
+  {
+   "p": "n",
+   "zh": "烹飪、做菜",
+   "ai": [
+    [
+     "Cooking is my favorite way to relax after work.",
+     "下班後，做菜是我最愛的放鬆方式。"
+    ],
+    [
+     "My father does all the cooking in our house.",
+     "我們家的菜都是爸爸煮的。"
+    ]
+   ]
+  }
+ ],
+ "killing": [
+  {
+   "p": "v",
+   "zh": "殺、使死亡（kill 的現在分詞）",
+   "ai": [
+    [
+     "The cold weather is killing the plants in the garden.",
+     "寒冷的天氣正在讓花園裡的植物枯死。"
+    ],
+    [
+     "Too much stress is killing his health.",
+     "過多的壓力正在摧毀他的健康。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "謀殺、殺人案",
+   "ai": [
+    [
+     "The police are investigating the killing of a shop owner.",
+     "警方正在調查一起店老闆遭殺害的案件。"
+    ],
+    [
+     "The newspaper reported on the killing for several days.",
+     "報紙連續幾天報導了這起殺人案。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "累死人的、痛得要命的",
+   "ai": [
+    [
+     "My feet are killing me after the long walk.",
+     "走了這麼久的路，我的腳痛得要命。"
+    ],
+    [
+     "The hike up the mountain was a killing climb.",
+     "那趟上山的健行爬得累死人。"
+    ]
+   ]
+  }
+ ],
+ "westminster": [
+  {
+   "p": "n",
+   "zh": "西敏（倫敦的一個區）",
+   "ai": [
+    [
+     "Westminster is an area in the center of London.",
+     "西敏是倫敦市中心的一個區。"
+    ],
+    [
+     "Many tourists visit Westminster to see Big Ben.",
+     "許多遊客到西敏去看大笨鐘。"
+    ]
+   ]
+  }
+ ],
+ "atlantic": [
+  {
+   "p": "n",
+   "zh": "大西洋",
+   "ai": [
+    [
+     "The ship slowly crossed the Atlantic.",
+     "那艘船緩緩橫越大西洋。"
+    ],
+    [
+     "They flew over the Atlantic on the way to New York.",
+     "他們前往紐約的途中飛越了大西洋。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "大西洋的",
+   "ai": [
+    [
+     "A strong Atlantic storm is moving toward the coast.",
+     "一場強烈的大西洋風暴正朝海岸移動。"
+    ],
+    [
+     "We took a walk along the Atlantic coast.",
+     "我們沿著大西洋海岸散步。"
+    ]
+   ]
+  }
+ ],
+ "ford": [
+  {
+   "p": "n",
+   "zh": "淺灘（可涉水而過的河段）",
+   "ai": [
+    [
+     "The hikers crossed the river at a shallow ford.",
+     "登山客在一處淺灘過河。"
+    ],
+    [
+     "There used to be a ford here before the bridge was built.",
+     "橋建好之前，這裡有一處可涉水而過的淺灘。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "涉過、涉水",
+   "ai": [
+    [
+     "We had to ford the stream to reach the other side.",
+     "我們得涉水過溪才能到對岸。"
+    ],
+    [
+     "The cattle forded the river slowly.",
+     "牛群慢慢地涉過了河。"
+    ]
+   ]
+  }
+ ],
+ "egypt": [
+  {
+   "p": "n",
+   "zh": "埃及",
+   "ai": [
+    [
+     "Egypt is famous for its ancient pyramids.",
+     "埃及以古老的金字塔聞名。"
+    ],
+    [
+     "The Nile River flows through Egypt.",
+     "尼羅河流經埃及。"
+    ]
+   ]
+  }
+ ],
+ "thirteen": [
+  {
+   "p": "num",
+   "zh": "十三、十三個",
+   "ai": [
+    [
+     "My nephew will be thirteen years old next week.",
+     "我姪子下週就滿十三歲了。"
+    ],
+    [
+     "There are thirteen people on the guest list.",
+     "賓客名單上有十三個人。"
+    ]
+   ]
+  }
+ ],
+ "california": [
+  {
+   "p": "n",
+   "zh": "加州（美國的一州）",
+   "ai": [
+    [
+     "California is on the west coast of the United States.",
+     "加州位於美國的西岸。"
+    ],
+    [
+     "We drove along the coast of California last summer.",
+     "去年夏天我們沿著加州海岸開車旅行。"
+    ]
+   ]
+  }
+ ],
+ "stuart": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Stuart is training for his first marathon.",
+     "史都華正在為他的第一場馬拉松做訓練。"
+    ],
+    [
+     "Stuart invited us to his housewarming party.",
+     "史都華邀請我們參加他的喬遷派對。"
+    ]
+   ]
+  }
+ ],
+ "albert": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Albert collects old coins as a hobby.",
+     "艾伯特的嗜好是收集古錢幣。"
+    ],
+    [
+     "I met Albert at a cafe near the library.",
+     "我在圖書館附近的咖啡館遇見了艾伯特。"
+    ]
+   ]
+  }
+ ],
+ "lawrence": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Lawrence rides his bicycle to the office.",
+     "勞倫斯騎腳踏車去辦公室。"
+    ],
+    [
+     "Please give this letter to Lawrence.",
+     "請把這封信交給勞倫斯。"
+    ]
+   ]
+  }
+ ],
+ "managing": [
+  {
+   "p": "v",
+   "zh": "管理、經營（manage 的現在分詞）",
+   "ai": [
+    [
+     "She is managing a team of ten people.",
+     "她正在管理一個十人的團隊。"
+    ],
+    [
+     "He spends most of his time managing the restaurant.",
+     "他大部分時間都在經營那間餐廳。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "管理的、負責經營的",
+   "ai": [
+    [
+     "He was promoted to managing director last year.",
+     "他去年被升為總經理。"
+    ],
+    [
+     "The managing editor reviews every article before it is published.",
+     "主編會在每篇文章刊出前審閱。"
+    ]
+   ]
+  }
+ ],
+ "billy": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Billy loves building things with blocks.",
+     "比利喜歡用積木蓋東西。"
+    ],
+    [
+     "Billy waited at the bus stop for twenty minutes.",
+     "比利在公車站等了二十分鐘。"
+    ]
+   ]
+  }
+ ],
+ "owen": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Owen made a card for his teacher.",
+     "歐文為他的老師做了一張卡片。"
+    ],
+    [
+     "Owen and I walk to school together.",
+     "歐文和我一起走路上學。"
+    ]
+   ]
+  }
+ ],
+ "rachel": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Rachel brought homemade cookies to the office.",
+     "雷切爾帶了自己做的餅乾到辦公室。"
+    ],
+    [
+     "I'm going shopping with Rachel this afternoon.",
+     "我今天下午要和雷切爾去逛街。"
+    ]
+   ]
+  }
+ ],
+ "expected": [
+  {
+   "p": "adj",
+   "zh": "預期的、預料中的",
+   "ai": [
+    [
+     "The expected arrival time is six o'clock.",
+     "預計的抵達時間是六點。"
+    ],
+    [
+     "The results were better than expected.",
+     "結果比預期的還要好。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "預期、預料（expect 的過去式與過去分詞）",
+   "ai": [
+    [
+     "We expected the meeting to be short, but it lasted two hours.",
+     "我們以為會議很短，結果開了兩個小時。"
+    ],
+    [
+     "She expected her friends to arrive early.",
+     "她預期朋友們會早到。"
+    ]
+   ]
+  }
+ ],
+ "fred": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Fred mows the lawn every Saturday morning.",
+     "佛瑞德每週六早上都會割草。"
+    ],
+    [
+     "Fred told us a funny story about his trip.",
+     "佛瑞德跟我們說了一個關於他旅行的有趣故事。"
+    ]
+   ]
+  }
+ ],
+ "louis": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Louis plays chess with his grandfather after dinner.",
+     "路易斯晚飯後會和祖父下棋。"
+    ],
+    [
+     "I saw Louis waiting outside the cafe.",
+     "我看到路易斯在咖啡館外面等著。"
+    ]
+   ]
+  }
+ ],
+ "bernard": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Bernard waters the plants on the balcony every evening.",
+     "伯納德每天傍晚都會幫陽台上的植物澆水。"
+    ],
+    [
+     "Bernard is the quiet one in our group.",
+     "伯納德是我們這群人裡比較安靜的一個。"
+    ]
+   ]
+  }
+ ],
+ "maria": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Maria cooks delicious dinners for her friends.",
+     "瑪麗亞為朋友們煮了美味的晚餐。"
+    ],
+    [
+     "I asked Maria to translate the letter for me.",
+     "我請瑪麗亞幫我翻譯這封信。"
+    ]
+   ]
+  }
+ ],
+ "drinking": [
+  {
+   "p": "n",
+   "zh": "喝、飲用",
+   "ai": [
+    [
+     "Drinking enough water every day is good for your health.",
+     "每天喝足夠的水對健康有益。"
+    ],
+    [
+     "The sign says drinking is not allowed in this park.",
+     "告示牌上寫著這座公園內禁止飲酒。"
+    ]
+   ]
+  }
+ ],
+ "banking": [
+  {
+   "p": "n",
+   "zh": "銀行業、銀行業務",
+   "ai": [
+    [
+     "My sister works in banking and often travels for work.",
+     "我姊姊在銀行業工作，經常出差。"
+    ],
+    [
+     "Online banking makes it easy to pay bills from home.",
+     "網路銀行讓人在家就能輕鬆繳費。"
+    ]
+   ]
+  }
+ ],
+ "hugh": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Hugh teaches history at a small college.",
+     "休在一所小型學院教歷史。"
+    ],
+    [
+     "I borrowed an umbrella from Hugh.",
+     "我向休借了一把雨傘。"
+    ]
+   ]
+  }
+ ],
+ "stewart": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Stewart is writing a report about local birds.",
+     "斯圖爾特正在寫一份關於當地鳥類的報告。"
+    ],
+    [
+     "Stewart called to say he would be late.",
+     "斯圖爾特打電話來說他會晚到。"
+    ]
+   ]
+  }
+ ],
+ "poland": [
+  {
+   "p": "n",
+   "zh": "波蘭",
+   "ai": [
+    [
+     "Poland is a country in central Europe.",
+     "波蘭是中歐的一個國家。"
+    ],
+    [
+     "Warsaw is the capital of Poland.",
+     "華沙是波蘭的首都。"
+    ]
+   ]
+  }
+ ],
+ "nottingham": [
+  {
+   "p": "n",
+   "zh": "諾丁漢（英格蘭的郡與城市）",
+   "ai": [
+    [
+     "Nottingham is a city in the middle of England.",
+     "諾丁漢是英格蘭中部的一座城市。"
+    ],
+    [
+     "The legend of Robin Hood is linked to Nottingham.",
+     "羅賓漢的傳說與諾丁漢有關。"
+    ]
+   ]
+  }
+ ],
+ "walker": [
+  {
+   "p": "n",
+   "zh": "走路的人、健行者",
+   "ai": [
+    [
+     "The park is a great place for walkers on weekends.",
+     "這座公園週末是健行者的好去處。"
+    ],
+    [
+     "She is a fast walker, so I can hardly keep up.",
+     "她走路很快，我幾乎跟不上。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "助行器、學步車",
+   "ai": [
+    [
+     "My grandfather uses a walker to move around the house.",
+     "我爺爺在家裡走動時會使用助行器。"
+    ],
+    [
+     "The baby learned to stand with the help of a walker.",
+     "寶寶藉著學步車學會了站立。"
+    ]
+   ]
+  }
+ ],
+ "sheffield": [
+  {
+   "p": "n",
+   "zh": "雪菲爾（英國城市）",
+   "ai": [
+    [
+     "Sheffield is a city in the north of England.",
+     "雪菲爾是英格蘭北部的一座城市。"
+    ],
+    [
+     "She studied engineering at a university in Sheffield.",
+     "她在雪菲爾的一所大學念工程。"
+    ]
+   ]
+  }
+ ],
+ "kelly": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Kelly runs three miles before work every morning.",
+     "凱莉每天早上上班前都會跑三英里。"
+    ],
+    [
+     "Kelly sent me a postcard from Italy.",
+     "凱莉從義大利寄了一張明信片給我。"
+    ]
+   ]
+  }
+ ],
+ "clare": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Clare paints landscapes in her free time.",
+     "克萊爾空閒時會畫風景畫。"
+    ],
+    [
+     "I'm having lunch with Clare tomorrow.",
+     "我明天要和克萊爾吃午餐。"
+    ]
+   ]
+  }
+ ],
+ "improved": [
+  {
+   "p": "v",
+   "zh": "改善、進步（improve 的過去式與過去分詞）",
+   "ai": [
+    [
+     "Her English improved a lot after she moved abroad.",
+     "她搬到國外後，英文進步了很多。"
+    ],
+    [
+     "The company improved its service by hiring more staff.",
+     "這間公司增聘人手來改善服務。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "改良過的、進步了的",
+   "ai": [
+    [
+     "The new phone has an improved camera.",
+     "這支新手機的相機經過改良。"
+    ],
+    [
+     "We saw an improved version of the app last week.",
+     "上週我們看到了這款應用程式的改良版。"
+    ]
+   ]
+  }
+ ],
+ "susan": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Susan grows tomatoes in her small garden.",
+     "蘇珊在她的小花園裡種番茄。"
+    ],
+    [
+     "Susan gave me some useful advice about the exam.",
+     "蘇珊給了我一些關於考試的實用建議。"
+    ]
+   ]
+  }
+ ],
+ "swindon": [
+  {
+   "p": "n",
+   "zh": "史雲頓（英國城市）",
+   "ai": [
+    [
+     "Swindon is a town in the south of England.",
+     "史雲頓是英格蘭南部的一個城鎮。"
+    ],
+    [
+     "He takes the train from Swindon to London every day.",
+     "他每天從史雲頓搭火車到倫敦。"
+    ]
+   ]
+  }
+ ],
+ "closed": [
+  {
+   "p": "adj",
+   "zh": "關著的、打烊的",
+   "ai": [
+    [
+     "The bank is closed on Sundays.",
+     "銀行星期日不營業。"
+    ],
+    [
+     "Please keep the door closed to keep the room warm.",
+     "請把門關著，讓房間保持溫暖。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "關上（close 的過去式與過去分詞）",
+   "ai": [
+    [
+     "She closed the window because it was getting cold.",
+     "天氣變冷，所以她把窗戶關上了。"
+    ],
+    [
+     "The store closed early because of the typhoon.",
+     "那間店因颱風提早打烊。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "封閉的、不公開的",
+   "ai": [
+    [
+     "The committee held a closed meeting to discuss the budget.",
+     "委員會召開了一場不公開的會議來討論預算。"
+    ],
+    [
+     "The case was decided in a closed hearing.",
+     "這個案件是在不公開的聽證會上裁定的。"
+    ]
+   ]
+  }
+ ],
+ "roman": [
+  {
+   "p": "n",
+   "zh": "羅馬人",
+   "ai": [
+    [
+     "The Romans built roads all across their empire.",
+     "羅馬人在整個帝國內修築道路。"
+    ],
+    [
+     "A Roman might have walked on this old street two thousand years ago.",
+     "兩千年前，一位羅馬人也許曾走過這條老街。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "羅馬的、羅馬人的",
+   "ai": [
+    [
+     "We visited the ruins of a Roman bath.",
+     "我們參觀了一座羅馬浴場的遺跡。"
+    ],
+    [
+     "The Roman Empire once controlled much of Europe.",
+     "羅馬帝國曾經統治歐洲的大部分地區。"
+    ]
+   ]
+  }
+ ],
+ "hispanic": [
+  {
+   "p": "adj",
+   "zh": "拉丁裔的、西語裔的",
+   "ai": [
+    [
+     "The city has a large Hispanic community.",
+     "這座城市有一個龐大的拉丁裔社區。"
+    ],
+    [
+     "The festival celebrates Hispanic music and food.",
+     "這個慶典是在慶祝拉丁裔的音樂與美食。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "拉丁裔美國人",
+   "ai": [
+    [
+     "Many Hispanics in the United States speak both Spanish and English.",
+     "美國許多拉丁裔同時會說西班牙語和英語。"
+    ],
+    [
+     "The survey asked each Hispanic about his or her hometown.",
+     "這份調查詢問了每位拉丁裔受訪者的家鄉。"
+    ]
+   ]
+  }
+ ],
+ "korean": [
+  {
+   "p": "n",
+   "zh": "韓國人、韓語",
+   "ai": [
+    [
+     "She is learning Korean so she can watch dramas without subtitles.",
+     "她正在學韓語，這樣就能不看字幕看韓劇。"
+    ],
+    [
+     "Two Koreans sat next to us on the plane.",
+     "飛機上有兩位韓國人坐在我們旁邊。"
+    ]
+   ]
+  },
+  {
+   "p": "adj",
+   "zh": "韓國的、韓語的",
+   "ai": [
+    [
+     "We had Korean barbecue for dinner last night.",
+     "我們昨晚晚餐吃了韓式烤肉。"
+    ],
+    [
+     "He bought a Korean dictionary at the bookstore.",
+     "他在書店買了一本韓語辭典。"
+    ]
+   ]
+  }
+ ],
+ "known": [
+  {
+   "p": "adj",
+   "zh": "已知的、有名的",
+   "ai": [
+    [
+     "The town is known for its hot springs.",
+     "這個小鎮以溫泉聞名。"
+    ],
+    [
+     "There are no known cures for this rare disease.",
+     "這種罕見疾病目前沒有已知的治療方法。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "知道、認識（know 的過去分詞）",
+   "ai": [
+    [
+     "I have known her since we were children.",
+     "我從小就認識她。"
+    ],
+    [
+     "Had I known about the traffic, I would have left earlier.",
+     "如果我早知道會塞車，我就會早點出門。"
+    ]
+   ]
+  }
+ ],
+ "required": [
+  {
+   "p": "adj",
+   "zh": "必需的、規定的",
+   "ai": [
+    [
+     "A valid passport is required to enter the country.",
+     "入境這個國家需要有效的護照。"
+    ],
+    [
+     "Math is a required course for all first-year students.",
+     "數學是所有一年級學生的必修課。"
+    ]
+   ]
+  },
+  {
+   "p": "v",
+   "zh": "需要、要求（require 的過去式與過去分詞）",
+   "ai": [
+    [
+     "The job required her to work on weekends.",
+     "這份工作要求她週末上班。"
+    ],
+    [
+     "The repair required more time than we had expected.",
+     "這項修理所需的時間比我們預期的還多。"
+    ]
+   ]
+  }
+ ],
+ "longtime": [
+  {
+   "p": "adj",
+   "zh": "長期的、多年的",
+   "ai": [
+    [
+     "She is a longtime friend of my family.",
+     "她是我家多年的老朋友。"
+    ],
+    [
+     "He finally met his longtime pen pal in person.",
+     "他終於見到了通信多年的筆友。"
+    ]
+   ]
+  }
+ ],
+ "jackson": [
+  {
+   "p": "n",
+   "zh": "傑克遜（美國密西西比州的首府）",
+   "ai": [
+    [
+     "Jackson is the capital of the state of Mississippi.",
+     "傑克遜是密西西比州的首府。"
+    ],
+    [
+     "They drove to Jackson to visit a friend over the weekend.",
+     "他們週末開車到傑克遜去探望朋友。"
+    ]
+   ]
+  }
+ ],
+ "eighteenth": [
+  {
+   "p": "num",
+   "zh": "第十八",
+   "ai": [
+    [
+     "Her eighteenth birthday party was held at a small restaurant.",
+     "她的十八歲生日派對在一間小餐廳舉行。"
+    ],
+    [
+     "He finished in eighteenth place in the race.",
+     "他在比賽中拿到第十八名。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "十八分之一",
+   "ai": [
+    [
+     "An eighteenth of the budget goes to office supplies.",
+     "預算的十八分之一用在辦公用品上。"
+    ],
+    [
+     "Each person received one eighteenth of the prize money.",
+     "每個人拿到獎金的十八分之一。"
+    ]
+   ]
+  }
+ ],
+ "sussex": [
+  {
+   "p": "n",
+   "zh": "蘇塞克斯（英格蘭南部的郡）",
+   "ai": [
+    [
+     "Sussex is a county on the south coast of England.",
+     "蘇塞克斯是英格蘭南岸的一個郡。"
+    ],
+    [
+     "We spent a relaxing weekend in the Sussex countryside.",
+     "我們在蘇塞克斯的鄉間度過了一個悠閒的週末。"
+    ]
+   ]
+  }
+ ],
+ "miller": [
+  {
+   "p": "n",
+   "zh": "磨坊主人",
+   "ai": [
+    [
+     "The miller ground the wheat into flour.",
+     "磨坊主人把小麥磨成麵粉。"
+    ],
+    [
+     "In the old story, a miller lived beside the river.",
+     "在那個古老的故事裡，有一位磨坊主人住在河邊。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "（姓氏）",
+   "ai": [
+    [
+     "Mr. Miller is our new math teacher.",
+     "米勒先生是我們新來的數學老師。"
+    ],
+    [
+     "Please send the package to the Miller family on Oak Street.",
+     "請把包裹寄給橡樹街的米勒一家。"
+    ]
+   ]
+  }
+ ],
+ "ann": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Ann waters the flowers in the morning.",
+     "安每天早上都會幫花澆水。"
+    ],
+    [
+     "Ann and I are taking the same class this semester.",
+     "這學期安和我修同一門課。"
+    ]
+   ]
+  }
+ ],
+ "derek": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Derek works as an electrician in our town.",
+     "德里克在我們鎮上當電工。"
+    ],
+    [
+     "I invited Derek to our dinner on Friday.",
+     "我邀請了德里克來參加星期五的晚餐。"
+    ]
+   ]
+  }
+ ],
+ "lords": [
+  {
+   "p": "n",
+   "zh": "領主、貴族（lord 的複數）",
+   "ai": [
+    [
+     "The lords of the castle held a great feast.",
+     "城堡的領主們舉辦了一場盛大的宴會。"
+    ],
+    [
+     "In the Middle Ages, local lords owned most of the land.",
+     "中世紀時，大部分土地都由地方領主所擁有。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "上議院（the Lords）",
+   "ai": [
+    [
+     "The bill was passed by the House of Commons and sent to the Lords.",
+     "這項法案在下議院通過後，被送交上議院。"
+    ],
+    [
+     "The Lords will discuss the new law next week.",
+     "上議院下週將討論這項新法律。"
+    ]
+   ]
+  }
+ ],
+ "wright": [
+  {
+   "p": "n",
+   "zh": "萊特（姓氏，如萊特兄弟）",
+   "ai": [
+    [
+     "The Wright brothers are famous for building one of the first airplanes.",
+     "萊特兄弟因製造出最早的飛機之一而聞名。"
+    ],
+    [
+     "Wilbur and Orville Wright made the first powered airplane flights.",
+     "威爾伯與奧維爾．萊特完成了最早的動力飛機飛行。"
+    ]
+   ]
+  }
+ ],
+ "emily": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Emily practices the piano for an hour every day.",
+     "艾蜜莉每天練一個小時的鋼琴。"
+    ],
+    [
+     "I borrowed a pen from Emily during the test.",
+     "考試時我向艾蜜莉借了一支筆。"
+    ]
+   ]
+  }
+ ],
+ "microsoft": [
+  {
+   "p": "n",
+   "zh": "微軟公司（美國的軟體公司）",
+   "ai": [
+    [
+     "Microsoft is a software company based in the United States.",
+     "微軟是一間總部位於美國的軟體公司。"
+    ],
+    [
+     "My father worked for Microsoft before he retired.",
+     "我爸爸退休前在微軟工作。"
+    ]
+   ]
+  }
+ ],
+ "re": [
+  {
+   "p": "prep",
+   "zh": "關於（常用於信件或電子郵件主旨）",
+   "ai": [
+    [
+     "I'm writing re your request for a refund.",
+     "我寫信是想回覆你關於退款的要求。"
+    ],
+    [
+     "The subject line of her email said \"Re: Friday's meeting\".",
+     "她的電子郵件主旨寫著「回覆：週五的會議」。"
+    ]
+   ]
+  }
+ ],
+ "joan": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Joan has lived in the same house for thirty years.",
+     "瓊在同一棟房子裡住了三十年。"
+    ],
+    [
+     "Joan gave me a ride to the station.",
+     "瓊載我去了車站。"
+    ]
+   ]
+  }
+ ],
+ "leicester": [
+  {
+   "p": "n",
+   "zh": "萊斯特（英格蘭的城市）",
+   "ai": [
+    [
+     "Leicester is a city in the middle of England.",
+     "萊斯特是英格蘭中部的一座城市。"
+    ],
+    [
+     "My aunt teaches at a school in Leicester.",
+     "我阿姨在萊斯特的一所學校教書。"
+    ]
+   ]
+  }
+ ],
+ "eric": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Eric builds model airplanes in his free time.",
+     "艾瑞克在空閒時會製作飛機模型。"
+    ],
+    [
+     "Eric is going to meet us at the cafe.",
+     "艾瑞克會到咖啡館和我們碰面。"
+    ]
+   ]
+  }
+ ],
+ "walter": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Walter takes a long walk along the beach every evening.",
+     "沃爾特每天傍晚都會沿著海灘走很長一段路。"
+    ],
+    [
+     "We asked Walter for directions to the post office.",
+     "我們向沃爾特問去郵局的路。"
+    ]
+   ]
+  }
+ ],
+ "barry": [
+  {
+   "p": "n",
+   "zh": "（男子名）",
+   "ai": [
+    [
+     "Barry tells the funniest jokes at every party.",
+     "巴里在每次派對上都講最好笑的笑話。"
+    ],
+    [
+     "Barry spent the afternoon painting the fence.",
+     "巴里整個下午都在油漆籬笆。"
+    ]
+   ]
+  }
+ ],
+ "shakespeare": [
+  {
+   "p": "n",
+   "zh": "莎士比亞（英國劇作家）",
+   "ai": [
+    [
+     "Shakespeare wrote many famous plays, including Hamlet and Macbeth.",
+     "莎士比亞寫了許多著名的劇本，包括《哈姆雷特》和《馬克白》。"
+    ],
+    [
+     "We read a short scene by Shakespeare in English class.",
+     "我們在英文課上讀了一小段莎士比亞的劇作。"
+    ]
+   ]
+  }
+ ],
+ "alex": [
+  {
+   "p": "n",
+   "zh": "（人名）",
+   "ai": [
+    [
+     "Alex is learning how to cook Italian food.",
+     "亞歷克斯正在學做義大利菜。"
+    ],
+    [
+     "I'll send the photos to Alex tonight.",
+     "我今晚會把照片寄給亞歷克斯。"
+    ]
+   ]
+  }
+ ],
+ "korea": [
+  {
+   "p": "n",
+   "zh": "韓國、朝鮮半島",
+   "ai": [
+    [
+     "Seoul is the capital of South Korea.",
+     "首爾是南韓的首都。"
+    ],
+    [
+     "Korea is on a peninsula in East Asia.",
+     "韓國位於東亞的一座半島上。"
+    ]
+   ]
+  }
+ ],
+ "caroline": [
+  {
+   "p": "n",
+   "zh": "（女子名）",
+   "ai": [
+    [
+     "Caroline works at a flower shop downtown.",
+     "卡洛琳在市區的一間花店工作。"
+    ],
+    [
+     "Caroline reminded us to bring our passports.",
+     "卡洛琳提醒我們要帶護照。"
+    ]
+   ]
+  }
+ ],
+ "christianity": [
+  {
+   "p": "n",
+   "zh": "基督教",
+   "ai": [
+    [
+     "Christianity is one of the largest religions in the world.",
+     "基督教是世界上最大的宗教之一。"
+    ],
+    [
+     "The students learned about the history of Christianity in Europe.",
+     "學生們學習了基督教在歐洲的歷史。"
+    ]
+   ]
+  }
+ ],
+ "iran": [
+  {
+   "p": "n",
+   "zh": "伊朗",
+   "ai": [
+    [
+     "Tehran is the capital of Iran.",
+     "德黑蘭是伊朗的首都。"
+    ],
+    [
+     "Iran is a large country in the Middle East.",
+     "伊朗是中東的一個大國。"
+    ]
+   ]
+  }
+ ]
+}
