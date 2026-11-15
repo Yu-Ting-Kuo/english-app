@@ -1,0 +1,1606 @@
+{
+ "soft spot": [
+  {
+   "p": "phr",
+   "zh": "特別喜愛、偏愛",
+   "ai": [
+    [
+     "My grandmother has a soft spot for stray cats and feeds them every evening.",
+     "我奶奶特別疼愛流浪貓，每天傍晚都會餵牠們。"
+    ],
+    [
+     "I have a soft spot for old movies from the nineties.",
+     "我特別偏愛九〇年代的老電影。"
+    ],
+    [
+     "The teacher has a soft spot for students who ask a lot of questions.",
+     "這位老師特別喜歡愛發問的學生。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "弱點、軟肋",
+   "ai": [
+    [
+     "Chocolate is my soft spot, so I never keep any at home.",
+     "巧克力是我的弱點，所以我家裡從不放。"
+    ],
+    [
+     "Praise is his soft spot, and salespeople use it to win him over.",
+     "稱讚是他的軟肋，業務員就靠這點來討好他。"
+    ]
+   ]
+  }
+ ],
+ "break the ice": [
+  {
+   "p": "phr",
+   "zh": "打破僵局、炒熱氣氛",
+   "ai": [
+    [
+     "He told a funny story to break the ice at the start of the meeting.",
+     "他在會議一開始講了個有趣的故事來打破僵局。"
+    ],
+    [
+     "A simple game is a good way to break the ice with new classmates.",
+     "簡單的小遊戲是和新同學破冰的好方法。"
+    ],
+    [
+     "She broke the ice by asking everyone about their weekend plans.",
+     "她問大家週末的計畫，打破了尷尬的氣氛。"
+    ]
+   ]
+  }
+ ],
+ "piece of cake": [
+  {
+   "p": "phr",
+   "zh": "小菜一碟、輕而易舉",
+   "ai": [
+    [
+     "Don't worry about the test; for you it will be a piece of cake.",
+     "別擔心考試，對你來說根本是小菜一碟。"
+    ],
+    [
+     "Setting up the new printer was a piece of cake.",
+     "設定新的印表機簡直輕而易舉。"
+    ],
+    [
+     "I thought the interview would be hard, but it was a piece of cake.",
+     "我原本以為面試很難，結果超簡單。"
+    ]
+   ]
+  }
+ ],
+ "give up": [
+  {
+   "p": "phr",
+   "zh": "放棄、認輸",
+   "ai": [
+    [
+     "Don't give up now; you are so close to finishing.",
+     "現在別放棄，你就快完成了。"
+    ],
+    [
+     "After three failed attempts, he decided to give up and ask for help.",
+     "失敗三次之後，他決定放棄並尋求協助。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "戒掉（壞習慣）",
+   "ai": [
+    [
+     "My father finally gave up smoking last year.",
+     "我爸爸去年終於戒菸了。"
+    ],
+    [
+     "She is trying to give up sugary drinks this month.",
+     "她這個月正努力戒掉含糖飲料。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "讓出、犧牲",
+   "ai": [
+    [
+     "He gave up his seat on the bus to an elderly woman.",
+     "他在公車上把座位讓給一位年長的女士。"
+    ],
+    [
+     "She gave up her weekends to take care of her sick mother.",
+     "她犧牲週末的時間照顧生病的母親。"
+    ]
+   ]
+  }
+ ],
+ "look forward to": [
+  {
+   "p": "phr",
+   "zh": "期待、盼望",
+   "ai": [
+    [
+     "I'm really looking forward to the summer vacation.",
+     "我非常期待暑假的到來。"
+    ],
+    [
+     "We look forward to meeting you next week.",
+     "我們期待下週與您見面。"
+    ],
+    [
+     "She looked forward to seeing her old friends again.",
+     "她很期待再見到老朋友。"
+    ]
+   ]
+  }
+ ],
+ "run out of": [
+  {
+   "p": "phr",
+   "zh": "用完、耗盡",
+   "ai": [
+    [
+     "We ran out of milk, so I have to go to the store.",
+     "我們的牛奶喝完了，所以我得去一趟商店。"
+    ],
+    [
+     "The car will run out of gas if we don't stop soon.",
+     "如果我們不趕快停下來，車子就要沒油了。"
+    ],
+    [
+     "Hurry up, or we will run out of time.",
+     "快一點，不然我們時間就不夠了。"
+    ]
+   ]
+  }
+ ],
+ "take care of": [
+  {
+   "p": "phr",
+   "zh": "照顧",
+   "ai": [
+    [
+     "She takes care of her little brother after school.",
+     "她放學後負責照顧弟弟。"
+    ],
+    [
+     "Could you take care of my plants while I'm away?",
+     "我不在的時候，你可以幫我照顧植物嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "處理、負責搞定",
+   "ai": [
+    [
+     "Don't worry about the bill; I'll take care of it.",
+     "別擔心帳單，我來處理。"
+    ],
+    [
+     "Our team took care of all the details for the event.",
+     "我們的團隊搞定了活動的所有細節。"
+    ]
+   ]
+  }
+ ],
+ "make sure": [
+  {
+   "p": "phr",
+   "zh": "確保、確認",
+   "ai": [
+    [
+     "Please make sure the door is locked before you leave.",
+     "離開前請確認門有鎖好。"
+    ],
+    [
+     "I called the restaurant to make sure they had a table for us.",
+     "我打電話給餐廳確認他們有留位子給我們。"
+    ],
+    [
+     "Make sure you bring your passport to the airport.",
+     "一定要記得把護照帶去機場。"
+    ]
+   ]
+  }
+ ],
+ "find out": [
+  {
+   "p": "phr",
+   "zh": "得知、查明",
+   "ai": [
+    [
+     "I want to find out what time the store opens.",
+     "我想查一下這家店幾點開門。"
+    ],
+    [
+     "She found out the truth from her best friend.",
+     "她從最要好的朋友那裡得知了真相。"
+    ],
+    [
+     "We will find out the results of the exam tomorrow.",
+     "我們明天就會知道考試結果。"
+    ]
+   ]
+  }
+ ],
+ "turn on": [
+  {
+   "p": "phr",
+   "zh": "打開（燈、電器）",
+   "ai": [
+    [
+     "Please turn on the light; it's too dark in here.",
+     "請把燈打開，這裡太暗了。"
+    ],
+    [
+     "He turned on the TV to watch the news.",
+     "他打開電視看新聞。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "突然攻擊、翻臉反咬",
+   "ai": [
+    [
+     "The dog suddenly turned on its owner and barked loudly.",
+     "那隻狗突然對主人翻臉狂吠。"
+    ],
+    [
+     "Some of his old friends turned on him when the scandal broke.",
+     "醜聞爆發時，他的一些老朋友突然翻臉攻擊他。"
+    ]
+   ]
+  }
+ ],
+ "turn off": [
+  {
+   "p": "phr",
+   "zh": "關掉（燈、電器）",
+   "ai": [
+    [
+     "Remember to turn off the lights when you leave the room.",
+     "離開房間時記得關燈。"
+    ],
+    [
+     "She turned off her phone during the movie.",
+     "電影放映時她把手機關掉了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使反感、使倒胃口",
+   "ai": [
+    [
+     "His rude jokes really turned off the audience.",
+     "他粗魯的笑話讓觀眾很反感。"
+    ],
+    [
+     "Long, boring ads can turn off many viewers.",
+     "冗長無聊的廣告會讓許多觀眾倒胃口。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "轉彎駛離（主要道路）",
+   "ai": [
+    [
+     "Turn off the highway at the next exit.",
+     "在下一個出口駛離高速公路。"
+    ],
+    [
+     "We turned off the main road and followed a narrow path.",
+     "我們駛離主要道路，沿著一條小徑前進。"
+    ]
+   ]
+  }
+ ],
+ "pick up": [
+  {
+   "p": "phr",
+   "zh": "撿起、拿起",
+   "ai": [
+    [
+     "He bent down to pick up the pen from the floor.",
+     "他彎下腰把地上的筆撿起來。"
+    ],
+    [
+     "She picked up the baby and gave him a hug.",
+     "她把寶寶抱起來，給了他一個擁抱。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "接（人）、去拿（東西）",
+   "ai": [
+    [
+     "Can you pick up the kids from school today?",
+     "你今天可以去學校接孩子嗎？"
+    ],
+    [
+     "I need to pick up my package at the post office.",
+     "我得去郵局領我的包裹。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "學會、無意間學到",
+   "ai": [
+    [
+     "She picked up some Japanese while living in Osaka.",
+     "她住在大阪時順便學會了一些日文。"
+    ],
+    [
+     "Children pick up new words very quickly.",
+     "小孩子學新單字學得很快。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "接電話；好轉、加快",
+   "ai": [
+    [
+     "The phone rang, but nobody picked up.",
+     "電話響了，但沒有人接。"
+    ],
+    [
+     "Business usually picks up around the holiday season.",
+     "生意通常在節慶期間會好轉。"
+    ]
+   ]
+  }
+ ],
+ "put off": [
+  {
+   "p": "phr",
+   "zh": "拖延、延後",
+   "ai": [
+    [
+     "Don't put off your homework until the last minute.",
+     "別把作業拖到最後一刻才寫。"
+    ],
+    [
+     "They put off the wedding because of the bad weather.",
+     "因為天氣不好，他們把婚禮延期了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使反感、使倒胃口",
+   "ai": [
+    [
+     "The strong smell of the food put me off.",
+     "食物的濃烈氣味讓我倒盡胃口。"
+    ],
+    [
+     "His arrogant attitude put off many customers.",
+     "他傲慢的態度讓許多客人反感。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使分心",
+   "ai": [
+    [
+     "Loud music can put off students who are trying to study.",
+     "大聲的音樂會讓努力讀書的學生分心。"
+    ],
+    [
+     "The noise from the street put off the speaker for a moment.",
+     "街上的噪音讓講者一時分了心。"
+    ]
+   ]
+  }
+ ],
+ "set up": [
+  {
+   "p": "phr",
+   "zh": "設立、建立",
+   "ai": [
+    [
+     "They set up a small bakery in their hometown.",
+     "他們在家鄉開了一間小麵包店。"
+    ],
+    [
+     "The school set up a club for young scientists.",
+     "學校成立了一個少年科學家社團。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "安裝、架設、設定",
+   "ai": [
+    [
+     "It took an hour to set up the new router.",
+     "安裝新的路由器花了一個小時。"
+    ],
+    [
+     "Can you help me set up my email account?",
+     "你可以幫我設定電子郵件帳號嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "安排（會議等）",
+   "ai": [
+    [
+     "Let's set up a meeting for next Tuesday afternoon.",
+     "我們來安排下週二下午開個會吧。"
+    ],
+    [
+     "She set up an interview with the manager.",
+     "她安排了一場和經理的面談。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "陷害、設局",
+   "ai": [
+    [
+     "He claimed that his coworkers had set him up.",
+     "他聲稱同事陷害了他。"
+    ],
+    [
+     "The police later found out the man had been set up.",
+     "警方後來發現那名男子是被設計陷害的。"
+    ]
+   ]
+  }
+ ],
+ "carry out": [
+  {
+   "p": "phr",
+   "zh": "進行、執行",
+   "ai": [
+    [
+     "The scientists carried out several experiments last month.",
+     "科學家們上個月進行了數次實驗。"
+    ],
+    [
+     "The company will carry out a survey of its customers.",
+     "公司將對顧客進行一次問卷調查。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "落實、貫徹",
+   "ai": [
+    [
+     "The manager promised to carry out the new safety rules.",
+     "經理承諾會落實新的安全規定。"
+    ],
+    [
+     "It is hard to carry out a plan without enough money.",
+     "沒有足夠的資金，計畫很難落實。"
+    ]
+   ]
+  }
+ ],
+ "come up with": [
+  {
+   "p": "phr",
+   "zh": "想出、提出（點子、辦法）",
+   "ai": [
+    [
+     "We need to come up with a better plan.",
+     "我們需要想出一個更好的計畫。"
+    ],
+    [
+     "She came up with a clever way to save money.",
+     "她想出了一個聰明的省錢方法。"
+    ],
+    [
+     "Can anyone come up with a name for our team?",
+     "有人能幫我們的團隊想個名字嗎？"
+    ]
+   ]
+  }
+ ],
+ "take off": [
+  {
+   "p": "phr",
+   "zh": "（飛機）起飛",
+   "ai": [
+    [
+     "The plane will take off in ten minutes.",
+     "飛機再過十分鐘就要起飛了。"
+    ],
+    [
+     "Our flight took off late because of the fog.",
+     "因為起霧，我們的班機延遲起飛。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "脫掉（衣服、鞋子）",
+   "ai": [
+    [
+     "Please take off your shoes before entering the house.",
+     "進屋前請把鞋子脫掉。"
+    ],
+    [
+     "He took off his jacket because the room was warm.",
+     "房間很暖和，他脫掉了外套。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "離開；請假",
+   "ai": [
+    [
+     "I'm going to take off early today to see a doctor.",
+     "我今天要提早離開去看醫生。"
+    ],
+    [
+     "She took off two days to visit her family.",
+     "她請了兩天假回去探望家人。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "突然走紅、迅速成功",
+   "ai": [
+    [
+     "Her online business really took off during the winter.",
+     "她的網路生意在冬天突然大賣。"
+    ],
+    [
+     "The song took off after it was used in a popular show.",
+     "這首歌在一部熱門影集用過之後迅速竄紅。"
+    ]
+   ]
+  }
+ ],
+ "look after": [
+  {
+   "p": "phr",
+   "zh": "照顧、照料",
+   "ai": [
+    [
+     "She looks after her grandmother every weekend.",
+     "她每個週末都會照顧外婆。"
+    ],
+    [
+     "Who will look after the dog while we're on vacation?",
+     "我們去度假時誰來照顧狗？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "負責處理、照管",
+   "ai": [
+    [
+     "Ms. Lin looks after the accounts for the whole company.",
+     "林小姐負責整間公司的帳務。"
+    ],
+    [
+     "He looks after the shop when the owner is away.",
+     "老闆不在時由他負責看店。"
+    ]
+   ]
+  }
+ ],
+ "look for": [
+  {
+   "p": "phr",
+   "zh": "尋找",
+   "ai": [
+    [
+     "I'm looking for my keys; have you seen them?",
+     "我在找我的鑰匙，你有看到嗎？"
+    ],
+    [
+     "They are looking for a small apartment near the station.",
+     "他們正在找車站附近的小公寓。"
+    ],
+    [
+     "What are you looking for in a roommate?",
+     "你希望室友具備什麼條件？"
+    ]
+   ]
+  }
+ ],
+ "figure out": [
+  {
+   "p": "phr",
+   "zh": "想出、弄清楚、搞懂",
+   "ai": [
+    [
+     "I can't figure out how to use this app.",
+     "我搞不懂這個應用程式要怎麼用。"
+    ],
+    [
+     "She finally figured out the answer to the puzzle.",
+     "她終於想出了這道謎題的答案。"
+    ],
+    [
+     "Let's figure out a way to finish this before Friday.",
+     "我們來想辦法在週五前把這件事完成。"
+    ]
+   ]
+  }
+ ],
+ "bring up": [
+  {
+   "p": "phr",
+   "zh": "提起（話題）",
+   "ai": [
+    [
+     "I didn't want to bring up the money problem at dinner.",
+     "我不想在晚餐時提起錢的問題。"
+    ],
+    [
+     "He brought up an interesting point during the meeting.",
+     "他在會議中提出了一個有趣的看法。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "養育、撫養",
+   "ai": [
+    [
+     "Her grandparents brought her up in a small village.",
+     "她的祖父母在一個小村莊把她養大。"
+    ],
+    [
+     "They want to bring up their children to be kind.",
+     "他們希望把孩子教養得善良。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "吐出來",
+   "ai": [
+    [
+     "The baby brought up some milk after drinking.",
+     "寶寶喝完奶後吐出了一些。"
+    ],
+    [
+     "He felt sick and brought up his lunch.",
+     "他覺得不舒服，把午餐吐了出來。"
+    ]
+   ]
+  }
+ ],
+ "call off": [
+  {
+   "p": "phr",
+   "zh": "取消、叫停",
+   "ai": [
+    [
+     "They had to call off the picnic because of the rain.",
+     "因為下雨，他們不得不取消野餐。"
+    ],
+    [
+     "The coach called off practice when it started to thunder.",
+     "開始打雷時，教練叫停了練習。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "喝令（狗等）停止",
+   "ai": [
+    [
+     "Please call off your dog; it's scaring the children.",
+     "請把你的狗叫回去，牠嚇到小朋友了。"
+    ],
+    [
+     "The farmer called off the dogs before they chased the sheep.",
+     "農夫在狗追羊之前把牠們喝止了。"
+    ]
+   ]
+  }
+ ],
+ "cut down": [
+  {
+   "p": "phr",
+   "zh": "砍倒（樹木）",
+   "ai": [
+    [
+     "The workers cut down the old tree behind the school.",
+     "工人把學校後面那棵老樹砍倒了。"
+    ],
+    [
+     "They had to cut down several trees to build the road.",
+     "為了修路，他們得砍倒好幾棵樹。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "減少、削減",
+   "ai": [
+    [
+     "The doctor told him to cut down on salt.",
+     "醫生叫他減少鹽的攝取。"
+    ],
+    [
+     "We should cut down our spending this month.",
+     "我們這個月應該減少開銷。"
+    ]
+   ]
+  }
+ ],
+ "deal with": [
+  {
+   "p": "phr",
+   "zh": "處理、應付",
+   "ai": [
+    [
+     "She knows how to deal with difficult customers.",
+     "她懂得如何應付難搞的客人。"
+    ],
+    [
+     "I have a lot of emails to deal with this morning.",
+     "我今天早上有很多郵件要處理。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "與…打交道",
+   "ai": [
+    [
+     "Our company deals with suppliers from many countries.",
+     "我們公司和許多國家的供應商往來。"
+    ],
+    [
+     "Nurses deal with all kinds of people every day.",
+     "護理師每天都要和各種人打交道。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "探討、涉及（某主題）",
+   "ai": [
+    [
+     "This book deals with the history of the railway.",
+     "這本書探討的是鐵路的歷史。"
+    ],
+    [
+     "The article deals with the problem of air pollution.",
+     "這篇文章談的是空氣汙染的問題。"
+    ]
+   ]
+  }
+ ],
+ "end up": [
+  {
+   "p": "phr",
+   "zh": "最後落得、到頭來",
+   "ai": [
+    [
+     "We got lost and ended up in a different town.",
+     "我們迷路了，最後來到另一個小鎮。"
+    ],
+    [
+     "If you keep spending like this, you'll end up with no savings.",
+     "你再這樣花錢，到頭來會一毛積蓄都沒有。"
+    ],
+    [
+     "He ended up becoming a teacher, just like his mother.",
+     "他最後成了老師，就和他母親一樣。"
+    ]
+   ]
+  }
+ ],
+ "fall apart": [
+  {
+   "p": "phr",
+   "zh": "解體、散掉",
+   "ai": [
+    [
+     "The old chair fell apart when I sat on it.",
+     "我一坐上去，那張舊椅子就散掉了。"
+    ],
+    [
+     "My umbrella fell apart in the strong wind.",
+     "我的雨傘在強風中解體了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "崩潰、瓦解",
+   "ai": [
+    [
+     "After the bad news, she felt her life falling apart.",
+     "聽到壞消息後，她覺得自己的生活正在崩解。"
+    ],
+    [
+     "Their friendship fell apart after the argument.",
+     "那場爭吵之後，他們的友誼就破裂了。"
+    ]
+   ]
+  }
+ ],
+ "get over": [
+  {
+   "p": "phr",
+   "zh": "克服、走出（傷痛）",
+   "ai": [
+    [
+     "It took her a long time to get over the breakup.",
+     "她花了很長的時間才走出失戀。"
+    ],
+    [
+     "He is trying to get over his fear of speaking in public.",
+     "他正努力克服對公開演講的恐懼。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "病好、康復",
+   "ai": [
+    [
+     "I hope you get over your cold soon.",
+     "希望你的感冒快點好。"
+    ],
+    [
+     "It took me a week to get over the flu.",
+     "我花了一個星期才從流感中康復。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "越過、爬過",
+   "ai": [
+    [
+     "The cat managed to get over the high fence.",
+     "那隻貓成功爬過了高高的圍籬。"
+    ],
+    [
+     "We had to get over a small stream to reach the camp.",
+     "我們得越過一條小溪才能到營地。"
+    ]
+   ]
+  }
+ ],
+ "give in": [
+  {
+   "p": "phr",
+   "zh": "屈服、讓步",
+   "ai": [
+    [
+     "After hours of begging, his mother finally gave in.",
+     "懇求了好幾個小時後，他媽媽終於讓步了。"
+    ],
+    [
+     "We should not give in to unfair demands.",
+     "我們不該向不合理的要求屈服。"
+    ],
+    [
+     "I gave in and bought the kids some ice cream.",
+     "我拗不過孩子，買了冰淇淋給他們。"
+    ]
+   ]
+  }
+ ],
+ "hold on": [
+  {
+   "p": "phr",
+   "zh": "等一下、別掛電話",
+   "ai": [
+    [
+     "Hold on a second; I'll check the schedule.",
+     "等一下，我查一下時間表。"
+    ],
+    [
+     "Could you hold on while I find a pen?",
+     "我去找支筆，請你別掛斷好嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "抓緊、握住",
+   "ai": [
+    [
+     "Hold on tight; the road is very bumpy.",
+     "抓緊了，這條路很顛簸。"
+    ],
+    [
+     "The child held on to her mother's hand in the crowd.",
+     "在人群中，那個孩子緊緊抓著媽媽的手。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "撐住、堅持下去",
+   "ai": [
+    [
+     "Hold on; help is on the way.",
+     "撐住，救援馬上就到。"
+    ],
+    [
+     "They held on until the end of the difficult season.",
+     "他們撐過了那個艱難季節的最後。"
+    ]
+   ]
+  }
+ ],
+ "keep up": [
+  {
+   "p": "phr",
+   "zh": "跟上",
+   "ai": [
+    [
+     "He walks so fast that I can't keep up.",
+     "他走得太快，我跟不上。"
+    ],
+    [
+     "It's hard to keep up with all the new technology.",
+     "要跟上所有新科技很不容易。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "保持、持續",
+   "ai": [
+    [
+     "Keep up the good work, everyone!",
+     "大家繼續保持好表現！"
+    ],
+    [
+     "She keeps up her exercise routine even when she travels.",
+     "她連旅行時也持續維持運動習慣。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使熬夜、讓人睡不著",
+   "ai": [
+    [
+     "The noisy neighbors kept me up all night.",
+     "吵鬧的鄰居讓我整晚睡不著。"
+    ],
+    [
+     "The baby cried and kept up the whole family.",
+     "寶寶一直哭，讓全家人都沒得睡。"
+    ]
+   ]
+  }
+ ],
+ "let down": [
+  {
+   "p": "phr",
+   "zh": "讓…失望、辜負",
+   "ai": [
+    [
+     "I promised to help, and I don't want to let down my friend.",
+     "我答應要幫忙，不想辜負我朋友。"
+    ],
+    [
+     "She felt that she had let down her parents.",
+     "她覺得自己讓父母失望了。"
+    ],
+    [
+     "The team let down its fans with a poor performance.",
+     "球隊表現不佳，讓球迷失望了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放下",
+   "ai": [
+    [
+     "The guard let down the bridge so we could cross.",
+     "守衛把吊橋放了下來，讓我們過去。"
+    ],
+    [
+     "He let down the ladder from the roof.",
+     "他從屋頂把梯子放了下來。"
+    ]
+   ]
+  }
+ ],
+ "make up": [
+  {
+   "p": "phr",
+   "zh": "編造、捏造",
+   "ai": [
+    [
+     "He made up a story about why he was late.",
+     "他編了個故事來解釋為什麼遲到。"
+    ],
+    [
+     "The kids like to make up songs in the car.",
+     "孩子們喜歡在車上自己編歌。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "和好",
+   "ai": [
+    [
+     "They had a fight, but they made up the next day.",
+     "他們吵了一架，但隔天就和好了。"
+    ],
+    [
+     "It's time to make up and be friends again.",
+     "該和好、重新做朋友了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "彌補、補上",
+   "ai": [
+    [
+     "I'll work extra hours to make up the time I lost.",
+     "我會多加幾個小時的班來補回損失的時間。"
+    ],
+    [
+     "She took a class to make up the missing credits.",
+     "她修了一堂課來補足缺的學分。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "組成、構成",
+   "ai": [
+    [
+     "Girls make up most of the class.",
+     "女生占了班上的大多數。"
+    ],
+    [
+     "Water makes up about sixty percent of the human body.",
+     "水約占人體的百分之六十。"
+    ]
+   ]
+  }
+ ],
+ "pass away": [
+  {
+   "p": "phr",
+   "zh": "去世、離世",
+   "ai": [
+    [
+     "His grandfather passed away peacefully last winter.",
+     "他的爺爺去年冬天安詳地過世了。"
+    ],
+    [
+     "She was very sad when her old teacher passed away.",
+     "她的老師過世時，她非常難過。"
+    ],
+    [
+     "The famous singer passed away at the age of ninety.",
+     "那位知名歌手以九十歲高齡辭世。"
+    ]
+   ]
+  }
+ ],
+ "put up with": [
+  {
+   "p": "phr",
+   "zh": "忍受、容忍",
+   "ai": [
+    [
+     "I can't put up with this noise any longer.",
+     "我再也無法忍受這種噪音了。"
+    ],
+    [
+     "She puts up with a lot from her difficult boss.",
+     "她對難搞的老闆忍耐了很多。"
+    ],
+    [
+     "Why do you put up with his rude behavior?",
+     "你為什麼要容忍他的無禮行為？"
+    ]
+   ]
+  }
+ ],
+ "show up": [
+  {
+   "p": "phr",
+   "zh": "出現、到場",
+   "ai": [
+    [
+     "He didn't show up for the meeting this morning.",
+     "他今天早上沒有出席會議。"
+    ],
+    [
+     "Only five people showed up at the party.",
+     "派對上只有五個人出現。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "顯現出來",
+   "ai": [
+    [
+     "The scratches show up clearly in this light.",
+     "在這種光線下，刮痕看得很清楚。"
+    ],
+    [
+     "The problem didn't show up until we tested the system.",
+     "直到測試系統時，問題才浮現出來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "讓…難堪、比下去",
+   "ai": [
+    [
+     "She didn't mean to show up her older sister at the contest.",
+     "她無意在比賽中讓姊姊難堪。"
+    ],
+    [
+     "He loves to show up his coworkers in front of the boss.",
+     "他很愛在老闆面前讓同事出糗。"
+    ]
+   ]
+  }
+ ],
+ "sign up": [
+  {
+   "p": "phr",
+   "zh": "報名、註冊",
+   "ai": [
+    [
+     "I signed up for a yoga class at the gym.",
+     "我在健身房報名了一堂瑜珈課。"
+    ],
+    [
+     "You can sign up for the newsletter on our website.",
+     "你可以在我們的網站上訂閱電子報。"
+    ],
+    [
+     "Many students signed up to join the school trip.",
+     "許多學生報名參加學校旅行。"
+    ]
+   ]
+  }
+ ],
+ "take over": [
+  {
+   "p": "phr",
+   "zh": "接管、接手",
+   "ai": [
+    [
+     "She will take over the company when her father retires.",
+     "她父親退休後，她會接管公司。"
+    ],
+    [
+     "Who is going to take over my job next month?",
+     "下個月誰要接手我的工作？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "取代、掌控",
+   "ai": [
+    [
+     "Smartphones have taken over many tasks once done by computers.",
+     "智慧型手機取代了許多原本由電腦負責的工作。"
+    ],
+    [
+     "Weeds are starting to take over the garden.",
+     "雜草開始占滿整座花園。"
+    ]
+   ]
+  }
+ ],
+ "throw away": [
+  {
+   "p": "phr",
+   "zh": "丟棄",
+   "ai": [
+    [
+     "Please don't throw away the box; we may need it.",
+     "請別把盒子丟掉，我們可能會用到。"
+    ],
+    [
+     "I threw away all my old notebooks after graduation.",
+     "畢業後我把舊筆記本全都丟掉了。"
+    ],
+    [
+     "It's a waste to throw away good food.",
+     "把還能吃的食物丟掉很浪費。"
+    ]
+   ]
+  }
+ ],
+ "turn down": [
+  {
+   "p": "phr",
+   "zh": "拒絕、回絕",
+   "ai": [
+    [
+     "She turned down the job because the salary was too low.",
+     "因為薪水太低，她回絕了那份工作。"
+    ],
+    [
+     "He turned down my invitation to the party.",
+     "他婉拒了我的派對邀請。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "把（音量、溫度）調小",
+   "ai": [
+    [
+     "Could you turn down the music a little?",
+     "你可以把音樂調小聲一點嗎？"
+    ],
+    [
+     "Please turn down the heat; it's too hot in here.",
+     "請把暖氣調小一點，這裡太熱了。"
+    ]
+   ]
+  }
+ ],
+ "work out": [
+  {
+   "p": "phr",
+   "zh": "運動、健身",
+   "ai": [
+    [
+     "He works out at the gym three times a week.",
+     "他每週去健身房運動三次。"
+    ],
+    [
+     "I try to work out before breakfast.",
+     "我盡量在早餐前先運動。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "解決、想出",
+   "ai": [
+    [
+     "We need to work out a plan for the trip.",
+     "我們得為這趟旅行想出一個計畫。"
+    ],
+    [
+     "They worked out their problems by talking honestly.",
+     "他們藉由坦誠對話解決了彼此的問題。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "結果順利、行得通",
+   "ai": [
+    [
+     "I hope everything works out for you.",
+     "希望你一切順利。"
+    ],
+    [
+     "The new schedule didn't work out very well.",
+     "新的時間表行不太通。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "算出",
+   "ai": [
+    [
+     "Can you work out how much each person should pay?",
+     "你能算出每個人該付多少錢嗎？"
+    ],
+    [
+     "She worked out the total cost in her head.",
+     "她用心算算出了總費用。"
+    ]
+   ]
+  }
+ ],
+ "wake up": [
+  {
+   "p": "phr",
+   "zh": "醒來、叫醒",
+   "ai": [
+    [
+     "I usually wake up at six o'clock every morning.",
+     "我通常每天早上六點醒來。"
+    ],
+    [
+     "Please wake up the kids; breakfast is ready.",
+     "請把孩子們叫醒，早餐準備好了。"
+    ],
+    [
+     "The loud thunder woke up the whole neighborhood.",
+     "隆隆雷聲把整個社區都吵醒了。"
+    ]
+   ]
+  }
+ ],
+ "used to": [
+  {
+   "p": "phr",
+   "zh": "以前常常、過去曾經",
+   "ai": [
+    [
+     "I used to play basketball every day after school.",
+     "我以前每天放學後都會打籃球。"
+    ],
+    [
+     "There used to be a small bookstore on this corner.",
+     "這個轉角以前有一間小書店。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "習慣於",
+   "ai": [
+    [
+     "I'm not used to waking up this early.",
+     "我不習慣這麼早起床。"
+    ],
+    [
+     "She is used to working under pressure.",
+     "她已經習慣在壓力下工作。"
+    ]
+   ]
+  }
+ ],
+ "as well as": [
+  {
+   "p": "phr",
+   "zh": "以及、除了…之外也",
+   "ai": [
+    [
+     "She speaks English as well as French and Japanese.",
+     "她除了英文，還會說法文和日文。"
+    ],
+    [
+     "The hotel offers breakfast as well as free parking.",
+     "這間旅館提供早餐，也提供免費停車。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "和…一樣好",
+   "ai": [
+    [
+     "He can't sing as well as his sister.",
+     "他唱歌沒有他姊姊唱得好。"
+    ],
+    [
+     "I'll explain it as well as I can.",
+     "我會盡我所能把它解釋清楚。"
+    ]
+   ]
+  }
+ ],
+ "in case": [
+  {
+   "p": "phr",
+   "zh": "萬一、以防萬一",
+   "ai": [
+    [
+     "Take an umbrella in case it rains.",
+     "帶把傘，以防下雨。"
+    ],
+    [
+     "I wrote down her number in case I lose my phone.",
+     "我把她的號碼寫下來，以防手機弄丟。"
+    ],
+    [
+     "Keep some cash with you in case of an emergency.",
+     "身上留一些現金，以防緊急狀況。"
+    ]
+   ]
+  }
+ ],
+ "on purpose": [
+  {
+   "p": "phr",
+   "zh": "故意",
+   "ai": [
+    [
+     "I think he broke the cup on purpose.",
+     "我覺得他是故意把杯子打破的。"
+    ],
+    [
+     "She didn't hurt his feelings on purpose.",
+     "她不是故意傷他的心的。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "存心、刻意地",
+   "ai": [
+    [
+     "They arrived late on purpose to avoid the crowd.",
+     "他們刻意晚到以避開人潮。"
+    ],
+    [
+     "Did you leave the door open on purpose?",
+     "你是特地把門開著的嗎？"
+    ]
+   ]
+  }
+ ],
+ "by accident": [
+  {
+   "p": "phr",
+   "zh": "不小心、無意間",
+   "ai": [
+    [
+     "I deleted the file by accident.",
+     "我不小心把檔案刪掉了。"
+    ],
+    [
+     "He knocked over the vase by accident.",
+     "他不小心撞倒了花瓶。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "偶然",
+   "ai": [
+    [
+     "We met by accident at the train station.",
+     "我們在火車站偶然遇見。"
+    ],
+    [
+     "She found the old photo by accident while cleaning.",
+     "她打掃時偶然發現了那張舊照片。"
+    ]
+   ]
+  }
+ ],
+ "at least": [
+  {
+   "p": "phr",
+   "zh": "至少（數量）",
+   "ai": [
+    [
+     "You should sleep at least seven hours a night.",
+     "你每晚至少該睡七個小時。"
+    ],
+    [
+     "The trip will cost at least five thousand dollars.",
+     "這趟旅行至少要花五千元。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "至少（退一步說）",
+   "ai": [
+    [
+     "It rained, but at least we had umbrellas.",
+     "雖然下雨了，但至少我們有帶傘。"
+    ],
+    [
+     "You could at least say thank you.",
+     "你至少該說聲謝謝。"
+    ]
+   ]
+  }
+ ],
+ "in fact": [
+  {
+   "p": "phr",
+   "zh": "事實上",
+   "ai": [
+    [
+     "I thought the test would be hard; in fact, it was easy.",
+     "我以為考試會很難，事實上很簡單。"
+    ],
+    [
+     "He looks serious, but in fact he is very friendly.",
+     "他看起來很嚴肅，其實非常友善。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "實際上、說真的",
+   "ai": [
+    [
+     "I don't mind at all; in fact, I'd love to help.",
+     "我一點都不介意，說真的，我很樂意幫忙。"
+    ],
+    [
+     "The roads were not dangerous; in fact, they were almost empty.",
+     "路況並不危險，實際上幾乎沒什麼車。"
+    ]
+   ]
+  }
+ ],
+ "on time": [
+  {
+   "p": "phr",
+   "zh": "準時",
+   "ai": [
+    [
+     "The train arrived on time this morning.",
+     "今天早上火車準時到站。"
+    ],
+    [
+     "Please be on time for the interview.",
+     "面試請準時到場。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "按時（付款、交件）",
+   "ai": [
+    [
+     "She always pays her rent on time.",
+     "她總是按時繳房租。"
+    ],
+    [
+     "We finished the project on time despite the problems.",
+     "儘管有些問題，我們還是準時完成了專案。"
+    ]
+   ]
+  }
+ ],
+ "in time": [
+  {
+   "p": "phr",
+   "zh": "及時、來得及",
+   "ai": [
+    [
+     "We got to the station in time to catch the train.",
+     "我們及時趕到車站搭上了火車。"
+    ],
+    [
+     "The ambulance arrived in time to save him.",
+     "救護車及時趕到救了他。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "遲早、最後",
+   "ai": [
+    [
+     "In time, you will forget about this problem.",
+     "時間一久，你會忘記這個問題的。"
+    ],
+    [
+     "The pain will fade in time.",
+     "疼痛遲早會消退的。"
+    ]
+   ]
+  }
+ ]
+}
