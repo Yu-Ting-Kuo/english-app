@@ -1,0 +1,202 @@
+{
+ "at once": [
+  {
+   "p": "phr",
+   "zh": "立刻",
+   "ai": [
+    [
+     "Please put your phone away and come here at once.",
+     "請馬上把手機收起來，立刻過來。"
+    ],
+    [
+     "The students all started talking at once.",
+     "學生們立刻全都開始講話。"
+    ],
+    [
+     "If you smell gas, leave the house at once.",
+     "如果你聞到瓦斯味，要立刻離開房子。"
+    ]
+   ]
+  }
+ ],
+ "by far": [
+  {
+   "p": "phr",
+   "zh": "遠遠、絕對",
+   "ai": [
+    [
+     "This is by far the best pizza I have ever eaten.",
+     "這絕對是我吃過最好吃的披薩。"
+    ],
+    [
+     "She is by far the tallest girl in our class.",
+     "她遠遠是我們班上最高的女生。"
+    ],
+    [
+     "By far the biggest problem is the lack of time.",
+     "最大的問題絕對是時間不夠。"
+    ]
+   ]
+  }
+ ],
+ "for good": [
+  {
+   "p": "phr",
+   "zh": "永久地、永遠地",
+   "ai": [
+    [
+     "He moved abroad for good after he got married.",
+     "他結婚後就永遠搬到國外了。"
+    ],
+    [
+     "I quit sugar for good last year.",
+     "我去年徹底戒掉了糖。"
+    ],
+    [
+     "They hope to fix the leak for good this time.",
+     "這次他們希望能一勞永逸地修好漏水。"
+    ]
+   ]
+  }
+ ],
+ "for sure": [
+  {
+   "p": "phr",
+   "zh": "確定、一定",
+   "ai": [
+    [
+     "I don't know for sure when the train leaves.",
+     "我不確定火車什麼時候開。"
+    ],
+    [
+     "She will come to the party for sure.",
+     "她一定會來參加派對。"
+    ],
+    [
+     "Nobody can say for sure what will happen next.",
+     "沒有人能確定接下來會發生什麼事。"
+    ]
+   ]
+  }
+ ],
+ "in common": [
+  {
+   "p": "phr",
+   "zh": "有共同點",
+   "ai": [
+    [
+     "My brother and I have a lot in common.",
+     "我哥哥和我有很多共同點。"
+    ],
+    [
+     "The two cities have little in common.",
+     "這兩個城市幾乎沒有共同點。"
+    ],
+    [
+     "What do you and your new roommate have in common?",
+     "你和你的新室友有什麼共同點？"
+    ]
+   ]
+  }
+ ],
+ "in need of": [
+  {
+   "p": "phr",
+   "zh": "需要、缺少",
+   "ai": [
+    [
+     "The old house is in need of repair.",
+     "這棟老房子需要修繕。"
+    ],
+    [
+     "Many families in the town are in need of help.",
+     "鎮上有許多家庭需要幫助。"
+    ],
+    [
+     "I am in need of a long, quiet vacation.",
+     "我很需要一個又長又安靜的假期。"
+    ]
+   ]
+  }
+ ],
+ "on average": [
+  {
+   "p": "phr",
+   "zh": "平均起來",
+   "ai": [
+    [
+     "On average, I sleep about seven hours a night.",
+     "平均來說，我每晚睡大約七小時。"
+    ],
+    [
+     "Students here spend two hours on homework on average.",
+     "這裡的學生平均每天花兩小時寫作業。"
+    ],
+    [
+     "Prices went up by three percent on average.",
+     "物價平均上漲了百分之三。"
+    ]
+   ]
+  }
+ ],
+ "over time": [
+  {
+   "p": "phr",
+   "zh": "隨著時間、久而久之",
+   "ai": [
+    [
+     "Your English will get better over time.",
+     "你的英文會隨著時間慢慢進步。"
+    ],
+    [
+     "Over time, the paint on the wall began to fade.",
+     "久而久之，牆上的油漆開始褪色。"
+    ],
+    [
+     "Small savings can grow into a lot over time.",
+     "小額儲蓄久而久之能累積成一大筆錢。"
+    ]
+   ]
+  }
+ ],
+ "take a look": [
+  {
+   "p": "phr",
+   "zh": "看一看",
+   "ai": [
+    [
+     "Can you take a look at my essay?",
+     "你可以看一下我的作文嗎？"
+    ],
+    [
+     "Let's take a look at the menu before we order.",
+     "我們點餐前先看一下菜單吧。"
+    ],
+    [
+     "The doctor will take a look at your knee tomorrow.",
+     "醫生明天會看一下你的膝蓋。"
+    ]
+   ]
+  }
+ ],
+ "make a decision": [
+  {
+   "p": "phr",
+   "zh": "作決定",
+   "ai": [
+    [
+     "It is hard to make a decision when you are tired.",
+     "累的時候很難做決定。"
+    ],
+    [
+     "We need to make a decision about the trip by Friday.",
+     "我們必須在週五前決定旅行的事。"
+    ],
+    [
+     "Take your time, but please make a decision before dinner.",
+     "慢慢來，但請在晚餐前做出決定。"
+    ]
+   ]
+  }
+ ]
+}
