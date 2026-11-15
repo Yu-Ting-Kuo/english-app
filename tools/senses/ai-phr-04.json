@@ -1,0 +1,2190 @@
+{
+ "give off": [
+  {
+   "p": "phr",
+   "zh": "發出",
+   "ai": [
+    [
+     "The old heater gives off a strange smell when it first turns on.",
+     "那台舊暖氣剛開機時會發出一股怪味。"
+    ],
+    [
+     "Fireflies give off a soft glow on warm summer nights.",
+     "螢火蟲在溫暖的夏夜會發出柔和的光。"
+    ],
+    [
+     "The campfire was giving off a lot of heat, so we moved back.",
+     "營火散發出很多熱氣，所以我們往後退了些。"
+    ]
+   ]
+  }
+ ],
+ "give out": [
+  {
+   "p": "phr",
+   "zh": "分發",
+   "ai": [
+    [
+     "The teacher gave out the test papers at the start of class.",
+     "老師在上課一開始就把考卷發下去。"
+    ],
+    [
+     "Volunteers are giving out free water at the finish line.",
+     "志工正在終點線免費分發飲用水。"
+    ],
+    [
+     "They gave out small gifts to everyone who came to the party.",
+     "他們發小禮物給每一位來參加派對的人。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "發出；發表",
+   "ai": [
+    [
+     "The company gave out a statement about the delay this morning.",
+     "公司今天早上發表了一份關於延誤的聲明。"
+    ],
+    [
+     "The old speaker gave out a loud crackling noise.",
+     "那個舊喇叭發出很大的劈啪聲。"
+    ],
+    [
+     "Officials gave out the final results late last night.",
+     "官員昨晚很晚才公布最後結果。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "用盡；精疲力竭",
+   "ai": [
+    [
+     "Our food supplies gave out before we reached the village.",
+     "我們還沒到村子，糧食就用完了。"
+    ],
+    [
+     "His legs gave out halfway up the steep hill.",
+     "爬到陡坡一半時，他的雙腿就撐不住了。"
+    ],
+    [
+     "My patience finally gave out after an hour of waiting.",
+     "等了一個小時後，我的耐心終於用完了。"
+    ]
+   ]
+  }
+ ],
+ "go ahead": [
+  {
+   "p": "phr",
+   "zh": "請便、儘管去做",
+   "ai": [
+    [
+     "If you want the last slice of pizza, go ahead.",
+     "如果你想吃最後一片披薩，請便。"
+    ],
+    [
+     "Go ahead and ask her; she won't mind at all.",
+     "儘管去問她，她一點都不會介意。"
+    ],
+    [
+     "You can go ahead and start eating without me.",
+     "你們可以先開動，不用等我。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "開始、進行",
+   "ai": [
+    [
+     "The city decided to go ahead with the new bridge project.",
+     "市政府決定繼續進行新橋樑的工程。"
+    ],
+    [
+     "The concert went ahead despite the light rain.",
+     "儘管下著小雨，演唱會還是照常舉行。"
+    ],
+    [
+     "We will go ahead with the meeting once everyone arrives.",
+     "等大家都到了，我們就開始開會。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "往前走、先走",
+   "ai": [
+    [
+     "You go ahead; I'll catch up with you in a minute.",
+     "你先走，我馬上就跟上。"
+    ],
+    [
+     "The guide went ahead to check whether the path was safe.",
+     "嚮導先往前走，確認路徑是否安全。"
+    ],
+    [
+     "Please go ahead of me, since I am walking slowly today.",
+     "請你走前面，因為我今天走得很慢。"
+    ]
+   ]
+  }
+ ],
+ "go along": [
+  {
+   "p": "phr",
+   "zh": "一邊做一邊",
+   "ai": [
+    [
+     "Don't worry about the plan; we'll figure it out as we go along.",
+     "別擔心計畫，我們邊做邊想辦法。"
+    ],
+    [
+     "She learned the rules as she went along.",
+     "她一邊玩一邊學規則。"
+    ],
+    [
+     "I make up the recipe as I go along.",
+     "我一邊煮一邊隨興調整食譜。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "一起去",
+   "ai": [
+    [
+     "We're going to the market, so come go along with us.",
+     "我們要去市場，一起來吧。"
+    ],
+    [
+     "I'll go along to keep you company on the trip.",
+     "我會一起去，陪你走這一趟。"
+    ],
+    [
+     "Why don't you go along with your sister to the park?",
+     "你何不跟你姊姊一起去公園？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "同意、配合",
+   "ai": [
+    [
+     "I'm happy to go along with whatever you decide.",
+     "不管你決定什麼，我都樂意配合。"
+    ],
+    [
+     "Most of the team went along with the new schedule.",
+     "大部分的團隊成員都配合了新的時程。"
+    ],
+    [
+     "He didn't want to go along with their silly idea.",
+     "他不想附和他們那個愚蠢的點子。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "前進、進行",
+   "ai": [
+    [
+     "Things are going along nicely at the new office.",
+     "新辦公室的一切都進行得很順利。"
+    ],
+    [
+     "The project went along smoothly until the final week.",
+     "這個專案一直進展順利，直到最後一週。"
+    ],
+    [
+     "The road goes along the river for several miles.",
+     "這條路沿著河岸延伸好幾英里。"
+    ]
+   ]
+  }
+ ],
+ "go away": [
+  {
+   "p": "phr",
+   "zh": "走開",
+   "ai": [
+    [
+     "Please go away; I'm trying to finish my homework.",
+     "請走開，我正在努力寫完功課。"
+    ],
+    [
+     "The dog wouldn't go away until I gave it some food.",
+     "那隻狗直到我給牠食物才肯走開。"
+    ],
+    [
+     "I hope this headache goes away soon.",
+     "我希望這個頭痛趕快消失。"
+    ]
+   ]
+  }
+ ],
+ "go back": [
+  {
+   "p": "phr",
+   "zh": "回去",
+   "ai": [
+    [
+     "I forgot my keys, so I have to go back home.",
+     "我忘了帶鑰匙，所以得回家一趟。"
+    ],
+    [
+     "They plan to go back to Tainan next summer.",
+     "他們打算明年夏天回台南。"
+    ],
+    [
+     "After the break, everyone went back to work.",
+     "休息過後，大家都回去工作了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "追溯",
+   "ai": [
+    [
+     "This temple goes back more than three hundred years.",
+     "這座廟的歷史可以追溯到三百多年前。"
+    ],
+    [
+     "Our friendship goes back to elementary school.",
+     "我們的友誼可以追溯到小學時期。"
+    ],
+    [
+     "The tradition goes back to the early days of the town.",
+     "這項傳統可以追溯到小鎮的早期。"
+    ]
+   ]
+  }
+ ],
+ "go down": [
+  {
+   "p": "phr",
+   "zh": "下去、往下走",
+   "ai": [
+    [
+     "Let's go down the stairs and wait outside.",
+     "我們下樓到外面等吧。"
+    ],
+    [
+     "The elevator is broken, so we have to go down on foot.",
+     "電梯壞了，所以我們得走路下去。"
+    ],
+    [
+     "She went down the hill on her bike.",
+     "她騎腳踏車下山。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "下降、減少",
+   "ai": [
+    [
+     "Prices usually go down after the holiday season.",
+     "假期過後，物價通常會下降。"
+    ],
+    [
+     "His fever went down after he took the medicine.",
+     "他吃了藥以後，燒就退了。"
+    ],
+    [
+     "The number of visitors has gone down this year.",
+     "今年的遊客人數減少了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（太陽）下山、（船）沉沒",
+   "ai": [
+    [
+     "The sun goes down around six in winter.",
+     "冬天太陽大約六點下山。"
+    ],
+    [
+     "The old ship went down during a terrible storm.",
+     "那艘老船在一場可怕的暴風雨中沉沒了。"
+    ],
+    [
+     "We watched the sun go down behind the mountains.",
+     "我們看著太陽落到山後。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（系統）當機、（事情）發生",
+   "ai": [
+    [
+     "The website went down for two hours last night.",
+     "網站昨晚當機了兩個小時。"
+    ],
+    [
+     "The server always goes down when too many people log in.",
+     "登入的人太多時，伺服器總是會掛掉。"
+    ],
+    [
+     "Nobody knows exactly what went down at the meeting.",
+     "沒有人確切知道會議上發生了什麼事。"
+    ]
+   ]
+  }
+ ],
+ "go off": [
+  {
+   "p": "phr",
+   "zh": "爆炸",
+   "ai": [
+    [
+     "The bomb in the old movie went off right on time.",
+     "老電影裡的炸彈準時爆炸了。"
+    ],
+    [
+     "Fireworks went off all over the city at midnight.",
+     "午夜時，全城各處都響起煙火。"
+    ],
+    [
+     "The firecracker went off with a loud bang.",
+     "鞭炮砰的一聲炸開了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（鬧鐘、警報）響起",
+   "ai": [
+    [
+     "My alarm clock goes off at six every morning.",
+     "我的鬧鐘每天早上六點響。"
+    ],
+    [
+     "The smoke alarm went off while I was cooking.",
+     "我煮飯時煙霧警報器響了。"
+    ],
+    [
+     "Her phone went off in the middle of the quiet lesson.",
+     "在安靜的課堂上，她的手機突然響了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "離開",
+   "ai": [
+    [
+     "He went off to work without saying goodbye.",
+     "他沒說再見就出門上班了。"
+    ],
+    [
+     "The children went off to play in the garden.",
+     "孩子們跑去花園玩了。"
+    ],
+    [
+     "She went off in a hurry after the phone call.",
+     "接完電話後她匆匆離開了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（食物）變質、壞掉",
+   "ai": [
+    [
+     "The milk has gone off, so please don't drink it.",
+     "這牛奶已經壞了，請不要喝。"
+    ],
+    [
+     "Meat goes off quickly in hot weather.",
+     "肉在炎熱的天氣裡很快就會變質。"
+    ],
+    [
+     "I think the cheese went off while we were away.",
+     "我想我們不在家時起司就壞了。"
+    ]
+   ]
+  }
+ ],
+ "go on": [
+  {
+   "p": "phr",
+   "zh": "繼續、接著做、接著說",
+   "ai": [
+    [
+     "Please go on; I'm very interested in your story.",
+     "請繼續說，我對你的故事很有興趣。"
+    ],
+    [
+     "The meeting went on for almost three hours.",
+     "會議持續了將近三個小時。"
+    ],
+    [
+     "She went on working even though it was late.",
+     "雖然很晚了，她還是繼續工作。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "發生",
+   "ai": [
+    [
+     "What's going on in the next room?",
+     "隔壁房間發生什麼事了？"
+    ],
+    [
+     "Nobody told me what was going on at the office.",
+     "沒有人告訴我辦公室裡發生了什麼事。"
+    ],
+    [
+     "There is a lot going on in town this weekend.",
+     "這個週末城裡有很多活動。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "說下去吧、去吧",
+   "ai": [
+    [
+     "Go on, try it; it tastes better than it looks.",
+     "來嘛，試試看，它吃起來比看起來好吃。"
+    ],
+    [
+     "Go on, you can do it!",
+     "加油，你做得到的！"
+    ],
+    [
+     "Go on, tell us what happened at the party.",
+     "說吧，告訴我們派對上發生了什麼事。"
+    ]
+   ]
+  }
+ ],
+ "go out": [
+  {
+   "p": "phr",
+   "zh": "出門、外出",
+   "ai": [
+    [
+     "Let's go out for dinner tonight.",
+     "我們今晚出去吃晚餐吧。"
+    ],
+    [
+     "I don't like to go out when it's raining.",
+     "下雨時我不喜歡出門。"
+    ],
+    [
+     "They went out for a walk after lunch.",
+     "他們午餐後出去散步。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "約會、交往",
+   "ai": [
+    [
+     "He has been going out with her for two years.",
+     "他和她交往兩年了。"
+    ],
+    [
+     "Do you want to go out with me this weekend?",
+     "這個週末你想跟我出去約會嗎？"
+    ],
+    [
+     "My sister and her boyfriend went out for a long time.",
+     "我姊姊和她男友交往了很久。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（燈、火）熄滅",
+   "ai": [
+    [
+     "The lights went out during the storm.",
+     "暴風雨期間燈熄滅了。"
+    ],
+    [
+     "Don't let the fire go out before morning.",
+     "別讓火在早上之前熄掉。"
+    ],
+    [
+     "The candle went out when the window opened.",
+     "窗戶一開，蠟燭就熄了。"
+    ]
+   ]
+  }
+ ],
+ "go through": [
+  {
+   "p": "phr",
+   "zh": "經歷；經受",
+   "ai": [
+    [
+     "She went through a very hard time after moving abroad.",
+     "她搬到國外後度過了一段很艱難的時期。"
+    ],
+    [
+     "Many families are going through the same problem.",
+     "許多家庭正經歷同樣的問題。"
+    ],
+    [
+     "He has gone through a lot to reach this point.",
+     "他歷經許多困難才走到這一步。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "仔細檢查；搜查",
+   "ai": [
+    [
+     "The teacher went through our essays line by line.",
+     "老師逐行仔細檢查我們的作文。"
+    ],
+    [
+     "Customs officers went through all of his bags.",
+     "海關人員翻查了他所有的行李。"
+    ],
+    [
+     "Let's go through the contract before we sign it.",
+     "簽約前我們先把合約仔細看過一遍。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "用完；被通過",
+   "ai": [
+    [
+     "We went through three bags of rice this month.",
+     "這個月我們用掉了三袋米。"
+    ],
+    [
+     "The new law finally went through last week.",
+     "新法案上週終於通過了。"
+    ],
+    [
+     "His request went through without any problems.",
+     "他的申請毫無問題地通過了。"
+    ]
+   ]
+  }
+ ],
+ "go up": [
+  {
+   "p": "phr",
+   "zh": "上去、往上走",
+   "ai": [
+    [
+     "Let's go up to the roof and look at the stars.",
+     "我們上屋頂看星星吧。"
+    ],
+    [
+     "She went up the stairs to get her coat.",
+     "她上樓去拿外套。"
+    ],
+    [
+     "The kids went up to their rooms after dinner.",
+     "晚餐後孩子們上樓回房間。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "上漲、上升",
+   "ai": [
+    [
+     "Rent has gone up again this year.",
+     "今年房租又漲了。"
+    ],
+    [
+     "The temperature will go up to thirty degrees tomorrow.",
+     "明天氣溫會升到三十度。"
+    ],
+    [
+     "Food prices keep going up every month.",
+     "食物價格每個月都在上漲。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "興建",
+   "ai": [
+    [
+     "A new shopping mall is going up near the station.",
+     "車站附近正在蓋一座新的購物中心。"
+    ],
+    [
+     "Tall buildings have gone up all over the area.",
+     "這一帶到處都蓋起了高樓。"
+    ],
+    [
+     "The new school went up in just six months.",
+     "這所新學校只花六個月就蓋好了。"
+    ]
+   ]
+  }
+ ],
+ "grow out of": [
+  {
+   "p": "phr",
+   "zh": "因長大而不再適合或不再喜歡",
+   "ai": [
+    [
+     "My son has grown out of all his winter jackets.",
+     "我兒子長大了，所有的冬季外套都穿不下了。"
+    ],
+    [
+     "She grew out of her fear of the dark.",
+     "她長大後就不再怕黑了。"
+    ],
+    [
+     "He will probably grow out of this habit soon.",
+     "他大概很快就會隨著長大而改掉這個習慣。"
+    ]
+   ]
+  }
+ ],
+ "have on": [
+  {
+   "p": "phr",
+   "zh": "穿著、戴著",
+   "ai": [
+    [
+     "She had on a bright red coat yesterday.",
+     "她昨天穿著一件鮮紅色的外套。"
+    ],
+    [
+     "What do you have on under that sweater?",
+     "你那件毛衣底下穿的是什麼？"
+    ],
+    [
+     "He always has on a hat when he goes out.",
+     "他出門時總是戴著帽子。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "在手頭、使上鉤",
+   "ai": [
+    [
+     "I have a lot on this week, so I can't join you.",
+     "我這週事情很多，不能加入你們。"
+    ],
+    [
+     "Do you have anything on tomorrow evening?",
+     "你明天晚上有任何安排嗎？"
+    ],
+    [
+     "Don't believe him; he is just having you on.",
+     "別相信他，他只是在唬你。"
+    ]
+   ]
+  }
+ ],
+ "head for": [
+  {
+   "p": "phr",
+   "zh": "前往",
+   "ai": [
+    [
+     "We are heading for the beach this weekend.",
+     "這個週末我們要前往海邊。"
+    ],
+    [
+     "The train is heading for Hsinchu Station.",
+     "這班火車正開往新竹車站。"
+    ],
+    [
+     "After lunch, they headed for the airport.",
+     "午餐後，他們動身前往機場。"
+    ]
+   ]
+  }
+ ],
+ "help out": [
+  {
+   "p": "phr",
+   "zh": "幫忙、幫上忙",
+   "ai": [
+    [
+     "Could you help out in the kitchen tonight?",
+     "你今晚可以到廚房幫忙嗎？"
+    ],
+    [
+     "My neighbor often helps out when I'm busy.",
+     "我忙的時候，鄰居常常來幫忙。"
+    ],
+    [
+     "Thanks for helping out with the moving.",
+     "謝謝你幫忙搬家。"
+    ]
+   ]
+  }
+ ],
+ "hold back": [
+  {
+   "p": "phr",
+   "zh": "忍住、克制",
+   "ai": [
+    [
+     "She tried to hold back her tears at the airport.",
+     "她在機場努力忍住眼淚。"
+    ],
+    [
+     "I couldn't hold back my laughter any longer.",
+     "我再也忍不住笑了。"
+    ],
+    [
+     "He held back his anger and stayed calm.",
+     "他壓抑住怒氣，保持冷靜。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "阻止、阻礙",
+   "ai": [
+    [
+     "Heavy rain held back the workers for a whole day.",
+     "大雨讓工人們耽擱了一整天。"
+    ],
+    [
+     "The police held back the crowd behind a rope.",
+     "警方用繩子把群眾擋在後面。"
+    ],
+    [
+     "Fear of failure can hold you back.",
+     "害怕失敗可能會阻礙你前進。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "保留、隱瞞",
+   "ai": [
+    [
+     "I think he is holding back some important facts.",
+     "我覺得他隱瞞了一些重要的事實。"
+    ],
+    [
+     "The bank held back part of my payment for a week.",
+     "銀行把我的部分款項扣留了一週。"
+    ],
+    [
+     "Don't hold back; tell me what you really think.",
+     "別有所保留，告訴我你真正的想法。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "猶豫、退縮",
+   "ai": [
+    [
+     "Don't hold back; just ask her to dance.",
+     "別退縮，直接邀她跳舞吧。"
+    ],
+    [
+     "He held back because he didn't know anyone there.",
+     "他因為在那裡一個人也不認識而有所遲疑。"
+    ],
+    [
+     "The shy girl held back at the edge of the group.",
+     "那個害羞的女孩在人群邊緣遲遲不敢上前。"
+    ]
+   ]
+  }
+ ],
+ "hold off": [
+  {
+   "p": "phr",
+   "zh": "拖延；延後",
+   "ai": [
+    [
+     "We decided to hold off buying a new car for now.",
+     "我們決定暫時先不買新車。"
+    ],
+    [
+     "Can you hold off on the decision until Friday?",
+     "你可以把決定延到星期五嗎？"
+    ],
+    [
+     "The company held off hiring more people this year.",
+     "公司今年延後了增聘人手。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使不靠近",
+   "ai": [
+    [
+     "The soldiers held off the enemy for two days.",
+     "士兵們擋住敵人兩天之久。"
+    ],
+    [
+     "A strong fence held off the wild animals.",
+     "堅固的圍欄擋住了野生動物。"
+    ],
+    [
+     "The thick walls held off the cold wind.",
+     "厚厚的牆擋住了冷風。"
+    ]
+   ]
+  }
+ ],
+ "hold out": [
+  {
+   "p": "phr",
+   "zh": "伸出",
+   "ai": [
+    [
+     "The little boy held out his hand for a cookie.",
+     "小男孩伸出手討餅乾。"
+    ],
+    [
+     "She held out the keys and asked me to take them.",
+     "她伸出手拿著鑰匙，要我收下。"
+    ],
+    [
+     "He held out a cup of tea to his grandmother.",
+     "他把一杯茶遞給奶奶。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "撐住、堅持下去",
+   "ai": [
+    [
+     "The village held out until help finally arrived.",
+     "村子撐到援助終於抵達。"
+    ],
+    [
+     "How long can our food supplies hold out?",
+     "我們的糧食還能撐多久？"
+    ],
+    [
+     "The team held out against a much stronger opponent.",
+     "這支隊伍頂住了實力強得多的對手。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "抱持（希望）",
+   "ai": [
+    [
+     "Doctors still hold out hope for his recovery.",
+     "醫生們仍對他的康復抱持希望。"
+    ],
+    [
+     "We hold out little hope of finding the lost dog.",
+     "我們對找到走失的狗不抱太大希望。"
+    ],
+    [
+     "The new job holds out the promise of a better life.",
+     "這份新工作帶來更好生活的希望。"
+    ]
+   ]
+  }
+ ],
+ "keep away": [
+  {
+   "p": "phr",
+   "zh": "遠離、避開",
+   "ai": [
+    [
+     "Keep away from the edge of the cliff.",
+     "離懸崖邊遠一點。"
+    ],
+    [
+     "I try to keep away from sugary drinks.",
+     "我盡量避開含糖飲料。"
+    ],
+    [
+     "You should keep away from that dog; it bites.",
+     "你應該離那隻狗遠一點，牠會咬人。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不讓靠近",
+   "ai": [
+    [
+     "Wear long sleeves to keep away the mosquitoes.",
+     "穿長袖可以防蚊子靠近。"
+    ],
+    [
+     "A tall fence keeps away stray animals from the garden.",
+     "高圍籬讓流浪動物無法靠近花園。"
+    ],
+    [
+     "Strong smells can keep away insects.",
+     "強烈的氣味能讓昆蟲不敢靠近。"
+    ]
+   ]
+  }
+ ],
+ "keep out": [
+  {
+   "p": "phr",
+   "zh": "禁止進入、別進來",
+   "ai": [
+    [
+     "The sign on the gate says keep out.",
+     "大門上的告示牌寫著禁止進入。"
+    ],
+    [
+     "Keep out! This area is under repair.",
+     "禁止進入！這個區域正在整修。"
+    ],
+    [
+     "He put a keep out sign on his bedroom door.",
+     "他在臥室門上掛了「請勿進入」的牌子。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "擋住、不讓進入",
+   "ai": [
+    [
+     "Thick curtains keep out the afternoon sun.",
+     "厚窗簾能擋住午後的陽光。"
+    ],
+    [
+     "A good coat keeps out the cold wind.",
+     "一件好外套可以擋住冷風。"
+    ],
+    [
+     "The guard kept out anyone without a ticket.",
+     "警衛不讓任何沒有票的人進去。"
+    ]
+   ]
+  }
+ ],
+ "knock down": [
+  {
+   "p": "phr",
+   "zh": "擊倒；拆除",
+   "ai": [
+    [
+     "A strong wind knocked down several trees in the park.",
+     "強風吹倒了公園裡好幾棵樹。"
+    ],
+    [
+     "The old factory will be knocked down next month.",
+     "那間舊工廠下個月就要拆除了。"
+    ],
+    [
+     "The boxer knocked down his opponent in the second round.",
+     "拳擊手在第二回合把對手擊倒。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "拍賣成交",
+   "ai": [
+    [
+     "The painting was knocked down for a record price.",
+     "這幅畫以創紀錄的價格拍板成交。"
+    ],
+    [
+     "The auctioneer knocked down the vase to the man in front.",
+     "拍賣官把花瓶拍給了前排的男士。"
+    ],
+    [
+     "Several antiques were knocked down at low prices.",
+     "好幾件古董以低價成交。"
+    ]
+   ]
+  }
+ ],
+ "knock out": [
+  {
+   "p": "phr",
+   "zh": "擊倒；使失去意識",
+   "ai": [
+    [
+     "The boxer knocked out his opponent in the third round.",
+     "拳擊手在第三回合把對手擊倒。"
+    ],
+    [
+     "The fall knocked him out for a few seconds.",
+     "那一跤讓他昏過去好幾秒。"
+    ],
+    [
+     "A strong punch can knock out a grown man.",
+     "一記重拳可以把成年男子打昏。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使筋疲力竭；淘汰",
+   "ai": [
+    [
+     "The long hike really knocked me out.",
+     "這趟長途健行真的把我累垮了。"
+    ],
+    [
+     "Our team was knocked out of the cup in the first round.",
+     "我們隊在第一輪就被淘汰出盃賽。"
+    ],
+    [
+     "The heat knocked everyone out by noon.",
+     "到了中午，大家都被熱得精疲力竭。"
+    ]
+   ]
+  }
+ ],
+ "lay down": [
+  {
+   "p": "phr",
+   "zh": "放下",
+   "ai": [
+    [
+     "She laid down her bag and sat on the sofa.",
+     "她放下包包，坐到沙發上。"
+    ],
+    [
+     "The soldiers laid down their weapons and gave up.",
+     "士兵們放下武器投降了。"
+    ],
+    [
+     "Please lay down your pens when time is up.",
+     "時間到時請放下筆。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "規定、制定",
+   "ai": [
+    [
+     "The school laid down strict rules about phone use.",
+     "學校對使用手機訂下了嚴格的規定。"
+    ],
+    [
+     "The law lays down how much waste factories can produce.",
+     "法律規定了工廠可以排放多少廢棄物。"
+    ],
+    [
+     "Our manager laid down the rules on the first day.",
+     "我們的經理在第一天就把規矩講清楚。"
+    ]
+   ]
+  }
+ ],
+ "lead to": [
+  {
+   "p": "phr",
+   "zh": "導致；通向",
+   "ai": [
+    [
+     "Too little sleep can lead to health problems.",
+     "睡眠不足可能導致健康問題。"
+    ],
+    [
+     "This path leads to a quiet little lake.",
+     "這條小路通往一座安靜的小湖。"
+    ],
+    [
+     "The argument led to a long period of silence between them.",
+     "那場爭吵使他們之間沉默了很長一段時間。"
+    ]
+   ]
+  }
+ ],
+ "leave out": [
+  {
+   "p": "phr",
+   "zh": "省去；遺漏",
+   "ai": [
+    [
+     "Don't leave out any important details in your report.",
+     "報告中別漏掉任何重要細節。"
+    ],
+    [
+     "They left out the last two names from the list.",
+     "他們漏掉了名單上最後兩個名字。"
+    ],
+    [
+     "I felt sad when my friends left me out of the game.",
+     "朋友們沒讓我加入遊戲，我覺得很難過。"
+    ]
+   ]
+  }
+ ],
+ "let in": [
+  {
+   "p": "phr",
+   "zh": "讓進來、放進去",
+   "ai": [
+    [
+     "Please let in the cat before it starts raining.",
+     "請在下雨之前讓貓進來。"
+    ],
+    [
+     "The guard let in only people with tickets.",
+     "警衛只放有票的人進去。"
+    ],
+    [
+     "Open the window to let in some fresh air.",
+     "打開窗戶讓一些新鮮空氣進來。"
+    ]
+   ]
+  }
+ ],
+ "let go": [
+  {
+   "p": "phr",
+   "zh": "放手、放開",
+   "ai": [
+    [
+     "Don't let go of the rope, or you will fall.",
+     "別放開繩子，不然你會掉下去。"
+    ],
+    [
+     "She let go of his hand at the crowded station.",
+     "在擁擠的車站裡，她放開了他的手。"
+    ],
+    [
+     "The boy let go of the balloon by accident.",
+     "男孩不小心放開了氣球。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放下、釋懷",
+   "ai": [
+    [
+     "It's time to let go of the past and move on.",
+     "是時候放下過去，往前走了。"
+    ],
+    [
+     "She finally let go of her anger toward him.",
+     "她終於放下了對他的怒氣。"
+    ],
+    [
+     "You must learn to let go of things you can't change.",
+     "你得學會放下那些無法改變的事。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "解僱",
+   "ai": [
+    [
+     "The company let go of fifty workers last month.",
+     "公司上個月解僱了五十名員工。"
+    ],
+    [
+     "He was let go after the shop closed down.",
+     "商店倒閉後，他就被解僱了。"
+    ],
+    [
+     "They had to let go several staff members to save money.",
+     "他們為了省錢，不得不裁掉幾位員工。"
+    ]
+   ]
+  }
+ ],
+ "let out": [
+  {
+   "p": "phr",
+   "zh": "放出來、讓出去",
+   "ai": [
+    [
+     "Please let out the dog before we go to bed.",
+     "睡前請把狗放出去。"
+    ],
+    [
+     "The teacher let out the students for a short break.",
+     "老師讓學生們出去短暫休息。"
+    ],
+    [
+     "Open the gate and let out the sheep.",
+     "打開柵門，把羊放出來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "發出（叫聲、嘆氣）",
+   "ai": [
+    [
+     "She let out a big sigh and closed her book.",
+     "她深深嘆了一口氣，闔上書本。"
+    ],
+    [
+     "The baby let out a loud cry in the middle of the night.",
+     "嬰兒在半夜發出響亮的哭聲。"
+    ],
+    [
+     "He let out a shout when he saw the mouse.",
+     "他看到老鼠時大叫了一聲。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "洩露（祕密）",
+   "ai": [
+    [
+     "Someone let out the secret before the party began.",
+     "有人在派對開始前就洩漏了這個祕密。"
+    ],
+    [
+     "He let out the news by mistake during dinner.",
+     "他在晚餐時不小心說溜嘴，洩漏了消息。"
+    ],
+    [
+     "I promise I won't let out a word about your plan.",
+     "我保證不會洩漏你的計畫。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（學校、電影）結束、放學",
+   "ai": [
+    [
+     "School lets out at three o'clock on Fridays.",
+     "學校星期五三點放學。"
+    ],
+    [
+     "The movie let out late, so we missed the last bus.",
+     "電影很晚才散場，所以我們錯過了末班公車。"
+    ],
+    [
+     "When does class let out today?",
+     "今天幾點下課？"
+    ]
+   ]
+  }
+ ],
+ "light up": [
+  {
+   "p": "phr",
+   "zh": "照亮",
+   "ai": [
+    [
+     "Fireworks lit up the whole night sky.",
+     "煙火照亮了整片夜空。"
+    ],
+    [
+     "A small lamp lights up the corner of the room.",
+     "一盞小檯燈照亮了房間的角落。"
+    ],
+    [
+     "The street lights light up the road after dark.",
+     "天黑後，路燈照亮了馬路。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "亮起來；露出喜色",
+   "ai": [
+    [
+     "Her face lit up when she saw the birthday cake.",
+     "她看到生日蛋糕時，臉上亮了起來。"
+    ],
+    [
+     "The whole city lights up during the lantern festival.",
+     "元宵節期間，整座城市都亮了起來。"
+    ],
+    [
+     "His eyes lit up at the sight of the gift.",
+     "他一看到禮物，眼睛就亮了起來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "點菸",
+   "ai": [
+    [
+     "He stepped outside to light up a cigarette.",
+     "他走到外面點了一根菸。"
+    ],
+    [
+     "Please don't light up in the car.",
+     "請不要在車子裡點菸。"
+    ],
+    [
+     "Many people light up after a meal.",
+     "很多人飯後會點一根菸。"
+    ]
+   ]
+  }
+ ],
+ "line up": [
+  {
+   "p": "phr",
+   "zh": "排隊",
+   "ai": [
+    [
+     "Students lined up outside the classroom.",
+     "學生們在教室外排隊。"
+    ],
+    [
+     "Customers were lining up to buy the new phone.",
+     "顧客們排著隊要買新手機。"
+    ],
+    [
+     "Please line up here for the ticket check.",
+     "請在這裡排隊接受查票。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "排列、對齊",
+   "ai": [
+    [
+     "She lined up the cups neatly on the shelf.",
+     "她把杯子整齊地排在架子上。"
+    ],
+    [
+     "Line up the two edges before you glue them.",
+     "黏之前先把兩個邊緣對齊。"
+    ],
+    [
+     "The kids lined up their toys along the wall.",
+     "孩子們把玩具沿著牆排成一列。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "安排好",
+   "ai": [
+    [
+     "I've lined up three interviews for next week.",
+     "我已經安排好下週的三場面試。"
+    ],
+    [
+     "They lined up a guest speaker for the event.",
+     "他們為活動安排了一位客座講者。"
+    ],
+    [
+     "Have you lined up a place to stay yet?",
+     "你已經找好住的地方了嗎？"
+    ]
+   ]
+  }
+ ],
+ "live on": [
+  {
+   "p": "phr",
+   "zh": "繼續生活；繼續存在",
+   "ai": [
+    [
+     "The old man lives on alone in a small village.",
+     "那位老先生獨自繼續住在一個小村莊。"
+    ],
+    [
+     "Her kind words will live on in our hearts.",
+     "她溫暖的話語會長存我們心中。"
+    ],
+    [
+     "The singer's music lives on after all these years.",
+     "這位歌手的音樂過了這麼多年仍然流傳著。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "以…為主食；靠…生活",
+   "ai": [
+    [
+     "Pandas live on bamboo.",
+     "貓熊以竹子為主食。"
+    ],
+    [
+     "They live on a very small income.",
+     "他們靠很微薄的收入過活。"
+    ],
+    [
+     "As a student, I lived on noodles for a month.",
+     "當學生時，我有一個月都靠麵條過日子。"
+    ]
+   ]
+  }
+ ],
+ "live up to": [
+  {
+   "p": "phr",
+   "zh": "達到期望、不辜負",
+   "ai": [
+    [
+     "The new phone didn't live up to my expectations.",
+     "這支新手機沒有達到我的期望。"
+    ],
+    [
+     "She worked hard to live up to her parents' hopes.",
+     "她努力不辜負父母的期望。"
+    ],
+    [
+     "The movie lived up to all the praise it got.",
+     "這部電影不負眾人的稱讚。"
+    ]
+   ]
+  }
+ ],
+ "lock up": [
+  {
+   "p": "phr",
+   "zh": "鎖上",
+   "ai": [
+    [
+     "Please lock up the office when you leave.",
+     "你離開時請把辦公室鎖好。"
+    ],
+    [
+     "He locks up the shop at nine every night.",
+     "他每天晚上九點把店鎖上。"
+    ],
+    [
+     "Don't forget to lock up before going to bed.",
+     "睡覺前別忘了把門窗鎖好。"
+    ]
+   ]
+  }
+ ],
+ "look around": [
+  {
+   "p": "phr",
+   "zh": "環顧四周、到處看看",
+   "ai": [
+    [
+     "She looked around the room but couldn't see her keys.",
+     "她環顧房間，卻找不到鑰匙。"
+    ],
+    [
+     "We looked around the old town for an hour.",
+     "我們在老城區到處逛了一個小時。"
+    ],
+    [
+     "He stopped and looked around to find the way.",
+     "他停下來四處張望，想找出路。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "四處逛逛、多方比較",
+   "ai": [
+    [
+     "We're looking around for a bigger apartment.",
+     "我們正在四處看看，想找一間比較大的公寓。"
+    ],
+    [
+     "It's wise to look around before you buy a laptop.",
+     "買筆電前先多看看比較聰明。"
+    ],
+    [
+     "I'm just looking around, thanks.",
+     "我只是隨便看看，謝謝。"
+    ]
+   ]
+  }
+ ],
+ "look back": [
+  {
+   "p": "phr",
+   "zh": "回頭看",
+   "ai": [
+    [
+     "She looked back and waved at her mother.",
+     "她回頭向媽媽揮手。"
+    ],
+    [
+     "Don't look back; just keep running.",
+     "別回頭，繼續跑。"
+    ],
+    [
+     "He looked back to see if anyone was following.",
+     "他回頭看有沒有人跟著。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "回顧、回想",
+   "ai": [
+    [
+     "I often look back on my school days with a smile.",
+     "我常帶著微笑回想求學時光。"
+    ],
+    [
+     "Looking back, I should have studied harder.",
+     "回頭想想，我當時應該更用功。"
+    ],
+    [
+     "She looks back on her trip as the best time of her life.",
+     "她回想那趟旅行，覺得是人生中最美好的時光。"
+    ]
+   ]
+  }
+ ],
+ "look into": [
+  {
+   "p": "phr",
+   "zh": "調查、研究一下",
+   "ai": [
+    [
+     "The police are looking into the missing bike.",
+     "警方正在調查那輛失蹤的腳踏車。"
+    ],
+    [
+     "I'll look into the problem and call you back.",
+     "我會查一下這個問題，再回電給你。"
+    ],
+    [
+     "The school promised to look into the complaint.",
+     "學校答應會調查這項投訴。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "往裡面看",
+   "ai": [
+    [
+     "She looked into the box and smiled.",
+     "她往盒子裡看，露出笑容。"
+    ],
+    [
+     "He looked into the mirror and fixed his hair.",
+     "他看向鏡子，整理了頭髮。"
+    ],
+    [
+     "The children looked into the window of the toy shop.",
+     "孩子們往玩具店的櫥窗裡看。"
+    ]
+   ]
+  }
+ ],
+ "look out": [
+  {
+   "p": "phr",
+   "zh": "小心、當心",
+   "ai": [
+    [
+     "Look out! There's a car coming!",
+     "小心！有車來了！"
+    ],
+    [
+     "Look out for the step; it's very high.",
+     "小心那個台階，它很高。"
+    ],
+    [
+     "He shouted \"look out\" when the ball flew toward us.",
+     "球朝我們飛來時，他大喊「小心」。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "往外看",
+   "ai": [
+    [
+     "She looked out of the window at the rain.",
+     "她從窗戶往外看著雨。"
+    ],
+    [
+     "The cat likes to look out the door all day.",
+     "那隻貓整天都喜歡往門外看。"
+    ],
+    [
+     "He looked out and saw his friend waiting.",
+     "他往外一看，看到朋友在等他。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "留意、照顧",
+   "ai": [
+    [
+     "Look out for cheap flights during the winter.",
+     "冬天時要留意便宜的機票。"
+    ],
+    [
+     "Older brothers should look out for their little sisters.",
+     "哥哥們應該照顧自己的妹妹。"
+    ],
+    [
+     "Please look out for my package while I'm away.",
+     "我不在時，請幫我留意一下我的包裹。"
+    ]
+   ]
+  }
+ ],
+ "look over": [
+  {
+   "p": "phr",
+   "zh": "快速看過、檢查一下",
+   "ai": [
+    [
+     "Could you look over my essay before I hand it in?",
+     "交出去之前，你可以幫我看一下我的作文嗎？"
+    ],
+    [
+     "The mechanic looked over the car and found no problems.",
+     "技師檢查了車子，沒發現問題。"
+    ],
+    [
+     "She looked over the menu and ordered soup.",
+     "她大略看過菜單，點了湯。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "從上方看過去",
+   "ai": [
+    [
+     "He looked over the wall to see the garden.",
+     "他從牆上方望過去看花園。"
+    ],
+    [
+     "The little girl looked over the fence at the horses.",
+     "小女孩從圍欄上方望著那些馬。"
+    ],
+    [
+     "She looked over her glasses and smiled at me.",
+     "她從眼鏡上方看著我，微微一笑。"
+    ]
+   ]
+  }
+ ],
+ "look through": [
+  {
+   "p": "phr",
+   "zh": "翻閱、瀏覽",
+   "ai": [
+    [
+     "I looked through the magazine while waiting.",
+     "我等的時候翻了翻雜誌。"
+    ],
+    [
+     "She looked through the report for any mistakes.",
+     "她把報告瀏覽一遍，找找有沒有錯誤。"
+    ],
+    [
+     "He looked through the photo album with his grandma.",
+     "他和奶奶一起翻看相簿。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "翻找",
+   "ai": [
+    [
+     "I looked through my bag but couldn't find my wallet.",
+     "我翻遍了包包，還是找不到錢包。"
+    ],
+    [
+     "She looked through the drawers for a pair of scissors.",
+     "她在抽屜裡翻找一把剪刀。"
+    ],
+    [
+     "He looked through old boxes in the attic.",
+     "他在閣樓的舊箱子裡翻找東西。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "透過…看",
+   "ai": [
+    [
+     "You can look through the telescope to see the moon.",
+     "你可以透過望遠鏡看月亮。"
+    ],
+    [
+     "She looked through the window at the snow.",
+     "她透過窗戶看著雪。"
+    ],
+    [
+     "He looked through the small hole in the wall.",
+     "他從牆上的小洞看過去。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "視而不見",
+   "ai": [
+    [
+     "She looked right through me as if I weren't there.",
+     "她對我視而不見，好像我不在那裡一樣。"
+    ],
+    [
+     "He looked through his old friend and walked on.",
+     "他對老朋友視而不見，繼續往前走。"
+    ],
+    [
+     "It hurts when people look through you like that.",
+     "被人這樣當成空氣，真的很難受。"
+    ]
+   ]
+  }
+ ],
+ "make for": [
+  {
+   "p": "phr",
+   "zh": "走向",
+   "ai": [
+    [
+     "When it started to rain, we made for the nearest cafe.",
+     "開始下雨時，我們朝最近的咖啡店走去。"
+    ],
+    [
+     "The tired hikers made for the cabin.",
+     "疲憊的登山客朝小木屋走去。"
+    ],
+    [
+     "She made for the door as soon as the bell rang.",
+     "鈴一響，她就衝向門口。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "有助於、造成",
+   "ai": [
+    [
+     "Good teamwork makes for a happy workplace.",
+     "良好的團隊合作有助於營造愉快的職場。"
+    ],
+    [
+     "Regular exercise makes for a healthier life.",
+     "規律運動有助於過更健康的生活。"
+    ],
+    [
+     "Clear rules make for fewer arguments.",
+     "明確的規定能減少爭吵。"
+    ]
+   ]
+  }
+ ],
+ "mix up": [
+  {
+   "p": "phr",
+   "zh": "搞混、弄錯",
+   "ai": [
+    [
+     "I always mix up my cousins' names.",
+     "我總是把表兄弟姊妹的名字搞混。"
+    ],
+    [
+     "They mixed up the orders, so I got the wrong pizza.",
+     "他們把訂單搞混了，所以我拿到錯的披薩。"
+    ],
+    [
+     "Don't mix up the two keys; they look alike.",
+     "別把這兩把鑰匙搞混，它們長得很像。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "弄亂",
+   "ai": [
+    [
+     "The wind mixed up all my papers.",
+     "風把我所有的紙張都吹亂了。"
+    ],
+    [
+     "Someone mixed up the books on the shelf.",
+     "有人把書架上的書弄亂了。"
+    ],
+    [
+     "Please don't mix up the cards before we finish.",
+     "我們結束之前，請不要把牌弄亂。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "混合",
+   "ai": [
+    [
+     "Mix up the eggs and flour in a large bowl.",
+     "把雞蛋和麵粉在大碗裡攪拌混合。"
+    ],
+    [
+     "She mixed up a quick salad for lunch.",
+     "她很快拌了一份沙拉當午餐。"
+    ],
+    [
+     "Mix up the paint until the color looks even.",
+     "把顏料調勻，直到顏色看起來均勻。"
+    ]
+   ]
+  }
+ ],
+ "move in": [
+  {
+   "p": "phr",
+   "zh": "搬進來、入住",
+   "ai": [
+    [
+     "The new neighbors moved in last weekend.",
+     "新鄰居上週末搬進來了。"
+    ],
+    [
+     "We can move in as soon as the paint dries.",
+     "油漆一乾，我們就可以搬進去。"
+    ],
+    [
+     "When do you plan to move in?",
+     "你打算什麼時候搬進去？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "同居、搬去一起住",
+   "ai": [
+    [
+     "She decided to move in with her boyfriend.",
+     "她決定搬去和男友同住。"
+    ],
+    [
+     "My grandmother is moving in with us next month.",
+     "我奶奶下個月要搬來和我們同住。"
+    ],
+    [
+     "They moved in together after a year.",
+     "交往一年後，他們搬到一起住。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "靠近、逼近",
+   "ai": [
+    [
+     "The police moved in on the building at dawn.",
+     "警方在黎明時逼近那棟建築。"
+    ],
+    [
+     "Dark clouds are moving in from the west.",
+     "烏雲正從西邊逼近。"
+    ],
+    [
+     "The photographer moved in for a closer shot.",
+     "攝影師靠近一些，想拍更近的畫面。"
+    ]
+   ]
+  }
+ ],
+ "move out": [
+  {
+   "p": "phr",
+   "zh": "搬出",
+   "ai": [
+    [
+     "He moved out of his parents' house at twenty.",
+     "他二十歲時搬離了父母的家。"
+    ],
+    [
+     "We have to move out by the end of the month.",
+     "我們月底前得搬出去。"
+    ],
+    [
+     "My roommate is moving out next week.",
+     "我的室友下週要搬走。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "出發",
+   "ai": [
+    [
+     "The army moved out at dawn.",
+     "軍隊在黎明時出發。"
+    ],
+    [
+     "The trucks moved out of the yard one by one.",
+     "卡車一輛接一輛駛出院子。"
+    ],
+    [
+     "Let's move out before the traffic gets bad.",
+     "我們在塞車之前出發吧。"
+    ]
+   ]
+  }
+ ],
+ "pass out": [
+  {
+   "p": "phr",
+   "zh": "昏倒、暈過去",
+   "ai": [
+    [
+     "He almost passed out in the hot room.",
+     "他在悶熱的房間裡差點暈倒。"
+    ],
+    [
+     "Several runners passed out because of the heat.",
+     "好幾位跑者因為高溫而昏倒了。"
+    ],
+    [
+     "She felt dizzy and then passed out on the floor.",
+     "她覺得頭暈，接著就昏倒在地上。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "分發",
+   "ai": [
+    [
+     "The teacher passed out the homework at the end of class.",
+     "老師在下課時把作業發下去。"
+    ],
+    [
+     "Volunteers passed out flyers in front of the station.",
+     "志工在車站前發傳單。"
+    ],
+    [
+     "Please pass out these cups to everyone.",
+     "請把這些杯子分給每個人。"
+    ]
+   ]
+  }
+ ],
+ "pay off": [
+  {
+   "p": "phr",
+   "zh": "付清、還清",
+   "ai": [
+    [
+     "She finally paid off her student loan last year.",
+     "她去年終於還清了學貸。"
+    ],
+    [
+     "We plan to pay off the car in two years.",
+     "我們打算兩年內付清車貸。"
+    ],
+    [
+     "He worked extra jobs to pay off his debts.",
+     "他兼了額外的工作來還清債務。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "有回報、值得",
+   "ai": [
+    [
+     "All your hard work will pay off someday.",
+     "你所有的努力總有一天會有回報。"
+    ],
+    [
+     "Her risky plan paid off in the end.",
+     "她那個冒險的計畫最後有了成果。"
+    ],
+    [
+     "Studying every day really paid off during the exam.",
+     "每天讀書在考試時真的派上用場了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "收買、賄賂",
+   "ai": [
+    [
+     "The company paid off the witness to stay silent.",
+     "公司收買證人讓他保持沉默。"
+    ],
+    [
+     "He tried to pay off the officer, but it didn't work.",
+     "他試圖賄賂警官，但沒有成功。"
+    ],
+    [
+     "They paid off several officials to get the deal.",
+     "他們收買了好幾位官員來拿下這筆交易。"
+    ]
+   ]
+  }
+ ],
+ "pick out": [
+  {
+   "p": "phr",
+   "zh": "挑選",
+   "ai": [
+    [
+     "Can you help me pick out a gift for my mom?",
+     "你可以幫我幫媽媽挑一份禮物嗎？"
+    ],
+    [
+     "She picked out a blue dress for the party.",
+     "她為派對挑了一件藍色洋裝。"
+    ],
+    [
+     "The kids picked out their favorite books at the library.",
+     "孩子們在圖書館挑出自己最喜歡的書。"
+    ]
+   ]
+  }
+ ],
+ "point to": [
+  {
+   "p": "phr",
+   "zh": "指向",
+   "ai": [
+    [
+     "She pointed to the map and said, \"We are here.\"",
+     "她指著地圖說：「我們在這裡。」"
+    ],
+    [
+     "The boy pointed to the cake on the table.",
+     "男孩指向桌上的蛋糕。"
+    ],
+    [
+     "All the signs point to a better year ahead.",
+     "所有跡象都顯示接下來會是更好的一年。"
+    ]
+   ]
+  }
+ ],
+ "pull out": [
+  {
+   "p": "phr",
+   "zh": "拔出、抽出、掏出",
+   "ai": [
+    [
+     "He pulled out a pen from his pocket.",
+     "他從口袋裡掏出一支筆。"
+    ],
+    [
+     "The dentist had to pull out my bad tooth.",
+     "牙醫必須把我那顆壞牙拔掉。"
+    ],
+    [
+     "She pulled out a chair and sat down.",
+     "她拉開一張椅子坐下。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "撤出、退出",
+   "ai": [
+    [
+     "The company pulled out of the deal at the last minute.",
+     "公司在最後一刻退出了這筆交易。"
+    ],
+    [
+     "Our team had to pull out of the race because of an injury.",
+     "因為有人受傷，我們隊必須退出比賽。"
+    ],
+    [
+     "Troops began to pull out of the area yesterday.",
+     "部隊昨天開始撤出該地區。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（車）駛出",
+   "ai": [
+    [
+     "A truck pulled out in front of our car.",
+     "一輛卡車開到我們車子前方。"
+    ],
+    [
+     "The bus pulled out of the station on time.",
+     "公車準時駛出車站。"
+    ],
+    [
+     "Check carefully before you pull out of the driveway.",
+     "駛出車道前要仔細查看。"
+    ]
+   ]
+  }
+ ],
+ "pull up": [
+  {
+   "p": "phr",
+   "zh": "停下、靠邊停",
+   "ai": [
+    [
+     "A taxi pulled up in front of the hotel.",
+     "一輛計程車在旅館前停了下來。"
+    ],
+    [
+     "Please pull up next to the red car.",
+     "請把車停到那輛紅色車子旁邊。"
+    ],
+    [
+     "He pulled up at the side of the road to check the map.",
+     "他把車停在路邊查看地圖。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "拉起、拉上來",
+   "ai": [
+    [
+     "She pulled up her socks and ran outside.",
+     "她把襪子拉高，就跑到外面去。"
+    ],
+    [
+     "He pulled up a chair and joined the conversation.",
+     "他拉了一張椅子過來，加入談話。"
+    ],
+    [
+     "The farmer pulled up the weeds in the garden.",
+     "農夫把花園裡的雜草拔起來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "調出（資料、畫面）",
+   "ai": [
+    [
+     "Let me pull up your account on the computer.",
+     "讓我在電腦上調出你的帳戶。"
+    ],
+    [
+     "She pulled up the map on her phone.",
+     "她在手機上叫出地圖。"
+    ],
+    [
+     "Can you pull up last year's sales numbers?",
+     "你可以調出去年的銷售數字嗎？"
+    ]
+   ]
+  }
+ ]
+}
