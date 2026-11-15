@@ -1,0 +1,1788 @@
+{
+ "a lost cause": [
+  {
+   "p": "phr",
+   "zh": "沒救了的人或事、註定失敗的事",
+   "ai": [
+    [
+     "Everyone knew the old car was a lost cause after the third breakdown.",
+     "第三次拋錨後，大家都知道這輛舊車沒救了。"
+    ],
+    [
+     "He thinks teaching his cat to fetch is a lost cause.",
+     "他覺得教貓咪撿東西是註定失敗的事。"
+    ]
+   ]
+  }
+ ],
+ "a narrow escape": [
+  {
+   "p": "phr",
+   "zh": "九死一生",
+   "ai": [
+    [
+     "The driver had a narrow escape when the truck missed his car by inches.",
+     "卡車差幾公分就撞上他的車，司機真是死裡逃生。"
+    ],
+    [
+     "We had a narrow escape from the flood by leaving early.",
+     "我們提早離開，才驚險躲過那場洪水。"
+    ]
+   ]
+  }
+ ],
+ "a rain check": [
+  {
+   "p": "phr",
+   "zh": "留待天晴補看的票根;延期舉行",
+   "ai": [
+    [
+     "I can't come tonight, but can I take a rain check?",
+     "我今晚不能去，下次再約可以嗎？"
+    ],
+    [
+     "The shop gave customers a rain check for the sold-out item.",
+     "那家店給缺貨商品的顧客一張之後補領的憑證。"
+    ]
+   ]
+  }
+ ],
+ "a raw deal": [
+  {
+   "p": "phr",
+   "zh": "不公平的對待",
+   "ai": [
+    [
+     "The workers felt they got a raw deal when their pay was cut.",
+     "工人的薪水被砍，他們覺得受到不公平的對待。"
+    ],
+    [
+     "She got a raw deal from the landlord, who kept her deposit.",
+     "房東扣了她的押金，她被不公平地對待。"
+    ]
+   ]
+  }
+ ],
+ "a white lie": [
+  {
+   "p": "phr",
+   "zh": "無惡意的謊話",
+   "ai": [
+    [
+     "I told a white lie and said I loved the sweater.",
+     "我說了個善意的小謊，說我很喜歡那件毛衣。"
+    ],
+    [
+     "Is it ever okay to tell a white lie to a friend?",
+     "對朋友說個善意的謊言，有時算可以嗎？"
+    ]
+   ]
+  }
+ ],
+ "a wet blanket": [
+  {
+   "p": "phr",
+   "zh": "令人掃興的人(或物)",
+   "ai": [
+    [
+     "Don't be a wet blanket, come and dance with us.",
+     "別這麼掃興，來跟我們一起跳舞吧。"
+    ],
+    [
+     "He was a wet blanket at the party and left early.",
+     "他在派對上很掃興，而且提早離開了。"
+    ]
+   ]
+  }
+ ],
+ "a long shot": [
+  {
+   "p": "phr",
+   "zh": "不大會成功的嘗試",
+   "ai": [
+    [
+     "Winning the prize is a long shot, but I will enter anyway.",
+     "要得獎機會很小，不過我還是要參加。"
+    ],
+    [
+     "It was a long shot, but she asked her boss for a raise.",
+     "希望不大，但她還是向老闆要求加薪。"
+    ]
+   ]
+  }
+ ],
+ "a pretty penny": [
+  {
+   "p": "phr",
+   "zh": "一大筆錢,相當可觀的一筆錢",
+   "ai": [
+    [
+     "That new phone must have cost a pretty penny.",
+     "那支新手機一定花了不少錢。"
+    ],
+    [
+     "They paid a pretty penny for their house by the sea.",
+     "他們花了一大筆錢買下海邊那棟房子。"
+    ]
+   ]
+  }
+ ],
+ "hand in hand": [
+  {
+   "p": "phr",
+   "zh": "手牽手",
+   "ai": [
+    [
+     "The old couple walked hand in hand along the beach.",
+     "那對老夫妻手牽著手沿著海灘散步。"
+    ],
+    [
+     "The children crossed the street hand in hand with their teacher.",
+     "孩子們跟老師手牽著手過馬路。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "密切相關、同時並進（go hand in hand）",
+   "ai": [
+    [
+     "Good health and a good diet go hand in hand.",
+     "健康和良好的飲食是密不可分的。"
+    ],
+    [
+     "In this company, hard work and rewards go hand in hand.",
+     "在這家公司，努力和回報是相輔相成的。"
+    ]
+   ]
+  }
+ ],
+ "heart to heart": [
+  {
+   "p": "phr",
+   "zh": "誠懇地, 貼心地",
+   "ai": [
+    [
+     "We talked heart to heart until midnight.",
+     "我們推心置腹地聊到半夜。"
+    ],
+    [
+     "My father and I finally spoke heart to heart about my future.",
+     "我爸和我終於坦誠地談起我的未來。"
+    ]
+   ]
+  }
+ ],
+ "high and low": [
+  {
+   "p": "phr",
+   "zh": "到處（search high and low）",
+   "ai": [
+    [
+     "I searched high and low for my keys.",
+     "我到處找我的鑰匙。"
+    ],
+    [
+     "They looked high and low for a cheap apartment.",
+     "他們四處尋找便宜的公寓。"
+    ]
+   ]
+  }
+ ],
+ "hit and miss": [
+  {
+   "p": "phr",
+   "zh": "得失各佔一半,不管勝負如何,胡亂地",
+   "ai": [
+    [
+     "The service at that café is hit and miss.",
+     "那家咖啡店的服務時好時壞。"
+    ],
+    [
+     "My cooking is hit and miss, so don't expect too much.",
+     "我的廚藝時好時壞，所以別期待太高。"
+    ]
+   ]
+  }
+ ],
+ "hit or miss": [
+  {
+   "p": "phr",
+   "zh": "不論成功與否",
+   "ai": [
+    [
+     "Finding a good seat at the concert is hit or miss.",
+     "在演唱會要找到好位子全憑運氣。"
+    ],
+    [
+     "He studied in a hit or miss way and failed the test.",
+     "他讀書漫無章法，結果考試沒過。"
+    ]
+   ]
+  }
+ ],
+ "hot air": [
+  {
+   "p": "phr",
+   "zh": "熱空氣",
+   "ai": [
+    [
+     "Hot air rises, so the top floor is always warmer.",
+     "熱空氣會上升，所以頂樓總是比較熱。"
+    ],
+    [
+     "The balloon floated up because it was filled with hot air.",
+     "氣球裡充滿熱空氣，所以飄了起來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "空話、吹牛",
+   "ai": [
+    [
+     "His speech was just hot air with no real plan.",
+     "他的演講只是空話，沒有任何實際計畫。"
+    ],
+    [
+     "Don't believe him, he's full of hot air.",
+     "別信他，他只會吹牛。"
+    ]
+   ]
+  }
+ ],
+ "in full swing": [
+  {
+   "p": "phr",
+   "zh": "正在全力進行中, 活躍",
+   "ai": [
+    [
+     "By nine o'clock, the party was in full swing.",
+     "到了九點，派對已經熱鬧到最高點。"
+    ],
+    [
+     "The summer festival is in full swing downtown.",
+     "夏日慶典正在市中心熱烈舉行。"
+    ]
+   ]
+  }
+ ],
+ "in no way": [
+  {
+   "p": "phr",
+   "zh": "決不",
+   "ai": [
+    [
+     "This result is in no way your fault.",
+     "這個結果絕對不是你的錯。"
+    ],
+    [
+     "In no way am I trying to blame anyone.",
+     "我絕對不是想怪罪任何人。"
+    ]
+   ]
+  }
+ ],
+ "in turn": [
+  {
+   "p": "phr",
+   "zh": "依序、輪流",
+   "ai": [
+    [
+     "The students stood up in turn and introduced themselves.",
+     "學生們依序站起來自我介紹。"
+    ],
+    [
+     "We washed the dishes in turn after dinner.",
+     "晚餐後我們輪流洗碗。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "反過來、進而",
+   "ai": [
+    [
+     "Lower prices attract more customers, which in turn increases sales.",
+     "價格降低會吸引更多顧客，進而提高銷售量。"
+    ],
+    [
+     "Stress affects sleep, and poor sleep in turn makes stress worse.",
+     "壓力會影響睡眠，而睡不好又反過來讓壓力更大。"
+    ]
+   ]
+  }
+ ],
+ "in tune with": [
+  {
+   "p": "phr",
+   "zh": "和…合調",
+   "ai": [
+    [
+     "The singer was not in tune with the piano.",
+     "那位歌手的音和鋼琴不合。"
+    ],
+    [
+     "A good leader stays in tune with the needs of the team.",
+     "好的領導者會貼近團隊的需求。"
+    ]
+   ]
+  }
+ ],
+ "keep it real": [
+  {
+   "p": "phr",
+   "zh": "保持真實",
+   "ai": [
+    [
+     "Thanks for keeping it real and telling me the truth.",
+     "謝謝你坦白說真話，保持真誠。"
+    ],
+    [
+     "Even after becoming famous, she kept it real with her fans.",
+     "就算成名了，她對粉絲依然保持真誠。"
+    ]
+   ]
+  }
+ ],
+ "let it be": [
+  {
+   "p": "phr",
+   "zh": "隨它去",
+   "ai": [
+    [
+     "You can't change his mind, so just let it be.",
+     "你改變不了他的想法，就隨它去吧。"
+    ],
+    [
+     "The room is messy, but let it be for now.",
+     "房間很亂，不過先別管它了。"
+    ]
+   ]
+  }
+ ],
+ "let go of": [
+  {
+   "p": "phr",
+   "zh": "放開、鬆手",
+   "ai": [
+    [
+     "Don't let go of the rope until I say so.",
+     "我沒說之前，千萬別放開繩子。"
+    ],
+    [
+     "The child let go of his mother's hand and ran off.",
+     "那個孩子放開媽媽的手跑走了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放下、釋懷（let go of the past）",
+   "ai": [
+    [
+     "It took her years to let go of the past.",
+     "她花了好幾年才放下過去。"
+    ],
+    [
+     "You need to let go of your anger and move on.",
+     "你得放下怒氣，向前走。"
+    ]
+   ]
+  }
+ ],
+ "make believe": [
+  {
+   "p": "phr",
+   "zh": "假裝",
+   "ai": [
+    [
+     "The kids like to make believe they are astronauts.",
+     "孩子們喜歡假裝自己是太空人。"
+    ],
+    [
+     "They made believe the sofa was a boat.",
+     "他們假裝沙發是一艘船。"
+    ]
+   ]
+  }
+ ],
+ "make do": [
+  {
+   "p": "phr",
+   "zh": "將就著使用, 湊合著用",
+   "ai": [
+    [
+     "We had no table, so we made do with boxes.",
+     "我們沒有桌子，只好用箱子湊合。"
+    ],
+    [
+     "You'll have to make do with a small room this time.",
+     "這次你得將就住小房間了。"
+    ]
+   ]
+  }
+ ],
+ "no offense": [
+  {
+   "p": "phr",
+   "zh": "無意冒犯；請勿見怪",
+   "ai": [
+    [
+     "No offense, but I think your idea needs more work.",
+     "無意冒犯，但我覺得你的想法還需要多加琢磨。"
+    ],
+    [
+     "No offense, but I'd rather walk than ride with you.",
+     "請別見怪，但我寧願走路也不想搭你的車。"
+    ]
+   ]
+  }
+ ],
+ "no wonder": [
+  {
+   "p": "phr",
+   "zh": "難怪、怪不得",
+   "ai": [
+    [
+     "You stayed up all night, so no wonder you're tired.",
+     "你熬了一整夜，難怪會累。"
+    ],
+    [
+     "No wonder the restaurant is full; the food is great.",
+     "難怪這家餐廳客滿，食物真的很棒。"
+    ]
+   ]
+  }
+ ],
+ "not a chance": [
+  {
+   "p": "phr",
+   "zh": "沒有絲毫機會",
+   "ai": [
+    [
+     "Will I lend you my car? Not a chance!",
+     "要我借你車？門都沒有！"
+    ],
+    [
+     "There's not a chance we'll finish by tonight.",
+     "我們今晚絕對不可能做完。"
+    ]
+   ]
+  }
+ ],
+ "not exactly": [
+  {
+   "p": "phr",
+   "zh": "（說反話時用）並不; 並沒有; （用於糾正某人說過的話）並非如此; 不完全是這樣",
+   "ai": [
+    [
+     "Are you angry? Not exactly, just a little tired.",
+     "你生氣了嗎？也不完全是，只是有點累。"
+    ],
+    [
+     "The test was not exactly easy, but I passed.",
+     "這次考試並不算簡單，但我過了。"
+    ]
+   ]
+  }
+ ],
+ "now or never": [
+  {
+   "p": "phr",
+   "zh": "勿失良機; 機不可失; 時不再來; 只在此刻",
+   "ai": [
+    [
+     "It's now or never, so ask her out today.",
+     "機不可失，今天就約她出去吧。"
+    ],
+    [
+     "The team knew it was now or never in the final game.",
+     "球隊知道最後一場比賽是只此一次的機會。"
+    ]
+   ]
+  }
+ ],
+ "off the hook": [
+  {
+   "p": "phr",
+   "zh": "脫身、擺脫責任（let sb off the hook）",
+   "ai": [
+    [
+     "The teacher let him off the hook this time.",
+     "老師這次放過他了。"
+    ],
+    [
+     "I'm off the hook now that Tom has agreed to drive.",
+     "湯姆答應開車，我就不用負責了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（電話）話筒沒掛好",
+   "ai": [
+    [
+     "The phone was off the hook, so nobody could call us.",
+     "電話沒掛好，所以沒人打得進來。"
+    ],
+    [
+     "Someone left the receiver off the hook all night.",
+     "有人整晚都沒把話筒掛好。"
+    ]
+   ]
+  }
+ ],
+ "on fire": [
+  {
+   "p": "phr",
+   "zh": "著火、起火",
+   "ai": [
+    [
+     "The old barn was on fire when the firefighters arrived.",
+     "消防員抵達時，那間舊穀倉正在燃燒。"
+    ],
+    [
+     "Quick, the kitchen is on fire!",
+     "快點，廚房著火了！"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "表現超好、手感發燙（口語）",
+   "ai": [
+    [
+     "Our star player was on fire in the second half.",
+     "我們的明星球員在下半場手感超好。"
+    ],
+    [
+     "The band was on fire last night.",
+     "那個樂團昨晚的表現超棒。"
+    ]
+   ]
+  }
+ ],
+ "on hold": [
+  {
+   "p": "phr",
+   "zh": "等著通電話; 暫緩; 推遲; 擱置",
+   "ai": [
+    [
+     "The customer service agent put me on hold for ten minutes.",
+     "客服人員讓我在線上等了十分鐘。"
+    ],
+    [
+     "Our trip is on hold until the weather gets better.",
+     "我們的旅行暫時擱置，等天氣變好再說。"
+    ]
+   ]
+  }
+ ],
+ "over the top": [
+  {
+   "p": "phr",
+   "zh": "過火的， 不得當的",
+   "ai": [
+    [
+     "His angry reaction was a bit over the top.",
+     "他生氣的反應有點太誇張了。"
+    ],
+    [
+     "The wedding decorations were beautiful but over the top.",
+     "婚禮的布置很漂亮，但有點太過頭。"
+    ]
+   ]
+  }
+ ],
+ "play it cool": [
+  {
+   "p": "phr",
+   "zh": "抑制住感情, 做出冷靜的樣子",
+   "ai": [
+    [
+     "He tried to play it cool when he saw his favorite singer.",
+     "他看到最愛的歌手時，努力裝出冷靜的樣子。"
+    ],
+    [
+     "Just play it cool and don't let them see you're nervous.",
+     "保持冷靜，別讓他們看出你很緊張。"
+    ]
+   ]
+  }
+ ],
+ "play it safe": [
+  {
+   "p": "phr",
+   "zh": "求穩, 不冒險",
+   "ai": [
+    [
+     "I'll play it safe and leave early because of the traffic.",
+     "我要穩一點，因為塞車所以提早出發。"
+    ],
+    [
+     "Investors who play it safe usually earn less money.",
+     "求穩的投資人通常賺得比較少。"
+    ]
+   ]
+  }
+ ],
+ "play the fool": [
+  {
+   "p": "phr",
+   "zh": "幹蠢事, 演滑稽角色",
+   "ai": [
+    [
+     "He likes to play the fool to make his friends laugh.",
+     "他喜歡裝傻逗朋友笑。"
+    ],
+    [
+     "Stop playing the fool and help me clean up.",
+     "別再鬧了，過來幫我收拾。"
+    ]
+   ]
+  }
+ ],
+ "right on": [
+  {
+   "p": "phr",
+   "zh": "說得對、太好了（表示贊同，口語）",
+   "ai": [
+    [
+     "You think we should leave early? Right on!",
+     "你覺得我們該早點走？說得太對了！"
+    ],
+    [
+     "Right on, that was a great idea!",
+     "太棒了，那真是個好主意！"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "正好、剛剛好（right on time 準時）",
+   "ai": [
+    [
+     "The bus arrived right on time this morning.",
+     "公車今天早上準時到站。"
+    ],
+    [
+     "The dinner was ready right on schedule.",
+     "晚餐正好準時準備好了。"
+    ]
+   ]
+  }
+ ],
+ "see you tomorrow": [
+  {
+   "p": "phr",
+   "zh": "明天見",
+   "ai": [
+    [
+     "Thanks for your help today, and see you tomorrow.",
+     "謝謝你今天的幫忙，明天見。"
+    ],
+    [
+     "The teacher waved and said, \"See you tomorrow, class!\"",
+     "老師揮揮手說：「同學們，明天見！」"
+    ]
+   ]
+  }
+ ],
+ "so to speak": [
+  {
+   "p": "phr",
+   "zh": "可以這麼說, 打個譬喻說",
+   "ai": [
+    [
+     "He is, so to speak, the heart of our team.",
+     "可以這麼說，他是我們團隊的核心。"
+    ],
+    [
+     "We were in the same boat, so to speak.",
+     "打個比方，我們當時是同舟共濟。"
+    ]
+   ]
+  }
+ ],
+ "take care": [
+  {
+   "p": "phr",
+   "zh": "保重（道別用語）",
+   "ai": [
+    [
+     "It was great to see you. Take care!",
+     "很高興見到你，保重喔！"
+    ],
+    [
+     "She hugged me and said, \"Take care.\"",
+     "她抱了抱我說：「保重。」"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "小心、當心",
+   "ai": [
+    [
+     "Take care when you cross the busy street.",
+     "過那條車多的馬路時要小心。"
+    ],
+    [
+     "Take care not to spill the hot soup.",
+     "小心別把熱湯灑出來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "照顧、處理（take care of）",
+   "ai": [
+    [
+     "Can you take care of my dog this weekend?",
+     "這個週末你可以幫我照顧我的狗嗎？"
+    ],
+    [
+     "Don't worry, I'll take care of the bill.",
+     "別擔心，帳單我來處理。"
+    ]
+   ]
+  }
+ ],
+ "take heart": [
+  {
+   "p": "phr",
+   "zh": "振作",
+   "ai": [
+    [
+     "Take heart, things will get better soon.",
+     "打起精神來，事情很快就會好轉。"
+    ],
+    [
+     "The players took heart after scoring the first goal.",
+     "球員們在進了第一球後重拾信心。"
+    ]
+   ]
+  }
+ ],
+ "take the plunge": [
+  {
+   "p": "phr",
+   "zh": "冒險嘗試",
+   "ai": [
+    [
+     "After years of saving, they took the plunge and bought a house.",
+     "存了好幾年的錢後，他們終於下定決心買了房子。"
+    ],
+    [
+     "I'm going to take the plunge and start my own business.",
+     "我打算放手一搏，自己創業。"
+    ]
+   ]
+  }
+ ],
+ "upside down": [
+  {
+   "p": "phr",
+   "zh": "顛倒著, 混亂",
+   "ai": [
+    [
+     "You're holding the map upside down.",
+     "你把地圖拿反了。"
+    ],
+    [
+     "The bat hung upside down from the branch.",
+     "蝙蝠倒掛在樹枝上。"
+    ],
+    [
+     "The storm turned our travel plans upside down.",
+     "那場暴風雨把我們的旅行計畫弄得一團亂。"
+    ]
+   ]
+  }
+ ],
+ "what a pity": [
+  {
+   "p": "phr",
+   "zh": "太遺憾了",
+   "ai": [
+    [
+     "You can't come to the party? What a pity!",
+     "你不能來派對嗎？太可惜了！"
+    ],
+    [
+     "What a pity that the museum is closed today.",
+     "博物館今天休館，真是太遺憾了。"
+    ]
+   ]
+  }
+ ],
+ "what a shame": [
+  {
+   "p": "phr",
+   "zh": "真可惜、太遺憾了",
+   "ai": [
+    [
+     "What a shame that it rained on your birthday.",
+     "你生日那天下雨，真是太可惜了。"
+    ],
+    [
+     "The movie was cancelled? What a shame!",
+     "電影取消了？真是太遺憾了！"
+    ]
+   ]
+  }
+ ],
+ "a bunch of": [
+  {
+   "p": "phr",
+   "zh": "一堆、很多（口語）",
+   "ai": [
+    [
+     "I have a bunch of emails to answer today.",
+     "我今天有一堆電子郵件要回。"
+    ],
+    [
+     "She bought a bunch of books at the sale.",
+     "她在特賣會買了一大堆書。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "一束、一串、一群",
+   "ai": [
+    [
+     "He gave her a bunch of red roses.",
+     "他送了她一束紅玫瑰。"
+    ],
+    [
+     "We ate a bunch of grapes on the train.",
+     "我們在火車上吃了一串葡萄。"
+    ]
+   ]
+  }
+ ],
+ "all in all": [
+  {
+   "p": "phr",
+   "zh": "總而言之, 合計, 頭等重要的東西",
+   "ai": [
+    [
+     "All in all, it was a very good trip.",
+     "總而言之，這是一趟很棒的旅行。"
+    ],
+    [
+     "The food was a bit slow, but all in all we enjoyed dinner.",
+     "上菜有點慢，不過整體而言我們吃得很開心。"
+    ]
+   ]
+  }
+ ],
+ "as though": [
+  {
+   "p": "phr",
+   "zh": "好像, 彷彿",
+   "ai": [
+    [
+     "He talks as though he knows everything.",
+     "他說話的樣子好像什麼都懂。"
+    ],
+    [
+     "It looks as though it will rain soon.",
+     "看起來好像快下雨了。"
+    ]
+   ]
+  }
+ ],
+ "at first sight": [
+  {
+   "p": "phr",
+   "zh": "第一眼、乍看之下",
+   "ai": [
+    [
+     "At first sight, the problem looked easy.",
+     "乍看之下，這個問題似乎很簡單。"
+    ],
+    [
+     "The house seemed perfect at first sight.",
+     "這棟房子第一眼看起來很完美。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "一見鍾情（love at first sight）",
+   "ai": [
+    [
+     "They fell in love at first sight.",
+     "他們一見鍾情。"
+    ],
+    [
+     "Do you believe in love at first sight?",
+     "你相信一見鍾情嗎？"
+    ]
+   ]
+  }
+ ],
+ "at present": [
+  {
+   "p": "phr",
+   "zh": "現在, 目前",
+   "ai": [
+    [
+     "At present, we have no empty rooms.",
+     "目前我們沒有空房了。"
+    ],
+    [
+     "The doctor is busy at present, so please wait.",
+     "醫生現在很忙，請稍等。"
+    ]
+   ]
+  }
+ ],
+ "at random": [
+  {
+   "p": "phr",
+   "zh": "隨機地、隨意地",
+   "ai": [
+    [
+     "The winners were chosen at random.",
+     "得獎者是隨機抽出的。"
+    ],
+    [
+     "She opened the book at random and started to read.",
+     "她隨手翻開書就開始讀。"
+    ]
+   ]
+  }
+ ],
+ "at risk": [
+  {
+   "p": "phr",
+   "zh": "在危險中,在危急時",
+   "ai": [
+    [
+     "Children are at risk when they play near the road.",
+     "孩子在馬路邊玩耍很危險。"
+    ],
+    [
+     "Many jobs are at risk because of the new machines.",
+     "許多工作因為新機器而岌岌可危。"
+    ]
+   ]
+  }
+ ],
+ "before long": [
+  {
+   "p": "phr",
+   "zh": "不久以後",
+   "ai": [
+    [
+     "Before long, the sun came out again.",
+     "不久之後，太陽又出來了。"
+    ],
+    [
+     "You will feel better before long.",
+     "你很快就會覺得好一點。"
+    ]
+   ]
+  }
+ ],
+ "by mistake": [
+  {
+   "p": "phr",
+   "zh": "不小心、誤（如 took it by mistake 拿錯）",
+   "ai": [
+    [
+     "I took your umbrella by mistake.",
+     "我不小心拿錯了你的傘。"
+    ],
+    [
+     "She sent the message to the wrong person by mistake.",
+     "她不小心把訊息傳給了錯的人。"
+    ]
+   ]
+  }
+ ],
+ "far from": [
+  {
+   "p": "phr",
+   "zh": "遠離, 遠非",
+   "ai": [
+    [
+     "The test was far from easy.",
+     "這次考試一點都不簡單。"
+    ],
+    [
+     "Our hotel is far from the station.",
+     "我們的旅館離車站很遠。"
+    ]
+   ]
+  }
+ ],
+ "in charge": [
+  {
+   "p": "phr",
+   "zh": "負責、主管（be in charge of）",
+   "ai": [
+    [
+     "Who is in charge of this project?",
+     "這個專案由誰負責？"
+    ],
+    [
+     "The teacher left Anna in charge while she was away.",
+     "老師不在時，讓安娜負責管理。"
+    ]
+   ]
+  }
+ ],
+ "in touch": [
+  {
+   "p": "phr",
+   "zh": "保持聯絡（keep in touch、get in touch）",
+   "ai": [
+    [
+     "Let's keep in touch after you move.",
+     "你搬家後我們要保持聯絡喔。"
+    ],
+    [
+     "Please get in touch if you need any help.",
+     "如果需要幫忙，請與我聯絡。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "了解、掌握（in touch with）",
+   "ai": [
+    [
+     "A good manager stays in touch with what customers want.",
+     "好的經理會掌握顧客的需求。"
+    ],
+    [
+     "She is in touch with what young people like.",
+     "他跟不上潮流，但她很了解年輕人的喜好。"
+    ]
+   ]
+  }
+ ],
+ "little by little": [
+  {
+   "p": "phr",
+   "zh": "漸漸",
+   "ai": [
+    [
+     "Little by little, her English got better.",
+     "她的英文漸漸進步了。"
+    ],
+    [
+     "We saved money little by little to buy a car.",
+     "我們一點一點存錢，準備買車。"
+    ]
+   ]
+  }
+ ],
+ "on foot": [
+  {
+   "p": "phr",
+   "zh": "步行, 在進行中",
+   "ai": [
+    [
+     "We went to the market on foot.",
+     "我們步行去市場。"
+    ],
+    [
+     "It takes about ten minutes to get there on foot.",
+     "走路去那裡大約要十分鐘。"
+    ]
+   ]
+  }
+ ],
+ "one by one": [
+  {
+   "p": "phr",
+   "zh": "一個接一個",
+   "ai": [
+    [
+     "The guests came into the room one by one.",
+     "客人一個接一個走進房間。"
+    ],
+    [
+     "He read the names one by one.",
+     "他把名字一個一個唸出來。"
+    ]
+   ]
+  }
+ ],
+ "over and over": [
+  {
+   "p": "phr",
+   "zh": "反覆, 再三",
+   "ai": [
+    [
+     "She practiced the song over and over.",
+     "她把那首歌反覆練習了好多次。"
+    ],
+    [
+     "I told him over and over, but he forgot.",
+     "我跟他說了一遍又一遍，他還是忘了。"
+    ]
+   ]
+  }
+ ],
+ "in a hurry": [
+  {
+   "p": "phr",
+   "zh": "匆忙",
+   "ai": [
+    [
+     "Sorry, I can't talk now because I'm in a hurry.",
+     "抱歉，我現在趕時間不能聊。"
+    ],
+    [
+     "He left his bag at home because he was in a hurry.",
+     "他因為匆匆忙忙，把包包忘在家裡。"
+    ]
+   ]
+  }
+ ],
+ "in the way": [
+  {
+   "p": "phr",
+   "zh": "擋路、礙事",
+   "ai": [
+    [
+     "Please move your bike, it's in the way.",
+     "請把你的腳踏車移開，它擋路了。"
+    ],
+    [
+     "I tried to help, but I was only in the way.",
+     "我想幫忙，結果只是礙手礙腳。"
+    ]
+   ]
+  }
+ ],
+ "in place of": [
+  {
+   "p": "phr",
+   "zh": "代替",
+   "ai": [
+    [
+     "You can use honey in place of sugar.",
+     "你可以用蜂蜜代替糖。"
+    ],
+    [
+     "Ben went to the meeting in place of his boss.",
+     "班代替他的老闆去開會。"
+    ]
+   ]
+  }
+ ],
+ "in danger": [
+  {
+   "p": "phr",
+   "zh": "在危險中",
+   "ai": [
+    [
+     "The little boy was in danger near the river.",
+     "那個小男孩在河邊有危險。"
+    ],
+    [
+     "Many rare animals are in danger of disappearing.",
+     "許多稀有動物正面臨絕種的危機。"
+    ]
+   ]
+  }
+ ],
+ "in love with": [
+  {
+   "p": "phr",
+   "zh": "愛上,與…相愛",
+   "ai": [
+    [
+     "She was in love with her best friend.",
+     "她愛上了她最好的朋友。"
+    ],
+    [
+     "He fell in love with the city at once.",
+     "他一下子就愛上了這座城市。"
+    ]
+   ]
+  }
+ ],
+ "on business": [
+  {
+   "p": "phr",
+   "zh": "出差、因公",
+   "ai": [
+    [
+     "My father is traveling on business this week.",
+     "我爸爸這個星期出差。"
+    ],
+    [
+     "She goes to Tokyo on business twice a year.",
+     "她每年因公去東京兩次。"
+    ]
+   ]
+  }
+ ],
+ "on duty": [
+  {
+   "p": "phr",
+   "zh": "值班, 上班",
+   "ai": [
+    [
+     "The nurse was on duty all night.",
+     "那位護理師整晚都在值班。"
+    ],
+    [
+     "Who is on duty at the front desk today?",
+     "今天誰在櫃檯值班？"
+    ]
+   ]
+  }
+ ],
+ "on holiday": [
+  {
+   "p": "phr",
+   "zh": "在度假",
+   "ai": [
+    [
+     "The Smiths are on holiday in Spain.",
+     "史密斯一家正在西班牙度假。"
+    ],
+    [
+     "I met my husband while I was on holiday.",
+     "我是在度假時認識我先生的。"
+    ]
+   ]
+  }
+ ],
+ "on strike": [
+  {
+   "p": "phr",
+   "zh": "在罷工",
+   "ai": [
+    [
+     "The train drivers are on strike again.",
+     "火車司機又在罷工了。"
+    ],
+    [
+     "Workers went on strike for better pay.",
+     "工人為了爭取更好的薪水而罷工。"
+    ]
+   ]
+  }
+ ],
+ "on second thought": [
+  {
+   "p": "phr",
+   "zh": "進一步考慮後,重新思考後,轉念一想",
+   "ai": [
+    [
+     "On second thought, I'll have tea instead of coffee.",
+     "轉念一想，我還是點茶不點咖啡好了。"
+    ],
+    [
+     "I was going to say yes, but on second thought, I need time.",
+     "我本來要答應，但再想想，我需要一些時間。"
+    ]
+   ]
+  }
+ ],
+ "out of reach": [
+  {
+   "p": "phr",
+   "zh": "手夠不著, 達不到",
+   "ai": [
+    [
+     "Keep the medicine out of reach of children.",
+     "藥品要放在小孩拿不到的地方。"
+    ],
+    [
+     "The book on the top shelf was out of reach.",
+     "最上層架子上的書我搆不到。"
+    ]
+   ]
+  }
+ ],
+ "out of breath": [
+  {
+   "p": "phr",
+   "zh": "上氣不接下氣",
+   "ai": [
+    [
+     "He was out of breath after running up the stairs.",
+     "他跑上樓梯後上氣不接下氣。"
+    ],
+    [
+     "I get out of breath very easily these days.",
+     "我最近很容易喘不過氣。"
+    ]
+   ]
+  }
+ ],
+ "out of place": [
+  {
+   "p": "phr",
+   "zh": "格格不入、不合時宜",
+   "ai": [
+    [
+     "I felt out of place in my old jeans at the fancy dinner.",
+     "穿著舊牛仔褲出席高級晚宴，我覺得很格格不入。"
+    ],
+    [
+     "His loud jokes seemed out of place at the funeral.",
+     "他大聲說笑話在葬禮上顯得很不合宜。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不在原來的位置",
+   "ai": [
+    [
+     "Everything in the room looked out of place.",
+     "房間裡的東西看起來都不在原位。"
+    ],
+    [
+     "One book on the shelf was out of place.",
+     "書架上有一本書放錯位置了。"
+    ]
+   ]
+  }
+ ],
+ "up front": [
+  {
+   "p": "phr",
+   "zh": "坦率的、直接說明的",
+   "ai": [
+    [
+     "I'll be up front with you: I don't like the plan.",
+     "我老實告訴你：我不喜歡這個計畫。"
+    ],
+    [
+     "She was up front about her mistakes.",
+     "她坦白承認了自己的錯誤。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "預先（付款）（pay up front）",
+   "ai": [
+    [
+     "The company asked us to pay half the cost up front.",
+     "公司要我們先付一半的費用。"
+    ],
+    [
+     "You must pay up front to book a room.",
+     "訂房必須先付款。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "在最前面",
+   "ai": [
+    [
+     "I like to sit up front on the bus.",
+     "我喜歡坐在公車的最前面。"
+    ],
+    [
+     "The tall students stood up front for the photo.",
+     "高個子的學生站在最前面拍照。"
+    ]
+   ]
+  }
+ ],
+ "under construction": [
+  {
+   "p": "phr",
+   "zh": "（正在）修建中",
+   "ai": [
+    [
+     "The new bridge is still under construction.",
+     "那座新橋還在興建中。"
+    ],
+    [
+     "Our road is under construction, so traffic is slow.",
+     "我們這條路正在施工，所以車流很慢。"
+    ]
+   ]
+  }
+ ],
+ "for fear of": [
+  {
+   "p": "phr",
+   "zh": "害怕,恐怕,生怕,唯恐,以防",
+   "ai": [
+    [
+     "He kept quiet for fear of making things worse.",
+     "他唯恐把事情弄得更糟，所以保持沉默。"
+    ],
+    [
+     "She took an umbrella for fear of rain.",
+     "她怕下雨，所以帶了把傘。"
+    ]
+   ]
+  }
+ ],
+ "to begin with": [
+  {
+   "p": "phr",
+   "zh": "首先、第一",
+   "ai": [
+    [
+     "To begin with, we need a bigger table.",
+     "首先，我們需要一張更大的桌子。"
+    ],
+    [
+     "There are many reasons. To begin with, it costs too much.",
+     "原因有很多。第一，它太貴了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "一開始、起初",
+   "ai": [
+    [
+     "To begin with, I didn't like my new job.",
+     "起初我並不喜歡我的新工作。"
+    ],
+    [
+     "The plan seemed simple to begin with.",
+     "這個計畫一開始看起來很簡單。"
+    ]
+   ]
+  }
+ ],
+ "not to mention": [
+  {
+   "p": "phr",
+   "zh": "更不用說、更別提",
+   "ai": [
+    [
+     "The car is old, not to mention very slow.",
+     "這輛車很舊，更別提還很慢。"
+    ],
+    [
+     "He speaks French, not to mention Spanish and German.",
+     "他會說法文，西班牙文和德文就更不用說了。"
+    ]
+   ]
+  }
+ ],
+ "at hand": [
+  {
+   "p": "phr",
+   "zh": "在手邊, 在附近, 即將到來",
+   "ai": [
+    [
+     "Keep your phone at hand in case I call.",
+     "把手機放在手邊，以防我打給你。"
+    ],
+    [
+     "The exam is at hand, so I must study.",
+     "考試快到了，我得念書。"
+    ]
+   ]
+  }
+ ],
+ "no matter how": [
+  {
+   "p": "phr",
+   "zh": "不管如何",
+   "ai": [
+    [
+     "No matter how hard I try, I can't open this jar.",
+     "不管我怎麼用力，就是打不開這個罐子。"
+    ],
+    [
+     "No matter how tired she was, she finished the work.",
+     "不管她多累，她還是把工作做完了。"
+    ]
+   ]
+  }
+ ],
+ "either way": [
+  {
+   "p": "phr",
+   "zh": "不管怎樣、反正",
+   "ai": [
+    [
+     "We can walk or take a taxi; either way, we'll be late.",
+     "我們可以走路或搭計程車，反正都會遲到。"
+    ],
+    [
+     "Either way, I'm happy with the result.",
+     "不管怎樣，我對結果都很滿意。"
+    ]
+   ]
+  }
+ ],
+ "better off": [
+  {
+   "p": "phr",
+   "zh": "（那樣做）會比較好、處境更好（be better off）",
+   "ai": [
+    [
+     "You would be better off staying home today.",
+     "你今天待在家裡會比較好。"
+    ],
+    [
+     "He was better off before he changed jobs.",
+     "他換工作之前過得比較好。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "比較富裕",
+   "ai": [
+    [
+     "Her family is better off than ours.",
+     "她家比我們家富裕。"
+    ],
+    [
+     "People are better off now than they were ten years ago.",
+     "人們現在比十年前富裕。"
+    ]
+   ]
+  }
+ ],
+ "may as well": [
+  {
+   "p": "phr",
+   "zh": "還是...好, 還不如, 不妨",
+   "ai": [
+    [
+     "The bus is late, so we may as well walk.",
+     "公車誤點了，我們不如走路吧。"
+    ],
+    [
+     "You may as well tell me the truth now.",
+     "你現在不妨就告訴我實話。"
+    ]
+   ]
+  }
+ ],
+ "be keen on": [
+  {
+   "p": "phr",
+   "zh": "喜愛",
+   "ai": [
+    [
+     "My sister was keen on dancing as a child.",
+     "我姊姊小時候很喜歡跳舞。"
+    ],
+    [
+     "My brother was keen on the idea of a picnic.",
+     "他們對野餐這個點子很有興趣。"
+    ]
+   ]
+  }
+ ],
+ "be capable of": [
+  {
+   "p": "phr",
+   "zh": "能夠",
+   "ai": [
+    [
+     "She was capable of running a marathon.",
+     "她有能力跑完一場馬拉松。"
+    ],
+    [
+     "This new machine was capable of doing the job faster.",
+     "電腦能夠更快完成這項工作。"
+    ]
+   ]
+  }
+ ],
+ "pay attention to": [
+  {
+   "p": "phr",
+   "zh": "注意",
+   "ai": [
+    [
+     "Please pay attention to the teacher's instructions.",
+     "請注意聽老師的指示。"
+    ],
+    [
+     "He never pays attention to the weather report.",
+     "他從來不注意天氣預報。"
+    ]
+   ]
+  }
+ ],
+ "talk over": [
+  {
+   "p": "phr",
+   "zh": "商量, 討論, 說服",
+   "ai": [
+    [
+     "Let's talk over the plan at lunch.",
+     "我們午餐時一起討論這個計畫吧。"
+    ],
+    [
+     "They talked over the problem for hours.",
+     "他們討論那個問題討論了好幾個小時。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "以口才使改變立場, 商量, 討論",
+   "ai": [
+    [
+     "The couple talked over their budget before buying the sofa.",
+     "這對夫妻在買沙發前先商量了預算。"
+    ],
+    [
+     "I need to talk over this offer with my family.",
+     "我需要和家人討論這個提議。"
+    ]
+   ]
+  }
+ ],
+ "think over": [
+  {
+   "p": "phr",
+   "zh": "仔細考慮",
+   "ai": [
+    [
+     "Please think over my offer before you answer.",
+     "回答前請你仔細考慮我的提議。"
+    ],
+    [
+     "She thought over the job for a week.",
+     "她把這份工作考慮了一個星期。"
+    ]
+   ]
+  }
+ ],
+ "turn around": [
+  {
+   "p": "phr",
+   "zh": "（使）轉身; （使）好轉; 改變意見; 使變得完全不同",
+   "ai": [
+    [
+     "He turned around and waved at us.",
+     "他轉過身來對我們揮手。"
+    ],
+    [
+     "The new manager turned around the failing company.",
+     "新經理讓這家快倒的公司轉虧為盈。"
+    ],
+    [
+     "Please turn around and look at the board.",
+     "請轉過身來看黑板。"
+    ]
+   ]
+  }
+ ],
+ "lay off": [
+  {
+   "p": "phr",
+   "zh": "解僱、裁員",
+   "ai": [
+    [
+     "The factory laid off fifty workers last month.",
+     "那間工廠上個月裁了五十名員工。"
+    ],
+    [
+     "Many companies may lay off staff this year.",
+     "許多公司今年可能會裁員。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "別再煩、少來（lay off me）",
+   "ai": [
+    [
+     "Lay off me, I'm trying to study.",
+     "別煩我了，我正在念書。"
+    ],
+    [
+     "Just lay off him, he said he was sorry.",
+     "別再找他麻煩了，他說過他很抱歉。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "戒掉、停止（吃、喝某物）",
+   "ai": [
+    [
+     "The doctor told him to lay off salty food.",
+     "醫生叫他少吃鹹的食物。"
+    ],
+    [
+     "I'm going to lay off coffee for a month.",
+     "我打算有一個月不喝咖啡。"
+    ]
+   ]
+  }
+ ],
+ "turn out": [
+  {
+   "p": "phr",
+   "zh": "結果是、原來（it turns out）",
+   "ai": [
+    [
+     "It turned out that he was my neighbor.",
+     "結果他原來是我的鄰居。"
+    ],
+    [
+     "The cake turned out better than I expected.",
+     "蛋糕做出來比我預期的還好。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "關掉（燈）",
+   "ai": [
+    [
+     "Please turn out the lights when you leave.",
+     "離開時請把燈關掉。"
+    ],
+    [
+     "He turned out the lamp and went to sleep.",
+     "他關掉檯燈去睡覺了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "到場、出席",
+   "ai": [
+    [
+     "Thousands of fans turned out for the parade.",
+     "成千上萬的球迷到場參加遊行。"
+    ],
+    [
+     "Not many people turn out for the meetings.",
+     "沒有多少人會來參加那些會議。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "生產、培養出",
+   "ai": [
+    [
+     "The factory turns out two hundred chairs a day.",
+     "這家工廠一天生產兩百張椅子。"
+    ],
+    [
+     "The school has turned out many great musicians.",
+     "這所學校培養出許多優秀的音樂家。"
+    ]
+   ]
+  }
+ ]
+}

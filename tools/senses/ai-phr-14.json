@@ -1,0 +1,1714 @@
+{
+ "make it": [
+  {
+   "p": "phr",
+   "zh": "成功、辦到",
+   "ai": [
+    [
+     "After years of hard work, she finally made it as a singer.",
+     "經過多年努力，她終於成為成功的歌手。"
+    ],
+    [
+     "Nobody thought the old car could make it up the hill.",
+     "沒人覺得那輛舊車開得上那座山坡。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "及時趕到、趕上",
+   "ai": [
+    [
+     "We ran fast and barely made it onto the last train.",
+     "我們拚命跑，勉強趕上了最後一班火車。"
+    ],
+    [
+     "If we leave now, we can still make it before the movie starts.",
+     "如果現在出發，我們還是趕得上電影開演前。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "能出席、能來",
+   "ai": [
+    [
+     "I'm sorry, but I can't make it to your party tonight.",
+     "很抱歉，我今晚無法出席你的派對。"
+    ],
+    [
+     "Will you be able to make it to the meeting tomorrow?",
+     "你明天能來開會嗎？"
+    ]
+   ]
+  }
+ ],
+ "my pleasure": [
+  {
+   "p": "phr",
+   "zh": "不客氣、這是我的榮幸",
+   "ai": [
+    [
+     "\"Thanks for driving me home.\" \"My pleasure, it was on my way.\"",
+     "「謝謝你載我回家。」「不客氣，順路而已。」"
+    ],
+    [
+     "It was my pleasure to help you move into your new apartment.",
+     "很榮幸能幫你搬進新公寓。"
+    ]
+   ]
+  }
+ ],
+ "off the record": [
+  {
+   "p": "phr",
+   "zh": "非正式地、不可引用地",
+   "ai": [
+    [
+     "Off the record, the manager told me the plan might change.",
+     "私下說，經理告訴我這個計畫可能會改。"
+    ],
+    [
+     "She spoke off the record, so the reporter could not use her words.",
+     "她是私下談話，所以記者不能引用她的話。"
+    ]
+   ]
+  }
+ ],
+ "over the moon": [
+  {
+   "p": "phr",
+   "zh": "興高采烈",
+   "ai": [
+    [
+     "He was over the moon when he heard he got the job.",
+     "他聽到自己得到那份工作時樂翻了。"
+    ],
+    [
+     "My parents were over the moon about the birth of their first grandchild.",
+     "我父母對第一個孫子的誕生開心極了。"
+    ]
+   ]
+  }
+ ],
+ "rule of thumb": [
+  {
+   "p": "phr",
+   "zh": "約略的估計、經驗法則",
+   "ai": [
+    [
+     "As a rule of thumb, you should save a part of every paycheck.",
+     "一般的經驗法則是，每次薪水都該存下一部分。"
+    ],
+    [
+     "A good rule of thumb is to boil pasta for about ten minutes.",
+     "煮義大利麵大約十分鐘是個不錯的經驗法則。"
+    ]
+   ]
+  }
+ ],
+ "sit tight": [
+  {
+   "p": "phr",
+   "zh": "待著別動、耐心等待",
+   "ai": [
+    [
+     "Just sit tight, and the doctor will see you soon.",
+     "先坐著等一下，醫生很快就會看你。"
+    ],
+    [
+     "We decided to sit tight until the rain stopped.",
+     "我們決定先待著，等雨停再說。"
+    ]
+   ]
+  }
+ ],
+ "walk on air": [
+  {
+   "p": "phr",
+   "zh": "洋洋得意",
+   "ai": [
+    [
+     "After winning the contest, she seemed to walk on air all week.",
+     "贏得比賽後，她整個禮拜都飄飄然的。"
+    ],
+    [
+     "I could walk on air after hearing such good news.",
+     "聽到這麼好的消息，我開心得像要飛起來。"
+    ]
+   ]
+  }
+ ],
+ "you name it": [
+  {
+   "p": "phr",
+   "zh": "不論什麼、凡是你能想到的",
+   "ai": [
+    [
+     "They sell shoes, bags, hats, you name it.",
+     "他們賣鞋子、包包、帽子，你想得到的都有。"
+    ],
+    [
+     "Whatever food you want, pizza, noodles, you name it, we have it.",
+     "你想吃什麼，披薩、麵條，隨便你說，我們都有。"
+    ]
+   ]
+  }
+ ],
+ "behind-the-scenes": [
+  {
+   "p": "adj",
+   "zh": "幕後的",
+   "ai": [
+    [
+     "The show offers a behind-the-scenes look at how movies are made.",
+     "這個節目帶觀眾看電影製作的幕後花絮。"
+    ],
+    [
+     "Many behind-the-scenes workers make the concert run smoothly.",
+     "許多幕後工作人員讓演唱會順利進行。"
+    ]
+   ]
+  }
+ ],
+ "big deal": [
+  {
+   "p": "phr",
+   "zh": "大事、了不起的事",
+   "ai": [
+    [
+     "Don't worry about the mistake; it's no big deal.",
+     "別擔心這個錯誤，沒什麼大不了。"
+    ],
+    [
+     "Winning the school contest was a big deal for our small team.",
+     "贏得校內比賽對我們這個小團隊來說是件大事。"
+    ]
+   ]
+  },
+  {
+   "p": "int",
+   "zh": "有什麼了不起",
+   "ai": [
+    [
+     "\"I got a higher score than you.\" \"Big deal, it was just one point.\"",
+     "「我分數比你高。」「那有什麼了不起，只差一分而已。」"
+    ],
+    [
+     "He bragged about his new watch, but I just said, \"Big deal.\"",
+     "他炫耀他的新手錶，但我只回了一句「有什麼了不起」。"
+    ]
+   ]
+  }
+ ],
+ "bottom line": [
+  {
+   "p": "n",
+   "zh": "重點、最重要的是",
+   "ai": [
+    [
+     "The bottom line is that we need more time to finish.",
+     "重點是我們需要更多時間完成。"
+    ],
+    [
+     "Whatever you decide, the bottom line is that safety comes first.",
+     "不管你怎麼決定，最重要的是安全第一。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "底線、最低限度",
+   "ai": [
+    [
+     "Our bottom line is a fair price, and we will not accept less.",
+     "我們的底線是公平的價格，低於這個我們不接受。"
+    ],
+    [
+     "For her, honesty is the bottom line in any friendship.",
+     "對她來說，誠實是任何友誼的底線。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "帳面淨利、盈虧",
+   "ai": [
+    [
+     "The new rules will hurt the company's bottom line this year.",
+     "新規定會影響公司今年的盈虧。"
+    ],
+    [
+     "Owners always watch the bottom line before hiring more staff.",
+     "老闆在多請人之前總是會先看盈虧。"
+    ]
+   ]
+  }
+ ],
+ "by and large": [
+  {
+   "p": "phr",
+   "zh": "大體上、基本上",
+   "ai": [
+    [
+     "By and large, the students enjoyed the school trip.",
+     "整體來說，學生們都很喜歡這次校外教學。"
+    ],
+    [
+     "The weather here is by and large warm and dry.",
+     "這裡的天氣大致上溫暖乾燥。"
+    ]
+   ]
+  }
+ ],
+ "cut it out": [
+  {
+   "p": "phr",
+   "zh": "別鬧了、夠了、住手",
+   "ai": [
+    [
+     "Cut it out, you two! I'm trying to study.",
+     "你們兩個別鬧了！我在念書。"
+    ],
+    [
+     "I told my little brother to cut it out when he kept tapping my desk.",
+     "弟弟一直敲我的桌子，我叫他住手。"
+    ]
+   ]
+  }
+ ],
+ "deep down": [
+  {
+   "p": "phr",
+   "zh": "內心深處、骨子裡",
+   "ai": [
+    [
+     "Deep down, she knew he was telling the truth.",
+     "她心底知道他說的是實話。"
+    ],
+    [
+     "He acts tough, but deep down he is quite shy.",
+     "他表面強悍，其實內心很害羞。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "其實、本質上",
+   "ai": [
+    [
+     "Deep down, the two plans are almost the same.",
+     "其實這兩個計畫幾乎一模一樣。"
+    ],
+    [
+     "The problem is deep down about trust, not money.",
+     "這個問題本質上是信任問題，不是錢的問題。"
+    ]
+   ]
+  }
+ ],
+ "fair enough": [
+  {
+   "p": "phr",
+   "zh": "很好、行",
+   "ai": [
+    [
+     "\"I'll pay for dinner, and you pay next time.\" \"Fair enough.\"",
+     "「這次我請客，下次換你。」「好，公平。」"
+    ],
+    [
+     "Fair enough, I understand why you don't want to go.",
+     "好吧，我理解你為什麼不想去。"
+    ]
+   ]
+  }
+ ],
+ "from scratch": [
+  {
+   "p": "phr",
+   "zh": "從頭做起、從零開始",
+   "ai": [
+    [
+     "She makes all her bread from scratch every weekend.",
+     "她每個週末都從頭開始自己做麵包。"
+    ],
+    [
+     "After the fire, the family had to build their life from scratch.",
+     "火災後，這家人得從零開始重建生活。"
+    ]
+   ]
+  }
+ ],
+ "get real": [
+  {
+   "p": "phr",
+   "zh": "別傻了、醒醒吧",
+   "ai": [
+    [
+     "Get real, you can't finish this project in one night.",
+     "醒醒吧，你不可能一個晚上就做完這個專案。"
+    ],
+    [
+     "He wants to be rich without working, so I told him to get real.",
+     "他想不工作就變有錢，所以我叫他別傻了。"
+    ]
+   ]
+  }
+ ],
+ "give or take": [
+  {
+   "p": "phr",
+   "zh": "增減而無大變化、允許有小誤差",
+   "ai": [
+    [
+     "The trip takes two hours, give or take ten minutes.",
+     "這趟路程約兩小時，上下差十分鐘左右。"
+    ],
+    [
+     "There were about fifty guests, give or take a few.",
+     "大約有五十位客人，多少差幾個。"
+    ]
+   ]
+  }
+ ],
+ "go all out": [
+  {
+   "p": "phr",
+   "zh": "全力以赴",
+   "ai": [
+    [
+     "Our team will go all out to win the final game.",
+     "我們的隊伍會全力以赴贏得決賽。"
+    ],
+    [
+     "She went all out to make her mother's birthday special.",
+     "她盡全力讓媽媽的生日很特別。"
+    ]
+   ]
+  }
+ ],
+ "good for you": [
+  {
+   "p": "phr",
+   "zh": "真棒、替你高興",
+   "ai": [
+    [
+     "You passed the test? Good for you!",
+     "你通過考試了？真棒！"
+    ],
+    [
+     "\"I started running every morning.\" \"Good for you, keep it up.\"",
+     "「我開始每天早上跑步。」「很棒，繼續保持。」"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "對你有好處",
+   "ai": [
+    [
+     "Eating vegetables is good for you.",
+     "吃蔬菜對你有好處。"
+    ],
+    [
+     "Sleeping early is good for you, especially during exams.",
+     "早睡對你有益，尤其是考試期間。"
+    ]
+   ]
+  }
+ ],
+ "have a ball": [
+  {
+   "p": "phr",
+   "zh": "玩得很開心",
+   "ai": [
+    [
+     "The kids had a ball at the beach.",
+     "孩子們在海邊玩得非常開心。"
+    ],
+    [
+     "We had a ball at the party and stayed until midnight.",
+     "我們在派對上玩得很盡興，待到半夜。"
+    ]
+   ]
+  }
+ ],
+ "have a heart": [
+  {
+   "p": "phr",
+   "zh": "行行好、別那麼狠心",
+   "ai": [
+    [
+     "Have a heart and let him go home early today.",
+     "行行好，今天就讓他早點回家吧。"
+    ],
+    [
+     "Please have a heart; I only need one more day to finish.",
+     "拜託行行好，我只需要再一天就能完成。"
+    ]
+   ]
+  }
+ ],
+ "hot potato": [
+  {
+   "p": "n",
+   "zh": "棘手的問題、燙手山芋",
+   "ai": [
+    [
+     "The budget issue became a hot potato nobody wanted to handle.",
+     "預算問題成了沒人想處理的燙手山芋。"
+    ],
+    [
+     "Nobody wants to take the hot potato of explaining the delay.",
+     "沒有人想接下解釋延誤這個燙手山芋。"
+    ]
+   ]
+  }
+ ],
+ "how come": [
+  {
+   "p": "phr",
+   "zh": "為什麼、怎麼會",
+   "ai": [
+    [
+     "How come you didn't call me last night?",
+     "你昨晚怎麼沒打給我？"
+    ],
+    [
+     "How come the shop is closed so early today?",
+     "這家店今天怎麼這麼早就關了？"
+    ]
+   ]
+  }
+ ],
+ "in the dark": [
+  {
+   "p": "phr",
+   "zh": "在黑暗中",
+   "ai": [
+    [
+     "We sat in the dark and watched the stars.",
+     "我們坐在黑暗中看星星。"
+    ],
+    [
+     "The kids were afraid to walk home in the dark.",
+     "孩子們不敢在黑暗中走路回家。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "被蒙在鼓裡、不知情",
+   "ai": [
+    [
+     "The boss kept the staff in the dark about the new plan.",
+     "老闆對員工隱瞞新計畫。"
+    ],
+    [
+     "I was in the dark about the surprise party.",
+     "我對驚喜派對一無所知。"
+    ]
+   ]
+  }
+ ],
+ "let me see": [
+  {
+   "p": "phr",
+   "zh": "讓我看看、讓我想想",
+   "ai": [
+    [
+     "Let me see, I think the meeting starts at three.",
+     "我想想，會議好像是三點開始。"
+    ],
+    [
+     "Let me see what I can find in the fridge.",
+     "讓我看看冰箱裡有什麼。"
+    ]
+   ]
+  }
+ ],
+ "make a scene": [
+  {
+   "p": "phr",
+   "zh": "當眾吵鬧",
+   "ai": [
+    [
+     "Please don't make a scene in front of the guests.",
+     "請不要在客人面前大吵大鬧。"
+    ],
+    [
+     "The customer made a scene when the waiter lost his order.",
+     "服務生弄丟點餐單，客人便當眾大吵大鬧。"
+    ]
+   ]
+  }
+ ],
+ "my bad": [
+  {
+   "p": "phr",
+   "zh": "我的錯、是我不好",
+   "ai": [
+    [
+     "Oh, my bad, I forgot to send you the file.",
+     "噢，是我不好，我忘了把檔案寄給你。"
+    ],
+    [
+     "\"You stepped on my foot!\" \"My bad, sorry.\"",
+     "「你踩到我的腳了！」「我的錯，抱歉。」"
+    ]
+   ]
+  }
+ ],
+ "no problem": [
+  {
+   "p": "phr",
+   "zh": "沒問題",
+   "ai": [
+    [
+     "Can you help me carry these boxes? No problem.",
+     "你能幫我搬這些箱子嗎？沒問題。"
+    ],
+    [
+     "If you need a ride tomorrow, it's no problem for me.",
+     "如果你明天要搭便車，對我來說沒問題。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不客氣、小事一樁",
+   "ai": [
+    [
+     "\"Thanks for the help.\" \"No problem, anytime.\"",
+     "「謝謝你幫忙。」「不客氣，隨時都可以。」"
+    ],
+    [
+     "I said thank you, and the waiter smiled and said, \"No problem.\"",
+     "我道謝後，服務生微笑著說：「不客氣。」"
+    ]
+   ]
+  }
+ ],
+ "not bad": [
+  {
+   "p": "phr",
+   "zh": "不錯",
+   "ai": [
+    [
+     "This soup is not bad at all.",
+     "這碗湯還真不錯。"
+    ],
+    [
+     "\"How was your first day?\" \"Not bad, the people were nice.\"",
+     "「第一天怎麼樣？」「不錯，大家都很親切。」"
+    ]
+   ]
+  }
+ ],
+ "on the go": [
+  {
+   "p": "phr",
+   "zh": "忙個不停、活躍",
+   "ai": [
+    [
+     "She has been on the go since six this morning.",
+     "她從今天早上六點就忙個不停。"
+    ],
+    [
+     "With three kids, my sister is always on the go.",
+     "我姊姊有三個孩子，總是忙個不停。"
+    ]
+   ]
+  }
+ ],
+ "on the house": [
+  {
+   "p": "phr",
+   "zh": "店家招待、免費",
+   "ai": [
+    [
+     "The waiter said the dessert was on the house.",
+     "服務生說這份甜點是店家招待。"
+    ],
+    [
+     "Because we waited so long, the drinks were on the house.",
+     "因為我們等了很久，飲料由店家請客。"
+    ]
+   ]
+  }
+ ],
+ "out of touch": [
+  {
+   "p": "phr",
+   "zh": "失去聯絡",
+   "ai": [
+    [
+     "I have been out of touch with my old classmates for years.",
+     "我和老同學已經失聯好幾年了。"
+    ],
+    [
+     "We lost each other and stayed out of touch after graduation.",
+     "畢業後我們失去彼此的消息，一直沒聯絡。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "與現實脫節",
+   "ai": [
+    [
+     "Some politicians seem out of touch with young people.",
+     "有些政治人物似乎和年輕人脫節了。"
+    ],
+    [
+     "After a year abroad, he felt out of touch with the news.",
+     "出國一年後，他覺得自己和新聞脫節了。"
+    ]
+   ]
+  }
+ ],
+ "rock the boat": [
+  {
+   "p": "phr",
+   "zh": "興風作浪、破壞現狀",
+   "ai": [
+    [
+     "Everyone was happy, so I didn't want to rock the boat.",
+     "大家都很開心，所以我不想興風作浪。"
+    ],
+    [
+     "He never rocks the boat at work and just follows the rules.",
+     "他在工作上從不惹事，只是遵守規定。"
+    ]
+   ]
+  }
+ ],
+ "safe and sound": [
+  {
+   "p": "phr",
+   "zh": "安然無恙",
+   "ai": [
+    [
+     "The hikers returned safe and sound after two days.",
+     "登山客兩天後平安歸來。"
+    ],
+    [
+     "Call me when you get home safe and sound.",
+     "你平安到家時打電話給我。"
+    ]
+   ]
+  }
+ ],
+ "say cheese": [
+  {
+   "p": "phr",
+   "zh": "笑一笑",
+   "ai": [
+    [
+     "Everyone, say cheese, and look at the camera!",
+     "大家笑一個，看鏡頭！"
+    ],
+    [
+     "The photographer asked us to say cheese before taking the picture.",
+     "攝影師拍照前要我們說「笑一個」。"
+    ]
+   ]
+  }
+ ],
+ "so what": [
+  {
+   "p": "phr",
+   "zh": "那又怎麼樣",
+   "ai": [
+    [
+     "So what if I'm late? The class hasn't started yet.",
+     "我遲到又怎樣？課還沒開始。"
+    ],
+    [
+     "He said I was wrong, but so what? I like my idea.",
+     "他說我錯了，但那又怎樣？我喜歡我的點子。"
+    ]
+   ]
+  }
+ ],
+ "there you go": [
+  {
+   "p": "phr",
+   "zh": "給你、拿去",
+   "ai": [
+    [
+     "Here's your coffee. There you go.",
+     "這是你的咖啡，拿去吧。"
+    ],
+    [
+     "The clerk handed me the bag and said, \"There you go.\"",
+     "店員把袋子遞給我說：「給你。」"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "這就對了、你看吧",
+   "ai": [
+    [
+     "You pressed the button and it works. There you go!",
+     "你按下按鈕就能用了，這就對了！"
+    ],
+    [
+     "There you go, I told you the answer was simple.",
+     "你看吧，我就說答案很簡單。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "你又來了",
+   "ai": [
+    [
+     "There you go again, blaming everyone but yourself.",
+     "你又來了，什麼都怪別人，就是不怪自己。"
+    ],
+    [
+     "There you go again, complaining about the food before you taste it.",
+     "你又來了，還沒吃就先抱怨食物。"
+    ]
+   ]
+  }
+ ],
+ "to the point": [
+  {
+   "p": "phr",
+   "zh": "中肯、扼要",
+   "ai": [
+    [
+     "Her email was short and to the point.",
+     "她的電子郵件簡短又切中重點。"
+    ],
+    [
+     "Please keep your speech to the point so we can finish on time.",
+     "請讓你的演講簡潔扼要，我們才能準時結束。"
+    ]
+   ]
+  }
+ ],
+ "touch and go": [
+  {
+   "p": "phr",
+   "zh": "一觸即發的、不確定的",
+   "ai": [
+    [
+     "It was touch and go for a while, but the patient recovered.",
+     "一度情況很危急，但病人康復了。"
+    ],
+    [
+     "The game was touch and go until the last minute.",
+     "比賽直到最後一刻都勝負難料。"
+    ]
+   ]
+  }
+ ],
+ "you know what": [
+  {
+   "p": "phr",
+   "zh": "跟你說喔、你知道嗎",
+   "ai": [
+    [
+     "You know what? I think we should take a day off.",
+     "跟你說喔，我覺得我們該休一天假。"
+    ],
+    [
+     "You know what, let's just order pizza tonight.",
+     "你知道嗎，我們今晚乾脆叫披薩吧。"
+    ]
+   ]
+  }
+ ],
+ "break even": [
+  {
+   "p": "phr",
+   "zh": "不賺不賠、收支相抵",
+   "ai": [
+    [
+     "The small shop only broke even in its first year.",
+     "這家小店第一年只是收支打平。"
+    ],
+    [
+     "We need to sell fifty cups a day just to break even.",
+     "我們一天得賣五十杯才能不賠錢。"
+    ]
+   ]
+  }
+ ],
+ "break the bank": [
+  {
+   "p": "phr",
+   "zh": "花光所有的錢、耗盡資源",
+   "ai": [
+    [
+     "A simple dinner out won't break the bank.",
+     "在外面簡單吃頓晚餐不會花太多錢。"
+    ],
+    [
+     "She didn't want to break the bank on a wedding dress.",
+     "她不想為了一件婚紗花光積蓄。"
+    ]
+   ]
+  }
+ ],
+ "cash cow": [
+  {
+   "p": "n",
+   "zh": "搖錢樹",
+   "ai": [
+    [
+     "The mobile game became the company's cash cow.",
+     "那款手機遊戲成了公司的搖錢樹。"
+    ],
+    [
+     "Her small bakery turned into a real cash cow.",
+     "她的小麵包店成了名副其實的搖錢樹。"
+    ]
+   ]
+  }
+ ],
+ "dirt cheap": [
+  {
+   "p": "adj",
+   "zh": "非常便宜的",
+   "ai": [
+    [
+     "I bought this dirt cheap jacket at a night market.",
+     "我在夜市買了這件超便宜的外套。"
+    ],
+    [
+     "The hotel was dirt cheap, but it was clean and quiet.",
+     "那間旅館非常便宜，但乾淨又安靜。"
+    ]
+   ]
+  },
+  {
+   "p": "adv",
+   "zh": "非常便宜地",
+   "ai": [
+    [
+     "I got these used books dirt cheap.",
+     "我超便宜地買到這些二手書。"
+    ],
+    [
+     "He sold his old bike dirt cheap before moving abroad.",
+     "他搬出國前把舊腳踏車賤價賣掉了。"
+    ]
+   ]
+  }
+ ],
+ "foot the bill": [
+  {
+   "p": "phr",
+   "zh": "負擔費用、買單",
+   "ai": [
+    [
+     "My uncle offered to foot the bill for the whole dinner.",
+     "我叔叔提出要請整頓晚餐。"
+    ],
+    [
+     "Who will foot the bill for fixing the broken window?",
+     "誰要負擔修理破窗戶的費用？"
+    ]
+   ]
+  }
+ ],
+ "go dutch": [
+  {
+   "p": "phr",
+   "zh": "各付各的",
+   "ai": [
+    [
+     "Let's go Dutch, since we both ordered a lot.",
+     "我們各付各的吧，我們兩個都點很多。"
+    ],
+    [
+     "On our first date, we decided to go Dutch.",
+     "第一次約會時，我們決定各付各的。"
+    ]
+   ]
+  }
+ ],
+ "in the red": [
+  {
+   "p": "phr",
+   "zh": "赤字、虧損",
+   "ai": [
+    [
+     "The restaurant has been in the red for three months.",
+     "這家餐廳已經連續三個月虧損。"
+    ],
+    [
+     "My bank account is in the red after the trip.",
+     "旅行過後，我的帳戶出現赤字。"
+    ]
+   ]
+  }
+ ],
+ "in the black": [
+  {
+   "p": "phr",
+   "zh": "盈利、有賺錢",
+   "ai": [
+    [
+     "The shop finally went back in the black this spring.",
+     "這家店今年春天終於轉虧為盈。"
+    ],
+    [
+     "She works hard to stay in the black every month.",
+     "她努力工作，讓每個月的帳戶都維持有餘額。"
+    ]
+   ]
+  }
+ ],
+ "get the sack": [
+  {
+   "p": "phr",
+   "zh": "被解僱",
+   "ai": [
+    [
+     "He got the sack after being late too many times.",
+     "他因為遲到太多次而被解僱了。"
+    ],
+    [
+     "Many workers feared they would get the sack this year.",
+     "許多員工擔心自己今年會被炒魷魚。"
+    ]
+   ]
+  }
+ ],
+ "get the boot": [
+  {
+   "p": "phr",
+   "zh": "被解僱",
+   "ai": [
+    [
+     "Anyone who breaks the rules might get the boot.",
+     "任何違反規定的人都可能被開除。"
+    ],
+    [
+     "The coach got the boot after losing ten games in a row.",
+     "教練連輸十場比賽後被撤換了。"
+    ]
+   ]
+  }
+ ],
+ "red tape": [
+  {
+   "p": "phr",
+   "zh": "繁文縟節、官僚程序",
+   "ai": [
+    [
+     "Starting a business here involves a lot of red tape.",
+     "在這裡創業要跑很多繁瑣的手續。"
+    ],
+    [
+     "We lost two weeks cutting through the red tape.",
+     "我們花了兩個禮拜處理繁瑣的行政程序。"
+    ]
+   ]
+  }
+ ],
+ "rat race": [
+  {
+   "p": "phr",
+   "zh": "激烈的競爭、營營役役的生活",
+   "ai": [
+    [
+     "He left the rat race and moved to a quiet village.",
+     "他離開了競爭激烈的生活，搬到安靜的村莊。"
+    ],
+    [
+     "Many young workers feel stuck in the rat race.",
+     "許多年輕上班族覺得自己困在名利競逐的生活裡。"
+    ]
+   ]
+  }
+ ],
+ "night owl": [
+  {
+   "p": "n",
+   "zh": "夜貓子",
+   "ai": [
+    [
+     "I'm a night owl, so I do my best work after midnight.",
+     "我是夜貓子，所以半夜過後工作效率最好。"
+    ],
+    [
+     "My roommate is a night owl and sleeps until noon.",
+     "我室友是夜貓子，睡到中午才起床。"
+    ]
+   ]
+  }
+ ],
+ "early bird": [
+  {
+   "p": "phr",
+   "zh": "早起的人、捷足先登者",
+   "ai": [
+    [
+     "My father is an early bird and wakes up at five.",
+     "我爸爸是早起的人，五點就醒了。"
+    ],
+    [
+     "The early bird gets the best seats at the concert.",
+     "早到的人能在演唱會搶到最好的座位。"
+    ]
+   ]
+  }
+ ],
+ "black sheep": [
+  {
+   "p": "phr",
+   "zh": "害群之馬、家中的異類",
+   "ai": [
+    [
+     "He was the black sheep of the family because he quit school.",
+     "他因為輟學而成了家裡的害群之馬。"
+    ],
+    [
+     "My uncle is the black sheep who never follows family traditions.",
+     "我叔叔是家裡的異類，從不遵守家族傳統。"
+    ]
+   ]
+  }
+ ],
+ "dark horse": [
+  {
+   "p": "phr",
+   "zh": "實力難測的競爭者、黑馬",
+   "ai": [
+    [
+     "The new player was a dark horse in the tournament.",
+     "這位新球員是比賽中的黑馬。"
+    ],
+    [
+     "Nobody expected her to win, but she was the dark horse.",
+     "沒人預期她會贏，但她就是那匹黑馬。"
+    ]
+   ]
+  }
+ ],
+ "monkey business": [
+  {
+   "p": "phr",
+   "zh": "胡鬧、不正當的行為",
+   "ai": [
+    [
+     "The teacher warned the class: no monkey business during the test.",
+     "老師警告全班：考試時不准胡鬧。"
+    ],
+    [
+     "The police suspect some monkey business at the old warehouse.",
+     "警方懷疑那間舊倉庫有些不正當的勾當。"
+    ]
+   ]
+  }
+ ],
+ "down to earth": [
+  {
+   "p": "phr",
+   "zh": "務實的、平易近人的",
+   "ai": [
+    [
+     "Even though she is famous, she is very down to earth.",
+     "雖然她很有名，但為人非常平易近人。"
+    ],
+    [
+     "I like my new boss because he is down to earth.",
+     "我喜歡我的新老闆，因為他很務實又隨和。"
+    ]
+   ]
+  }
+ ],
+ "on cloud nine": [
+  {
+   "p": "phr",
+   "zh": "非常高興、飄飄然",
+   "ai": [
+    [
+     "She was on cloud nine after getting into her dream school.",
+     "她考上夢想的學校後開心得飄飄然。"
+    ],
+    [
+     "I was on cloud nine on my wedding day.",
+     "我結婚那天開心得像在雲端。"
+    ]
+   ]
+  }
+ ],
+ "cut and dried": [
+  {
+   "p": "phr",
+   "zh": "明確的、一成不變的",
+   "ai": [
+    [
+     "The rules are cut and dried, so there is nothing to argue about.",
+     "規定很明確，沒什麼好爭論的。"
+    ],
+    [
+     "This case is not cut and dried, so we need more time.",
+     "這個案子沒那麼簡單明確，我們需要更多時間。"
+    ]
+   ]
+  }
+ ],
+ "dead end": [
+  {
+   "p": "n",
+   "zh": "死路、死巷",
+   "ai": [
+    [
+     "We drove into a dead end and had to turn back.",
+     "我們開進一條死路，只好掉頭。"
+    ],
+    [
+     "The little street ends in a dead end near the river.",
+     "那條小街在河邊成了死巷。"
+    ]
+   ]
+  },
+  {
+   "p": "n",
+   "zh": "沒有出路的處境",
+   "ai": [
+    [
+     "The talks reached a dead end after three hours.",
+     "談判進行三小時後陷入僵局。"
+    ],
+    [
+     "He quit his dead end job to learn a new skill.",
+     "他辭掉了沒前途的工作去學新技能。"
+    ]
+   ]
+  }
+ ],
+ "in hot water": [
+  {
+   "p": "phr",
+   "zh": "陷入困境、惹上麻煩",
+   "ai": [
+    [
+     "He is in hot water for losing the company's files.",
+     "他因為弄丟公司檔案而惹上麻煩。"
+    ],
+    [
+     "The student got in hot water after skipping class again.",
+     "那名學生又翹課，惹上了麻煩。"
+    ]
+   ]
+  }
+ ],
+ "on thin ice": [
+  {
+   "p": "phr",
+   "zh": "如履薄冰、處境危險",
+   "ai": [
+    [
+     "After being late again, you are on thin ice with your manager.",
+     "你又遲到了，在經理面前已經如履薄冰。"
+    ],
+    [
+     "She knew she was on thin ice when she questioned the boss.",
+     "她質疑老闆時，就知道自己處境危險。"
+    ]
+   ]
+  }
+ ],
+ "play with fire": [
+  {
+   "p": "phr",
+   "zh": "玩火、冒險行事",
+   "ai": [
+    [
+     "Driving that fast in the rain is playing with fire.",
+     "雨天開那麼快簡直是玩火。"
+    ],
+    [
+     "Don't play with fire by lying to your parents.",
+     "別玩火，不要對你的父母說謊。"
+    ]
+   ]
+  }
+ ],
+ "smell a rat": [
+  {
+   "p": "phr",
+   "zh": "覺得事有蹊蹺",
+   "ai": [
+    [
+     "When the price was so low, I began to smell a rat.",
+     "價格低成那樣，我開始覺得事有蹊蹺。"
+    ],
+    [
+     "She smelled a rat when he refused to show his ID.",
+     "他不肯出示證件，她就覺得不太對勁。"
+    ]
+   ]
+  }
+ ],
+ "stand a chance": [
+  {
+   "p": "phr",
+   "zh": "有可能、有希望",
+   "ai": [
+    [
+     "Our team doesn't stand a chance against the champions.",
+     "我們的隊伍對上冠軍隊毫無勝算。"
+    ],
+    [
+     "If you practice every day, you stand a chance of winning.",
+     "如果你每天練習，就有機會贏。"
+    ]
+   ]
+  }
+ ],
+ "tongue in cheek": [
+  {
+   "p": "phr",
+   "zh": "開玩笑地、不是認真地",
+   "ai": [
+    [
+     "He wrote the review tongue in cheek, so don't take it seriously.",
+     "他是半開玩笑地寫這篇評論，所以別當真。"
+    ],
+    [
+     "Her speech was funny and clearly tongue in cheek.",
+     "她的演講很有趣，顯然是開玩笑的。"
+    ]
+   ]
+  }
+ ],
+ "word of mouth": [
+  {
+   "p": "n",
+   "zh": "口碑、口耳相傳",
+   "ai": [
+    [
+     "The restaurant became popular through word of mouth.",
+     "這家餐廳靠口碑變得很受歡迎。"
+    ],
+    [
+     "Most of her customers heard about the shop by word of mouth.",
+     "她大部分的客人都是聽人說才知道這家店。"
+    ]
+   ]
+  }
+ ],
+ "all the same": [
+  {
+   "p": "phr",
+   "zh": "儘管如此、還是",
+   "ai": [
+    [
+     "It was raining, but we had a good time all the same.",
+     "雖然下雨，我們還是玩得很開心。"
+    ],
+    [
+     "I know you're busy, but thank you all the same.",
+     "我知道你很忙，但還是謝謝你。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "都一樣、無所謂",
+   "ai": [
+    [
+     "Tea or coffee, it's all the same to me.",
+     "茶或咖啡對我來說都一樣。"
+    ],
+    [
+     "If you come early or late, it's all the same to us.",
+     "你早到或晚到，對我們都沒差。"
+    ]
+   ]
+  }
+ ],
+ "all the rage": [
+  {
+   "p": "phr",
+   "zh": "非常流行、風靡一時",
+   "ai": [
+    [
+     "Bubble tea was all the rage when I was in college.",
+     "我念大學時，珍珠奶茶風靡一時。"
+    ],
+    [
+     "Short videos are all the rage among teenagers now.",
+     "短影片現在在青少年之間非常流行。"
+    ]
+   ]
+  }
+ ],
+ "at any rate": [
+  {
+   "p": "phr",
+   "zh": "無論如何、至少",
+   "ai": [
+    [
+     "I'm not sure who called, but at any rate someone is waiting.",
+     "我不確定是誰打來的，但無論如何有人在等。"
+    ],
+    [
+     "At any rate, we should leave before it gets dark.",
+     "無論如何，我們該在天黑前離開。"
+    ]
+   ]
+  }
+ ],
+ "at heart": [
+  {
+   "p": "phr",
+   "zh": "骨子裡、本質上",
+   "ai": [
+    [
+     "He looks serious, but he is a kind person at heart.",
+     "他看起來很嚴肅，但骨子裡是個善良的人。"
+    ],
+    [
+     "She is still a country girl at heart.",
+     "她骨子裡仍是個鄉下女孩。"
+    ]
+   ]
+  }
+ ],
+ "at ease": [
+  {
+   "p": "phr",
+   "zh": "放鬆的、自在的",
+   "ai": [
+    [
+     "The host quickly made all the guests feel at ease.",
+     "主人很快就讓所有客人覺得自在。"
+    ],
+    [
+     "He never felt at ease speaking in front of a crowd.",
+     "他在大家面前說話時從來都不自在。"
+    ]
+   ]
+  }
+ ],
+ "at odds with": [
+  {
+   "p": "phr",
+   "zh": "與…不和、與…矛盾",
+   "ai": [
+    [
+     "He was often at odds with his brother about money.",
+     "他常為了錢和哥哥意見不合。"
+    ],
+    [
+     "The new rule is at odds with our school's values.",
+     "這條新規定與我們學校的價值觀相牴觸。"
+    ]
+   ]
+  }
+ ],
+ "at this rate": [
+  {
+   "p": "phr",
+   "zh": "照這樣下去",
+   "ai": [
+    [
+     "At this rate, we will never finish before dinner.",
+     "照這樣下去，我們晚餐前絕對做不完。"
+    ],
+    [
+     "At this rate, I will run out of money by June.",
+     "照這樣下去，我六月前就會把錢花光。"
+    ]
+   ]
+  }
+ ],
+ "by the book": [
+  {
+   "p": "phr",
+   "zh": "按常規、照規矩",
+   "ai": [
+    [
+     "The manager does everything by the book.",
+     "這位經理凡事都照規矩來。"
+    ],
+    [
+     "We checked the documents by the book to avoid mistakes.",
+     "我們照著規定檢查文件以避免錯誤。"
+    ]
+   ]
+  }
+ ],
+ "come again": [
+  {
+   "p": "phr",
+   "zh": "再來",
+   "ai": [
+    [
+     "Thank you for visiting, and please come again.",
+     "謝謝光臨，歡迎再來。"
+    ],
+    [
+     "The owner smiled and told us to come again soon.",
+     "老闆微笑著要我們趕快再來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "你說什麼、再說一次",
+   "ai": [
+    [
+     "Come again? I didn't hear you over the noise.",
+     "你說什麼？太吵了我沒聽到。"
+    ],
+    [
+     "\"The meeting is at eight.\" \"Come again? Eight or eighteen?\"",
+     "「會議八點開始。」「你說什麼？是八點還是十八點？」"
+    ]
+   ]
+  }
+ ],
+ "come what may": [
+  {
+   "p": "phr",
+   "zh": "不管發生什麼事",
+   "ai": [
+    [
+     "Come what may, I will always support you.",
+     "不管發生什麼事，我都會支持你。"
+    ],
+    [
+     "They promised to stay together come what may.",
+     "他們承諾無論如何都要在一起。"
+    ]
+   ]
+  }
+ ],
+ "come off it": [
+  {
+   "p": "phr",
+   "zh": "別胡說了、別鬧了",
+   "ai": [
+    [
+     "Come off it, you can't really believe that story.",
+     "別鬧了，你不可能真的相信那個故事。"
+    ],
+    [
+     "Oh, come off it! Everyone knows you took the last cookie.",
+     "哎呀別裝了！大家都知道是你拿走最後一塊餅乾。"
+    ]
+   ]
+  }
+ ],
+ "cut ice": [
+  {
+   "p": "phr",
+   "zh": "有影響、起作用",
+   "ai": [
+    [
+     "Your excuse doesn't cut ice with me.",
+     "你的藉口對我沒用。"
+    ],
+    [
+     "Her fancy title didn't cut ice with the tough customers.",
+     "她那頭銜響亮的職稱嚇不了難纏的客人。"
+    ]
+   ]
+  }
+ ],
+ "cut and run": [
+  {
+   "p": "phr",
+   "zh": "急忙逃走、臨陣脫逃",
+   "ai": [
+    [
+     "When the problems started, the manager decided to cut and run.",
+     "問題一出現，經理就決定落跑。"
+    ],
+    [
+     "Don't cut and run just because the work gets hard.",
+     "別因為工作變難就臨陣脫逃。"
+    ]
+   ]
+  }
+ ],
+ "call in sick": [
+  {
+   "p": "phr",
+   "zh": "打電話請病假",
+   "ai": [
+    [
+     "He called in sick because of a bad cold.",
+     "他因為重感冒打電話請病假。"
+    ],
+    [
+     "I'll have to call in sick tomorrow if my fever doesn't go down.",
+     "如果明天還不退燒，我就得打電話請病假。"
+    ]
+   ]
+  }
+ ],
+ "break new ground": [
+  {
+   "p": "phr",
+   "zh": "開創新局面",
+   "ai": [
+    [
+     "The scientists broke new ground with their cancer research.",
+     "這些科學家的癌症研究開創了新局面。"
+    ],
+    [
+     "Her first film broke new ground for women directors.",
+     "她的第一部電影為女導演開創了新局面。"
+    ]
+   ]
+  }
+ ],
+ "big picture": [
+  {
+   "p": "phr",
+   "zh": "大局、整體情況",
+   "ai": [
+    [
+     "Let's not argue over details and forget the big picture.",
+     "別為了細節爭論而忘了大局。"
+    ],
+    [
+     "A good leader always sees the big picture.",
+     "好的領導者總是能看到大局。"
+    ]
+   ]
+  }
+ ],
+ "big shot": [
+  {
+   "p": "phr",
+   "zh": "大人物、有權勢的人",
+   "ai": [
+    [
+     "He acts like a big shot since he became a manager.",
+     "他當上經理後就擺出大人物的架子。"
+    ],
+    [
+     "The party was full of big shots from the film industry.",
+     "派對上滿是影視圈的大人物。"
+    ]
+   ]
+  }
+ ],
+ "be my guest": [
+  {
+   "p": "phr",
+   "zh": "請便",
+   "ai": [
+    [
+     "\"Can I borrow your pen?\" \"Sure, be my guest.\"",
+     "「我可以借你的筆嗎？」「當然，請便。」"
+    ],
+    [
+     "If you want the last slice of cake, be my guest.",
+     "如果你想吃最後一塊蛋糕，請自便。"
+    ]
+   ]
+  }
+ ],
+ "be hard up": [
+  {
+   "p": "phr",
+   "zh": "手頭緊、缺錢",
+   "ai": [
+    [
+     "After losing his job, he was hard up for several months.",
+     "失業後，他有好幾個月手頭很緊。"
+    ],
+    [
+     "Students may be hard up at the end of the month.",
+     "學生在月底常常手頭很緊。"
+    ]
+   ]
+  }
+ ],
+ "be well off": [
+  {
+   "p": "phr",
+   "zh": "生活富裕",
+   "ai": [
+    [
+     "Her family was well off, so she never worried about rent.",
+     "她家境富裕，所以從不擔心房租。"
+    ],
+    [
+     "He worked hard so he could be well off in his old age.",
+     "他努力工作，好讓自己晚年生活優渥。"
+    ]
+   ]
+  }
+ ],
+ "a close call": [
+  {
+   "p": "phr",
+   "zh": "僥倖的脫險、千鈞一髮",
+   "ai": [
+    [
+     "That was a close call; the car almost hit us.",
+     "真是千鈞一髮，那輛車差點撞到我們。"
+    ],
+    [
+     "Winning by one point was a close call for our team.",
+     "以一分取勝，對我們隊來說真是驚險。"
+    ]
+   ]
+  }
+ ],
+ "a far cry": [
+  {
+   "p": "phr",
+   "zh": "大不相同、差得遠",
+   "ai": [
+    [
+     "This tiny flat is a far cry from my old house.",
+     "這間小公寓和我以前的房子差很多。"
+    ],
+    [
+     "His quiet life now is a far cry from his busy past.",
+     "他現在安靜的生活和過去忙碌的日子大不相同。"
+    ]
+   ]
+  }
+ ],
+ "a fat chance": [
+  {
+   "p": "phr",
+   "zh": "微小的機會、不可能",
+   "ai": [
+    [
+     "A fat chance he'll agree to lend you his car.",
+     "他才不可能答應借你車。"
+    ],
+    [
+     "You think she'll say yes? A fat chance!",
+     "你覺得她會答應？門都沒有！"
+    ]
+   ]
+  }
+ ],
+ "a hot potato": [
+  {
+   "p": "phr",
+   "zh": "棘手的問題",
+   "ai": [
+    [
+     "Taxes have become a hot potato in this election.",
+     "稅金成了這次選舉中的棘手議題。"
+    ],
+    [
+     "Nobody wanted to touch a hot potato like the salary problem.",
+     "沒人想碰薪水問題這種燙手山芋。"
+    ]
+   ]
+  }
+ ]
+}

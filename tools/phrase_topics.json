@@ -1,0 +1,5344 @@
+{
+ "categories": [
+  {
+   "id": "phrases",
+   "zh": "常用片語",
+   "en": "Common Phrases",
+   "desc": "片語動詞、固定搭配與慣用語。這些說法的意思不能逐字翻譯，必須整組記。",
+   "topics": [
+    "phrasal-verbs",
+    "linking-phrases",
+    "collocations",
+    "idioms"
+   ]
+  }
+ ],
+ "topics": {
+  "phrasal-verbs": {
+   "zh": "片語動詞",
+   "en": "Phrasal Verbs",
+   "level": "初階・中階・進階",
+   "intro": "動詞加副詞或介系詞組成的片語，意思常和單字本身不同，如 give up、look after、come up with。",
+   "fewLevels": true,
+   "levelOverrides": {
+    "account for": "I",
+    "act on": "I",
+    "add up": "B",
+    "add up to": "I",
+    "add to": "I",
+    "agree with": "B",
+    "aim at": "I",
+    "allow for": "I",
+    "ask around": "I",
+    "ask for": "B",
+    "ask out": "B",
+    "back away": "I",
+    "back down": "I",
+    "back off": "I",
+    "back out": "I",
+    "back up": "B",
+    "bear with": "I",
+    "beat up": "I",
+    "believe in": "B",
+    "blow away": "I",
+    "blow out": "I",
+    "blow up": "B",
+    "break away": "I",
+    "break down": "B",
+    "break in": "I",
+    "break into": "I",
+    "break off": "I",
+    "break out": "B",
+    "break through": "I",
+    "break up": "B",
+    "breathe in": "B",
+    "breathe out": "B",
+    "bring about": "I",
+    "bring along": "B",
+    "bring back": "B",
+    "bring down": "I",
+    "bring forward": "I",
+    "bring in": "B",
+    "bring on": "I",
+    "bring out": "I",
+    "bring over": "B",
+    "bring up": "B",
+    "brush up": "I",
+    "build up": "B",
+    "burn down": "I",
+    "burn out": "I",
+    "call back": "B",
+    "call for": "I",
+    "call off": "B",
+    "call on": "I",
+    "call up": "I",
+    "calm down": "B",
+    "care about": "B",
+    "care for": "I",
+    "carry on": "B",
+    "carry out": "B",
+    "carry over": "A",
+    "catch on": "I",
+    "catch up": "B",
+    "catch up on": "I",
+    "catch up with": "B",
+    "check in": "B",
+    "check into": "I",
+    "check on": "I",
+    "check out": "B",
+    "cheer up": "B",
+    "chip in": "I",
+    "clean out": "I",
+    "clean up": "B",
+    "clear out": "I",
+    "clear up": "I",
+    "close down": "I",
+    "come about": "I",
+    "come across": "B",
+    "come along": "B",
+    "come apart": "I",
+    "come around": "I",
+    "come back": "B",
+    "come by": "I",
+    "come down": "B",
+    "come down with": "I",
+    "come forward": "I",
+    "come from": "B",
+    "come in": "B",
+    "come on": "B",
+    "come out": "B",
+    "come over": "B",
+    "come up": "B",
+    "come up with": "B",
+    "cool down": "B",
+    "cope with": "I",
+    "count on": "B",
+    "cover up": "I",
+    "crack up": "I",
+    "cross out": "B",
+    "cross off": "I",
+    "cut back": "I",
+    "cut down": "B",
+    "cut down on": "I",
+    "cut in": "I",
+    "cut off": "B",
+    "cut out": "B",
+    "cut up": "B",
+    "deal with": "B",
+    "depend on": "B",
+    "die out": "I",
+    "dig up": "I",
+    "do away with": "I",
+    "do over": "I",
+    "do without": "I",
+    "drag on": "I",
+    "draw up": "I",
+    "dress up": "B",
+    "drink up": "B",
+    "drop by": "B",
+    "drop in": "B",
+    "drop in on": "I",
+    "drop off": "B",
+    "drop out": "B",
+    "drop out of": "I",
+    "dry out": "I",
+    "eat out": "B",
+    "eat up": "I",
+    "end up": "B",
+    "fall apart": "B",
+    "fall back": "I",
+    "fall back on": "A",
+    "fall behind": "B",
+    "fall down": "B",
+    "fall for": "I",
+    "fall off": "I",
+    "fall out": "I",
+    "fall over": "B",
+    "fall through": "I",
+    "feel like": "B",
+    "fight back": "I",
+    "fight off": "I",
+    "figure out": "B",
+    "fill in": "B",
+    "fill out": "B",
+    "fill up": "B",
+    "find out": "B",
+    "finish up": "I",
+    "fit in": "I",
+    "focus on": "B",
+    "follow up": "I",
+    "follow up on": "I",
+    "get across": "I",
+    "get ahead": "I",
+    "get along": "B",
+    "get along with": "B",
+    "get around": "I",
+    "get away": "B",
+    "get away with": "I",
+    "get back": "B",
+    "get back to": "B",
+    "get by": "I",
+    "get down": "B",
+    "get down to": "I",
+    "get in": "B",
+    "get into": "B",
+    "get off": "B",
+    "get on": "B",
+    "get on with": "I",
+    "get out": "B",
+    "get out of": "I",
+    "get over": "B",
+    "get through": "I",
+    "get together": "B",
+    "get up": "B",
+    "give away": "I",
+    "give back": "B",
+    "give in": "B",
+    "give off": "I",
+    "give out": "I",
+    "give up": "B",
+    "go after": "I",
+    "go ahead": "B",
+    "go along": "I",
+    "go along with": "I",
+    "go away": "B",
+    "go back": "B",
+    "go down": "B",
+    "go for": "I",
+    "go in": "B",
+    "go off": "I",
+    "go on": "B",
+    "go out": "B",
+    "go over": "B",
+    "go through": "B",
+    "go up": "B",
+    "go with": "I",
+    "grow out of": "I",
+    "grow up": "B",
+    "come off": "I",
+    "come through": "I",
+    "cool off": "I",
+    "go by": "I",
+    "go without": "I",
+    "bounce back": "I",
+    "hand in": "B",
+    "hand out": "B",
+    "hand over": "I",
+    "hang around": "I",
+    "hang on": "I",
+    "hang out": "B",
+    "hang up": "B",
+    "have on": "I",
+    "head back": "I",
+    "head for": "I",
+    "help out": "B",
+    "hit the road": "I",
+    "hold back": "I",
+    "hold off": "A",
+    "hold on": "B",
+    "hold onto": "I",
+    "hold out": "A",
+    "hold up": "I",
+    "hurry up": "B",
+    "join in": "I",
+    "jump in": "I",
+    "keep away": "B",
+    "keep from": "I",
+    "keep going": "B",
+    "keep off": "I",
+    "keep on": "B",
+    "keep out": "B",
+    "keep to": "I",
+    "keep up": "B",
+    "keep up with": "I",
+    "kick off": "I",
+    "kick out": "I",
+    "knock down": "I",
+    "knock on": "B",
+    "knock out": "I",
+    "knock over": "I",
+    "lay down": "I",
+    "lead to": "I",
+    "leave behind": "I",
+    "leave out": "I",
+    "let down": "I",
+    "let go": "B",
+    "let in": "I",
+    "let out": "I",
+    "lie down": "B",
+    "light up": "I",
+    "line up": "I",
+    "listen to": "B",
+    "listen up": "I",
+    "live on": "I",
+    "live up to": "A",
+    "live with": "I",
+    "lock up": "I",
+    "log in": "B",
+    "log on": "I",
+    "log out": "B",
+    "look after": "B",
+    "look around": "B",
+    "look at": "B",
+    "look back": "I",
+    "look down on": "I",
+    "look for": "B",
+    "look forward to": "B",
+    "look into": "I",
+    "look like": "B",
+    "look out": "B",
+    "look out for": "I",
+    "look over": "I",
+    "look through": "I",
+    "look up": "B",
+    "look up to": "I",
+    "make for": "A",
+    "make out": "I",
+    "make up": "B",
+    "make up for": "I",
+    "meet up": "B",
+    "mess up": "I",
+    "mix up": "I",
+    "mix with": "I",
+    "move away": "B",
+    "move forward": "I",
+    "move in": "B",
+    "move on": "I",
+    "move out": "B",
+    "note down": "B",
+    "open up": "I",
+    "pass away": "I",
+    "pass by": "B",
+    "pass on": "I",
+    "pass out": "I",
+    "pay back": "I",
+    "pay for": "B",
+    "pay off": "I",
+    "pick out": "I",
+    "pick up": "B",
+    "point out": "I",
+    "point to": "I",
+    "pop up": "I",
+    "pull down": "I",
+    "pull out": "I",
+    "pull over": "I",
+    "pull up": "I",
+    "put aside": "I",
+    "put away": "B",
+    "put back": "I",
+    "put down": "I",
+    "put forward": "I",
+    "put in": "I",
+    "put off": "B",
+    "put on": "B",
+    "put out": "I",
+    "put together": "I",
+    "put up": "I",
+    "put up with": "I",
+    "reach out": "I",
+    "rely on": "I",
+    "rule out": "I",
+    "run away": "B",
+    "run down": "I",
+    "run for": "I",
+    "run into": "I",
+    "run out": "B",
+    "run out of": "B",
+    "run over": "I",
+    "see off": "I",
+    "sell out": "I",
+    "send back": "I",
+    "send off": "I",
+    "send out": "I",
+    "set aside": "I",
+    "set off": "I",
+    "set out": "I",
+    "set up": "B",
+    "settle down": "I",
+    "settle in": "I",
+    "show off": "I",
+    "show up": "B",
+    "shut down": "I",
+    "shut up": "I",
+    "sign in": "B",
+    "sign out": "I",
+    "sign up": "B",
+    "sit back": "I",
+    "sit down": "B",
+    "sit up": "I",
+    "slow down": "B",
+    "sort out": "I",
+    "speak up": "I",
+    "speed up": "B",
+    "split up": "I",
+    "stand by": "I",
+    "stand for": "I",
+    "stand out": "I",
+    "stand up": "B",
+    "stand up for": "I",
+    "stay away": "I",
+    "stay in": "B",
+    "stay out": "I",
+    "stay up": "B",
+    "step down": "I",
+    "step in": "I",
+    "stick out": "I",
+    "stick to": "I",
+    "stick with": "I",
+    "stop by": "I",
+    "sum up": "I",
+    "switch off": "B",
+    "switch on": "B",
+    "switch to": "I",
+    "take advantage of": "I",
+    "take away": "B",
+    "take care of": "B",
+    "take in": "I",
+    "take off": "B",
+    "take on": "I",
+    "take out": "B",
+    "take over": "I",
+    "take part in": "B",
+    "take place": "B",
+    "take up": "I",
+    "talk about": "B",
+    "think about": "B",
+    "think of": "B",
+    "throw away": "B",
+    "try on": "B",
+    "turn down": "B",
+    "turn into": "B",
+    "turn off": "B",
+    "turn on": "B",
+    "turn up": "B",
+    "wait for": "B",
+    "wake up": "B",
+    "walk in": "B",
+    "warm up": "B",
+    "watch out": "B",
+    "work for": "B",
+    "work on": "B",
+    "work out": "B",
+    "worry about": "B",
+    "write down": "B",
+    "talk over": "I",
+    "think over": "I",
+    "turn around": "I",
+    "lay off": "I",
+    "turn out": "I"
+   },
+   "sections": [
+    [
+     "back 系列",
+     "back",
+     [
+      [
+       "back away",
+       "後退；退縮"
+      ],
+      [
+       "back down",
+       "讓步；退讓"
+      ],
+      [
+       "back off",
+       "退開；收手"
+      ],
+      [
+       "back out",
+       "退出；食言"
+      ],
+      [
+       "back up",
+       "備份；支持；倒車"
+      ]
+     ]
+    ],
+    [
+     "break 系列",
+     "break",
+     [
+      [
+       "break away",
+       "脫離；掙脫"
+      ],
+      [
+       "break down",
+       "故障；崩潰；分解"
+      ],
+      [
+       "break in",
+       "闖入；穿壞磨合；打斷"
+      ],
+      [
+       "break into",
+       "闖入；突然開始"
+      ],
+      [
+       "break off",
+       "折斷；中斷；結束"
+      ],
+      [
+       "break out",
+       "爆發；逃脫"
+      ],
+      [
+       "break through",
+       "突破"
+      ],
+      [
+       "break up",
+       "分手；解散；打碎"
+      ]
+     ]
+    ],
+    [
+     "bring 系列",
+     "bring",
+     [
+      [
+       "bring about",
+       "引起；造成"
+      ],
+      [
+       "bring along",
+       "隨身帶來"
+      ],
+      [
+       "bring back",
+       "帶回；使想起"
+      ],
+      [
+       "bring down",
+       "降低；使倒台"
+      ],
+      [
+       "bring forward",
+       "提出；提前"
+      ],
+      [
+       "bring in",
+       "引進；賺進"
+      ],
+      [
+       "bring on",
+       "引發；招致"
+      ],
+      [
+       "bring out",
+       "推出；顯現"
+      ],
+      [
+       "bring over",
+       "帶來（某處）"
+      ],
+      [
+       "bring up",
+       "養育；提起（話題）"
+      ]
+     ]
+    ],
+    [
+     "call 系列",
+     "call",
+     [
+      [
+       "call back",
+       "回電；召回"
+      ],
+      [
+       "call for",
+       "需要；要求"
+      ],
+      [
+       "call off",
+       "取消"
+      ],
+      [
+       "call on",
+       "拜訪；呼籲"
+      ],
+      [
+       "call up",
+       "打電話給；徵召"
+      ]
+     ]
+    ],
+    [
+     "come 系列",
+     "come",
+     [
+      [
+       "come about",
+       "發生；產生"
+      ],
+      [
+       "come across",
+       "偶然遇見；被理解為"
+      ],
+      [
+       "come along",
+       "一起來；進展"
+      ],
+      [
+       "come apart",
+       "裂開；散開"
+      ],
+      [
+       "come around",
+       "順道拜訪；改變想法；甦醒"
+      ],
+      [
+       "come back",
+       "回來"
+      ],
+      [
+       "come by",
+       "取得；順道拜訪"
+      ],
+      [
+       "come down",
+       "下降；倒塌"
+      ],
+      [
+       "come down with",
+       "染上（疾病）"
+      ],
+      [
+       "come forward",
+       "出面；站出來"
+      ],
+      [
+       "come from",
+       "來自"
+      ],
+      [
+       "come in",
+       "進來；到達"
+      ],
+      [
+       "come on",
+       "快點；加油；開始"
+      ],
+      [
+       "come out",
+       "出來；出版；綻放"
+      ],
+      [
+       "come over",
+       "來訪；過來"
+      ],
+      [
+       "come up",
+       "出現；走近；發生"
+      ],
+      [
+       "come up with",
+       "想出；提出"
+      ],
+      [
+       "come off",
+       "脫落；成功"
+      ],
+      [
+       "come through",
+       "度過難關；兌現"
+      ]
+     ]
+    ],
+    [
+     "cut 系列",
+     "cut",
+     [
+      [
+       "cut back",
+       "削減"
+      ],
+      [
+       "cut down",
+       "砍倒；減少"
+      ],
+      [
+       "cut down on",
+       "減少（用量）"
+      ],
+      [
+       "cut in",
+       "插嘴；插隊"
+      ],
+      [
+       "cut off",
+       "切斷；中斷"
+      ],
+      [
+       "cut out",
+       "切除；剪下；停止"
+      ],
+      [
+       "cut up",
+       "切碎"
+      ]
+     ]
+    ],
+    [
+     "drop 系列",
+     "drop",
+     [
+      [
+       "drop by",
+       "順道拜訪"
+      ],
+      [
+       "drop in",
+       "順道拜訪"
+      ],
+      [
+       "drop in on",
+       "臨時拜訪（某人）"
+      ],
+      [
+       "drop off",
+       "載到；睡著；減少"
+      ],
+      [
+       "drop out",
+       "輟學；退出"
+      ],
+      [
+       "drop out of",
+       "從…退出；輟學"
+      ]
+     ]
+    ],
+    [
+     "fall 系列",
+     "fall",
+     [
+      [
+       "fall apart",
+       "崩潰；散掉"
+      ],
+      [
+       "fall back",
+       "退卻；撤退"
+      ],
+      [
+       "fall back on",
+       "求助於；依靠"
+      ],
+      [
+       "fall behind",
+       "落後"
+      ],
+      [
+       "fall down",
+       "跌倒；倒塌"
+      ],
+      [
+       "fall for",
+       "愛上；被騙"
+      ],
+      [
+       "fall off",
+       "掉落；下降"
+      ],
+      [
+       "fall out",
+       "吵翻；掉出"
+      ],
+      [
+       "fall over",
+       "跌倒；絆倒"
+      ],
+      [
+       "fall through",
+       "落空；泡湯"
+      ]
+     ]
+    ],
+    [
+     "get 系列",
+     "get",
+     [
+      [
+       "get across",
+       "傳達；讓人理解"
+      ],
+      [
+       "get ahead",
+       "進步；超前"
+      ],
+      [
+       "get along",
+       "相處融洽；進展"
+      ],
+      [
+       "get along with",
+       "與…相處"
+      ],
+      [
+       "get around",
+       "四處走動；繞過；傳開"
+      ],
+      [
+       "get away",
+       "逃脫；離開"
+      ],
+      [
+       "get away with",
+       "僥倖逃過（懲罰）"
+      ],
+      [
+       "get back",
+       "回來；拿回"
+      ],
+      [
+       "get back to",
+       "回覆；回到"
+      ],
+      [
+       "get by",
+       "勉強過活；通過"
+      ],
+      [
+       "get down",
+       "下來；使沮喪"
+      ],
+      [
+       "get down to",
+       "開始認真做"
+      ],
+      [
+       "get in",
+       "進入；到達"
+      ],
+      [
+       "get into",
+       "進入；涉入；沉迷"
+      ],
+      [
+       "get off",
+       "下車；下班；脫掉"
+      ],
+      [
+       "get on",
+       "上車；相處；進展"
+      ],
+      [
+       "get on with",
+       "與…相處；繼續做"
+      ],
+      [
+       "get out",
+       "出去；離開"
+      ],
+      [
+       "get out of",
+       "逃避；從…出來"
+      ],
+      [
+       "get over",
+       "克服；恢復"
+      ],
+      [
+       "get through",
+       "度過；打通電話"
+      ],
+      [
+       "get together",
+       "聚會；聚在一起"
+      ],
+      [
+       "get up",
+       "起床；站起來"
+      ]
+     ]
+    ],
+    [
+     "give 系列",
+     "give",
+     [
+      [
+       "give away",
+       "送出；洩漏"
+      ],
+      [
+       "give back",
+       "歸還"
+      ],
+      [
+       "give in",
+       "屈服；讓步；交出"
+      ],
+      [
+       "give off",
+       "散發；發出"
+      ],
+      [
+       "give out",
+       "分發；用完；耗盡"
+      ],
+      [
+       "give up",
+       "放棄；戒除"
+      ]
+     ]
+    ],
+    [
+     "go 系列",
+     "go",
+     [
+      [
+       "go after",
+       "追求；追捕"
+      ],
+      [
+       "go ahead",
+       "繼續；請便"
+      ],
+      [
+       "go along",
+       "一起去；進行"
+      ],
+      [
+       "go along with",
+       "同意；贊同"
+      ],
+      [
+       "go away",
+       "離開；消失"
+      ],
+      [
+       "go back",
+       "回去；回到"
+      ],
+      [
+       "go down",
+       "下降；下沉；被記住"
+      ],
+      [
+       "go for",
+       "選擇；努力爭取；攻擊"
+      ],
+      [
+       "go in",
+       "進入"
+      ],
+      [
+       "go off",
+       "爆炸；鬧鈴響；離開"
+      ],
+      [
+       "go on",
+       "繼續；發生"
+      ],
+      [
+       "go out",
+       "外出；熄滅；約會"
+      ],
+      [
+       "go over",
+       "複習；仔細檢查"
+      ],
+      [
+       "go through",
+       "經歷；仔細查看"
+      ],
+      [
+       "go up",
+       "上升；上漲"
+      ],
+      [
+       "go with",
+       "與…搭配；伴隨"
+      ],
+      [
+       "go by",
+       "經過；依照"
+      ],
+      [
+       "go without",
+       "沒有…也行"
+      ]
+     ]
+    ],
+    [
+     "hold 系列",
+     "hold",
+     [
+      [
+       "hold back",
+       "忍住；阻止"
+      ],
+      [
+       "hold off",
+       "延後；抵擋"
+      ],
+      [
+       "hold on",
+       "稍等；抓緊"
+      ],
+      [
+       "hold onto",
+       "緊抓；保留"
+      ],
+      [
+       "hold out",
+       "伸出；堅持住"
+      ],
+      [
+       "hold up",
+       "舉起；耽擱；搶劫"
+      ]
+     ]
+    ],
+    [
+     "keep 系列",
+     "keep",
+     [
+      [
+       "keep away",
+       "遠離；避開"
+      ],
+      [
+       "keep from",
+       "阻止；避免"
+      ],
+      [
+       "keep going",
+       "繼續下去；堅持"
+      ],
+      [
+       "keep off",
+       "避開；不接近"
+      ],
+      [
+       "keep on",
+       "繼續；持續"
+      ],
+      [
+       "keep out",
+       "不得進入；擋在外面"
+      ],
+      [
+       "keep to",
+       "遵守；固守"
+      ],
+      [
+       "keep up",
+       "保持；跟上"
+      ],
+      [
+       "keep up with",
+       "跟上；保持聯絡"
+      ]
+     ]
+    ],
+    [
+     "look 系列",
+     "look",
+     [
+      [
+       "look after",
+       "照顧；照料"
+      ],
+      [
+       "look around",
+       "四處看看"
+      ],
+      [
+       "look at",
+       "看；注視"
+      ],
+      [
+       "look back",
+       "回顧；回頭看"
+      ],
+      [
+       "look down on",
+       "瞧不起；輕視"
+      ],
+      [
+       "look for",
+       "尋找"
+      ],
+      [
+       "look forward to",
+       "期待；盼望"
+      ],
+      [
+       "look into",
+       "調查；研究"
+      ],
+      [
+       "look like",
+       "看起來像"
+      ],
+      [
+       "look out",
+       "小心；留意"
+      ],
+      [
+       "look out for",
+       "提防；留意"
+      ],
+      [
+       "look over",
+       "檢查；瀏覽"
+      ],
+      [
+       "look through",
+       "瀏覽；仔細查看"
+      ],
+      [
+       "look up",
+       "查閱；抬頭看"
+      ],
+      [
+       "look up to",
+       "尊敬；仰慕"
+      ]
+     ]
+    ],
+    [
+     "move 系列",
+     "move",
+     [
+      [
+       "move away",
+       "搬走；離開"
+      ],
+      [
+       "move forward",
+       "向前進；推進"
+      ],
+      [
+       "move in",
+       "搬入；入住"
+      ],
+      [
+       "move on",
+       "繼續前進；放下過去"
+      ],
+      [
+       "move out",
+       "搬出；遷出"
+      ]
+     ]
+    ],
+    [
+     "put 系列",
+     "put",
+     [
+      [
+       "put aside",
+       "擱置；存起來"
+      ],
+      [
+       "put away",
+       "收好；收起"
+      ],
+      [
+       "put back",
+       "放回；延後"
+      ],
+      [
+       "put down",
+       "放下；記下；貶低"
+      ],
+      [
+       "put forward",
+       "提出；建議"
+      ],
+      [
+       "put in",
+       "投入；安裝；提出"
+      ],
+      [
+       "put off",
+       "延後；使…打消念頭"
+      ],
+      [
+       "put on",
+       "穿上；播放；增加"
+      ],
+      [
+       "put out",
+       "撲滅；發布"
+      ],
+      [
+       "put together",
+       "組裝；整合"
+      ],
+      [
+       "put up",
+       "張貼；搭建；留宿"
+      ],
+      [
+       "put up with",
+       "忍受；容忍"
+      ]
+     ]
+    ],
+    [
+     "run 系列",
+     "run",
+     [
+      [
+       "run away",
+       "逃跑；離家出走"
+      ],
+      [
+       "run down",
+       "耗盡；貶低；撞倒"
+      ],
+      [
+       "run for",
+       "競選"
+      ],
+      [
+       "run into",
+       "偶然遇見；撞上"
+      ],
+      [
+       "run out",
+       "用完；耗盡"
+      ],
+      [
+       "run out of",
+       "用完；耗盡"
+      ],
+      [
+       "run over",
+       "輾過；超出"
+      ]
+     ]
+    ],
+    [
+     "stand 系列",
+     "stand",
+     [
+      [
+       "stand by",
+       "支持；待命"
+      ],
+      [
+       "stand for",
+       "代表；容忍"
+      ],
+      [
+       "stand out",
+       "突出；顯眼"
+      ],
+      [
+       "stand up",
+       "站起來；放鴿子"
+      ],
+      [
+       "stand up for",
+       "捍衛；支持"
+      ]
+     ]
+    ],
+    [
+     "take 系列",
+     "take",
+     [
+      [
+       "take advantage of",
+       "利用；占便宜"
+      ],
+      [
+       "take away",
+       "拿走；帶走"
+      ],
+      [
+       "take care of",
+       "照顧；處理"
+      ],
+      [
+       "take in",
+       "吸收；欺騙；收留"
+      ],
+      [
+       "take off",
+       "起飛；脫下"
+      ],
+      [
+       "take on",
+       "承擔；僱用"
+      ],
+      [
+       "take out",
+       "取出；帶…出去"
+      ],
+      [
+       "take over",
+       "接管；接手"
+      ],
+      [
+       "take part in",
+       "參加；參與"
+      ],
+      [
+       "take place",
+       "發生；舉行"
+      ],
+      [
+       "take up",
+       "開始從事；佔用"
+      ]
+     ]
+    ],
+    [
+     "turn 系列",
+     "turn",
+     [
+      [
+       "turn down",
+       "拒絕；調小音量"
+      ],
+      [
+       "turn into",
+       "變成"
+      ],
+      [
+       "turn off",
+       "關掉；使反感"
+      ],
+      [
+       "turn on",
+       "打開；開啟"
+      ],
+      [
+       "turn up",
+       "出現；調大音量"
+      ],
+      [
+       "turn around",
+       "轉身、扭轉局面"
+      ],
+      [
+       "turn out",
+       "結果是、證明是"
+      ]
+     ]
+    ],
+    [
+     "其他動詞 A–C",
+     "Other Verbs A–C",
+     [
+      [
+       "account for",
+       "解釋；占（比例）"
+      ],
+      [
+       "act on",
+       "按照…行動"
+      ],
+      [
+       "add up",
+       "加總；說得通"
+      ],
+      [
+       "add up to",
+       "總計達；合計"
+      ],
+      [
+       "add to",
+       "增加；加重"
+      ],
+      [
+       "agree with",
+       "同意；適合（體質）"
+      ],
+      [
+       "aim at",
+       "瞄準；以…為目標"
+      ],
+      [
+       "allow for",
+       "考慮到；預留"
+      ],
+      [
+       "ask around",
+       "到處打聽"
+      ],
+      [
+       "ask for",
+       "要求；請求"
+      ],
+      [
+       "ask out",
+       "邀約出去"
+      ],
+      [
+       "bear with",
+       "耐心等待；容忍"
+      ],
+      [
+       "beat up",
+       "痛毆"
+      ],
+      [
+       "believe in",
+       "相信；信任"
+      ],
+      [
+       "blow away",
+       "吹走；令人驚豔"
+      ],
+      [
+       "blow out",
+       "吹熄；爆胎"
+      ],
+      [
+       "blow up",
+       "爆炸；放大；發怒"
+      ],
+      [
+       "breathe in",
+       "吸氣"
+      ],
+      [
+       "breathe out",
+       "呼氣"
+      ],
+      [
+       "brush up",
+       "複習；溫習"
+      ],
+      [
+       "build up",
+       "逐漸增加；累積"
+      ],
+      [
+       "burn down",
+       "燒毀"
+      ],
+      [
+       "burn out",
+       "燒壞；精疲力盡"
+      ],
+      [
+       "calm down",
+       "冷靜下來"
+      ],
+      [
+       "care about",
+       "在乎；關心"
+      ],
+      [
+       "care for",
+       "照顧；喜歡"
+      ],
+      [
+       "carry on",
+       "繼續；進行"
+      ],
+      [
+       "carry out",
+       "執行；完成"
+      ],
+      [
+       "carry over",
+       "延續；結轉"
+      ],
+      [
+       "catch on",
+       "流行起來；領會"
+      ],
+      [
+       "catch up",
+       "趕上；補做"
+      ],
+      [
+       "catch up on",
+       "補做；了解近況"
+      ],
+      [
+       "catch up with",
+       "趕上；追上"
+      ],
+      [
+       "check in",
+       "登記入住；報到"
+      ],
+      [
+       "check into",
+       "入住；調查"
+      ],
+      [
+       "check on",
+       "查看；確認"
+      ],
+      [
+       "check out",
+       "結帳退房；查看；借出"
+      ],
+      [
+       "cheer up",
+       "振作；使開心"
+      ],
+      [
+       "chip in",
+       "湊錢；幫忙"
+      ],
+      [
+       "clean out",
+       "清空；打掃乾淨"
+      ],
+      [
+       "clean up",
+       "清理；打掃"
+      ],
+      [
+       "clear out",
+       "清空；離開"
+      ],
+      [
+       "clear up",
+       "放晴；清理；澄清"
+      ],
+      [
+       "close down",
+       "關閉；歇業"
+      ],
+      [
+       "cool down",
+       "冷卻；冷靜"
+      ],
+      [
+       "cool off",
+       "涼快下來；冷靜"
+      ],
+      [
+       "cope with",
+       "應付；處理"
+      ],
+      [
+       "count on",
+       "依靠；指望"
+      ],
+      [
+       "cover up",
+       "掩蓋；隱瞞"
+      ],
+      [
+       "crack up",
+       "大笑；崩潰"
+      ],
+      [
+       "cross out",
+       "劃掉"
+      ],
+      [
+       "cross off",
+       "劃掉（清單項目）"
+      ],
+      [
+       "bounce back",
+       "反彈；恢復"
+      ]
+     ]
+    ],
+    [
+     "其他動詞 D–G",
+     "Other Verbs D–G",
+     [
+      [
+       "deal with",
+       "處理；應付"
+      ],
+      [
+       "depend on",
+       "依賴；取決於"
+      ],
+      [
+       "die out",
+       "絕種；逐漸消失"
+      ],
+      [
+       "dig up",
+       "挖出；查出"
+      ],
+      [
+       "do away with",
+       "廢除；除掉"
+      ],
+      [
+       "do over",
+       "重做"
+      ],
+      [
+       "do without",
+       "沒有…也行"
+      ],
+      [
+       "drag on",
+       "拖長；拖拖拉拉"
+      ],
+      [
+       "draw up",
+       "草擬；擬定"
+      ],
+      [
+       "dress up",
+       "盛裝打扮；裝扮"
+      ],
+      [
+       "drink up",
+       "喝光"
+      ],
+      [
+       "dry out",
+       "變乾；戒酒"
+      ],
+      [
+       "eat out",
+       "外食"
+      ],
+      [
+       "eat up",
+       "吃光；耗盡"
+      ],
+      [
+       "end up",
+       "最後落得"
+      ],
+      [
+       "feel like",
+       "想要；覺得像"
+      ],
+      [
+       "fight back",
+       "反擊；強忍（情緒）"
+      ],
+      [
+       "fight off",
+       "擊退；抵抗"
+      ],
+      [
+       "figure out",
+       "想出；弄懂"
+      ],
+      [
+       "fill in",
+       "填寫；代理"
+      ],
+      [
+       "fill out",
+       "填寫（表格）"
+      ],
+      [
+       "fill up",
+       "裝滿；加滿"
+      ],
+      [
+       "find out",
+       "查明；發現"
+      ],
+      [
+       "finish up",
+       "做完；吃完"
+      ],
+      [
+       "fit in",
+       "融入；合得來"
+      ],
+      [
+       "focus on",
+       "專注於"
+      ],
+      [
+       "follow up",
+       "跟進；追蹤"
+      ],
+      [
+       "follow up on",
+       "對…進行後續處理"
+      ],
+      [
+       "grow out of",
+       "長大後不再；源自"
+      ],
+      [
+       "grow up",
+       "長大；成熟"
+      ]
+     ]
+    ],
+    [
+     "其他動詞 H–L",
+     "Other Verbs H–L",
+     [
+      [
+       "hand in",
+       "繳交；遞交"
+      ],
+      [
+       "hand out",
+       "分發；發放"
+      ],
+      [
+       "hand over",
+       "交出；移交"
+      ],
+      [
+       "hang around",
+       "閒逛；逗留"
+      ],
+      [
+       "hang on",
+       "稍等；抓緊"
+      ],
+      [
+       "hang out",
+       "閒晃；和朋友相聚"
+      ],
+      [
+       "hang up",
+       "掛斷電話；掛起來"
+      ],
+      [
+       "have on",
+       "穿著；開著"
+      ],
+      [
+       "head back",
+       "返回；往回走"
+      ],
+      [
+       "head for",
+       "前往；朝…走去"
+      ],
+      [
+       "help out",
+       "幫忙；幫助"
+      ],
+      [
+       "hit the road",
+       "上路；出發"
+      ],
+      [
+       "hurry up",
+       "趕快；加快"
+      ],
+      [
+       "join in",
+       "加入；參與"
+      ],
+      [
+       "jump in",
+       "跳入；插話"
+      ],
+      [
+       "kick off",
+       "開始；開球"
+      ],
+      [
+       "kick out",
+       "趕出；開除"
+      ],
+      [
+       "knock down",
+       "擊倒；拆毀"
+      ],
+      [
+       "knock on",
+       "敲（門）"
+      ],
+      [
+       "knock out",
+       "擊昏；淘汰"
+      ],
+      [
+       "knock over",
+       "撞倒；打翻"
+      ],
+      [
+       "lay down",
+       "放下；制定（規則）"
+      ],
+      [
+       "lay off",
+       "解僱、裁員"
+      ],
+      [
+       "lead to",
+       "導致；通往"
+      ],
+      [
+       "leave behind",
+       "留下；遺忘"
+      ],
+      [
+       "leave out",
+       "遺漏；省略"
+      ],
+      [
+       "let down",
+       "使失望；辜負"
+      ],
+      [
+       "let go",
+       "放手；放開"
+      ],
+      [
+       "let in",
+       "讓…進來"
+      ],
+      [
+       "let out",
+       "放出；發出（聲音）"
+      ],
+      [
+       "lie down",
+       "躺下"
+      ],
+      [
+       "light up",
+       "點亮；容光煥發"
+      ],
+      [
+       "line up",
+       "排隊；排列"
+      ],
+      [
+       "listen to",
+       "聽；聆聽"
+      ],
+      [
+       "listen up",
+       "注意聽"
+      ],
+      [
+       "live on",
+       "靠…維生；繼續存在"
+      ],
+      [
+       "live up to",
+       "不辜負；達到"
+      ],
+      [
+       "live with",
+       "忍受；與…同住"
+      ],
+      [
+       "lock up",
+       "鎖好；監禁"
+      ],
+      [
+       "log in",
+       "登入"
+      ],
+      [
+       "log on",
+       "登入"
+      ],
+      [
+       "log out",
+       "登出"
+      ]
+     ]
+    ],
+    [
+     "其他動詞 M–R",
+     "Other Verbs M–R",
+     [
+      [
+       "make for",
+       "走向；有助於"
+      ],
+      [
+       "make out",
+       "辨認出；理解"
+      ],
+      [
+       "make up",
+       "編造；化妝；和好"
+      ],
+      [
+       "make up for",
+       "彌補；補償"
+      ],
+      [
+       "meet up",
+       "碰面；聚會"
+      ],
+      [
+       "mess up",
+       "搞砸；弄亂"
+      ],
+      [
+       "mix up",
+       "混淆；弄混"
+      ],
+      [
+       "mix with",
+       "與…混合；交往"
+      ],
+      [
+       "note down",
+       "記下"
+      ],
+      [
+       "open up",
+       "打開；敞開心扉"
+      ],
+      [
+       "pass away",
+       "去世；過世"
+      ],
+      [
+       "pass by",
+       "經過；路過"
+      ],
+      [
+       "pass on",
+       "傳遞；轉告"
+      ],
+      [
+       "pass out",
+       "昏倒；分發"
+      ],
+      [
+       "pay back",
+       "償還；報復"
+      ],
+      [
+       "pay for",
+       "支付；付出代價"
+      ],
+      [
+       "pay off",
+       "還清；有回報"
+      ],
+      [
+       "pick out",
+       "挑出；選出"
+      ],
+      [
+       "pick up",
+       "拾起；接送；學會"
+      ],
+      [
+       "point out",
+       "指出；點明"
+      ],
+      [
+       "point to",
+       "指向；顯示"
+      ],
+      [
+       "pop up",
+       "突然出現；彈出"
+      ],
+      [
+       "pull down",
+       "拆除；拉下"
+      ],
+      [
+       "pull out",
+       "拔出；退出"
+      ],
+      [
+       "pull over",
+       "靠邊停車"
+      ],
+      [
+       "pull up",
+       "停車；拉起"
+      ],
+      [
+       "reach out",
+       "伸手；聯繫"
+      ],
+      [
+       "rely on",
+       "依賴；仰賴"
+      ],
+      [
+       "rule out",
+       "排除；不可能"
+      ]
+     ]
+    ],
+    [
+     "其他動詞 S–Z",
+     "Other Verbs S–Z",
+     [
+      [
+       "see off",
+       "送行；趕走"
+      ],
+      [
+       "sell out",
+       "賣完；背叛"
+      ],
+      [
+       "send back",
+       "退回；寄回"
+      ],
+      [
+       "send off",
+       "寄出；送走"
+      ],
+      [
+       "send out",
+       "寄出；發出"
+      ],
+      [
+       "set aside",
+       "留出；擱置"
+      ],
+      [
+       "set off",
+       "出發；引爆"
+      ],
+      [
+       "set out",
+       "出發；著手"
+      ],
+      [
+       "set up",
+       "設立；安排；架設"
+      ],
+      [
+       "settle down",
+       "安定下來；冷靜"
+      ],
+      [
+       "settle in",
+       "適應；安頓"
+      ],
+      [
+       "show off",
+       "炫耀；賣弄"
+      ],
+      [
+       "show up",
+       "出現；露面"
+      ],
+      [
+       "shut down",
+       "關閉；停工"
+      ],
+      [
+       "shut up",
+       "閉嘴；關起來"
+      ],
+      [
+       "sign in",
+       "登入；簽到"
+      ],
+      [
+       "sign out",
+       "登出；簽退"
+      ],
+      [
+       "sign up",
+       "報名；註冊"
+      ],
+      [
+       "sit back",
+       "往後靠；袖手旁觀"
+      ],
+      [
+       "sit down",
+       "坐下"
+      ],
+      [
+       "sit up",
+       "坐直；熬夜"
+      ],
+      [
+       "slow down",
+       "減速；放慢"
+      ],
+      [
+       "sort out",
+       "整理；解決"
+      ],
+      [
+       "speak up",
+       "大聲說；直言"
+      ],
+      [
+       "speed up",
+       "加速"
+      ],
+      [
+       "split up",
+       "分手；分開"
+      ],
+      [
+       "stay away",
+       "遠離；不接近"
+      ],
+      [
+       "stay in",
+       "待在家裡"
+      ],
+      [
+       "stay out",
+       "在外逗留；不介入"
+      ],
+      [
+       "stay up",
+       "熬夜；不睡"
+      ],
+      [
+       "step down",
+       "下台；辭職"
+      ],
+      [
+       "step in",
+       "介入；插手"
+      ],
+      [
+       "stick out",
+       "突出；顯眼"
+      ],
+      [
+       "stick to",
+       "堅持；固守"
+      ],
+      [
+       "stick with",
+       "堅持；繼續使用"
+      ],
+      [
+       "stop by",
+       "順道拜訪"
+      ],
+      [
+       "sum up",
+       "總結；概括"
+      ],
+      [
+       "switch off",
+       "關掉（電源）"
+      ],
+      [
+       "switch on",
+       "打開（電源）"
+      ],
+      [
+       "switch to",
+       "換成；改用"
+      ],
+      [
+       "talk about",
+       "談論；談到"
+      ],
+      [
+       "talk over",
+       "商討、討論"
+      ],
+      [
+       "think about",
+       "思考；考慮"
+      ],
+      [
+       "think of",
+       "想到；認為"
+      ],
+      [
+       "think over",
+       "仔細考慮"
+      ],
+      [
+       "throw away",
+       "丟棄；浪費"
+      ],
+      [
+       "try on",
+       "試穿"
+      ],
+      [
+       "wait for",
+       "等待"
+      ],
+      [
+       "wake up",
+       "醒來；叫醒"
+      ],
+      [
+       "walk in",
+       "走進來"
+      ],
+      [
+       "warm up",
+       "暖身；加熱"
+      ],
+      [
+       "watch out",
+       "小心；留神"
+      ],
+      [
+       "work for",
+       "為…工作"
+      ],
+      [
+       "work on",
+       "從事；致力於"
+      ],
+      [
+       "work out",
+       "運動；解決；算出"
+      ],
+      [
+       "worry about",
+       "擔心"
+      ],
+      [
+       "write down",
+       "寫下；記下"
+      ]
+     ]
+    ]
+   ]
+  },
+  "linking-phrases": {
+   "zh": "介系詞與連接片語",
+   "en": "Prepositional & Linking Phrases",
+   "level": "初階・中階・進階",
+   "intro": "表達時間、原因、對比、程度的固定片語，如 in advance、according to、as well as。",
+   "fewLevels": true,
+   "levelOverrides": {
+    "in advance": "I",
+    "at first": "B",
+    "at last": "B",
+    "at once": "B",
+    "at the moment": "B",
+    "at any time": "B",
+    "at this point": "I",
+    "in the end": "B",
+    "in the meantime": "I",
+    "in time": "B",
+    "on time": "B",
+    "in no time": "I",
+    "for a while": "B",
+    "for a moment": "B",
+    "for the moment": "I",
+    "for now": "B",
+    "for good": "I",
+    "for once": "I",
+    "by now": "B",
+    "by the way": "B",
+    "from now on": "B",
+    "now and then": "I",
+    "sooner or later": "I",
+    "so far": "B",
+    "up to now": "B",
+    "ever since": "I",
+    "as soon as": "B",
+    "as long as": "I",
+    "right away": "B",
+    "right now": "B",
+    "all the time": "B",
+    "step by step": "B",
+    "at first glance": "I",
+    "in due course": "A",
+    "first of all": "B",
+    "to date": "A",
+    "on schedule": "I",
+    "as a result": "I",
+    "because of": "B",
+    "due to": "I",
+    "thanks to": "B",
+    "for lack of": "I",
+    "in order to": "B",
+    "so as to": "I",
+    "in response to": "I",
+    "in return": "I",
+    "in case": "B",
+    "in fact": "B",
+    "in reality": "I",
+    "on purpose": "B",
+    "by accident": "B",
+    "by chance": "I",
+    "on the contrary": "I",
+    "in contrast": "I",
+    "in spite of": "B",
+    "even so": "I",
+    "even though": "B",
+    "even if": "B",
+    "as if": "B",
+    "instead of": "B",
+    "rather than": "I",
+    "apart from": "I",
+    "except for": "B",
+    "in addition": "B",
+    "in addition to": "I",
+    "as well as": "B",
+    "for example": "B",
+    "for instance": "B",
+    "such as": "B",
+    "in particular": "I",
+    "in general": "B",
+    "in short": "I",
+    "to be honest": "B",
+    "after all": "I",
+    "above all": "I",
+    "in any case": "I",
+    "by all means": "I",
+    "by no means": "I",
+    "of course": "B",
+    "as usual": "B",
+    "as for": "I",
+    "as to": "I",
+    "as of": "I",
+    "as a rule": "I",
+    "as a whole": "I",
+    "on the whole": "I",
+    "for one thing": "I",
+    "in a way": "I",
+    "in a sense": "I",
+    "as far as": "I",
+    "according to": "B",
+    "to some extent": "I",
+    "in terms of": "I",
+    "in favor of": "I",
+    "in charge of": "B",
+    "in need of": "I",
+    "in front of": "B",
+    "in touch with": "B",
+    "in common": "I",
+    "on behalf of": "I",
+    "on top of": "I",
+    "on the way": "B",
+    "on the spot": "I",
+    "on the phone": "B",
+    "on sale": "B",
+    "on average": "I",
+    "on demand": "I",
+    "on your own": "B",
+    "on earth": "I",
+    "in public": "B",
+    "in private": "I",
+    "in person": "B",
+    "in secret": "I",
+    "in detail": "B",
+    "in full": "I",
+    "in line with": "I",
+    "in trouble": "B",
+    "in that case": "I",
+    "in this case": "B",
+    "in this way": "B",
+    "at home": "B",
+    "at work": "B",
+    "at stake": "I",
+    "at a glance": "I",
+    "at a loss": "I",
+    "at all": "B",
+    "at best": "I",
+    "at least": "B",
+    "at most": "B",
+    "by means of": "I",
+    "by way of": "I",
+    "by far": "I",
+    "for sure": "B",
+    "for free": "B",
+    "for fun": "B",
+    "for nothing": "I",
+    "for sale": "B",
+    "for some reason": "I",
+    "out of date": "I",
+    "out of control": "I",
+    "out of stock": "I",
+    "out of work": "I",
+    "under control": "I",
+    "under pressure": "I",
+    "without delay": "I",
+    "over time": "I",
+    "all over": "B",
+    "all the way": "I",
+    "all right": "B",
+    "no longer": "B",
+    "no matter": "B",
+    "no matter what": "B",
+    "no doubt": "B",
+    "not at all": "B",
+    "more or less": "I",
+    "each other": "B",
+    "side by side": "I",
+    "face to face": "I",
+    "back and forth": "I",
+    "up and down": "I",
+    "here and there": "I",
+    "a couple of": "B",
+    "a lot of": "B",
+    "plenty of": "B",
+    "a number of": "B",
+    "the rest of": "B",
+    "as much as": "I",
+    "quite a few": "I",
+    "up to date": "I",
+    "under the weather": "I",
+    "ahead of": "I",
+    "ahead of time": "I",
+    "prior to": "I",
+    "regardless of": "I",
+    "in case of": "I",
+    "on one hand": "B",
+    "in contrast to": "I",
+    "along with": "I",
+    "in conclusion": "I",
+    "to sum up": "I",
+    "as well": "B",
+    "in the future": "B",
+    "in the past": "B",
+    "by the time": "B",
+    "at the end": "B",
+    "in my opinion": "B",
+    "with regard to": "I",
+    "in connection with": "I",
+    "in control of": "I",
+    "in search of": "I",
+    "in memory of": "I",
+    "in contact with": "I",
+    "on the side": "I",
+    "on board": "I",
+    "in writing": "I",
+    "in practice": "I",
+    "in theory": "I",
+    "in principle": "I",
+    "a variety of": "I",
+    "at the time": "B",
+    "a bunch of": "B",
+    "all in all": "I",
+    "as though": "I",
+    "at first sight": "I",
+    "at present": "B",
+    "at random": "I",
+    "at risk": "I",
+    "before long": "I",
+    "behind schedule": "I",
+    "by mistake": "B",
+    "far from": "I",
+    "in charge": "B",
+    "in touch": "B",
+    "little by little": "B",
+    "next to": "B",
+    "on foot": "B",
+    "one by one": "B",
+    "over and over": "B",
+    "in a hurry": "B",
+    "in the way": "I",
+    "in place of": "I",
+    "in danger": "B",
+    "in love with": "B",
+    "on business": "B",
+    "on duty": "I",
+    "on holiday": "B",
+    "on strike": "I",
+    "on second thought": "I",
+    "out of reach": "I",
+    "out of breath": "B",
+    "out of place": "I",
+    "up front": "A",
+    "under construction": "B",
+    "for fear of": "A",
+    "to begin with": "I",
+    "not to mention": "I",
+    "at hand": "I",
+    "out of order": "B",
+    "no matter how": "B",
+    "either way": "I"
+   },
+   "sections": [
+    [
+     "時間與順序",
+     "Time & Sequence",
+     [
+      [
+       "in advance",
+       "事先、提前"
+      ],
+      [
+       "at first",
+       "起初"
+      ],
+      [
+       "at last",
+       "終於"
+      ],
+      [
+       "at once",
+       "立刻、同時"
+      ],
+      [
+       "at the moment",
+       "目前、此刻"
+      ],
+      [
+       "at any time",
+       "隨時"
+      ],
+      [
+       "at this point",
+       "此時、到這個地步"
+      ],
+      [
+       "in the end",
+       "最後、終究"
+      ],
+      [
+       "in the meantime",
+       "在此期間、同時"
+      ],
+      [
+       "in time",
+       "及時"
+      ],
+      [
+       "on time",
+       "準時"
+      ],
+      [
+       "in no time",
+       "立刻、很快"
+      ],
+      [
+       "for a while",
+       "一會兒"
+      ],
+      [
+       "for a moment",
+       "片刻"
+      ],
+      [
+       "for the moment",
+       "暫時、目前"
+      ],
+      [
+       "for now",
+       "目前、暫時"
+      ],
+      [
+       "for good",
+       "永遠、一勞永逸"
+      ],
+      [
+       "for once",
+       "就這一次"
+      ],
+      [
+       "by now",
+       "到現在"
+      ],
+      [
+       "from now on",
+       "從現在起"
+      ],
+      [
+       "now and then",
+       "偶爾"
+      ],
+      [
+       "sooner or later",
+       "遲早"
+      ],
+      [
+       "so far",
+       "到目前為止"
+      ],
+      [
+       "up to now",
+       "到目前為止"
+      ],
+      [
+       "ever since",
+       "自從"
+      ],
+      [
+       "as soon as",
+       "一...就..."
+      ],
+      [
+       "as long as",
+       "只要、長達"
+      ],
+      [
+       "right away",
+       "立刻"
+      ],
+      [
+       "right now",
+       "現在、馬上"
+      ],
+      [
+       "all the time",
+       "一直、老是"
+      ],
+      [
+       "step by step",
+       "一步一步地"
+      ],
+      [
+       "at first glance",
+       "乍看之下"
+      ],
+      [
+       "in due course",
+       "適時、到時候"
+      ],
+      [
+       "first of all",
+       "首先"
+      ],
+      [
+       "to date",
+       "迄今"
+      ],
+      [
+       "on schedule",
+       "按時、按預定"
+      ],
+      [
+       "without delay",
+       "立即"
+      ],
+      [
+       "over time",
+       "隨著時間"
+      ],
+      [
+       "no longer",
+       "不再"
+      ],
+      [
+       "ahead of time",
+       "提前"
+      ],
+      [
+       "in the future",
+       "未來"
+      ],
+      [
+       "in the past",
+       "過去"
+      ],
+      [
+       "by the time",
+       "到...的時候"
+      ],
+      [
+       "at the end",
+       "在最後"
+      ],
+      [
+       "at the time",
+       "當時"
+      ]
+     ]
+    ],
+    [
+     "連接與口語副詞",
+     "Linking & Spoken Adverbs",
+     [
+      [
+       "by the way",
+       "順帶一提"
+      ],
+      [
+       "in fact",
+       "事實上"
+      ],
+      [
+       "in reality",
+       "實際上"
+      ],
+      [
+       "in addition",
+       "此外"
+      ],
+      [
+       "in addition to",
+       "除了...之外還有"
+      ],
+      [
+       "as well as",
+       "以及、也"
+      ],
+      [
+       "for example",
+       "例如"
+      ],
+      [
+       "for instance",
+       "例如"
+      ],
+      [
+       "such as",
+       "例如"
+      ],
+      [
+       "in particular",
+       "尤其"
+      ],
+      [
+       "in general",
+       "一般來說"
+      ],
+      [
+       "in short",
+       "簡言之"
+      ],
+      [
+       "to be honest",
+       "老實說"
+      ],
+      [
+       "after all",
+       "畢竟、終究"
+      ],
+      [
+       "above all",
+       "最重要的是"
+      ],
+      [
+       "in any case",
+       "無論如何"
+      ],
+      [
+       "by all means",
+       "當然可以、務必"
+      ],
+      [
+       "by no means",
+       "絕不"
+      ],
+      [
+       "of course",
+       "當然"
+      ],
+      [
+       "as usual",
+       "照常"
+      ],
+      [
+       "as for",
+       "至於"
+      ],
+      [
+       "as to",
+       "關於"
+      ],
+      [
+       "as of",
+       "自...起、截至"
+      ],
+      [
+       "as a rule",
+       "通常、一般來說"
+      ],
+      [
+       "as a whole",
+       "整體而言"
+      ],
+      [
+       "on the whole",
+       "整體而言"
+      ],
+      [
+       "for one thing",
+       "首先、一則"
+      ],
+      [
+       "in a way",
+       "在某方面"
+      ],
+      [
+       "in a sense",
+       "就某種意義而言"
+      ],
+      [
+       "as far as",
+       "就...而言、到...程度"
+      ],
+      [
+       "according to",
+       "根據"
+      ],
+      [
+       "on earth",
+       "究竟、世上"
+      ],
+      [
+       "in that case",
+       "那樣的話"
+      ],
+      [
+       "in this case",
+       "在這種情況下"
+      ],
+      [
+       "for sure",
+       "確定、當然"
+      ],
+      [
+       "for some reason",
+       "不知為何"
+      ],
+      [
+       "all right",
+       "好的、沒問題"
+      ],
+      [
+       "no doubt",
+       "無疑地"
+      ],
+      [
+       "along with",
+       "連同、與...一起"
+      ],
+      [
+       "in conclusion",
+       "總之、最後"
+      ],
+      [
+       "to sum up",
+       "總而言之"
+      ],
+      [
+       "as well",
+       "也、同樣"
+      ],
+      [
+       "in my opinion",
+       "依我看"
+      ],
+      [
+       "a bunch of",
+       "一群、一堆、很多"
+      ],
+      [
+       "all in all",
+       "總而言之"
+      ],
+      [
+       "as though",
+       "彷彿、好像"
+      ],
+      [
+       "at first sight",
+       "乍看之下、第一眼"
+      ],
+      [
+       "at present",
+       "目前、現在"
+      ],
+      [
+       "at random",
+       "隨機地、隨意地"
+      ],
+      [
+       "at risk",
+       "處於危險中"
+      ],
+      [
+       "before long",
+       "不久之後"
+      ],
+      [
+       "behind schedule",
+       "進度落後"
+      ],
+      [
+       "by mistake",
+       "錯誤地、不小心"
+      ],
+      [
+       "far from",
+       "遠非、一點也不"
+      ],
+      [
+       "in charge",
+       "負責、主管"
+      ],
+      [
+       "in touch",
+       "保持聯絡"
+      ],
+      [
+       "little by little",
+       "一點一點地、逐漸"
+      ],
+      [
+       "next to",
+       "在旁邊、緊鄰"
+      ],
+      [
+       "on foot",
+       "步行"
+      ],
+      [
+       "one by one",
+       "逐一、一個接一個"
+      ],
+      [
+       "over and over",
+       "一再地、反覆地"
+      ],
+      [
+       "in a hurry",
+       "匆忙、趕時間"
+      ],
+      [
+       "in the way",
+       "擋路、妨礙"
+      ],
+      [
+       "in place of",
+       "取代、代替"
+      ],
+      [
+       "in danger",
+       "處於危險中"
+      ],
+      [
+       "in love with",
+       "愛上、迷戀"
+      ],
+      [
+       "on business",
+       "因公出差、洽公"
+      ],
+      [
+       "on duty",
+       "值班、執勤"
+      ],
+      [
+       "on holiday",
+       "度假中"
+      ],
+      [
+       "on strike",
+       "罷工中"
+      ],
+      [
+       "on second thought",
+       "再想一想、改變主意"
+      ],
+      [
+       "out of reach",
+       "搆不到、無法觸及"
+      ],
+      [
+       "out of breath",
+       "上氣不接下氣"
+      ],
+      [
+       "out of place",
+       "格格不入、不合適"
+      ],
+      [
+       "up front",
+       "預先、事先（付款）"
+      ],
+      [
+       "under construction",
+       "施工中、建造中"
+      ],
+      [
+       "for fear of",
+       "唯恐、以免"
+      ],
+      [
+       "to begin with",
+       "首先、起初"
+      ],
+      [
+       "not to mention",
+       "更不用說"
+      ],
+      [
+       "at hand",
+       "在手邊、即將到來"
+      ],
+      [
+       "out of order",
+       "故障、失序"
+      ],
+      [
+       "no matter how",
+       "無論多麼"
+      ],
+      [
+       "either way",
+       "無論哪種情況"
+      ]
+     ]
+    ],
+    [
+     "原因與結果",
+     "Cause & Result",
+     [
+      [
+       "as a result",
+       "結果、因此"
+      ],
+      [
+       "because of",
+       "因為"
+      ],
+      [
+       "due to",
+       "由於"
+      ],
+      [
+       "thanks to",
+       "多虧"
+      ],
+      [
+       "for lack of",
+       "由於缺乏"
+      ],
+      [
+       "in order to",
+       "為了"
+      ],
+      [
+       "so as to",
+       "以便"
+      ],
+      [
+       "in response to",
+       "回應"
+      ],
+      [
+       "in return",
+       "作為回報"
+      ],
+      [
+       "in case",
+       "以防萬一"
+      ],
+      [
+       "in case of",
+       "萬一"
+      ]
+     ]
+    ],
+    [
+     "地點與方式",
+     "Place & Manner",
+     [
+      [
+       "on purpose",
+       "故意地"
+      ],
+      [
+       "by accident",
+       "意外地"
+      ],
+      [
+       "by chance",
+       "碰巧"
+      ],
+      [
+       "on the spot",
+       "當場"
+      ],
+      [
+       "on the phone",
+       "在講電話"
+      ],
+      [
+       "on sale",
+       "特價、發售中"
+      ],
+      [
+       "on your own",
+       "獨自、靠自己"
+      ],
+      [
+       "in public",
+       "公開地"
+      ],
+      [
+       "in private",
+       "私下地"
+      ],
+      [
+       "in person",
+       "親自"
+      ],
+      [
+       "in secret",
+       "祕密地"
+      ],
+      [
+       "in detail",
+       "詳細地"
+      ],
+      [
+       "in full",
+       "完整地"
+      ],
+      [
+       "in trouble",
+       "有麻煩"
+      ],
+      [
+       "in this way",
+       "這樣一來"
+      ],
+      [
+       "at home",
+       "在家"
+      ],
+      [
+       "at work",
+       "在工作、在上班"
+      ],
+      [
+       "at stake",
+       "岌岌可危"
+      ],
+      [
+       "at a glance",
+       "一眼"
+      ],
+      [
+       "at a loss",
+       "不知所措"
+      ],
+      [
+       "for free",
+       "免費"
+      ],
+      [
+       "for fun",
+       "為了好玩"
+      ],
+      [
+       "for nothing",
+       "免費、徒然"
+      ],
+      [
+       "for sale",
+       "待售"
+      ],
+      [
+       "out of date",
+       "過時的"
+      ],
+      [
+       "out of control",
+       "失控"
+      ],
+      [
+       "out of stock",
+       "缺貨"
+      ],
+      [
+       "out of work",
+       "失業"
+      ],
+      [
+       "all over",
+       "到處、遍及"
+      ],
+      [
+       "all the way",
+       "一路、自始至終"
+      ],
+      [
+       "side by side",
+       "並肩、並排"
+      ],
+      [
+       "face to face",
+       "面對面"
+      ],
+      [
+       "back and forth",
+       "來回地"
+      ],
+      [
+       "up and down",
+       "上下、來回"
+      ],
+      [
+       "here and there",
+       "到處"
+      ],
+      [
+       "up to date",
+       "最新的"
+      ],
+      [
+       "under the weather",
+       "身體不適"
+      ],
+      [
+       "on the side",
+       "另外、作為副業"
+      ],
+      [
+       "on board",
+       "在船上、在車上"
+      ],
+      [
+       "in writing",
+       "以書面形式"
+      ],
+      [
+       "in practice",
+       "實際上"
+      ],
+      [
+       "in theory",
+       "理論上"
+      ],
+      [
+       "in principle",
+       "原則上"
+      ]
+     ]
+    ],
+    [
+     "對比與讓步",
+     "Contrast & Concession",
+     [
+      [
+       "on the contrary",
+       "相反地"
+      ],
+      [
+       "in contrast",
+       "相比之下"
+      ],
+      [
+       "in spite of",
+       "儘管"
+      ],
+      [
+       "even so",
+       "即使如此"
+      ],
+      [
+       "even though",
+       "即使、儘管"
+      ],
+      [
+       "even if",
+       "即使、假如"
+      ],
+      [
+       "as if",
+       "好像"
+      ],
+      [
+       "instead of",
+       "而不是"
+      ],
+      [
+       "rather than",
+       "而不是"
+      ],
+      [
+       "apart from",
+       "除了、此外"
+      ],
+      [
+       "except for",
+       "除了...之外"
+      ],
+      [
+       "no matter",
+       "無論"
+      ],
+      [
+       "no matter what",
+       "無論什麼"
+      ],
+      [
+       "regardless of",
+       "不管、不顧"
+      ],
+      [
+       "on one hand",
+       "一方面"
+      ],
+      [
+       "in contrast to",
+       "與...形成對比"
+      ]
+     ]
+    ],
+    [
+     "數量與程度",
+     "Quantity & Degree",
+     [
+      [
+       "to some extent",
+       "在某種程度上"
+      ],
+      [
+       "on average",
+       "平均而言"
+      ],
+      [
+       "on demand",
+       "隨選、依需求"
+      ],
+      [
+       "at all",
+       "根本、完全"
+      ],
+      [
+       "at best",
+       "最多、充其量"
+      ],
+      [
+       "at least",
+       "至少"
+      ],
+      [
+       "at most",
+       "至多"
+      ],
+      [
+       "by far",
+       "遠遠、最"
+      ],
+      [
+       "not at all",
+       "一點也不"
+      ],
+      [
+       "more or less",
+       "大約、多少"
+      ],
+      [
+       "a couple of",
+       "幾個、一對"
+      ],
+      [
+       "a lot of",
+       "很多"
+      ],
+      [
+       "plenty of",
+       "大量的"
+      ],
+      [
+       "a number of",
+       "一些、若干"
+      ],
+      [
+       "the rest of",
+       "其餘的"
+      ],
+      [
+       "as much as",
+       "多達、和...一樣多"
+      ],
+      [
+       "quite a few",
+       "相當多"
+      ],
+      [
+       "a variety of",
+       "各式各樣的"
+      ]
+     ]
+    ],
+    [
+     "介系詞搭配",
+     "Preposition Phrases",
+     [
+      [
+       "in terms of",
+       "就...而言"
+      ],
+      [
+       "in favor of",
+       "贊成、支持"
+      ],
+      [
+       "in charge of",
+       "負責、掌管"
+      ],
+      [
+       "in need of",
+       "需要"
+      ],
+      [
+       "in front of",
+       "在...前面"
+      ],
+      [
+       "in touch with",
+       "與...保持聯絡"
+      ],
+      [
+       "in common",
+       "共同、共有"
+      ],
+      [
+       "on behalf of",
+       "代表"
+      ],
+      [
+       "on top of",
+       "在...之上、除此之外"
+      ],
+      [
+       "on the way",
+       "在途中"
+      ],
+      [
+       "in line with",
+       "與...一致"
+      ],
+      [
+       "by means of",
+       "藉由"
+      ],
+      [
+       "by way of",
+       "經由、作為"
+      ],
+      [
+       "under control",
+       "在控制下"
+      ],
+      [
+       "under pressure",
+       "在壓力下"
+      ],
+      [
+       "each other",
+       "彼此"
+      ],
+      [
+       "ahead of",
+       "在...之前"
+      ],
+      [
+       "prior to",
+       "在...之前"
+      ],
+      [
+       "with regard to",
+       "關於"
+      ],
+      [
+       "in connection with",
+       "與...有關"
+      ],
+      [
+       "in control of",
+       "控制、掌控"
+      ],
+      [
+       "in search of",
+       "尋找"
+      ],
+      [
+       "in memory of",
+       "紀念"
+      ],
+      [
+       "in contact with",
+       "與...接觸、聯絡"
+      ]
+     ]
+    ]
+   ]
+  },
+  "collocations": {
+   "zh": "動詞搭配",
+   "en": "Verb Collocations",
+   "level": "初階・中階・進階",
+   "intro": "常用動詞搭配名詞或形容詞的固定說法，如 make a decision、take place、get used to。",
+   "fewLevels": true,
+   "levelOverrides": {
+    "be able to": "B",
+    "be about to": "I",
+    "be afraid of": "B",
+    "be aware of": "I",
+    "be bad at": "B",
+    "be concerned about": "I",
+    "be crazy about": "I",
+    "be different from": "B",
+    "be due to": "I",
+    "be familiar with": "I",
+    "be famous for": "B",
+    "be fond of": "I",
+    "be going to": "B",
+    "be good at": "B",
+    "be in love": "B",
+    "be interested in": "B",
+    "be involved in": "I",
+    "be known for": "B",
+    "be likely to": "I",
+    "be married to": "B",
+    "be proud of": "B",
+    "be ready for": "B",
+    "be responsible for": "I",
+    "be satisfied with": "I",
+    "be similar to": "I",
+    "be supposed to": "I",
+    "be sure to": "B",
+    "be tired of": "B",
+    "be under pressure": "I",
+    "be used to": "I",
+    "be willing to": "B",
+    "be worried about": "B",
+    "break a promise": "I",
+    "break a record": "I",
+    "break the ice": "I",
+    "break the law": "I",
+    "break the news": "A",
+    "catch a cold": "B",
+    "catch a train": "B",
+    "catch sight of": "A",
+    "come clean": "A",
+    "come into effect": "A",
+    "come to life": "A",
+    "come to light": "A",
+    "come to mind": "I",
+    "come true": "B",
+    "do business": "I",
+    "do good": "I",
+    "do harm": "I",
+    "do homework": "B",
+    "do the trick": "A",
+    "do well": "B",
+    "do your best": "B",
+    "fall asleep": "B",
+    "fall ill": "I",
+    "fall in love": "B",
+    "fall short of": "A",
+    "feel at home": "I",
+    "feel bad": "B",
+    "feel good": "B",
+    "feel sick": "B",
+    "feel sorry for": "I",
+    "feel up to": "A",
+    "get better": "B",
+    "get hurt": "B",
+    "get into trouble": "I",
+    "get lost": "B",
+    "get married": "B",
+    "get ready": "B",
+    "get rid of": "I",
+    "get the message": "I",
+    "get used to": "I",
+    "give a hand": "B",
+    "give a lift": "I",
+    "give a presentation": "I",
+    "give a speech": "B",
+    "give birth to": "I",
+    "give credit": "I",
+    "give notice": "A",
+    "give priority to": "A",
+    "give rise to": "A",
+    "give way": "I",
+    "go into detail": "I",
+    "go on strike": "I",
+    "go shopping": "B",
+    "go to bed": "B",
+    "go to school": "B",
+    "go to sleep": "B",
+    "go to work": "B",
+    "go wrong": "I",
+    "have a break": "B",
+    "have a chat": "B",
+    "have a go": "I",
+    "have a look": "B",
+    "have a rest": "B",
+    "have a shower": "B",
+    "have access to": "I",
+    "have difficulty": "I",
+    "have fun": "B",
+    "have no idea": "B",
+    "have trouble": "B",
+    "hold a meeting": "B",
+    "hold a record": "I",
+    "hold an election": "I",
+    "hold the line": "I",
+    "keep a promise": "B",
+    "keep a record": "I",
+    "keep a secret": "B",
+    "keep fit": "I",
+    "keep in mind": "I",
+    "keep in touch": "B",
+    "keep it up": "I",
+    "keep out of": "I",
+    "keep pace with": "A",
+    "keep quiet": "B",
+    "keep track of": "I",
+    "lose interest in": "I",
+    "lose money": "B",
+    "lose sight of": "A",
+    "lose touch with": "I",
+    "lose track of": "I",
+    "lose weight": "B",
+    "make a call": "B",
+    "make a choice": "B",
+    "make a comment": "I",
+    "make a decision": "B",
+    "make a difference": "I",
+    "make a living": "I",
+    "make a mess": "I",
+    "make a mistake": "B",
+    "make a point": "I",
+    "make a profit": "I",
+    "make a promise": "B",
+    "make a reservation": "B",
+    "make a speech": "I",
+    "make a suggestion": "I",
+    "make a wish": "B",
+    "make an appointment": "B",
+    "make an offer": "I",
+    "make friends": "B",
+    "make fun of": "I",
+    "make money": "B",
+    "make peace": "I",
+    "make progress": "B",
+    "make sense": "B",
+    "make sure": "B",
+    "make time": "I",
+    "make use of": "I",
+    "pay a visit": "I",
+    "pay attention": "B",
+    "pay the bill": "B",
+    "play a part": "I",
+    "play the piano": "B",
+    "run a business": "I",
+    "run a risk": "I",
+    "save money": "B",
+    "save the day": "A",
+    "save time": "B",
+    "set a record": "I",
+    "set an alarm": "B",
+    "set fire to": "A",
+    "set in motion": "A",
+    "set the table": "B",
+    "take a bath": "B",
+    "take a break": "B",
+    "take a chance": "I",
+    "take a course": "B",
+    "take a look": "B",
+    "take a picture": "B",
+    "take a rest": "B",
+    "take a risk": "I",
+    "take a seat": "B",
+    "take a shower": "B",
+    "take a stand": "A",
+    "take a trip": "B",
+    "take a vacation": "B",
+    "take a walk": "B",
+    "take action": "I",
+    "take charge": "I",
+    "take control": "I",
+    "take effect": "I",
+    "take into account": "I",
+    "take it easy": "B",
+    "take medicine": "B",
+    "take pride in": "I",
+    "take shape": "A",
+    "take the lead": "I",
+    "take time": "B",
+    "tell a lie": "B",
+    "tell a story": "B",
+    "tell the difference": "I",
+    "tell the truth": "B",
+    "be keen on": "I",
+    "be capable of": "I",
+    "pay attention to": "B"
+   },
+   "sections": [
+    [
+     "be 系列",
+     "be",
+     [
+      [
+       "be able to",
+       "能夠"
+      ],
+      [
+       "be about to",
+       "即將、正要"
+      ],
+      [
+       "be afraid of",
+       "害怕"
+      ],
+      [
+       "be aware of",
+       "察覺到、意識到"
+      ],
+      [
+       "be bad at",
+       "不擅長"
+      ],
+      [
+       "be concerned about",
+       "擔心、關心"
+      ],
+      [
+       "be crazy about",
+       "對…著迷"
+      ],
+      [
+       "be different from",
+       "與…不同"
+      ],
+      [
+       "be due to",
+       "是由於、預定於"
+      ],
+      [
+       "be familiar with",
+       "熟悉"
+      ],
+      [
+       "be famous for",
+       "以…聞名"
+      ],
+      [
+       "be fond of",
+       "喜愛"
+      ],
+      [
+       "be going to",
+       "打算、將要"
+      ],
+      [
+       "be good at",
+       "擅長"
+      ],
+      [
+       "be in love",
+       "在戀愛中"
+      ],
+      [
+       "be interested in",
+       "對…有興趣"
+      ],
+      [
+       "be involved in",
+       "涉入、參與"
+      ],
+      [
+       "be known for",
+       "以…著稱"
+      ],
+      [
+       "be likely to",
+       "很可能"
+      ],
+      [
+       "be married to",
+       "與…結婚"
+      ],
+      [
+       "be proud of",
+       "以…為榮"
+      ],
+      [
+       "be ready for",
+       "為…做好準備"
+      ],
+      [
+       "be responsible for",
+       "對…負責"
+      ],
+      [
+       "be satisfied with",
+       "對…滿意"
+      ],
+      [
+       "be similar to",
+       "與…相似"
+      ],
+      [
+       "be supposed to",
+       "應該、被期望要"
+      ],
+      [
+       "be sure to",
+       "務必、一定會"
+      ],
+      [
+       "be tired of",
+       "厭倦"
+      ],
+      [
+       "be under pressure",
+       "承受壓力"
+      ],
+      [
+       "be used to",
+       "習慣於"
+      ],
+      [
+       "be willing to",
+       "願意"
+      ],
+      [
+       "be worried about",
+       "擔心"
+      ],
+      [
+       "be keen on",
+       "熱衷於、很想"
+      ],
+      [
+       "be capable of",
+       "有能力做、能夠"
+      ]
+     ]
+    ],
+    [
+     "do 系列",
+     "do",
+     [
+      [
+       "do business",
+       "做生意"
+      ],
+      [
+       "do good",
+       "有益、行善"
+      ],
+      [
+       "do harm",
+       "造成傷害"
+      ],
+      [
+       "do homework",
+       "做功課"
+      ],
+      [
+       "do the trick",
+       "奏效、達到目的"
+      ],
+      [
+       "do well",
+       "表現良好"
+      ],
+      [
+       "do your best",
+       "盡全力"
+      ]
+     ]
+    ],
+    [
+     "get 系列",
+     "get",
+     [
+      [
+       "get better",
+       "好轉、變好"
+      ],
+      [
+       "get hurt",
+       "受傷"
+      ],
+      [
+       "get into trouble",
+       "惹上麻煩"
+      ],
+      [
+       "get lost",
+       "迷路"
+      ],
+      [
+       "get married",
+       "結婚"
+      ],
+      [
+       "get ready",
+       "準備好"
+      ],
+      [
+       "get rid of",
+       "擺脫、除掉"
+      ],
+      [
+       "get the message",
+       "領會意思"
+      ],
+      [
+       "get used to",
+       "漸漸習慣"
+      ]
+     ]
+    ],
+    [
+     "give 系列",
+     "give",
+     [
+      [
+       "give a hand",
+       "幫忙"
+      ],
+      [
+       "give a lift",
+       "讓人搭便車"
+      ],
+      [
+       "give a presentation",
+       "做簡報"
+      ],
+      [
+       "give a speech",
+       "發表演說"
+      ],
+      [
+       "give birth to",
+       "生下"
+      ],
+      [
+       "give credit",
+       "給予肯定、歸功"
+      ],
+      [
+       "give notice",
+       "通知、提出離職"
+      ],
+      [
+       "give priority to",
+       "優先考慮"
+      ],
+      [
+       "give rise to",
+       "引起、導致"
+      ],
+      [
+       "give way",
+       "讓路、屈服"
+      ]
+     ]
+    ],
+    [
+     "have 系列",
+     "have",
+     [
+      [
+       "have a break",
+       "休息一下"
+      ],
+      [
+       "have a chat",
+       "聊一聊"
+      ],
+      [
+       "have a go",
+       "試一試"
+      ],
+      [
+       "have a look",
+       "看一看"
+      ],
+      [
+       "have a rest",
+       "休息"
+      ],
+      [
+       "have a shower",
+       "沖澡"
+      ],
+      [
+       "have access to",
+       "能夠取得、使用"
+      ],
+      [
+       "have difficulty",
+       "有困難"
+      ],
+      [
+       "have fun",
+       "玩得開心"
+      ],
+      [
+       "have no idea",
+       "毫無頭緒"
+      ],
+      [
+       "have trouble",
+       "有困難、有麻煩"
+      ]
+     ]
+    ],
+    [
+     "keep 系列",
+     "keep",
+     [
+      [
+       "keep a promise",
+       "遵守承諾"
+      ],
+      [
+       "keep a record",
+       "做紀錄"
+      ],
+      [
+       "keep a secret",
+       "保守秘密"
+      ],
+      [
+       "keep fit",
+       "保持健康體態"
+      ],
+      [
+       "keep in mind",
+       "記在心裡"
+      ],
+      [
+       "keep in touch",
+       "保持聯絡"
+      ],
+      [
+       "keep it up",
+       "繼續保持"
+      ],
+      [
+       "keep out of",
+       "不介入、遠離"
+      ],
+      [
+       "keep pace with",
+       "跟上腳步"
+      ],
+      [
+       "keep quiet",
+       "保持安靜"
+      ],
+      [
+       "keep track of",
+       "持續掌握、記錄"
+      ]
+     ]
+    ],
+    [
+     "make 系列",
+     "make",
+     [
+      [
+       "make a call",
+       "打電話"
+      ],
+      [
+       "make a choice",
+       "做選擇"
+      ],
+      [
+       "make a comment",
+       "發表評論"
+      ],
+      [
+       "make a decision",
+       "做決定"
+      ],
+      [
+       "make a difference",
+       "有影響、有差別"
+      ],
+      [
+       "make a living",
+       "謀生"
+      ],
+      [
+       "make a mess",
+       "弄得一團亂"
+      ],
+      [
+       "make a mistake",
+       "犯錯"
+      ],
+      [
+       "make a point",
+       "提出論點、強調"
+      ],
+      [
+       "make a profit",
+       "獲利"
+      ],
+      [
+       "make a promise",
+       "許下承諾"
+      ],
+      [
+       "make a reservation",
+       "預約、訂位"
+      ],
+      [
+       "make a speech",
+       "發表演說"
+      ],
+      [
+       "make a suggestion",
+       "提出建議"
+      ],
+      [
+       "make a wish",
+       "許願"
+      ],
+      [
+       "make an appointment",
+       "預約"
+      ],
+      [
+       "make an offer",
+       "提出報價、提議"
+      ],
+      [
+       "make friends",
+       "交朋友"
+      ],
+      [
+       "make fun of",
+       "取笑"
+      ],
+      [
+       "make money",
+       "賺錢"
+      ],
+      [
+       "make peace",
+       "和解"
+      ],
+      [
+       "make progress",
+       "進步、有進展"
+      ],
+      [
+       "make sense",
+       "合理、說得通"
+      ],
+      [
+       "make sure",
+       "確保、務必"
+      ],
+      [
+       "make time",
+       "騰出時間"
+      ],
+      [
+       "make use of",
+       "利用"
+      ]
+     ]
+    ],
+    [
+     "take 系列",
+     "take",
+     [
+      [
+       "take a bath",
+       "洗澡"
+      ],
+      [
+       "take a break",
+       "休息一下"
+      ],
+      [
+       "take a chance",
+       "冒險一試"
+      ],
+      [
+       "take a course",
+       "修課"
+      ],
+      [
+       "take a look",
+       "看一看"
+      ],
+      [
+       "take a picture",
+       "拍照"
+      ],
+      [
+       "take a rest",
+       "休息"
+      ],
+      [
+       "take a risk",
+       "冒險"
+      ],
+      [
+       "take a seat",
+       "請坐"
+      ],
+      [
+       "take a shower",
+       "沖澡"
+      ],
+      [
+       "take a stand",
+       "表明立場"
+      ],
+      [
+       "take a trip",
+       "去旅行"
+      ],
+      [
+       "take a vacation",
+       "度假"
+      ],
+      [
+       "take a walk",
+       "散步"
+      ],
+      [
+       "take action",
+       "採取行動"
+      ],
+      [
+       "take charge",
+       "負責、掌管"
+      ],
+      [
+       "take control",
+       "掌控"
+      ],
+      [
+       "take effect",
+       "生效"
+      ],
+      [
+       "take into account",
+       "考慮到"
+      ],
+      [
+       "take it easy",
+       "放輕鬆"
+      ],
+      [
+       "take medicine",
+       "吃藥"
+      ],
+      [
+       "take pride in",
+       "以…為傲"
+      ],
+      [
+       "take shape",
+       "逐漸成形"
+      ],
+      [
+       "take the lead",
+       "帶頭、領先"
+      ],
+      [
+       "take time",
+       "需要時間"
+      ]
+     ]
+    ],
+    [
+     "其他動詞",
+     "Other Verbs",
+     [
+      [
+       "break a promise",
+       "違背承諾"
+      ],
+      [
+       "break a record",
+       "打破紀錄"
+      ],
+      [
+       "break the ice",
+       "打破僵局、破冰"
+      ],
+      [
+       "break the law",
+       "違法"
+      ],
+      [
+       "break the news",
+       "宣布壞消息"
+      ],
+      [
+       "catch a cold",
+       "感冒"
+      ],
+      [
+       "catch a train",
+       "趕火車"
+      ],
+      [
+       "catch sight of",
+       "瞥見"
+      ],
+      [
+       "come clean",
+       "坦白招認"
+      ],
+      [
+       "come into effect",
+       "開始生效"
+      ],
+      [
+       "come to life",
+       "活起來、變得生動"
+      ],
+      [
+       "come to light",
+       "被揭露、曝光"
+      ],
+      [
+       "come to mind",
+       "浮現腦海"
+      ],
+      [
+       "come true",
+       "實現"
+      ],
+      [
+       "fall asleep",
+       "睡著"
+      ],
+      [
+       "fall ill",
+       "生病"
+      ],
+      [
+       "fall in love",
+       "墜入愛河"
+      ],
+      [
+       "fall short of",
+       "達不到、不足"
+      ],
+      [
+       "feel at home",
+       "感到自在"
+      ],
+      [
+       "feel bad",
+       "感到難過、愧疚"
+      ],
+      [
+       "feel good",
+       "感覺很好"
+      ],
+      [
+       "feel sick",
+       "覺得想吐、不舒服"
+      ],
+      [
+       "feel sorry for",
+       "同情、為…感到遺憾"
+      ],
+      [
+       "feel up to",
+       "覺得有能力做"
+      ],
+      [
+       "go into detail",
+       "詳細說明"
+      ],
+      [
+       "go on strike",
+       "罷工"
+      ],
+      [
+       "go shopping",
+       "去購物"
+      ],
+      [
+       "go to bed",
+       "上床睡覺"
+      ],
+      [
+       "go to school",
+       "上學"
+      ],
+      [
+       "go to sleep",
+       "入睡"
+      ],
+      [
+       "go to work",
+       "去上班"
+      ],
+      [
+       "go wrong",
+       "出差錯"
+      ],
+      [
+       "hold a meeting",
+       "舉行會議"
+      ],
+      [
+       "hold a record",
+       "保持紀錄"
+      ],
+      [
+       "hold an election",
+       "舉行選舉"
+      ],
+      [
+       "hold the line",
+       "別掛電話"
+      ],
+      [
+       "lose interest in",
+       "對…失去興趣"
+      ],
+      [
+       "lose money",
+       "賠錢"
+      ],
+      [
+       "lose sight of",
+       "看不見、忽略"
+      ],
+      [
+       "lose touch with",
+       "與…失去聯絡"
+      ],
+      [
+       "lose track of",
+       "搞不清楚、失去掌握"
+      ],
+      [
+       "lose weight",
+       "減重"
+      ],
+      [
+       "run a business",
+       "經營事業"
+      ],
+      [
+       "run a risk",
+       "冒險"
+      ],
+      [
+       "save money",
+       "省錢、存錢"
+      ],
+      [
+       "save the day",
+       "化險為夷、挽救局面"
+      ],
+      [
+       "save time",
+       "節省時間"
+      ],
+      [
+       "set a record",
+       "創下紀錄"
+      ],
+      [
+       "set an alarm",
+       "設定鬧鐘"
+      ],
+      [
+       "set fire to",
+       "放火燒"
+      ],
+      [
+       "set in motion",
+       "開始運作"
+      ],
+      [
+       "set the table",
+       "擺餐具"
+      ],
+      [
+       "tell a lie",
+       "說謊"
+      ],
+      [
+       "tell a story",
+       "說故事"
+      ],
+      [
+       "tell the difference",
+       "分辨差異"
+      ],
+      [
+       "tell the truth",
+       "說實話"
+      ],
+      [
+       "pay a visit",
+       "拜訪"
+      ],
+      [
+       "pay attention",
+       "注意、專心"
+      ],
+      [
+       "pay the bill",
+       "付帳"
+      ],
+      [
+       "pay attention to",
+       "注意、留意"
+      ],
+      [
+       "play a part",
+       "扮演角色、參與"
+      ],
+      [
+       "play the piano",
+       "彈鋼琴"
+      ]
+     ]
+    ]
+   ]
+  },
+  "idioms": {
+   "zh": "慣用語與口語",
+   "en": "Idioms & Everyday Expressions",
+   "level": "初階・中階・進階",
+   "intro": "母語人士日常真的會說的慣用語與口語表達，如 piece of cake、break the ice、no big deal。",
+   "fewLevels": true,
+   "levelOverrides": {
+    "piece of cake": "B",
+    "no big deal": "B",
+    "you bet": "I",
+    "no way": "B",
+    "never mind": "B",
+    "see you later": "B",
+    "hang in there": "I",
+    "sleep on it": "I",
+    "bite the bullet": "A",
+    "the last straw": "I",
+    "face the music": "A",
+    "miss the boat": "I",
+    "jump the gun": "A",
+    "soft spot": "I",
+    "break a leg": "I",
+    "hit the sack": "I",
+    "let it go": "B",
+    "rain or shine": "I",
+    "by heart": "B",
+    "go for it": "B",
+    "let off steam": "A",
+    "make it": "B",
+    "my pleasure": "B",
+    "off the record": "A",
+    "over the moon": "I",
+    "rule of thumb": "I",
+    "sit tight": "A",
+    "walk on air": "A",
+    "you name it": "I",
+    "behind the scenes": "I",
+    "big deal": "B",
+    "bottom line": "I",
+    "by and large": "A",
+    "cut it out": "I",
+    "deep down": "I",
+    "fair enough": "I",
+    "from scratch": "I",
+    "get real": "I",
+    "give or take": "A",
+    "go all out": "I",
+    "good for you": "B",
+    "have a ball": "I",
+    "have a heart": "I",
+    "hot potato": "A",
+    "how come": "B",
+    "in the dark": "I",
+    "let me see": "B",
+    "make a scene": "I",
+    "my bad": "I",
+    "no problem": "B",
+    "not bad": "B",
+    "on the go": "I",
+    "on the house": "I",
+    "out of touch": "I",
+    "rock the boat": "A",
+    "safe and sound": "I",
+    "say cheese": "B",
+    "so what": "B",
+    "there you go": "I",
+    "to the point": "I",
+    "touch and go": "A",
+    "you know what": "B",
+    "break even": "I",
+    "break the bank": "A",
+    "cash cow": "A",
+    "dirt cheap": "I",
+    "foot the bill": "I",
+    "go dutch": "I",
+    "in the red": "I",
+    "in the black": "I",
+    "get the sack": "A",
+    "get the boot": "A",
+    "red tape": "A",
+    "rat race": "A",
+    "night owl": "B",
+    "early bird": "B",
+    "black sheep": "I",
+    "dark horse": "I",
+    "monkey business": "A",
+    "down to earth": "I",
+    "on cloud nine": "I",
+    "cut and dried": "A",
+    "dead end": "I",
+    "in hot water": "I",
+    "on thin ice": "I",
+    "play with fire": "I",
+    "smell a rat": "A",
+    "stand a chance": "I",
+    "tongue in cheek": "A",
+    "word of mouth": "I",
+    "all the same": "I",
+    "all the rage": "A",
+    "at any rate": "I",
+    "at heart": "I",
+    "at ease": "I",
+    "at odds with": "A",
+    "at this rate": "I",
+    "by the book": "I",
+    "come again": "I",
+    "come what may": "A",
+    "come off it": "A",
+    "cut ice": "A",
+    "cut and run": "A",
+    "call in sick": "I",
+    "break new ground": "A",
+    "big picture": "I",
+    "big shot": "I",
+    "be my guest": "I",
+    "be hard up": "I",
+    "be well off": "I",
+    "a close call": "I",
+    "a far cry": "A",
+    "a fat chance": "A",
+    "a hot potato": "A",
+    "a lost cause": "I",
+    "a narrow escape": "I",
+    "a rain check": "A",
+    "a raw deal": "A",
+    "a white lie": "I",
+    "a wet blanket": "A",
+    "a long shot": "A",
+    "a pretty penny": "A",
+    "hand in hand": "I",
+    "heart to heart": "I",
+    "high and low": "A",
+    "hit and miss": "A",
+    "hit or miss": "A",
+    "hot air": "A",
+    "in full swing": "I",
+    "in no way": "I",
+    "in turn": "I",
+    "in tune with": "A",
+    "keep it real": "I",
+    "let it be": "B",
+    "let go of": "B",
+    "make believe": "I",
+    "make do": "I",
+    "no offense": "I",
+    "no wonder": "B",
+    "not a chance": "I",
+    "not exactly": "B",
+    "now or never": "I",
+    "off the hook": "A",
+    "on fire": "I",
+    "on hold": "I",
+    "over the top": "I",
+    "play it cool": "I",
+    "play it safe": "I",
+    "play the fool": "A",
+    "right on": "I",
+    "see you tomorrow": "B",
+    "so to speak": "I",
+    "take care": "B",
+    "take heart": "I",
+    "take the plunge": "A",
+    "upside down": "B",
+    "what a pity": "B",
+    "what a shame": "B",
+    "better off": "I",
+    "may as well": "I"
+   },
+   "sections": [
+    [
+     "日常口語",
+     "Everyday Speech",
+     [
+      [
+       "piece of cake",
+       "小菜一碟"
+      ],
+      [
+       "no big deal",
+       "沒什麼大不了"
+      ],
+      [
+       "you bet",
+       "當然沒問題"
+      ],
+      [
+       "no way",
+       "不可能"
+      ],
+      [
+       "never mind",
+       "沒關係、算了"
+      ],
+      [
+       "see you later",
+       "待會見"
+      ],
+      [
+       "sleep on it",
+       "考慮一晚再決定"
+      ],
+      [
+       "break a leg",
+       "祝你好運"
+      ],
+      [
+       "hit the sack",
+       "上床睡覺"
+      ],
+      [
+       "go for it",
+       "放手去做"
+      ],
+      [
+       "make it",
+       "成功、趕上"
+      ],
+      [
+       "my pleasure",
+       "我的榮幸"
+      ],
+      [
+       "sit tight",
+       "靜待不動"
+      ],
+      [
+       "you name it",
+       "你說得出的都有"
+      ],
+      [
+       "big deal",
+       "了不起的事"
+      ],
+      [
+       "cut it out",
+       "住手、別鬧了"
+      ],
+      [
+       "fair enough",
+       "有道理"
+      ],
+      [
+       "get real",
+       "面對現實"
+      ],
+      [
+       "good for you",
+       "你真棒"
+      ],
+      [
+       "have a ball",
+       "玩得盡興"
+      ],
+      [
+       "how come",
+       "為什麼"
+      ],
+      [
+       "let me see",
+       "讓我想想"
+      ],
+      [
+       "my bad",
+       "我的錯"
+      ],
+      [
+       "no problem",
+       "沒問題"
+      ],
+      [
+       "not bad",
+       "還不錯"
+      ],
+      [
+       "on the go",
+       "忙個不停"
+      ],
+      [
+       "say cheese",
+       "笑一個"
+      ],
+      [
+       "so what",
+       "那又怎樣"
+      ],
+      [
+       "there you go",
+       "好了、這就對了"
+      ],
+      [
+       "to the point",
+       "切中要點"
+      ],
+      [
+       "you know what",
+       "你知道嗎"
+      ],
+      [
+       "all the same",
+       "仍然、無所謂"
+      ],
+      [
+       "at any rate",
+       "無論如何"
+      ],
+      [
+       "at this rate",
+       "照這個速度"
+      ],
+      [
+       "come again",
+       "你說什麼"
+      ],
+      [
+       "come off it",
+       "少來了"
+      ],
+      [
+       "be my guest",
+       "請便"
+      ],
+      [
+       "a fat chance",
+       "機會渺茫"
+      ],
+      [
+       "a rain check",
+       "改天再約"
+      ],
+      [
+       "make do",
+       "湊合著用"
+      ],
+      [
+       "no offense",
+       "無意冒犯"
+      ],
+      [
+       "no wonder",
+       "難怪"
+      ],
+      [
+       "not a chance",
+       "門都沒有"
+      ],
+      [
+       "not exactly",
+       "不完全是"
+      ],
+      [
+       "now or never",
+       "機不可失"
+      ],
+      [
+       "on hold",
+       "暫緩、等候中"
+      ],
+      [
+       "right on",
+       "沒錯、太棒了"
+      ],
+      [
+       "see you tomorrow",
+       "明天見"
+      ],
+      [
+       "so to speak",
+       "可以說是"
+      ],
+      [
+       "take care",
+       "保重"
+      ],
+      [
+       "what a pity",
+       "真可惜"
+      ],
+      [
+       "what a shame",
+       "真可惜"
+      ]
+     ]
+    ],
+    [
+     "情緒與態度",
+     "Feelings & Attitude",
+     [
+      [
+       "hang in there",
+       "撐下去"
+      ],
+      [
+       "bite the bullet",
+       "硬著頭皮面對"
+      ],
+      [
+       "the last straw",
+       "最後一根稻草"
+      ],
+      [
+       "face the music",
+       "勇敢承擔後果"
+      ],
+      [
+       "soft spot",
+       "偏愛、特別疼愛"
+      ],
+      [
+       "let it go",
+       "放下吧"
+      ],
+      [
+       "let off steam",
+       "發洩情緒"
+      ],
+      [
+       "over the moon",
+       "欣喜若狂"
+      ],
+      [
+       "walk on air",
+       "欣喜若狂"
+      ],
+      [
+       "deep down",
+       "內心深處"
+      ],
+      [
+       "go all out",
+       "全力以赴"
+      ],
+      [
+       "have a heart",
+       "發發慈悲"
+      ],
+      [
+       "make a scene",
+       "大吵大鬧"
+      ],
+      [
+       "at heart",
+       "本質上"
+      ],
+      [
+       "at ease",
+       "自在"
+      ],
+      [
+       "come what may",
+       "不論發生什麼事"
+      ],
+      [
+       "keep it real",
+       "保持真誠"
+      ],
+      [
+       "let it be",
+       "隨它去"
+      ],
+      [
+       "let go of",
+       "放開、放下"
+      ],
+      [
+       "play it cool",
+       "故作鎮定"
+      ],
+      [
+       "play it safe",
+       "求穩"
+      ],
+      [
+       "take heart",
+       "振作起來"
+      ],
+      [
+       "take the plunge",
+       "下定決心冒險"
+      ]
+     ]
+    ],
+    [
+     "其他慣用語",
+     "Other Idioms",
+     [
+      [
+       "miss the boat",
+       "錯失良機"
+      ],
+      [
+       "jump the gun",
+       "操之過急"
+      ],
+      [
+       "by heart",
+       "靠記憶、背起來"
+      ],
+      [
+       "off the record",
+       "不公開地"
+      ],
+      [
+       "rule of thumb",
+       "經驗法則"
+      ],
+      [
+       "behind the scenes",
+       "幕後"
+      ],
+      [
+       "by and large",
+       "大致上"
+      ],
+      [
+       "from scratch",
+       "從頭開始"
+      ],
+      [
+       "give or take",
+       "大約"
+      ],
+      [
+       "hot potato",
+       "燙手山芋"
+      ],
+      [
+       "rock the boat",
+       "製造麻煩"
+      ],
+      [
+       "safe and sound",
+       "平安無事"
+      ],
+      [
+       "touch and go",
+       "危急未卜"
+      ],
+      [
+       "cut and dried",
+       "明確的"
+      ],
+      [
+       "dead end",
+       "死胡同"
+      ],
+      [
+       "in hot water",
+       "陷入麻煩"
+      ],
+      [
+       "on thin ice",
+       "如履薄冰"
+      ],
+      [
+       "play with fire",
+       "玩火"
+      ],
+      [
+       "smell a rat",
+       "覺得事有蹊蹺"
+      ],
+      [
+       "stand a chance",
+       "有機會"
+      ],
+      [
+       "tongue in cheek",
+       "半開玩笑"
+      ],
+      [
+       "word of mouth",
+       "口耳相傳"
+      ],
+      [
+       "all the rage",
+       "風靡一時"
+      ],
+      [
+       "by the book",
+       "照規矩來"
+      ],
+      [
+       "cut ice",
+       "有影響力"
+      ],
+      [
+       "cut and run",
+       "趕緊逃走"
+      ],
+      [
+       "break new ground",
+       "開創新局"
+      ],
+      [
+       "big picture",
+       "整體情況"
+      ],
+      [
+       "a close call",
+       "千鈞一髮"
+      ],
+      [
+       "a far cry",
+       "天差地遠"
+      ],
+      [
+       "a hot potato",
+       "燙手山芋"
+      ],
+      [
+       "a lost cause",
+       "無望的事"
+      ],
+      [
+       "a narrow escape",
+       "死裡逃生"
+      ],
+      [
+       "a long shot",
+       "成功機會小的事"
+      ],
+      [
+       "high and low",
+       "到處、四處"
+      ],
+      [
+       "hit and miss",
+       "碰運氣"
+      ],
+      [
+       "hit or miss",
+       "不確定的"
+      ],
+      [
+       "hot air",
+       "空話"
+      ],
+      [
+       "in full swing",
+       "正熱烈進行"
+      ],
+      [
+       "in no way",
+       "絕不"
+      ],
+      [
+       "in turn",
+       "依序、反過來"
+      ],
+      [
+       "in tune with",
+       "與...協調"
+      ],
+      [
+       "make believe",
+       "假裝"
+      ],
+      [
+       "off the hook",
+       "脫身、免責"
+      ],
+      [
+       "on fire",
+       "很火熱"
+      ],
+      [
+       "over the top",
+       "太誇張"
+      ],
+      [
+       "upside down",
+       "上下顛倒"
+      ],
+      [
+       "better off",
+       "境況較好、更好過"
+      ],
+      [
+       "may as well",
+       "不妨、倒不如"
+      ]
+     ]
+    ],
+    [
+     "動物與自然",
+     "Animals & Nature",
+     [
+      [
+       "rain or shine",
+       "風雨無阻"
+      ],
+      [
+       "night owl",
+       "夜貓子"
+      ],
+      [
+       "early bird",
+       "早起的人"
+      ],
+      [
+       "black sheep",
+       "害群之馬"
+      ],
+      [
+       "dark horse",
+       "黑馬"
+      ],
+      [
+       "monkey business",
+       "胡鬧、不正當行為"
+      ],
+      [
+       "down to earth",
+       "踏實"
+      ],
+      [
+       "on cloud nine",
+       "欣喜若狂"
+      ]
+     ]
+    ],
+    [
+     "金錢與工作",
+     "Money & Work",
+     [
+      [
+       "bottom line",
+       "底線、重點"
+      ],
+      [
+       "on the house",
+       "店家免費招待"
+      ],
+      [
+       "break even",
+       "不賺不賠"
+      ],
+      [
+       "break the bank",
+       "花光積蓄"
+      ],
+      [
+       "cash cow",
+       "搖錢樹"
+      ],
+      [
+       "dirt cheap",
+       "超便宜"
+      ],
+      [
+       "foot the bill",
+       "買單"
+      ],
+      [
+       "go dutch",
+       "各付各的"
+      ],
+      [
+       "in the red",
+       "赤字"
+      ],
+      [
+       "in the black",
+       "有盈餘"
+      ],
+      [
+       "get the sack",
+       "被開除"
+      ],
+      [
+       "get the boot",
+       "被炒魷魚"
+      ],
+      [
+       "red tape",
+       "繁瑣的官僚程序"
+      ],
+      [
+       "rat race",
+       "殘酷的職場競爭"
+      ],
+      [
+       "call in sick",
+       "打電話請病假"
+      ],
+      [
+       "be hard up",
+       "手頭很緊"
+      ],
+      [
+       "be well off",
+       "家境富裕"
+      ],
+      [
+       "a pretty penny",
+       "一大筆錢"
+      ]
+     ]
+    ],
+    [
+     "人際與生活",
+     "People & Life",
+     [
+      [
+       "in the dark",
+       "被蒙在鼓裡"
+      ],
+      [
+       "out of touch",
+       "失去聯絡"
+      ],
+      [
+       "at odds with",
+       "與之不合"
+      ],
+      [
+       "big shot",
+       "大人物"
+      ],
+      [
+       "a raw deal",
+       "不公平待遇"
+      ],
+      [
+       "a white lie",
+       "善意的謊言"
+      ],
+      [
+       "a wet blanket",
+       "掃興的人"
+      ],
+      [
+       "hand in hand",
+       "攜手"
+      ],
+      [
+       "heart to heart",
+       "推心置腹"
+      ],
+      [
+       "play the fool",
+       "裝傻鬧笑話"
+      ]
+     ]
+    ]
+   ]
+  }
+ }
+}

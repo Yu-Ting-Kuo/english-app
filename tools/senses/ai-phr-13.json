@@ -1,0 +1,1602 @@
+{
+ "hold a meeting": [
+  {
+   "p": "phr",
+   "zh": "舉行會議",
+   "ai": [
+    [
+     "We will hold a meeting in the main hall on Friday morning.",
+     "我們星期五早上會在大禮堂開會。"
+    ],
+    [
+     "The club held a meeting to decide where to go on the trip.",
+     "社團開了會，決定旅行要去哪裡。"
+    ]
+   ]
+  }
+ ],
+ "hold a record": [
+  {
+   "p": "phr",
+   "zh": "保持紀錄",
+   "ai": [
+    [
+     "She holds a record for the fastest time in the school swimming race.",
+     "她保持著校內游泳比賽的最快紀錄。"
+    ],
+    [
+     "Our town holds a record for the most rain in one day.",
+     "我們鎮保持著單日最大降雨量的紀錄。"
+    ]
+   ]
+  }
+ ],
+ "hold an election": [
+  {
+   "p": "phr",
+   "zh": "舉行選舉",
+   "ai": [
+    [
+     "The class will hold an election to choose a new monitor.",
+     "班上將舉行選舉，選出新的班長。"
+    ],
+    [
+     "They held an election last month, and many young people voted.",
+     "他們上個月舉行了選舉，很多年輕人都去投票。"
+    ]
+   ]
+  }
+ ],
+ "hold the line": [
+  {
+   "p": "phr",
+   "zh": "請稍等、不要掛斷",
+   "ai": [
+    [
+     "Could you hold the line while I check his schedule?",
+     "我查一下他的行程，您可以不要掛斷稍等一下嗎？"
+    ],
+    [
+     "The receptionist asked me to hold the line for a moment.",
+     "櫃檯人員請我稍等一下，不要掛電話。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "堅守立場",
+   "ai": [
+    [
+     "The manager held the line and refused to lower the price.",
+     "經理堅守立場，不肯降價。"
+    ],
+    [
+     "We must hold the line and keep our promise to the customers.",
+     "我們必須堅守立場，信守對客戶的承諾。"
+    ]
+   ]
+  }
+ ],
+ "keep a promise": [
+  {
+   "p": "phr",
+   "zh": "遵守諾言",
+   "ai": [
+    [
+     "He always keeps a promise, so you can trust him.",
+     "他總是信守承諾，所以你可以相信他。"
+    ],
+    [
+     "I kept a promise to my mother and called her every week.",
+     "我遵守對媽媽的承諾，每個星期都打電話給她。"
+    ]
+   ]
+  }
+ ],
+ "keep a record": [
+  {
+   "p": "phr",
+   "zh": "做記錄",
+   "ai": [
+    [
+     "You should keep a record of everything you spend each month.",
+     "你應該把每個月的花費都記錄下來。"
+    ],
+    [
+     "The nurse keeps a record of each patient's temperature.",
+     "護理師會記錄每位病人的體溫。"
+    ]
+   ]
+  }
+ ],
+ "keep a secret": [
+  {
+   "p": "phr",
+   "zh": "保守秘密",
+   "ai": [
+    [
+     "Can you keep a secret if I tell you something?",
+     "如果我告訴你一件事，你能保密嗎？"
+    ],
+    [
+     "She kept a secret about the surprise party for two weeks.",
+     "她把驚喜派對的事保密了兩個星期。"
+    ]
+   ]
+  }
+ ],
+ "keep fit": [
+  {
+   "p": "phr",
+   "zh": "保持健康",
+   "ai": [
+    [
+     "My grandfather walks every morning to keep fit.",
+     "我爺爺每天早上散步來保持健康。"
+    ],
+    [
+     "Swimming is a good way to keep fit in summer.",
+     "游泳是夏天保持健康的好方法。"
+    ]
+   ]
+  }
+ ],
+ "keep in mind": [
+  {
+   "p": "phr",
+   "zh": "記住",
+   "ai": [
+    [
+     "Please keep in mind that the store closes at nine.",
+     "請記住這家店九點打烊。"
+    ],
+    [
+     "Keeping in mind your budget, I think this phone is the best choice.",
+     "考慮到你的預算，我覺得這支手機是最好的選擇。"
+    ]
+   ]
+  }
+ ],
+ "keep it up": [
+  {
+   "p": "phr",
+   "zh": "繼續保持",
+   "ai": [
+    [
+     "Your grades are getting better, so keep it up!",
+     "你的成績越來越好了，繼續保持！"
+    ],
+    [
+     "You ran very well today. Keep it up and you will win.",
+     "你今天跑得很好，繼續保持就會贏。"
+    ]
+   ]
+  }
+ ],
+ "keep out of": [
+  {
+   "p": "phr",
+   "zh": "不要進入",
+   "ai": [
+    [
+     "Please keep out of the kitchen while I am cooking.",
+     "我煮飯的時候，請不要進廚房。"
+    ],
+    [
+     "The sign tells children to keep out of the construction area.",
+     "告示牌要小孩不要進入施工區域。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不要捲入",
+   "ai": [
+    [
+     "I try to keep out of my friends' arguments.",
+     "我盡量不去介入朋友之間的爭吵。"
+    ],
+    [
+     "He kept out of trouble and finished school with good grades.",
+     "他沒有惹麻煩，順利以好成績完成學業。"
+    ]
+   ]
+  }
+ ],
+ "keep pace with": [
+  {
+   "p": "phr",
+   "zh": "跟上",
+   "ai": [
+    [
+     "It is hard for small shops to keep pace with big online stores.",
+     "小商店很難跟上大型網路商店的腳步。"
+    ],
+    [
+     "Salaries are not keeping pace with the rising cost of living.",
+     "薪水的成長跟不上物價上漲的速度。"
+    ]
+   ]
+  }
+ ],
+ "keep quiet": [
+  {
+   "p": "phr",
+   "zh": "保持安靜",
+   "ai": [
+    [
+     "Please keep quiet because the baby is sleeping.",
+     "寶寶在睡覺，請保持安靜。"
+    ],
+    [
+     "The teacher told the students to keep quiet during the test.",
+     "老師要學生們在考試時保持安靜。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "保密",
+   "ai": [
+    [
+     "He kept quiet about the mistake because he was afraid.",
+     "他因為害怕，所以沒有說出那個錯誤。"
+    ],
+    [
+     "If you know the answer, keep quiet until the game is over.",
+     "如果你知道答案，在遊戲結束前先別說出來。"
+    ]
+   ]
+  }
+ ],
+ "keep track of": [
+  {
+   "p": "phr",
+   "zh": "掌握、記錄",
+   "ai": [
+    [
+     "I use an app to keep track of my daily spending.",
+     "我用一個應用程式來記錄每天的花費。"
+    ],
+    [
+     "It is hard to keep track of all the new students' names.",
+     "要記住所有新同學的名字很難。"
+    ]
+   ]
+  }
+ ],
+ "lose interest in": [
+  {
+   "p": "phr",
+   "zh": "對…失去興趣",
+   "ai": [
+    [
+     "He lost interest in the game after a few weeks.",
+     "幾個星期後，他就對那個遊戲失去了興趣。"
+    ],
+    [
+     "Many children lose interest in reading when books are too difficult.",
+     "書太難的時候，很多孩子會對閱讀失去興趣。"
+    ]
+   ]
+  }
+ ],
+ "lose money": [
+  {
+   "p": "phr",
+   "zh": "虧錢",
+   "ai": [
+    [
+     "The small restaurant lost money in its first year.",
+     "那家小餐廳開業第一年就虧錢。"
+    ],
+    [
+     "If you buy that stock, you might lose money.",
+     "如果你買那支股票，可能會虧錢。"
+    ]
+   ]
+  }
+ ],
+ "lose sight of": [
+  {
+   "p": "phr",
+   "zh": "忽略、忘記",
+   "ai": [
+    [
+     "Don't lose sight of your goals when work gets busy.",
+     "工作忙碌時，不要忘了你的目標。"
+    ],
+    [
+     "In the argument, they lost sight of the real problem.",
+     "在爭論當中，他們忽略了真正的問題。"
+    ]
+   ]
+  }
+ ],
+ "lose touch with": [
+  {
+   "p": "phr",
+   "zh": "與…失去聯絡",
+   "ai": [
+    [
+     "I lost touch with my old classmates after we moved.",
+     "搬家以後，我就和以前的同學失去聯絡了。"
+    ],
+    [
+     "Don't lose touch with your friends when you go abroad.",
+     "出國以後，不要和朋友斷了聯絡。"
+    ]
+   ]
+  }
+ ],
+ "lose track of": [
+  {
+   "p": "phr",
+   "zh": "搞不清楚、弄丟線索",
+   "ai": [
+    [
+     "I lost track of time and missed the last bus.",
+     "我沒注意時間，結果錯過了最後一班公車。"
+    ],
+    [
+     "She lost track of her keys again this morning.",
+     "她今天早上又不知道把鑰匙放哪裡了。"
+    ]
+   ]
+  }
+ ],
+ "lose weight": [
+  {
+   "p": "phr",
+   "zh": "減重",
+   "ai": [
+    [
+     "He wants to lose weight before the summer holiday.",
+     "他想在暑假前減重。"
+    ],
+    [
+     "She lost weight by walking to work every day.",
+     "她每天走路上班，因此瘦了下來。"
+    ]
+   ]
+  }
+ ],
+ "make a call": [
+  {
+   "p": "phr",
+   "zh": "打電話",
+   "ai": [
+    [
+     "I need to make a call before the meeting starts.",
+     "會議開始前，我得先打個電話。"
+    ],
+    [
+     "She made a call to her grandmother on Sunday.",
+     "她星期天打了電話給奶奶。"
+    ]
+   ]
+  }
+ ],
+ "make a choice": [
+  {
+   "p": "phr",
+   "zh": "做選擇",
+   "ai": [
+    [
+     "You have to make a choice between the two schools.",
+     "你得在這兩所學校之間做個選擇。"
+    ],
+    [
+     "It was hard to make a choice from such a long menu.",
+     "菜單那麼長，真的很難做出選擇。"
+    ]
+   ]
+  }
+ ],
+ "make a comment": [
+  {
+   "p": "phr",
+   "zh": "發表意見",
+   "ai": [
+    [
+     "Would you like to make a comment on the new plan?",
+     "你想對這個新計畫發表一些意見嗎？"
+    ],
+    [
+     "He made a comment about the food, and the cook smiled.",
+     "他對食物發表了評論，廚師笑了。"
+    ]
+   ]
+  }
+ ],
+ "make a living": [
+  {
+   "p": "phr",
+   "zh": "謀生",
+   "ai": [
+    [
+     "He makes a living by selling vegetables at the market.",
+     "他靠在市場賣菜維生。"
+    ],
+    [
+     "It is not easy to make a living as a painter.",
+     "當畫家要維持生計並不容易。"
+    ]
+   ]
+  }
+ ],
+ "make a mess": [
+  {
+   "p": "phr",
+   "zh": "弄得亂七八糟",
+   "ai": [
+    [
+     "The kids made a mess in the living room again.",
+     "孩子們又把客廳弄得亂七八糟。"
+    ],
+    [
+     "Please don't make a mess when you bake the cookies.",
+     "烤餅乾的時候，請不要把廚房弄亂。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "搞砸",
+   "ai": [
+    [
+     "I made a mess of my first job interview.",
+     "我把第一次工作面試搞砸了。"
+    ],
+    [
+     "They made a mess of the plan and had to start again.",
+     "他們把計畫搞砸了，只好重新開始。"
+    ]
+   ]
+  }
+ ],
+ "make a point": [
+  {
+   "p": "phr",
+   "zh": "提出論點",
+   "ai": [
+    [
+     "She made a point about how expensive the city is.",
+     "她指出這座城市的物價有多高。"
+    ],
+    [
+     "He made a point about safety, and everyone agreed with him.",
+     "他提出了很好的論點，大家都同意他。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "特意",
+   "ai": [
+    [
+     "I make a point of saying thank you to the bus driver.",
+     "我一定會特地向公車司機說謝謝。"
+    ],
+    [
+     "She made a point of arriving early to meet the guests.",
+     "她特地提早到場迎接客人。"
+    ]
+   ]
+  }
+ ],
+ "make a profit": [
+  {
+   "p": "phr",
+   "zh": "獲利",
+   "ai": [
+    [
+     "The shop made a profit for the first time this year.",
+     "這家店今年第一次獲利。"
+    ],
+    [
+     "It takes time to make a profit with a new business.",
+     "新事業需要時間才能賺到錢。"
+    ]
+   ]
+  }
+ ],
+ "make a promise": [
+  {
+   "p": "phr",
+   "zh": "許下承諾",
+   "ai": [
+    [
+     "I made a promise to my son that we would go camping.",
+     "我答應過兒子要帶他去露營。"
+    ],
+    [
+     "Don't make a promise if you cannot keep it.",
+     "如果做不到，就不要隨便答應。"
+    ]
+   ]
+  }
+ ],
+ "make a reservation": [
+  {
+   "p": "phr",
+   "zh": "訂位",
+   "ai": [
+    [
+     "I made a reservation at the restaurant for seven o'clock.",
+     "我訂了那家餐廳七點的位子。"
+    ],
+    [
+     "You should make a reservation early because the hotel is popular.",
+     "那間飯店很熱門，你應該早點訂房。"
+    ]
+   ]
+  }
+ ],
+ "make a speech": [
+  {
+   "p": "phr",
+   "zh": "發表演講",
+   "ai": [
+    [
+     "The principal made a speech at the graduation ceremony.",
+     "校長在畢業典禮上致詞。"
+    ],
+    [
+     "I felt nervous when I had to make a speech in class.",
+     "我必須在班上演講時覺得很緊張。"
+    ]
+   ]
+  }
+ ],
+ "make a suggestion": [
+  {
+   "p": "phr",
+   "zh": "提出建議",
+   "ai": [
+    [
+     "May I make a suggestion about where we should eat?",
+     "我可以建議一下我們該去哪裡吃飯嗎？"
+    ],
+    [
+     "She made a suggestion, and the team liked it.",
+     "她提了一個建議，團隊都很喜歡。"
+    ]
+   ]
+  }
+ ],
+ "make a wish": [
+  {
+   "p": "phr",
+   "zh": "許願",
+   "ai": [
+    [
+     "Close your eyes and make a wish before you blow out the candles.",
+     "吹蠟燭之前，先閉上眼睛許個願。"
+    ],
+    [
+     "She made a wish when she saw a shooting star.",
+     "她看到流星時許了一個願。"
+    ]
+   ]
+  }
+ ],
+ "make an appointment": [
+  {
+   "p": "phr",
+   "zh": "預約",
+   "ai": [
+    [
+     "I need to make an appointment with the dentist.",
+     "我需要跟牙醫預約看診。"
+    ],
+    [
+     "She made an appointment for Monday afternoon.",
+     "她預約了星期一下午的時間。"
+    ]
+   ]
+  }
+ ],
+ "make an offer": [
+  {
+   "p": "phr",
+   "zh": "出價、提出條件",
+   "ai": [
+    [
+     "They made an offer on the house, and the owner accepted it.",
+     "他們對那棟房子出了價，屋主接受了。"
+    ],
+    [
+     "The company made an offer to hire him as an engineer.",
+     "公司提出聘請他當工程師的條件。"
+    ]
+   ]
+  }
+ ],
+ "make friends": [
+  {
+   "p": "phr",
+   "zh": "交朋友",
+   "ai": [
+    [
+     "It is easy to make friends in a new school.",
+     "在新學校很容易交到朋友。"
+    ],
+    [
+     "He made friends with a boy who lived next door.",
+     "他和住在隔壁的男孩成了朋友。"
+    ]
+   ]
+  }
+ ],
+ "make fun of": [
+  {
+   "p": "phr",
+   "zh": "取笑",
+   "ai": [
+    [
+     "Please don't make fun of her accent.",
+     "請不要取笑她的口音。"
+    ],
+    [
+     "The other children made fun of him because of his old shoes.",
+     "其他孩子因為他的舊鞋子而取笑他。"
+    ]
+   ]
+  }
+ ],
+ "make money": [
+  {
+   "p": "phr",
+   "zh": "賺錢",
+   "ai": [
+    [
+     "He works two jobs to make money for college.",
+     "他打兩份工，為了賺大學的學費。"
+    ],
+    [
+     "Many people make money by selling things online.",
+     "很多人靠在網路上賣東西賺錢。"
+    ]
+   ]
+  }
+ ],
+ "make peace": [
+  {
+   "p": "phr",
+   "zh": "和解",
+   "ai": [
+    [
+     "The two brothers finally made peace after many years.",
+     "兄弟倆多年後終於和好了。"
+    ],
+    [
+     "It is time to make peace with your neighbors.",
+     "是時候和你的鄰居言和了。"
+    ]
+   ]
+  }
+ ],
+ "make progress": [
+  {
+   "p": "phr",
+   "zh": "有進步",
+   "ai": [
+    [
+     "She is making progress in her English every week.",
+     "她的英文每個星期都有進步。"
+    ],
+    [
+     "This week we are making progress on the project together.",
+     "我們在這個專案上已經有很大的進展。"
+    ]
+   ]
+  }
+ ],
+ "make sense": [
+  {
+   "p": "phr",
+   "zh": "合理、說得通",
+   "ai": [
+    [
+     "His explanation made sense to me.",
+     "他的解釋我聽得懂，也很合理。"
+    ],
+    [
+     "It doesn't make sense to buy a car if you never drive.",
+     "如果你從不開車，買車就說不通。"
+    ]
+   ]
+  }
+ ],
+ "make time": [
+  {
+   "p": "phr",
+   "zh": "騰出時間",
+   "ai": [
+    [
+     "I will make time to help you with your homework.",
+     "我會抽出時間幫你寫作業。"
+    ],
+    [
+     "It is important to make time for your family.",
+     "騰出時間陪伴家人很重要。"
+    ]
+   ]
+  }
+ ],
+ "make use of": [
+  {
+   "p": "phr",
+   "zh": "利用",
+   "ai": [
+    [
+     "You should make use of the free library near your home.",
+     "你應該好好利用住家附近的免費圖書館。"
+    ],
+    [
+     "She made use of every minute to study for the exam.",
+     "她把每一分鐘都拿來準備考試。"
+    ]
+   ]
+  }
+ ],
+ "pay a visit": [
+  {
+   "p": "phr",
+   "zh": "拜訪",
+   "ai": [
+    [
+     "We paid a visit to our grandparents last weekend.",
+     "我們上週末去拜訪了爺爺奶奶。"
+    ],
+    [
+     "You should pay a visit to the old temple when you are there.",
+     "你到那裡時，應該去參觀那間古老的廟。"
+    ]
+   ]
+  }
+ ],
+ "pay the bill": [
+  {
+   "p": "phr",
+   "zh": "付帳",
+   "ai": [
+    [
+     "Let me pay the bill tonight because it is my treat.",
+     "今晚讓我來付帳，我請客。"
+    ],
+    [
+     "He paid the bill and left a small tip.",
+     "他付了帳，還留下一點小費。"
+    ]
+   ]
+  }
+ ],
+ "play a part": [
+  {
+   "p": "phr",
+   "zh": "扮演角色、起作用",
+   "ai": [
+    [
+     "Good sleep plays a part in staying healthy.",
+     "充足的睡眠對保持健康有幫助。"
+    ],
+    [
+     "Many people played a part in making the festival a success.",
+     "許多人都出了力，讓這場慶典辦得成功。"
+    ]
+   ]
+  }
+ ],
+ "play the piano": [
+  {
+   "p": "phr",
+   "zh": "彈鋼琴",
+   "ai": [
+    [
+     "My sister plays the piano every evening after dinner.",
+     "我姐姐每天晚飯後都會彈鋼琴。"
+    ],
+    [
+     "He learned to play the piano when he was six.",
+     "他六歲就學會彈鋼琴。"
+    ]
+   ]
+  }
+ ],
+ "run a business": [
+  {
+   "p": "phr",
+   "zh": "經營生意",
+   "ai": [
+    [
+     "Her parents run a business selling fresh fruit.",
+     "她的父母經營一家賣新鮮水果的生意。"
+    ],
+    [
+     "It takes hard work to run a business by yourself.",
+     "自己一個人經營生意需要很努力。"
+    ]
+   ]
+  }
+ ],
+ "run a risk": [
+  {
+   "p": "phr",
+   "zh": "冒風險",
+   "ai": [
+    [
+     "You run a risk of getting lost if you walk without a map.",
+     "沒帶地圖走路，你有迷路的風險。"
+    ],
+    [
+     "They ran a risk by starting the trip so late.",
+     "他們這麼晚才出發，是在冒險。"
+    ]
+   ]
+  }
+ ],
+ "save money": [
+  {
+   "p": "phr",
+   "zh": "省錢",
+   "ai": [
+    [
+     "I take the bus to save money.",
+     "我搭公車是為了省錢。"
+    ],
+    [
+     "They saved money for a year to buy a new sofa.",
+     "他們存了一年的錢要買新沙發。"
+    ]
+   ]
+  }
+ ],
+ "save the day": [
+  {
+   "p": "phr",
+   "zh": "轉危為安",
+   "ai": [
+    [
+     "When the power went out, her flashlight saved the day.",
+     "停電的時候，她的手電筒解決了大問題。"
+    ],
+    [
+     "Our goalkeeper saved the day with a great catch.",
+     "我們的守門員靠一次漂亮的撲救化解了危機。"
+    ]
+   ]
+  }
+ ],
+ "save time": [
+  {
+   "p": "phr",
+   "zh": "節省時間",
+   "ai": [
+    [
+     "Taking the train will save time on a busy day.",
+     "忙碌的日子搭火車可以省時間。"
+    ],
+    [
+     "This machine saves time because it washes and dries clothes together.",
+     "這台機器洗衣和烘衣一起完成，所以很省時間。"
+    ]
+   ]
+  }
+ ],
+ "set a record": [
+  {
+   "p": "phr",
+   "zh": "創造紀錄",
+   "ai": [
+    [
+     "The young runner set a record at the school sports day.",
+     "那位年輕的跑者在學校運動會上創下紀錄。"
+    ],
+    [
+     "This film set a record for the most tickets sold in a week.",
+     "這部電影創下了一週內票房最高的紀錄。"
+    ]
+   ]
+  }
+ ],
+ "set an alarm": [
+  {
+   "p": "phr",
+   "zh": "設鬧鐘",
+   "ai": [
+    [
+     "I set an alarm for six o'clock so I won't be late.",
+     "我設了六點的鬧鐘，才不會遲到。"
+    ],
+    [
+     "Did you set an alarm on your phone last night?",
+     "你昨晚有在手機上設鬧鐘嗎？"
+    ]
+   ]
+  }
+ ],
+ "set fire to": [
+  {
+   "p": "phr",
+   "zh": "放火燒、點燃",
+   "ai": [
+    [
+     "The campers set fire to a pile of dry wood.",
+     "露營的人點燃了一堆乾柴。"
+    ],
+    [
+     "Careless sparks can set fire to dry grass.",
+     "不小心的火花可能會點燃乾草。"
+    ]
+   ]
+  }
+ ],
+ "set in motion": [
+  {
+   "p": "phr",
+   "zh": "使開始運作",
+   "ai": [
+    [
+     "The new law set in motion many changes in the city.",
+     "這項新法律讓城市開始出現許多改變。"
+    ],
+    [
+     "He set in motion his plan by calling his friends.",
+     "他打電話給朋友，讓計畫開始進行。"
+    ]
+   ]
+  }
+ ],
+ "set the table": [
+  {
+   "p": "phr",
+   "zh": "擺餐具",
+   "ai": [
+    [
+     "Can you set the table while I finish cooking?",
+     "我煮完飯之前，你可以先擺好餐具嗎？"
+    ],
+    [
+     "The children set the table for dinner every night.",
+     "孩子們每天晚上都會擺好晚餐的餐具。"
+    ]
+   ]
+  }
+ ],
+ "take a bath": [
+  {
+   "p": "phr",
+   "zh": "洗澡（泡澡）",
+   "ai": [
+    [
+     "I like to take a bath after a long day.",
+     "忙了一整天後，我喜歡泡個澡。"
+    ],
+    [
+     "The baby took a bath and fell asleep quickly.",
+     "寶寶洗完澡很快就睡著了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "遭受巨大損失",
+   "ai": [
+    [
+     "Many investors took a bath when the market fell.",
+     "市場下跌時，許多投資人損失慘重。"
+    ],
+    [
+     "The company took a bath on its first video game.",
+     "那家公司的第一款電玩遊戲讓它虧了一大筆錢。"
+    ]
+   ]
+  }
+ ],
+ "take a chance": [
+  {
+   "p": "phr",
+   "zh": "碰運氣",
+   "ai": [
+    [
+     "I decided to take a chance and apply for the job.",
+     "我決定賭一把，去應徵那份工作。"
+    ],
+    [
+     "Why not take a chance and talk to her?",
+     "何不鼓起勇氣去跟她說說話？"
+    ]
+   ]
+  }
+ ],
+ "take a course": [
+  {
+   "p": "phr",
+   "zh": "修課",
+   "ai": [
+    [
+     "I want to take a course in cooking this summer.",
+     "我今年夏天想去上一門烹飪課。"
+    ],
+    [
+     "He took a course on computers at night school.",
+     "他在夜校修了一門電腦課。"
+    ]
+   ]
+  }
+ ],
+ "take a picture": [
+  {
+   "p": "phr",
+   "zh": "拍照",
+   "ai": [
+    [
+     "Can you take a picture of us in front of the lake?",
+     "你可以幫我們在湖前拍張照嗎？"
+    ],
+    [
+     "She took a picture of her lunch before eating it.",
+     "她吃午餐前先拍了張照。"
+    ]
+   ]
+  }
+ ],
+ "take a rest": [
+  {
+   "p": "phr",
+   "zh": "休息一下",
+   "ai": [
+    [
+     "Let's take a rest under that tree.",
+     "我們到那棵樹下休息一下吧。"
+    ],
+    [
+     "He took a rest after climbing the stairs.",
+     "他爬完樓梯後休息了一下。"
+    ]
+   ]
+  }
+ ],
+ "take a risk": [
+  {
+   "p": "phr",
+   "zh": "冒險",
+   "ai": [
+    [
+     "You have to take a risk if you want to grow.",
+     "想要成長，你就得冒點險。"
+    ],
+    [
+     "She took a risk and moved to a new city alone.",
+     "她冒險獨自搬到一個新城市。"
+    ]
+   ]
+  }
+ ],
+ "take a seat": [
+  {
+   "p": "phr",
+   "zh": "坐下",
+   "ai": [
+    [
+     "Please take a seat, and the doctor will see you soon.",
+     "請坐，醫生馬上就來看您。"
+    ],
+    [
+     "He took a seat near the window on the train.",
+     "他在火車上坐到靠窗的位子。"
+    ]
+   ]
+  }
+ ],
+ "take a shower": [
+  {
+   "p": "phr",
+   "zh": "沖澡",
+   "ai": [
+    [
+     "I usually take a shower before I go to bed.",
+     "我通常睡前會沖個澡。"
+    ],
+    [
+     "After the game, the players took a shower.",
+     "比賽結束後，球員們去沖了澡。"
+    ]
+   ]
+  }
+ ],
+ "take a stand": [
+  {
+   "p": "phr",
+   "zh": "表明立場",
+   "ai": [
+    [
+     "It is time for the school to take a stand against cheating.",
+     "學校該明確表態反對作弊了。"
+    ],
+    [
+     "He took a stand and refused to join the plan.",
+     "他表明立場，拒絕加入那項計畫。"
+    ]
+   ]
+  }
+ ],
+ "take a trip": [
+  {
+   "p": "phr",
+   "zh": "去旅行",
+   "ai": [
+    [
+     "We plan to take a trip to the mountains next month.",
+     "我們打算下個月去山上旅行。"
+    ],
+    [
+     "They took a trip around the island by bicycle.",
+     "他們騎腳踏車環島旅行。"
+    ]
+   ]
+  }
+ ],
+ "take a vacation": [
+  {
+   "p": "phr",
+   "zh": "度假",
+   "ai": [
+    [
+     "I want to take a vacation after this busy season.",
+     "忙完這個旺季後，我想去度個假。"
+    ],
+    [
+     "She took a vacation and visited her relatives in Taichung.",
+     "她去度假，順便拜訪台中的親戚。"
+    ]
+   ]
+  }
+ ],
+ "take a walk": [
+  {
+   "p": "phr",
+   "zh": "散步",
+   "ai": [
+    [
+     "Let's take a walk by the river after dinner.",
+     "晚餐後我們去河邊散步吧。"
+    ],
+    [
+     "He took a walk to clear his head.",
+     "他出去散步來讓頭腦清醒一下。"
+    ]
+   ]
+  }
+ ],
+ "take action": [
+  {
+   "p": "phr",
+   "zh": "採取行動",
+   "ai": [
+    [
+     "We must take action now to protect the forest.",
+     "我們現在必須採取行動來保護森林。"
+    ],
+    [
+     "The city took action after many people complained about the noise.",
+     "許多人抱怨噪音後，市府採取了行動。"
+    ]
+   ]
+  }
+ ],
+ "take charge": [
+  {
+   "p": "phr",
+   "zh": "負責、主導",
+   "ai": [
+    [
+     "When the teacher left, Amy took charge of the class.",
+     "老師離開後，艾美負責帶班上的同學。"
+    ],
+    [
+     "Someone needs to take charge of the project.",
+     "需要有人來負責這個專案。"
+    ]
+   ]
+  }
+ ],
+ "take control": [
+  {
+   "p": "phr",
+   "zh": "掌控",
+   "ai": [
+    [
+     "The new manager took control of the whole team.",
+     "新經理接管了整個團隊。"
+    ],
+    [
+     "You should take control of your time instead of wasting it.",
+     "你應該掌控自己的時間，而不是浪費它。"
+    ]
+   ]
+  }
+ ],
+ "take effect": [
+  {
+   "p": "phr",
+   "zh": "生效",
+   "ai": [
+    [
+     "The medicine will take effect in about thirty minutes.",
+     "這個藥大約三十分鐘後會見效。"
+    ],
+    [
+     "The new rules take effect on the first day of next month.",
+     "新規定將在下個月一號生效。"
+    ]
+   ]
+  }
+ ],
+ "take into account": [
+  {
+   "p": "phr",
+   "zh": "考慮到",
+   "ai": [
+    [
+     "You should take into account the weather when you plan the picnic.",
+     "你規劃野餐時應該把天氣考慮進去。"
+    ],
+    [
+     "The judges took into account her age and experience.",
+     "評審有把她的年齡考慮進去。"
+    ]
+   ]
+  }
+ ],
+ "take medicine": [
+  {
+   "p": "phr",
+   "zh": "吃藥",
+   "ai": [
+    [
+     "You need to take medicine three times a day.",
+     "你一天需要吃三次藥。"
+    ],
+    [
+     "He took medicine and went to bed early.",
+     "他吃了藥就早早上床睡覺。"
+    ]
+   ]
+  }
+ ],
+ "take pride in": [
+  {
+   "p": "phr",
+   "zh": "以…為傲",
+   "ai": [
+    [
+     "She takes pride in her clean and tidy garden.",
+     "她以自己整潔的花園為傲。"
+    ],
+    [
+     "We take pride in giving our guests good service.",
+     "我們以提供客人良好的服務為榮。"
+    ]
+   ]
+  }
+ ],
+ "take shape": [
+  {
+   "p": "phr",
+   "zh": "成形",
+   "ai": [
+    [
+     "Our plan for the trip is slowly taking shape.",
+     "我們的旅行計畫慢慢成形了。"
+    ],
+    [
+     "The building began to take shape after a few months.",
+     "幾個月後，那棟建築開始看得出雛形。"
+    ]
+   ]
+  }
+ ],
+ "take the lead": [
+  {
+   "p": "phr",
+   "zh": "帶頭",
+   "ai": [
+    [
+     "Who wants to take the lead on this project?",
+     "誰想在這個專案裡帶頭？"
+    ],
+    [
+     "She took the lead in the last part of the race.",
+     "她在比賽的最後一段領先了。"
+    ]
+   ]
+  }
+ ],
+ "take time": [
+  {
+   "p": "phr",
+   "zh": "需要時間",
+   "ai": [
+    [
+     "Learning a new language takes time.",
+     "學一種新語言需要時間。"
+    ],
+    [
+     "Good bread takes time, so please be patient.",
+     "好吃的麵包需要時間，請耐心等待。"
+    ]
+   ]
+  }
+ ],
+ "tell a lie": [
+  {
+   "p": "phr",
+   "zh": "說謊",
+   "ai": [
+    [
+     "He felt bad after he told a lie to his teacher.",
+     "他對老師說謊後覺得很內疚。"
+    ],
+    [
+     "Children should learn that it is wrong to tell a lie.",
+     "孩子應該學到說謊是不對的。"
+    ]
+   ]
+  }
+ ],
+ "tell a story": [
+  {
+   "p": "phr",
+   "zh": "講故事",
+   "ai": [
+    [
+     "My grandmother likes to tell a story before bedtime.",
+     "我奶奶喜歡在睡前講故事。"
+    ],
+    [
+     "He told a story about his first day at school.",
+     "他講了一個關於他第一天上學的故事。"
+    ]
+   ]
+  }
+ ],
+ "tell the difference": [
+  {
+   "p": "phr",
+   "zh": "分辨",
+   "ai": [
+    [
+     "I can't tell the difference between these two twins.",
+     "我分不出這對雙胞胎有什麼不同。"
+    ],
+    [
+     "Can you tell the difference between real and fake leather?",
+     "你分得出真皮和假皮的差別嗎？"
+    ]
+   ]
+  }
+ ],
+ "tell the truth": [
+  {
+   "p": "phr",
+   "zh": "說實話",
+   "ai": [
+    [
+     "Please tell the truth about what happened.",
+     "請說實話，到底發生了什麼事。"
+    ],
+    [
+     "She told the truth, even though she was afraid.",
+     "雖然她很害怕，還是說了實話。"
+    ]
+   ]
+  }
+ ],
+ "you bet": [
+  {
+   "p": "phr",
+   "zh": "當然",
+   "ai": [
+    [
+     "\"Are you coming to the party?\" \"You bet!\"",
+     "「你會來派對嗎？」「那還用說！」"
+    ],
+    [
+     "\"Can I count on you?\" \"You bet you can.\"",
+     "「我可以指望你嗎？」「當然可以。」"
+    ]
+   ]
+  }
+ ],
+ "no way": [
+  {
+   "p": "phr",
+   "zh": "不可能",
+   "ai": [
+    [
+     "There is no way I can finish this by noon.",
+     "我不可能在中午前完成這個。"
+    ],
+    [
+     "\"Will you lend him your new phone?\" \"No way!\"",
+     "「你要把新手機借給他嗎？」「門都沒有！」"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不會吧",
+   "ai": [
+    [
+     "\"I won the prize!\" \"No way! That's amazing.\"",
+     "「我中獎了！」「不會吧！太棒了。」"
+    ],
+    [
+     "No way, you finished the whole cake by yourself?",
+     "不會吧，你一個人把整個蛋糕吃完了？"
+    ]
+   ]
+  }
+ ],
+ "never mind": [
+  {
+   "p": "phr",
+   "zh": "沒關係",
+   "ai": [
+    [
+     "Never mind, I can find the key by myself.",
+     "沒關係，我自己可以找到鑰匙。"
+    ],
+    [
+     "You forgot your pen? Never mind, you can borrow mine.",
+     "你忘了帶筆？沒關係，可以借我的。"
+    ]
+   ]
+  }
+ ],
+ "see you later": [
+  {
+   "p": "phr",
+   "zh": "再見",
+   "ai": [
+    [
+     "I have to go now, so see you later.",
+     "我得走了，待會見。"
+    ],
+    [
+     "See you later! Call me when you get home.",
+     "回頭見！到家時打電話給我。"
+    ]
+   ]
+  }
+ ],
+ "break a leg": [
+  {
+   "p": "phr",
+   "zh": "祝好運",
+   "ai": [
+    [
+     "You will do great tonight, so break a leg!",
+     "你今晚一定會表現得很棒，祝你演出順利！"
+    ],
+    [
+     "Everyone told her to break a leg before the school play.",
+     "學校話劇開演前，大家都祝她演出成功。"
+    ]
+   ]
+  }
+ ],
+ "hit the sack": [
+  {
+   "p": "phr",
+   "zh": "上床睡覺",
+   "ai": [
+    [
+     "I am so tired that I will hit the sack early tonight.",
+     "我累壞了，今晚要早點去睡覺。"
+    ],
+    [
+     "They hit the sack right after the long trip.",
+     "長途旅行結束後，他們馬上就去睡了。"
+    ]
+   ]
+  }
+ ],
+ "let it go": [
+  {
+   "p": "phr",
+   "zh": "算了",
+   "ai": [
+    [
+     "It was only a small mistake, so let it go.",
+     "那只是個小錯誤，就算了吧。"
+    ],
+    [
+     "She decided to let it go and forgive him.",
+     "她決定放下，原諒他。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放手",
+   "ai": [
+    [
+     "If the rope is too hot, let it go.",
+     "如果繩子太燙，就放手。"
+    ],
+    [
+     "The child did not want to let it go and held the toy tight.",
+     "那個孩子不想放手，緊緊抱著玩具。"
+    ]
+   ]
+  }
+ ],
+ "rain or shine": [
+  {
+   "p": "phr",
+   "zh": "不論晴雨",
+   "ai": [
+    [
+     "The market opens every Sunday, rain or shine.",
+     "那個市集每個星期天都開，不管晴雨。"
+    ],
+    [
+     "He runs in the park every morning, rain or shine.",
+     "他每天早上都去公園跑步，風雨無阻。"
+    ]
+   ]
+  }
+ ],
+ "by heart": [
+  {
+   "p": "phr",
+   "zh": "背起來",
+   "ai": [
+    [
+     "She knows all the words of the song by heart.",
+     "她把這首歌的歌詞全都背起來了。"
+    ],
+    [
+     "We have to learn this poem by heart for tomorrow.",
+     "我們明天前要把這首詩背熟。"
+    ]
+   ]
+  }
+ ],
+ "go for it": [
+  {
+   "p": "phr",
+   "zh": "放手去做",
+   "ai": [
+    [
+     "If you want to join the team, go for it!",
+     "如果你想加入球隊，就放手去做吧！"
+    ],
+    [
+     "You have a good idea, so go for it.",
+     "你的點子很好，就去做吧。"
+    ]
+   ]
+  }
+ ],
+ "let off steam": [
+  {
+   "p": "phr",
+   "zh": "發洩情緒",
+   "ai": [
+    [
+     "The kids ran around the park to let off steam.",
+     "孩子們在公園裡跑來跑去發洩精力。"
+    ],
+    [
+     "He plays drums to let off steam after work.",
+     "他下班後打鼓來宣洩壓力。"
+    ]
+   ]
+  }
+ ]
+}

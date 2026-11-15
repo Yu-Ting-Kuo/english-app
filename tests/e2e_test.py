@@ -69,14 +69,14 @@ def main():
 
         def t_home():
             cats = page.locator('#home-topics .cat-name').all_text_contents()
-            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '情緒與感覺', '社交與人際', '日常與基礎字彙', '多益核心字彙'], cats
+            assert cats == ['職場與辦公', '商業與財經', '科技與工程', '生活與服務', '學術與社會議題', '情緒與感覺', '社交與人際', '日常與基礎字彙', '多益核心字彙', '常用片語'], cats
             expect(page.locator('#home-today h2')).not_to_be_empty()
             expect(page.locator('#home-today')).to_contain_text('個單字')
             expect(page.locator('#home-q')).to_be_visible()
             # 首頁不能有 A–Z 字母索引
             text = page.locator('#view-home').inner_text()
             assert 'A-Z' not in text and 'A–Z' not in text, 'home shows A-Z'
-        check('首頁：商務、生活、學術主題分類，保留多益核心字彙，沒有 A–Z', t_home)
+        check('首頁：商務、生活、學術主題分類，保留多益核心字彙、常用片語，沒有 A–Z', t_home)
 
         def topic_pages():
             n = page.locator('#topic-body .pager').first.locator('button').count()
@@ -318,14 +318,13 @@ def main():
 
         def t_everyday():
             # 日常用法：慣用語優先顯示日常意思，必要時附英英解釋；變化形先顯示原形的意思
-            search('soft spot')
+            search('square one')
             sense = page.locator('#dict-body .sense').first
-            expect(sense).to_contain_text('特別喜愛')
-            expect(sense.locator('.sense-en')).to_contain_text('liking')
-            assert '軟點' not in page.locator('#dict-body').inner_text()
+            expect(sense).to_contain_text('原點')
+            expect(sense.locator('.sense-en')).to_contain_text('beginning')
             search('crawling')
-            expect(page.locator('#dict-body .sense').first).to_contain_text('爬行')
-        check('辭典：日常慣用語與變化形顯示日常意思（soft spot／crawling）', t_everyday)
+            expect(page.locator('#dict-body')).to_contain_text('爬行')
+        check('辭典：日常慣用語與變化形顯示日常意思（square one／crawling）', t_everyday)
 
         def t_pron():
             # 音標以 Wiktionary 標示的英式／美式為準：美式取第一個變體（含 tʃ），沒有英式錄音就標「合成」

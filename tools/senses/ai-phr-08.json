@@ -1,0 +1,2372 @@
+{
+ "account for": [
+  {
+   "p": "phr",
+   "zh": "說明…的原因；對…做出解釋",
+   "ai": [
+    [
+     "Can you account for the missing money in this report?",
+     "你能說明這份報告中短少的錢是怎麼回事嗎？"
+    ],
+    [
+     "Bad weather accounts for the low number of visitors today.",
+     "壞天氣就是今天遊客這麼少的原因。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（比例）佔",
+   "ai": [
+    [
+     "Students account for about half of the people in this cafe.",
+     "學生約佔這間咖啡廳客人的一半。"
+    ],
+    [
+     "Rent accounted for most of her monthly spending.",
+     "房租佔了她每月開銷的大部分。"
+    ]
+   ]
+  }
+ ],
+ "act on": [
+  {
+   "p": "phr",
+   "zh": "按…行動；依照…去做",
+   "ai": [
+    [
+     "The police acted on a tip from a neighbor.",
+     "警方根據一名鄰居的線報採取了行動。"
+    ],
+    [
+     "She did not act on her doctor's advice until it was too late.",
+     "她直到太遲才聽從醫生的建議去做。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "對…產生作用",
+   "ai": [
+    [
+     "This medicine acts on the nerves to reduce pain.",
+     "這種藥作用於神經以減輕疼痛。"
+    ],
+    [
+     "The chemical acts on metal and slowly makes it weaker.",
+     "這種化學物質會作用在金屬上，使它慢慢變脆弱。"
+    ]
+   ]
+  }
+ ],
+ "add up to": [
+  {
+   "p": "phr",
+   "zh": "合計達；總共是",
+   "ai": [
+    [
+     "All the small costs added up to more than we expected.",
+     "所有的小額費用加起來比我們預期的還多。"
+    ],
+    [
+     "The bill adds up to fifty dollars for the four of us.",
+     "我們四個人的帳單總共是五十元。"
+    ]
+   ]
+  }
+ ],
+ "add to": [
+  {
+   "p": "phr",
+   "zh": "增加；加到…上",
+   "ai": [
+    [
+     "Adding more sugar will add to the sweetness of the tea.",
+     "多加點糖會讓茶更甜。"
+    ],
+    [
+     "The new paint added to the beauty of the old house.",
+     "新油漆讓這棟老房子更漂亮。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "使（問題、情況）更嚴重",
+   "ai": [
+    [
+     "The heavy rain added to our troubles on the road.",
+     "大雨讓我們在路上的麻煩更多了。"
+    ],
+    [
+     "Losing his keys only added to his stress that morning.",
+     "弄丟鑰匙只是讓他那天早上的壓力更大。"
+    ]
+   ]
+  }
+ ],
+ "agree with": [
+  {
+   "p": "phr",
+   "zh": "同意…；與…意見一致",
+   "ai": [
+    [
+     "I agree with you about the movie; the ending was weak.",
+     "關於那部電影我同意你，結局很弱。"
+    ],
+    [
+     "My sister never agrees with me about what to eat.",
+     "我姊姊從來不跟我在吃什麼這件事上意見一致。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（食物、氣候）適合…",
+   "ai": [
+    [
+     "Spicy food does not agree with my stomach.",
+     "辣的食物不適合我的胃。"
+    ],
+    [
+     "The cold weather here agrees with him, so he looks healthy.",
+     "這裡的冷天氣很適合他，所以他看起來很健康。"
+    ]
+   ]
+  }
+ ],
+ "aim at": [
+  {
+   "p": "phr",
+   "zh": "瞄準；對準",
+   "ai": [
+    [
+     "He aimed at the bird with his camera and waited.",
+     "他用相機瞄準那隻鳥，然後等待著。"
+    ],
+    [
+     "The boy aimed at the target and threw the ball.",
+     "男孩瞄準目標後把球丟了出去。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "旨在；目的在於",
+   "ai": [
+    [
+     "This program aims at helping young people find jobs.",
+     "這個計畫旨在幫助年輕人找到工作。"
+    ],
+    [
+     "The new rules are aimed at making the roads safer.",
+     "新規定的目的在於讓道路更安全。"
+    ]
+   ]
+  }
+ ],
+ "allow for": [
+  {
+   "p": "phr",
+   "zh": "把…考慮進去；預留",
+   "ai": [
+    [
+     "We should allow for heavy traffic when we plan the trip.",
+     "我們規劃行程時應該把塞車考慮進去。"
+    ],
+    [
+     "Allow for some extra time in case the train is late.",
+     "預留一些額外的時間，以防火車誤點。"
+    ]
+   ]
+  }
+ ],
+ "ask around": [
+  {
+   "p": "phr",
+   "zh": "到處打聽",
+   "ai": [
+    [
+     "I will ask around to see who knows a good dentist.",
+     "我會到處問問看誰知道好的牙醫。"
+    ],
+    [
+     "She asked around the office, but nobody had seen her phone.",
+     "她在辦公室到處問，但沒人看過她的手機。"
+    ]
+   ]
+  }
+ ],
+ "back away": [
+  {
+   "p": "phr",
+   "zh": "慢慢後退",
+   "ai": [
+    [
+     "The children backed away when the big dog barked.",
+     "大狗一叫，孩子們就慢慢往後退。"
+    ],
+    [
+     "Back away from the edge, please; it is not safe.",
+     "請離邊緣遠一點往後退，那裡不安全。"
+    ]
+   ]
+  }
+ ],
+ "back down": [
+  {
+   "p": "phr",
+   "zh": "讓步；退讓",
+   "ai": [
+    [
+     "Neither side wanted to back down during the long argument.",
+     "在這場長時間的爭論中，雙方都不想讓步。"
+    ],
+    [
+     "The manager backed down and agreed to change the schedule.",
+     "經理讓步了，同意更改時程。"
+    ]
+   ]
+  }
+ ],
+ "back off": [
+  {
+   "p": "phr",
+   "zh": "退後；走開",
+   "ai": [
+    [
+     "Please back off and give the injured man some room.",
+     "請退後一點，讓受傷的人有些空間。"
+    ],
+    [
+     "The dog backed off when I raised my hand.",
+     "我一舉手，那隻狗就退開了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "不再逼迫；放手",
+   "ai": [
+    [
+     "My parents finally backed off and let me choose my own major.",
+     "我父母終於不再逼我，讓我自己選主修。"
+    ],
+    [
+     "Back off a little and let him finish the work his way.",
+     "別逼那麼緊，讓他用自己的方式把工作做完。"
+    ]
+   ]
+  }
+ ],
+ "back out": [
+  {
+   "p": "phr",
+   "zh": "臨時反悔；打退堂鼓",
+   "ai": [
+    [
+     "He backed out of the trip at the last minute.",
+     "他在最後一刻反悔不去旅行了。"
+    ],
+    [
+     "You cannot back out now; everyone is counting on you.",
+     "你現在不能打退堂鼓，大家都指望你。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "倒車出來",
+   "ai": [
+    [
+     "She carefully backed out of the narrow parking space.",
+     "她小心地把車從狹窄的停車格倒出來。"
+    ],
+    [
+     "Dad backed out of the garage and waved to us.",
+     "爸爸把車從車庫倒出來並向我們揮手。"
+    ]
+   ]
+  }
+ ],
+ "bear with": [
+  {
+   "p": "phr",
+   "zh": "耐心等一下；多包涵",
+   "ai": [
+    [
+     "Please bear with me while I find your file.",
+     "請稍等一下，我正在找你的檔案。"
+    ],
+    [
+     "Thank you for bearing with us during the system problem.",
+     "感謝您在系統出問題期間多包涵。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "忍耐；忍受",
+   "ai": [
+    [
+     "We had to bear with the noise from the building site.",
+     "我們只好忍受工地傳來的噪音。"
+    ],
+    [
+     "He bore with the long wait without complaining.",
+     "他毫無怨言地忍受漫長的等待。"
+    ]
+   ]
+  }
+ ],
+ "beat up": [
+  {
+   "p": "phr",
+   "zh": "自責（beat oneself up）",
+   "ai": [
+    [
+     "Don't beat yourself up over one small mistake.",
+     "不要為了一個小錯誤這樣責怪自己。"
+    ],
+    [
+     "She kept beating herself up about missing the deadline.",
+     "她一直為錯過截止日期而自責。"
+    ]
+   ]
+  }
+ ],
+ "believe in": [
+  {
+   "p": "phr",
+   "zh": "相信…存在；信仰",
+   "ai": [
+    [
+     "My little brother still believes in ghosts.",
+     "我弟弟還相信有鬼。"
+    ],
+    [
+     "Many people believe in a higher power.",
+     "許多人相信有更高的力量存在。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "信任；對…有信心",
+   "ai": [
+    [
+     "I believe in you, so just do your best.",
+     "我相信你，所以盡力就好。"
+    ],
+    [
+     "Our teacher believes in learning by doing.",
+     "我們老師相信從做中學。"
+    ]
+   ]
+  }
+ ],
+ "blow away": [
+  {
+   "p": "phr",
+   "zh": "吹走；吹散",
+   "ai": [
+    [
+     "The strong wind blew away my hat.",
+     "強風把我的帽子吹走了。"
+    ],
+    [
+     "Dry leaves blew away across the empty street.",
+     "枯葉被吹過空蕩的街道。"
+    ]
+   ]
+  }
+ ],
+ "blow out": [
+  {
+   "p": "phr",
+   "zh": "吹熄",
+   "ai": [
+    [
+     "She blew out all the candles on the cake.",
+     "她把蛋糕上所有的蠟燭都吹熄了。"
+    ],
+    [
+     "The wind blew out the small fire before we could cook.",
+     "風在我們煮東西前就把小火吹熄了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "爆胎；（輪胎）爆裂",
+   "ai": [
+    [
+     "One of our tires blew out on the highway.",
+     "我們有一個輪胎在高速公路上爆了。"
+    ],
+    [
+     "The old tire blew out because it was too thin.",
+     "那條舊輪胎因為太薄而爆開了。"
+    ]
+   ]
+  }
+ ],
+ "break away": [
+  {
+   "p": "phr",
+   "zh": "脫離；掙脫",
+   "ai": [
+    [
+     "A small group broke away from the party and started its own.",
+     "一小群人脫離了那個政黨，自己另組一個。"
+    ],
+    [
+     "The runner broke away from the others near the finish line.",
+     "那位跑者在接近終點時甩開了其他人。"
+    ]
+   ]
+  }
+ ],
+ "break into": [
+  {
+   "p": "phr",
+   "zh": "闖入；破門而入",
+   "ai": [
+    [
+     "Someone broke into our car last night.",
+     "昨晚有人闖進我們的車裡。"
+    ],
+    [
+     "Thieves broke into the shop through a back window.",
+     "小偷從後窗闖進了那家店。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "突然開始（做某事）",
+   "ai": [
+    [
+     "The baby broke into tears when his mother left.",
+     "媽媽離開時，嬰兒突然哭了起來。"
+    ],
+    [
+     "The whole class broke into laughter at his joke.",
+     "全班因為他的笑話突然笑了起來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "打進（某個行業或市場）",
+   "ai": [
+    [
+     "It is hard to break into the film business.",
+     "要打進電影圈很不容易。"
+    ],
+    [
+     "She finally broke into the fashion industry as a designer.",
+     "她終於以設計師的身分打進時尚界。"
+    ]
+   ]
+  }
+ ],
+ "break off": [
+  {
+   "p": "phr",
+   "zh": "折斷；弄斷",
+   "ai": [
+    [
+     "He broke off a piece of the chocolate and gave it to me.",
+     "他掰下一塊巧克力給我。"
+    ],
+    [
+     "The branch broke off in the storm.",
+     "樹枝在暴風雨中斷掉了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "突然停止；中斷",
+   "ai": [
+    [
+     "She broke off in the middle of her sentence.",
+     "她話說到一半突然停了下來。"
+    ],
+    [
+     "The two countries broke off talks last week.",
+     "兩國上週中斷了會談。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "斷絕（關係）；結束",
+   "ai": [
+    [
+     "They broke off their engagement after a few months.",
+     "他們在幾個月後解除了婚約。"
+    ],
+    [
+     "He broke off all contact with his old friends.",
+     "他和老朋友們斷絕了所有聯絡。"
+    ]
+   ]
+  }
+ ],
+ "break through": [
+  {
+   "p": "phr",
+   "zh": "突破；衝破",
+   "ai": [
+    [
+     "The sun finally broke through the thick clouds.",
+     "太陽終於穿透了厚厚的雲層。"
+    ],
+    [
+     "The firefighters broke through the door to reach the room.",
+     "消防員破門而入，進到那個房間。"
+    ]
+   ]
+  }
+ ],
+ "breathe in": [
+  {
+   "p": "phr",
+   "zh": "吸氣；吸入",
+   "ai": [
+    [
+     "Breathe in slowly and count to four.",
+     "慢慢吸氣，數到四。"
+    ],
+    [
+     "We stopped to breathe in the fresh mountain air.",
+     "我們停下來吸一口新鮮的山間空氣。"
+    ]
+   ]
+  }
+ ],
+ "breathe out": [
+  {
+   "p": "phr",
+   "zh": "吐氣；呼出",
+   "ai": [
+    [
+     "Breathe out slowly through your mouth.",
+     "用嘴巴慢慢吐氣。"
+    ],
+    [
+     "He breathed out and tried to relax before the test.",
+     "他吐了口氣，試著在考試前放鬆。"
+    ]
+   ]
+  }
+ ],
+ "bring along": [
+  {
+   "p": "phr",
+   "zh": "帶著；隨身攜帶",
+   "ai": [
+    [
+     "Don't forget to bring along an umbrella.",
+     "別忘了帶一把傘。"
+    ],
+    [
+     "She brought along her cousin to the party.",
+     "她帶了表妹一起去派對。"
+    ]
+   ]
+  }
+ ],
+ "bring forward": [
+  {
+   "p": "phr",
+   "zh": "提前；使提早",
+   "ai": [
+    [
+     "The company brought forward the meeting to Monday.",
+     "公司把會議提前到週一。"
+    ],
+    [
+     "They brought forward the wedding by two weeks.",
+     "他們把婚禮提前了兩週。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "提出（意見、議題）",
+   "ai": [
+    [
+     "Several members brought forward new ideas at the meeting.",
+     "好幾位成員在會議上提出了新想法。"
+    ],
+    [
+     "He brought forward a plan to save energy.",
+     "他提出了一個節約能源的計畫。"
+    ]
+   ]
+  }
+ ],
+ "bring on": [
+  {
+   "p": "phr",
+   "zh": "引起；導致（常指不好的事）",
+   "ai": [
+    [
+     "Cold air can bring on a cough.",
+     "冷空氣可能會引起咳嗽。"
+    ],
+    [
+     "Too much stress brought on his headaches.",
+     "壓力太大引發了他的頭痛。"
+    ]
+   ]
+  }
+ ],
+ "bring over": [
+  {
+   "p": "phr",
+   "zh": "帶…過來",
+   "ai": [
+    [
+     "Why don't you bring your friends over this weekend?",
+     "這個週末何不帶你的朋友們來玩？"
+    ],
+    [
+     "She brought over some fruit for the neighbors.",
+     "她帶了一些水果過來給鄰居。"
+    ]
+   ]
+  }
+ ],
+ "brush up": [
+  {
+   "p": "phr",
+   "zh": "複習；加強（brush up on）",
+   "ai": [
+    [
+     "I need to brush up on my English before the trip.",
+     "我在旅行前需要加強一下我的英文。"
+    ],
+    [
+     "He brushed up his math skills before the exam.",
+     "他在考試前複習了數學能力。"
+    ]
+   ]
+  }
+ ],
+ "burn down": [
+  {
+   "p": "phr",
+   "zh": "燒毀；燒光",
+   "ai": [
+    [
+     "The old barn burned down last winter.",
+     "那間舊穀倉去年冬天被燒毀了。"
+    ],
+    [
+     "A candle left alone nearly burned the house down.",
+     "一根沒人看管的蠟燭差點把房子燒光。"
+    ]
+   ]
+  }
+ ],
+ "call up": [
+  {
+   "p": "phr",
+   "zh": "打電話給",
+   "ai": [
+    [
+     "I will call you up as soon as I get home.",
+     "我一到家就打電話給你。"
+    ],
+    [
+     "She called up her mother to say happy birthday.",
+     "她打電話給媽媽祝她生日快樂。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "喚起（記憶）；使想起",
+   "ai": [
+    [
+     "The smell of bread called up memories of my grandmother's kitchen.",
+     "麵包的香味讓我想起外婆的廚房。"
+    ],
+    [
+     "That old song calls up our school days.",
+     "那首老歌讓人想起我們的學生時代。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "召集；徵召",
+   "ai": [
+    [
+     "Many young men were called up during the war.",
+     "戰爭期間許多年輕人被徵召入伍。"
+    ],
+    [
+     "The coach called up two players from the junior team.",
+     "教練從青年隊調了兩名球員上來。"
+    ]
+   ]
+  }
+ ],
+ "care for": [
+  {
+   "p": "phr",
+   "zh": "照顧；照料",
+   "ai": [
+    [
+     "She cares for her elderly father at home.",
+     "她在家照顧年邁的父親。"
+    ],
+    [
+     "Nurses care for patients day and night.",
+     "護理師日夜照顧病人。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "喜歡；想要（常用於客氣詢問）",
+   "ai": [
+    [
+     "Would you care for a cup of tea?",
+     "你想來杯茶嗎？"
+    ],
+    [
+     "I don't care for loud music very much.",
+     "我不太喜歡吵鬧的音樂。"
+    ]
+   ]
+  }
+ ],
+ "carry over": [
+  {
+   "p": "phr",
+   "zh": "延續；留到以後（處理）",
+   "ai": [
+    [
+     "You can carry over unused vacation days to next year.",
+     "你可以把沒用完的休假日留到明年。"
+    ],
+    [
+     "Some of his bad habits carried over from his school days.",
+     "他有些壞習慣是從學生時代延續下來的。"
+    ]
+   ]
+  }
+ ],
+ "catch up on": [
+  {
+   "p": "phr",
+   "zh": "補做；補上（落下的事）",
+   "ai": [
+    [
+     "I want to catch up on my sleep this weekend.",
+     "這個週末我想補眠。"
+    ],
+    [
+     "She stayed late to catch up on her homework.",
+     "她留到很晚補寫功課。"
+    ]
+   ]
+  }
+ ],
+ "check into": [
+  {
+   "p": "phr",
+   "zh": "入住（飯店）；辦理住院手續",
+   "ai": [
+    [
+     "We checked into the hotel around noon.",
+     "我們中午左右辦理了飯店入住。"
+    ],
+    [
+     "He checked into the hospital for a small operation.",
+     "他為了一個小手術辦理了住院。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "調查；查明",
+   "ai": [
+    [
+     "The company will check into the problem right away.",
+     "公司會立刻調查這個問題。"
+    ],
+    [
+     "I'll check into train times and call you back.",
+     "我會查一下火車時刻再回電給你。"
+    ]
+   ]
+  }
+ ],
+ "check on": [
+  {
+   "p": "phr",
+   "zh": "查看（人或事的）狀況",
+   "ai": [
+    [
+     "I got up to check on the baby.",
+     "我起床去看看寶寶的狀況。"
+    ],
+    [
+     "Can you check on the soup while I answer the door?",
+     "我去應門時，你可以幫我看一下湯嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "核對；確認",
+   "ai": [
+    [
+     "Please check on the flight time before you leave.",
+     "出發前請先確認航班時間。"
+    ],
+    [
+     "He checked on the facts before writing the report.",
+     "他在寫報告前先核對了事實。"
+    ]
+   ]
+  }
+ ],
+ "chip in": [
+  {
+   "p": "phr",
+   "zh": "湊錢；出一份力",
+   "ai": [
+    [
+     "We all chipped in to buy her a gift.",
+     "我們大家一起湊錢買禮物給她。"
+    ],
+    [
+     "Everyone chipped in to clean the classroom.",
+     "每個人都出了一份力打掃教室。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "插話",
+   "ai": [
+    [
+     "He chipped in with a good idea during the discussion.",
+     "他在討論中插話，提出了一個好點子。"
+    ],
+    [
+     "Feel free to chip in if you disagree with me.",
+     "如果你不同意我的看法，隨時可以插話。"
+    ]
+   ]
+  }
+ ],
+ "clean out": [
+  {
+   "p": "phr",
+   "zh": "徹底清理；清空",
+   "ai": [
+    [
+     "We cleaned out the garage over the weekend.",
+     "我們週末把車庫徹底清理了一遍。"
+    ],
+    [
+     "She cleaned out her desk before leaving the job.",
+     "她離職前把書桌清空了。"
+    ]
+   ]
+  }
+ ],
+ "clear out": [
+  {
+   "p": "phr",
+   "zh": "清出；清空",
+   "ai": [
+    [
+     "Please clear out your locker by Friday.",
+     "請在週五前把你的置物櫃清空。"
+    ],
+    [
+     "We cleared out the old boxes from the storeroom.",
+     "我們把儲藏室裡的舊箱子清了出去。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "離開；走開",
+   "ai": [
+    [
+     "The police told everyone to clear out of the street.",
+     "警察要大家離開那條街。"
+    ],
+    [
+     "It's late, so let's clear out of here.",
+     "很晚了，我們離開這裡吧。"
+    ]
+   ]
+  }
+ ],
+ "close down": [
+  {
+   "p": "phr",
+   "zh": "關閉；歇業",
+   "ai": [
+    [
+     "The old cinema closed down last year.",
+     "那家老電影院去年歇業了。"
+    ],
+    [
+     "The factory will close down next month.",
+     "那間工廠下個月會關閉。"
+    ]
+   ]
+  }
+ ],
+ "come about": [
+  {
+   "p": "phr",
+   "zh": "發生；產生",
+   "ai": [
+    [
+     "How did this change come about?",
+     "這個改變是怎麼發生的？"
+    ],
+    [
+     "The meeting came about because of a simple mistake.",
+     "這場會議的起因只是一個小失誤。"
+    ]
+   ]
+  }
+ ],
+ "come along": [
+  {
+   "p": "phr",
+   "zh": "一起來；跟著來",
+   "ai": [
+    [
+     "Do you want to come along to the market?",
+     "你要不要一起去市場？"
+    ],
+    [
+     "Come along with us; we have room in the car.",
+     "跟我們一起來吧，車上還有位子。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "進展",
+   "ai": [
+    [
+     "How is your project coming along?",
+     "你的專案進展得如何？"
+    ],
+    [
+     "The new building is coming along nicely.",
+     "新大樓進行得很順利。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "出現；到來",
+   "ai": [
+    [
+     "A good chance came along, so he took it.",
+     "一個好機會出現了，所以他把握住了。"
+    ],
+    [
+     "The bus came along just as it started to rain.",
+     "公車就在開始下雨時來了。"
+    ]
+   ]
+  }
+ ],
+ "come apart": [
+  {
+   "p": "phr",
+   "zh": "散開；裂開",
+   "ai": [
+    [
+     "The old book came apart in my hands.",
+     "那本舊書在我手中散開了。"
+    ],
+    [
+     "The cake came apart when I tried to cut it.",
+     "我想切蛋糕時，它就散開了。"
+    ]
+   ]
+  }
+ ],
+ "come around": [
+  {
+   "p": "phr",
+   "zh": "順道來訪",
+   "ai": [
+    [
+     "Why don't you come around for dinner on Friday?",
+     "你週五何不順道過來吃晚餐？"
+    ],
+    [
+     "My neighbor came around to borrow a ladder.",
+     "我的鄰居過來借梯子。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "改變想法；回心轉意",
+   "ai": [
+    [
+     "He was against the idea at first, but he came around.",
+     "他起初反對這個想法，後來改變了心意。"
+    ],
+    [
+     "I think Mom will come around to the idea of a dog.",
+     "我想媽媽會慢慢接受養狗這個想法。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "恢復意識；甦醒",
+   "ai": [
+    [
+     "She came around a few minutes after she fainted.",
+     "她昏倒後幾分鐘就醒過來了。"
+    ],
+    [
+     "The patient came around slowly after the operation.",
+     "病人在手術後慢慢甦醒過來。"
+    ]
+   ]
+  }
+ ],
+ "come by": [
+  {
+   "p": "phr",
+   "zh": "順道過來；順便拜訪",
+   "ai": [
+    [
+     "Come by my office when you have a minute.",
+     "你有空時順道來我辦公室一下。"
+    ],
+    [
+     "A friend came by to return my book.",
+     "一位朋友過來還我書。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "取得；弄到（不容易得到的東西）",
+   "ai": [
+    [
+     "Good jobs are hard to come by these days.",
+     "現在好工作很難得到。"
+    ],
+    [
+     "How did you come by this old photograph?",
+     "你是怎麼弄到這張老照片的？"
+    ]
+   ]
+  }
+ ],
+ "come down with": [
+  {
+   "p": "phr",
+   "zh": "染上（疾病）；因…而病倒",
+   "ai": [
+    [
+     "I think I'm coming down with a cold.",
+     "我想我快感冒了。"
+    ],
+    [
+     "Half of the class came down with the flu.",
+     "班上有一半的人得了流感。"
+    ]
+   ]
+  }
+ ],
+ "come forward": [
+  {
+   "p": "phr",
+   "zh": "站出來；主動提供協助",
+   "ai": [
+    [
+     "The police asked anyone who saw the accident to come forward.",
+     "警方請任何目擊事故的人站出來。"
+    ],
+    [
+     "Three people came forward to help with the event.",
+     "有三個人主動站出來幫忙這場活動。"
+    ]
+   ]
+  }
+ ],
+ "come from": [
+  {
+   "p": "phr",
+   "zh": "來自；出身於",
+   "ai": [
+    [
+     "My grandmother comes from a small village.",
+     "我奶奶來自一個小村莊。"
+    ],
+    [
+     "Where does this word come from?",
+     "這個字是從哪裡來的？"
+    ]
+   ]
+  }
+ ],
+ "cope with": [
+  {
+   "p": "phr",
+   "zh": "應付；處理（困難）",
+   "ai": [
+    [
+     "She copes with stress by going for long walks.",
+     "她靠長時間散步來應付壓力。"
+    ],
+    [
+     "It is hard to cope with so much work.",
+     "要應付這麼多工作很困難。"
+    ]
+   ]
+  }
+ ],
+ "cover up": [
+  {
+   "p": "phr",
+   "zh": "掩蓋；隱瞞",
+   "ai": [
+    [
+     "He tried to cover up his mistake, but everyone noticed.",
+     "他試圖掩蓋自己的錯誤，但大家都發現了。"
+    ],
+    [
+     "The company covered up the problem for months.",
+     "那家公司把問題隱瞞了好幾個月。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "蓋住；遮住",
+   "ai": [
+    [
+     "Cover up the food so the flies stay away.",
+     "把食物蓋起來，免得蒼蠅靠近。"
+    ],
+    [
+     "She covered up the sleeping baby with a blanket.",
+     "她用毯子把熟睡的寶寶蓋好。"
+    ]
+   ]
+  }
+ ],
+ "crack up": [
+  {
+   "p": "phr",
+   "zh": "哈哈大笑",
+   "ai": [
+    [
+     "We all cracked up when he fell off the chair.",
+     "他從椅子上摔下來時，我們全都笑翻了。"
+    ],
+    [
+     "Her silly joke made the whole room crack up.",
+     "她的蠢笑話讓整個房間的人都笑翻了。"
+    ]
+   ]
+  }
+ ],
+ "cross off": [
+  {
+   "p": "phr",
+   "zh": "劃掉",
+   "ai": [
+    [
+     "She crossed off each item as she bought it.",
+     "她買了一樣就劃掉一樣。"
+    ],
+    [
+     "Cross his name off the list; he can't come.",
+     "把他的名字從名單上劃掉，他不能來。"
+    ]
+   ]
+  }
+ ],
+ "cut back": [
+  {
+   "p": "phr",
+   "zh": "削減；減少（cut back on）",
+   "ai": [
+    [
+     "I'm trying to cut back on sugar.",
+     "我正努力減少吃糖。"
+    ],
+    [
+     "The company cut back its spending this year.",
+     "公司今年削減了開支。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "修剪",
+   "ai": [
+    [
+     "You should cut back the roses in early spring.",
+     "你應該在早春修剪玫瑰。"
+    ],
+    [
+     "Dad cut back the bushes along the fence.",
+     "爸爸修剪了圍籬邊的灌木。"
+    ]
+   ]
+  }
+ ],
+ "cut down on": [
+  {
+   "p": "phr",
+   "zh": "減少；節省",
+   "ai": [
+    [
+     "The doctor told him to cut down on salt.",
+     "醫生叫他少吃點鹽。"
+    ],
+    [
+     "We must cut down on plastic bags.",
+     "我們必須減少使用塑膠袋。"
+    ]
+   ]
+  }
+ ],
+ "cut in": [
+  {
+   "p": "phr",
+   "zh": "插嘴；打斷",
+   "ai": [
+    [
+     "Sorry to cut in, but I have a question.",
+     "抱歉打斷一下，我有個問題。"
+    ],
+    [
+     "He kept cutting in while she was talking.",
+     "她說話時他一直插嘴。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "插隊；（開車）搶道",
+   "ai": [
+    [
+     "A car cut in right in front of us.",
+     "一輛車突然切到我們前面。"
+    ],
+    [
+     "It is rude to cut in at the front of a line.",
+     "在隊伍前面插隊很沒禮貌。"
+    ]
+   ]
+  }
+ ],
+ "depend on": [
+  {
+   "p": "phr",
+   "zh": "取決於；要看…而定",
+   "ai": [
+    [
+     "The price depends on the size of the room.",
+     "價格要看房間的大小而定。"
+    ],
+    [
+     "Whether we go depends on the weather.",
+     "我們去不去要看天氣而定。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "依靠；依賴",
+   "ai": [
+    [
+     "Young children depend on their parents.",
+     "年幼的孩子依賴他們的父母。"
+    ],
+    [
+     "You can depend on me to be there on time.",
+     "你可以放心，我會準時到。"
+    ]
+   ]
+  }
+ ],
+ "die out": [
+  {
+   "p": "phr",
+   "zh": "絕種；逐漸消失",
+   "ai": [
+    [
+     "Many old customs have died out in the city.",
+     "許多古老的習俗在城市裡已經消失了。"
+    ],
+    [
+     "Some animals die out when their homes are destroyed.",
+     "有些動物在棲息地被破壞時就會絕種。"
+    ]
+   ]
+  }
+ ],
+ "dig up": [
+  {
+   "p": "phr",
+   "zh": "挖出；掘起",
+   "ai": [
+    [
+     "The dog dug up a bone in the garden.",
+     "狗在花園裡挖出一根骨頭。"
+    ],
+    [
+     "Workers dug up the old pipe under the road.",
+     "工人把路下面的舊水管挖了出來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "查出；發掘（資訊）",
+   "ai": [
+    [
+     "The reporter dug up some interesting facts about the town.",
+     "記者挖掘出一些關於這個小鎮的有趣事實。"
+    ],
+    [
+     "I couldn't dig up any news about the old company.",
+     "我查不到那家老公司的任何消息。"
+    ]
+   ]
+  }
+ ],
+ "do away with": [
+  {
+   "p": "phr",
+   "zh": "廢除；去掉",
+   "ai": [
+    [
+     "The school decided to do away with the uniform rule.",
+     "學校決定廢除制服規定。"
+    ],
+    [
+     "We should do away with these old forms and use apps.",
+     "我們應該廢除這些舊表格改用應用程式。"
+    ]
+   ]
+  }
+ ],
+ "drag on": [
+  {
+   "p": "phr",
+   "zh": "拖延；拖得太久",
+   "ai": [
+    [
+     "The meeting dragged on for three hours.",
+     "那場會議拖了三個小時。"
+    ],
+    [
+     "The movie dragged on and I fell asleep.",
+     "那部電影拖得太長，我就睡著了。"
+    ]
+   ]
+  }
+ ],
+ "draw up": [
+  {
+   "p": "phr",
+   "zh": "草擬；擬定",
+   "ai": [
+    [
+     "The lawyer drew up a contract for us.",
+     "律師為我們擬了一份合約。"
+    ],
+    [
+     "They drew up a list of rules for the club.",
+     "他們為社團擬了一份規則清單。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（車）停下",
+   "ai": [
+    [
+     "A taxi drew up in front of the hotel.",
+     "一輛計程車在飯店前停了下來。"
+    ],
+    [
+     "The bus drew up at the corner.",
+     "公車在街角停了下來。"
+    ]
+   ]
+  }
+ ],
+ "drink up": [
+  {
+   "p": "phr",
+   "zh": "喝光；喝完",
+   "ai": [
+    [
+     "Drink up your milk before it gets warm.",
+     "趁牛奶還沒變溫，趕快喝完。"
+    ],
+    [
+     "They drank up the juice and asked for more.",
+     "他們把果汁喝光後又要了一些。"
+    ]
+   ]
+  }
+ ],
+ "drop in": [
+  {
+   "p": "phr",
+   "zh": "順便拜訪；順道來訪",
+   "ai": [
+    [
+     "Feel free to drop in any time this week.",
+     "這週隨時歡迎順道來坐坐。"
+    ],
+    [
+     "My uncle dropped in while we were having lunch.",
+     "我們吃午餐時叔叔順道來訪。"
+    ]
+   ]
+  }
+ ],
+ "drop in on": [
+  {
+   "p": "phr",
+   "zh": "順道拜訪（某人）",
+   "ai": [
+    [
+     "I'll drop in on my grandmother after work.",
+     "下班後我會順道去看看我奶奶。"
+    ],
+    [
+     "She dropped in on her old teacher while in town.",
+     "她到市區時順道拜訪了她的老師。"
+    ]
+   ]
+  }
+ ],
+ "drop off": [
+  {
+   "p": "phr",
+   "zh": "順路載到；把…放下",
+   "ai": [
+    [
+     "Can you drop me off at the station?",
+     "你可以載我到車站放我下車嗎？"
+    ],
+    [
+     "I dropped off the package at her house.",
+     "我把包裹送到她家放下。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "打瞌睡；睡著",
+   "ai": [
+    [
+     "Grandpa dropped off in his chair after dinner.",
+     "爺爺晚餐後在椅子上睡著了。"
+    ],
+    [
+     "I was so tired that I dropped off during the film.",
+     "我太累了，看電影時睡著了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "減少；下降",
+   "ai": [
+    [
+     "Sales dropped off after the holiday season.",
+     "假期過後銷量下滑。"
+    ],
+    [
+     "The number of visitors drops off in winter.",
+     "冬天遊客的數量會減少。"
+    ]
+   ]
+  }
+ ],
+ "drop out": [
+  {
+   "p": "phr",
+   "zh": "輟學；退學",
+   "ai": [
+    [
+     "He dropped out of college to start a small business.",
+     "他大學沒讀完就輟學去創業了。"
+    ],
+    [
+     "Many students drop out because they can't pay.",
+     "許多學生因為付不起學費而輟學。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "退出；中途放棄",
+   "ai": [
+    [
+     "Two runners dropped out of the race early.",
+     "有兩名跑者很早就退出了比賽。"
+    ],
+    [
+     "She dropped out of the choir after she moved.",
+     "她搬家後就退出了合唱團。"
+    ]
+   ]
+  }
+ ],
+ "drop out of": [
+  {
+   "p": "phr",
+   "zh": "退出；輟學",
+   "ai": [
+    [
+     "He dropped out of high school at sixteen.",
+     "他十六歲時從高中輟學。"
+    ],
+    [
+     "Don't drop out of the course now; you're doing well.",
+     "別現在退出這門課，你表現得很好。"
+    ]
+   ]
+  }
+ ],
+ "eat up": [
+  {
+   "p": "phr",
+   "zh": "吃光；吃完",
+   "ai": [
+    [
+     "Eat up your vegetables, and then you can have dessert.",
+     "把蔬菜吃光，然後你就可以吃甜點。"
+    ],
+    [
+     "The kids ate up all the cookies in ten minutes.",
+     "孩子們十分鐘內就把所有餅乾吃光了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "耗盡；用掉大量（錢、時間）",
+   "ai": [
+    [
+     "Rent eats up half of my salary.",
+     "房租吃掉了我一半的薪水。"
+    ],
+    [
+     "Long meetings eat up my whole afternoon.",
+     "冗長的會議占掉我整個下午。"
+    ]
+   ]
+  }
+ ],
+ "fall back": [
+  {
+   "p": "phr",
+   "zh": "後退；撤退",
+   "ai": [
+    [
+     "The crowd fell back when the car came closer.",
+     "車子靠近時，人群向後退開。"
+    ],
+    [
+     "The soldiers fell back to a safer place.",
+     "士兵們撤退到比較安全的地方。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "退而求助於（fall back on）",
+   "ai": [
+    [
+     "If the plan fails, we can fall back on our savings.",
+     "如果計畫失敗，我們還可以動用存款。"
+    ],
+    [
+     "She fell back on her old job when the business closed.",
+     "生意結束後，她回頭去做她以前的工作。"
+    ]
+   ]
+  }
+ ],
+ "fall back on": [
+  {
+   "p": "phr",
+   "zh": "求助於；退而依靠",
+   "ai": [
+    [
+     "He has a teaching license to fall back on.",
+     "他有教師證可以當作後路。"
+    ],
+    [
+     "When the power went out, we fell back on candles.",
+     "停電時，我們改用蠟燭。"
+    ]
+   ]
+  }
+ ],
+ "fall out": [
+  {
+   "p": "phr",
+   "zh": "吵架；鬧翻（fall out with）",
+   "ai": [
+    [
+     "She fell out with her best friend over money.",
+     "她為了錢跟最好的朋友鬧翻了。"
+    ],
+    [
+     "The two brothers fell out years ago.",
+     "那兩兄弟多年前就鬧翻了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "脫落；掉出來",
+   "ai": [
+    [
+     "His hair started to fall out after the illness.",
+     "生病後他的頭髮開始掉。"
+    ],
+    [
+     "Some coins fell out of my pocket.",
+     "有幾枚硬幣從我口袋掉了出來。"
+    ]
+   ]
+  }
+ ],
+ "fall over": [
+  {
+   "p": "phr",
+   "zh": "跌倒；摔倒",
+   "ai": [
+    [
+     "The little boy fell over and started to cry.",
+     "小男孩跌倒後開始哭了。"
+    ],
+    [
+     "Be careful not to fall over the cable.",
+     "小心別被電線絆倒。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "倒下；傾倒",
+   "ai": [
+    [
+     "The tall vase fell over during the earthquake.",
+     "那個高花瓶在地震時倒了。"
+    ],
+    [
+     "The wind made the old fence fall over.",
+     "風把舊圍籬吹倒了。"
+    ]
+   ]
+  }
+ ],
+ "fall through": [
+  {
+   "p": "phr",
+   "zh": "落空；失敗",
+   "ai": [
+    [
+     "Our plan to travel abroad fell through.",
+     "我們出國旅行的計畫落空了。"
+    ],
+    [
+     "The deal fell through at the last minute.",
+     "這筆交易在最後一刻告吹了。"
+    ]
+   ]
+  }
+ ],
+ "feel like": [
+  {
+   "p": "phr",
+   "zh": "想要（feel like doing）",
+   "ai": [
+    [
+     "I feel like eating noodles tonight.",
+     "我今晚想吃麵。"
+    ],
+    [
+     "Do you feel like going for a walk?",
+     "你想去散步嗎？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "感覺像；覺得好像",
+   "ai": [
+    [
+     "After the long flight, I felt like a different person.",
+     "長途飛行後，我覺得自己像變了個人。"
+    ],
+    [
+     "It feels like rain is coming.",
+     "感覺好像要下雨了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "摸起來像",
+   "ai": [
+    [
+     "This blanket feels like silk.",
+     "這條毯子摸起來像絲綢。"
+    ],
+    [
+     "The rock felt like ice in my hand.",
+     "那塊石頭握在手裡像冰一樣。"
+    ]
+   ]
+  }
+ ],
+ "fight back": [
+  {
+   "p": "phr",
+   "zh": "反擊；抵抗",
+   "ai": [
+    [
+     "The small team fought back and won the game.",
+     "那支小球隊反擊後贏得了比賽。"
+    ],
+    [
+     "You have to fight back when someone treats you unfairly.",
+     "有人對你不公平時，你得起身抗爭。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "忍住（情緒）",
+   "ai": [
+    [
+     "She fought back tears during the speech.",
+     "她在演講時強忍著淚水。"
+    ],
+    [
+     "He fought back the urge to laugh.",
+     "他忍住了想笑的衝動。"
+    ]
+   ]
+  }
+ ],
+ "fight off": [
+  {
+   "p": "phr",
+   "zh": "擊退；抵擋",
+   "ai": [
+    [
+     "The body can fight off many kinds of germs.",
+     "身體能抵抗許多種細菌。"
+    ],
+    [
+     "Villagers fought off the wolves with torches.",
+     "村民們用火把擊退了狼群。"
+    ]
+   ]
+  }
+ ],
+ "finish up": [
+  {
+   "p": "phr",
+   "zh": "結束；完成",
+   "ai": [
+    [
+     "Let's finish up the report before lunch.",
+     "我們午餐前把報告完成吧。"
+    ],
+    [
+     "She finished up her work and went home.",
+     "她把工作做完就回家了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "用光；吃完",
+   "ai": [
+    [
+     "Please finish up the rice so we don't waste it.",
+     "請把飯吃完，免得浪費。"
+    ],
+    [
+     "We finished up the milk this morning.",
+     "今天早上我們把牛奶喝完了。"
+    ]
+   ]
+  }
+ ],
+ "fit in": [
+  {
+   "p": "phr",
+   "zh": "融入；合群",
+   "ai": [
+    [
+     "It was hard to fit in at my new school.",
+     "在新學校很難融入。"
+    ],
+    [
+     "He tries to fit in by dressing like the others.",
+     "他試著穿得跟別人一樣來融入大家。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "抽出時間安排（人或事）",
+   "ai": [
+    [
+     "The doctor can fit you in at three o'clock.",
+     "醫生可以在三點幫你排個時間。"
+    ],
+    [
+     "I couldn't fit in any exercise this week.",
+     "這週我沒辦法抽出時間運動。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放得下；裝得下",
+   "ai": [
+    [
+     "Will all these books fit in your bag?",
+     "這些書全都放得進你的包包嗎？"
+    ],
+    [
+     "Five people can't fit in this small car.",
+     "這輛小車裝不下五個人。"
+    ]
+   ]
+  }
+ ],
+ "focus on": [
+  {
+   "p": "phr",
+   "zh": "專注於；把重點放在",
+   "ai": [
+    [
+     "I can't focus on my homework with the TV on.",
+     "電視開著，我沒辦法專心寫功課。"
+    ],
+    [
+     "Let's focus on the main problem first.",
+     "我們先把重點放在主要問題上。"
+    ]
+   ]
+  }
+ ],
+ "follow up on": [
+  {
+   "p": "phr",
+   "zh": "追蹤；進一步跟進",
+   "ai": [
+    [
+     "I will follow up on your request tomorrow.",
+     "我明天會跟進你的要求。"
+    ],
+    [
+     "The nurse called to follow up on his test results.",
+     "護理師打電話追蹤他的檢查結果。"
+    ]
+   ]
+  }
+ ],
+ "get across": [
+  {
+   "p": "phr",
+   "zh": "講清楚；讓人理解",
+   "ai": [
+    [
+     "He used pictures to get across his idea.",
+     "他用圖片把他的想法講清楚。"
+    ],
+    [
+     "It's hard to get across how happy I am.",
+     "我很難表達我有多開心。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "穿越；越過",
+   "ai": [
+    [
+     "We got across the river by boat.",
+     "我們搭船過了河。"
+    ],
+    [
+     "It took ten minutes to get across the busy road.",
+     "過那條繁忙的馬路花了十分鐘。"
+    ]
+   ]
+  }
+ ],
+ "get along with": [
+  {
+   "p": "phr",
+   "zh": "與…相處融洽",
+   "ai": [
+    [
+     "I get along with my coworkers very well.",
+     "我跟同事們相處得很好。"
+    ],
+    [
+     "She doesn't get along with her new roommate.",
+     "她跟新室友處不來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "（工作等）進展順利",
+   "ai": [
+    [
+     "How are you getting along with your new job?",
+     "你的新工作做得怎麼樣？"
+    ],
+    [
+     "He is getting along with his studies nicely.",
+     "他的課業進展得很順利。"
+    ]
+   ]
+  }
+ ],
+ "get away with": [
+  {
+   "p": "phr",
+   "zh": "做壞事卻逃過懲罰；僥倖過關",
+   "ai": [
+    [
+     "He cheated on the test and got away with it.",
+     "他考試作弊還沒被抓到。"
+    ],
+    [
+     "You can't get away with lying to me.",
+     "你騙我是不可能逃過責罰的。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "帶著…逃走",
+   "ai": [
+    [
+     "The thieves got away with a lot of cash.",
+     "小偷帶著大筆現金逃走了。"
+    ],
+    [
+     "Nobody saw how the boy got away with the cake.",
+     "沒人看到那男孩是怎麼把蛋糕拿走的。"
+    ]
+   ]
+  }
+ ],
+ "get back to": [
+  {
+   "p": "phr",
+   "zh": "回覆；之後再聯絡",
+   "ai": [
+    [
+     "I'll get back to you by tomorrow morning.",
+     "我明天早上前會再回覆你。"
+    ],
+    [
+     "She said she would get back to us soon.",
+     "她說她很快會再聯絡我們。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "回到…；繼續做…",
+   "ai": [
+    [
+     "Let's get back to work after the break.",
+     "休息過後我們繼續工作吧。"
+    ],
+    [
+     "We got back to the hotel around midnight.",
+     "我們大約午夜才回到飯店。"
+    ]
+   ]
+  }
+ ],
+ "get by": [
+  {
+   "p": "phr",
+   "zh": "勉強過活；勉強應付",
+   "ai": [
+    [
+     "She gets by on a small salary.",
+     "她靠微薄的薪水勉強過活。"
+    ],
+    [
+     "I can get by in Japanese when I travel.",
+     "旅行時我的日文勉強夠用。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "擠過去；通過",
+   "ai": [
+    [
+     "Excuse me, may I get by?",
+     "不好意思，我可以過一下嗎？"
+    ],
+    [
+     "The truck was too wide to get by.",
+     "那輛卡車太寬，過不去。"
+    ]
+   ]
+  }
+ ],
+ "get down to": [
+  {
+   "p": "phr",
+   "zh": "開始認真做；著手",
+   "ai": [
+    [
+     "Let's get down to business.",
+     "我們開始談正事吧。"
+    ],
+    [
+     "He sat down and got down to his homework.",
+     "他坐下來開始認真寫功課。"
+    ]
+   ]
+  }
+ ],
+ "get in": [
+  {
+   "p": "phr",
+   "zh": "進去；上車",
+   "ai": [
+    [
+     "Get in the car; we are late.",
+     "上車吧，我們遲到了。"
+    ],
+    [
+     "The thief got in through an open window.",
+     "小偷從一扇沒關的窗戶進去了。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "到達；抵達",
+   "ai": [
+    [
+     "The train got in ten minutes late.",
+     "火車晚了十分鐘進站。"
+    ],
+    [
+     "What time did you get in last night?",
+     "你昨晚幾點到的？"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "被錄取；入選",
+   "ai": [
+    [
+     "She worked hard and got in to her dream school.",
+     "她努力用功，考進了夢想中的學校。"
+    ],
+    [
+     "He tried out for the team, but he didn't get in.",
+     "他去參加球隊選拔，但沒被選上。"
+    ]
+   ]
+  }
+ ],
+ "get into": [
+  {
+   "p": "phr",
+   "zh": "進入；考進",
+   "ai": [
+    [
+     "She got into a good university.",
+     "她考進了一所很好的大學。"
+    ],
+    [
+     "We got into the room with a spare key.",
+     "我們用備用鑰匙進了房間。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "陷入；惹上（麻煩）",
+   "ai": [
+    [
+     "He got into trouble for being late again.",
+     "他又因為遲到而惹上麻煩。"
+    ],
+    [
+     "The kids got into a fight at the park.",
+     "孩子們在公園裡吵了起來。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "開始喜歡上；迷上",
+   "ai": [
+    [
+     "I got into jazz music last year.",
+     "我去年迷上了爵士樂。"
+    ],
+    [
+     "My sister got into cooking during the holiday.",
+     "我姊姊在假期間迷上了烹飪。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "穿上；擠進（衣服）",
+   "ai": [
+    [
+     "I can't get into these old jeans anymore.",
+     "我已經穿不下這些舊牛仔褲了。"
+    ],
+    [
+     "She got into her coat and left.",
+     "她穿上外套就出門了。"
+    ]
+   ]
+  }
+ ],
+ "get on with": [
+  {
+   "p": "phr",
+   "zh": "繼續做（get on with）",
+   "ai": [
+    [
+     "Stop talking and get on with your work.",
+     "別說話了，繼續做你的工作。"
+    ],
+    [
+     "Let's get on with the show.",
+     "我們繼續進行節目吧。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "和…處得來",
+   "ai": [
+    [
+     "I get on with my neighbors quite well.",
+     "我跟鄰居相處得相當好。"
+    ],
+    [
+     "Does he get on with his new boss?",
+     "他跟新老闆處得來嗎？"
+    ]
+   ]
+  }
+ ],
+ "get out of": [
+  {
+   "p": "phr",
+   "zh": "離開；從…出來",
+   "ai": [
+    [
+     "Get out of the water; it's too cold.",
+     "從水裡出來，水太冷了。"
+    ],
+    [
+     "She got out of the taxi and paid the driver.",
+     "她下了計程車，付錢給司機。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "擺脫；逃避（責任）",
+   "ai": [
+    [
+     "He tried to get out of washing the dishes.",
+     "他想辦法逃避洗碗。"
+    ],
+    [
+     "You can't get out of this meeting.",
+     "你躲不掉這場會議。"
+    ]
+   ]
+  }
+ ],
+ "go after": [
+  {
+   "p": "phr",
+   "zh": "追趕；追捕",
+   "ai": [
+    [
+     "The dog went after the ball.",
+     "狗追著球跑。"
+    ],
+    [
+     "The police went after the car.",
+     "警察追趕那輛車。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "追求；爭取",
+   "ai": [
+    [
+     "She went after the job she wanted.",
+     "她去爭取她想要的那份工作。"
+    ],
+    [
+     "Go after your dreams while you are young.",
+     "趁年輕去追求你的夢想。"
+    ]
+   ]
+  }
+ ],
+ "go along with": [
+  {
+   "p": "phr",
+   "zh": "贊同；附和",
+   "ai": [
+    [
+     "I'll go along with your plan.",
+     "我會贊同你的計畫。"
+    ],
+    [
+     "He didn't want to go along with the group's decision.",
+     "他不想順從大家的決定。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "陪…一起去",
+   "ai": [
+    [
+     "I'll go along with you to the doctor.",
+     "我陪你一起去看醫生。"
+    ],
+    [
+     "She went along with her friends to the beach.",
+     "她和朋友們一起去了海邊。"
+    ]
+   ]
+  }
+ ],
+ "go for": [
+  {
+   "p": "phr",
+   "zh": "選擇；要（點餐或做決定）",
+   "ai": [
+    [
+     "I think I'll go for the chicken.",
+     "我想我要點雞肉。"
+    ],
+    [
+     "She went for the cheaper phone.",
+     "她選了比較便宜的那支手機。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "去做…（go for a walk）",
+   "ai": [
+    [
+     "Let's go for a walk after dinner.",
+     "晚餐後我們去散步吧。"
+    ],
+    [
+     "They went for a swim in the lake.",
+     "他們去湖裡游泳。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "爭取；放手一試",
+   "ai": [
+    [
+     "You should go for it and apply for that job.",
+     "你應該放手一試，去應徵那份工作。"
+    ],
+    [
+     "The team is going for the championship this year.",
+     "這支隊伍今年要爭取冠軍。"
+    ]
+   ]
+  }
+ ],
+ "go in": [
+  {
+   "p": "phr",
+   "zh": "走進；進去",
+   "ai": [
+    [
+     "Let's go in out of the rain.",
+     "我們進去躲雨吧。"
+    ],
+    [
+     "He went in and sat at the back of the room.",
+     "他走進去，坐在房間後面。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "放得進；裝得下",
+   "ai": [
+    [
+     "This key won't go in the lock.",
+     "這把鑰匙插不進鎖孔。"
+    ],
+    [
+     "The big box didn't go in the trunk.",
+     "大箱子放不進後車廂。"
+    ]
+   ]
+  }
+ ]
+}

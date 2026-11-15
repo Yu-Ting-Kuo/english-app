@@ -140,6 +140,12 @@ def main():
         extra = json.loads(core_units.read_text(encoding='utf-8'))
         src['categories'] += extra['categories']
         src['topics'].update(extra['topics'])
+    # 常用片語（tools/add_phrase_topics.py 產生），放在多益核心字彙之後
+    phrase_topics = ROOT / 'tools' / 'phrase_topics.json'
+    if phrase_topics.exists():
+        extra = json.loads(phrase_topics.read_text(encoding='utf-8'))
+        src['categories'] += extra['categories']
+        src['topics'].update(extra['topics'])
     errors, missing = [], []
     owner = {}
     for c in src['categories']:
