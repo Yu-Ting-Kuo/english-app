@@ -1,0 +1,202 @@
+{
+ "as long as": [
+  {
+   "p": "phr",
+   "zh": "只要",
+   "ai": [
+    [
+     "You can stay here as long as you keep quiet.",
+     "只要你保持安靜，就可以待在這裡。"
+    ],
+    [
+     "As long as it doesn't rain, we will go hiking tomorrow.",
+     "只要不下雨，我們明天就去健行。"
+    ],
+    [
+     "I will help you as long as you try your best.",
+     "只要你盡力，我就會幫你。"
+    ]
+   ]
+  }
+ ],
+ "even though": [
+  {
+   "p": "phr",
+   "zh": "雖然，儘管",
+   "ai": [
+    [
+     "He went to work even though he felt sick.",
+     "雖然他覺得不舒服，還是去上班了。"
+    ],
+    [
+     "Even though it was late, she kept studying for the exam.",
+     "儘管很晚了，她還是繼續準備考試。"
+    ],
+    [
+     "We enjoyed the trip even though the weather was bad.",
+     "儘管天氣不好，我們還是很享受這趟旅行。"
+    ]
+   ]
+  }
+ ],
+ "due to": [
+  {
+   "p": "phr",
+   "zh": "由於，因為",
+   "ai": [
+    [
+     "The game was cancelled due to heavy rain.",
+     "比賽因為大雨而取消了。"
+    ],
+    [
+     "Due to a power problem, the train was late.",
+     "由於電力問題，火車誤點了。"
+    ],
+    [
+     "His success is due to years of hard work.",
+     "他的成功要歸功於多年的努力。"
+    ]
+   ]
+  }
+ ],
+ "a couple of": [
+  {
+   "p": "phr",
+   "zh": "兩個、兩三個、幾個",
+   "ai": [
+    [
+     "I bought a couple of apples at the market.",
+     "我在市場買了幾顆蘋果。"
+    ],
+    [
+     "She waited for a couple of minutes outside the door.",
+     "她在門外等了幾分鐘。"
+    ],
+    [
+     "We invited a couple of friends to dinner.",
+     "我們邀請了兩三位朋友來吃晚餐。"
+    ]
+   ]
+  }
+ ],
+ "plenty of": [
+  {
+   "p": "phr",
+   "zh": "許多的",
+   "ai": [
+    [
+     "There is plenty of food for everyone at the party.",
+     "派對上的食物多到每個人都夠吃。"
+    ],
+    [
+     "You should drink plenty of water every day.",
+     "你每天應該多喝水。"
+    ],
+    [
+     "He has plenty of time to finish the work.",
+     "他有很多時間可以完成工作。"
+    ]
+   ]
+  }
+ ],
+ "each other": [
+  {
+   "p": "phr",
+   "zh": "彼此，互相",
+   "ai": [
+    [
+     "The two friends help each other with homework.",
+     "這兩位朋友互相幫忙寫作業。"
+    ],
+    [
+     "We have known each other since we were kids.",
+     "我們從小就認識彼此。"
+    ],
+    [
+     "They smiled at each other and walked away.",
+     "他們互相微笑後便走開了。"
+    ]
+   ]
+  }
+ ],
+ "first of all": [
+  {
+   "p": "phr",
+   "zh": "首先",
+   "ai": [
+    [
+     "First of all, thank you for coming today.",
+     "首先，謝謝大家今天的到來。"
+    ],
+    [
+     "First of all, wash your hands before you cook.",
+     "首先，下廚前要先洗手。"
+    ],
+    [
+     "First of all, we need to choose a date.",
+     "首先，我們得先選個日期。"
+    ]
+   ]
+  }
+ ],
+ "have fun": [
+  {
+   "p": "phr",
+   "zh": "玩得開心，好好玩",
+   "ai": [
+    [
+     "Have fun at the party tonight!",
+     "今晚的派對玩得開心喔！"
+    ],
+    [
+     "The children had fun playing in the snow.",
+     "孩子們在雪地裡玩得很開心。"
+    ],
+    [
+     "I hope you have fun on your trip.",
+     "希望你旅途愉快。"
+    ]
+   ]
+  }
+ ],
+ "make a mistake": [
+  {
+   "p": "phr",
+   "zh": "犯錯",
+   "ai": [
+    [
+     "Everyone can make a mistake sometimes.",
+     "每個人偶爾都會犯錯。"
+    ],
+    [
+     "I made a mistake on the last math question.",
+     "我在最後一題數學題上犯了錯。"
+    ],
+    [
+     "Don't be afraid to make a mistake when you practice.",
+     "練習時不要害怕犯錯。"
+    ]
+   ]
+  }
+ ],
+ "catch a cold": [
+  {
+   "p": "phr",
+   "zh": "感冒",
+   "ai": [
+    [
+     "Wear a warm coat so you don't catch a cold.",
+     "穿暖和的外套，才不會感冒。"
+    ],
+    [
+     "She caught a cold after walking in the rain.",
+     "她淋雨走路後感冒了。"
+    ],
+    [
+     "Many students catch a cold in winter.",
+     "很多學生在冬天會感冒。"
+    ]
+   ]
+  }
+ ]
+}
