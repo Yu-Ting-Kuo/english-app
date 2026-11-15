@@ -1,0 +1,430 @@
+{
+ "at first": [
+  {
+   "p": "phr",
+   "zh": "起先",
+   "ai": [
+    [
+     "At first, I could not understand a single word he said.",
+     "起先，我連他說的一個字都聽不懂。"
+    ],
+    [
+     "The water felt cold at first, but we soon got used to it.",
+     "水起先感覺很冷，但我們很快就習慣了。"
+    ],
+    [
+     "At first she was shy, but now she talks to everyone.",
+     "她起先很害羞，但現在跟每個人都聊得開。"
+    ]
+   ]
+  }
+ ],
+ "in advance": [
+  {
+   "p": "phr",
+   "zh": "預先",
+   "ai": [
+    [
+     "Please book your tickets in advance to get a better price.",
+     "請預先訂票才有比較好的價格。"
+    ],
+    [
+     "Thank you in advance for your help with the project.",
+     "先謝謝你對這個專案的幫忙。"
+    ],
+    [
+     "We told the teacher in advance that we would be late.",
+     "我們事先告訴老師我們會遲到。"
+    ]
+   ]
+  }
+ ],
+ "in general": [
+  {
+   "p": "phr",
+   "zh": "一般來說、大致上",
+   "ai": [
+    [
+     "In general, people in this city go to bed quite late.",
+     "一般來說，這座城市的人睡得相當晚。"
+    ],
+    [
+     "The movie was good in general, but the ending was weak.",
+     "這部電影大致上不錯，只是結局很弱。"
+    ],
+    [
+     "Students in general prefer short tests to long essays.",
+     "學生大致上比較喜歡短測驗而不是長篇報告。"
+    ]
+   ]
+  }
+ ],
+ "in particular": [
+  {
+   "p": "phr",
+   "zh": "特別",
+   "ai": [
+    [
+     "I like fruit, mangoes in particular.",
+     "我喜歡水果，特別是芒果。"
+    ],
+    [
+     "Is there anything in particular you want for dinner?",
+     "晚餐你有什麼特別想吃的嗎？"
+    ],
+    [
+     "The teacher praised one student in particular for her effort.",
+     "老師特別稱讚其中一位學生的努力。"
+    ]
+   ]
+  }
+ ],
+ "in addition": [
+  {
+   "p": "phr",
+   "zh": "另外",
+   "ai": [
+    [
+     "In addition, the hotel offers free breakfast to all guests.",
+     "另外，這間旅館提供所有住客免費早餐。"
+    ],
+    [
+     "The job pays well, and in addition, the hours are flexible.",
+     "這份工作薪水不錯，另外上班時間也很彈性。"
+    ],
+    [
+     "In addition to English, she speaks Japanese and French.",
+     "除了英文，她還會說日文和法文。"
+    ]
+   ]
+  }
+ ],
+ "in front of": [
+  {
+   "p": "phr",
+   "zh": "在...前面",
+   "ai": [
+    [
+     "A tall man was standing in front of me in line.",
+     "一位高個子男士排在我前面。"
+    ],
+    [
+     "The children played in front of the school after class.",
+     "孩子們放學後在學校前面玩耍。"
+    ],
+    [
+     "Please don't park your car in front of my gate.",
+     "請不要把車停在我家大門前面。"
+    ]
+   ]
+  }
+ ],
+ "in spite of": [
+  {
+   "p": "phr",
+   "zh": "儘管、雖然",
+   "ai": [
+    [
+     "In spite of the rain, we had a great picnic.",
+     "儘管下雨，我們還是野餐得很開心。"
+    ],
+    [
+     "He went to work in spite of his bad cold.",
+     "儘管重感冒，他還是去上班了。"
+    ],
+    [
+     "In spite of her fear, she walked onto the stage.",
+     "儘管害怕，她還是走上了舞台。"
+    ]
+   ]
+  }
+ ],
+ "in terms of": [
+  {
+   "p": "phr",
+   "zh": "在…方面、就…而言",
+   "ai": [
+    [
+     "In terms of price, this phone is a good choice.",
+     "就價格而言，這支手機是不錯的選擇。"
+    ],
+    [
+     "The two cities are very different in terms of weather.",
+     "這兩座城市在天氣方面差很多。"
+    ],
+    [
+     "We should think about the plan in terms of time and cost.",
+     "我們應該從時間和成本方面來思考這個計畫。"
+    ]
+   ]
+  }
+ ],
+ "on behalf of": [
+  {
+   "p": "phr",
+   "zh": "代表",
+   "ai": [
+    [
+     "I would like to thank you on behalf of the whole team.",
+     "我想代表整個團隊向你道謝。"
+    ],
+    [
+     "She accepted the prize on behalf of her class.",
+     "她代表全班領了這個獎。"
+    ],
+    [
+     "The manager spoke on behalf of all the workers.",
+     "經理代表所有員工發言。"
+    ]
+   ]
+  }
+ ],
+ "instead of": [
+  {
+   "p": "phr",
+   "zh": "而不是…、代替",
+   "ai": [
+    [
+     "I drank tea instead of coffee this morning.",
+     "我今天早上喝了茶而不是咖啡。"
+    ],
+    [
+     "Let's walk instead of taking the bus today.",
+     "我們今天走路吧，不要搭公車。"
+    ],
+    [
+     "Instead of watching TV, he decided to read a book.",
+     "他決定看書，而不是看電視。"
+    ]
+   ]
+  }
+ ],
+ "rather than": [
+  {
+   "p": "phr",
+   "zh": "而不是（A rather than B＝是 A 而不是 B）",
+   "ai": [
+    [
+     "She chose a quiet job rather than a stressful one.",
+     "她選了一份安靜的工作，而不是壓力大的工作。"
+    ],
+    [
+     "I prefer to cook at home rather than eat out.",
+     "我比較喜歡在家煮飯，而不是出去吃。"
+    ],
+    [
+     "The problem is the schedule, rather than the people.",
+     "問題出在時程，而不是人。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "與其…不如…",
+   "ai": [
+    [
+     "Rather than complain, why not try to fix it yourself?",
+     "與其抱怨，何不自己試著修好它？"
+    ],
+    [
+     "Rather than wait for help, he decided to start working.",
+     "他決定與其等人幫忙，不如自己動手做。"
+    ]
+   ]
+  }
+ ],
+ "according to": [
+  {
+   "p": "phr",
+   "zh": "根據, 按照；取決於；據…所說",
+   "ai": [
+    [
+     "According to the weather report, it will rain tomorrow.",
+     "根據天氣預報，明天會下雨。"
+    ],
+    [
+     "According to my sister, the new cafe is really good.",
+     "據我姊姊說，那間新咖啡店很不錯。"
+    ],
+    [
+     "Everyone must follow the rules according to the instructions.",
+     "每個人都必須按照說明遵守規則。"
+    ]
+   ]
+  }
+ ],
+ "apart from": [
+  {
+   "p": "phr",
+   "zh": "除了...之外",
+   "ai": [
+    [
+     "Apart from Tom, everyone came to the party.",
+     "除了湯姆之外，每個人都來參加派對了。"
+    ],
+    [
+     "Apart from a small cut, he was not hurt at all.",
+     "除了一個小傷口之外，他完全沒受傷。"
+    ],
+    [
+     "The room is empty apart from a bed and a desk.",
+     "這個房間除了一張床和一張書桌之外什麼都沒有。"
+    ]
+   ]
+  }
+ ],
+ "after all": [
+  {
+   "p": "phr",
+   "zh": "畢竟（補充理由）",
+   "ai": [
+    [
+     "Don't be angry with him; he is only a child after all.",
+     "別對他生氣，畢竟他只是個孩子。"
+    ],
+    [
+     "You should rest today. It is Sunday after all.",
+     "你今天該休息了，畢竟今天是星期天。"
+    ]
+   ]
+  },
+  {
+   "p": "phr",
+   "zh": "終究、結果還是（與預期相反）",
+   "ai": [
+    [
+     "We thought it would rain, but the sun came out after all.",
+     "我們以為會下雨，結果太陽還是出來了。"
+    ],
+    [
+     "She decided to join the trip after all.",
+     "她終究還是決定參加這趟旅行。"
+    ],
+    [
+     "The test was easy after all, so I did not need to worry.",
+     "這次考試結果還是很簡單，我根本不必擔心。"
+    ]
+   ]
+  }
+ ],
+ "right away": [
+  {
+   "p": "phr",
+   "zh": "立刻",
+   "ai": [
+    [
+     "Please call me right away if you have any problem.",
+     "如果有任何問題，請立刻打電話給我。"
+    ],
+    [
+     "I will send you the file right away.",
+     "我馬上把檔案寄給你。"
+    ],
+    [
+     "The doctor came right away after we called him.",
+     "我們打電話後，醫生立刻就來了。"
+    ]
+   ]
+  }
+ ],
+ "take a break": [
+  {
+   "p": "phr",
+   "zh": "休息,暫停,中斷",
+   "ai": [
+    [
+     "Let's take a break and have some tea.",
+     "我們休息一下，喝點茶吧。"
+    ],
+    [
+     "You have been studying for hours. You should take a break.",
+     "你已經讀書好幾個小時了，應該休息一下。"
+    ],
+    [
+     "They took a break from work to eat lunch outside.",
+     "他們暫停工作，到外面吃午餐。"
+    ]
+   ]
+  }
+ ],
+ "pay attention": [
+  {
+   "p": "phr",
+   "zh": "專心",
+   "ai": [
+    [
+     "Please pay attention to what the teacher is saying.",
+     "請專心聽老師說的話。"
+    ],
+    [
+     "He didn't pay attention and missed the turn.",
+     "他沒專心，結果錯過了轉彎處。"
+    ],
+    [
+     "You need to pay attention when you cross the road.",
+     "過馬路時你必須專心注意。"
+    ]
+   ]
+  }
+ ],
+ "get used to": [
+  {
+   "p": "phr",
+   "zh": "習慣於...",
+   "ai": [
+    [
+     "I am slowly getting used to the cold weather here.",
+     "我正慢慢習慣這裡的寒冷天氣。"
+    ],
+    [
+     "She got used to waking up early for work.",
+     "她習慣了為了上班早起。"
+    ],
+    [
+     "It takes time to get used to a new school.",
+     "適應新學校需要時間。"
+    ]
+   ]
+  }
+ ],
+ "be about to": [
+  {
+   "p": "phr",
+   "zh": "即將",
+   "ai": [
+    [
+     "The movie was about to start when we arrived.",
+     "我們到的時候電影即將開始。"
+    ],
+    [
+     "I was about to leave when the phone rang.",
+     "電話響的時候，我正要出門。"
+    ],
+    [
+     "Hurry up! The train is about to leave.",
+     "快點！火車就要開了。"
+    ]
+   ]
+  }
+ ],
+ "be supposed to": [
+  {
+   "p": "phr",
+   "zh": "應該, 被期望",
+   "ai": [
+    [
+     "He was supposed to turn off his phone in class.",
+     "他上課時本來應該把手機關掉。"
+    ],
+    [
+     "I was supposed to meet him at six o'clock.",
+     "我本來應該六點跟他碰面。"
+    ],
+    [
+     "She was supposed to bring the form, but she forgot.",
+     "她應該要帶那張表格，卻忘了。"
+    ]
+   ]
+  }
+ ]
+}
