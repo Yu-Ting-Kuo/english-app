@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168801",
+      "title": "Nadia Murad: ‘Day by day, I took my story back’",
+      "summary": "Nobel Peace Prize laureate Nadia Murad has spent years telling the world about the atrocities committed against her and the Yazidi community by militants from the terrorist group, ISIL.",
+      "url": "https://news.un.org/en/story/2026/11/1168801",
+      "publishedAt": "2026-11-15T12:00:00Z",
+      "vocabulary": [
+        "laureate",
+        "spent",
+        "terrorist",
+        "telling"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/12-11-2026_UN-Publications_Murad.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168776",
       "title": "When the rains fail: Preparing for drought in Central America",
       "summary": "Across Central America’s so-called Dry Corridor, farming families live at the mercy of the rains. In southwestern Honduras, Anastacio Martínez Gómez has spent most of his 73 years learning to work the land. But experience can only take him so far.",
@@ -86,20 +100,6 @@
         "weekend"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2018/09/25-09-2018Migration-IOM.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168756",
-      "title": "Beyond the broken glass: The human cost of the 1938 November Pogrom",
-      "summary": "On his way to school in Vienna on the morning of 10 November 1938, eight-year-old Arthur Schneier watched his synagogue burn while firefighters and police officers stood by “rejoicing”.",
-      "url": "https://news.un.org/en/story/2026/11/1168756",
-      "publishedAt": "2026-11-08T12:00:00Z",
-      "vocabulary": [
-        "synagogue",
-        "broken",
-        "glass",
-        "human"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/06-11-2026-synagogue-Aachen.jpg/image560x340cropped.jpg"
     }
   ]
 }
