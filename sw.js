@@ -3,7 +3,7 @@
 const VERSION = 'v64';
 const CACHE = 'english-app-' + VERSION;
 // 詞典資料（dict/）很大又很少變，查過就存著；重新產生詞典或修改主題、例句時把 DICT_VERSION 加一
-const DICT_VERSION = 'd46';
+const DICT_VERSION = 'd47';
 const DICT_CACHE = 'english-dict-' + DICT_VERSION;
 const ASSETS = [
   './',

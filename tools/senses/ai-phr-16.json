@@ -1,0 +1,602 @@
+{
+ "final touch": [
+  {
+   "p": "phr",
+   "zh": "最後的潤飾、收尾的一筆",
+   "ai": [
+    [
+     "She added the final touch to the painting with a thin line of gold.",
+     "她用一道細細的金線為這幅畫畫上最後一筆。"
+    ],
+    [
+     "A few flowers on the table were the final touch to the decoration.",
+     "桌上的幾朵花是這個布置的最後點綴。"
+    ],
+    [
+     "I'm just putting the final touch on my presentation slides.",
+     "我正在為簡報做最後的修飾。"
+    ]
+   ]
+  }
+ ],
+ "finishing touch": [
+  {
+   "p": "phr",
+   "zh": "最後的潤飾、收尾的一筆",
+   "ai": [
+    [
+     "The scarf was the finishing touch to her outfit.",
+     "這條圍巾為她的穿搭畫下完美句點。"
+    ],
+    [
+     "The chef put the finishing touch on the cake with fresh strawberries.",
+     "主廚用新鮮草莓為蛋糕做最後的裝飾。"
+    ],
+    [
+     "We still need a finishing touch to make the room feel warm.",
+     "我們還需要一點收尾的巧思，讓房間更有溫度。"
+    ]
+   ]
+  }
+ ],
+ "spill the beans": [
+  {
+   "p": "phr",
+   "zh": "洩漏祕密",
+   "ai": [
+    [
+     "Don't spill the beans about the surprise party.",
+     "別把驚喜派對的事說溜嘴。"
+    ],
+    [
+     "My little brother spilled the beans about my birthday gift.",
+     "我弟弟把我生日禮物的事說了出來。"
+    ],
+    [
+     "Who spilled the beans to the boss about our plan?",
+     "是誰向老闆洩漏了我們的計畫？"
+    ]
+   ]
+  }
+ ],
+ "cost an arm and a leg": [
+  {
+   "p": "phr",
+   "zh": "非常昂貴、所費不貲",
+   "ai": [
+    [
+     "Studying abroad can cost an arm and a leg.",
+     "出國留學可能非常花錢。"
+    ],
+    [
+     "That new phone cost an arm and a leg.",
+     "那支新手機貴得嚇人。"
+    ],
+    [
+     "A wedding in this city costs an arm and a leg.",
+     "在這個城市辦婚禮要花一大筆錢。"
+    ]
+   ]
+  }
+ ],
+ "in the long run": [
+  {
+   "p": "phr",
+   "zh": "從長遠來看、最終",
+   "ai": [
+    [
+     "Saving money now will help you in the long run.",
+     "現在存錢，長遠來看對你有幫助。"
+    ],
+    [
+     "Cheap shoes can cost more in the long run.",
+     "便宜的鞋子長遠來看可能更花錢。"
+    ],
+    [
+     "Exercise is good for your health in the long run.",
+     "運動長期下來對健康有益。"
+    ]
+   ]
+  }
+ ],
+ "on the other hand": [
+  {
+   "p": "phr",
+   "zh": "另一方面",
+   "ai": [
+    [
+     "I like the job; on the other hand, the pay is low.",
+     "我喜歡這份工作，但另一方面，薪水很低。"
+    ],
+    [
+     "The hotel is cheap. On the other hand, it is far from the station.",
+     "這間旅館很便宜，但另一方面，離車站很遠。"
+    ],
+    [
+     "Cars are fast; on the other hand, bikes are better for the environment.",
+     "汽車很快，但另一方面，腳踏車對環境比較好。"
+    ]
+   ]
+  }
+ ],
+ "from time to time": [
+  {
+   "p": "phr",
+   "zh": "偶爾、有時",
+   "ai": [
+    [
+     "We visit our grandparents from time to time.",
+     "我們偶爾會去探望祖父母。"
+    ],
+    [
+     "He still calls me from time to time.",
+     "他偶爾還是會打電話給我。"
+    ],
+    [
+     "From time to time, the bus is late in the rain.",
+     "下雨時公車偶爾會誤點。"
+    ]
+   ]
+  }
+ ],
+ "hit the nail on the head": [
+  {
+   "p": "phr",
+   "zh": "說中要點、一針見血",
+   "ai": [
+    [
+     "You hit the nail on the head when you said we need more time.",
+     "你說我們需要更多時間，真是一針見血。"
+    ],
+    [
+     "Her comment hit the nail on the head.",
+     "她的評論正中要害。"
+    ],
+    [
+     "He hit the nail on the head about why the team lost.",
+     "他點出了球隊輸球的真正原因。"
+    ]
+   ]
+  }
+ ],
+ "once in a blue moon": [
+  {
+   "p": "phr",
+   "zh": "千載難逢、極少",
+   "ai": [
+    [
+     "He cooks dinner only once in a blue moon.",
+     "他很難得才煮一次晚餐。"
+    ],
+    [
+     "We see snow here once in a blue moon.",
+     "這裡很少下雪。"
+    ],
+    [
+     "My sister writes letters once in a blue moon.",
+     "我姊姊難得才寫一次信。"
+    ]
+   ]
+  }
+ ],
+ "add insult to injury": [
+  {
+   "p": "phr",
+   "zh": "雪上加霜、火上加油",
+   "ai": [
+    [
+     "He was late, and to add insult to injury, he forgot my gift.",
+     "他遲到了，而且更過分的是還忘了我的禮物。"
+    ],
+    [
+     "The rain ruined our trip, and the flight delay added insult to injury.",
+     "雨毀了我們的旅行，班機延誤更是雪上加霜。"
+    ],
+    [
+     "They fired him and, to add insult to injury, took his car.",
+     "他們開除了他，還雪上加霜地收走他的車。"
+    ]
+   ]
+  }
+ ],
+ "cut corners": [
+  {
+   "p": "phr",
+   "zh": "偷工減料、走捷徑",
+   "ai": [
+    [
+     "The company cut corners to save money.",
+     "那間公司為了省錢而偷工減料。"
+    ],
+    [
+     "Don't cut corners when you build a bridge.",
+     "蓋橋時不能偷工減料。"
+    ],
+    [
+     "He never cuts corners on his homework.",
+     "他寫作業從不偷懶走捷徑。"
+    ]
+   ]
+  }
+ ],
+ "get cold feet": [
+  {
+   "p": "phr",
+   "zh": "臨陣退縮、打退堂鼓",
+   "ai": [
+    [
+     "She got cold feet right before the wedding.",
+     "她在婚禮前夕突然打了退堂鼓。"
+    ],
+    [
+     "I almost got cold feet before the interview.",
+     "面試前我差點臨陣退縮。"
+    ],
+    [
+     "Many investors get cold feet when the market falls.",
+     "市場下跌時，許多投資人會裹足不前。"
+    ]
+   ]
+  }
+ ],
+ "go the extra mile": [
+  {
+   "p": "phr",
+   "zh": "多下功夫、額外付出",
+   "ai": [
+    [
+     "Our waiter went the extra mile to make my birthday special.",
+     "我們的服務生特別用心讓我的生日更難忘。"
+    ],
+    [
+     "She always goes the extra mile for her clients.",
+     "她總是為客戶多付出一分心力。"
+    ],
+    [
+     "If you go the extra mile, people will notice.",
+     "如果你多付出一點，大家都會看見。"
+    ]
+   ]
+  }
+ ],
+ "in the nick of time": [
+  {
+   "p": "phr",
+   "zh": "千鈞一髮、及時",
+   "ai": [
+    [
+     "We got to the station in the nick of time.",
+     "我們在最後一刻趕到車站。"
+    ],
+    [
+     "The doctor arrived in the nick of time.",
+     "醫生及時趕到。"
+    ],
+    [
+     "He saved the file in the nick of time before the power went out.",
+     "他在停電前的最後一刻存好了檔案。"
+    ]
+   ]
+  }
+ ],
+ "on the same page": [
+  {
+   "p": "phr",
+   "zh": "看法一致、有共識",
+   "ai": [
+    [
+     "Let's meet first to make sure we are on the same page.",
+     "我們先開個會，確認大家想法一致。"
+    ],
+    [
+     "The two teams are not on the same page about the schedule.",
+     "兩個團隊對時程的看法不一致。"
+    ],
+    [
+     "Are we all on the same page now?",
+     "現在大家都達成共識了嗎？"
+    ]
+   ]
+  }
+ ],
+ "play it by ear": [
+  {
+   "p": "phr",
+   "zh": "隨機應變、看情況再說",
+   "ai": [
+    [
+     "I don't have a plan for tonight; let's play it by ear.",
+     "我今晚沒有計畫，到時再看吧。"
+    ],
+    [
+     "We'll play it by ear and see how the weather is.",
+     "我們看天氣再決定吧。"
+    ],
+    [
+     "She prefers to play it by ear when she travels.",
+     "她旅行時喜歡隨興、看情況而定。"
+    ]
+   ]
+  }
+ ],
+ "see eye to eye": [
+  {
+   "p": "phr",
+   "zh": "看法一致、意見相合",
+   "ai": [
+    [
+     "My boss and I don't always see eye to eye.",
+     "我和老闆的看法不見得總是一致。"
+    ],
+    [
+     "The two brothers rarely see eye to eye on money.",
+     "這兩兄弟在金錢上很少意見一致。"
+    ],
+    [
+     "We finally saw eye to eye on the price.",
+     "我們終於在價錢上達成共識。"
+    ]
+   ]
+  }
+ ],
+ "take it for granted": [
+  {
+   "p": "phr",
+   "zh": "視為理所當然",
+   "ai": [
+    [
+     "Don't take it for granted that people will help you.",
+     "不要認為別人幫你是理所當然的。"
+    ],
+    [
+     "We take it for granted that the water is clean.",
+     "我們把乾淨的水視為理所當然。"
+    ],
+    [
+     "He took it for granted that she would come.",
+     "他想當然爾地認為她會來。"
+    ]
+   ]
+  }
+ ],
+ "the tip of the iceberg": [
+  {
+   "p": "phr",
+   "zh": "冰山一角",
+   "ai": [
+    [
+     "These complaints are only the tip of the iceberg.",
+     "這些抱怨只是冰山一角。"
+    ],
+    [
+     "The error we found is just the tip of the iceberg.",
+     "我們發現的錯誤只是冰山一角。"
+    ],
+    [
+     "Those figures are the tip of the iceberg.",
+     "那些數字不過是冰山一角。"
+    ]
+   ]
+  }
+ ],
+ "throw in the towel": [
+  {
+   "p": "phr",
+   "zh": "認輸、放棄",
+   "ai": [
+    [
+     "After three failed tries, he threw in the towel.",
+     "嘗試三次都失敗後，他放棄了。"
+    ],
+    [
+     "Don't throw in the towel yet; you can still win.",
+     "先別認輸，你還有機會贏。"
+    ],
+    [
+     "The team threw in the towel at halftime.",
+     "那支球隊在中場休息時就認輸了。"
+    ]
+   ]
+  }
+ ],
+ "for the time being": [
+  {
+   "p": "phr",
+   "zh": "暫時、目前",
+   "ai": [
+    [
+     "You can stay with us for the time being.",
+     "你暫時可以住在我們這裡。"
+    ],
+    [
+     "For the time being, the store is closed.",
+     "這間店目前暫停營業。"
+    ],
+    [
+     "This plan is fine for the time being.",
+     "這個計畫目前這樣就可以了。"
+    ]
+   ]
+  }
+ ],
+ "as a matter of fact": [
+  {
+   "p": "phr",
+   "zh": "事實上",
+   "ai": [
+    [
+     "As a matter of fact, I have been there twice.",
+     "事實上，我去過那裡兩次。"
+    ],
+    [
+     "I'm not tired. As a matter of fact, I feel great.",
+     "我不累，事實上我感覺很棒。"
+    ],
+    [
+     "As a matter of fact, he is my cousin.",
+     "事實上，他是我的表哥。"
+    ]
+   ]
+  }
+ ],
+ "all of a sudden": [
+  {
+   "p": "phr",
+   "zh": "突然、忽然",
+   "ai": [
+    [
+     "All of a sudden, the lights went out.",
+     "燈突然全滅了。"
+    ],
+    [
+     "The sky got dark all of a sudden.",
+     "天空忽然暗了下來。"
+    ],
+    [
+     "All of a sudden, she began to laugh.",
+     "她突然笑了起來。"
+    ]
+   ]
+  }
+ ],
+ "every now and then": [
+  {
+   "p": "phr",
+   "zh": "偶爾、時不時",
+   "ai": [
+    [
+     "I eat fast food every now and then.",
+     "我偶爾會吃速食。"
+    ],
+    [
+     "We go hiking every now and then.",
+     "我們時不時會去健行。"
+    ],
+    [
+     "Every now and then, he sends me a funny photo.",
+     "他偶爾會傳搞笑照片給我。"
+    ]
+   ]
+  }
+ ],
+ "in a nutshell": [
+  {
+   "p": "phr",
+   "zh": "簡而言之",
+   "ai": [
+    [
+     "In a nutshell, we need more money.",
+     "簡單來說，我們需要更多資金。"
+    ],
+    [
+     "Here is the story in a nutshell.",
+     "這是故事的簡要說明。"
+    ],
+    [
+     "To put it in a nutshell, the plan failed.",
+     "簡而言之，計畫失敗了。"
+    ]
+   ]
+  }
+ ],
+ "to make a long story short": [
+  {
+   "p": "phr",
+   "zh": "長話短說",
+   "ai": [
+    [
+     "To make a long story short, we missed the flight.",
+     "長話短說，我們錯過了班機。"
+    ],
+    [
+     "To make a long story short, he got the job.",
+     "長話短說，他得到了那份工作。"
+    ],
+    [
+     "To make a long story short, I said no.",
+     "長話短說，我拒絕了。"
+    ]
+   ]
+  }
+ ],
+ "needless to say": [
+  {
+   "p": "phr",
+   "zh": "不用說、當然",
+   "ai": [
+    [
+     "Needless to say, we were very happy.",
+     "不用說，我們非常開心。"
+    ],
+    [
+     "Needless to say, the exam was hard.",
+     "不用說，考試很難。"
+    ],
+    [
+     "Needless to say, he apologized.",
+     "當然，他道歉了。"
+    ]
+   ]
+  }
+ ],
+ "make up your mind": [
+  {
+   "p": "phr",
+   "zh": "下定決心、做決定",
+   "ai": [
+    [
+     "You need to make up your mind soon.",
+     "你得快點做決定。"
+    ],
+    [
+     "I can't make up your mind for you.",
+     "我沒辦法替你做決定。"
+    ],
+    [
+     "Have you made up your mind yet?",
+     "你決定好了嗎？"
+    ]
+   ]
+  }
+ ],
+ "make ends meet": [
+  {
+   "p": "phr",
+   "zh": "收支平衡、勉強度日",
+   "ai": [
+    [
+     "She works two jobs to make ends meet.",
+     "她打兩份工才勉強維持生活。"
+    ],
+    [
+     "It is hard to make ends meet in a big city.",
+     "在大城市要收支平衡很不容易。"
+    ],
+    [
+     "They barely make ends meet each month.",
+     "他們每個月都勉強打平開銷。"
+    ]
+   ]
+  }
+ ],
+ "make the most of": [
+  {
+   "p": "phr",
+   "zh": "充分利用",
+   "ai": [
+    [
+     "Let's make the most of our free time.",
+     "我們好好利用空閒時間吧。"
+    ],
+    [
+     "He made the most of his chance to study abroad.",
+     "他充分把握出國讀書的機會。"
+    ],
+    [
+     "Make the most of every day.",
+     "把握每一天。"
+    ]
+   ]
+  }
+ ]
+}
