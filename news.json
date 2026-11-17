@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026111168801",
-      "title": "Nadia Murad: ‘Day by day, I took my story back’",
-      "summary": "Nobel Peace Prize laureate Nadia Murad has spent years telling the world about the atrocities committed against her and the Yazidi community by militants from the terrorist group, ISIL.",
-      "url": "https://news.un.org/en/story/2026/11/1168801",
+      "id": "httpsnewsunorgenstory2026111168820",
+      "title": "‘Peace begins in our hearts’: Children close Muscat forum with a message to the world",
+      "summary": "Children from across the world sent a message of peace from the Omani capital Muscat on Monday, calling for an end to hatred, respect for diversity and the protection of human rights.",
+      "url": "https://news.un.org/en/story/2026/11/1168820",
+      "publishedAt": "2026-11-16T12:00:00Z",
+      "vocabulary": [
+        "forum",
+        "diversity",
+        "respect",
+        "protection"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/16-11-2026-paintings-kids.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026111168807",
+      "title": "First Person: Managing risk on Ukraine’s frontline",
+      "summary": "Humanitarian workers providing support to communities on the frontline of the war between Ukraine and Russia must balance remaining close to those in need with the heightened risks of operating in a conflict zone, according to the top UN official in Ukraine.",
+      "url": "https://news.un.org/en/story/2026/11/1168807",
       "publishedAt": "2026-11-15T12:00:00Z",
       "vocabulary": [
-        "laureate",
-        "spent",
-        "terrorist",
-        "telling"
+        "frontline",
+        "conflict",
+        "balance",
+        "close"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/12-11-2026_UN-Publications_Murad.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/10-01-2025-UNOCHA-Ukraine-03.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026111168776",
@@ -86,20 +100,6 @@
         "review"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-UNHCR-Chad-cholera.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168769",
-      "title": "At least 56 migrants die in weekend shipwrecks off Senegal and Greece",
-      "summary": "At least 56 people died in a series of shipwrecks off Senegal and Greece over the weekend, the International Organization for Migration (IOM) said on Monday, calling it a stark reminder of the deadly risks they face on the Atlantic and Mediterranean.",
-      "url": "https://news.un.org/en/story/2026/11/1168769",
-      "publishedAt": "2026-11-09T12:00:00Z",
-      "vocabulary": [
-        "stark",
-        "reminder",
-        "deadly",
-        "weekend"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2018/09/25-09-2018Migration-IOM.jpg/image560x340cropped.jpg"
     }
   ]
 }
