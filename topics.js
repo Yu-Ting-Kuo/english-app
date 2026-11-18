@@ -640,7 +640,15 @@ document.addEventListener('click', e => {
 async function topicsOfWord(key) {
   try {
     const data = await loadTopics();
-    return (data.byWord[key] || []).map(id => ({ id, ...data.topics[id] }));
+    let ids = data.byWord[key] || [];
+    if (!ids.length && /ly$/.test(key)) {
+      // 副詞（unanimously）沒單獨列在主題裡時，借用形容詞（unanimous）所屬的主題
+      const bases = [key.slice(0, -2), key.slice(0, -1) + 'e', /ily$/.test(key) ? key.slice(0, -3) + 'y' : '', /ally$/.test(key) ? key.slice(0, -2) : ''];
+      for (const b of bases) {
+        if (b.length >= 5 && data.byWord[b]?.length) { ids = data.byWord[b]; break; }
+      }
+    }
+    return ids.map(id => ({ id, ...data.topics[id] }));
   } catch {
     return [];
   }
