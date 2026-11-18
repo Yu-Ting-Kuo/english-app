@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168828",
+      "title": "Ukraine: Civilian casualties in 2026 already far exceed previous years’ tolls",
+      "summary": "This year has seen dramatically higher civilian casualties in Ukraine than any other year since the full-scale invasion of the eastern European country by Russia in February 2022, the UN Human Rights Monitoring Mission in Ukraine (HRMMU) said on Tuesday.",
+      "url": "https://news.un.org/en/story/2026/11/1168828",
+      "publishedAt": "2026-11-17T12:00:00Z",
+      "vocabulary": [
+        "higher",
+        "invasion",
+        "civilian",
+        "eastern"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-UNOCHA-Ukraine-04.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168820",
       "title": "‘Peace begins in our hearts’: Children close Muscat forum with a message to the world",
       "summary": "Children from across the world sent a message of peace from the Omani capital Muscat on Monday, calling for an end to hatred, respect for diversity and the protection of human rights.",
@@ -86,20 +100,6 @@
         "states"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-01-2025-UNRWA-Gaza-13.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168782",
-      "title": "World News in Brief: Ending cholera by 2030 ‘within reach’, Haiti displacement and hunger, US human rights review rescheduled",
-      "summary": "Ending cholera as a public health threat by 2030 is within reach, as every cholera death can be prevented with tools that already exist, the World Health Organization (WHO) said on Tuesday.",
-      "url": "https://news.un.org/en/story/2026/11/1168782",
-      "publishedAt": "2026-11-10T12:00:00Z",
-      "vocabulary": [
-        "cholera",
-        "displacement",
-        "hunger",
-        "review"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-UNHCR-Chad-cholera.jpg/image560x340cropped.jpg"
     }
   ]
 }
