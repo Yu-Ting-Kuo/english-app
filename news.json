@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168833",
+      "title": "COP31 deadlock persists as countries launch new ‘climate reality check’",
+      "summary": "With the clock running down at COP31 in Antalya, countries on Wednesday launched a new global check on whether climate promises are being kept, even as ministers remained deadlocked over some of the summit’s toughest questions: who pays, how fast the world moves away from fossil fuels and whether a greener future can…",
+      "url": "https://news.un.org/en/story/2026/11/1168833",
+      "publishedAt": "2026-11-18T12:00:00Z",
+      "vocabulary": [
+        "deadlock",
+        "fossil",
+        "summit",
+        "clock"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_COP31.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168828",
       "title": "Ukraine: Civilian casualties in 2026 already far exceed previous years’ tolls",
       "summary": "This year has seen dramatically higher civilian casualties in Ukraine than any other year since the full-scale invasion of the eastern European country by Russia in February 2022, the UN Human Rights Monitoring Mission in Ukraine (HRMMU) said on Tuesday.",
@@ -86,20 +100,6 @@
         "killed"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/07-11-2026-UNNews-Gaza-Winer-Building.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168788",
-      "title": "Gaza winter aid: ‘No more delay’, Fletcher tells governments stalling on support",
-      "summary": "The UN’s Emergency Relief Coordinator, Tom Fletcher, expressed deep concern about the deteriorating humanitarian situation in Gaza, as UN member states and partners have been repeatedly delaying sending their support to the Strip.",
-      "url": "https://news.un.org/en/story/2026/11/1168788",
-      "publishedAt": "2026-11-11T12:00:00Z",
-      "vocabulary": [
-        "humanitarian",
-        "delay",
-        "winter",
-        "states"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-01-2025-UNRWA-Gaza-13.jpg/image560x340cropped.jpg"
     }
   ]
 }
