@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168839",
+      "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
+      "summary": "A cat named Ambition went missing again at COP31 on Thursday. While activists delivered the message with humour, it reflected a serious concern: explicit references to moving away from fossil fuels had disappeared from the latest draft climate agreement. On the eve of the summit's scheduled close, ministers and the…",
+      "url": "https://news.un.org/en/story/2026/11/1168839",
+      "publishedAt": "2026-11-19T12:00:00Z",
+      "vocabulary": [
+        "fossil",
+        "explicit",
+        "humour",
+        "summit"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/19-11-2026_COP31.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168833",
       "title": "COP31 deadlock persists as countries launch new ‘climate reality check’",
       "summary": "With the clock running down at COP31 in Antalya, countries on Wednesday launched a new global check on whether climate promises are being kept, even as ministers remained deadlocked over some of the summit’s toughest questions: who pays, how fast the world moves away from fossil fuels and whether a greener future can…",
@@ -48,14 +62,14 @@
     {
       "id": "httpsnewsunorgenstory2026111168807",
       "title": "First Person: Managing risk on Ukraine’s frontline",
-      "summary": "Humanitarian workers providing support to communities on the frontline of the war between Ukraine and Russia must balance remaining close to those in need with the heightened risks of operating in a conflict zone, according to the top UN official in Ukraine.",
+      "summary": "Humanitarian workers providing support to communities on the frontline of the war between Ukraine and Russia must balance remaining close to those in need with the heightened risks of operating in a warzone, according to the top UN official in Ukraine.",
       "url": "https://news.un.org/en/story/2026/11/1168807",
       "publishedAt": "2026-11-15T12:00:00Z",
       "vocabulary": [
         "frontline",
-        "conflict",
         "balance",
-        "close"
+        "close",
+        "official"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/10-01-2025-UNOCHA-Ukraine-03.jpg/image560x340cropped.jpg"
     },
@@ -86,20 +100,6 @@
         "bread"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/13-11-2026_WFP_Ukraine.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168796",
-      "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
-      "summary": "An Israeli airstrike on Gaza’s Nasser Hospital on Wednesday night killed six people, injured 27 others and caused extensive damage.",
-      "url": "https://news.un.org/en/story/2026/11/1168796",
-      "publishedAt": "2026-11-12T12:00:00Z",
-      "vocabulary": [
-        "airstrike",
-        "extensive",
-        "damage",
-        "killed"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/07-11-2026-UNNews-Gaza-Winer-Building.jpg/image560x340cropped.jpg"
     }
   ]
 }
