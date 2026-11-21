@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026111168839",
-      "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
-      "summary": "A cat named Ambition went missing again at COP31 on Thursday. While activists delivered the message with humour, it reflected a serious concern: explicit references to moving away from fossil fuels had disappeared from the latest draft climate agreement. On the eve of the summit's scheduled close, ministers and the…",
-      "url": "https://news.un.org/en/story/2026/11/1168839",
+      "id": "httpsnewsunorgenstory2026111168853",
+      "title": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling",
+      "summary": "A day after the UN’s highest court found that Myanmar had committed genocide against the Rohingya, the President of the General Assembly visited the refugee camps in Cox’s Bazar, Bangladesh, urging the world to turn the landmark judgement into action.",
+      "url": "https://news.un.org/en/story/2026/11/1168853",
+      "publishedAt": "2026-11-20T12:00:00Z",
+      "vocabulary": [
+        "genocide",
+        "landmark",
+        "refugee",
+        "judgement"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/20-11-2026_Rahman_Rohingya_visit.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026111168843",
+      "title": "Battle to control GPS and radio signals raises civilian safety concerns",
+      "summary": "From aid convoys in conflict zones to passenger jets and cargo ships far out at sea, safe journeys depend on GPS, satellite navigation and old-fashioned radio transmissions. But these signals are increasingly being blocked or faked – and civilians are paying the price.",
+      "url": "https://news.un.org/en/story/2026/11/1168843",
       "publishedAt": "2026-11-19T12:00:00Z",
       "vocabulary": [
-        "fossil",
-        "explicit",
-        "humour",
-        "summit"
+        "navigation",
+        "cargo",
+        "civilian",
+        "satellite"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/19-11-2026_COP31.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/17-11-2026_Adobe_Mexico_satellite.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026111168833",
@@ -86,20 +100,6 @@
         "mercy"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/11/Anastacio-WFPHonduras-1.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168803",
-      "title": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years",
-      "summary": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southern Kherson region.",
-      "url": "https://news.un.org/en/story/2026/11/1168803",
-      "publishedAt": "2026-11-13T12:00:00Z",
-      "vocabulary": [
-        "porridge",
-        "savour",
-        "corridor",
-        "bread"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/13-11-2026_WFP_Ukraine.jpg/image560x340cropped.jpg"
     }
   ]
 }
