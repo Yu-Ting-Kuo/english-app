@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026111168853",
-      "title": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling",
-      "summary": "A day after the UN’s highest court found that Myanmar had committed genocide against the Rohingya, the President of the General Assembly visited the refugee camps in Cox’s Bazar, Bangladesh, urging the world to turn the landmark judgement into action.",
-      "url": "https://news.un.org/en/story/2026/11/1168853",
+      "id": "httpsnewsunorgenstory2026111168851",
+      "title": "‘We escaped with only our lives’: Fighting to give birth in war-torn Yemen",
+      "summary": "When fighting suddenly escalated around Taiz, in southwestern Yemen two months ago, midwife Anisa Fadhl had no time to pack a bag before she fled, leaving behind her home and her clinic. Both were later looted and destroyed.",
+      "url": "https://news.un.org/en/story/2026/11/1168851",
+      "publishedAt": "2026-11-21T12:00:00Z",
+      "vocabulary": [
+        "midwife",
+        "southwestern",
+        "clinic",
+        "birth"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/19-11-2026_UNFPA_Yemen-01.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026111168854",
+      "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
+      "summary": "UN Secretary-General António Guterres is heading to Barbados to co-host a special summit on artificial intelligence (AI) safety on Monday, aimed at closing the gap between accelerating risks and many countries’ capacity to deal with the pace of development.",
+      "url": "https://news.un.org/en/story/2026/11/1168854",
       "publishedAt": "2026-11-20T12:00:00Z",
       "vocabulary": [
-        "genocide",
-        "landmark",
-        "refugee",
-        "judgement"
+        "artificial",
+        "summit",
+        "tackle",
+        "capacity"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/20-11-2026_Rahman_Rohingya_visit.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/18-07-2023-UN-Photo-Guterres.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026111168843",
@@ -86,20 +100,6 @@
         "official"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/10-01-2025-UNOCHA-Ukraine-03.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168776",
-      "title": "When the rains fail: Preparing for drought in Central America",
-      "summary": "Across Central America’s so-called Dry Corridor, farming families live at the mercy of the rains. In southwestern Honduras, Anastacio Martínez Gómez has spent most of his 73 years learning to work the land. But experience can only take him so far.",
-      "url": "https://news.un.org/en/story/2026/11/1168776",
-      "publishedAt": "2026-11-14T12:00:00Z",
-      "vocabulary": [
-        "spent",
-        "southwestern",
-        "drought",
-        "mercy"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/11/Anastacio-WFPHonduras-1.jpg/image560x340cropped.jpg"
     }
   ]
 }
