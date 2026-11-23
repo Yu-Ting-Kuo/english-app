@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168852",
+      "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
+      "summary": "For five years, Zahra cared for an elderly woman in Iran and earned enough to get by. Now back in Herat, western Afghanistan, the 28-year-old trained midwife is unemployed. She lives with her parents and siblings, apart from her six-year-old son, who lives with her ex-husband.",
+      "url": "https://news.un.org/en/story/2026/11/1168852",
+      "publishedAt": "2026-11-22T12:00:00Z",
+      "vocabulary": [
+        "midwife",
+        "apart",
+        "elderly",
+        "struggle"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_UNHCR_Ukraine-01.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168851",
       "title": "‘We escaped with only our lives’: Fighting to give birth in war-torn Yemen",
       "summary": "When fighting suddenly escalated around Taiz, in southwestern Yemen two months ago, midwife Anisa Fadhl had no time to pack a bag before she fled, leaving behind her home and her clinic. Both were later looted and destroyed.",
@@ -86,20 +100,6 @@
         "protection"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/16-11-2026-paintings-kids.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168807",
-      "title": "First Person: Managing risk on Ukraine’s frontline",
-      "summary": "Humanitarian workers providing support to communities on the frontline of the war between Ukraine and Russia must balance remaining close to those in need with the heightened risks of operating in a warzone, according to the top UN official in Ukraine.",
-      "url": "https://news.un.org/en/story/2026/11/1168807",
-      "publishedAt": "2026-11-15T12:00:00Z",
-      "vocabulary": [
-        "frontline",
-        "balance",
-        "close",
-        "official"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/10-01-2025-UNOCHA-Ukraine-03.jpg/image560x340cropped.jpg"
     }
   ]
 }
