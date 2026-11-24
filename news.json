@@ -4,18 +4,32 @@
   "retentionDays": 7,
   "articles": [
     {
-      "id": "httpsnewsunorgenstory2026111168852",
-      "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
-      "summary": "For five years, Zahra cared for an elderly woman in Iran and earned enough to get by. Now back in Herat, western Afghanistan, the 28-year-old trained midwife is unemployed. She lives with her parents and siblings, apart from her six-year-old son, who lives with her ex-husband.",
-      "url": "https://news.un.org/en/story/2026/11/1168852",
+      "id": "httpsnewsunorgenstory2026111168862",
+      "title": "Gaza war has undone 77 years of human development, UN warns",
+      "summary": "The UN deputy chief urged renewed international support for a two-State solution to the Israel-Palestine conflict on Monday, warning that Palestinians continue to face violence, displacement and dire living conditions despite the October 2025 ceasefire in Gaza.",
+      "url": "https://news.un.org/en/story/2026/11/1168862",
+      "publishedAt": "2026-11-23T12:00:00Z",
+      "vocabulary": [
+        "displacement",
+        "ceasefire",
+        "deputy",
+        "chief"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/30-10-2026-UNICEF-Gaza-05.jpg/image560x340cropped.jpg"
+    },
+    {
+      "id": "httpsnewsunorgenstory2026111168856",
+      "title": "Guterres laments COP31 outcome, urges climate justice from Barbados",
+      "summary": "Secretary-General António Guterres on Sunday expressed deep disappointment over the collapse of COP31 climate negotiations, using a visit to Barbados to call for stronger action on fossil fuels, climate finance and support for vulnerable nations.",
+      "url": "https://news.un.org/en/story/2026/11/1168856",
       "publishedAt": "2026-11-22T12:00:00Z",
       "vocabulary": [
-        "midwife",
-        "apart",
-        "elderly",
-        "struggle"
+        "fossil",
+        "disappointment",
+        "collapse",
+        "vulnerable"
       ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_UNHCR_Ukraine-01.jpg/image560x340cropped.jpg"
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/22-11-2026_SG-Mottley-presser.jpg/image560x340cropped.jpg"
     },
     {
       "id": "httpsnewsunorgenstory2026111168851",
@@ -86,20 +100,6 @@
         "eastern"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-UNOCHA-Ukraine-04.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168820",
-      "title": "‘Peace begins in our hearts’: Children close Muscat forum with a message to the world",
-      "summary": "Children from across the world sent a message of peace from the Omani capital Muscat on Monday, calling for an end to hatred, respect for diversity and the protection of human rights.",
-      "url": "https://news.un.org/en/story/2026/11/1168820",
-      "publishedAt": "2026-11-16T12:00:00Z",
-      "vocabulary": [
-        "forum",
-        "diversity",
-        "respect",
-        "protection"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/16-11-2026-paintings-kids.jpg/image560x340cropped.jpg"
     }
   ]
 }
