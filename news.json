@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168871",
+      "title": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
+      "summary": "More than 364,000 people have been displaced in Yemen since the beginning of August as fighting and insecurity continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Tuesday.",
+      "url": "https://news.un.org/en/story/2026/11/1168871",
+      "publishedAt": "2026-11-24T12:00:00Z",
+      "vocabulary": [
+        "insecurity",
+        "staffer",
+        "crisis",
+        "killed"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-10-2023-UNICEF-Yemen-polio.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168862",
       "title": "Gaza war has undone 77 years of human development, UN warns",
       "summary": "The UN deputy chief urged renewed international support for a two-State solution to the Israel-Palestine conflict on Monday, warning that Palestinians continue to face violence, displacement and dire living conditions despite the October 2025 ceasefire in Gaza.",
@@ -86,20 +100,6 @@
         "clock"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_COP31.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168828",
-      "title": "Ukraine: Civilian casualties in 2026 already far exceed previous years’ tolls",
-      "summary": "This year has seen dramatically higher civilian casualties in Ukraine than any other year since the full-scale invasion of the eastern European country by Russia in February 2022, the UN Human Rights Monitoring Mission in Ukraine (HRMMU) said on Tuesday.",
-      "url": "https://news.un.org/en/story/2026/11/1168828",
-      "publishedAt": "2026-11-17T12:00:00Z",
-      "vocabulary": [
-        "higher",
-        "invasion",
-        "civilian",
-        "eastern"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-UNOCHA-Ukraine-04.jpg/image560x340cropped.jpg"
     }
   ]
 }
