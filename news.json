@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168879",
+      "title": "Türk warns of widening risk of atrocity crimes against Palestinians",
+      "summary": "UN human rights chief Volker Türk on Wednesday warned of a widening risk of further atrocity crimes by Israel against Palestinians, saying violence in the occupied West Bank in recent months has heightened existential fears.",
+      "url": "https://news.un.org/en/story/2026/11/1168879",
+      "publishedAt": "2026-11-25T12:00:00Z",
+      "vocabulary": [
+        "existential",
+        "atrocity",
+        "chief",
+        "violence"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-UNICEF-West-Bank-03.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168871",
       "title": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
       "summary": "More than 364,000 people have been displaced in Yemen since the beginning of August as fighting and insecurity continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Tuesday.",
@@ -86,20 +100,6 @@
         "satellite"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/17-11-2026_Adobe_Mexico_satellite.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168833",
-      "title": "COP31 deadlock persists as countries launch new ‘climate reality check’",
-      "summary": "With the clock running down at COP31 in Antalya, countries on Wednesday launched a new global check on whether climate promises are being kept, even as ministers remained deadlocked over some of the summit’s toughest questions: who pays, how fast the world moves away from fossil fuels and whether a greener future can…",
-      "url": "https://news.un.org/en/story/2026/11/1168833",
-      "publishedAt": "2026-11-18T12:00:00Z",
-      "vocabulary": [
-        "deadlock",
-        "fossil",
-        "summit",
-        "clock"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_COP31.jpg/image560x340cropped.jpg"
     }
   ]
 }
