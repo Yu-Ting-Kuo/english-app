@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168878",
+      "title": "‘Come right now’: How a crisis centre in Samarkand helps women escape violence",
+      "summary": "Irina* paced the apartment. Her husband had come home drunk again, and she knew the beatings would follow.",
+      "url": "https://news.un.org/en/story/2026/11/1168878",
+      "publishedAt": "2026-11-26T12:00:00Z",
+      "vocabulary": [
+        "drunk",
+        "escape",
+        "apartment",
+        "crisis"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/19-11-2026_Samarkand_Rahmdillik%204.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168879",
       "title": "Türk warns of widening risk of atrocity crimes against Palestinians",
       "summary": "UN human rights chief Volker Türk on Wednesday warned of a widening risk of further atrocity crimes by Israel against Palestinians, saying violence in the occupied West Bank in recent months has heightened existential fears.",
@@ -86,20 +100,6 @@
         "capacity"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/18-07-2023-UN-Photo-Guterres.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168843",
-      "title": "Battle to control GPS and radio signals raises civilian safety concerns",
-      "summary": "From aid convoys in conflict zones to passenger jets and cargo ships far out at sea, safe journeys depend on GPS, satellite navigation and old-fashioned radio transmissions. But these signals are increasingly being blocked or faked – and civilians are paying the price.",
-      "url": "https://news.un.org/en/story/2026/11/1168843",
-      "publishedAt": "2026-11-19T12:00:00Z",
-      "vocabulary": [
-        "navigation",
-        "cargo",
-        "civilian",
-        "satellite"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/17-11-2026_Adobe_Mexico_satellite.jpg/image560x340cropped.jpg"
     }
   ]
 }
