@@ -4,6 +4,20 @@
   "retentionDays": 7,
   "articles": [
     {
+      "id": "httpsnewsunorgenstory2026111168888",
+      "title": "16 Days of Activism: UNHCR warns over deep funding cuts to vital protection work",
+      "summary": "Serious funding cuts are severely weakening protection for refugee and stateless women and girls and others at risk of gender-based violence (GBV), like Mariam, who survived a decade of captivity and rape at the hands of Boko Haram militia.",
+      "url": "https://news.un.org/en/story/2026/11/1168888",
+      "publishedAt": "2026-11-27T12:00:00Z",
+      "vocabulary": [
+        "captivity",
+        "militia",
+        "refugee",
+        "gender"
+      ],
+      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/24-11-2021_UN0126512_Nigeria.jpg/image560x340cropped.jpg"
+    },
+    {
       "id": "httpsnewsunorgenstory2026111168878",
       "title": "‘Come right now’: How a crisis centre in Samarkand helps women escape violence",
       "summary": "Irina* paced the apartment. Her husband had come home drunk again, and she knew the beatings would follow.",
@@ -86,20 +100,6 @@
         "birth"
       ],
       "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/19-11-2026_UNFPA_Yemen-01.jpg/image560x340cropped.jpg"
-    },
-    {
-      "id": "httpsnewsunorgenstory2026111168854",
-      "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
-      "summary": "UN Secretary-General António Guterres is heading to Barbados to co-host a special summit on artificial intelligence (AI) safety on Monday, aimed at closing the gap between accelerating risks and many countries’ capacity to deal with the pace of development.",
-      "url": "https://news.un.org/en/story/2026/11/1168854",
-      "publishedAt": "2026-11-20T12:00:00Z",
-      "vocabulary": [
-        "artificial",
-        "summit",
-        "tackle",
-        "capacity"
-      ],
-      "imageUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/18-07-2023-UN-Photo-Guterres.jpg/image560x340cropped.jpg"
     }
   ]
 }
